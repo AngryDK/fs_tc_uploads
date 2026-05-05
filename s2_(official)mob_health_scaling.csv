@@ -1,0 +1,95 @@
+Mob_Name,Dev_Names,Scaler,Kill_Score
+Acolyte of Sinnari,DD_WitheringMagi,2.6887,3
+Arcane Warden,CM_ElfWarden,2.9436,4
+Ashen Arsonist,VV_SootstainedArsonist,2.0078,3
+Barbarous Lasher,PR_BarbarousLasher,4.143,5
+Bilgerat,PR_Bilgerat,2.2757,4
+Blade of Cithrel,FK_ElfDuelist,3.2265,3
+Bleachbone Brute,PR_Swashbuckler,3.4771,4
+Bleakfrost Mystic,VV_BlackburnMystic,2.1293,4
+Bleakfrost Slaver,VV_BlackburnSlaver,3.0888,3
+Blighted Dawnbloom,MF_BlightedMorningGlory,1.7762,2
+Bloodfang,DR_BloodfangMauler,2.2608,3
+Bloodfang Raider,DR_Mancatcher,2.33,3
+Bloodstone Goliath,MF_DawnstoneGuardian,4.837,5
+Bloodstone Totem,MF_Totem,0.78,0
+Bully Basher,NP_BullyBasher,3.2411,4
+Carrion Horror,SH_CarrionHorror,4.66,5
+Coldbrine Fiend,VV_ColdbrineFiend,2.5233,3
+Coldheart Assassin,IC_Assassin,2.1203,3
+Corrupted Totemic,MF_FoulTotemic,3.2023,4
+Corrupter,FK_ElfCleric,4.256,5
+Craven Hiisi,VV_CravenHiisi,1.2987,1
+Deceitful Scholar,FK_ElfIllusionist,5.034,5
+Deepbound Magi,SG_GhostEruptor,4.54,5
+Desecrator,UM_Desecrater,2.3073,3
+Dire Rat,UC_EvilSpirit,0.703,1
+Dredge,CM_ElfGoon,1.3243,1
+Dunesnare Hunter,DD_Arbalist,2.3586,3
+Eggbearer,SH_Eggbearer,1.4306,2
+Eldrin Chronomancer,IC_Healer,4.169,4
+Eldrin Recruit,FK_ElfGoon,1.8283,2
+Eldrin Sentinel,FK_ElfGuard,3.653,3
+Enforcer,CM_ElfEnforcer,4.343,5
+Enraged Earth Elemental,CM_EarthElemental,5.9325,7
+Executioner,DR_DangerousBrute,4.391,5
+Expedition Lookout,IC_Lookout,0.7128,1
+Facestabber,NP_Facestabber,1.7403,2
+Fading Raider,SG_GhostFerventSoldier,2.5552,3
+Forgotten Soul,SG_GhostCorpse,0.8269,1
+Frenzied Looter,VV_FrenziedLooter,1.4193,1
+Frozen Remnant,IC_GlacialSprite,1.0256,1
+Godfall Wardstone,CM_RubiliteAurastone,1.2809,2
+Gorestained Butcher,UM_GorestainedButcher,4.377,5
+Gravebreaker Brute,DD_DesertBrute,4.156,5
+Gravescythe,PR_PirateGrunt,2.3251,2
+Gravesnare Kidnapper,SH_GravesnareKidnapper,3.2457,4
+Greater Ice Elemental,IC_GreaterIceElemental,5.819,6
+Greedbound Prism,PR_GoldenConstructVolatile,2.3261,2
+Hellcaller,DR_CultistMajorCaster,3.088,4
+Hollowed Corsair,SG_GhostOrc,3.3685,5
+Horned Seer,UM_HornedSeer,2.4097,3
+Hulking Bulgore,DR_HornedDemon,3.5898,4
+Ice Shardling,FK_IceShardling,0.6877,1
+Icebite Reaver,VV_IcebiteReaver,4.291,5
+Initiate,DR_CultistInitiate,0.7428,1
+Jungle Stalker,PR_TigerCat,2.4529,3
+Kaldurson Eldsupptok,VV_BossKaldursonFire,8.037,15
+Kaldurson Isilagður,VV_BossKaldursonIce,7.988,15
+Mancatcher,NP_HalfMancatcher,1.4943,2
+Mangy Brute,MF_MangyBrute,1.3898,1
+Nezari Bolter,CM_ElfLookout,1.8122,2
+Nightbound Magi,DD_NightboundMagi,4.949,5
+Nightmist Cutthroat,VV_BlackmistCutthroat,2.112,3
+Nightmist Fiend (orb),VV_BlackmistShadowMinion,1.2343,0
+Nightmist Whisperer,VV_BlackmistWhisperer,2.9006,3
+Outrunner,UM_Outrunner,1.4943,2
+Pillager,VV_IcebitePillager,2.0501,2
+Profane Invoker,DR_CultistCaster,2.7788,4
+Quarry Stalker,CM_ElfInterrogator,1.8972,2
+Rotheart Recluse,SH_RotheartRecluse,2.325,3
+Ruins Lasher,DR_RuinsLasher,1.4734,1
+Saltsworn Scallywag,PR_Scallywag,1.7044,2
+Sandsworn Husk,DD_DesertNomad,2.0612,2
+Scuttlejack Cannoneer,PR_CannonPirate,3.2124,5
+Shadow of Ulmorgat,VV_BlackmistShadow,3.7529,5
+Shinchopper,NP_Shinchopper,1.4306,1
+Sickle,DR_CultistSickle,1.4306,1
+Skittershard,MF_Skittershard,0.7965,1
+Slaughtervine,DR_Slaughtervine,1.44,1
+Slavebind Totem,UM_SlaveCage,0.25,4
+Soulpowder Buccaneer,PR_BlunderbussPirate,2.0792,3
+Spellbound Golem,FK_IceGolem,4.182,4
+Spiderling,SH_Spiderling,0.4834,0
+Stormscreamer,NP_Stormscreamer,2.4254,5
+Task Master,CM_ElfTaskmaster,3.0595,4
+Tide Witch,PR_WaterCaster,2.3822,5
+Tombguard Reaver,DD_DesertWarrior,3.2715,3
+Tormented Spectre,SG_EchoingSpirit,2.1293,2
+Tundra Stalker,FK_ElfRanger,2.5735,2
+Urrak Slaver,UM_UrrakSlaver,2.8845,3
+Urrak Witch,UM_UrrakWitch,2.9356,3
+Vengeful Shade,SG_DrownedSailor,2.053,3
+Venomdrinker,SH_Venomdrinker,2.3271,3
+Water Elemental,SG_WaterElemental,3.6846,3
+Witchreef Lasher,SG_CoralLasher,1.1128,1
