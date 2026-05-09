@@ -1,3 +1,4 @@
+```py
 hero_name_mapping = {
 	'Lisa': 'Aeona', 
 	'Firemage': 'Ardeos', 
@@ -12,7 +13,8 @@ hero_name_mapping = {
 	'Vigor': 'Vigour', 
 	'Sune': 'Xavian'
 	}
-
+```
+```py
 zone_name_mapping = {
 	'FrozenKingdom': "Cithrel's Fall", 
 	'DesertDunes': 'Empyrean Sands', 
@@ -27,3 +29,4 @@ zone_name_mapping = {
 	'PirateRaid': 'Wraithtide Vault', 
 	'IceCave': 'Wyrmheart'
 	}
+```
