@@ -1,0 +1,209 @@
+{
+    "Sahril's Aegis": {
+        "Cooldown": 90.0,
+        "Absorb": {
+            "Duration": 18.0,
+            "AbsorbMaxHealthPercentage": 0.7
+        },
+        "Explosion": {
+            "PrimaryAttributeCoefficient": 22.41,
+            "Radius": 1000.0,
+            "DamageFalloffTargetCountThreshold": 1.0
+        }
+    },
+    "Twilight Skybolt": {
+        "Cooldown": 20.0,
+        "Charges": 2.0,
+        "MaxRange": 3000.0,
+        "Heal": {
+            "PrimaryAttributeCoefficient": 19.104
+        },
+        "Damage": {
+            "PrimaryAttributeCoefficient": 9.552
+        },
+        "PowerCharge": {
+            "BonusPerStack": 0.3,
+            "MaxCharges": 2.0
+        }
+    },
+    "Sahril's Wrath": {
+        "Cooldown": 120.0,
+        "Radius": 1000.0,
+        "Damage": {
+            "PrimaryAttributeCoefficient": 21.09,
+            "DamageFalloffTargetCountThreshold": 1.0
+        },
+        "Buff": {
+            "Duration": 20.0,
+            "CriticalStrikeBonusPerStack": 0.06,
+            "MaxStacks": 5.0
+        }
+    },
+    "Nature's Fury": {
+        "Cooldown": 60.0,
+        "CastDuration": 1.5,
+        "Damage": {
+            "PrimaryAttributeCoefficient": 13.977
+        },
+        "Heal": {
+            "PrimaryAttributeCoefficient": 18.17
+        },
+        "InitialHitPowerScaler": 2.0,
+        "AbilityAddedCritChance": 0.3,
+        "MaxRange": 3000.0,
+        "ChainBehavior": {
+            "MaxEnemyTargets": 4.0,
+            "MaxFriendlyTargets": 4.0,
+            "JumpDelay": 0.15,
+            "MaxJumpRangeInCombat": 2000.0,
+            "MaxJumpRangeOutOfCombat": 500.0
+        }
+    },
+    "Voidbringer's Touch": {
+        "MaxRange": 3000.0,
+        "Cooldown": 90.0,
+        "Duration": 15.0,
+        "MaxDamageCoefficient": 42.5,
+        "AccumulativeDamageFactor": 0.1
+    },
+    "Zeraleth's Hunger": {
+        "CastDuration": 0.5,
+        "ChannelDuration": 3.0,
+        "TickInterval": 0.5,
+        "TargetMaxRange": 3000.0,
+        "HealAoeRadius": 3000.0,
+        "DamageAoeRadius": 700.0,
+        "PrimaryAttributeCoefficient": 6.07,
+        "DamageToHealMultiplier": 1.0,
+        "MaxFriendlyTargets": 3.0,
+        "DamageFalloffTargetCountThreshold": 3.0,
+        "Cooldown": 60.0,
+        "FirstOverhealDelay": 0.2,
+        "SecondOverhealDelay": 0.0
+    },
+    "Repository of Frozen Light": {
+        "AoeRadius": 6000.0,
+        "CastDuration": 1.5,
+        "Duration": 30.0,
+        "Cooldown": 120.0,
+        "StacksCapPerTarget": 20.0,
+        "MaxStacks": 60.0,
+        "PrimaryAttributeCoefficient": 4.19,
+        "CooldownReductionInSecondsPerStack": 0.3
+    },
+    "Fated Strike": {
+        "MeleeRange": 500.0,
+        "PrimaryAttributeCoefficient": 7.39,
+        "Cleave": {
+            "PrimaryAttributeCoefficient": 2.874,
+            "DamageFalloffTargetCountThreshold": 3.0,
+            "Radius": 700.0,
+            "AngleCutoff": 210.0
+        },
+        "Buff": {
+            "Duration": 6.0,
+            "CooldownRecoveryMultiplier": 3.0,
+            "AddedExpertise": 0.0
+        },
+        "CooldownReduction": 30.0,
+        "ChargesIncrease": 1.0,
+        "Cooldown": 60.0,
+        "Charge": {
+            "CastingDuration": 0.15,
+            "ArrivalRange": 200.0,
+            "MaxRange": 2000.0,
+            "Speed": 5000.0
+        },
+        "PostChargeDelay": 0.5
+    },
+    "Al'zerac's Shackle": {
+        "MaxRange": 3000.0,
+        "Cooldown": 30.0,
+        "Stun": {
+            "Duration": 3.0,
+            "PrimaryAttributeCoefficient": {
+                "PrimaryAttributeCoefficient": 1.74
+            },
+            "TickInterval": {
+                "TickInterval": 1.5
+            }
+        },
+        "Aoe": {
+            "Radius": 1000.0,
+            "PrimaryAttributeCoefficient": 0.63,
+            "DamageFalloffTargetCountThreshold": 8.0
+        },
+        "Debuff": {
+            "Duration": 15.0,
+            "MovementSpeedMultiplier": 0.35,
+            "AttackSpeedMultiplier": 0.6,
+            "PrimaryAttributeCoefficient": {
+                "PrimaryAttributeCoefficient": 0.252
+            },
+            "TickInterval": {
+                "TickInterval": 2.0
+            }
+        }
+    },
+    "Chronoshift": {
+        "Cooldown": 180.0,
+        "MaxRange": 1500.0,
+        "CastDuration": 1.0,
+        "Channel": {
+            "Duration": 3.0,
+            "Tick": 1.5,
+            "ReduceCooldownsPerTickPercentage": 0.05,
+            "WhileActiveAddedCooldownRecovery": 8.0
+        },
+        "Damage": {
+            "PrimaryAttributeCoefficient": 5.769,
+            "TargetCountThreshold": 5.0
+        },
+        "Buff": {
+            "IncomingDamageMultiplier": 0.5
+        }
+    },
+    "Earthbreaker": {
+        "Cooldown": 180.0,
+        "Cone": {
+            "Range": 1400.0,
+            "Angle": 50.0,
+            "Duration": 10.0,
+            "TickInterval": 1.5
+        },
+        "StunDuration": 3.0,
+        "InitialHit": {
+            "PrimaryAttributeCoefficient": 8.767
+        },
+        "RepeatingHit": {
+            "PrimaryAttributeCoefficient": 1.332
+        },
+        "FinalHit": {
+            "PrimaryAttributeCoefficient": 12.66
+        },
+        "TargetCountThreshold": 3.0
+    },
+    "Icicles of An'zhyr": {
+        "Cooldown": 40.0,
+        "MaxRange": 3000.0,
+        "RangeUp": 2000.0,
+        "RangeDown": 3000.0,
+        "AOERadius": 700.0,
+        "Aoe": {
+            "NumberOfVolleys": 3.0,
+            "VolleyInterval": 1.0,
+            "VolleyDamageDelay": 0.25,
+            "PrimaryAttributeCoefficient": {
+                "PrimaryAttributeCoefficient": 1.44
+            },
+            "TargetCountThreshold": {
+                "TargetCountThreshold": 15.0
+            },
+            "DamageMultiplierWithDebuff": 3.0
+        },
+        "Debuff": {
+            "PrimaryAttributeCoefficient": 0.384,
+            "TickInterval": 3.0
+        }
+    }
+}
