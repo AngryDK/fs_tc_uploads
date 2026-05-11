@@ -81,3 +81,32 @@ weapon_trait_name_mapping = {
 	"IncreasedMainStatAndSpiritRating": "Willful Momentum"
 	}
 ```
+```py
+affix_mapping = {
+	# "AbilityUnlock": "",
+	"AnomalousOrbs": "Anomalous Orbs",
+	"BloodShardVolley": "Blood Shards",
+	"Carnage": "Carnage",
+	"Challenge": "Challenge",
+	"ColdSnap": "Binding Ice",
+	"DM_WinterGiant": "Ghorn the Avalanche",
+	"DM_WinterGiantFriendly": "Ghorn the Avalanche - Friendly",
+	"DM_WinterTrickster": "Krumbug the Naughty",
+	"DM_WinterWitch": "Eira the White Witch",
+	"DispelAndInterrupt": "Elheryn's Exile",
+	"EmpoweredMinions": "Empowered Minions",
+	"EnemyNewAbilities": "Vayr's Legacy",
+	"LessMagicDamageTakenLessHealing": "Celestia's Retreat",
+	"MalevolentSpirits": "Malevolent Spirits",
+	"MeteorRain": "Meteor Rain",
+	"NoDispelNoInterrupt": "Elheryn's Exile",
+	"PathFinder": "Pathfinder's Guidance",
+	# "ReducedHealingAndAbsorb": "",
+	"Shadowlord": "Shadow Lord's Trial",
+	"StoneSkin": "Stone Skin",
+	"StormShield": "Storm Shield",
+	"ThreatManagement": "Sahril's Madness",
+	"TimerKillScore": "Asha's Dilemma",
+	"Ultimatum": "Ultimatum"
+	}
+```
