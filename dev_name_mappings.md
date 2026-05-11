@@ -30,3 +30,19 @@ zone_name_mapping = {
 	'IceCave': 'Wyrmheart'
 	}
 ```
+```py
+weapon_name_mapping = {
+	'AbsorbDelayedAoeDamage': "Sahril's Aegis", 
+	'InstantChargedProjectileHealOrDamage': "Twilight Skybolt", 
+	'InstantAoeDamageBuff': "Sahril's Wrath", 
+	'CastedChainHealDamage': "Nature's Fury", 
+	'InstantDamageAccumulativeDebuff': "Voidbringer's Touch",
+	'CastedHealAndDamageChannel': "Zeraleth's Hunger", 
+	'CastedBuffStacksHealOnDamage': "Repository of Frozen Light", 
+	'CleaveDamageBuffCooldownReduction': "Fated Strike", 
+	'StunDotAoeDamageSlow': "Al'zerac's Shackle", 
+	'ChanneledCooldownReducer': "Chronoshift", 
+	'FrontalAOEConeRepeatingStunDamage': "Earthbreaker", 
+	'CastedRepetitivelyAOEDamageDebuff': "Icicles of An'zhyr",
+	}
+```
