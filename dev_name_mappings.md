@@ -46,3 +46,38 @@ weapon_name_mapping = {
 	'CastedRepetitivelyAOEDamageDebuff': "Icicles of An'zhyr",
 	}
 ```
+```py
+weapon_trait_name_mapping = {
+	# "CooldownRecoveryOnWeaponAbility": "",  # not in game anymore
+	# "GemCooldownRecoveryOnAbilityProc": "",  # not in game anymore
+	"BigBlowMitigation": "Against All Odds", 
+	"GemDotHotOnCrit": "Amethyst Splinters", 
+	"DeathPreventionWithImmunity": "Ancestral Intervention", 
+	"WeaponCritChanceCooldownReduction": "Brave Machinations", 
+	"GemSingleTargetProcOnDamageHeal": "Diamond Strike", 
+	"IncomingDamageToHotAndAbsorb": "Divine Mediation", 
+	"GemTargetedSpikeProc": "Emerald Judgement", 
+	"FirstIncomingHitToReducedIncomingDamageBuff": "First Man Standing", 
+	"StandingStillHealStacking": "Grounded Spirit", 
+	"IncreasedStaminaToHealthConversion": "Heart of Stone", 
+	"WeaponHealDamageIncrease": "Heroic Brand", 
+	"AbilityToIncreasedMainStat": "Hidden Power", 
+	"OffensiveAbilityHasteRatingStacking": "Hunter's Focus", 
+	"CommitToHasteRatingAndWeaponCooldown": "Inspired Allegiance", 
+	"IncomingDamageToDefenceAndDamage": "Iron Spikes", 
+	"ExtraDotHotOnEffectApplicationProc": "Kindling", 
+	"DamageReductionWhenHealthy": "King of the Hill", 
+	"IncomingHealToStackingHealWithThreshold": "Latent Resurgence", 
+	"WeaponDamageReductionPrimaryStatIncrease": "Martial Initiative", 
+	"OffensiveAbilityToHighestStatBuff": "Navigator's Intuition", 
+	"StandingStillStaminaExpertiseRatingIncrease": "Patient Soul", 
+	"GemWhirlwind": "Ruby Storm", 
+	"GemPulsatingOnAbilityTotemProc": "Sapphire Aurastone", 
+	"CritsToIncreasedCritRating": "Seized Opportunity", 
+	"NoDamageToDamageReduction": "Stalwart Readiness", 
+	"RelicToDamageReduction": "Treasure Hunter's Delight", 
+	"CritsToIncreasedPrimaryStatBuff": "Vengeful Soul", 
+	"WeaponAndSpiritPoints": "Visions of Grandeur", 
+	"IncreasedMainStatAndSpiritRating": "Willful Momentum"
+	}
+```
