@@ -16,18 +16,18 @@ hero_name_mapping = {
 ```
 ```py
 zone_name_mapping = {
-	'FrozenKingdom': "Cithrel's Fall", 
-	'DesertDunes': 'Empyrean Sands', 
-	'MythicForest': 'Everdawn Grove', 
-	'ElfMines': 'Godfall Quarry', 
-	'DemonicRitual': 'Heart of Tuzari', 
-	'VikingVillage': 'Ransack of Drakheim', 
-	'ShipGraveyard': "Sailor's Abyss", 
-	'SilkenHollow': 'Silken Hollow', 
-	'NightPatrol': 'Stormwatch', 
-	'UrrakMarkets': 'Urrak Markets', 
-	'PirateRaid': 'Wraithtide Vault', 
-	'IceCave': 'Wyrmheart'
+	'FrozenKingdom': ["Cithrel's Fall", 7, 50007], 
+	'DesertDunes': ['Empyrean Sands', 6, 50006], 
+	'MythicForest': ['Everdawn Grove', 11, 50011], 
+	'ElfMines': ['Godfall Quarry', 25, 50025], 
+	'DemonicRitual': ['Heart of Tuzari', 5, 50005], 
+	'VikingVillage': ['Ransack of Drakheim', 23, 50023], 
+	'ShipGraveyard': ["Sailor's Abyss", 15, 50015], 
+	'SilkenHollow': ['Silken Hollow', 24, 50024], 
+	'NightPatrol': ['Stormwatch', 12, 50012], 
+	'UrrakMarkets': ['Urrak Markets', 21, 50021], 
+	'PirateRaid': ['Wraithtide Vault', 13, 50013], 
+	'IceCave': ['Wyrmheart', 8, 50008]
 	}
 ```
 ```py
