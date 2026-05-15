@@ -316,7 +316,7 @@
     "87": {
         "DevName": "UC_BossArchbishop",
         "Name": "Sin-Magir",
-        "MobType": "NPC",
+        "MobType": "Boss",
         "DefaultBaseHealthMultiplier": 24.5764,
         "Armor": 0.0,
         "Resist": 0.0,
@@ -455,7 +455,7 @@
     "105": {
         "DevName": "SG_BossSiren",
         "Name": "Sinthara",
-        "MobType": "NPC",
+        "MobType": "Boss",
         "DefaultBaseHealthMultiplier": 23.863,
         "Armor": 0.0,
         "Resist": 0.0,
@@ -732,7 +732,7 @@
     "133": {
         "DevName": "NP_BossHellcaller",
         "Name": "Warlord Brogg",
-        "MobType": "Boss",
+        "MobType": "NPC",
         "DefaultBaseHealthMultiplier": 22.7506,
         "Armor": 0.0,
         "Resist": 0.0,
