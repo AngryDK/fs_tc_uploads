@@ -1,3 +1,4 @@
+.vscode/
 game_file_dumps/s3/
 hero_info/s3/
 dungeon_modifiers/s3/
