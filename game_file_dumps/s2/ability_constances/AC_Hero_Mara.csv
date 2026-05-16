@@ -1,0 +1,175 @@
+name,value
+Mara.SpiritProc.ResourceRefund.FlatSpiritPointGain, 1.0
+Mara.Energy.GainInterval, 0.01	; Modified by haste
+Mara.Energy.GainIntervalHasteScaler, 0.0	; A scaler to change how much the haste should modify the gain interval
+Mara.Energy.GainAmount, 0.10
+Mara.AutoAttack.SwingTimer, 1.5
+Mara.AutoAttack.AgilityCoefficient, 0.30
+Mara.AutoAttack.EnergyGainProc.Chance, 0.15
+Mara.AutoAttack.EnergyGainProc.EnergyGain, 20.0
+Mara.AutoAttack.EnergyGainProc.AgilityCoefficient, 0.90
+Mara.StrongerBehindAttackBuilder.AgilityCoefficient, 0.996
+Mara.StrongerBehindAttackBuilder.DamageMultiplierBehind, 1.40
+Mara.StrongerBehindAttackBuilder.DamageMultiplierInStealth, 1.0
+Mara.StrongerBehindAttackBuilder.ComboPointGain, 2.0
+Mara.StrongerBehindAttackBuilder.ComboPointGainAtCrit, 3.0
+Mara.StrongerBehindAttackBuilder.Cost, 20.0
+Mara.StrongerBehindAttackBuilder.Poison.AgilityCoefficient, 4.476
+Mara.StrongerBehindAttackBuilder.Poison.AddedCritChance, 1.00
+Mara.StrongerBehindAttackBuilder.Poison.ComboPointGainMultiplier, 3.0
+Mara.ChargedDoubleAttackBuilder.FirstAttack.AgilityCoefficient, 1.452
+Mara.ChargedDoubleAttackBuilder.FirstAttack.Spread, 0.1
+Mara.ChargedDoubleAttackBuilder.SecondAttack.AgilityCoefficient, 1.08
+Mara.ChargedDoubleAttackBuilder.SecondAttack.Spread, 0.1
+Mara.ChargedDoubleAttackBuilder.ComboPointGain, 2.0
+Mara.ChargedDoubleAttackBuilder.ComboPointGainAtCrit, 3.0
+Mara.ChargedDoubleAttackBuilder.NumOfCharges, 3.0
+Mara.ChargedDoubleAttackBuilder.ChargeTime, 9.0
+Mara.ChargedDoubleAttackBuilder.EnergyGain, 30.0
+Mara.ChargedDoubleAttackBuilder.Poison.Duration, 60.0
+Mara.ChargedDoubleAttackBuilder.Poison.TickInterval, 2.0
+Mara.ChargedDoubleAttackBuilder.Poison.AgilityCoefficient, 1.116
+Mara.ChargedDoubleAttackBuilder.Poison.AttackSpeedMultiplier, 1.00
+Mara.ChargedDoubleAttackBuilder.Poison.EnergyRegenSpeedMultiplier, 1.40	; Higher is faster
+Mara.ChargedDoubleAttackBuilder.Talent.ResourceIncreaseOT.ProcChance, 0.04
+Mara.ChargedDoubleAttackBuilder.Talent.ResourceIncreaseOT.ProcDuration, 15.0
+Mara.ChargedDoubleAttackBuilder.Talent.ResourceIncreaseOT.Duration, 10.0
+Mara.ChargedDoubleAttackBuilder.Talent.ResourceIncreaseOT.TotalResource, 30.0	; The tick interval is based on the original resource gain interval and the resource per tick is calculated internally
+Mara.ChargedDoubleAttackBuilder.Talent.IncreasedCritChance.AdditionalCritChance, 1.00
+Mara.AoeAttackBuilder.AgilityCoefficient, 0.806
+Mara.AoeAttackBuilder.ComboPointGainPerHit, 1.0
+Mara.AoeAttackBuilder.ComboPointGainAtCrit, 2.0
+Mara.AoeAttackBuilder.NumTargetsDamageFalloffThreshold, 8.0
+Mara.AoeAttackBuilder.Radius, 800.0
+Mara.AoeAttackBuilder.Cost, 35.0
+Mara.AoeAttackBuilder.Poison.MinRandomDuration, 6.0
+Mara.AoeAttackBuilder.Poison.MaxRandomDuration, 8.0
+Mara.AoeAttackBuilder.Poison.MaxTicks, 6.0
+Mara.AoeAttackBuilder.Poison.AgilityCoefficient, 0.312
+Mara.AoeAttackBuilder.Poison.Aoe.AgilityCoefficient, 0.624
+Mara.AoeAttackBuilder.Poison.Aoe.Radius, 500.0
+Mara.AoeAttackBuilder.Poison.Aoe.NumTargetsDamageFalloffThreshold, 3.0
+Mara.AoeAttackBuilder.Talent.HeavyAttackSpenderDamageIncrease.MaxStacks, 6.0
+Mara.AoeAttackBuilder.Talent.HeavyAttackSpenderDamageIncrease.DamageMultiplierPerStack, 0.10
+Mara.AoeAttackBuilder.Talent.HeavyAttackSpenderDamageIncrease.Duration, 12.0
+Mara.ChargedTeleportBehindTarget.MaxRange, 3000.0
+Mara.ChargedTeleportBehindTarget.MaxCharges, 2.0
+Mara.ChargedTeleportBehindTarget.ChargeDuration, 30.0
+Mara.ChargedTeleportBehindTarget.Talent.IncreasedDamageOrMovementSpeed.DamageIncrease.DamageMultiplier, 1.1
+Mara.ChargedTeleportBehindTarget.Talent.IncreasedDamageOrMovementSpeed.DamageIncrease.Duration, 10.0
+Mara.ChargedTeleportBehindTarget.Talent.IncreasedDamageOrMovementSpeed.MovementSpeedIncrease.Duration, 4.0
+Mara.ChargedTeleportBehindTarget.Talent.IncreasedDamageOrMovementSpeed.MovementSpeedIncrease.SpeedMultiplier, 1.5
+Mara.MeleeInterrupt.Cooldown, 16.0
+Mara.MeleeInterrupt.LockoutDuration, 4.0
+Mara.ChargedResourceRefillSelfBuff.Duration, 10.0
+Mara.ChargedResourceRefillSelfBuff.MaxCharges, 1.0
+Mara.ChargedResourceRefillSelfBuff.ChargeDuration, 60.0
+Mara.ChargedResourceRefillSelfBuff.EnergyGainMultiplier, 1.20
+Mara.ChargedResourceRefillSelfBuff.Talent.IncreasedDamage.DamageMultiplier, 1.2
+Mara.ChargedResourceRefillSelfBuff.Talent.IncreasedDamage.DamageMultiplierAtLowHealth, 1.4
+Mara.ChargedResourceRefillSelfBuff.Talent.BleedAttackSpenderBleedAoe.AdditionalMaxTargets, 4.0
+Mara.ChargedResourceRefillSelfBuff.Talent.BleedAttackSpenderBleedAoe.MaxRadius, 600.0
+Mara.ChargedResourceRefillSelfBuff.Talent.BleedAttackSpenderBleedAoe.ForwardAngleCutOff, 270.0
+Mara.HeavyAttackSpender.AgilityCoefficient, 2.5212
+Mara.HeavyAttackSpender.DamageMultiplierPerComboPoint, 0.20
+Mara.HeavyAttackSpender.Cost, 40.0
+Mara.AoeAttackSpender.AgilityCoefficient, 0.858
+Mara.AoeAttackSpender.MaxRange, 800.0
+Mara.AoeAttackSpender.NumTargetsDamageFalloffThreshold, 8.0
+Mara.AoeAttackSpender.Radius, 800.0
+Mara.AoeAttackSpender.DamageMultiplierPerComboPoint, 0.20
+Mara.AoeAttackSpender.Cost, 45.0
+Mara.AoeAttackSpender.Talent.IncreasedDamageWhenBleed.DamageMultiplier, 1.20
+Mara.AoeAttackSpender.Talent.CloneAttack.ActivationChancePerTarget, 0.15		;now triggers on bleedSpender
+Mara.AoeAttackSpender.Talent.CloneAttack.TickPeriodMultiplier, 0.87 	; 1/1.15
+Mara.AoeAttackSpender.Talent.DamageToPoisonDot.Duration, 6.0
+Mara.AoeAttackSpender.Talent.DamageToPoisonDot.TickInterval, 2.0
+Mara.AoeAttackSpender.Talent.DamageToPoisonDot.DamageToDotDamageMultiplier, 0.25
+Mara.EnergyDamageSelfBuff.Duration, 12.0
+Mara.EnergyDamageSelfBuff.DamageMultiplier, 1.1
+Mara.EnergyDamageSelfBuff.EnergyGainMultiplier, 1.20
+Mara.EnergyDamageSelfBuff.Cooldown, 60.0
+Mara.ApplyPoisonSelfBuff.Duration, 12.0
+Mara.ApplyPoisonSelfBuff.Cooldown, 30.0
+Mara.BleedAttackSpender.InitialDamage.AgilityCoefficient, 2.73
+Mara.BleedAttackSpender.InitialDamage.DamageMultiplierPerComboPoint, 0.00
+Mara.BleedAttackSpender.BaseDuration, 12.0
+Mara.BleedAttackSpender.DurationIncreasePerComboPoint, 3.0
+Mara.BleedAttackSpender.TickInterval, 3.0
+Mara.BleedAttackSpender.AgilityCoefficient, 1.076
+Mara.BleedAttackSpender.Cost, 20.0
+Mara.BleedAttackSpender.EnergyGainPerTick, 5.0
+Mara.BleedAttackSpender.Talent.HasteIncrease.AdditionalHaste, 0.10
+Mara.BleedAttackSpender.Talent.HasteIncrease.AdditionalHastePerAdditionalTarget, 0.02
+Mara.BleedAttackSpender.Talent.HasteIncrease.MaxThreshold, 0.20
+Mara.BleedAttackSpender.Talent.IncreasedCritChance.AdditionalCritChance, 0.15
+Mara.BleedAttackSpender.Talent.IncreasedTickRateWhileSingle.TickRateIncrease, 1.20
+Mara.BleedAttackSpender.Talent.IncreasedDamageOnSoloTarget.DamageMultiplier, 1.5
+Mara.BleedAttackSpender.Talent.ExplosivePoison.Chance, 0.12
+Mara.BleedAttackSpender.Talent.ExplosivePoison.Poison.AgilityCoefficient, 0.20
+Mara.BleedAttackSpender.Talent.ExplosivePoison.Poison.TickInterval, 1.5
+Mara.BleedAttackSpender.Talent.ExplosivePoison.Poison.Duration, 9.0
+Mara.BleedAttackSpender.Talent.ExplosivePoison.Poison.NumberOfStacksApplied, 1.0
+Mara.BleedAttackSpender.Talent.ExplosivePoison.Explosion.Radius, 500.0
+Mara.BleedAttackSpender.Talent.ExplosivePoison.Explosion.TargetScalingThreshold, 1.0
+Mara.BleedAttackSpender.Talent.ExplosivePoison.Explosion.BleedToPoisonDamageMultiplier, 0.50
+Mara.BleedAttackSpender.Talent.ExplosivePoison.Explosion.AreaDamageMultiplier, 0.48
+Mara.BleedAttackSpender.Cooldown, 2.0
+Mara.BleedAttackSpender.AttackSpeedMultiplier, 1.20
+Mara.BleedAttackSpender.EnergyRegenSpeedMultiplier, 0.8	; Lower is faster
+Mara.EnergyAutoAttackSelfBuffSpender.DurationPerComboPoint, 5.0
+Mara.EnergyAutoAttackSelfBuffSpender.EnergyRegenSpeedMultiplier, 0.8	; Lower is faster
+Mara.EnergyAutoAttackSelfBuffSpender.AttackSpeedMultiplier, 1.2
+Mara.EnergyAutoAttackSelfBuffSpender.Cost, 20.0
+Mara.Stealth.Cooldown.Duration, 15.0
+Mara.Stealth.StealthWindow.Duration, 2.0	; The duration where she can take damage without going out of stealth
+Mara.Stealth.Talent.Charged.MaxCharges, 2.0
+Mara.Stealth.Talent.SpenderIncreasedDamage.Duration, 5.0
+Mara.Stealth.Talent.SpenderIncreasedDamage.DamageMultiplier, 1.40
+Mara.StunSpender.BaseDuration, 1.0
+Mara.StunSpender.AdditionalDurationPerComboPoints, 1.0
+Mara.StunSpender.Cooldown, 30.0
+Mara.Disorient.Duration, 8.0
+Mara.Disorient.Cooldown, 24.0
+Mara.Disorient.ComboPointGain, 1.0
+Mara.Disorient.Cost, 20.0
+Mara.Disorient.MaxRange, 3000.0
+Mara.SelfDefenceBuff.Cooldown, 30.0
+Mara.SelfDefenceBuff.Duration, 4.0
+Mara.SelfDefenceBuff.IncomingDamageReduction, 0.6
+Mara.SelfDefenceBuff.Talent.IncreasedDurationAndDodge.AdditionalDurationInSeconds, 4.0
+Mara.SelfDefenceBuff.Talent.IncreasedDurationAndDodge.DodgeChanceOverride, 1.0		;old
+Mara.SelfDefenceBuff.Talent.IncreasedDurationAndDodge.BonusIncomingMagicDamageReductionMultiplier, 0.90
+Mara.CopyCharacterDamage.Duration, 20.0
+Mara.CopyCharacterDamage.DamageIncreaseBuff.DamageScaler, 1.20	;disabled
+Mara.CopyCharacterDamage.ActivationDelay, 0.30
+Mara.CopyCharacterDamage.SpawnDistance, 100.0
+Mara.CopyCharacterDamage.DamageMultiplier, 0.50
+Mara.CopyCharacterDamage.Cost, 100.0
+Mara.ResetCooldownRefillResources.Cooldown, 180.0
+Mara.ResetCooldownRefillResources.Talent.ComboPointToCooldownReduction.CooldownReductionInSeconds, 0.5
+Mara.Talent.IncreasedPoisonDamage.DamageMultiplier, 1.15
+Mara.Talent.ResourceAttackSpenderCritChance.ResourcePerStack, 10.0
+Mara.Talent.ResourceAttackSpenderCritChance.MaxStack, 20.0
+Mara.Talent.ResourceAttackSpenderCritChance.AdditionalCritChance, 1.0
+Mara.Talent.ResourceAttackSpenderCritChance.BuffDuration, 12.0
+Mara.Talent.AttackSpenderCostReduction.CostMultiplier, 0.9	;old
+Mara.Talent.IncreasedMaxResources.ResourceMultiplier, 1.10	;old
+Mara.Talent.ComboPointsRefundEnergy.EnergyGainPerComboPoint, 1.0	;Efficient Killer
+Mara.Talent.ReducedIncomingMagicDamage.DamageMultiplier, 0.9		;Magic Ward
+Mara.Talent.IncomingAoeDamageReduction.AdditionalAvoidance, 0.1
+Mara.Talent.IncreasedMovementSpeed.SpeedMultiplier, 1.2
+Mara.Talent.SpiritProcToExpertise.Buff.Duration, 8.0
+Mara.Talent.SpiritProcToExpertise.Buff.AdditionalExpertise, 0.24
+Mara.Talent.SpiritProcToExpertise.Cooldown, 0.0
+Mara.Talent.ComboPointsChanceAoeDamage.Chance, 0.03
+Mara.Talent.ComboPointsChanceAoeDamage.Duration, 3.0
+Mara.Talent.ComboPointsChanceAoeDamage.Radius, 500.0
+Mara.Talent.ComboPointsChanceAoeDamage.Debuff.Duration, 12.0	;not used - continous
+Mara.Talent.ComboPointsChanceAoeDamage.Debuff.TickInterval, 1.50
+Mara.Talent.ComboPointsChanceAoeDamage.Debuff.AgilityCoefficient, 0.90
+Mara.Talent.DamageSpenders.BuffOtherSpender.Duration, 20.0
+Mara.Talent.DamageSpenders.BuffOtherSpender.DamageScaler, 2.00
+Mara.Talent.DamageSpenders.BuffOtherSpender.MaxNumberOfStacks, 2.0
+Mara.Talent.PoisonDamageProcEnergyGain.Chance, 0.10
+Mara.Talent.PoisonDamageProcEnergyGain.EnergyAdded, 10.0

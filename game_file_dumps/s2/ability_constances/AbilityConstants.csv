@@ -1,0 +1,2568 @@
+name,value
+Winter.Collectable.StackingBuff.Duration, 20.0 ; if this duration is exceeded - the entire stack is lost and you have to try again 
+Winter.Collectable.StackingBuff.MoveSpeedBonusPerStack, 1.05 
+Global.Ability.ProcUiFlashDuration, 2.0
+Global.DefaultCCCooldown, 9.0 ; Default CC cooldown used for all casted/channeled abilities 
+Global.DefaultFillerCastInterruptCooldown, 6.0 ; Default CC cooldown used for all casted/channeled abilities 
+Global.DungeonQualifyTimePenaltyOnDeath, 0.0 ; amount of seconds penalty for dungeon timer for each player death
+Global.ArmorToDamageReductionMultiplier, 7.0 ; manipulate this number to change how much damage reduction the armor stat gives
+Global.GrievousCritScalar, 1.0 ; Grievous crit damage is multiplied by this. Used to tweak the power of Grievous crits globally
+Global.SecondaryThreatMaxDistance, 5000.0 ; the maximum distance as to which healing or applying buffs/debuffs on targets that can generate threat. if the source is farther away than this no threat is added
+Global.Block.ArmorToFlatDamageReductionScalar, 0.15
+Global.Block.IncomingDamageMultiplier, 0.80
+Global.AbilityPadding.CC, 2.0 ; ability padding applied after interrupting an ability by CC 
+Global.AbilityPadding.Interrupt, 2.0 ; ability padding applied after interrupting an ability with an interrupt ability 
+Stagger.AmountOfBuckets, 5.0	; The amount of damage buckets
+Stagger.Period, 3.0	; How long time it will take between stagger removals
+Shared.UpdateRespawnPoint.CastTime, 2.00
+Shared.UpdateRespawnPoint.BlockedByNearbyEnemies.Range, 1500.0
+Shared.RespawnGracePeriod.Duration, 3.0
+Shared.RespawnCooldown.Duration, 30.0 ; Applied when respawning yourself after death. Cannot respawn again until cooldown has completed (does not apply to battle-res)
+Shared.BackgroundFighting.LowMinHealthPercent, 0.8
+Shared.BackgroundFighting.HighMinHealthPercent, 0.95
+Shared.BackgroundFighting.IncomingDamageMultiplier, 0.1
+Shared.Tank.ReducedIncomingDamage, 0.75
+DefaultStatusEffects.Fear.MinMoveRange, 500.0
+DefaultStatusEffects.Fear.MaxMoveRange, 1000.0
+DefaultStatusEffects.Fear.MinWaitTime, 1.0
+DefaultStatusEffects.Fear.MaxWaitTime, 2.0
+DefaultStatusEffects.Fear.DamageThresholdAttributeScaler, 10.0
+DefaultStatusEffects.Fear.Duration, 8.0
+DefaultStatusEffects.Fear.MoveSpeedScaler, 0.8
+DefaultStatusEffects.Disorient.MinMoveRange, 300.0
+DefaultStatusEffects.Disorient.MaxMoveRange, 500.0
+DefaultStatusEffects.Disorient.MinWaitTime, 0.0
+DefaultStatusEffects.Disorient.MaxWaitTime, 1.0
+DefaultStatusEffects.Disorient.Duration, 20.0
+DefaultStatusEffects.Disorient.MoveSpeedScaler, 0.25
+Ascensions.ThreatManagement.HeroBuff.CritRatingIncrease," 0            				; ""Sahril's Madness"" - unlocked diff 1 - old name ""Aggression"""
+Ascensions.ThreatManagement.NonTank.DamageThreatMultiplier," 1.0					; ""Sahril's Madness"""
+Ascensions.ThreatManagement.NonTank.HealThreatMultiplier," 1.0						; ""Sahril's Madness"""
+Ascensions.NoDispelNoInterrupt.Scaler," 1.0                             			; ""Elheryn's Exile"" - unlocked diff 2 - old name ""Counterspell"" (yes this key should be renamed)"
+Ascensions.DispelAndInterrupt.HeroBuff.DamageAndHealingScaler," 1.00    				; ""Elheryn's Exile"""
+Ascensions.EnemyNewAbilities.ThisIsAFakeEntrySinceWeHandleThisInAIBC," 0.0			; ""Vayr's Legacy"" unlocked diff 3 - new"
+Ascensions.TimerKillScore.HeroBuff.HasteRatingIncrease," 0             				; ""Asha's Dilemma"" - unlocked diff 4 - old name ""Strategy"""
+Ascensions.LessMagicDamageTakenLessHealing.MagicDamageTaken," 1.00					; ""Celestia's Retreat"" unlocked diff 5 -  old name - ""Dampen Magic"" MoreHealthLessHealing in files"
+Ascensions.LessMagicDamageTakenLessHealing.IncomingHealthMultiplier," 1.0			; ""Celestia's Retreat"" "
+Ascensions.ReducedHealingAndAbsorb.WhenNotApplied.HealScaler," 1.0                ; NOTE! THIS CORRESPONDS TO THE ""25% REDUCED HEALING"" THAT IS PLAYER-FACING! (SO IF YOU TUNE THIS YOU NEED TO UPDATE THE ASCENSION DESC TO BE ""1 / [your value]"")"
+Ascensions.ReducedHealingAndAbsorb.WhenNotApplied.AbsorbScaler," 1.0              ; NOTE! THIS CORRESPONDS TO THE ""25% REDUCED HEALING"" THAT IS PLAYER-FACING! (SO IF YOU TUNE THIS YOU NEED TO UPDATE THE ASCENSION DESC TO BE ""1 / [your value]"")"
+Hero.MercenaryBuff.DamageHealScaleExponent, 0.97 
+Opportunity.EffectDuration, 30
+Hero.Spirit.DamageReductionFactor, 0.5; 50 percent damage reduction at 100 percent spirit
+Hero.Spirit.Buff.HasteIncrease, 0.3 ; adds haste to hero for duration
+Hero.Spirit.Buff.ManaRegenTickTimeMultiplier, 0.50 ; multiplier on manaregenTicktime to hero for duration
+Hero.Spirit.Buff.ManaRegenRateMultiplier, 3.0 ; multiplier on manaregenRate to hero for duration
+Hero.Spirit.Buff.Duration, 20.0
+Hero.Spirit.Buff.NonTankThreatGenerationScaler, 0.5
+Hero.Spirit.PassiveGainRate, 1.0
+Hero.Spirit.PassiveGainPeriod, 3.0
+Hero.Spirit.OnReviveSpiritPointRetainFactor, 0.75
+Hero.SpiritProcRefundResource.Delay, 0.20
+Hero.SpiritPointGain.SpiritPointsFromDamageScaler, 0.25
+Hero.SpiritPointGain.DungeonTimerExpiredMultiplier, 4.0 ; after dungeon timer is expired spirit point gain is multiplied by this number 
+Hero.AutoAttack.DefaultSwingTimer, 2.5
+Hero.AbilityPaddingCooldown.Default.Duration, 0.3 ; Padding for activating off-GCD abilities. Note that it's nice if this is larger than the (reasonably) highest ping roundtrip time as otherwise the UI will flash a bit weirdly
+Hero.AbilitySpamProtectionCooldown.Default.Duration, 0.4 ; Duration while off-GCD abilities cannot be reactivated when they otherwise can e.g. if they have >1 charges.
+Hero.AbilitySpamProtectionCooldown.ShortAbility.Duration, 0.18 ; Duration while off-GCD abilities cannot be reactivated when they otherwise can e.g. if they have >1 charges. For quick abilities (eg dashes) where we need to make sure the cooldown is done when the ability is done.
+Hero.Talent.AbilityCommitToSpiritRefund.ProcChance, 0.10
+Hero.Talent.AbilityCommitToSpiritRefund.AdditionalSpiritRefundChance, 1.0
+Hero.Talent.AbilityCommitToSpiritRefund.AdditionalFlatSpiritPointsFromSpiritRefunds, 1.0
+Stealth.Hero.DissolveAmount, 0.65
+Stealth.Hero.DissolveDuration, 1.0
+Stealth.NPC.DissolveAmount, 1.0
+Stealth.NPC.DissolveDuration, 1.0
+Player.ActiveDefenseTriggered.EffectDuration, 5.0
+Player.TeleportDeadPlayerToValidPosition.Delay, 3.0
+Player.TeleportDeadPlayerToValidPosition.DistanceFromEdge, 300.0 ; The distance from the edge of either the navmesh edge or the currently active boss Area restriction edge that the dead player body is teleported to incase the player died beyond this edge
+Boss.GlobalCooldown, 1.50 ; applied for most bosses it seems? 
+PlayerAction.Revive.CastingDuration, 8.0
+PlayerAction.CoffinInteract.CastingDuration, 1.5
+PlayerAction.TheEternalizedMartyrInteract.CastingDuration, 1.5
+PlayerAction.Mount.CastingDuration, 1.5
+DebugHero1.CastedAoeAbility.CastingDuration, 3.0
+Debug_Boss.AutoAttack.DamageIntellectCoefficient, 12.0
+Debug_Boss.AutoAttack.Spread, 0.4
+Debug_Boss.AutoAttack.Cooldown, 2.0
+Debug_Boss.AutoAttack.MaxRange, 500.0
+Warmaster.MeleeRange, 500.00                                             ; SHOULD BE 500? (although this was worse with old distance measurement)
+Warmaster.CleaveAdditionalTargets, 19.0
+Warmaster.CleaveRadius, 400.0                          ; SHOULD BE MUCH LESS?
+Warmaster.SelfOffensiveSuperBuffComboPointScaler, 1.0
+Warmaster.BlockProc.ComboPointGenerationChance, 0.0 ; Range from 0.0 - 1.0 (0%-100%)
+Warmaster.BlockProc.ComboPointGenerationAmount, 1 ; Range from 0.0 - 1.0 (0%-100%)
+Warmaster.Resources.BaseComboPointGain, 1
+Warmaster.SpiritProc.ResourceRefund.FlatSpiritPointGain, 1.0
+Warmaster.CooldownReductionCombo.LightMelee.MeleeCleave, 1.5
+Warmaster.CooldownReductionCombo.LightMelee.BouncyProjectile, 1.5
+Warmaster.CooldownReductionCombo.HeavyMelee.MeleeCleave, 1.5
+Warmaster.CooldownReductionCombo.HeavyMelee.BouncyProjectile, 1.5
+Warmaster.CooldownReductionCombo.BouncyProjectile.MeleeAoeSlow, 3.0
+Warmaster.CooldownReductionCombo.MeleeCleave.MeleeAoeSlow, 3.0
+Warmaster.CooldownReductionCombo.MeleeAoeSlow.DefenceBuff, 6.0
+Warmaster.CooldownReductionCombo.MoveToTargetStun.MeleeCleave, 6.0
+Warmaster.CooldownReductionCombo.MoveToTargetStun.BouncyProjectile, 6.0
+Warmaster.CooldownReductionCombo.MoveToTargetStun.MeleeAoeSlow, 6.0
+Warmaster.CooldownReductionCombo.MoveToTargetStun.DefenceBuff, 6.0
+Warmaster.CooldownReductionCombo.Scalers.ActiveUltimate, 2.0
+Warmaster.CooldownReductionCombo.Scalers.SpiritProc, 2.0
+Warmaster.Talent.IncreasedArmor.ArmorMultiplier, 1.20
+Warmaster.Talent.IncreasedMovementSpeed.MovementSpeedMultiplier, 1.2
+Warmaster.Talent.ReducedMagicDamageTaken.MagicDamageMultiplier, 0.90
+Warmaster.Talent.IncreasedMeleeCleaveAndHeavyMeleeDamage.DamageMultiplier, 1.15
+Warmaster.Toughness.MaxToughnessStrengthScaler, 7.70
+Warmaster.Toughness.MaxToughnessTotalSecondaryStatModifier, 2.0
+Warmaster.Toughness.MaxToughnessFlatBonus, 0.0
+Warmaster.Toughness.ToughnessDecayPeriod, 10.0
+Warmaster.Toughness.ToughnessDecayFactor, 0.01
+Warmaster.Toughness.DefenceBuff.StrengthScaler, 4.62
+Warmaster.Toughness.DefenceBuff.FlatBonus, 0.0
+Warmaster.Toughness.MeleeCleave.StrengthScalerPerHit, 1.54
+Warmaster.Toughness.MeleeCleave.FlatBonusPerHit, 0.0 
+Warmaster.Toughness.Block.StrengthScaler, 0.24
+Warmaster.Toughness.Block.FlatBonus, 0.0
+Warmaster.Toughness.MeleeAoeSlow.StrengthScalerPerHit, 0.00
+Warmaster.Toughness.MeleeAoeSlow.FlatBonusPerHit, 0.0
+Warmaster.Toughness.LowerThresholdLevel1, 0.001
+Warmaster.Toughness.LowerThresholdLevel2, 0.25
+Warmaster.Toughness.LowerThresholdLevel3, 0.50
+Warmaster.Toughness.LowerThresholdLevel4, 0.75
+Warmaster.Toughness.PhysicalDamageReductionLevel1, 0.05
+Warmaster.Toughness.PhysicalDamageReductionLevel2, 0.15
+Warmaster.Toughness.PhysicalDamageReductionLevel3, 0.25
+Warmaster.Toughness.PhysicalDamageReductionLevel4, 0.35
+Warmaster.Toughness.DepleteReductionFromArmorScaler, 0.20
+Warmaster.Toughness.Talent.BouncyProjectileDefensiveBuffCooldownReduction.Factor, 0.10
+Warmaster.Toughness.Talent.BouncyProjectileDefensiveBuffCooldownReduction.PassiveAddedBlockChance, 0.10
+Warmaster.Toughness.Talent.IncreasedToughness.MaxToughness, 1.20
+Warmaster.Toughness.Talent.IncreasedToughness.ToughnessGeneration, 1.20
+Warmaster.Toughness.Talent.ToughnessBuff.StrengthMultiplier, 1.20
+Warmaster.Toughness.Talent.ToughnessBuff.Duration, 8.0
+Warmaster.FullResourcesSelfBuff.Duration, 12.0
+Warmaster.FullResourcesSelfBuff.SpiritPointCost, 100.0
+Warmaster.FullResourcesSelfBuff.DamageIncreaseScaler, 1.15
+Warmaster.FullResourcesSelfBuff.Talent.HasteBuff.Radius, 4000
+Warmaster.FullResourcesSelfBuff.Talent.HasteBuff.HasteIncrease, 0.1
+Warmaster.FullResourcesSelfBuff.Talent.IncreasedDamageAndTaunt.IncreasedDamage, 0.15
+Warmaster.FullResourcesSelfBuff.Talent.IncreasedDamageAndTaunt.TauntRadius, 1000.0
+Warmaster.FullResourcesSelfBuff.Talent.IncreasedDamageAndTaunt.NumExtraTargetsTaunt, 8.0
+Warmaster.SharedToughnessAura.MaxRange, 4000.0
+Warmaster.SharedToughnessAura.Duration, 20.0
+Warmaster.SharedToughnessAura.SpiritPointCost, 100.0
+Warmaster.SharedToughnessAura.DamageIncreaseScaler, 1.15
+Warmaster.SaveAlly.Cooldown, 300.0
+Warmaster.SaveAlly.MaxRange, 4000.0
+Warmaster.SaveAlly.HealthGainFactor, 0.2 ; Rickard note: 20% of e.g. Mosse's max health is very little and barely noticeable and she often gets killed anyways in the very next hit after the heal
+Warmaster.AllyImmortalityBuff.Cooldown, 900.0
+Warmaster.AllyImmortalityBuff.Duration, 15.0
+Warmaster.MeleeAutoAttack.StrengthCoefficient, 0.40
+Warmaster.MeleeAutoAttack.Spread, 0.1
+Warmaster.LightMelee.StrengthCoefficient, 0.71
+Warmaster.LightMelee.Spread, 0.1
+Warmaster.LightMelee.ComboPointReward, 1.0
+Warmaster.LightMelee.CleaveDamageFraction, 1.0
+Warmaster.LightMelee.CleaveRadius, 500.0
+Warmaster.LightMelee.DamageScalingTargetCountThreshold, 3.0
+Warmaster.LightMelee.Tier1.Level1.CritChanceIncrease, 0.05
+Warmaster.LightMelee.Tier1.Level2.CritChanceIncrease, 0.10
+Warmaster.LightMelee.Tier1.Level3.CritChanceIncrease, 0.3
+Warmaster.LightMelee.Tier3a.MoveToTargetStunProc.MaxStacks, 5	; Change manually in GE
+Warmaster.LightMelee.Tier3b.LightMeleeProc.Duration, 6	; Consumed on activation
+Warmaster.LightMelee.Tier3b.LightMeleeProc.DamageIncrease, 2.0
+Warmaster.LightMelee.Tier3b.LightMeleeProc.MaxAdditionalTargets, 2.0
+Warmaster.ActionCombat.LightMelee.TargetCountThreshold, 1.0
+Warmaster.HeavyMelee.Cooldown, 6.0
+Warmaster.HeavyMelee.StrengthCoefficient, 4.034
+Warmaster.HeavyMelee.Spread, 0.1
+Warmaster.HeavyMelee.ComboPointReward, 2.0
+Warmaster.HeavyMelee.CleaveDamageFraction, 1.0
+Warmaster.HeavyMelee.VulnerableTargetCooldownReductionScale, 0.5
+Warmaster.HeavyMelee.VulnerableTargetHealthThreshold, 0.3
+Warmaster.HeavyMelee.Talent.ReducedCooldownLowHealthTarget.Level1.HealthLimit, 0.3	;old talents?
+Warmaster.HeavyMelee.Talent.ReducedCooldownLowHealthTarget.Level1.DamageIncrease, 2.0	;old talents?
+Warmaster.ActionCombat.HeavyMelee.SingleTargetMagnitude, 1.3	;old?
+Warmaster.ActionCombat.HeavyMelee.TargetCountThreshold, 1.0	;old?
+Warmaster.BouncyProjectile.Cooldown, 21.0
+Warmaster.BouncyProjectile.MaxNumBounces, 5.0
+Warmaster.BouncyProjectile.ComboPointRewardPerHit, 1.0
+Warmaster.BouncyProjectile.StrengthCoefficient, 3.416
+Warmaster.BouncyProjectile.Spread, 0.1
+Warmaster.BouncyProjectile.MaxRange, 3000.0
+Warmaster.BouncyProjectile.BounceSearchAngle, 350.0
+Warmaster.BouncyProjectile.BounceSearchMinDistance, 0.0
+Warmaster.BouncyProjectile.BounceSearchMaxDistance, 650.0
+Warmaster.BouncyProjectile.NumberOfBounceSelectionTargets, 1.0
+Warmaster.BouncyProjectile.SingleTarget.HeavyMeleeBuffDamage, 1.5 ; 
+Warmaster.BouncyProjectile.SingleTarget.HeavyMeleeBuffDuration, 8
+Warmaster.BouncyProjectile.Cylinder.Radius, 200.0
+Warmaster.BouncyProjectile.BouncyProjectileIncreasedDamagePerStackOfMeleeCleaveBuff, 0.05
+Warmaster.BouncyProjectile.Talent.FirstHitDamage.DamageIncrease, 2.0
+Warmaster.BouncyProjectile.Talent.IncreasedCritChance.AdditionalCritChance, 0.20
+Warmaster.BouncyProjectile.Talent.DamageCooldownReset.DamageMultiplier, 1.20
+Warmaster.BouncyProjectile.Talent.DamageCooldownReset.Duration, 12.0
+Warmaster.BouncyProjectile.Talent.DamageCooldownReset.PPM, 2.0
+Wasmaster.BouncyProjectile.Talent.DamageCooldownReset.PassiveBlockReduceMultiplier, 1.10
+Warmaster.BouncyProjectile.Talent.ChanceAoeDamage.Radius, 500.0
+Warmaster.BouncyProjectile.Talent.ChanceAoeDamage.DamageMultiplier, 0.40
+Warmaster.BouncyProjectile.Talent.ChanceAoeDamage.TargetCountThreshold, 5.0
+Warmaster.BouncyProjectile.Talent.ChanceAoeDamage.Chance, 0.20
+Warmaster.BouncyProjectile.Talent.FirstHitAoeDamageDebuff.DamageDivision, 1.20
+Warmaster.BouncyProjectile.Talent.FirstHitAoeDamageDebuff.Duration, 5.0
+Warmaster.BouncyProjectile.Talent.SpiritPointGain.NumPoints, 2.0
+Warmaster.MeleeCleave.StrengthCoefficient, 4.2964
+Warmaster.MeleeCleave.CleaveDamageStrengthCoefficient, 0.758
+Warmaster.MeleeCleave.CleaveAdditionalTargets, 19.0
+Warmaster.MeleeCleave.CleaveRadius, 500.0                          ; SHOULD BE MUCH LESS?
+Warmaster.MeleeCleave.TargetCountThreshold, 8.0				;Remember this does not count main target
+Warmaster.MeleeCleave.Cooldown, 7.5
+Warmaster.MeleeCleave.NumCharges, 2.0
+Warmaster.MeleeCleave.BuffDuration, 12.0
+Warmaster.MeleeCleave.BuffBlockBonus, 0.03
+Warmaster.MeleeCleave.ComboPointCost, 3.0
+Warmaster.MeleeCleave.BuffMaxStackCount, 5.0
+Warmaster.MeleeCleave.AbsorbProc.StrCoefficient, 34.87
+Warmaster.MeleeCleave.AbsorbProc.Duration, 12.0
+Warmaster.MeleeCleave.ReducedIncomingDamageFromTarget.MaxStackCount, 5.0
+Warmaster.MeleeCleave.ReducedIncomingDamageFromTarget.OutgoingDamageScalePerStack, 0.97
+Warmaster.MeleeCleave.ReducedIncomingDamageFromTarget.Duration, 12.0
+Warmaster.MeleeCleave.Tier1.Level1.DamageIncrease, 1.05
+Warmaster.MeleeCleave.Tier1.Level2.DamageIncrease, 1.10
+Warmaster.MeleeCleave.Tier1.Level3.DamageIncrease, 1.30
+Warmaster.MeleeCleave.Tier2.MeleeCleaveDamageIncreaseFreeCastProc.DamageIncrease, 1.5
+Warmaster.MeleeCleave.Tier2.Level1.MeleeCleaveDamageIncreaseFreeCast.ProcChance, 0.05
+Warmaster.MeleeCleave.Tier2.Level2.MeleeCleaveDamageIncreaseFreeCast.ProcChance, 0.10
+Warmaster.MeleeCleave.Tier3a.MagicResistPerStack, 0.5
+Warmaster.MeleeCleave.Tier3b.IncreasedAbilityDamagePerStack.Duration, 15
+Warmaster.MeleeCleave.Tier3b.IncreasedAbilityDamagePerStack.MaxStacks, 20	; Change manually in GE
+Warmaster.MeleeCleave.Tier3b.IncreasedAbilityDamagePerStack.DamageIncrease, 0.1
+Warmaster.MeleeCleave.Talent.DamageIncreaseFreeCastProc.Level1.DamageIncrease, 0.5
+Warmaster.MeleeCleave.Talent.DamageIncreaseFreeCastProc.Level1.ProcChance, 0.10
+Warmaster.MeleeCleave.Talent.ApplyAbsorb.HeavyMeleeProcPPM, 1.00
+Warmaster.ActionCombat.MeleeCleave.TargetCountThreshold, 3.0
+Warmaster.Talent.MeleeCleaveAbsorbBuff.ReducedDamageReflectDamage.AbsorbDamageMultiplier, 0.8
+Warmaster.Talent.MeleeCleaveAbsorbBuff.ReducedDamageReflectDamage.IncomingDamageDivider, 1.25	; DEPRECATED; This is a talent based on an absorb that comes from a talent related to MeleeCleave
+Warmaster.Talent.MeleeCleaveAbsorbBuff.ReducedDamageReflectDamage.ReflectedDamage.StrengthCoefficient, 0.50
+Warmaster.MeleeAoeSlow.Cooldown, 30.0
+Warmaster.MeleeAoeSlow.StrengthCoefficient, 3.833
+Warmaster.MeleeAoeSlow.Radius, 1000.0
+Warmaster.MeleeAoeSlow.TargetCountThreshold, 5.0
+Warmaster.MeleeAoeSlow.SingleStackMoveSpeedScale, 0.9 ; 9 stacks of this will be a 90% slow
+Warmaster.MeleeAoeSlow.Duration, 0.5 ; x9 Stacks -> 9s
+Warmaster.MeleeAoeSlow.NumStartStacks, 9.0
+Warmaster.MeleeAoeSlow.DebuffIconDuration, 5.0
+Warmaster.MeleeAoeSlow.ComboPointCost, 0.0 
+Warmaster.MeleeAoeSlow.MaxNumTargets, 20.0
+Warmaster.MeleeAoeSlow.Talent.Stun.StunDuration, 4.0
+Warmaster.MeleeAoeSlow.Talent.IncreasedDamage.DamageMultiplier, 1.30
+Warmaster.MeleeAoeSlow.Talent.CooldownReset.Level1.ResetChance, 0.05
+Warmaster.MeleeAoeSlow.Talent.ReducedCooldown, 0.8
+Warmaster.MeleeAoeSlow.Talent.ReducedIncomingDamageFromTarget.IncomingDamageDivider, 0.95	; This affects the targets damage scale towards Warmaster
+Warmaster.MeleeAoeSlow.Talent.ReducedIncomingDamageFromTarget.Duration, 5.0
+Warmaster.ActionCombat.MeleeAoeSlow.TargetCountThreshold, 8.0
+Warmaster.RollbackStats.Duration, 8.0
+Warmaster.RollbackStats.Cooldown, 20.0
+Warmaster.DefenceBuff.Duration, 12.0
+Warmaster.DefenceBuff.Cooldown, 30.0
+Warmaster.DefenceBuff.BlockChanceScale, 0.25
+Warmaster.DefenceBuff.NumCharges, 2.0
+Warmaster.DefenceBuff.ComboPointCost, 3.0
+Warmaster.DefenceBuff.AbsorbMaxHealthFactor, 0.12
+Warmaster.DefenceBuff.IncomingDamageMultiplier, 1.00
+Warmaster.DefenceBuff.TemporaryTougnessLossProtection.DurationInSeconds, 1.10
+Warmaster.DefenceBuff.Talent.ReducedCooldown, 8		; In seconds
+Warmaster.DefenceBuff.Talent.MeleeCleaveIncreasedDamageHeal.IncreasedIncomingHeal, 1.20
+Warmaster.DefenceBuff.Talent.MeleeCleaveIncreasedDamageHeal.IncreasedMeleeCleaveDamage, 1.40
+Warmaster.DefenceBuff.Talent.MoveSpeedBuffCooldownReduction.CooldownReductionInSeconds, 6.0
+Warmaster.SelfOffensiveSuperBuff.Duration, 12.0
+Warmaster.SelfOffensiveSuperBuff.Cooldown, 0.0
+Warmaster.SelfOffensiveSuperBuff.HasteBuff, 0.200
+Warmaster.SelfOffensiveSuperBuff.ExtraGeneratedComboPointLightMelee, 1.0
+Warmaster.SelfOffensiveSuperBuff.ExtraGeneratedComboPointHeavyMelee, 1.0
+Warmaster.SelfOffensiveSuperBuff.CleaveAdditionalTargets, 6.0
+Warmaster.SelfOffensiveSuperBuff.CleaveRadius, 300.0                          ; SHOULD BE MUCH LESS?
+Warmaster.SelfOffensiveSuperBuff.HasteScale, 1.2					; old - no longer active
+Warmaster.SelfOffensiveSuperBuff.OutgoingDamageScale, 1.1			; old - no longer active
+Warmaster.SelfOffensiveSuperBuff.IncomingDamageScale, 1.2			; old - no longer active
+Warmaster.SelfOffensiveSuperBuff.TauntRadius, 4000.0				; old - no longer active
+Warmaster.SelfOFfensiveSuperBuff.TauntDuration, 6.0					; old - no longer active
+Warmaster.SelfOFfensiveSuperBuff.SpiritPointCost, 100.0 
+Warmaster.SelfDefensiveSuperBuff.Duration, 10.0
+Warmaster.SelfDefensiveSuperBuff.Cooldown, 180.0
+Warmaster.SelfDefensiveSuperBuff.DamageReduction, 0.6				; This gives 40% damage reduction
+Warmaster.SelfDefensiveSuperBuff.HealthRegenRateScalePerHit, 1.0	; Old design when effect gave increased max health
+Warmaster.MoveToTargetStun.MaxRange, 3000.0
+Warmaster.MoveToTargetStun.MinRange, 150.0
+Warmaster.MoveToTargetStun.ArrivalRange, 200.0
+Warmaster.MoveToTargetStun.Duration, 2.0
+Warmaster.MoveToTargetStun.Cooldown, 20.0
+Warmaster.MoveToTargetStun.StrengthCoefficient, 3.617
+Warmaster.MoveToTargetStun.Spread, 0.1
+Warmaster.MoveToTargetStun.ComboPointReward, 0.0
+Warmaster.MoveToTargetStun.Talent.IncreasedComboPoints.Level1, 3.0
+Warmaster.MoveToTargetStun.Talent.ChargesIncreasedSpeed.NumOfCharges, 2.0
+Warmaster.MoveToTargetStun.Talent.ChargesIncreasedSpeed.ChargeDuration, 10.0
+Warmaster.MoveToTargetStun.Talent.ChargesIncreasedSpeed.MoveSpeedIncrease, 1.2
+Warmaster.MoveToTargetStun.Talent.ChargesIncreasedSpeed.MoveSpeedIncreaseDuration, 5.0
+Warmaster.MoveToTargetStun.Talent.ComboPointAndToughnessGen.ComboPoints, 1.0
+Warmaster.MoveToTargetStun.Talent.ComboPointAndToughnessGen.Buff.Duration, 6.0
+Warmaster.MoveToTargetStun.Talent.ComboPointAndToughnessGen.Buff.ToughnessGen, 0.08	; Percentage of Max Toughness
+Warmaster.MoveToTargetStun.Talent.ComboPointAndToughnessGen.Buff.TickInterval, 1.0
+Warmaster.MoveToTargetStun.Talent.ArrivalMeleeAoeSlow.TargetExtraWarmasterDamage.IncomingDamageScaler, 1.20
+Warmaster.MoveToTargetStun.Talent.ArrivalMeleeAoeSlow.TargetExtraWarmasterDamage.Duration, 5.0
+Warmaster.ActionCombat.MoveToTargetStun.Radius, 200.0
+Warmaster.ActionCombat.MoveToTargetStun.Speed, 4000.0
+Warmaster.AoeHealthBuff.Duration, 15.0
+Warmaster.AoeHealthBuff.Cooldown, 90.0
+Warmaster.AoeHealthBuff.HealthScale, 1.2
+Warmaster.RangedTaunt.Duration, 6.0
+Warmaster.RangedTaunt.MaxRange, 3000.0
+Warmaster.RangedTaunt.Cooldown, 8.0
+Warmaster.ActionCombat.RangedTaunt.MaxRadius, 900
+Warmaster.ActionCombat.RangedTaunt.ConeAngleWidth, 70
+Warmaster.MeleeInterrupt.Duration, 4.0
+Warmaster.MeleeInterrupt.Cooldown, 12.0
+Warmaster.MeleeInterrupt.Range, 500.0
+Warmaster.AoeSpeedBuff.Duration, 8.0
+Warmaster.AoeSpeedBuff.Cooldown, 60.0
+Warmaster.AoeSpeedBuff.MoveSpeedScale, 1.5
+Warmaster.AoeDisoriented.Duration, 5.0
+Warmaster.AoeDisoriented.Cooldown, 120.0
+Warmaster.AoeDisoriented.MaxNumTargets, 7.0
+Warmaster.AoeDisoriented.Radius, 1500.0
+Warmaster.AoeYankPeriodically.StrengthCoefficient, 0.43
+Warmaster.AoeYankPeriodically.DamageSpread, 0.2
+Warmaster.AoeYankPeriodically.MaxYankRange, 2000
+Warmaster.AoeYankPeriodically.MinYankRange, 200
+Warmaster.AoeYankPeriodically.YankHeight, 0.4
+Warmaster.AoeYankPeriodically.YankStrength, 0.9
+Warmaster.AoeYankPeriodically.Duration, 0.5
+Warmaster.AoeYankPeriodically.TimeBetweenPulses, 0.15
+Warmaster.AoeYankPeriodically.YankHitDelay, 0.4
+Warmaster.AoeYankPeriodically.MaxAmountOfEnemiesToYank, 10
+Warmaster.AoeYankPeriodically.Cooldown, 60
+Warmaster.MoveToTargetProtection.MaxRange, 2000.0
+Warmaster.MoveToTargetProtection.ArrivalRange, 350.0
+Warmaster.MoveToTargetProtection.Duration, 5.0
+Warmaster.MoveToTargetProtection.Cooldown, 20.0
+Warmaster.MoveToTargetProtection.ComboPointReward, 0.0
+Warmaster.MoveToTargetProtection.AllyProtectionMultiplier, 0.4 ; This value indicates how much damage should be transfered to Warmaster
+Warmaster.MoveSpeedBuff.Cooldown, 30.0		;This ability is now giving empowered shield slams
+Warmaster.MoveSpeedBuff.MaxRange, 4000.0
+Warmaster.MoveSpeedBuff.BuffDuration, 12.0	
+Warmaster.MoveSpeedBuff.SelfMoveSpeedScaler, 1.50
+Warmaster.MoveSpeedBuff.AllyMoveSpeedScaler, 1.25
+Warmaster.MoveSpeedBuff.Talent.PartyAndIncreasedSpeed.Duration, 5.0
+Warmaster.MoveSpeedBuff.Talent.PartyAndIncreasedSpeed.SpeedMultiplier.Self, 1.5
+Warmaster.MoveSpeedBuff.Talent.PartyAndIncreasedSpeed.SpeedMultiplier.Target, 1.25
+Warmaster.MoveSpeedBuff.Talent.Charges.NumCharges, 2.0
+Warmaster.SingleInstantPullEnemy.Cooldown, 20.0
+Warmaster.SingleInstantPullEnemy.MaxRange, 3000.0
+Warmaster.SingleInstantPullEnemy.PullDelay, 0.2
+Warmaster.SingleInstantPullEnemy.PullDuration, 0.4
+Warmaster.SingleInstantPullEnemy.Damage.StrengthCoefficient, 1.12
+Warmaster.SingleInstantPullEnemy.Damage.Spread, 0.1
+Warmaster.InstantMeleeCleave.Cooldown, 30.0
+Warmaster.InstantMeleeCleave.ComboPointCost, 2.0
+Warmaster.InstantMeleeCleave.Damage.CleaveRadius, 500.0
+Warmaster.InstantMeleeCleave.Damage.StrengthCoefficient, 3.756
+Warmaster.InstantMeleeCleave.Damage.DamageScalingTargetCountThreshold, 1.0
+Warmaster.InstantMeleeCleave.Debuff.StrengthCoefficient, 0.60
+Warmaster.InstantMeleeCleave.Debuff.Duration, 12.0
+Warmaster.InstantMeleeCleave.Debuff.Period, 1.5
+Warmaster.InstantMeleeCleave.Enfeeble.TargetDamageScaleMultiplier, 0.90		;disabled for Feb 19
+Warmaster.NoResourceLossSelfBuff.Duration, 12.0
+Warmaster.NoResourceLossSelfBuff.Cooldown, 90.0
+Warmaster.AoeIncite.AoeRadius, 1500.0
+Warmaster.AoeIncite.AoeDuration, 10.0
+Warmaster.AoeIncite.Cooldown, 120.0
+Warmaster.AoeIncite.VisualDelay, 0.22
+Warmaster.AoeIncite.FriendlyAura.IncomingMagicDamageScaler, 0.8
+Warmaster.AoeIncite.Talent.ReducedCooldown, 0.80
+Warmaster.ShieldSelfBuff.Duration, 20.0
+Warmaster.ShieldSelfBuff.MeleeCleave.Cost, 2.0
+Warmaster.ShieldSelfBuff.DamageMultiplier, 1.25
+Warmaster.ShieldSelfBuff.IncomingDamageMultiplier, 0.75
+Warmaster.ShieldSelfBuff.SpiritCost, 100.0
+Warmaster.Talent.AddedSpiritPassive, 0.05
+Rime.AnimaOvercharge.UiGlowThresholdFraction, 0.9 ; 0.7
+Rime.AnimaOvercharge.AnimaSpendAmountForOvercharge, 1.0
+Rime.AnimaOvercharge.OverchargedAnimaGainChance, 0.3
+Rime.AnimaOvercharge.OverchargedAnimaCritChanceIncrease, 0.1
+Rime.AnimaOvercharge.OverchargedAnimaCritChanceIncreaseMax, 1.0
+Rime.FrostWaterDamageResourceGainChance, 0.0
+Rime.Expertise.FrostWaterDamageBaseBonus, 0.0
+Rime.CastedDamageProjectileBonusProc.ProcChance, 0.0
+Rime.CastedDamageProjectileBonusProc.BonusDamageScale, 0.95
+Rime.SpiritProc.ResourceRefund.FlatSpiritPointGain, 2.0
+Rime.Talents.MagicDamageReduction.MagicIncomingDamageMultiplier, 0.90
+Rime.Talent.IncreasedMovementSpeed.SpeedScaler, 1.2
+Rime.Talent.AutoProjectileOnResourceGainBuff.IncreasedOutgoingDamage.DamageScaleBonus, 0.10
+Rime.Talent.IncomingAoeDamageReduction.AvoidanceIncrease, 0.1 ; TODO: This should be changed to a 0.9 aoe damage multiplier!
+Rime.Talent.ResourceSpendingReducesCooldowns.CooldownReductionPerOrbSpent, 0.3
+Rime.Talent.ChanceOnOrbGain.NextSpenderCritIncrease.ProcChance, 0.17
+Rime.Talent.ChanceOnOrbGain.NextSpenderCritIncrease.Buff.CritChance, 1.00
+Rime.Talent.ChanceOnOrbGain.NextSpenderCritIncrease.Buff.Duration, 12.0
+Rime.QuickProjectile.Talent.ChanneledBeamSingleDamageCooldownReduction.CooldownReductionPerHit, 0.2
+Rime.QuickProjectile.Talent.IncreasedCritChance.CritChanceIncrease, 0.10	;deprecated
+Rime.Ultimate.Duration, 20.0  				;ga is FullResourcesSelfBuff
+Rime.Ultimate.SpiritPointCost, 100.0
+Rime.Ultimate.SpikeVollyPeriod, 4.0
+Rime.Ultimate.DamageBonus, 1.20  ;Increased damage scale on rime
+Rime.AutoDamageProjectile.ProcChance, 0.50	;not used
+Rime.AutoDamageProjectile.OrbReward, 1.0
+Rime.AutoDamageProjectile.NumProjectiles, 3.0
+Rime.AutoDamageProjectile.IntellectCoefficient, 0.68
+Rime.AutoDamageProjectile.MaxSpreadRange, 500.0
+Rime.AutoDamageProjectile.TriggerAoe.Chance, 0.35
+Rime.AutoDamageProjectile.TriggerAoe.CleaveDamageScaler, 0.70
+Rime.AutoDamageProjectile.TriggerAoe.TargetCountThreshhold, 5.0
+Rime.AutoDamageProjectile.TriggerAoe.ExplodingCrits.MaxNumAdditionalTargets, 19.0
+Rime.AutoDamageProjectile.TriggerAoe.ExplodingCrits.MaxCleaveRange, 400.0
+Rime.AutoDamageProjectile.TriggerAoe.ExplodingCrits.CleaveVisualDelay, 0.1
+Rime.AutoDamageProjectile.InstantSingleDamage.CooldownResetProcChance, 0.05         ; DEPRECATED!
+Rime.AutoDamageProjectile.Talent.CritChanceAndCritDamage.CritChanceIncrease, 0.10
+Rime.AutoDamageProjectile.Talent.CritChanceAndCritDamage.CritDamageMultiplier, 1.00
+Rime.AutoDamageProjectile.Talent.BigCritDamageIncrease.CritPowerScaler, 2.0
+Rime.AutoDamageProjectile.Talent.ExplodingCritsDamageBonus.CleaveDamageScaler, 1.0
+Rime.AutoDamageProjectile.Talent.CritsIncreaseProcChance.Chance, 0.60
+Rime.OnTargetPulsatingAoe.MaxRange, 3000.0
+Rime.OnTargetPulsatingAoe.NumPulses, 1.0
+Rime.OnTargetPulsatingAoe.DamageIntellectCoefficient, 4.735
+Rime.OnTargetPulsatingAoe.DamageSpread, 0.20
+Rime.OnTargetPulsatingAoe.AoeRadius, 700.0
+Rime.OnTargetPulsatingAoe.TargetCountThreshold, 12.0
+Rime.OnTargetPulsatingAoe.AoePeriod, 0.20
+Rime.OnTargetPulsatingAoe.OrbCost, 2.0
+Rime.OnTargetPulsatingAoe.Talent.MultiStrike.ChanceToStrikeTwice, 0.15
+Rime.OnTargetPulsatingAoe.Talent.MultiStrike.ChanceToStrikeTrice, 0.07
+Rime.OnTargetPulsatingAoe.Talent.Multistrike.Passive.CritStrikePowerIncrease, 1.10
+Rime.CastedProjectileDamageOrbSpender.MaxRange, 3000.0
+Rime.CastedProjectileDamageOrbSpender.CastingDuration, 2.0
+Rime.CastedProjectileDamageOrbSpender.IntellectCoefficient, 11.88
+Rime.CastedProjectileDamageOrbSpender.Spread, 0.2
+Rime.CastedProjectileDamageOrbSpender.OrbCost, 2.00
+Rime.CastedProjectileDamageOrbSpender.Talent.InstantAndBonusDamage.DamageMultiplier, 1.40
+Rime.CastedProjectileDamageOrbSpender.Talent.InstantAndBonusDamage.MaxStacks, 4.0
+Rime.CastedProjectileDamageOrbSpender.Talent.InstantAndBonusDamage.DamageToAoe.DamageScaler, 0.10
+Rime.CastedProjectileDamageOrbSpender.Talent.InstantAndBonusDamage.DamageToAoe.MaxNumTargets, 20.0
+Rime.CastedProjectileDamageOrbSpender.Talent.InstantAndBonusDamage.DamageToAoe.Radius, 700.0
+Rime.CastedProjectileDamageOrbSpender.Talent.InstantAndBonusDamage.DamageToAoe.Height, 500.0
+Rime.CastedProjectileDamageOrbSpender.Talent.InstantAndBonusDamage.DamageToAoe.TargetCountThreshold, 12.0
+Rime.CastedProjectileDamageOrbSpender.Talent.InstantAndBonusDamage.PPM, 1.2	;not used anymore - cold snap stacks
+Rime.CastedProjectileDamageOrbSpender.Talent.IncreasedCritChance.CritChanceIncrease, 0.20
+Rime.CastedProjectileDamageOrbSpender.Talent.CostIncrease, 0.0
+Rime.CastedProjectileDamageOrbSpender.Talent.DamageIncreaseAndCastTimeIncrease.AdditionalDamage, 1.40
+Rime.CastedProjectileDamageOrbSpender.Talent.DamageIncreaseAndCastTimeIncrease.CastTimeIncreaseDuration, 0.5
+Rime.DamageAsAoeHealingBuff.DamageToHealingFactor, 0.30
+Rime.DamageAsAoeHealingBuff.HealingRange, 4000.0
+Rime.DamageAsAoeHealingBuff.Duration, 20.0
+Rime.DamageAsAoeHealingBuff.SpiritIncrease, 0.20
+Rime.DamageAsAoeHealingBuff.Cooldown, 60.0
+Rime.DamageAsAoeHealingBuff.HealTick, 0.5 ; heals are accumulated until they are sent out 
+Rime.CastedProjectileDamageFiller.CastingDuration, 1.5
+Rime.CastedProjectileDamageFiller.IntellectCoefficient, 2.34
+Rime.CastedProjectileDamageFiller.Spread, 0.2
+Rime.CastedProjectileDamageFiller.MaxRange, 3000.0
+Rime.CastedProjectileDamageFiller.ResourceGain, 1.0
+Rime.CastedProjectileDamageFiller.InstantSingleDamage.CooldownResetProcChance, 0.15
+Rime.CastedProjectileDamageFiller.Talent.TriggerRandomTickOfCastedDebuffAoeDamage.Chance, 1.00
+Rime.InstantSingleDamage.DamageIntellectCoefficient, 3.648
+Rime.InstantSingleDamage.DamageSpread, 0.2
+Rime.InstantSingleDamage.MaxRange, 3000.0
+Rime.InstantSingleDamage.Cooldown, 12.0
+Rime.InstantSingleDamage.MaxCharges, 2.0
+Rime.InstantSingleDamage.ResourceGain, 0.0
+Rime.InstantSingleDamage.OrbGain, 1.0
+Rime.InstantSingleDamage.Talent.CooldownResetProc.DamageIncreaseScaler, 2.0
+Rime.InstantSingleDamage.Talent.CooldownResetProc.CritChanceOverride, 1.0
+Rime.InstantSingleDamage.Talent.AdditionalWavesOfAutoProjectiles.NumWaves, 1.0		;not in use
+Rime.InstantSingleDamage.Talent.AdditionalWavesOfAutoProjectiles.WavePeriod, 0.2	;not in use
+Rime.InstantSingleDamage.Talent.TriggerAnimaSpikeVolley.NumProjectiles, 1.0
+Rime.InstantSingleDamage.Talent.TriggerAnimaSpikeVolley.Chance, 0.15
+Rime.InstantSingleDamage.Talent.ReducesCastTimeOnOrbSpender.ReductionInSeconds, 0.5
+Rime.InstantSingleDamage.Talent.ReducesCastTimeOnOrbSpender.OnTargetPulsatingAoe.InitialDelayReductionInSeconds, 0.5
+Rime.InstantSingleDamage.Talent.ReducesCastTimeOnOrbSpender.AddedCritChance, 0.30
+Rime.InstantSingleDamage.Talent.ReducesCastTimeOnOrbSpender.BuffDuration, 12.0
+Rime.ChanneledBeamSingleDamage.IntellectCoefficientPerTick, 1.562
+Rime.ChanneledBeamSingleDamage.Spread, 0.2
+Rime.ChanneledBeamSingleDamage.MaxRange, 3000.0
+Rime.ChanneledBeamSingleDamage.ChannelingDuration, 2.0
+Rime.ChanneledBeamSingleDamage.ChannelingTickInterval, 0.4
+Rime.ChanneledBeamSingleDamage.Cooldown, 15.0
+Rime.ChanneledBeamSingleDamage.ResourceGainPerTick, 1.0
+Rime.ChanneledBeamSingleDamage.CastedDebuffAOECooldownRecoveryBonus, 1.0 ; 100% cooldown recovery while channeling on CastedDebuffAOECooldownRecoveryBonus cooldown
+Rime.ChanneledBeamSingleDamage.Cleave.DamageFactorAsAoe, 0.333
+Rime.ChanneledBeamSingleDamage.Cleave.TargetCountThreshold, 5.0
+Rime.ChanneledBeamSingleDamage.CastedDebuffAoeDamage.CooldownReductionPerTick, 0.6	;not used?
+Rime.ChanneledBeamSingleDamage.Talent.DamageBonus.DamageScale, 1.20
+Rime.ChanneledBeamSingleDamage.Talent.DamageBonus.DamageFactorAsAoeScaler, 2.00
+Rime.ChanneledBeamSingleDamage.Talent.DamageBonus.AoeRadius, 500.0		; this is baseline now
+Rime.ChanneledBeamSingleDamage.Talent.DamageBonus.AoeMaxTargets, 19.0	; this is baseline now	
+Rime.ChanneledBeamSingleDamage.Talent.CastedDebuffAoeDamageCooldownReduction.CooldownReductionPerTick, 0.30
+Rime.ChanneledBeamSingleDamage.BoostByCritProc.DamageMultiplier, 1.00
+Rime.ChanneledBeamSingleDamage.BoostByCritProc.CritChance, 1.00
+Rime.ChanneledBeamSingleDamage.BoostByCritProc.ChannelTickRateIncrease, 1.40
+Rime.ChanneledBeamSingleDamage.BoostByCritProc.Ppm, 1.2
+Rime.ChanneledBeamSingleDamage.BoostByCritProc.BuffDuration, 18.0
+Rime.ChanneledBeamSingleDamage.Talent.StackBuffForInstantSingleDamage.BuffDuration, 15.0
+Rime.ChanneledBeamSingleDamage.Talent.StackBuffForInstantSingleDamage.MaxNumStacks, 30.0
+Rime.ChanneledBeamSingleDamage.Talent.StackBuffForInstantSingleDamage.InstantSingleDamageDamagePerStack, 0.20
+Rime.ChanneledBeamSingleDamage.Talent.StackBuffForInstantSingleDamage.AoeDamageMaxRange, 800.0
+Rime.ChanneledBeamSingleDamage.Talent.StackBuffForInstantSingleDamage.TargetCountThreshold, 3.0
+Rime.ChanneledBeamSingleDamage.Talent.IncreasedChannelDuration.AddedSeconds, 0.8
+Rime.CastedDebuffAoeDamage.CastingDuration, 2.0
+Rime.CastedDebuffAoeDamage.Cooldown, 10.0
+Rime.CastedDebuffAoeDamage.MaxRange, 3000.0
+Rime.CastedDebuffAoeDamage.AoeRadius, 600.0
+Rime.CastedDebuffAoeDamage.AoeDuration, 3.0
+Rime.CastedDebuffAoeDamage.AoePulsePeriod, 0.50
+Rime.CastedDebuffAoeDamage.AoeMaxNumTargets, 19.0
+Rime.CastedDebuffAoeDamage.ResourceGainPerHit, 1.0
+Rime.CastedDebuffAoeDamage.AoeResourceRewardCap, 1.0
+Rime.CastedDebuffAoeDamage.AoeDamageIntellectCoefficient, 0.578
+Rime.CastedDebuffAoeDamage.AoeDamageSpread, 0.2
+Rime.CastedDebuffAoeDamage.DamageScalingTargetCountThreshold, 5.0
+Rime.CastedDebuffAoeDamage.Talent.AdditionalAnimaForSingleTarget.AnimaIncreasePerTick, 2.0	;not used
+Rime.CastedDebuffAoeDamage.Talent.IncreasedDuration.DurationInSeconds, 2.0
+Rime.CastedDebuffAoeDamage.Talent.BuffWhileActive.AddedHaste, 0.20	;not used
+Rime.CastedDebuffAoeDamage.Talent.BuffWhileActive.DamageScaleOtherAbilities, 1.20
+Rime.CastedDebuffAoeDamage.Talent.IncreasedCastedDebuffAoeDamageDamage.DamageScaler, 1.30
+Rime.ChanneledBeamSingleDamageAndCastedDebuffAoeDamage.Talent.IncreasedDamage.DamageScaler, 1.05
+Rime.AutoProjectileOnResourceGainBuff.Cooldown, 120.0
+Rime.AutoProjectileOnResourceGainBuff.Buff.Duration, 20.0 
+Rime.AutoProjectileOnResourceGainBuff.Buff.DamageBonus, 1.20 ;Increased damage scale on rime
+Rime.AutoProjectileOnResourceGainBuff.Talent.AutoProjectileHitsExtendDuration.AddedDuration, 0.2
+Rime.TargetedPeriodicProjectileAoe.MaxRange, 3000.0
+Rime.TargetedPeriodicProjectileAoe.Cooldown, 60.0
+Rime.TargetedPeriodicProjectileAoe.OrbCost, 0.0
+Rime.TargetedPeriodicProjectileAoe.Aoe.NumProjectiles, 5.0
+Rime.TargetedPeriodicProjectileAoe.Aoe.Duration, 20.0
+Rime.TargetedPeriodicProjectileAoe.Aoe.TargetingRadius, 3000.0
+Rime.TargetedPeriodicProjectileAoe.Aoe.Damage.IntellectCoefficient, 0.68
+Rime.TargetedPeriodicProjectileAoe.Aoe.Damage.Spread, 0.2
+Rime.TargetedPeriodicProjectileAoe.Talent.CostReduction, 2.0
+Rime.TargetedPeriodicProjectileAoe.Talent.ExtendedDurationInSeconds, 0.0
+Rime.TargetedPeriodicProjectileAoe.Talent.GrantInstantSingleDamageCharge.NumCharges, 2.0
+Rime.InstantConeKnockback.Cooldown, 60.0
+Rime.InstantConeKnockback.KnockbackDistance, 600.0
+Rime.InstantConeKnockback.KnockbackDuration, 0.5
+Rime.InstantConeKnockback.MovementSpeedReductionScale, 0.50
+Rime.InstantConeKnockback.DebuffDuration, 12.0
+Rime.InstantConeKnockback.ConeRange, 1200.0
+Rime.InstantSingleInterrupt.MaxRange, 3000.0
+Rime.InstantSingleInterrupt.Cooldown, 20.0
+Rime.InstantSingleInterrupt.SilenceDuration, 4.0
+Rime.DashForward.RechargeTime, 25.0
+Rime.DashForward.DashDistance, 1000.0
+Rime.DashForward.DashSpeed, 5000.0 ; ie DashDistance in 0.4s
+Rime.DashForward.DashAirExitSpeed, 1000 ; How fast Rime exits the dash when ending in air
+Rime.DashForward.NumCharges, 2.0
+Rime.SelfDefenceBuff.Duration, 4.0
+Rime.SelfDefenceBuff.Cooldown, 30.0
+Rime.SelfDefenceBuff.IncomingDamageScaler, 0.6
+Rime.SelfDefenceBuff.Talent.Heal.HealMaxHealthFactor, 0.2
+Rime.SelfDefenceBuff.Talent.CooldownReductionFromResourceSpent.CooldownReductionPerResourceAbs, 1.0
+Rime.SelfDefenceBuff.Talent.DurationBoostAndHealFromDamage.DurationIncrease, 4.0
+Rime.SelfDefenceBuff.Talent.DurationBoostAndHealFromDamage.DamageToHealFactor, 0.35
+Rime.SelfDefenceBuff.Talent.DurationBoostAndHealFromDamage.TimeBetweenApplication, 0.1
+Rime.CastedSingleDot.MaxRange, 4000.0
+Rime.CastedSingleDot.Cooldown, 0.0
+Rime.CastedSingleDot.CastingDuration, 1.5
+Rime.CastedSingleDot.Duration, 18.00
+Rime.CastedSingleDot.TickPeriod, 2.00
+Rime.CastedSingleDot.DotIntellectCoefficientPerTick, 0.39
+Rime.CastedSingleDot.DotSpread, 0.1
+Rime.CastedSingleDot.DamageScaleFromChanneledDamageBeam, 2.0
+Rime.CastedSingleDot.ChanneledDamageBeamCooldownReductionPerTick, 0.5
+Rime.CastedSingleDot.ChanneledDamageBeamDamageBonusPerTick, 0.08
+Rime.CastedSingleDot.ChanneledDamageBeamProcStackLimit, 5.0
+Rime.CastedSingleDot.ChanneledDamageBeamDamageBuffDuration, 20.0
+Rime.CastedSingleDot.MaxApplications, 6.0
+Rime.CastedSingleDot.MoveSpeedReductionScaler, 0.8
+Rime.CastedSingleDot.InstantDamageProcChance, 0.20
+Rime.CastedSingleDot.InstantDamageProcDamageMultiplierAtEnd, 0.75
+Rime.CastedSingleDot.Talent.BonusProjectile.DamageIntellectCoefficient, 0.6
+Rime.CastedSingleDot.Talent.BonusProjectile.DamageSpread, 0.2
+Rime.CastedSingleDot.Talent.BonusProjectile.TriggerChance, 0.2
+Rime.CastedSingleDot.Talent.DamageIncrease.DamageScale, 1.3
+Rime.CastedDamageProjectile.CastingDuration, 1.5
+Rime.CastedDamageProjectile.IntellectCoefficient, 2.16
+Rime.CastedDamageProjectile.Spread, 0.2
+Rime.CastedDamageProjectile.MaxRange, 4000.0
+Rime.CastedDamageProjectile.CastedDamageHeavyProjectileBuffSplashRadius, 400.0
+Rime.CastedDamageProjectile.SpiritGain, 2.0
+Rime.ChanneledDamageBeam.IntellectCoefficientPerTick, 1.02
+Rime.ChanneledDamageBeam.Spread, 0.1
+Rime.ChanneledDamageBeam.MaxRange, 4000.0
+Rime.ChanneledDamageBeam.ChannelingDuration, 2.15
+Rime.ChanneledDamageBeam.ChannelingTickInterval, 0.67
+Rime.ChanneledDamageBeam.CastedDamageHeavyProjectileBuffSplashRadius, 400.0
+Rime.ChanneledDamageBeam.Cooldown, 18.0
+Rime.ChanneledDamageBeam.SpiritGainPerTick, 1.0
+Rime.ChanneledDamageBeam.DotSpreadCount, 5.0
+Rime.ChanneledDamageBeam.DotSpreadRadius, 1000.0
+Rime.ChanneledDamageBeam.Tier3a.TorrentProcChance, 0.12
+Rime.ChanneledDamageBeam.Tier3a.CooldownReduction, 0.85
+Rime.ChanneledDamageBeam.Tier3a.DamageScaler, 2.5
+Rime.ChanneledDamageBeam.Tier3a.ProcDuration, 6.0
+Rime.ChanneledDamageBeam.Tier3b.CooldownReduction, 0.90
+Rime.ChanneledDamageBeam.Tier3b.ResourceRegenerationFrac, 1.0
+Rime.ChanneledDamageBeam.Talent.ActiveSpawnCompanionBuff.CooldownReduction, 0.90
+Rime.ChanneledDamageBeam.Talent.ActiveSpawnCompanionBuff.ResourceGainFactor, 1.0
+Rime.ChanneledDamageBeam.Restoration.HotSpreadCount, 5.0
+Rime.ChanneledDamageBeam.Restoration.HotSpreadRadius, 1000.0
+Rime.ChanneledDamageBeam.Restoration.HotDuration, 18.00
+Rime.ChanneledDamageBeam.Restoration.HotTickPeriod, 1.50
+Rime.ChanneledDamageBeam.Restoration.HotIntellectCoefficientPerTick, 1.14
+Rime.CastedDamageHeavyProjectile.CastingDuration, 2.0
+Rime.CastedDamageHeavyProjectile.IntellectCoefficient, 6.54
+Rime.CastedDamageHeavyProjectile.Spread, 0.1
+Rime.CastedDamageHeavyProjectile.MaxRange, 4000.0
+Rime.CastedDamageHeavyProjectile.SpiritGain, 3.0
+Rime.CastedDamageHeavyProjectile.Cooldown, 12.0
+Rime.CastedDamageHeavyProjectile.SplashBuffDuration, 6.0
+Rime.CastedDamageHeavyProjectile.SplashBuffIntellectCoefficient, 0.60
+Rime.CastedDamageHeavyProjectile.SplashBuffSpread, 0.4
+Rime.CastedDamageHeavyProjectile.Talent.SplashDurationIncrease.BuffDuration, 6.0
+Rime.CastedDamageHeavyProjectile.Talent.CritBonusFromResources.CritChanceBonusPerSecondaryResource, 0.1
+Rime.CastedDamageAoeProjectile.MaxRange, 4000.0
+Rime.CastedDamageAoeProjectile.Radius, 200.0
+Rime.CastedDamageAoeProjectile.CastingDuration, 2.0
+Rime.CastedDamageAoeProjectile.IntellectCoefficient, 0.78
+Rime.CastedDamageAoeProjectile.Spread, 0.1
+Rime.CastedDamageAoeProjectile.CastTimeFractionReductionPerSpirit, 0.0
+Rime.CastedDamageAoeProjectile.DamageIncreasePerSpirit, 1.0
+Rime.CastedDamageAoeProjectile.MaxNumAoeTargets, 5.0
+Rime.CastedDamageAoeProjectile.Talent.CritsGiveHaste.HasteFactor, 1.15
+Rime.CastedDamageAoeProjectile.Talent.CritsGiveHaste.HasteBuffDuration, 8.0
+Rime.CastedDamageAoeProjectile.Talent.ReducedCastTime.CastTimeReductionAbs, 0.5
+Rime.CastedDamageAoeProjectile.Talent.ReducedCastTime.BonusSecondaryResource, 1.0
+Rime.CastedDamageQuickProjectile.MaxRange, 4000.0
+Rime.CastedDamageQuickProjectile.Cooldown, 25.0
+Rime.CastedDamageQuickProjectile.CastingDuration, 0.0
+Rime.CastedDamageQuickProjectile.Spread, 0.1
+Rime.CastedDamageQuickProjectile.CastTimeFractionReductionPerSpirit, 0.0
+Rime.CastedDamageQuickProjectile.DamageIncreasePerSpirit, 1.00
+Rime.CastedDamageQuickProjectile.MultiProjectileTargetingRadius, 500.0
+Rime.CastedDamageQuickProjectile.SelfDamageBoostBuffDamageIncreaseScale, 1.5
+Rime.CastedDamageQuickProjectile.Talent.CastedDamageHeavyProjectileCooldownReset.ProcChance, 0.08
+Rime.CastedDamageQuickProjectile.Talent.DamageIncreaseDebuff.DebuffDuration, 10.0
+Rime.CastedDamageQuickProjectile.Talent.DamageIncreaseDebuff.DamageScale, 1.1
+Rime.SpawnCompanion.Cooldown, 0.0
+Rime.SpawnCompanion.Duration, 20.0
+Rime.SpawnCompanion.TickPeriod, 1.0
+Rime.SpawnCompanion.SpiritGainPerTick, 0.0
+Rime.SpawnCompanion.FrostWaterDamageBonus, 0.2
+Rime.SpawnCompanion.CooldownReductionPerSpiritGained, 0.0
+Rime.SpawnCompanion.HasteIncrease, 0.3
+Rime.SpawnCompanion.SpiritGainDurationAddition, 0.0
+Rime.SpawnCompanion.SpiritPointCost, 100.0
+Rime.SelfDamageBoostBuff.Duration, 15.0
+Rime.SelfDamageBoostBuff.Cooldown, 45.0
+Rime.InstantSingleRevive.MaxRange, 4000.0
+Rime.InstantSingleRevive.Cooldown, 600.0
+Rime.InstantSingleRevive.HealthRecovery, 1.0
+Rime.InstantSingleRevive.ManaRecovery, 0.2
+Rime.InstantSingleRevive.CastingDuration, 2.0
+Rime.CastedSingleHeal.MaxRange, 4000.0
+Rime.CastedSingleHeal.CastingDuration, 1.5
+Rime.CastedSingleHeal.IntellectCoefficient, 3.52
+Rime.CastedSingleHeal.Spread, 0.1
+Rime.CastedSingleHeal.CastTimeFractionReductionPerSpirit, 0.0
+Rime.CastedSingleHeal.HealingIncreasePerSpirit, 0.50
+Rime.PullFriend.MaxRange, 4000.0
+Rime.PullFriend.PullDuration, 0.5
+Rime.PullFriend.Cooldown, 90.0
+Rime.AoeHealBuff.MaxRange, 4000.0
+Rime.AoeHealBuff.Duration, 10.0
+Rime.AoeHealBuff.Cooldown, 180.0
+Rime.AoeHealBuff.DamageToHealingFactor, 0.10
+Rime.AoeHealBuff.MaxNumTargets, 3.0
+Rime.SelfDamageAndResourceGainBuff.Duration, 8.0
+Rime.SelfDamageAndResourceGainBuff.Cooldown, 60.0
+Rime.SelfDamageAndResourceGainBuff.CastedDamageAoeProjectileSpiritGain, 5.0
+Rime.SelfDamageAndResourceGainBuff.CastedDamageQuickProjectileSpiritGain, 1.0
+Rime.SelfDamageAndResourceGainBuff.ProcDuration, 8.0
+Rime.SelfDamageAndResourceGainBuff.ProcMagicDamageScale, 1.1
+Rime.PlacedAoeHealAndDamage.CastTime, 2.0
+Rime.PlacedAoeHealAndDamage.Cooldown, 15.0
+Rime.PlacedAoeHealAndDamage.AoeRadius, 1000.0
+Rime.PlacedAoeHealAndDamage.MaxRange, 2000.0
+Rime.PlacedAoeHealAndDamage.AoeDuration, 15.0
+Rime.PlacedAoeHealAndDamage.AoeTickPeriod, 1.5
+Rime.PlacedAoeHealAndDamage.DamageIntellectCoefficient, 0.20
+Rime.PlacedAoeHealAndDamage.HealingIntellectCoefficient, 0.79
+Rime.SingleAllyDispel.MaxRange, 4000.0
+Rime.SingleAllyDispel.Cooldown, 8.0
+Rime.ChainHealAndDamage.MaxNumTargets, 8.0
+Rime.ChainHealAndDamage.HealIntellectCoefficient, 0.79
+Rime.ChainHealAndDamage.DamageIntellectCoefficient, 0.29
+Rime.ChainHealAndDamage.HealSpread, 0.2
+Rime.ChainHealAndDamage.DamageSpread, 0.2
+Rime.ChainHealAndDamage.Cooldown, 10.0
+Rime.ChainHealAndDamage.MaxRange, 3000.0
+Rime.ChainHealAndDamage.MaxChainRange, 1000.0
+Rime.ChainHealAndDamage.DamageIncreasePerSpirit, 0.50
+Rime.ChainHealAndDamage.HealingIncreasePerSpirit, 0.50
+Vigor.InstantCastedSingleTargetHealProc.ProcChance, 0.20	;the one that controls Into the Light currently
+Vigor.SingleHealAndInstantAoeHealBonusProc.ManaCostMultiplier, 0.50
+Vigor.InstantCastedSingleTargetHealProc.DotTickProcChanceScaler, 4.0
+Vigor.Expertise.ExpertiseToHealPercentageConverter, 1		;1 means that 1% in expertise will increase 1% of extra health gained from Greater Heal
+Vigor.SpiritProc.ResourceRefund.SecondaryEffect.MaxManaFractionForTrigger, 0.10
+Vigor.SpiritProc.ResourceRefund.FlatSpiritPointGain, 1.0
+Vigor.Echo.ProcChance, 0.50
+Vigor.Echo.HealingScaler, 0.40
+Vigor.Echo.ApplicationDelay, 0.5							;seconds
+Vigor.Echo.ExpertiseAbsorbScaler, 1.0
+Vigor.Echo.AbsorbBuffDuration, 4.0
+Vigor.Echo.AbsorbLimitTargetMaxHealthFactor, 0.30
+Vigor.MetaResource.SingleResourceIntellectCoefficient, 25.0	;was 14.00
+Vigor.MetaResource.ProcGainIntellectCoefficient, 0.0
+Vigor.MetaResource.CastedSingleTargetDamage.ResourceFractionGainPerHit, 0.2
+Vigor.Absorbs.DamageReduction.BaseValue, 0.2	;was 0.2
+Vigor.Absorbs.DamageReduction.ReferenceIntellectValue, 3000.0
+Vigor.Absorbs.DamageReduction.ReferenceDamageReductionValue, 0.5
+Vigor.Absorbs.DamageReduction.TotalIncomingDamageMultiplierLimit, 0.3
+Vigor.Absorbs.UponRemovalBuff.Duration, 24.0
+Vigor.Absorbs.UponRemovalBuff.IncomingDamageScaler, 0.80
+Vigor.Absorbs.Talent.AbsorbRefill.CastedSingleTargetDamage.DamageToAbsorbFactor, 1.0
+Vigor.Absorbs.Talent.AbsorbRefill.InstantFrontalConeDamageHeal.DamageToAbsorbFactor, 0.4
+Vigor.SingleTargetAbsorb.Duration, 12.00
+Vigor.SingleTargetAbsorb.AbsorbIntellectCoefficient, 27.12 	;was 19.75
+Vigor.SingleTargetAbsorb.ResourceFractionCost, 1.00
+Vigor.SingleTargetAbsorb.Range, 3000.0
+Vigor.SingleTargetAbsorb.Cooldown, 10.0
+Vigor.SingleTargetAbsorb.Talent.SingleTargetAbsorbCharges.MaxCharges, 2
+Vigor.SingleTargetAbsorb.Talent.ReducedIncomingDamage.IncomingDamageMultiplier, 0.90
+Vigor.InstantFrontalConeDamageHealBonusProc.ActivationChance, 1.00 ; Not in use what is the chance of this passive buff to be applied when consuming Into the Light? 0.25 = 25%
+Vigor.InstantFrontalConeDamageHealBonusProc.Duration, 12
+Vigor.CastedSingleTargetDamageDoubleHit.Duration, 20
+Vigor.PartyMaxHealth.HealthIncrease, 0.10
+Vigor.StackForDoubleHitBuff.MaxStacks, 2
+Vigor.DamageReductionAndImmunityBuff.Cooldown, 60 
+Vigor.DamageReductionAndImmunityBuff.Duration, 12.0
+Vigor.DamageReductionAndImmunityBuff.ReducedIncomingDamageScale, 0.80
+Vigor.DamageReductionAndImmunityBuff.ManaCost, 63.00
+Vigor.DamageReductionAndImmunityBuff.MaxRange, 3000
+Vigor.ChargedRestoreResource.RechargeTime, 180
+Vigor.ChargedRestoreResource.NumCharges, 1
+Vigor.ChargedRestoreResource.RestoreAmount, 0.10 ; in precentage (0.15 = 15% of max resource)
+Vigor.SingleAllyDispel.MaxRange, 3000
+Vigor.SingleAllyDispel.Cooldown, 6.0
+Vigor.SingleAllyDispel.ManaCost, 82
+Vigor.SingleRevive.Cooldown, 300
+Vigor.SingleRevive.CastDuration, 3
+Vigor.SingleRevive.ManaCost, 8
+Vigor.SingleDamageBuffAndHot.MaxRange, 3000
+Vigor.SingleDamageBuffAndHot.Cooldown, 180
+Vigor.SingleDamageBuffAndHot.Duration, 20
+Vigor.SingleDamageBuffAndHot.DamageScale, 1.2
+Vigor.SingleDamageBuffAndHot.HealFromOutdoingDamage, 0.5 ; in percentage (0.5 = 50% of damage done goes to healing)
+Vigor.SingleDamageBuffAndHot.ManaCost, 37
+Vigor.IncreaseMaxHealthBuff.StaminaIncrease, 0.2 ; this percentage is taken from the character's max stamina. So 0.1 of 100 Health will be 10 additional health
+Vigor.IncreaseMaxHealthBuff.Duration, 5
+Vigor.IncreaseMaxHealthBuff.MaxRange, 2400
+Vigor.IncreaseMaxHealthBuff.Cooldown, 120
+Vigor.IncreaseMaxHealthBuff.ManaCost, 12
+Vigor.ChanneledPartyHeal.ChannelingDuration, 6.1
+Vigor.ChanneledPartyHeal.ChannelingTickInterval, 0.5
+Vigor.ChanneledPartyHeal.HealPercentageOfTargetMaxHealth, 0.10 ;no longer in use we use the intelligentcoefficent instead
+Vigor.ChanneledPartyHeal.HealIntellectCoefficient, 3.65
+Vigor.ChanneledPartyHeal.Cooldown, 180
+Vigor.ChanneledPartyHeal.NumOfAllies, 1 ; this will pick the choosen amount of allies with the lowest health (1 = one ally)
+Vigor.ChanneledPartyHeal.ManaCost, 89
+Vigor.PartyHealAndSelfBuff.Cooldown, 0.0
+Vigor.PartyHealAndSelfBuff.Range, 6000
+Vigor.PartyHealAndSelfBuff.SelfBuffDuration, 9.0
+Vigor.PartyHealAndSelfBuff.HealIntellectCoefficient, 9.80 ;was 4.22
+Vigor.PartyHealAndSelfBuff.HealCostMultiplier, 0.5
+Vigor.PartyHealAndSelfBuff.DamageMultiplier, 1.50
+Vigor.PartyHealAndSelfBuff.SpiritPointCost, 100.0
+Vigor.PartyHealAndSelfBuff.SpiritAbilityBuffHasteAdded, 0.30
+Vigor.PartyHealAndSelfBuff.SpiritAbilityBuffHasteDuration, 20.0
+Vigor.InstantAoeHeal.Radius, 800
+Vigor.InstantAoeHeal.MaxRangeHorizontal, 3000.0
+Vigor.InstantAoeHeal.MaxRangeUp, 2000.0
+Vigor.InstantAoeHeal.MaxRangeDown, 3000.0
+Vigor.InstantAoeHeal.BonusProc.Mana, 0.5 ; Not used anymore See above
+Vigor.InstantAoeHeal.BonusProc.Radius, 1.0; 1.5 means that the ability will have a 50% bigger radius during the bonusproc
+Vigor.InstantAoeHeal.Cooldown, 15
+Vigor.InstantAoeHeal.HealIntellectCoefficient, 12.74	;was 9.80
+Vigor.InstantAoeHeal.Spread, 0.1
+Vigor.InstantAoeHeal.ManaCost, 148	;was 128
+Vigor.InstantAoeHeal.Tier1.Level1.HealingScale, 1.05
+Vigor.InstantAoeHeal.Tier1.Level2.HealingScale, 1.10
+Vigor.InstantAoeHeal.Tier1.Level3.HealingScale, 1.15
+Vigor.InstantAoeHeal.Tier2.Level1.CooldownReductionScale, 0.75
+Vigor.InstantAoeHeal.Tier2.Level2.CooldownReductionScale, 0.5
+Vigor.InstantAoeHeal.Tier3a.AdditionalHealingScale, 0.20
+Vigor.InstantAoeHeal.Tier3a.AdditionalCritChance, 0.20
+Vigor.InstantAoeHeal.Tier3b.AoeDuration, 8.0
+Vigor.InstantAoeHeal.Tier3b.AoeTickPeriod, 2.0
+Vigor.InstantAoeHeal.Tier3b.AoeDamageIntellectCoefficient, 0.5
+Vigor.InstantAoeHeal.Tier3b.AoeDamageSpread, 0.2
+Vigor.InstantAoeHeal.Talent.HealingBoostAndCostReduction.CostScaler, 0.85
+Vigor.InstantAoeHeal.Talent.ReducedCost.CostMultiplier, 0.75
+Vigor.InstantAoeHeal.Talent.IncreasedHealDependentOnHealth.MissingHealthPerHealIncrement, 2.0	; 2 means that for every 2 percent of missing health the heal is increased by one HealIncrement
+Vigor.InstantAoeHeal.Talent.IncreasedHealDependentOnHealth.HealIncrement, 1.0
+Vigor.InstantAoeHeal.Talent.DamageReduction.ReductionMultiplier, 0.95
+Vigor.InstantAoeHeal.Talent.DamageReduction.AoeDuration, 5.0
+Vigor.InstantAoeHeal.Talent.DamageReduction.SecondPulseHealingMultiplier, 0.5
+Vigor.InstantAoeHeal.Talent.InstantAoeHealAccumulateHot.HealToHotScaler, 0.50
+Vigor.InstantAoeHeal.Talent.InstantAoeHealAccumulateHot.HotDuration, 12.0
+Vigor.InstantAoeHeal.Talent.InstantAoeHealAccumulateHot.HotPeriod, 1.5
+Vigor.InstantFrontalConeDamageHeal.ManaCost, 47	
+Vigor.InstantFrontalConeDamageHeal.Cooldown, 10
+Vigor.InstantFrontalConeDamageHeal.RuneResourceGeneration, 0.30  ; 50% of 1 Radiant Rune per cast
+Vigor.InstantFrontalConeDamageHeal.MaxRadius, 3000
+Vigor.InstantFrontalConeDamageHeal.ConeAngleWidth, 70
+Vigor.InstantFrontalConeDamageHeal.DamageIntellectCoefficient, 1.954
+Vigor.InstantFrontalConeDamageHeal.TargetCountThreshold, 5.0
+Vigor.InstantFrontalConeDamageHeal.HealIntellectCoefficient, 3.60	;was 3.6
+Vigor.InstantFrontalConeDamageHeal.BonusProc.DamageScale, 1.5 ;2.0 means 100% more damage (double damage)
+Vigor.InstantFrontalConeDamageHeal.BonusProc.ManaCostMultiplier, 0.5 ;0.5 means 50% of normal mana cost
+Vigor.InstantFrontalConeDamageHeal.BonusProcSelfBuff.MaxStacks, 5 ; this does not work from here for now so you need to go into the GE_Vigor_InstantFrontalConeDamageHeal_Passive_SelfBuff to manually change this
+Vigor.InstantFrontalConeDamageHeal.BonusProcSelfBuff.DamageHealingScalePerStack, 0.05
+Vigor.InstantFrontalConeDamageHeal.Tier1.Level1.CritChanceScale, 1.3
+Vigor.InstantFrontalConeDamageHeal.Tier1.Level2.CritChanceScale, 1.10
+Vigor.InstantFrontalConeDamageHeal.Tier1.Level3.CritChanceScale, 1.15
+Vigor.InstantFrontalConeDamageHeal.Tier2.ProcChance, 1.00
+Vigor.InstantFrontalConeDamageHeal.Tier2.Level1.DamageScale, 2.00	;currently used for proc as proc is baseline  talk to axel
+Vigor.InstantFrontalConeDamageHeal.Tier2.Level2.DamageScale, 4.00
+Vigor.InstantFrontalConeDamageHeal.Tier3b.HealingAndDamageScalePerStack, 1.1
+Vigor.InstantFrontalConeDamageHeal.Talent.DotHotExtension.PeriodicEffectDurationExtension, 6.0
+Vigor.InstantFrontalConeDamageHeal.Talent.DotHotExtension.PeriodicEffectMaxDurationFactor, 1.0
+Vigor.InstantFrontalConeDamageHeal.Talent.DotHotExtension.DoTHotCoefficientScaler, 1.25
+Vigor.InstantFrontalConeDamageHeal.Talent.HotExtension.DurationIncrease, 3.0
+Vigor.InstantFrontalConeDamageHeal.Talent.IncreasedHealandDamage.Multiplier, 1.20
+Vigor.InstantFrontalConeDamageHeal.Talent.DotProc.ProcChance, 0.15
+Vigor.InstantFrontalConeDamageHeal.Talent.DotProc.CritChanceOverride, 0.50
+Vigor.SingleTargetProjectileStun.Cooldown, 30
+Vigor.SingleTargetProjectileStun.Range, 3000
+Vigor.SingleTargetProjectileStun.StunDuration, 2
+Vigor.SingleTargetProjectileStun.MaxProjectileSpeed, 4000
+Vigor.SingleTargetProjectileStun.ManaCost, 0
+Vigor.LevitateForward.Distance, 1500
+Vigor.LevitateForward.MoveSpeed, 3000.0 ; ie Distance in 0.5s
+Vigor.LevitateForward.LevitationHeight, 50
+Vigor.LevitateForward.Cooldown, 30
+Vigor.LevitateForward.ManaCost, 0
+Vigor.SingleTargetChargedHot.Range, 3000
+Vigor.SingleTargetChargedHot.Duration, 30.0
+Vigor.SingleTargetChargedHot.HealIntellectCoefficient, 1.04
+Vigor.SingleTargetChargedHot.DirectHealIntCoefficient, 6.214
+Vigor.SingleTargetChargedHot.DirectHealBonusWhenBuffed, 3.0
+Vigor.SingleTargetChargedHot.DirectHealBonusWhenBuffed.Overcharged, 3.0
+Vigor.SingleTargetChargedHot.ResourceFractionCost, 1.0
+Vigor.SingleTargetChargedHot.TickInterval, 2.0
+Vigor.SingleTargetChargedHot.Echo.HealingScaler, 0.25
+Vigor.SingleTargetChargedHot.Tier1.Level1.HealingScaler, 1.30
+Vigor.SingleTargetChargedHot.Tier1.Level2.HealingScaler, 1.10
+Vigor.SingleTargetChargedHot.Tier1.Level3.HealingScaler, 1.15
+Vigor.SingleTargetChargedHot.Tier2.Level1.FreeApplicationProcChance, 0.25
+Vigor.SingleTargetChargedHot.Tier2.Level2.FreeApplicationProcChance, 0.50
+Vigor.SingleTargetChargedHot.Tier2.Level2.FreeApplicationDurationScaler, 0.00
+Vigor.SingleTargetChargedHot.Tier3a.HotBonusHealFactor, 1.02
+Vigor.SingleTargetChargedHot.Tier3b.MaxHotDurationToSoak, 30.0
+Vigor.SingleTargetChargedHot.Tier3b.AbsorbDuration, 18.0
+Vigor.CastedSingleTargetDamage.IntellectDamageCoefficient, 2.538
+Vigor.CastedSingleTargetDamage.Spread, 0.1
+Vigor.CastedSingleTargetDamage.HotDurationExtension, 2.00  ;old
+Vigor.CastedSingleTargetDamage.MaxRange, 3000
+Vigor.CastedSingleTargetDamage.CastDuration, 1.5
+Vigor.CastedSingleTargetDamage.ManaCost, 1.0
+Vigor.CastedSingleTargetDamage.Tier2.CastTimeDurationPerStack, 0.1
+Vigor.CastedSingleTargetDamage.Tier2.Level1.CastTimeReductionDuration, 5.0
+Vigor.CastedSingleTargetDamage.Tier2.Level2.CastTimeReductionDuration, 10.0
+Vigor.CastedSingleTargetDamage.Tier3a.PeriodicEffectDurationExtension, 1.0
+Vigor.CastedSingleTargetDamage.Tier3a.PeriodicEffectMaxDurationFactor, 1.0
+Vigor.CastedSingleTargetDamage.Tier3b.ExtraTriggerChance, 0.20
+Vigor.CastedSingleTargetDamage.Tier3b.IntoTheLightProcChanceScaler, 2.0
+Vigor.CastedSingleTargetDamage.Talent.ManaRegenBuff.Duration, 12.0
+Vigor.CastedSingleTargetDamage.Talent.ManaRegenBuff.ManaRegenPerTickInPercentage, 0.02	
+Vigor.CastedSingleTargetDamage.Talent.ManaRegenBuff.TickInterval, 3.0
+Vigor.CastedSingleTargetDamage.Talent.ManaRegenBuff.ManaRegenMultiplier, 1.25  			;old
+Vigor.CastedSingleTargetDamage.Talent.ManaRegenBuff.StatBonusIncrease, 0.20
+Vigor.CastedSingleTargetDamage.Talent.ManaRegenBuff.PPM, 1.2
+Vigor.CastedSingleTargetDamage.Talent.ReducedCastTimeBuff.Duration, 9.0
+Vigor.CastedSingleTargetDamage.Talent.ReducedCastTimeBuff.ReducedCastTimeInSeconds, 0.1
+Vigor.CastedSingleTargetDamage.Talent.IncreasedDamage.DamageMultiplier, 1.20
+Vigor.CastedSingleTargetDamage.Talent.SingleTargetChargedHot.HealAlly.DamageToHealFraction, 1.00
+Vigor.SingleTargetDot.Range, 3000
+Vigor.SingleTargetDot.Duration, 24.0
+Vigor.SingleTargetDot.IntellectDamageCoefficient, 2.019
+Vigor.SingleTargetDot.BuffActiveAdditionalDirectDamage.NumberOfTicks, 3.0
+Vigor.SingleTargetDot.Spread, 0.1
+Vigor.SingleTargetDot.TickInterval, 3.0 ; every tick (damage done) will increase the Cursed Knowledge stacks
+Vigor.SingleTargetDot.ResourceFractionCost, 1.0
+Vigor.SingleTargetDot.ResourceFractionGainPerTick, 0.0375 ; 0.3 / (24/3) (i.e. 1 orb over 8 ticks) we add the initial tick in the BP
+Vigor.SingleTargetDot.Talent.IncreasedDamage.DamageMultiplier, 1.20
+Vigor.SingleTargetDot.Talent.DamageToAoe.RemainingDamageMultiplier, 0.25
+Vigor.SingleTargetDot.Talent.DamageToAoe.Radius, 1500.0
+Vigor.SingleTargetDot.Talent.DamageToAoe.RadiusForTargetsOutOfCombat, 250.0
+Vigor.SingleTargetDot.Talent.DamageToAoe.ResourceGainMultiplier, 0.5
+Vigor.SingleTargetDot.Talent.BuffActiveAdditionalDirectDamage.DamageHealsAlly.MaxRange, 3000.0
+Vigor.CastedSingleTargetHeal.IntellectCoefficient, 27.54	;was 17.21
+Vigor.CastedSingleTargetHeal.Spread, 0.1
+Vigor.CastedSingleTargetHeal.MaxRange, 3000
+Vigor.CastedSingleTargetHeal.CastDuration, 2.0
+Vigor.CastedSingleTargetHeal.BonusProc.Mana, 0.0 ; Not used anymore See above
+Vigor.CastedSingleTargetHeal.BonusProc.CritChance, 0.00; needs GE setup to override
+Vigor.CastedSingleTargetHeal.ManaCost, 102	;was 88
+Vigor.CastedSingleTargetHeal.Tier1.Level1.HealingScaler, 1.05
+Vigor.CastedSingleTargetHeal.Tier1.Level2.HealingScaler, 1.10
+Vigor.CastedSingleTargetHeal.Tier1.Level3.HealingScaler, 1.15
+Vigor.CastedSingleTargetHeal.Tier2.Level1.ConditionalCritChanceScaler, 0.08
+Vigor.CastedSingleTargetHeal.Tier2.Level2.ConditionalCritChanceScaler, 0.15
+Vigor.CastedSingleTargetHeal.Tier3b.InstantAoeHealStackCount, 3.0
+Vigor.CastedSingleTargetHeal.Tier3a.BonusEchoChance, 0.0
+Vigor.CastedSingleTargetHeal.Talent.EchoBoost.EchoHealScaler, 1.2
+Vigor.CastedSingleTargetHeal.Talent.ReducedCastTimeMana.TimeReductionInSeconds, 0.5
+Vigor.CastedSingleTargetHeal.Talent.ReducedCastTimeMana.CostMultiplier, 0.9
+Vigor.CastedSingleTargetHeal.Talent.FreeInstantAoeHealBuff.MaxStacks, 3.0
+Vigor.CastedSingleTargetHeal.Talent.CheaperInstantCast.ProcChance, 0.15
+Vigor.CastedSingleTargetHeal.Talent.CheaperInstantCast.CostMultiplier, 0.5
+Vigor.CastedSingleTargetHeal.Talent.CheaperInstantCast.MaxStacks, 3.0	; Also change manually in GE
+Vigor.CastedSingleTargetHeal.Talent.ReducedCastTime.ReductionInSeconds, 0.5
+Vigor.CastedSingleTargetHeal.Talent.ResourceGainFreeCast.DamageMultiplier, 0.20
+Vigor.CastedSingleTargetHeal.Talent.ResourceGainFreeCast.MaxTargetingRange, 6000.0
+Vigor.CastedSingleTargetHeal.Talent.IncreasedCritChance, 0.20
+Vigor.SkillshotAoeProjectile.Heal.IntellectCoefficient, 5.53	;was 4.94
+Vigor.SkillshotAoeProjectile.Heal.Spread, 0.1
+Vigor.SkillshotAoeProjectile.Damage.IntellectCoefficient, 3.564
+Vigor.SkillshotAoeProjectile.Damage.Spread, 0.1
+Vigor.SkillshotAoeProjectile.ResourceFractionGainPerHit, 0.05 ; 1/10th orb
+Vigor.SkillshotAoeProjectile.ResourceCost, 2.0
+Vigor.SkillshotAoeProjectile.Orb.Radius, 500.0
+Vigor.SkillshotAoeProjectile.Orb.Lifetime, 6.0
+Vigor.SkillshotAoeProjectile.Orb.TravelSpeed, 800.0
+Vigor.SkillshotAoeProjectile.Cooldown, 10.0
+Vigor.SkillshotAoeProjectile.OutputScaling.Healing.FactorScaler, 1.0    ; [healscale = TargetStaminaMultiplier * FactorScaler / SourceStaminaMultiplier]
+Vigor.SkillshotAoeProjectile.OutputScaling.Healing.ResultMin, 0.5       ; Result is floor-capped on this
+Vigor.SkillshotAoeProjectile.OutputScaling.Healing.ResultMax, 2.0       ; Result is ceiling-capped on this
+Vigor.SkillshotAoeProjectile.OutputScaling.Damage.FactorDivider, 1500.0 ; [damagescale = TargetMaxHealth / (TargetDifficultyHealthScale * SourceStaminaMultiplier * FactorDivider)]
+Vigor.SkillshotAoeProjectile.OutputScaling.Damage.ResultMin, 0.5        ; Result is floor-capped on this
+Vigor.SkillshotAoeProjectile.OutputScaling.Damage.ResultMax, 2.5        ; Result is ceiling-capped on this
+Vigor.SkillshotAoeProjectile.Talent.HealAppliesAbsorb.HealToAbsorbScaler, 1.0
+Vigor.SkillshotAoeProjectile.Talent.HealAppliesAbsorb.AbsorbDuration, 5.0
+Vigor.SkillshotAoeProjectile.Talent.IncreasedCriticalStrikeChance, 0.25
+Vigor.SkillshotAoeProjectile.Talent.IncreasedDamageHeal.DamageMultiplier, 1.20	;not used
+Vigor.SkillshotAoeProjectile.Talent.IncreasedDamageHeal.HealMultiplier, 1.20	;not used
+Vigor.SkillshotAoeProjectile.Talent.DecreasedResourceCost.SubtractionOfCost, 1.0
+Vigor.SkillshotAoeProjectile.Talent.ResetCooldownFreeCast.ProcChance, 0.10
+Vigor.SkillshotAoeProjectile.Talent.ResetCooldownFreeCast.Duration, 15.0
+Vigor.SkillshotAoeProjectile.Talent.PingPong.MaxDistance, 2000.0
+Vigor.SkillshotAoeProjectile.Talent.PingPong.AtPivotWaitTime, 1.5
+Vigor.SkillshotAoeProjectile.Talent.PingPong.PassiveDamageAndHealScaler, 1.25
+Vigor.InstantResourceGain.Cooldown, 60.0
+Vigor.InstantResourceGain.ResourceGain, 3.0
+Vigor.InstantResourceGain.Buff.Duration, 8.0
+Vigor.InstantResourceGain.Buff.RuneAbilityEnhancementMultiplier, 1.20
+Vigor.InstantResourceGain.ManaCost, 96.0
+Vigor.ChargedMovementSpeedSelfBuff.Cooldown, 60.0
+Vigor.ChargedMovementSpeedSelfBuff.MaxCharges, 2.0
+Vigor.ChargedMovementSpeedSelfBuff.Duration, 4.0
+Vigor.ChargedMovementSpeedSelfBuff.SpeedIncrease, 1.70
+Vigor.ChargedMovementSpeedSelfBuff.AvoidanceIncrease, 0.40
+Vigor.ChargedMovementSpeedSelfBuff.Cost, 18.0
+Vigor.Runes.Talent.IncreasedDuration.DurationMultiplier, 1.25
+Vigor.Runes.Talent.ChargeUpMultiple.AdditionalTargets, 3.0	; Total is main target plus AdditionalTargets
+Vigor.Runes.Talent.ChargeUpMultiple.CastDuration, 1.5
+Vigor.Runes.Talent.ChargeUpMultiple.Cost, 2.0
+Vigor.Runes.Talent.ChargeUpMultiple.DamageMultiplier, 0.60
+Vigor.Talent.SpiritProcBuff.NextRuneSpenderIncreasedPower.Multiplier, 1.50
+Vigor.Talent.SpiritProcBuff.NextRuneSpenderIncreasedPower.Duration, 12.0
+Vigor.Talent.ReducedIncomingMagicDamage.Scaler, 0.90
+Vigor.Talent.ReducedIncomingAoeDamage.AdditionalReduction, 0.10		; adding avoidance for now
+Vigor.Talent.IncreasedMaxMana.MaxManaMultiplier, 1.10
+Quetzal.Expertise.DamageBonusPerBird, 1.5 ; at 100% expertise quetzal gets 12% bonus damage scale per bird
+Quetzal.Spirit.BirdBonusSpawnChance,  8.33 ; at 100% spirit quetzal gets 182% bonus bird spawn chance
+Quetzal.AutoAttack.DamageCoefficient, 0.50
+Quetzal.Autoattack.Spread, 0.4
+Quetzal.AutoAttack.Cooldown, 1.5
+Quetzal.AutoAttack.FlawlessStrikesMastery.Chance, 0.18
+Quetzal.AutoAttack.FlawlessStrikesMastery.DamageBonus, 2.00
+Quetzal.ViperStrike.DamageCoefficient, 1.17
+Quetzal.ViperStrike.Cooldown, 4.0
+Quetzal.ViperStrike.Spread, 0.4
+Quetzal.ViperStrike.ResourceGain, 1.0
+Quetzal.ViperStrike.ConjureBirdChance, 0.12
+Quetzal.WildTalons.DamageCoefficient, 1.04
+Quetzal.WildTalons.Cooldown, 12.0
+Quetzal.WildTalons.Spread, 0.4
+Quetzal.WildTalons.ResourceGain, 2.0
+Quetzal.WildTalons.ConjureBirdChance, 0.12
+Quetzal.WildTalons.MasteryAdditionalHaste, 2.0; ; Multiply Crit chance
+Quetzal.WildTalons.MasteryBuffDuration, 6.0
+Quetzal.WildTalons.MasteryBuffChance, 0.2 ; 
+Quetzal.SpiritStrike.DamageCoefficient, 2.07
+Quetzal.SpiritStrike.Cooldown, 6.0
+Quetzal.SpiritStrike.Spread, 0.4
+Quetzal.SpiritStrike.ResourceGain, 1.0
+Quetzal.SpiritStrike.ConjureBirdChance, 0.12
+Quetzal.ConjureBirds.NumBirdSpawns, 3
+Quetzal.ConjureBirds.Cooldown, 30
+Quetzal.OtomiTechnique.CooldownReductionPerBirdAttack, 0.00   ;depcrecated but can not remove because code calls it and crashes
+Quetzal.Backflip.DamageCoefficient, 7.75
+Quetzal.Backflip.Cooldown, 3.0
+Quetzal.Backflip.DaggerSpread, 0.4
+Quetzal.Backflip.ActiveBirdsRequired, 6 
+Quetzal.Backflip.MasteryCooldownReduction, 0.20
+Quetzal.Backflip.Mastery.ActiveBirdsRequired, 4 
+Quetzal.SpiritBird.Green.AutoCooldown, 30.0
+Quetzal.SpiritBird.Green.LifeDuration, 33.0 ; 3 extra seconds just to cover the final attack
+Quetzal.SpiritBird.Green.Spread, 0.4
+Quetzal.SpiritBird.Green.DamageCoefficient, 0.58
+Quetzal.SpiritBird.Green.MasteryDoTDamageCoefficient, 0.35
+Quetzal.SpiritBird.Green.MasteryDoTDuration, 6.15
+Quetzal.SpiritBird.Green.MasteryDoTPeriod, 0.75
+Quetzal.SpiritBird.Green.MasteryDamageScaleBonus, 0.00
+Quetzal.SpiritBird.Red.AutoCooldown, 30.0
+Quetzal.SpiritBird.Red.LifeDuration, 33.0 ; 3 extra seconds just to cover the final attack
+Quetzal.SpiritBird.Red.Spread, 0.4
+Quetzal.SpiritBird.Red.DamageCoefficient, 0.58
+Quetzal.SpiritBird.Blue.AutoCooldown, 30.0
+Quetzal.SpiritBird.Blue.LifeDuration, 33.0 ; 3 extra seconds just to cover the final attack
+Quetzal.SpiritBird.Blue.Spread, 0.4
+Quetzal.SpiritBird.Blue.DamageCoefficient, 0.58
+Quetzal.Vault.RechargeTime, 30.0
+Quetzal.Vault.Charges, 5
+Quetzal.Kick.Cooldown, 24.0
+Quetzal.Disperse.Duration, 5.0
+Quetzal.Disperse.Cooldown, 60.0
+Quetzal.ViperAssault.CastingDuration, 0.5
+Quetzal.ViperAssault.ConjureBirdChance, 1.0
+Quetzal.ViperAssault.DamageCoefficient, 7.75
+Quetzal.ViperAssault.Spread, 0.4
+Quetzal.ViperAssaultDoT.Period, 1.5
+Quetzal.ViperAssaultDoT.Duration, 12.15
+Quetzal.ViperAssaultDoT.DamageCoefficient, 8.48
+Quetzal.ViperAssaultDoT.Spread, 0.4
+Quetzal.TalonStorm.DamageCoefficient, 1.06
+Quetzal.TalonStorm.CastingDuration, 0.0
+Quetzal.TalonStorm.ChannelingDuration, 2.95
+Quetzal.TalonStorm.ChannelingTickInterval, 0.35
+Quetzal.TalonStorm.ConjureBirdChance, 0.0
+Quetzal.TalonStorm.Spread, 0.4
+Quetzal.SpiritDance.DamageCoefficient, 1.38
+Quetzal.SpiritDance.CastingDuration, 0.5
+Quetzal.SpiritDance.ConjureBirdChange, 0.0
+Quetzal.SpiritForm.Cooldown, 60.0
+Quetzal.SpiritForm.Duration, 8.0
+Quetzal.SpiritForm.BirdCountProcNeeded, 18
+Quetzal.MasterAcrobat.DodgeBonus, 0.10
+Quetzal.MasterAcrobat.MoveSpeedBonus, 0.10
+Quetzal.MasterAcrobat.DoubleBonusHealthThreshold, 0.3 ; bonusses are doubled at 30% health and below
+Quetzal.BenevolantSpirit.HealPercentage, 0.01
+Quetzal.BirdSwarm.Cooldown, 60.0
+Quetzal.BirdSwarm.Duration, 8.0
+HealerPriest.Expertise.LightsGuardChance,  0.50 	; 40% chance to apply to target 
+HealerPriest.Expertise.BaseLineAbsorb, 0.30 		; 5% of heal is added as absorb 
+HealerPriest.Expertise.AbsorbBonusPerExpertiseStat, 2.00 
+HealerPriest.Expertise.LightsGuardBuffDuration, 5
+HealerPriest.Spirit.ManaRefundChance, 0.00			; 0% chance of abilities's mana cost being partially refunded (a base mana percentage is refunded)
+HealerPriest.Spirit.RefundChancePerSpiritStat, 0.0
+HealerPriest.Spirit.BaseManaRefund, 0.00			; when mana is refunded with zero spirit it still refunds 100%
+HealerPriest.Spirit.RefundBonusPerSpiritStat, 0.00
+HealerPriest.AutoAttack.IntellectCoefficient, 0.50
+HealerPriest.Autoattack.Spread, 0.4
+HealerPriest.AutoAttack.Cooldown, 2.0
+HealerPriest.Condemn.IntellectDamageCoefficient, 1.17
+HealerPriest.Condemn.Spread, 0.4
+HealerPriest.Condemn.CastDuration, 1.5s
+HealerPriest.Condemn.ManaCost, 1.0
+HealerPriest.Condemn.IntoTheLightProcChance, 0.25
+HealerPriest.Condemn.MaxRange, 2400.0
+HealerPriest.HolyFervor.DamageAndHealBonusPerStack, 0.05
+HealerPriest.HolyFervor.Duration, 12.0
+HealerPriest.IntoTheLight.Duration, 10.00
+HealerPriest.GreaterHeal.IntellectCoefficient, 5.16
+HealerPriest.GreaterHeal.Spread, 0.4
+HealerPriest.GreaterHeal.ManaCost, 4.0
+HealerPriest.GreaterHeal.CastingTime, 1.5
+HealerPriest.GreaterHeal.IntoTheLightCritBonus, 1.00
+HealerPriest.GreaterHeal.HeavenlyJusticeProcChance, 0.25
+HealerPriest.GreaterHeal.MaxRange, 2400.0
+HealerPriest.HolyCircle.IntellectCoefficient, 3.57
+HealerPriest.HolyCircle.Spread, 0.4
+HealerPriest.HolyCircle.ManaCost, 6.0
+HealerPriest.HolyCircle.Cooldown, 10.0
+HealerPriest.HolyCircle.Radius, 360.0
+HealerPriest.HolyCircle.MaxRange, 2400.0
+HealerPriest.HolyCircle.IntoTheLightAreaScale, 1.5
+HealerPriest.HolyCircle.IntoTheLightManaCostMultiplier, 0.5
+HealerPriest.HolyCircle.HeavenlyJusticeProcChance, 0.25
+HealerPriest.HeavenlyJustice.Duration, 10.0
+HealerPriest.BlessedWard.Cooldown, 120.0
+HealerPriest.BlessedWard.SelfCastCooldown, 60.0
+HealerPriest.BlessedWard.ManaCost, 4.0
+HealerPriest.BlessedWard.DamageScale, 0.25
+HealerPriest.BlessedWard.Duration, 3.0
+HealerPriest.AvatarOfFaith.HealIntellectCoefficient, 4.09
+HealerPriest.AvatarOfFaith.HealSpread, 0.4
+HealerPriest.AvatarOfFaith.Cooldown, 120.0
+HealerPriest.AvatarOfFaith.ManaCost, 4.0
+HealerPriest.AvatarOfFaith.Duration, 4.5
+HealerPriest.AvatarOfFaith.Radius, 1800
+HealerPriest.AvatarOfFaith.MaxTargets, 4
+HealerPriest.AvatarOfFaith.Mastery.Cooldown, 30.0
+HealerPriest.AvatarOfFaith.Mastery.Duration, 2.5
+HealerPriest.RighteousBlast.DamageIntellectCoefficient, 2.34
+HealerPriest.RighteousBlast.DamageSpread, 0.4
+HealerPriest.RighteousBlast.HealingIntellectCoefficient, 2.34
+HealerPriest.RighteousBlast.HealingSpread, 0.4
+HealerPriest.RighteousBlast.Cooldown, 6.0
+HealerPriest.RighteousBlast.ManaCost, 3.0
+HealerPriest.RighteousBlast.HeavenlyJusticeBonusDamageScale, 1.0
+HealerPriest.RighteousBlast.MaxRange, 900.0
+HealerPriest.RighteousBlast.ConeAngle, 70.0
+HealerPriest.MarkOfPreservance.StatIncrease, 0.1
+HealerPriest.MarkOfPreservance.Duration, 180.0
+HealerPriest.MarkOfPreservance.ManaCost, 3.0
+HealerPriest.MarkOfPreservance.MaxRange, 2400.0
+HealerPriest.PurgeEvil.ManaCost, 4.0
+HealerPriest.PurgeEvil.Cooldown, 8.0
+HealerPriest.PurgeEvil.MaxRange, 2400.0
+HealerPriest.ConsecratedSteel.ManaCost, 6.0
+HealerPriest.ConsecratedSteel.Cooldown, 60.0
+HealerPriest.ConsecratedSteel.BuffDuration, 12.0
+HealerPriest.ConsecratedSteel.MasteryBuffDuration, 18.0
+HealerPriest.ConsecratedSteel.Radius, 900.0
+HealerPriest.ReturnToLife.ManaCost, 4.0
+HealerPriest.ReturnToLife.Cooldown, 300.0
+HealerPriest.ReturnToLife.CastingTime, 3.0
+HealerPriest.ReturnToLife.MaxRange, 2400.0
+HealerPriest.SanctifiedGround.DamageMultiplier, 0.75
+HealerPriest.SanctifiedGround.ManaCost, 5.0
+HealerPriest.SanctifiedGround.Duration, 12.15
+HealerPriest.SanctifiedGround.Cooldown, 180.0
+HealerPriest.SanctifiedGround.MasteryDamage.IntellectCoefficientPerPulse, 0.82 ;  adds up to 840% over 12 seconds 
+HealerPriest.SanctifiedGround.MasteryDamage.Spread, 0.4
+HealerPriest.SanctifiedGround.MasteryDamage.PulseRate, 1.0 ; once a second 
+HealerPriestess.DivineSteel.ManaCost, 3.0								; ABILITY DEPRECATED
+HealerPriestess.DivineSteel.Duration, 10.0								; ABILITY DEPRECATED
+HealerPriestess.DivineSteel.Cooldown, 4.0								; ABILITY DEPRECATED
+HealerPriestess.DivineSteel.HolyDamageFactor, 0.15						; ABILITY DEPRECATED
+HealerPriestess.Prayer.ManaRegenRate, 0.10								; ABILITY DEPRECATED
+HealerPriestess.Prayer.ChannelDuration, 9.15							; ABILITY DEPRECATED
+HealerPriestess.Prayer.ChannelTickInterval, 1.0							; ABILITY DEPRECATED
+HealerPriestess.Prayer.Cooldown, 120.0									; ABILITY DEPRECATED
+HealerPriestess.DivineIntervention.IntellectCoefficientPerTick, 1.22		; ABILITY DEPRECATED
+HealerPriestess.DivineIntervention.ChannelDuration, 5.0					; ABILITY DEPRECATED
+HealerPriestess.DivineIntervention.TickPeriod, 0.5						; ABILITY DEPRECATED
+HealerPriestess.DivineIntervention.Cooldown, 300.0						; ABILITY DEPRECATED
+HealerVamp.AutoAttack.IntellectCoefficient, 1.0
+HealerVamp.Autoattack.Spread, 0.4
+HealerVamp.AutoAttack.Cooldown, 1.5
+HealerVamp.AutoAttack.LifeSteal, 0.4
+HealerVamp.BloodLash.IntellectCoefficient, 1.3
+HealerVamp.BloodLash.Spread, 0.4
+HealerVamp.BloodLash.Cooldown, 5.0
+HealerVamp.BloodLash.LifeSteal, 0.4
+HealerVamp.SanguineMark.IntellectCoefficient, 3.0
+HealerVamp.SanguineMark.Spread, 0.4
+HealerVamp.SanguineMark.Cooldown, 15.0
+HealerVamp.SanguineMark.LifeSteal, 0.4
+HealerVamp.SanguineMark.ReflectHealing, 0.2
+HealerVamp.SanguineMark.Duration, 8.0
+HealerVamp.Transfusion.IntellectCoefficient, 3.8
+HealerVamp.Transfusion.Spread, 0.4
+HealerVamp.Transfusion.HpCostfactor, 1.14
+HealerVamp.Transfusion.CastingDuration, 2.5
+HealerVamp.NosferatusGift.IntellectCoefficient, 3.8
+HealerVamp.NosferatusGift.Spread, 0.4
+HealerVamp.NosferatusGift.HpCostFactor, 2.28
+HealerVamp.NosferatusGift.CastingDuration, 0.0
+HealerVamp.BloodBarrier.Duration, 10.0
+HealerVamp.BloodBarrier.HpCostFactor, 0.3
+HealerVamp.BloodBarrier.AbsorbMultiplier, 3.0		;multiplier on the HpCostFactor * MaxHealth
+HealerVamp.BloodBarrier.Cooldown, 12.0
+HealerVamp.ShadowStalk.HpCost, 0.0
+HealerVamp.ShadowStalk.Cooldown, 20.0
+HealerVamp.Feast.HpCost, 0.0
+HealerVamp.Feast.Cooldown, 24.0
+HealerVamp.Feast.IntellectCoefficient, 6.0
+HealerVamp.Feast.Spread, 0.4
+HealerVamp.Feast.LifeSteal, 1.0
+HealerVamp.DarkGift.Cooldown, 30.0
+HealerVamp.DarkGift.LifeSteal, 0.2
+HealerVamp.DarkGift.Duration, 10.0
+HealerVamp.DarkRebirth.Countdown, 3.0
+HealerVamp.DarkRebirth.Cooldown, 120.0
+HealerVamp.DarkRebirth.RevivedHealthPercentage, 1.0
+Firemage.SpiritProc.ResourceRefund.FlatSpiritPointGain, 1.0
+Firemage.PlacedProjectileAoeCooldownReset.FromCastedDotDetonate.ProcChance, 0.1	; DEPRECATED!
+Firemage.FreeCastedSingleDot.FromCastedDotBoostProjectile.ProcChance, 0.15
+Firemage.Expertise.BaseDot.DamageScaleExpertiseFactor, 1.0 ; DEPRECATED!
+Firemage.Expertise.CastedDotDetonate.DamageScaleExpertiseFactor, 1.0
+Firemage.FireBombs.ResourcePerOrb, 100.0
+Firemage.Talent.FireFrogOnDotCrit.ProcChance, 0.08
+Firemage.Talent.FireFrogOnDotCrit.NumFrogs, 1.0
+Firemage.Talent.IncreasedDotCritChance.CritChanceIncrease, 0.20
+Firemage.Talent.ReducedMagicDamage.IncomingMagicDamageScaler, 0.9
+Firemage.Talent.DotDoubleDamageAndHeal.Chance, 0.04
+Firemage.Talent.DotDoubleDamageAndHeal.CritChanceAdded, 1.00
+Firemage.Talent.DotDoubleDamageAndHeal.HealTargetingRadius, 3000.0
+Firemage.Talent.DotDoubleDamageAndHeal.DamageToHealRatio, 0.50
+Firemage.Talent.ReducedAoeDamage.AvoidanceIncrease, 0.1
+Firemage.BaseDots.Talent.AdditionalResourceGenerationChance.Increase, 1.25
+Firemage.FireFrog.Ability.MaxRange, 3000.0
+Firemage.FireFrog.Ability.NumFrogs, 5.00
+Firemage.FireFrog.Ability.Cooldown, 45.0
+Firemage.FireFrog.Ability.Talent.ExtraFrogs.NumExtraFrogs, 1.0
+Firemage.FireFrog.Ability.Talent.ExtraFrogs.NumExtraFrogLeaps, 1.0
+Firemage.FireFrog.Ability.Talent.BonusDotDamage.DamageScale, 1.20
+Firemage.FireFrogs.Talent.BonusFireToad.NumToads, 1.0
+Firemage.FireFrogs.Ability.Talent.FireToad.Aoe.Radius, 700.0
+Firemage.FireFrogs.Ability.Talent.FireToad.SpawnChance, 0.15
+Firemage.FireFrogs.Ability.Talent.FireToad.DamageScaler, 8.0
+Firemage.FireFrogs.Ability.Talent.FireToad.TargetCountDamageScalingThreshold, 1
+Firemage.FireFrogs.Ability.Talent.DirectDamageIncrease.DamageScale, 1.1
+Firemage.FireFrog.BatchFrogSpawn.MinSpreadDelay, 0.1
+Firemage.FireFrog.BatchFrogSpawn.MaxSpreadDelay, 0.2
+Firemage.FireFrog.InitialTargetVolumeHeight, 200.0
+Firemage.FireFrog.InitialTargetVolumeRadius, 500.0
+Firemage.FireFrog.MaxNumAttacks, 3.0
+Firemage.FireFrog.DirectDamage.DamageIntellectCoefficient, 0.7315
+Firemage.FireFrog.Dot.DamageDoneToDotDamageScaler, 1.00
+Firemage.FireFrog.Dot.Duration, 12.0
+Firemage.FireFrog.Dot.Period, 3.0
+Firemage.FireFrog.Movement.MaxTargetingHeight, 200.0
+Firemage.FireFrog.Movement.MaxTargetingRadius, 3000.0
+Firemage.FireFrog.Movement.MaxAttackRange, 400.0
+Firemage.FireFrog.Movement.MinJumpPeriod, 0.3
+Firemage.FireFrog.Movement.MaxJumpPeriod, 0.7
+Firemage.FireFrog.Movement.JumpDuration, 0.3
+Firemage.FireFrog.Movement.MinJumpLength, 280.0
+Firemage.FireFrog.Movement.MaxJumpLength, 320.0
+Firemage.FireFrog.Movement.JumpHeight, 120.0
+Firemage.InstantSingleDisorient.MaxRange, 3000.0
+Firemage.InstantSingleDisorient.Cooldown, 24.0
+Firemage.InstantSingleDisorient.DebuffDuration, 30.0
+Firemage.InstantSingleDisorient.Damage.IntellectCoefficient, 1.31
+Firemage.InstantSingleDotDuplication.MaxRange, 3000.0														; Ability was replaced with InstantDoubleDotBuff
+Firemage.InstantSingleDotDuplication.Cooldown, 90.0															; Ability was replaced with InstantDoubleDotBuff
+Firemage.InstantSingleDotDuplication.SpreadRadius, 1000.0													; Ability was replaced with InstantDoubleDotBuff 
+Firemage.InstantSingleDotDuplication.MaxNumSpreads, 2.0														; Ability was replaced with InstantDoubleDotBuff
+Firemage.CastedDotBoostProjectile.Talent.ReduceCooldownOfInstantDoubleDot.ReductionInSeconds, 0.2			; Ability was replaced with InstantDoubleDotBuff
+Firemage.CastedDotBoostProjectile.Talent.ReduceCooldownOfInstantDoubleDot.OnCritReductionInSeconds, 0.4		; Ability was replaced with InstantDoubleDotBuff
+Firemage.InstantDoubleDotSelfBuff.Cooldown, 60.0
+Firemage.InstantDoubleDotSelfBuff.BuffDuration, 7.0
+Firemage.InstantDoubleDotSelfBuff.InstantCastedSingleDot.MainTargetBonus.DamageIntellectCoefficient, 0.85
+Firemage.InstantDoubleDotSelfBuff.InstantCastedSingleDot.MainTargetBonus.BombReward, 0.15
+Firemage.InstantDoubleDotSelfBuff.Talent.CastedSingleDotDamageReducesCooldown.ReductionInSeconds, 0.10
+Firemage.InstantDoubleDotSelfBuff.Talent.CastedSingleDotDamageReducesCooldown.OnCritReductionInSeconds, 0.10
+Firemage.InstantDoubleDotSelfBuff.Talent.AdditionalHitDamageIncreased, 1.40
+Firemage.CastedSingleDot.MaxRange, 3000.0
+Firemage.CastedSingleDot.CastTime, 1.50
+Firemage.CastedSingleDot.Duration, 18.0
+Firemage.CastedSingleDot.Period, 3.0
+Firemage.CastedSingleDot.DamageIntellectCoefficient, 0.684
+Firemage.CastedSingleDot.TickChanceToAddResource, 0.20
+Firemage.CastedSingleDot.TickResourceRewardFractionOfBomb, 0.07
+Firemage.CastedSingleDot.Talent.ExtendedDuration.DurationIncrease, 3.0
+Firemage.CastedSingleDot.Talent.IncreasedDamage.DamageScaler, 1.15
+Firemage.CastedSingleDot.Talent.InstantCastedSingleDot.MainTargetBonus.DamageIntellectCoefficient, 2.03
+Firemage.CastedSingleDot.Talent.InstantCastedSingleDot.MainTargetBonus.BombReward, 0.45
+Firemage.InstantSingleTargetDot.MaxRange, 3000.0                                    ; THIS IS THE NEW INSTANT DOT!
+Firemage.InstantSingleTargetDot.DotDuration, 24.0         				;old 36                                          
+Firemage.InstantSingleTargetDot.DotPeriod, 2.0
+Firemage.InstantSingleTargetDot.IntellectCoefficientPerTick, 0.681		;old 033
+Firemage.InstantSingleTargetDot.TickChanceToAddResource, 1.0
+Firemage.InstantSingleTargetDot.TickResourceRewardFractionOfBomb, 0.01	;old 007
+Firemage.InstantSingleTargetDot.Talent.StackingBoost.StackGainPeriod, 1.0   ;deprecated
+Firemage.InstantSingleTargetDot.Talent.StackingBoost.PerStackDamageIncrease, 0.04
+Firemage.CastedSingleHeavyDot.MaxRange, 3000.0
+Firemage.CastedSingleHeavyDot.CastTime, 1.5
+Firemage.CastedSingleHeavyDot.Cooldown, 20.0
+Firemage.CastedSingleHeavyDot.Duration, 9.0
+Firemage.CastedSingleHeavyDot.Period, 1.5
+Firemage.CastedSingleHeavyDot.DamageIntellectCoefficient, 1.729
+Firemage.CastedSingleHeavyDot.TickChanceToAddResource, 1.00
+Firemage.CastedSingleHeavyDot.TickResourceRewardFractionOfBomb, 0.05
+Firemage.CastedSingleHeavyDot.Talent.InstantSingleDotReducesCooldown.ReductionInSeconds, 0.25
+Firemage.CastedSingleHeavyDot.Talent.CastedDotBoostProjectileReducesCooldown.ReductionInSeconds, 1.0
+Firemage.CastedSingleHeavyDot.Talent.Charges.NumCharges, 2.0
+Firemage.CastedSingleHeavyDot.Talent.BoostsIncomingDamage.DamageMultiplier, 1.08
+Firemage.CastedDotDetonate.BombCost, 1.0
+Firemage.CastedDotDetonate.CastTime, 1.5
+Firemage.CastedDotDetonate.InitialDelay, 0.5
+Firemage.CastedDotDetonate.PerTargetHitDelay, 0.4
+Firemage.CastedDotDetonate.NumHitsPerTarget, 3.0
+Firemage.CastedDotDetonate.BetweenHitDelay, 0.3
+Firemage.CastedDotDetonate.DotNormalizedSoakedDurationDamageScaleMax, 2.5	;not used old
+Firemage.CastedDotDetonate.CustomGlobalCooldownDuration, 1.0
+Firemage.CastedDotDetonate.DamageScalingTargetCountThreshold, 1.0
+Firemage.CastedDotDetonate.DotDamageSampleDuration, 2.5
+Firemage.CastedDotDetonate.Talent.ExtraDamageAgainstLowHealthEnemy.DamageScaler, 1.50
+Firemage.CastedDotDetonate.Talent.ExtendsInstantSingleTargetDot.DurationExtension, 1.5
+Firemage.InstantDotSpread.MaxRange, 6000.0
+Firemage.InstantDotSpread.SpreadRadius, 1000.0
+Firemage.InstantDotSpread.SpreadMaxTargets, 10.0
+Firemage.InstantDotSpread.Cooldown, 45.0
+Firemage.InstantDotSpread.DotBonus.MaxRange, 5000.0 ; DEPRECATED!
+Firemage.InstantDotSpread.DotBonus.TickPeriodScaler, 1.20  ;left is actual multiplier on tick rate
+Firemage.InstantDotSpread.DotBonus.Duration, 9.0
+Firemage.InstantDotSpread.Talent.ProcInstantDotSpread.PPM, 1.5
+Firemage.InstantDotSpread.Talent.ProcInstantDotSpread.BuffDuration, 6.0
+Firemage.InstantDotSpread.Talent.SpiritAndCritBuff.SpiritIncrease, 0.30
+Firemage.InstantDotSpread.Talent.SpiritAndCritBuff.CritChanceIncrease, 0.30
+Firemage.CastedDotBoostProjectile.MaxRange, 3000.0
+Firemage.CastedDotBoostProjectile.CastTime, 1.5
+Firemage.CastedDotBoostProjectile.DirectDamage.IntellectCoefficient, 1.47
+Firemage.CastedDotBoostProjectile.DotDurationIncrease, 1.0
+Firemage.CastedDotBoostProjectile.ResourceRewardFractionOfBomb, 0.40
+Firemage.CastedDotBoostProjectile.Talent.DamageIncreaseFromDots.DamageIncreasePerDot, 0.15
+Firemage.CastedDotBoostProjectile.Talent.DamageIncreaseFromDots.DamageIncreaseMax, 2.20
+Firemage.CastedDotBoostProjectile.Talent.ReducedCastTime.Reduction, 0.5
+Firemage.CastedDotBoostProjectile.Talent.DamageSpreadToCastedSingleDot.MaxRadius, 1500.0
+Firemage.CastedDotBoostProjectile.Talent.DamageSpreadToCastedSingleDot.DamageFraction, 0.50
+Firemage.CastedDotBoostProjectile.Talent.DamageSpreadToCastedSingleDot.TargetCountThreshhold, 3.0
+Firemage.CastedDotBoostProjectile.Talent.IncreasedCritChance, 0.20
+Firemage.CastedDotBoostProjectile.Talent.CastedDotBoostProjectileBonusBuff.BuffDuration, 12.0
+Firemage.CastedDotBoostProjectile.Talent.CastedDotBoostProjectileBonusBuff.DamageScaler, 1.00
+Firemage.CastedDotBoostProjectile.Talent.CritsApplyDot.DamageDoneToDotDamageScaler, 0.60
+Firemage.CastedDotBoostProjectile.Talent.CritsApplyDot.DotDuration, 24.0
+Firemage.CastedDotBoostProjectile.Talent.CritsApplyDot.TickPeriod, 3.0
+Firemage.PlacedProjectileAoe.MaxRangeHorizontal, 3000.0
+Firemage.PlacedProjectileAoe.MaxRangeUp, 1500.0
+Firemage.PlacedProjectileAoe.MaxRangeDown, 3000.0
+Firemage.PlacedProjectileAoe.Cooldown, 30.0
+Firemage.PlacedProjectileAoe.ProjectileDuration, 1.0
+Firemage.PlacedProjectileAoe.AoeRadius, 500.0
+Firemage.PlacedProjectileAoe.AoeAddedDotStackAmount, 1.0 ;; DEPRECATED !
+Firemage.PlacedProjectileAoe.AoeDamageIntellectCoefficient, 6.156			;old 390
+Firemage.PlacedProjectileAoe.DamageScalingTargetCountThreshold, 5.0
+Firemage.PlacedProjectileAoe.Talent.PlacedProjectileAoeHasCharges.NumCharges, 2.0
+Firemage.PlacedProjectileAoe.Talent.PlacedProjectileAoeHasCharges.CastedDotDetonateChargeRecoveryProc.PPM, 1.5
+Firemage.PlacedProjectileAoe.Talent.PlacedProjectileAoeHasCharges.CastedDotDetonateChargeRecoveryProc.CritChanceIncrease, 1.00	; override currently
+Firemage.PlacedProjectileAoe.Talent.PlacedProjectileAoeHasCharges.CastedDotDetonateChargeRecoveryProc.BuffDuration, 12.0	
+Firemage.PlacedProjectileAoe.Talent.PlacedProjectileAoeDamageBonus.DirectDamageScale, 1.60
+Firemage.PlacedProjectileAoe.Talent.CooldownReductionToApocalypse.ReductionInSeconds, 8.0
+Firemage.PlacedProjectileAoe.DotDuration, 12.0				;old 9
+Firemage.PlacedProjectileAoe.DotPeriod, 2.0					;old 1 and 5
+Firemage.PlacedProjectileAoe.DamageDoneToDotDamageScaler, 0.20		;old 040
+Firemage.PlacedProjectileAoe.DotIntellectCoefficientPerTick, 0.35	;now uses passive to add damage based on initial hit
+Firemage.PlacedProjectileAoe.DotTickChanceToAddResource, 0.50
+Firemage.PlacedProjectileAoe.DotTickResourceRewardFractionOfBomb, 0.02	;old 010
+Firemage.InstantSingleInterrupt.MaxRange, 3000.0
+Firemage.InstantSingleInterrupt.Cooldown, 20.0
+Firemage.DashForward.RechargeTime, 25.0
+Firemage.DashForward.DashDistance, 1000.0
+Firemage.DashForward.DashSpeed, 3000.0 ; ie DashDistance in 0.33s
+Firemage.DashForward.NumCharges, 2.0
+Firemage.SelfDefenceBuff.Duration, 4.0
+Firemage.SelfDefenceBuff.Cooldown, 30.0
+Firemage.SelfDefenceBuff.IncomingDamageScaler, 0.6
+Firemage.SelfDefenceBuff.Talent.AbsorbFromSelfDefenceBuff.AbsorbMaxHealthFraction, 0.30
+Firemage.SelfDefenceBuff.Talent.AbsorbFromSelfDefenceBuff.AbsorbDuration, 6.0
+Firemage.SelfDefenceBuff.Talent.AdditionalDuration.AddedDurationInSeconds, 2.0
+Firemage.ChanneledForwardAoeDamage.CastTime, 1.5
+Firemage.ChanneledForwardAoeDamage.Duration, 2.5
+Firemage.ChanneledForwardAoeDamage.TickInterval, 0.5
+Firemage.ChanneledForwardAoeDamage.Length, 1200.0
+Firemage.ChanneledForwardAoeDamage.Radius, 300.0
+Firemage.ChanneledForwardAoeDamage.IntellectCoefficient, 3.37
+Firemage.ChanneledForwardAoeDamage.TargetCountDamageScalingThreshold, 8.0
+Firemage.ChanneledForwardAoeDamage.SpiritCost, 100.0
+Firemage.ChanneledForwardAoeDamage.ResourceGainPerTickInBombFractions, 0.0
+Firemage.ChanneledForwardAoeDamage.DotDurationIncrease, 1.5
+Firemage.ChanneledForwardAoeDamage.DotDuration, 12.0
+Firemage.ChanneledForwardAoeDamage.DotPeriod, 3.0
+Firemage.ChanneledForwardAoeDamage.DotIntellectCoefficientPerTick, 0.41
+Firemage.ChanneledForwardAoeDamage.DotTickChanceToAddResource, 0.0
+Firemage.ChanneledForwardAoeDamage.DotTickResourceRewardFractionOfBomb, 0.0
+Firemage.ChanneledForwardAoeDamage.DamageScalePerStack, 0.30
+Firemage.CastedPlacedAoe.Radius, 1000.0
+Firemage.CastedPlacedAoe.MaxRangeHorizontal, 3000.0
+Firemage.CastedPlacedAoe.MaxRangeUp, 2000.0
+Firemage.CastedPlacedAoe.MaxRangeDown, 3000.0
+Firemage.CastedPlacedAoe.CastTime, 3.0
+Firemage.CastedPlacedAoe.Damage.IntellectCoefficient, 22.03
+Firemage.CastedPlacedAoe.Damage.DamageScalingTargetCountThreshold, 1.0
+Firemage.CastedPlacedAoe.Cooldown, 60.0
+Firemage.CastedPlacedAoe.CooldownReductionFromCastedDotDetonate, 0.0
+Firemage.CastedPlacedAoe.Talent.StunAndCooldownReduction.StunDuration, 3.0
+Firemage.CastedPlacedAoe.Talent.StunAndCooldownReduction.PerHitCooldownReduction, 2.0
+Firemage.CastedPlacedAoe.Talent.StunAndCooldownReduction.MaxCooldownReduction, 30.0
+Firemage.CastedPlacedAoe.Talent.OutputScaling.ResultMin, 1.0
+Firemage.CastedPlacedAoe.Talent.OutputScaling.ResultMax, 2.5
+Firemage.CastedPlacedAoe.Talent.OutputScaling.FactorDivider, 1500
+Firemage.InstantMultiTargetDot.MaxRange, 3000.0
+Firemage.InstantMultiTargetDot.Cooldown, 90.0
+Firemage.InstantMultiTargetDot.SpreadRadius, 1000.0
+Firemage.InstantMultiTargetDot.MaxNumSpreads, 2.0
+Mosse.SpiritProc.ResourceRefund.SecondaryEffect.MaxManaFractionForTrigger, 0.04
+Mosse.SpiritProc.ResourceRefund.FlatSpiritPointGain, 1.0
+Mosse.Passive.PartyStaminaBuff.StaminaMultiplier, 1.20
+Mosse.Passive.PartyStaminaBuff.Radius, 8000.0
+Mosse.Passive.HealingMushroomPlacement.LifeTime, 20.0 ; NEW -----------------------------------
+Mosse.Passive.HealingMushroomPlacement.SpawnChance, 0.12
+Mosse.Passive.HealingMushroomPlacement.Heal.IntellectCoefficient, 2.17
+Mosse.Passive.HealingMushroomPlacement.Heal.Spread, 0.1
+Mosse.Passive.HealingMushroomPlacement.Hot.IntellectCoefficient, 0.5
+Mosse.Passive.HealingMushroomPlacement.Hot.Spread, 0.1
+Mosse.Passive.HealingMushroomPlacement.Hot.TickInterval, 1.0
+Mosse.Passive.HealingMushroomPlacement.Hot.Duration, 8.0
+Mosse.Passive.HealingMushroomPlacement.MushroomActivationDelay, 0.5				; The time it takes until the mushrooms can be soaked from after they have spawned
+Mosse.Passive.HealingMushroomPlacement.FurthestSpawnDistanceFromTarget, 100.0	; HitVolumeRadius + FurthestSpawnDistanceFromTarget
+Mosse.SingleTargetCastedDamageReduction.Duration, 12.0
+Mosse.SingleTargetCastedDamageReduction.DamageMultiplier, 0.80
+Mosse.SingleTargetCastedDamageReduction.Cooldown, 60.0
+Mosse.SingleTargetCastedDamageReduction.ManaCost, 63.0
+Mosse.ProjectileTurret.Duration, 27.0
+Mosse.ProjectileTurret.MaxRange, 6000.0
+Mosse.ProjectileTurret.FiringPeriod, 3.0
+Mosse.ProjectileTurret.MaxNumAdditionalTargets, 2.0
+Mosse.ProjectileTurret.AdditionalTargetMaxDistance, 700.0
+Mosse.ProjectileTurret.SpawnDuration, 1.0
+Mosse.ProjectileTurret.DamageIntellectCoefficient, 0.69
+Mosse.ProjectileTurret.DamageSpread, 0.1
+Mosse.ProjectileTurret.TurretRadius, 30.0
+Mosse.ProjectileTurrets.Cooldown, 9.0
+Mosse.ProjectileTurrets.NumTurrets, 1.0
+Mosse.ProjectileTurrets.MaxRange, 4000.0
+Mosse.ProjectileTurrets.ManaCost, 18.0
+Mosse.ProjectileTurret.Talent.DamageIncreasePerPinkButterfly.DamageIncrease, 0.12
+Mosse.MeleeAutoAttack.IntellectCoefficient, 0.4
+Mosse.MeleeAutoAttack.Spread, 0.1
+Mosse.MeleeAutoAttack.MaxRange, 500
+Mosse.TurretChannelHeal.MaxRange, 3000.0
+Mosse.TurretChannelHeal.TurretChannelDuration, 10.0
+Mosse.TurretChannelHeal.ManaCost, 77.0
+Mosse.TurretChannelHeal.Cooldown, 45.0 ; OLD
+Mosse.TurretChannelHeal.Debuff.OutgoingDamageScale, 0.8
+Mosse.TurretChannelHeal.Talent.FocusTargetIncreasedDamage.DamageMultiplier, 2.50
+Mosse.TurretChannelHeal.Talent.ReducedSpeedAoeDebuff.MovementSpeedDivider, 1.5	; Divide when using reduction
+Mosse.TurretChannelHeal.Talent.ReducedSpeedAoeDebuff.AttackSpeedDivider, 1.2	; Divide when using reduction
+Mosse.TurretChannelHeal.Talent.ReducedSpeedAoeDebuff.Radius, 700.0
+Mosse.DurationalAoeHealPlacement.LeftDistance, 150	; Negative values will change to right location
+Mosse.DurationalAoeHealPlacement.ForwardDistance, 150	; Negative values will change to back location 
+Mosse.DurationalAoeHealPlacement.Radius, 4000
+Mosse.DurationalAoeHealPlacement.TickInterval, 2.0
+Mosse.DurationalAoeHealPlacement.Duration, 16.0
+Mosse.DurationalAoeHealPlacement.AccumulatedHealScalar, 0.075 ; multiplier of total accumulated HoT that is added as a heal
+Mosse.DurationalAoeHealPlacement.ManaCost, 128.0
+Mosse.DurationalAoeHealPlacement.Cooldown, 45.0
+Mosse.DurationalAoeHealPlacement.Talent.ReducedManaCost, 0.75
+Mosse.DurationalAoeHealPlacement.Talent.OverhealGivesAbsorb.OverhealScaler, 0.75
+Mosse.DurationalAoeHealPlacement.Talent.OverhealGivesAbsorb.MaxAbsorbMainStatFraction, 12.32
+Mosse.DurationalAoeHealPlacement.Talent.OverhealGivesAbsorb.AbsorbBuffDuration, 15.0
+Mosse.DurationalAoeHealPlacement.Talent.OverhealGivesAbsorb.DamageScaler, 0.90
+Mosse.DurationalAoeHealPlacement.Talent.Charges.MaxCharges, 2.0
+Mosse.DurationalAoeHealPlacement.Talent.Charges.AccumulatedHealScaler, 0.05
+Mosse.DurationalAoeHealPlacement.Talent.DamageAccumulation.SingleTargetAccumulationMultiplier, 2.0
+Mosse.DurationalAoeHealPlacement.Talent.DamageAccumulation.MultiTargetAccumulationMultiplier, 0.5
+Mosse.CastedSingleTargetHeal.Range, 3000.0
+Mosse.CastedSingleTargetHeal.IntellectCoefficient, 8.18
+Mosse.CastedSingleTargetHeal.Spread, 0.1
+Mosse.CastedSingleTargetHeal.CastTime, 1.50
+Mosse.CastedSingleTargetHeal.ManaCost, 80.0
+Mosse.CastedSingleTargetHeal.Cooldown, 12.0
+Mosse.CastedSingleTargetHeal.Talent.InstantHealProcc.Duration, 20.0		;infinite for now
+Mosse.CastedSingleTargetHeal.Talent.InstantHealProcc.PPM, 3.0
+Mosse.CastedSingleTargetHeal.Talent.InstantHealProcc.ManaCostReductionMultiplier, 0.50
+Mosse.CastedSingleTargetHeal.Talent.InstantHealProcc.HealMultiplier, 1.20
+Mosse.CastedSingleTargetHeal.Talent.IncreasedHealYellowButterfly.HealMultiplier, 1.10
+Mosse.CastedSingleTargetHeal.Talent.IncreasedHealYellowButterfly.ButterflyPPM, 2
+Mosse.CastedSingleTargetHeal.Talent.IncreasedHealOnLowHealthTarget.HealMultiplier, 1.25
+Mosse.SingleTargetDispel.Range, 3000.0
+Mosse.SingleTargetDispel.ManaCost, 82.0
+Mosse.SingleTargetDispel.Cooldown, 6.0
+Mosse.CastedSingleTargetProjectile.IntellectCoefficient, 2.04
+Mosse.CastedSingleTargetProjectile.Spread, 0.10
+Mosse.CastedSingleTargetProjectile.Range, 3000.0
+Mosse.CastedSingleTargetProjectile.CastTime, 1.5
+Mosse.CastedSingleTargetProjectile.ManaCost, 4.0
+Mosse.CastedSingleTargetProjectile.HealTotemCooldownReduction.CooldownReductionInSecondsDamage, 1.5
+Mosse.CastedSingleTargetProjectile.HealTotemCooldownReduction.CooldownReductionInSecondsCrit, 3.0
+Mosse.CastedSingleTargetProjectile.Talent.ButterflyHealProc.PPM, 2.0
+Mosse.CastedSingleTargetProjectile.Talent.ButterflyHealProc.CritChanceAdder, 4.0 ; Everything above 1.0 will be a crit
+Mosse.CastedSingleTargetProjectile.Talent.ButterflyHealProc.PassiveDamageMultiplier, 1.40
+Mosse.CastedSingleTargetProjectile.Talent.DamageToMana.ManaGainOfMaxMana, 0.01
+Mosse.SingleTargetDot.IntellectCoefficient, 0.54
+Mosse.SingleTargetDot.Spread, 0.1
+Mosse.SingleTargetDot.Range, 3000.0
+Mosse.SingleTargetDot.TickInterval, 2.0
+Mosse.SingleTargetDot.Duration, 24.0
+Mosse.SingleTargetDot.ManaCost, 18.0
+Mosse.SingleTargetDot.ProjectileTurret.SpawnChancePerDotTick, 0.00		;0 until moved to talent potentially
+Mosse.CastedAoeDot.Range, 3000
+Mosse.CastedAoeDot.MaxAdditionalTargets, 5.0
+Mosse.CastedAoeDot.AdditionalTargetsMaxRange, 500
+Mosse.CastedAoeDot.IntellectCoefficient, 0.75
+Mosse.CastedAoeDot.Spread, 0.1
+Mosse.CastedAoeDot.CastTime, 2.0
+Mosse.CastedAoeDot.TickInterval, 2.0
+Mosse.CastedAoeDot.Duration, 12.0
+Mosse.CastedAoeDot.ManaCost, 21.0
+Mosse.CastedAoeDot.Cooldown, 25.0
+Mosse.BlueButterfly.MaxRange, 3000.0
+Mosse.BlueButterfly.ManaCost, 18.0
+Mosse.BlueButterfly.TargetBuff.HotHealScaler, 2.00
+Mosse.BlueButterfly.SelfBuff.HotHealScaler, 1.50
+Mosse.BlueButterfly.SelfBuff.ManaCostScaler, 0.80
+Mosse.BlueButterfly.Talent.BlueFlutterflyTargetBonus.PassiveBonusMoveSpeed, 1.10
+Mosse.BlueButterfly.Talent.BlueFlutterflyTargetBonus.BonusDamageReduction, 0.95
+Mosse.PinkButterfly.IncreasedHealPerVine.HealMultiplierPerVine, 0.03
+Mosse.PinkButterfly.Simple.MaxRange, 3000.0
+Mosse.PinkButterfly.Simple.HotIntellectCoefficientPerTick, 1.65
+Mosse.PinkButterfly.Simple.HotTickPeriod, 3.0
+Mosse.PinkButterfly.Simple.Spread, 0.2
+Mosse.PinkButterfly.Simple.ManaCost, 49.0
+Mosse.PinkButterfly.Simple.Talent.IncreasedTickSpeed.Duration, 12.0
+Mosse.PinkButterfly.Simple.Talent.IncreasedTickSpeed.TickPeriodIncrease, 2.0
+Mosse.PinkButterfly.Simple.Talent.CastedMulti.MaxTargets, 4.0
+Mosse.PinkButterfly.Simple.Talent.CastedMulti.Radius, 4000.0
+Mosse.PinkButterfly.Simple.Talent.CastedMulti.CastDuration, 1.5
+Mosse.PinkButterfly.Simple.Talent.CastedMulti.ManaMultiplier, 2.0
+Mosse.PinkButterfly.Simple.Talent.HealingBonusToPinkSimple, 1.50
+Mosse.PinkButterfly.Double.MaxRange, 3000.0
+Mosse.PinkButterfly.Double.ChargeUpDuration, 2.0
+Mosse.PinkButterfly.Double.ManaCost, 71.0
+Mosse.PinkButterfly.Double.FlashHeal.IntellectCoefficient, 7.112 
+Mosse.PinkButterfly.Double.FlashHeal.Spread, 0.2
+Mosse.PinkButterfly.Double.Hot.Duration, 15.0
+Mosse.PinkButterfly.Double.Hot.IntellectCoefficientPerTick, 0.87
+Mosse.PinkButterfly.Double.Hot.TickPeriod, 1.5
+Mosse.PinkButterfly.Double.Hot.Spread, 0.2
+Mosse.PinkButterfly.Double.Talent.IncreasedHotDuration.AdditionalSeconds, 9.0
+Mosse.PinkButterfly.Double.Talent.IncreasedCriticalStrikeChance, 0.50
+Mosse.PinkButterfly.Double.Talent.MaxHealthIncreaseOnCrit.MaxHealthScaler, 1.10
+Mosse.SharedHealthBuff.Duration, 12.0			; Spirit Ability
+Mosse.SharedHealthBuff.SyncInterval, 1.5
+Mosse.SharedHealthBuff.SpiritCost, 100.0
+Mosse.SharedHealthBuff.NumOfTurrets, 6.0
+Mosse.YellowButterflies.PlantAbilityPPM, 3.00
+Mosse.YellowButterflies.IntellectCoefficient, 0.16
+Mosse.YellowButterflies.Spread, 0.1
+Mosse.YellowButterflies.TickInterval, 2.0
+Mosse.YellowButterflies.Duration, 20.0
+Mosse.YellowButterflies.Talent.MoveToLowestHealth.IncreasedCriticalChance, 0.20  ;flat added crit percent
+Mosse.PlacedAoeBuff.Radius, 800
+Mosse.PlacedAoeBuff.MaxRangeHorizontal, 3000
+Mosse.PlacedAoeBuff.MaxRangeUp, 1500
+Mosse.PlacedAoeBuff.MaxRangeDown, 2000
+Mosse.PlacedAoeBuff.Cooldown, 120.0
+Mosse.PlacedAoeBuff.Duration, 15.0
+Mosse.PlacedAoeBuff.ManaCost, 117.0
+Mosse.PlacedAoeBuff.Buff.IncomingDamageScale, 0.75 ; 20% less incoming damage 	; old
+Mosse.PlacedAoeBuff.Buff.IncomingHealMultiplier, 1.40
+Mosse.PlacedAoeBuff.Talent.ReducedCooldownDespawn.ProjectileTurret.ReductionInSeconds, 1.0
+Mosse.PlacedAoeBuff.Talent.ReducedCooldownDespawn.HealingAoeTotem.ReductionInSeconds, 2.0
+Mosse.PlacedAoeBuff.Talent.ReducedCooldownDespawn.DurationalAoeHealPlacement.ReductionInSeconds, 3.0
+Mosse.PlacedAoeBuff.Talent.IncreasedDamageReduction.DamageReductionMultiplier, 0.1
+Mosse.PlacedAoeBuff.Talent.HealingTotem.IncreasedCritChance, 0.3
+Mosse.InstantSelfEscapeBuff.ExistingThreatMultiplier, 0.5 ; multiplies all current threat by this number (0.5 = halves it)
+Mosse.InstantSelfEscapeBuff.Buff.Duration, 6.0
+Mosse.InstantSelfEscapeBuff.Buff.MoveSpeedScaler, 1.5 ; 50% extra move speed 
+Mosse.InstantSelfEscapeBuff.Cooldown, 30.0
+Mosse.InstantSelfEscapeBuff.ManaCost, 18.0
+Mosse.InstantSelfEscapeBuff.VisualEffectSizeScale, 3.0
+Mosse.InstantSelfEscapeBuff.DissolveAmount, 0.5
+Mosse.InstantSelfEscapeBuff.DissolveDuration, 1.0	; Smooth in and out duration
+Mosse.InstantSelfEscapeBuff.Talent.ReducedIncomingDamage.DamageMultiplier, 0.80
+Mosse.HealingTotem.Cooldown, 60.0
+Mosse.HealingTotem.MaxCharges, 2.0
+Mosse.HealingTotem.LifeTime, 14.0
+Mosse.HealingTotem.HealRadius, 4000
+Mosse.HealingTotem.ManaCost, 79.0
+Mosse.HealingTotem.Heal.IntellectCoefficient, 8.58
+Mosse.HealingTotem.Heal.Spread, 0.2
+Mosse.HealingTotem.Heal.HealPeriod, 2.0 ; heals every x time 
+Mosse.HealingTotem.LowestPossibleHealScale, 0.32	; Based on the old value
+Mosse.HealingTotem.BurstHealReduceExponentialPerTick, 0.85	; old
+Mosse.ExplosiveMinion.AbilityMaxRange, 3000.0
+Mosse.ExplosiveMinion.GrowthDuration, 3.0
+Mosse.ExplosiveMinion.IntellectCoefficient, 2.175
+Mosse.ExplosiveMinion.Radius, 700.0
+Mosse.ExplosiveMinion.TargetCountDamageScalingThreshold, 8.0
+Mosse.ExplosiveMinion.LifeTime, 60.0
+Mosse.ExplosiveMinion.MaxDistanceFromMosse, 6000.0
+Mosse.ExplosiveMinion.SendOutDelayBetweenMinion, 0.1
+Mosse.ExplosiveMinion.Talent.IncreasedDamage.DamageMultiplier, 1.20
+Mosse.ExplosiveMinion.Talent.AllyTargetHeal.MaxNumOfMinionsToAlly, 5.0
+Mosse.ExplosiveMinion.Talent.AllyTargetHeal.Heal.IntellectCoefficient, 3.08
+Mosse.Talent.ReducedIncomingAoeDamage.AdditionalReduction, 0.10
+Mosse.Talent.ReducedIncomingMagicDamage.AdditionalReduction, 0.90
+Mosse.Talent.IncreasedMaxMana.MaxManaMultiplier, 1.1
+Mosse.Talent.IncreasedMovementSpeed.SpeedMultiplier, 1.2
+Mosse.Talent.TargetAbsorb.Duration, 15.0
+Mosse.Talent.TargetAbsorb.IntellectCoefficient, 34.10
+Mosse.Talent.TargetAbsorb.AbsorbDamageMitigation, 0.80
+Mosse.Empowerment.BaseChargeupDuration, 2.5 ; OLD------------------------------------------
+Mosse.Empowerment.Level1ChargeupThreshold, 0.25
+Mosse.Empowerment.Level2ChargeupThreshold, 0.50
+Mosse.Empowerment.Level3ChargeupThreshold, 0.75
+Mosse.Expertise.ExpertiseHotIncrease.BaseIncrease, 1.04
+Mosse.Expertise.ExpertiseHotIncrease.ExpertiseScaler, 0.01	; 0.01 means that 1% of expertise gives 1 * 0.01 + BaseIncrease in extra HoT healing. 2% gives 2 * 0.01 + BaseIncrease and so on
+Mosse.Passive.ExpertiseBuff.HealthLimit, 0.7
+Mosse.Passive.ExpertiseBuff.ExpertiseIncrease, 0.05
+Mosse.Passive.IncreasedMoveSpeed, 1.1
+Mosse.Passive.IncreasedSpiritGenerationDamage.Scale, 1.0	; 1.0 is equal to a 0% increase 
+Mosse.Passive.IncreasedSpiritGenerationHeal.Scale, 1.5		; 1.5 is equal to a 50% increase 
+Mosse.ChargeUpFrontalCone.MainIntellectCoefficient, 2.0
+Mosse.ChargeUpFrontalCone.SecondaryIntellectCoefficient, 1.0
+Mosse.ChargeUpFrontalCone.Spread, 0.4
+Mosse.ChargeUpFrontalCone.DotIntellectCoefficient, 1.75
+Mosse.ChargeUpFrontalCone.DotSpread, 0.4
+Mosse.ChargeUpFrontalCone.DotTickInterval, 1.0
+Mosse.ChargeUpFrontalCone.Level1DotDuration, 20.0
+Mosse.ChargeUpFrontalCone.Level2DotDuration, 15.0
+Mosse.ChargeUpFrontalCone.DelayBetweenHits, 0.5
+Mosse.ChargeUpFrontalCone.MaxRange, 600.0
+Mosse.ChargeUpFrontalCone.ConeAngle, 90.0
+Mosse.ChargeUpFrontalCone.NumOfTargetsThreshold, 8
+Mosse.ChargeUpFrontalCone.ChargeDuration, 8.0
+Mosse.ChargeUpFrontalCone.Cooldown, 40.0
+Mosse.ChargeUpFrontalCone.ManaGainPercentagePerTarget, 0.05
+Mosse.ChargeUpFrontalCone.ManaCost, 5.0
+Mosse.ChargeUpFrontalCone.DodgeChance, 0.5
+Mosse.ChargeUpFrontalCone.Avoidance, 0.2
+Mosse.AoeKnockUp.KnockUpDuration, 1.0
+Mosse.AoeKnockUp.MaxHeight, 200
+Mosse.AoeKnockUp.Radius, 300
+Mosse.AoeKnockUp.Cooldown, 60.0
+Mosse.AoeKnockUp.ManaCost, 5.0
+Mosse.StationaryImmunityHot.Cooldown, 300.0
+Mosse.StationaryImmunityHot.Duration, 10.0
+Mosse.StationaryImmunityHot.Heal.PercentagePerTick, 0.1
+Mosse.StationaryImmunityHot.Heal.TickRate, 1.0
+Mosse.StationaryImmunityHot.ManaCost, 5.0
+Mosse.ChargeUpAoeHealAndHot.Heal.IntellectCoefficient, 4.5
+Mosse.ChargeUpAoeHealAndHot.Heal.Spread, 0.4
+Mosse.ChargeUpAoeHealAndHot.Hot.Level1IntellectCoefficient, 2.0
+Mosse.ChargeUpAoeHealAndHot.Hot.Level2IntellectCoefficient, 2.2
+Mosse.ChargeUpAoeHealAndHot.Hot.Level3IntellectCoefficient, 2.45
+Mosse.ChargeUpAoeHealAndHot.Hot.Spread, 0.4
+Mosse.ChargeUpAoeHealAndHot.Hot.Duration, 20.1
+Mosse.ChargeUpAoeHealAndHot.Hot.TickInterval, 1.0
+Mosse.ChargeUpAoeHealAndHot.Radius, 850.0
+Mosse.ChargeUpAoeHealAndHot.Cooldown, 10.0
+Mosse.ChargeUpAoeHealAndHot.ManaCost, 20.0
+Mosse.ChanneledFrontalHealCylinder.IntellectCoefficient, 8.0
+Mosse.ChanneledFrontalHealCylinder.Spread, 0.4
+Mosse.ChanneledFrontalHealCylinder.Range, 1000.0
+Mosse.ChanneledFrontalHealCylinder.Radius, 90.0
+Mosse.ChanneledFrontalHealCylinder.TickInterval, 1.0
+Mosse.ChanneledFrontalHealCylinder.ManaBaseLoss, 0.05 ; Percentage of max mana
+Mosse.ChanneledFrontalHealCylinder.ManaLossMultiplier, 2 ; How much the ManaBaseLoss should be multiplied with each tick
+Mosse.ChanneledFrontalHealCylinder.Cooldown, 5
+Mosse.ChanneledFrontalHealCylinder.NumOfTargetsThreshold, 1
+Mosse.ChargeUpAoeDispel.MaxRange, 1000
+Mosse.ChargeUpAoeDispel.ConeAngle, 45
+Mosse.ChargeUpAoeDispel.Level1AmountOfCharacters, 2
+Mosse.ChargeUpAoeDispel.Level2AmountOfCharacters, 3
+Mosse.ChargeUpAoeDispel.Level3AmountOfCharacters, 5
+Mosse.ChargeUpAoeDispel.BaseCooldown, 10
+Mosse.ChargeUpAoeDispel.Level2AdditionalCooldown, 1.5	; Cooldown increase
+Mosse.ChargeUpAoeDispel.Level3AdditionalCooldown, 2.0 	; Cooldown increase
+Mosse.ChargeUpAoeDispel.ManaCost, 15
+Mosse.ChanneledHotPlacement.Heal.IntellectCoefficient, 2.0
+Mosse.ChanneledHotPlacement.Heal.Spread, 0.4
+Mosse.ChanneledHotPlacement.Hot.IntellectCoefficient, 0.3
+Mosse.ChanneledHotPlacement.Hot.Spread, 0.4
+Mosse.ChanneledHotPlacement.Hot.TickInterval, 1.5
+Mosse.ChanneledHotPlacement.Hot.Duration, 9.1
+Mosse.ChanneledHotPlacement.Duration, 5
+Mosse.ChanneledHotPlacement.MinDistance, 50 ; Closest distance that a mushroom can be placed towards Mosse
+Mosse.ChanneledHotPlacement.MaxDistance, 100 ; Farthest distance that a mushroom can be placed away from Mosse
+Mosse.ChanneledHotPlacement.ForbiddenPlacementAngle, 90 ; This is the angle of the cone in front of Mosse where no mushrooms will be placed to make sure that Mosse will never run into one on accident
+Mosse.ChanneledHotPlacement.MoveSpeed, 1.25
+Mosse.ChanneledHotPlacement.SpiritPointCost, 0	; OLD
+Mosse.ChanneledHotPlacement.ManaCost, 5
+Mosse.ChanneledHotPlacement.MushroomLifeTime, 30.0
+Mosse.ChanneledHotPlacement.MushroomActivationDelay, 0.5 ; The time it takes until the mushrooms can be soaked from after they have spawned
+Mosse.ChanneledHotPlacement.FurthestSpawnDistanceFromTarget, 50.0	; Smallest distance is the radius of the target's hit volume which means that furthest is HitVolume + FurthestSpawnDistanceFromTarget
+Mosse.ChargeUpLeapAoeHealTrail.Hot.IntellectCoefficient, 1.9
+Mosse.ChargeUpLeapAoeHealTrail.Hot.Spread, 0.4
+Mosse.ChargeUpLeapAoeHealTrail.Hot.TickInterval, 0.5
+Mosse.ChargeUpLeapAoeHealTrail.Level1.Distance, 500
+Mosse.ChargeUpLeapAoeHealTrail.Level2.Distance, 1000
+Mosse.ChargeUpLeapAoeHealTrail.Level3.Distance, 2000
+Mosse.ChargeUpLeapAoeHealTrail.LeapHeight, 300.0
+Mosse.ChargeUpLeapAoeHealTrail.LeapDuration, 1.0
+Mosse.ChargeUpLeapAoeHealTrail.TrailDuration, 20.0
+Mosse.ChargeUpLeapAoeHealTrail.TrailWidth, 500
+Mosse.ChargeUpLeapAoeHealTrail.ExpertiseBonus, 0.15
+Mosse.ChargeUpLeapAoeHealTrail.Cooldown, 45.0
+Mosse.ChargeUpLeapAoeHealTrail.ReturnTimer, 5.0	; The duration that the player has to be able to teleport back to the start position
+Mosse.ChargeUpLeapAoeHealTrail.ManaCost, 10.0
+Mosse.AoeHot.Duration, 15
+Mosse.AoeHot.Radius, 400.0
+Mosse.AoeHot.Hot.FirstDelay, 0.5	; The time until the first HoT stack is applied
+Mosse.AoeHot.Hot.SecondDelay, 3.0	; The time until the second HoT stack is applied / or heal
+Mosse.AoeHot.Hot.MaxStacks, 2.0
+Mosse.AoeHot.Hot.IntellectCoefficient, 1.0
+Mosse.AoeHot.Hot.Spread, 0.4
+Mosse.AoeHot.Hot.Duration, 15.0
+Mosse.AoeHot.Hot.TickInterval, 1.3	; For now I added a 0.3 extra delay so that the heal and the hot numbers wont show at the same time
+Mosse.AoeHot.Heal.IntellectCoefficient, 2.0
+Mosse.AoeHot.Heal.Spread, 0.4
+Mosse.AoeHot.Cooldown, 35.0
+Mosse.AoeHot.ManaCost, 10.0
+Mosse.ForwardLeapHealSoak.LeapDuration, 1.0
+Mosse.ForwardLeapHealSoak.LeapHeight, 300.0
+Mosse.ForwardLeapHealSoak.MaxRange, 3000.0
+Mosse.ForwardLeapHealSoak.MaxRangeToTarget, 500.0	; What is the longest distance the target can run from its original position before not getting any healing
+Mosse.ForwardLeapHealSoak.Cooldown, 10
+Mosse.ForwardLeapHealSoak.ManaCost, 10
+Mosse.ForwardLeapHealSoak.FractionOfCooldownToReduceAtSoak, 0.7
+Mosse.ActiveAoeSuperBuff.Duration, 20.0
+Mosse.ActiveAoeSuperBuff.Radius, 1500.0
+Mosse.ActiveAoeSuperBuff.SelfBuff.ExpertiseIncrease, 0.2
+Mosse.ActiveAoeSuperBuff.SelfBuff.ChargeManaCostScaler, 0.5
+Mosse.ActiveAoeSuperBuff.SelfBuff.HotDurationScaler, 1.25	; 1.25 means 25% increased duration
+Mosse.ActiveAoeSuperBuff.Hot.IntellectCoefficient, 2.0
+Mosse.ActiveAoeSuperBuff.Hot.Spread, 0.4
+Mosse.ActiveAoeSuperBuff.Hot.TickInterval, 1.5
+Mosse.ActiveAoeSuperBuff.SpiritCost, 100.0
+Brimborn.Expertise.MinDistance, 100
+Brimborn.Expertise.MaxDistance, 4000
+Brimborn.Expertise.BaseMaxIncrease, 0.1			; 0.1 is a maximal of 10% damage increase depending on the distance
+Brimborn.Expertise.ExtraExpertiseDamage, 0.005	; this is how much the BaseMaxIncrease will increase per Expertise percentage
+Brimborn.Passive.DamageIncreasePerDotStack, 0.005	; Currently not in use
+Brimborn.Passive.DotAbsorbShield.Duration, 5.0
+Brimborn.Passive.DotAbsorbShield.NumOfStacksActivation, 10.0
+Brimborn.Passive.DotAbsorbShield.MaxHealthPercentage, 0.1
+Brimborn.Passive.RangedCastedDotStackIncreaserProc.ProcChance, 0.04
+Brimborn.MeleeAutoAttack.MaxRange, 350
+Brimborn.MeleeAutoAttack.IntellectCoefficient, 1.1
+Brimborn.MeleeAutoAttack.Spread, 0.0
+Brimborn.RangedInstantDot.MaxRange, 4000
+Brimborn.RangedInstantDot.Damage.IntellectCoefficient, 0.3
+Brimborn.RangedInstantDot.Damage.Spread, 0.0
+Brimborn.RangedInstantDot.Dot.IntellectCoefficient, 0.05
+Brimborn.RangedInstantDot.Dot.Spread, 0.0
+Brimborn.RangedInstantDot.Dot.Duration, 18
+Brimborn.RangedInstantDot.Dot.TickInterval, 2
+Brimborn.RangedInstantDot.Dot.MaxStack, 20	; Change manually in Effect BP
+Brimborn.RangedInstantDot.Dot.StackIncreaseDuration, 5.0
+Brimborn.RangedInstantDot.Dot.ResourceGainPerTick, 0.005
+Brimborn.RangedCastedDot.MaxRange, 4000
+Brimborn.RangedCastedDot.CastTime, 2.0
+Brimborn.RangedCastedDot.ResourceCost, 10
+Brimborn.RangedCastedDot.Dot.IntellectCoefficient, 0.5
+Brimborn.RangedCastedDot.Dot.Spread, 0.0
+Brimborn.RangedCastedDot.Dot.Duration, 18
+Brimborn.RangedCastedDot.Dot.TickInterval, 3
+Brimborn.RangedCastedDot.Dot.MaxStack, 20	; Change manually in Effect BP
+Brimborn.RangedCastedDot.Dot.StackIncreaseDuration, 2.0
+Brimborn.RangedCastedDot.Dot.ResourceGainPerTick, 0.5
+Brimborn.MeleeAoeDot.MaxRange, 730	; 8 yards
+Brimborn.MeleeAoeDot.Damage.IntellectCoefficient, 0.3
+Brimborn.MeleeAoeDot.Damage.Spread, 0.0
+Brimborn.MeleeAoeDot.Dot.IntellectCoefficient, 0.2
+Brimborn.MeleeAoeDot.Dot.Spread, 0.0
+Brimborn.MeleeAoeDot.Dot.Duration, 20
+Brimborn.MeleeAoeDot.Dot.TickInterval, 3
+Brimborn.MeleeAoeDot.Dot.MaxStack, 20	; Change manually in Effect BP
+Brimborn.MeleeAoeDot.Dot.StackIncreaseDuration, 3.0
+Brimborn.MeleeAoeDot.Dot.ResourceGainPerTick, 0.2
+Brimborn.MeleeAoeDot.ResourcePerTarget, 2
+Brimborn.MeleeAoeDot.Cooldown, 10
+Brimborn.MeleeHighDamage.MaxRange, 350
+Brimborn.MeleeHighDamage.Damage.IntellectCoefficient, 2.6
+Brimborn.MeleeHighDamage.Damage.Spread, 0.0
+Brimborn.MeleeHighDamage.ResourceGain, 20
+Brimborn.MeleeHighDamage.Cooldown, 20
+Brimborn.MeleeHighDamage.CritToDoTStacks, 3
+Brimborn.RangedCastedDotStackIncreaser.MaxRange, 4000
+Brimborn.RangedCastedDotStackIncreaser.CastTime, 2.0
+Brimborn.RangedCastedDotStackIncreaser.Dot.IntellectCoefficient, 0.2
+Brimborn.RangedCastedDotStackIncreaser.Dot.Spread, 0.0
+Brimborn.RangedCastedDotStackIncreaser.Dot.Duration, 2.0
+Brimborn.RangedCastedDotStackIncreaser.Dot.TickInterval, 1
+Brimborn.RangedCastedDotStackIncreaser.ResourceGain, 5
+Brimborn.RangedCastedDotStackIncreaser.DotDurationIncrease, 2.0
+Brimborn.RangedCastedDotStackIncreaser.ProcChance, 0.1					; Proc for CastedAoeDotStacksToDamage
+Brimborn.RangedCastedDotStackIncreaser.ProcResourceCostReduction, 0.5	; Proc for CastedAoeDotStacksToDamage
+Brimborn.CastedAoeDotStacksToDamage.MaxRange, 4000
+Brimborn.CastedAoeDotStacksToDamage.CastTime, 2.0
+Brimborn.CastedAoeDotStacksToDamage.IntellectCoefficientPerStack, 0.3
+Brimborn.CastedAoeDotStacksToDamage.MaxStacksToConsume, 5
+Brimborn.CastedAoeDotStacksToDamage.ResourceCost, 20
+Brimborn.ChargedMoveToLocation.MaxRange, 4000
+Brimborn.ChargedMoveToLocation.NumOfCharges, 2	; Change manually in GE
+Brimborn.ChargedMoveToLocation.Cooldown, 10.0
+Brimborn.ChargedMoveToLocation.JumpHeight, 150.0
+Brimborn.ChargedMoveToLocation.MovementSpeed, 6000
+Brimborn.DotAndExpertiseBuff.MaxCharges, 20
+Brimborn.DotAndExpertiseBuff.Duration, 20.0
+Brimborn.DotAndExpertiseBuff.SpiritCost, 100
+Brimborn.DotAndExpertiseBuff.StackIncreaseDurationScaler, 1.5
+Brimborn.RangedStun.MaxRange, 4000.0
+Brimborn.RangedStun.Cooldown, 40.0
+Brimborn.RangedStun.StunDuration, 3.0
+Brimborn.MeleeInterrupt.MaxRange, 500.0
+Brimborn.MeleeInterrupt.Cooldown, 40.0
+Brimborn.ChargedForwardDash.Distance, 1000.0
+Brimborn.ChargedForwardDash.DashDuration, 0.2
+Brimborn.ChargedForwardDash.MaxCharges, 2.0
+Brimborn.ChargedForwardDash.ChargeTime, 30.0
+Brimborn.SelfDefenceBuff.Duration, 12.0
+Brimborn.SelfDefenceBuff.Cooldown, 90.0
+Brimborn.SelfDefenceBuff.IncomingDamageScaler, 0.8
+Racket.MeleeRange, 400.0
+Racket.MaxDrumDistance, 10000.0
+Racket.AbsorbBuff.Duration, 12.0
+Racket.AutoAttack.StrengthDamageCoefficient, 1.0
+Racket.AutoAttack.Spread, 0.4
+Racket.AutoAttack.Cooldown, 1.5
+Racket.AutoAttack.AbsorbBuff.StrengthAbsorbFactor, 3.0
+Racket.MoveSpeedSelfBuff.NumCharges, 2.0
+Racket.MoveSpeedSelfBuff.RechargeTime, 30.0
+Racket.MoveSpeedSelfBuff.MoveSpeedScaler, 1.2
+Racket.MoveSpeedSelfBuff.Duration, 4.0
+Racket.MoveSpeedSelfBuff.AbsorbBuff.StrengthAbsorbFactor, 3.0
+Racket.MeleeAoeCone.StrengthDamageCoefficient, 1.2
+Racket.MeleeAoeCone.Spread, 0.4
+Racket.MeleeAoeCone.Range, 1000.0
+Racket.MeleeAoeCone.AbsorbBuff.StrengthAbsorbFactor, 3.0
+Racket.SingleTargetHeavyMelee.StrengthDamageCoefficient, 3.2
+Racket.SingleTargetHeavyMelee.Spread, 0.4
+Racket.SingleTargetHeavyMelee.Cooldown, 6.0
+Racket.SingleTargetHeavyMelee.AbsorbBuff.StrengthAbsorbFactor, 3.0
+Racket.MeleeAoeConeAndStun.StrengthDamageCoefficient, 1.4
+Racket.MeleeAoeConeAndStun.Spread, 0.4
+Racket.MeleeAoeConeAndStun.Range, 1500.0
+Racket.MeleeAoeConeAndStun.StunDuration, 2.0
+Racket.MeleeAoeConeAndStun.Cooldown, 30.0
+Racket.MeleeAoeConeAndStun.AbsorbBuff.StrengthAbsorbFactor, 3.0
+Racket.ProjectileKnockDown.Range, 2000.0
+Racket.ProjectileKnockDown.StrengthDamageCoefficient, 3.5
+Racket.ProjectileKnockDown.Spread, 0.4
+Racket.ProjectileKnockDown.KnockDownDuration, 2.0
+Racket.ProjectileKnockDown.Cooldown, 12.0
+Racket.ProjectileKnockDown.ProjectileSpawn.AbsorbBuff.StrengthAbsorbFactor, 3.0
+Racket.ProjectileKnockDown.ProjectileHit.AbsorbBuff.StrengthAbsorbFactor, 3.0
+Racket.PlantedDrum.AoeRadius, 1000.0
+Racket.PlantedDrum.AoeDuration, 9.0
+Racket.PlantedDrum.TargetPullStrength, 1000.0 ??
+Racket.PlantedDrum.Cooldown, 30.0
+Racket.PlantedDrum.ForwardOffset, 100.0
+Racket.PlantedDrum.SnappingDistance, 400.0
+Racket.ChanneledSpinAttack.NumCharges, 2.0
+Racket.ChanneledSpinAttack.RechargeTime, 30.0
+Racket.ChanneledSpinAttack.StrengthDamageCoefficient, 2.0
+Racket.ChanneledSpinAttack.Spread, 0.4
+Racket.ChanneledSpinAttack.ChannelingDuration, 1.0
+Racket.ChanneledSpinAttack.ChannelingTickInterval, 0.5
+Racket.ChanneledSpinAttack.Range, 300.0
+Racket.ChanneledSpinAttack.AbsorbBuff.StrengthAbsorbFactor, 3.0
+Racket.SingleTargetMeleeAndDot.StrengthDamageCoefficient, 5.4
+Racket.SingleTargetMeleeAndDot.Spread, 0.4
+Racket.SingleTargetMeleeAndDot.DotDuration, 8.0
+Racket.SingleTargetMeleeAndDot.DotTickInterval, 2.0
+Racket.SingleTargetMeleeAndDot.Cooldown, 12.0
+Racket.SingleTargetMeleeAndDot.DotDamageFractionPerTick, 0.15
+Racket.SingleTargetMeleeAndDot.AbsorbBuff.StrengthAbsorbFactor, 3.0
+Racket.SingleTargetRangedTaunt.Duration, 3.0
+Racket.SingleTargetRangedTaunt.MaxRange, 4000.0
+Racket.SingleTargetRangedTaunt.Cooldown, 8.0
+Racket.SingleTargetMeleeInterrupt.Cooldown, 8.0
+Shared_PolymorphChickenSmall.AutoAttack.Damage.StrengthCoefficient, 1.02
+Shared_PolymorphChickenSmall.AutoAttack.Cooldown, 2.10
+Shared_PolymorphChickenSmall.AutoAttack.MaxRange, 400.0
+UC_BossSoulKing.AutoAttack.StrengthCoefficient, 2.65
+UC_BossSoulKing.AutoAttack.Spread, 0.20
+UC_BossSoulKing.AutoAttack.MinCooldown, 3.50
+UC_BossSoulKing.AutoAttack.MaxCooldown, 3.50
+UC_BossSoulKing.AutoAttack.MaxRange, 500.0 
+UC_BossSoulKing.TankFrontalConeAOE.StrengthCoefficient, 3.00
+UC_BossSoulKing.TankFrontalConeAOE.Spread, 0.2
+UC_BossSoulKing.TankFrontalConeAOE.CastingDuration, 2.00
+UC_BossSoulKing.TankFrontalConeAOE.ConeRange, 700.0
+UC_BossSoulKing.TankFrontalConeAOE.ConeDegree, 45.0
+UC_BossSoulKing.TankFrontalConeAOE.InitialMinCooldown, 24.0
+UC_BossSoulKing.TankFrontalConeAOE.InitialMaxCooldown, 24.0
+UC_BossSoulKing.TankFrontalConeAOE.MinCooldown, 24.0
+UC_BossSoulKing.TankFrontalConeAOE.MaxCooldown, 24.0
+UC_BossSoulKing.ConeAOE.SpawnZombies.DifficultyUnlocked,0
+UC_BossSoulKing.ConeAOE.StrengthCoefficient, 5.00
+UC_BossSoulKing.ConeAOE.Spread, 0.2
+UC_BossSoulKing.ConeAOE.CastingDuration, 2.0
+UC_BossSoulKing.ConeAOE.ConeRange, 2500.0
+UC_BossSoulKing.ConeAOE.ConeAngle, 90.0
+UC_BossSoulKing.ConeAOE.StunDuration, 3.0
+UC_BossSoulKing.ConeAOE.DestructibleMissSelfBuff.DifficultyUnlocked, 0
+UC_BossSoulKing.ConeAOE.DestructibleMissSelfBuff.DamageScaleIncrease, 1.25 	; applied (stacked) each time the mummy king missed the graves when doing pathofthedead
+UC_BossSoulKing.ConeAOE.InitialMinCooldown, 10.0
+UC_BossSoulKing.ConeAOE.InitialMaxCooldown, 10.0
+UC_BossSoulKing.ConeAOE.MinCooldown, 20.0
+UC_BossSoulKing.ConeAOE.MaxCooldown, 20.0
+UC_BossSoulKing.LargeHomingProjectile.StrengthCoefficient, 1.50
+UC_BossSoulKing.LargeHomingProjectile.Spread, 0.2
+UC_BossSoulKing.LargeHomingProjectile.CastingDuration, 1.5
+UC_BossSoulKing.LargeHomingProjectile.InitialMinCooldown, 15.0
+UC_BossSoulKing.LargeHomingProjectile.InitialMaxCooldown, 15.0
+UC_BossSoulKing.LargeHomingProjectile.MinCooldown, 15.0
+UC_BossSoulKing.LargeHomingProjectile.MaxCooldown, 15.0
+UC_BossSoulKing.LargeHomingProjectile.MaxRange, 5000.0
+UC_BossSoulKing.LargeSpewAOE.IntellectCoefficient, 5.00
+UC_BossSoulKing.LargeSpewAOE.Duration, 0.1
+UC_BossSoulKing.LargeSpewAOE.Period, 0.515
+UC_BossSoulKing.LargeSpewAOE.Radius, 6000
+UC_BossSoulKing.LargeSpewAOE.CastingDuration, 0.1
+UC_BossSoulKing.LargeSpewAOE.CooldownMin, 600.0 ; Unlocked when boss is at 50% health so it has no initial cooldown
+UC_BossSoulKing.LargeSpewAOE.CooldownMax, 600.0
+UC_BossSoulKing.LargeSpewAOE.ChannelingDuration, 0.1
+UC_BossSoulKing.LargeSpewAOE.ChannelingTickInterval, 0.5
+UC_BossSoulKing.LargeSpewAOE.DifficultyUpgrade.DifficultyUnlocked, 25
+UC_BossSoulKing.LargeSpewAOE.DifficultyUpgrade.CastTime, 0.1
+UC_BossSoulKing.LargeSpewAOE.DebuffMovementSpeedReduction, 0.5
+UC_BossSoulKing.LargeSpewAOE.UnlockedAtHealthPercentage, 0.001
+UC_BossSoulKing.Incarcerate.UnlockedAtHealthPercentage, 0.75
+UC_BossSoulKing.Incarcerate.CastingDuration, 2.0
+UC_BossSoulKing.Incarcerate.DifficultyUnlocked, 0.0
+UC_BossSoulKing.Incarcerate.MinCooldown, 60.0 ; Unlocked when boss is at 75% health so it has no initial cooldown
+UC_BossSoulKing.Incarcerate.MaxCooldown, 60.0
+UC_BossSoulKing.Incarcerate.CoffinInteract.CastingDuration, 1.5
+UC_BossSoulKing.Incarcerate.CoffinInteract.InteractionRadius, 150.0
+UC_BossSoulKing.SingleRoot.UnlockedAtHealthPercentage, 0.75
+UC_BossSoulKing.SingleRoot.CastingDuration, 3.0
+UC_BossSoulKing.SingleRoot.Duration, 6.0
+UC_BossSoulKing.SingleRoot.DifficultyUnlocked, 0.0
+UC_BossSoulKing.SingleRoot.MinCooldown, 60.0 ; Unlocked when boss is at 75% health so it has no initial cooldown
+UC_BossSoulKing.SingleRoot.MaxCooldown, 60.0
+UC_BossSoulKing.PassiveAOEPools.SpawnHealthThreshold, 0.33 ; 33% of max health lost before spawning the pool \
+UC_BossSoulKing.PassiveAOEPools.SpawnTargetRadius, 5000 ; Distance it finds a random enemy to spawn under
+UC_BossSoulKing.PassiveAOEPools.Pool.Radius, 700.0
+UC_BossSoulKing.PassiveAOEPools.Pool.LifeSpan, 60.0 ; Seconds the pool remains on the ground
+UC_BossSoulKing.PassiveAOEPools.Pool.IntellectCoefficientPerTick, 0.40
+UC_BossSoulKing.PassiveAOEPools.Pool.Spread, 0.2
+UC_BossSoulKing.PassiveAOEPools.Pool.Period, 1.5
+UC_BossSoulKing.PassiveAOEPools.Pool.DamageUpgrage.DifficultyUnlocked, 0.0
+UC_BossSoulKing.PassiveAOEPools.Pool.DamageUpgrage.DamageMultiplier, 2.0 
+UC_BossBaptist.AutoAttack.StrengthCoefficient, 1.50  
+UC_BossBaptist.AutoAttack.Spread, 0.4
+UC_BossBaptist.AutoAttack.MinCooldown, 2.5
+UC_BossBaptist.AutoAttack.MaxCooldown, 2.5
+UC_BossBaptist.AutoAttack.MaxRange, 500.0 
+UC_BossBaptist.AutoAttack.ResourceGain, 2.0 
+UC_BossBaptist.CastedPushBack.InitialMinCooldown, 20.0
+UC_BossBaptist.CastedPushBack.InitialMaxCooldown, 20.0
+UC_BossBaptist.CastedPushBack.MinCooldown, 30.0
+UC_BossBaptist.CastedPushBack.MaxCooldown, 30.0
+UC_BossBaptist.CastedPushBack.MinCancelCooldown, 10.0
+UC_BossBaptist.CastedPushBack.MaxCancelCooldown, 10.0
+UC_BossBaptist.CastedPushBack.CastTime, 5.0
+UC_BossBaptist.CastedPushBack.Radius, 2000.0
+UC_BossBaptist.CastedPushBack.KnockbackMultiplier, 6.0
+UC_BossBaptist.CastedPushBack.KnockbackZValue, 200.0
+UC_BossBaptist.CastedPushBack.IntellectCoefficient, 4.00
+UC_BossBaptist.CastedPushBack.Spread, 0.4
+UC_BossBaptist.CircleDebuff.InitialMinCooldown, 15.0
+UC_BossBaptist.CircleDebuff.InitialMaxCooldown, 15.0
+UC_BossBaptist.CircleDebuff.MinCooldown, 35.0
+UC_BossBaptist.CircleDebuff.MaxCooldown, 35.0
+UC_BossBaptist.CircleDebuff.MinCancelCooldown, 10.0
+UC_BossBaptist.CircleDebuff.MaxCancelCooldown, 10.0 
+UC_BossBaptist.CircleDebuff.Duration, 5.0
+UC_BossBaptist.CircleDebuff.DebuffDotIntCoefficient, 0.75
+UC_BossBaptist.CircleDebuff.DebuffTickInterval, 1.0 
+UC_BossBaptist.CircleDebuff.DebuffRadius, 200.0
+UC_BossBaptist.CircleDebuff.GroundRadius, 200.0
+UC_BossBaptist.CircleDebuff.WaveMinSpawnTime, 3.0
+UC_BossBaptist.CircleDebuff.WaveMaxSpawnTime, 7.0
+UC_BossBaptist.CircleDebuff.WaveIntCoefficient, 1.0
+UC_BossBaptist.CircleDebuff.WaveDamageSpread, 0.4
+UC_BossBaptist.CircleDebuff.WavePulseRate, 1.0
+UC_BossBaptist.CircleDebuff.WaveRadius, 125.0
+UC_BossBaptist.CircleDebuff.MaxRange, 3000.0
+UC_BossBaptist.CircleDebuff.WaveGrowthMultiplier, 5.0
+UC_BossBaptist.CircleDebuff.IncreaseDamageTakenDebuffPercentage, 1.2
+UC_BossBaptist.CircleDebuff.IncreaseDamageTakenDebuffDuration, 30.0
+UC_BossBaptist.CircleDebuff.PhaseChangeHealthPercentage, 0.5
+UC_BossBaptist.CircleDebuff.WaveLifeTime, 10.0 
+UC_BossBaptist.CircleDebuff.WaveReleaseTime, 0.035  ; This is a percentage of the WaveLifeTime that defines how much time during its lifetime the wave is NOT expanding  
+UC_BossBaptist.CircleDebuff.ProjectileSpeed, 200.0
+UC_BossBaptist.CircleDebuff.ProjectileRadius, 125.0
+UC_BossBaptist.HighestThreatSplitDamageDot.InitialMinCooldown, 30.0
+UC_BossBaptist.HighestThreatSplitDamageDot.InitialMaxCooldown, 30.0
+UC_BossBaptist.HighestThreatSplitDamageDot.MinCooldown, 40.0
+UC_BossBaptist.HighestThreatSplitDamageDot.MaxCooldown, 40.0
+UC_BossBaptist.HighestThreatSplitDamageDot.MinCancelCooldown, 10.0
+UC_BossBaptist.HighestThreatSplitDamageDot.MaxCancelCooldown, 10.0
+UC_BossBaptist.HighestThreatSplitDamageDot.CastTime, 2.0
+UC_BossBaptist.HighestThreatSplitDamageDot.IntellectCoefficient, 1.00 
+UC_BossBaptist.HighestThreatSplitDamageDot.Spread, 0.4
+UC_BossBaptist.HighestThreatSplitDamageDot.DotTickInterval, 1.0
+UC_BossBaptist.HighestThreatSplitDamageDot.DotDuration, 10.15
+UC_BossBaptist.HighestThreatSplitDamageDot.Radius, 5000.0
+UC_CadavrianCrusader.AutoAttack.StrengthCoefficient, 1.92
+UC_CadavrianCrusader.AutoAttack.Cooldown, 2.4
+UC_CadavrianCrusader.AutoAttack.MaxRange, 500.0
+UC_CadavrianCrusader.ChanneledAOE.StrengthCoefficient, 1.92
+UC_CadavrianCrusader.ChanneledAOE.CastingDuration, 1.5
+UC_CadavrianCrusader.ChanneledAOE.ChannelingDuration, 5.15
+UC_CadavrianCrusader.ChanneledAOE.ChannelingTickInterval, 0.5
+UC_CadavrianCrusader.ChanneledAOE.AOERadius, 500.0
+UC_CadavrianCrusader.ChanneledAOE.FollowTargetMaxRange, 5000.0
+UC_CadavrianCrusader.ChanneledAOE.FollowDistanceProximity, 150.0
+UC_CadavrianCrusader.ChanneledAOE.InitialMinCooldown, 12.0
+UC_CadavrianCrusader.ChanneledAOE.InitialMaxCooldown, 20.0
+UC_CadavrianCrusader.ChanneledAOE.Cooldown, 30.0
+UC_CadavrianCrusader.ChanneledAOE.CCcooldown, 12.0
+UC_CadavrianCrusader.ChanneledAOE.DifficultyUnlocked, 5.0
+UC_CadavrianCrusader.Charge.StrengthCoefficient, 7.53
+UC_CadavrianCrusader.Charge.CastingDuration, 1.5
+UC_CadavrianCrusader.Charge.Distance, 2000.0
+UC_CadavrianCrusader.Charge.Radius, 200
+UC_CadavrianCrusader.Charge.Speed, 5000
+UC_CadavrianCrusader.Charge.StunDuration, 2.0
+UC_CadavrianCrusader.Charge.AbilityPadding, 8.0
+UC_CadavrianCrusader.Charge.InitialMinCooldown, 12.0
+UC_CadavrianCrusader.Charge.InitialMaxCooldown, 20.0
+UC_CadavrianCrusader.Charge.Cooldown, 20.0
+UC_CadavrianCrusader.Charge.CCcooldown, 12.0
+UC_CadavrianCrusader.Charge.BleedDebuff.Duration, 6.0
+UC_CadavrianCrusader.Charge.BleedDebuff.StrengthCoefficient, 0.5
+UC_CadavrianCrusader.Charge.BleedDebuff.Period, 1.00
+UC_RottenWretchHands.AutoAttackMelee.StrengthCoefficient, 1.00
+UC_RottenWretchHands.AutoAttackMelee.Spread, 0.2
+UC_RottenWretchHands.AutoAttackMelee.MaxRange, 500.0
+UC_RottenWretchHands.AutoAttackMelee.MinCooldown, 1.8
+UC_RottenWretchHands.AutoAttackMelee.MaxCooldown, 1.8
+UC_RottenWretchHands.PassiveAOEPools.SpawnHealthThreshold, 0.50 ; 33% of max health lost before spawning the pool 
+UC_RottenWretchHands.PassiveAOEPools.SpawnTargetRadius, 5000 ; Distance it finds a random enemy to spawn under
+UC_RottenWretchHands.PassiveAOEPools.Pool.Radius, 200.0
+UC_RottenWretchHands.PassiveAOEPools.Pool.LifeSpan, 30.0 ; Seconds the pool remains on the ground 
+UC_RottenWretchHands.PassiveAOEPools.Pool.BossLifeSpan, 30.0 ; Seconds the pool remains on the ground if the pool was spawned in a boss fight.
+UC_RottenWretchHands.PassiveAOEPools.Pool.BaseDamage, 20.0
+UC_RottenWretchHands.PassiveAOEPools.Pool.IntellectCoefficientPerTick, 1.50
+UC_RottenWretchHands.PassiveAOEPools.Pool.Spread, 0.2
+UC_RottenWretchHands.PassiveAOEPools.Pool.Period, 1.5
+UC_RottenWretchHands.PassiveAOEPools.Pool.DamageUpgrage.DifficultyUnlocked, 0.0
+UC_RottenWretchHands.PassiveAOEPools.Pool.DamageUpgrage.DamageMultiplier, 1.0
+UC_CadavrianDeathPriest.AutoAttackMelee.StrengthCoefficient, 1.00
+UC_CadavrianDeathPriest.AutoAttackMelee.Spread, 0.4
+UC_CadavrianDeathPriest.AutoAttackMelee.MinCooldown, 2.0
+UC_CadavrianDeathPriest.AutoAttackMelee.MaxCooldown, 2.0
+UC_CadavrianDeathPriest.AutoAttackMelee.MaxRange, 500.0 
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.IntellectCoefficient, 2.5
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.HasteBuffPercentage, 2.0
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.InitialMinCooldown, 10.0
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.InitialMaxCooldown, 15.0
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.MinCooldown, 30.0
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.MaxCooldown, 35.0
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.MinCancelCooldown, 0.0
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.MaxCancelCooldown, 0.0
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.MaxRange, 1000.0
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.Radius, 500.0
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.CastTime, 1.0
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.ChannelDuration, 8.15
+UC_CadavrianDeathPriest.ChannelMultiTargetHeal.TickInterval, 1.0
+UC_CadavrianDeathPriest.TwoTargetDot.IntellectCoefficient, 0.50
+UC_CadavrianDeathPriest.TwoTargetDot.AoeIntellectCoefficient, 2.5
+UC_CadavrianDeathPriest.TwoTargetDot.AoeDamageSpread, 0.4
+UC_CadavrianDeathPriest.TwoTargetDot.InitialMinCooldown, 10.0
+UC_CadavrianDeathPriest.TwoTargetDot.InitialMaxCooldown, 15.0
+UC_CadavrianDeathPriest.TwoTargetDot.MinCooldown, 18.0
+UC_CadavrianDeathPriest.TwoTargetDot.MaxCooldown, 22.0
+UC_CadavrianDeathPriest.TwoTargetDot.MinCancelCooldown, 0.0
+UC_CadavrianDeathPriest.TwoTargetDot.MaxCancelCooldown, 0.0
+UC_CadavrianDeathPriest.TwoTargetDot.Duration, 12.0
+UC_CadavrianDeathPriest.TwoTargetDot.TickInterval, 1.0
+UC_CadavrianDeathPriest.TwoTargetDot.MaxRange, 1000.0
+UC_CadavrianDeathPriest.TwoTargetDot.MaxTargets, 2.0
+UC_CadavrianDeathPriest.TwoTargetDot.Radius, 300.0
+UC_CadavrianDeathPriest.HighThreatChannel.IntellectCoefficient, 2.5
+UC_CadavrianDeathPriest.HighThreatChannel.InitialMinCooldown, 8.0
+UC_CadavrianDeathPriest.HighThreatChannel.InitialMaxCooldown, 12.0
+UC_CadavrianDeathPriest.HighThreatChannel.MinCooldown, 10.0
+UC_CadavrianDeathPriest.HighThreatChannel.MaxCooldown, 15.0
+UC_CadavrianDeathPriest.HighThreatChannel.MinCancelCooldown, 5.0
+UC_CadavrianDeathPriest.HighThreatChannel.MaxCancelCooldown, 5.0
+UC_CadavrianDeathPriest.HighThreatChannel.ChannelDuration, 5.0
+UC_CadavrianDeathPriest.HighThreatChannel.ChannelTickInterval, 1.0
+UC_CadavrianDeathPriest.HighThreatChannel.MaxRange, 1000.0 
+UC_CadavrianSharpshooter.AutoAttackRanged.StrengthCoefficient, 1.00
+UC_CadavrianSharpshooter.AutoAttackRanged.Spread, 0.4
+UC_CadavrianSharpshooter.AutoAttackRanged.MinCooldown, 1.5
+UC_CadavrianSharpshooter.AutoAttackRanged.MaxCooldown, 1.5
+UC_CadavrianSharpshooter.AutoAttackRanged.MaxRange, 3000.0
+UC_CadavrianSharpshooter.AimedShot.ImpactStrenghtCoefficient, 5.0 
+UC_CadavrianSharpshooter.AimedShot.ImpactSpread, 0.4
+UC_CadavrianSharpshooter.AimedShot.DotStrengthCoefficient, 8.0
+UC_CadavrianSharpshooter.AimedShot.DotDuration, 5.15
+UC_CadavrianSharpshooter.AimedShot.DotTickInterval, 1.0
+UC_CadavrianSharpshooter.AimedShot.InitialMinCooldown, 10.0
+UC_CadavrianSharpshooter.AimedShot.InitialMaxCooldown, 12.0
+UC_CadavrianSharpshooter.AimedShot.MinCooldown, 30.0
+UC_CadavrianSharpshooter.AimedShot.MaxCooldown, 35.0
+UC_CadavrianSharpshooter.AimedShot.MinCancelCooldown, 20.0
+UC_CadavrianSharpshooter.AimedShot.MaxCancelCooldown, 20.0
+UC_CadavrianSharpshooter.AimedShot.MaxRange, 3000.0
+UC_CadavrianSharpshooter.AimedShot.CastTime, 3.0
+UC_CadavrianSharpshooter.Shadowmeld.InitialMinCooldown, 10.0
+UC_CadavrianSharpshooter.Shadowmeld.InitialMaxCooldown, 10.0
+UC_CadavrianSharpshooter.Shadowmeld.MinCooldown, 30.0
+UC_CadavrianSharpshooter.Shadowmeld.MaxCoodlwon, 30.0
+UC_CadavrianSharpshooter.Shadowmeld.MinCancelCooldown, 0.0
+UC_CadavrianSharpshooter.Shadowmeld.MaxCancelCooldown, 0.0
+UC_CadavrianSharpshooter.Shadowmeld.Duration, 2.0
+UC_CadavrianSharpshooter.Shadowmeld.MinSearchRange, 2000.0
+UC_CadavrianSharpshooter.Shadowmeld.MaxSearchRange, 2050.0
+UC_CadavrianSharpshooter.Shadowmeld.CastTime, 1.5
+UC_UndyingGuardian.AutoAttack.StrengthCoefficient, 1.00
+UC_UndyingGuardian.AutoAttack.Spread, 0.4
+UC_UndyingGuardian.AutoAttack.MinCooldown, 3.0
+UC_UndyingGuardian.AutoAttack.MaxCooldown, 3.0
+UC_UndyingGuardian.AutoAttack.MaxRange, 500.0
+UC_UndyingGuardian.CastedAoeRoot.InitialMinCooldown, 10.0
+UC_UndyingGuardian.CastedAoeRoot.InitialMaxCooldown, 15.0
+UC_UndyingGuardian.CastedAoeRoot.MinCooldown, 15.0
+UC_UndyingGuardian.CastedAoeRoot.MaxCooldown, 25.0
+UC_UndyingGuardian.CastedAoeRoot.MinCancelCooldown, 0.0
+UC_UndyingGuardian.CastedAoeRoot.MaxCancelCooldown, 0.0
+UC_UndyingGuardian.CastedAoeRoot.CastTime, 3.0
+UC_UndyingGuardian.CastedAoeRoot.Duration, 5.0
+UC_UndyingGuardian.CastedAoeRoot.MaxRange, 500.0 
+UC_UndyingGuardian.CastedAoeRoot.Radius, 600.0
+UC_UndyingGuardian.AoeFear.InitialMinCooldown, 15.0
+UC_UndyingGuardian.AoeFear.InitialMaxCooldown, 25.0
+UC_UndyingGuardian.AoeFear.MinCooldown, 20.0
+UC_UndyingGuardian.AoeFear.MaxCooldown, 30.0
+UC_UndyingGuardian.AoeFear.MinCancelCooldown, 0.0
+UC_UndyingGuardian.AoeFear.MaxCancelCooldown, 0.0
+UC_UndyingGuardian.AoeFear.Radius, 500.0
+UC_UndyingGuardian.AoeFear.CastTime, 2.0
+UC_UndyingGuardian.AoeFear.Duration, 5.0
+UC_EvilSpirit.AutoAttackMelee.StrengthCoefficient, 0.58
+UC_EvilSpirit.AutoAttackMelee.MaxRange, 300.0
+UC_EvilSpirit.AutoAttackMelee.Cooldown, 1.50
+UC_EvilSpirit.PassiveFixate.ActivationHealthThreshold, 0.50 ; activated when at less than 50% health
+UC_EvilSpirit.PassiveFixate.FixateTime, 99999
+UC_EvilSpirit.PassiveFixate.Buff.AdditionalHaste, 0.5
+UC_EvilSpirit.PassiveFixate.Buff.AdditionalLifeSteal, 0.5
+UC_EvilSpirit.PassiveFixate.Buff.MoveSpeedBonus, 1.2 ; 20% increased movespeed
+UC_CadavrianMonk.AutoAttackMelee.StrengthCoefficient, 1.00
+UC_CadavrianMonk.AutoAttackMelee.Spread, 0.4
+UC_CadavrianMonk.AutoAttackMelee.MaxRange, 500.0
+UC_CadavrianMonk.AutoAttackMelee.MinCooldown, 1.5
+UC_CadavrianMonk.AutoAttackMelee.MaxCooldown, 1.5
+UC_CadavrianMonk.TankFrontalConeAOE.StrengthCoefficient, 2.00
+UC_CadavrianMonk.TankFrontalConeAOE.Spread, 0.40
+UC_CadavrianMonk.TankFrontalConeAOE.CastingDuration, 2.00
+UC_CadavrianMonk.TankFrontalConeAOE.ConeRange, 500.0
+UC_CadavrianMonk.TankFrontalConeAOE.ConeDegree, 90.0
+UC_CadavrianMonk.TankFrontalConeAOE.InitialMinCooldown, 12.0
+UC_CadavrianMonk.TankFrontalConeAOE.InitialMaxCooldown, 12.0
+UC_CadavrianMonk.TankFrontalConeAOE.MinCooldown, 24.0
+UC_CadavrianMonk.TankFrontalConeAOE.MaxCooldown, 24.0
+UC_CadavrianMonk.DeathBurstAOE.StrengthCoefficient, 2.0
+UC_CadavrianMonk.DeathBurstAOE.Spread, 0.4
+UC_CadavrianMonk.DeathBurstAOE.ExplosionRadius, 700.0
+UC_CadavrianMonk.DeathBurstAOE.DelaySeconds, 3.0 ; explode after this many seconds
+UC_CadavrianMonk.DeathBurstAOE.DifficultyUnlocked, 0.0
+UC_RotBringer.AutoAttackMelee.StrengthCoefficient, 1.00
+UC_RotBringer.AutoAttackMelee.Spread, 0.4
+UC_RotBringer.AutoAttackMelee.MaxRange, 200.0
+UC_RotBringer.AutoAttackMelee.MinCooldown, 1.5
+UC_RotBringer.AutoAttackMelee.MaxCooldown, 1.5
+UC_RotBringer.SpreadingAoeDot.InitalMinCooldown, 10.0 
+UC_RotBringer.SpreadingAoeDot.InitialMaxCooldown, 15.0
+UC_RotBringer.SpreadingAoeDot.MinCooldown, 20.0
+UC_RotBringer.SpreadingAoeDot.MaxCooldown, 20.0
+UC_RotBringer.SpreadingAoeDot.Duration, 10.0
+UC_RotBringer.SpreadingAoeDot.TickInterval, 1.0
+UC_RotBringer.SpreadingAoeDot.IntellectCoefficient, 1.00
+UC_RotBringer.SpreadingAoeDot.MaxRange, 15000.0
+UC_RotBringer.SpreadingAoeDot.AoeCircleRadius, 200.0 
+UC_RotBringer.SpreadingAoeDot.CastTime, 2.0 
+UC_RotBringer.SpreadingAoeDot.Debuff.OnExpireInstantDamage.IntellectCoefficient, 0.5 
+UC_RotBringer.SpreadingAoeDot.Debuff.Pool.Radius, 200.0
+UC_RotBringer.SpreadingAoeDot.Debuff.Pool.LifeSpan, 60.0 ; Seconds the pool remains on the ground
+UC_RotBringer.SpreadingAoeDot.Debuff.Pool.IntellectCoefficientPerTick, 3.00
+UC_RotBringer.SpreadingAoeDot.Debuff.Pool.Spread, 0.4
+UC_RotBringer.SpreadingAoeDot.Debuff.Pool.Period, 1.0
+UC_RotBringer.MagicProjectile.InitalMinCooldown, 15.0
+UC_RotBringer.MagicProjectile.InitialMaxCooldown, 20.0
+UC_RotBringer.MagicProjectile.MinCancelCooldown, 35.0
+UC_RotBringer.MagicProjectile.MaxCancelCooldown, 35.0
+UC_RotBringer.MagicProjectile.MinCooldown, 30.0
+UC_RotBringer.MagicProjectile.MaxCooldown, 40.0
+UC_RotBringer.MagicProjectile.MaxRange, 3000.0
+UC_RotBringer.MagicProjectile.IntellectCoefficient, 2.00
+UC_RotBringer.MagicProjectile.Spread, 0.4
+UC_RotBringer.MagicProjectile.CastingDuration, 3.0 
+UC_ConvertedSoldier.AutoAttack.StrengthCoefficient, 1.00
+UC_ConvertedSoldier.AutoAttack.Spread, 0.40
+UC_ConvertedSoldier.AutoAttack.MinCooldown, 2.0
+UC_ConvertedSoldier.AutoAttack.MaxCooldown, 2.0
+UC_ConvertedSoldier.AutoAttack.MaxRange, 500.0
+UC_CadavrianArbalist.AutoAttack.StrengthCoefficient, 1.00
+UC_CadavrianArbalist.AutoAttack.Spread, 0.4
+UC_CadavrianArbalist.AutoAttack.MinCooldown, 2.0
+UC_CadavrianArbalist.AutoAttack.MaxCooldown, 2.0
+UC_CadavrianArbalist.AutoAttack.MaxRange, 3000.0
+UC_CadavrianArbalist.RangedSlow.CastTime, 2.0
+UC_CadavrianArbalist.RangedSlow.InitialMinCooldown, 12.0
+UC_CadavrianArbalist.RangedSlow.InitialMaxCooldown, 15.0
+UC_CadavrianArbalist.RangedSlow.MinCooldown, 12.0
+UC_CadavrianArbalist.RangedSlow.MaxCooldown, 15.0
+UC_CadavrianArbalist.RangedSlow.MinCancelCooldown, 0.0
+UC_CadavrianArbalist.RangedSlow.MaxCancelCooldown, 0.0
+UC_CadavrianArbalist.RangedSlow.MaxRange, 3000.0
+UC_CadavrianArbalist.RangedSlow.MovementSpeedMultiplier, 0.7 
+UC_CadavrianArbalist.RangedSlow.SlowDuration, 5.0
+UB_Crusader.MeleeAutoAttack.StrengthCoefficient, 1.0
+UB_Crusader.MeleeAutoAttack.Spread, 0.4
+UB_Crusader.MeleeAutoAttack.MaxRange, 500.0
+UB_Crusader.MeleeAutoAttack.MinCooldown, 3.0
+UB_Crusader.MeleeAutoAttack.MaxCooldown, 3.0
+UB_Crusader.CastedHighestThreatDot.CastTime, 1.0
+UB_Crusader.CastedHighestThreatDot.MaxRange, 500.0
+UB_Crusader.CastedHighestThreatDot.Duration, 10.0
+UB_Crusader.CastedHighestThreatDot.StrengthCoefficient, 0.5
+UB_Crusader.CastedHighestThreatDot.Spread, 0.4
+UB_Crusader.CastedHighestThreatDot.TickInterval, 1.0
+UB_Crusader.CastedHighestThreatDot.InitialMinCooldown, 8.0
+UB_Crusader.CastedHighestThreatDot.InitialMaxCooldown, 12.0
+UB_Crusader.CastedHighestThreatDot.MinCooldown, 15.0
+UB_Crusader.CastedHighestThreatDot.MaxCooldown, 15.0
+UB_Crusader.CastedHighestThreatAoe.CastTime, 1.0
+UB_Crusader.CastedHighestThreatAoe.StrengthCoefficient, 2.5
+UB_Crusader.CastedHighestThreatAoe.Spread, 0.4
+UB_Crusader.CastedHighestThreatAoe.InitialMinCooldown, 4.0
+UB_Crusader.CastedHighestThreatAoe.InitialMaxCooldown, 6.0
+UB_Crusader.CastedHighestThreatAoe.MinCooldown, 12.0
+UB_Crusader.CastedHighestThreatAoe.MaxCooldown, 12.0
+UB_Crusader.CastedHighestThreatAoe.MinRange, 0.0
+UB_Crusader.CastedHighestThreatAoe.MaxRange, 500.0
+UB_Crusader.CastedHighestThreatAoe.Width, 100.0
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.StrengthCoefficient, 2.0
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.DamageSpread, 0.4
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.AoeIntellectCoefficient, 0.5
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.AoeDamageSpread, 0.4
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.Duration, 10
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.ChargeDuration, 0.5
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.InitalMinCooldown, 30
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.InitalMaxCooldown, 30
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.SuccedingMinCooldown, 45
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.SuccedingMaxCooldown, 45
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.MaxRange, 3000
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.MinRange, 1500
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.AoePathWidth, 250
+UB_CadavrianBannerman.ChargeFurthestTargetAoe.TickInterval, 1
+UB_CadavrianBannerman.CastedHighestThreatAoe.CastDuration, 2.0
+UB_CadavrianBannerman.CastedHighestThreatAoe.MaxRange, 500
+UB_CadavrianBannerman.CastedHighestThreatAoe.Radius, 300
+UB_CadavrianBannerman.CastedHighestThreatAoe.StrengthCoefficient, 2.0
+UB_CadavrianBannerman.CastedHighestThreatAoe.Spread, 0.4
+UB_CadavrianBannerman.CastedHighestThreatAoe.InitalMinCooldown, 15
+UB_CadavrianBannerman.CastedHighestThreatAoe.InitalMaxCooldown, 15
+UB_CadavrianBannerman.CastedHighestThreatAoe.SuccedingMinCooldown, 20
+UB_CadavrianBannerman.CastedHighestThreatAoe.SuccedingMaxCooldown, 20
+UB_ShadowboundPhalanx.MeleeAutoAttack.StrengthCoefficient, 1.0
+UB_ShadowboundPhalanx.MeleeAutoAttack.Spread, 0.4
+UB_ShadowboundPhalanx.MeleeAutoAttack.MaxRange, 500.0
+UB_ShadowboundPhalanx.MeleeAutoAttack.MinCooldown, 2.2
+UB_ShadowboundPhalanx.MeleeAutoAttack.MaxCooldown, 2.2
+UB_Healer.MeleeAutoAttack.StrengthCoefficient, 1.0
+UB_Healer.MeleeAutoAttack.Spread, 0.4
+UB_Healer.MeleeAutoAttack.MaxRange, 500.0
+UB_Healer.MeleeAutoAttack.MinCooldown, 2.0
+UB_Healer.MeleeAutoAttack.MaxCooldown, 2.0
+UB_Healer.CastedAoeHeal.CastTime, 3.0
+UB_Healer.CastedAoeHeal.Duration, 10.0
+UB_Healer.CastedAoeHeal.MaxRange, 1000.0
+UB_Healer.CastedAoeHeal.HealAmount, 0.02 	; Percentage of maximum health
+UB_Healer.CastedAoeHeal.TickInterval, 1.0
+UB_Healer.CastedAoeHeal.InitialMinCooldown, 20.0
+UB_Healer.CastedAoeHeal.InitialMaxCooldown, 20.0
+UB_Healer.CastedAoeHeal.MinCooldown, 40.0 
+UB_Healer.CastedAoeHeal.MaxCooldown, 40.0
+UB_Healer.CastedReducedDamageAoe.CastTime, 2.0
+UB_Healer.CastedReducedDamageAoe.Duration, 5.0
+UB_Healer.CastedReducedDamageAoe.DamageReduction, 0.75	; 0.75 is 25%
+UB_Healer.CastedReducedDamageAoe.MaxRange, 1000.0
+UB_Healer.CastedReducedDamageAoe.InitialMinCooldown, 10.0
+UB_Healer.CastedReducedDamageAoe.InitialMaxCooldown, 10.0
+UB_Healer.CastedReducedDamageAoe.MinCooldown, 25.0 
+UB_Healer.CastedReducedDamageAoe.MaxCooldown, 25.0
+UB_BossWarMachine.MeleeRangeAoeExplosion.StrengthCoefficient, 3.00
+UB_BossWarMachine.MeleeRangeAoeExplosion.Spread, 0.4 
+UB_BossWarMachine.MeleeRangeAoeExplosion.DamageRange, 10000 
+UB_BossWarMachine.MeleeRangeAoeExplosion.CastingDuration, 2.0 
+UB_BossWarMachine.MeleeRangeAoeExplosion.TickInterval, 1.0 
+UB_BossWarMachine.BonusStackDot.DotStrengthCoefficientPerTick, 0.1
+UB_BossWarMachine.BonusStackDot.DotSpread, 0.4
+UB_BossWarMachine.BonusStackDot.DotTickInterval, 1.0
+UB_BossWarMachine.BonusStackDot.DotDuration, 10.0
+UB_BossWarMachine.AoeCones.InitialMinCooldown, 13.0
+UB_BossWarMachine.AoeCones.InitialMaxCooldown, 16.0
+UB_BossWarMachine.AoeCones.MinCooldown, 30.0
+UB_BossWarMachine.AoeCones.MaxCooldown, 38.0
+UB_BossWarMachine.AoeCones.StrengthCoefficient, 2.00  
+UB_BossWarMachine.AoeCones.Spread, 0.4  
+UB_BossWarMachine.AoeCones.ConeAngle, 35.0 ;					Represents the angle of each pizza-cone
+UB_BossWarMachine.AoeCones.ConeLength, 6000.0
+UB_BossWarMachine.AoeCones.SideConeRotationDegrees, 45.0 ;		This is the rotation of the left and right pizza-cones offset from the middle one. 45 means the side slices would be +/- 45 degrees offsetted from the middle (mid = straight out from the boss towards the middle of arena)
+UB_BossWarMachine.AoeCones.ConeActivationDelay, 1.5 ;			Time from it indicates the area until first instance of damage is taken
+UB_BossWarMachine.MassAoeDot.InitialMinCooldown, 20	
+UB_BossWarMachine.MassAoeDot.InitialMaxCooldown, 20	
+UB_BossWarMachine.MassAoeDot.MinCooldown, 10.0	
+UB_BossWarMachine.MassAoeDot.MaxCooldown, 10.0	
+UB_BossWarMachine.MassAoeDot.Radius, 10000.0	
+UB_BossWarMachine.MassAoeDot.MinTargets, 4.0
+UB_BossWarMachine.MassAoeDot.MaxTargets, 4.0
+UB_BossWarMachine.MassAoeDot.DotStrengthCoefficientPerTick, 0.1
+UB_BossWarMachine.MassAoeDot.DotSpread, 0.4	
+UB_BossWarMachine.MassAoeDot.DotTickInterval, 2.0
+UB_BossWarMachine.SpawnHealingMinion.InitialMinCooldown, 27.0	
+UB_BossWarMachine.SpawnHealingMinion.InitialMaxCooldown, 32.0	
+UB_BossWarMachine.SpawnHealingMinion.MinCooldown, 30.0	
+UB_BossWarMachine.SpawnHealingMinion.MaxCooldown, 30.0	
+UB_BossWarMachine.SpawnHealingMinion.TotalSpawns, 1					; WARNING: If this number exceeds number of spawn point in the level it will be automatically set to that max nr
+UB_BossWarMachine.LinkTargets.InitialMinCooldown, 12.0	
+UB_BossWarMachine.LinkTargets.InitialMaxCooldown, 16.0	
+UB_BossWarMachine.LinkTargets.MinCooldown, 34.0	
+UB_BossWarMachine.LinkTargets.MaxCooldown, 36.0	
+UB_BossWarMachine.LinkTargets.MinTargets, 2
+UB_BossWarMachine.LinkTargets.MaxTargets, 3
+UB_BossWarMachine.LinkTargets.BreakRange, 600 ;
+UB_BossWarMachine.LinkTargets.DotStrengthCoefficientPerTick, 7.3  
+UB_BossWarMachine.LinkTargets.Spread, 0.4  
+UB_BossWarMachine.LinkTargets.DotTickInterval, 1.0  
+UB_BossWarMachine.LinkTargets.MoveSpeedReductionScale, 0.8			; This means 20% reduction
+UB_HealingMinion.HealMaster.CastingDuration, 1.5
+UB_HealingMinion.HealMaster.HealPercentageOfTargetMaxHealth, 0.10
+UB_HealingMinion.HealMaster.Spread, 0.4	
+UB_HealingMinion.HealMaster.Range, 650								; Mind this value. For now it's a bit buggy with character collisions. Short range might end up in collision and ability will be stuck
+UB_HealingMinion.HealMaster.SearchRadius, 10000
+UB_HealingMinion.PostDeathCleanse.Radius, 250	
+UB_HealingMinion.PostDeathCleanse.AoeDuration, 6.0	
+UB_HealingMinion.PostDeathCleanse.DamageReduction, 0.5	
+UB_BossLifebringer.MeleeAutoAttack.StrengthCoefficient, 2.50
+UB_BossLifebringer.MeleeAutoAttack.Spread, 0.4
+UB_BossLifebringer.MeleeAutoAttack.MaxRange, 500.0
+UB_BossLifebringer.MeleeAutoAttack.MinCooldown, 2.0
+UB_BossLifebringer.MeleeAutoAttack.MaxCooldown, 2.0
+UB_BossLifebringer.Ressurect.CastTime, 5.0
+UB_BossLifebringer.Ressurect.InitialMinCooldown, 15.0
+UB_BossLifebringer.Ressurect.InitialMaxCooldown, 15.0
+UB_BossLifebringer.Ressurect.MinCooldown, 30.0
+UB_BossLifebringer.Ressurect.MaxCooldown, 30.0
+UB_BossLifebringer.Ressurect.DamageIncrease, 1.25
+UB_BossLifebringer.Caster.MeleeAutoAttack.StrengthCoefficient, 1.0
+UB_BossLifebringer.Caster.MeleeAutoAttack.Spread, 0.4
+UB_BossLifebringer.Caster.MeleeAutoAttack.MaxRange, 500.0
+UB_BossLifebringer.Caster.MeleeAutoAttack.MinCooldown, 2.0
+UB_BossLifebringer.Caster.MeleeAutoAttack.MaxCooldown, 2.0
+UB_BossLifebringer.Caster.CastedProjectile.IntellectCoefficient, 2.0
+UB_BossLifebringer.Caster.CastedProjectile.Spread, 0.4
+UB_BossLifebringer.Caster.CastedProjectile.MaxRange, 2500.0
+UB_BossLifebringer.Caster.CastedProjectile.InitialMinCooldown, 1.0
+UB_BossLifebringer.Caster.CastedProjectile.InitialMaxCooldown, 1.0
+UB_BossLifebringer.Caster.CastedProjectile.MinCancelCooldown, 5.0
+UB_BossLifebringer.Caster.CastedProjectile.MaxCancelCooldown, 5.0
+UB_BossLifebringer.Caster.CastedProjectile.MinCooldown, 0.0
+UB_BossLifebringer.Caster.CastedProjectile.MaxCooldown, 0.0
+UB_BossLifebringer.Caster.CastedProjectile.CastTime, 2.0
+UB_BossLifebringer.Caster.CastedProjectile.HasteBuffPercentage, 0.1
+UB_BossLifebringer.Caster.CastedProjectile.HasteBuffMaxStack, 10.0 
+UB_BossLifebringer.Caster.CastedProjectile.HasteBuffDuration, 20.0 
+UB_BossLifebringer.Warrior.MeleeAutoAttack.StrengthCoefficient, 2.0
+UB_BossLifebringer.Warrior.MeleeAutoAttack.Spread, 0.4
+UB_BossLifebringer.Warrior.MeleeAutoAttack.MaxRange, 500.0
+UB_BossLifebringer.Warrior.MeleeAutoAttack.MinCooldown, 2.0
+UB_BossLifebringer.Warrior.MeleeAutoAttack.MaxCooldown, 2.0
+UB_BossLifebringer.Warrior.FrontalConeAttack.StrengthCoefficient, 2.0
+UB_BossLifebringer.Warrior.FrontalConeAttack.Spread, 0.4
+UB_BossLifebringer.Warrior.FrontalConeAttack.MaxRange, 500.0
+UB_BossLifebringer.Warrior.FrontalConeAttack.ConeAngle, 90.0
+UB_BossLifebringer.Warrior.FrontalConeAttack.InitialMinCooldown, 1.0
+UB_BossLifebringer.Warrior.FrontalConeAttack.InitialMaxCooldown, 1.0
+UB_BossLifebringer.Warrior.FrontalConeAttack.MinCooldown, 10.0
+UB_BossLifebringer.Warrior.FrontalConeAttack.MaxCooldown, 10.0
+UB_BossLifebringer.Warrior.FrontalConeAttack.CastTime, 2.0
+UB_BossLifebringer.Warrior.RangedDotProjectile.StrengthCoefficient, 2.0
+UB_BossLifebringer.Warrior.RangedDotProjectile.Spread, 0.4
+UB_BossLifebringer.Warrior.RangedDotProjectile.Dot.StrengthCoefficient, 0.40
+UB_BossLifebringer.Warrior.RangedDotProjectile.Dot.TickRate, 1.0
+UB_BossLifebringer.Warrior.RangedDotProjectile.Dot.Duration, 5.0 
+UB_BossLifebringer.Warrior.RangedDotProjectile.HealReductionPercentage, 0.85
+UB_BossLifebringer.Warrior.RangedDotProjectile.MaxRange, 1500.0
+UB_BossLifebringer.Warrior.RangedDotProjectile.InitalMinCooldown, 5.0
+UB_BossLifebringer.Warrior.RangedDotProjectile.InitalMaxCooldown, 5.0
+UB_BossLifebringer.Warrior.RangedDotProjectile.MinCooldown, 15.0
+UB_BossLifebringer.Warrior.RangedDotProjectile.MaxCooldown, 15.0
+UB_BossLifebringer.Warrior.RangedDotProjectile.CastTime, 0.5
+UB_BossLifebringer.Lunatic.MeleeAutoAttack.StrengthCoefficient, 1.0
+UB_BossLifebringer.Lunatic.MeleeAutoAttack.Spread, 0.4
+UB_BossLifebringer.Lunatic.MeleeAutoAttack.MaxRange, 500.0
+UB_BossLifebringer.Lunatic.MeleeAutoAttack.MinCooldown, 2.0
+UB_BossLifebringer.Lunatic.MeleeAutoAttack.MaxCooldown, 2.0
+UB_BossLifebringer.Lunatic.BombToss.IntellectCoefficient, 4.0
+UB_BossLifebringer.Lunatic.BombToss.Spread, 0.4
+UB_BossLifebringer.Lunatic.BombToss.InitialMinCooldown, 6.0
+UB_BossLifebringer.Lunatic.BombToss.InitialMaxCooldown, 6.0
+UB_BossLifebringer.Lunatic.BombToss.MinCooldown, 5.0
+UB_BossLifebringer.Lunatic.BombToss.MaxCooldown, 10.0
+UB_BossLifebringer.Lunatic.BombToss.MaxRange, 2000.0
+UB_BossLifebringer.Lunatic.BombToss.Radius, 300.0
+UB_BossLifebringer.Lunatic.BombToss.TrajectoryTime, 1.5
+UB_BossLifebringer.Lunatic.BombToss.DetonateTime, 1.5
+UB_BossLifebringer.Lunatic.ChasePlayer.IntellectCoefficient, 0.0
+UB_BossLifebringer.Lunatic.ChasePlayer.Spread, 0.4
+UB_BossLifebringer.Lunatic.ChasePlayer.InitialMinCooldown, 14.0
+UB_BossLifebringer.Lunatic.ChasePlayer.InitialMaxCooldown, 28.0
+UB_BossLifebringer.Lunatic.ChasePlayer.MinCooldown, 25.0
+UB_BossLifebringer.Lunatic.ChasePlayer.MaxCooldown, 25.0
+UB_BossLifebringer.Lunatic.ChasePlayer.StunDuration, 2.0
+UB_BossLifebringer.Lunatic.ChasePlayer.ProximityTolerance, 100.0
+UB_BossLifebringer.Lunatic.ChasePlayer.ExplosionRadius, 400.0
+UB_BossLifebringer.Lunatic.ChasePlayer.ChaseDuration, 5.0
+UB_BossLifebringer.Lunatic.ChasePlayer.MaxRange, 4000.0
+UB_BossLifebringer.Lunatic.ChasePlayer.CastTime, 2.0
+UB_PowerUp.Shared.CastTime, 0.0
+UB_PowerUp.BannerOfUrgency.MovementSpeedIncrease, 1.15
+UB_PowerUp.BannerOfProtection.MaxHealthShieldPercentage, 0.1
+UB_PowerUp.BannerOfProcetion.Duration, 30.0
+UB_PowerUp.BannerOfRetribution.BaseDamage, 600.0
+UB_PowerUp.BannerOfRetribution.ContractLevelMultiplier, 0.1
+UB_PowerUp.BannerOfRetribution.RechargeDuration, 10.0
+UB_PowerUp.BannerOfRetribution.MaxTargets, 4.0
+UB_PowerUp.BannerOfRetribution.JumpDistance, 500.0
+UB_PowerUp.BannerOfRetribution.Duration, 600.0
+AI.ReturnHome.MoveSpeed, 2.0
+Item.DeliciousApple.Active.MaxHealthPercentageRestored, 0.30
+Item.DeliciousApple.Active.Cooldown, 20 ;
+Item.DeliciousApple.Active.Charges, 3  
+Item.JuicyPlum.Active.MaxManaPercentageRestored, 0.30
+Item.JuicyPlum.Active.Cooldown, 20
+Item.JuicyPlum.Active.Charges, 3
+Item.LeggingsOfTheSwiftHunt.Active.Charges, 5
+Item.LeggingsOfTheSwiftHunt.Active.Cooldown, 20
+Item.LeggingsOfTheSwiftHunt.Active.MovementSpeedIncrease, 1.50
+Item.LeggingsOfTheSwiftHunt.Active.MovementSpeedIncreaseDuration, 10 
+Item.ShortBow.Active.Cooldown, 24
+Item.ShortBow.Active.CastingDuration, 2.0
+Item.ShortBow.Active.FlatDamage, 2.5
+Item.MurderousClub.Passive.Duration, 5
+Item.MurderousClub.Passive.PercentageDamageBonus, 1.15
+Item.SanctifiedGirdle.Passive.Duration, 6.0
+Item.SanctifiedGirdle.Passive.Period, 1.5
+Item.SanctifiedGirdle.Passive.HealPercentOfDamage, 0.15
+Item.MoccasinsOfDiscovery.Passive.Duration, 12
+Item.MoccasinsOfDiscovery.Passive.CritBonus, 5
+Item.MoccasinsOfDiscovery.Passive.HasteBonus, 5
+Item.MoccasinsOfDiscovery.Passive.ExpertiseBonus, 5
+Item.BattleArmor.TriggerThresholdLifePercent, 0.30
+Item.CatBurglarsMitts.DodgeChanceBuffAmount, 0.75
+Item.CatBurglarsMitts.DodgeBuffRechargeTime, 8.0
+Item.SpiderFangSickle.InjectVenomCooldown, 60.0
+Item.SpiderFangSickle.InjectVenomFlatDamagePerTick, 0.93
+Item.SpiderFangSickle.InjectVenomTotalTime, 18.15
+Item.SpiderFangSickle.InjectVenomTickPeriod, 3.0
+Item.MaroonBreaches.LeapCooldown, 45.0
+Item.MaroonBreaches.LeapMaxRange, 800.0
+Item.MaroonBreaches.LeapAirTime, 0.5
+Item.SteelToeKicks.Active.Cooldown, 60
+Item.SteelToeKicks.Active.KickForce, 500.0 ; Impulse force that is applied to the target 
+Item.ShandrasSkeletonKey.CooldownReductionFactor, 0.5
+Item.ShandrasSkeletonKey.Cooldown, 120.0
+Item.MarkofArchWarlock.CriticalEffectMultiplier, 1.10	;Cane of MolDu
+Item.HiddenStrikes.ThreatMultiplier, 0.85	;Mantle of the Hidden Assailant
+Item.ShadowsEmbrace.MagicResistOverride, 225.0	;Veil of Shadows
+Item.ShadowsEmbrace.duration, 8.0
+Item.ShadowsEmbrace.cooldown, 60.0
+Item.ShadowsEmbrace.Charges, 3
+Item.EverlastingDecree.IncomingHealMultiplier, 1.10	;Crown of the Eternal
+Item.WeightedStrikes.ArmorDamageReductionToDamageMultiplier, 0.25	;Fist of the Iron Giant
+Item.GoldenFeather.Quickening.ProccChance, 0.05
+Item.GoldenFeather.Quickening.ProccCooldown, 25.0
+Item.GoldenFeather.Quickening.HasteBonus, 0.2
+Item.GoldenFeather.Quickening.Duration, 15.0
+Item.MoonshardRing.TearsOfTheMoon.ProccChance, 0.05
+Item.MoonshardRing.TearsOfTheMoon.ProccCooldown, 15.0    ; IF INCREASED - RE-ADD THE COOLDOWN GE IN THE ABILITY!
+Item.MoonshardRing.TearsOfTheMoon.PickupHealthScalerBonus, 0.1
+Item.MoonshardRing.TearsOfTheMoon.PickupMosseManaScalerBonus, 0.1
+Item.MoonshardRing.TearsOfTheMoon.PickupVigorManaScalerBonus, 0.1
+Item.MoonshardRing.TearsOfTheMoon.PickupRimeFocusBonus, 2
+Item.MoonshardRing.TearsOfTheMoon.PickupWarmasterFocusBonus, 20
+Item.MoonshardRing.TearsOfTheMoon.PickupQuetzalFocusBonus, 5
+Item.Skystriders.BlessedTraveler.ProccDuration, 8.0
+Item.Skystriders.BlessedTraveler.ProccCooldown, 10.0
+Item.Skystriders.BlessedTraveler.ProccAbsorbFactor, 0.1
+Item.StaffOfFleetingMoments.SecondChance.CastTime, 3.0
+Item.StaffOfFleetingMoments.SecondChance.NumCharges, 1.0
+Item.LingeringPresence.SpiritRatingAdd, 34.0	;Skull of Cursed Servitude
+Item.LingeringPresence.duration, 15.0
+Item.LingeringPresence.cooldown, 120.0
+Item.UnholyMight.CriticalEffectMultiplier, 0.75	;Dreadknight's Armguard
+Item.TapestryOfWar.InspiringPresence.CastTime, 3.0
+Item.TapestryOfWar.InspiringPresence.Charges, 3.0
+Item.TapestryOfWar.InspiringPresence.Buff.Duration, 600.0
+Item.TapestryOfWar.InspiringPresence.Buff.MaxHealthMultiplier, 1.1
+Item.IronscaleWarhorn.GrandMelee.Cooldown, 180.0
+Item.IronscaleWarhorn.GrandMelee.Buff.Duration, 5.0
+Item.IronscaleWarhorn.GrandMelee.Buff.MovementSpeedIncrease, 1.5
+Item.CrimsonSoulstone.ConsumeSouls.MaxHealPercentagePerStack, 0.02
+Item.ThunderlordsJudgement.ChainLightning.ProccChance, 0.08
+Item.ThunderlordsJudgement.ChainLightning.PowerCoefficient, 3.0
+Item.ThunderlordsJudgement.ChainLightning.MaxChainJumps, 2.0
+Item.ThunderlordsJudgement.ChainLightning.Spread, 0.4
+Item.ThunderlordsJudgement.ChainLightning.ChainDamageReduction, 0.8 ; 20% less damage per jump
+Item.CrystalOfForlornMemories.RestorativeReflections.Duration, 12.15
+Item.CrystalOfForlornMemories.RestorativeReflections.Radius, 1000.0	
+Item.CrystalOfForlornMemories.RestorativeReflections.Spread, 0.4
+Item.CrystalOfForlornMemories.RestorativeReflections.Cooldown, 12.0
+Item.CrystalOfForlornMemories.RestorativeReflections.Charges, 3.0
+Item.CrystalOfForlornMemories.RestorativeReflections.HealInterval,2.0
+Item.CrystalOfForlornMemories.RestorativeReflections.PowerCoefficient, 1.63
+Item.IronbarkBoots.DeepRoots.Buff.Timer, 1.0 ; Buff is applied/removed each second
+Item.IronbarkBoots.DeepRoots.Buff.HasteRating, 1.0
+Artifact.02.MainBuff.MaxHealthMultiplier, 1.15
+Artifact.02.MainBuff.AddedLifeSteal, 0.10
+Artifact.02.LifeBreaker.Cooldown, 45.0
+Artifact.02.LifeBreaker.SacrificeMaxHealthAsDamage, 0.25
+Artifact.02.LifeBreaker.DebuffDuration, 6.0
+Artifact.02.LifeBreaker.Tier4DamageBonus, 0.30
+Artifact.02.CheatDeath.Cooldown, 300
+Artifact.02.CheatDeath.MaxHealthHeal, 0.30
+Artifact.02.CheatDeath.ActivationBuff.Duration, 6.0
+Artifact.02.CheatDeath.ActivationBuff.AdditionalLifeSteal, 0.30
+Artifact.4.SoulFragment.DropChance, 0.20
+Artifact.4.SoulFragment.Haste, 0.01
+Artifact.4.SoulFragment.LifeTime, 30.0
+Artifact.4.SoulFragment.DamageTimeout, 30.0 ; The time window in seconds between you have made damage until the die where sould fragment should be spawned. 
+Artifact.4.Ability.IntellectCoefficient, 10.0
+Artifact.4.SoulFragment.CritChance.Magnitude, 0.25
+Artifact.4.SoulFragment.CritChance.Duration, 8.0
+Artifact.6.FallingStar.DamageRadius, 150
+Artifact.6.FallingStar.IntellectCoefficient, 0.08
+Artifact.6.FallingStar.Spread, 0.4
+Artifact.6.FallingStar.Rank3CriticalStrikeChance, 0.1
+Artifact.6.CascadingStars.Cooldown, 120
+Artifact.6.CascadingStars.Duration, 15
+Artifact.6.CascadingStars.Period, 0.5 ; Each period spawns a star on a random character around you
+Artifact.6.StarCallerBuff.CritChanceBonusPerStack, 0.0025 ; 0.3% per stack
+Artifact.6.StarCallerBuff.CritDamageBonusPerStack, 0.005 ; 0.3% per stack
+Artifact.6.StarCallerBuff.Duration, 6
+Artifact.07.MeditativeBreathing.BonusManaRegenRateMultiplier, 0.01
+Artifact.07.MeditativeBreathing.Duration, 6.15
+Artifact.07.MeditativeBreathing.ChanceToApply, 0.10
+Artifact.07.MeditativeBreathing.ManaPercentageThreshhold.Tier4, 0.30
+Artifact.07.MeditativeBreathing.ChanceToApply.Tier4, 0.20
+Artifact.07.WogonsSigal.HealReplicationFraction.Base, 0.3 		; 30% of healing is replicated to target(s) 
+Artifact.07.WogonsSigal.IncomingHealMultiplierBonus.Tier3, 1.10
+Artifact.07.WogonsSigal.HealReplicationFraction.Tier3, 0.33		; no longer used
+Artifact.07.WogonsSigal.Tier4SecondTargetFalloffDuration, 10 	; No longer used stays on the older target for 10 seconds
+Item.001.ApplicationChance, 0.08 ; Chance to apply primary stat
+Item.001.Buff.PrimaryStatBonus, 20.0
+Item.001.Buff.Duration, 10.0
+Item.002.ApplicationHealthThreshold, 0.3 ; 30%
+Item.002.Buff.HasteRatingBonus, 20.0
+Item.002.Buff.Duration, 8.0
+Item.003.StacksPerHealthPercentage, 0.2 ; one stack per 20% health 
+Item.003.Buff.SpiritRatingPerStack, 2.0
+Item.004.ProcChance, 0.05 ; 5% Chance to trigger Circle of Inspiration AOE 
+Item.004.AOE.Duration, 8.0
+Item.004.AOE.Radius, 800.0
+Item.004.AOE.Buff.CritChanceBonus, 0.15
+Item.005.ApplicationCooldown, 30.0
+Item.005.Buff.MovementSpeedBonus, 1.2
+Item.005.Buff.HasteBonus, 0.20
+Item.005.Buff.Duration, 6.0 

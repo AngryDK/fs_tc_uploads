@@ -1,0 +1,591 @@
+name,value
+PR_BossAnchor.MeleeAutoAttack.MaxRange, 700.0
+PR_BossAnchor.MeleeAutoAttack.Cooldown, 3.5
+PR_BossAnchor.MeleeAutoAttack.CastingDuration, 0.65
+PR_BossAnchor.MeleeAutoAttack.Radius, 400.0
+PR_BossAnchor.CastedGrowingTankWave.InitialCooldown, 7.0			;FIRST MATE MARROW - WAVESTOMP
+PR_BossAnchor.CastedGrowingTankWave.Cooldown, 17.0
+PR_BossAnchor.CastedGrowingTankWave.MaxRange, 3000.0
+PR_BossAnchor.CastedGrowingTankWave.CastingDuration, 3.0
+PR_BossAnchor.CastedGrowingTankWave.StrengthCoefficient, 7.02
+PR_BossAnchor.CastedGrowingTankWave.DebuffSlow.Duration, 10.0
+PR_BossAnchor.CastedGrowingTankWave.DebuffSlow.MoveSpeedMultiplier, 0.30
+PR_BossAnchor.CastedGrowingTankWave.DebuffSlow.HasteReduction, 0.50  
+PR_BossAnchor.CastedGrowingTankWave.Duration, 2.0
+PR_BossAnchor.CastedGrowingTankWave.Angle, 120.0
+PR_BossAnchor.CastedGrowingTankWave.StartRadius, 250.0
+PR_BossAnchor.CastedGrowingTankWave.MaxRadius, 3000.0
+PR_BossAnchor.CastedGrowingTankWave.WaveThickness, 250.0
+PR_BossAnchor.CastedGrowingTankWave.KnockbackForce, 2000.0
+PR_BossAnchor.HighTide.InitialCooldown, 40.0						;FIRST MATE MARROW - HIGH TIDE
+PR_BossAnchor.HighTide.Cooldown, 70.0
+PR_BossAnchor.HighTide.PostAbilityPadding, 2.0
+PR_BossAnchor.HighTide.PushSpeed, 1500.0
+PR_BossAnchor.HighTide.PushSpeedWhenTethered, 150.0
+PR_BossAnchor.HighTide.PushSpeedMultiBehindBoss, 4.0 ; Only applies when tethered
+PR_BossAnchor.HighTide.BehindBossBufferDistance, 250.0 ; Only applies when tethered. At this distance behind the boss we apply the full PushSpeedMultiBehindBoss multiplier.
+PR_BossAnchor.HighTide.CastTime, 6.0
+PR_BossAnchor.HighTide.ChannelingTime, 21.5
+PR_BossAnchor.HighTide.Sharks.SpawnInterval, 1.5
+PR_BossAnchor.HighTide.Sharks.SpawnDistance, 2150.0
+PR_BossAnchor.HighTide.Sharks.SpawnMinHalfAngle, 25.0
+PR_BossAnchor.HighTide.Sharks.SpawnMaxHalfAngle, 60.0
+PR_BossAnchor.HighTide.Sharks.SpawnCount, 10.0
+PR_BossAnchor.HighTide.Water.TotalHeightToAdd, 3500.0
+PR_BossAnchor.HighTide.Water.HeightAddSpeed, 1000.0
+PR_BossAnchor.HighTide.Water.HeightReduceSpeed, 4000.0
+PR_BossAnchor.HighTide.Damage.Interval, 2.0
+PR_BossAnchor.HighTide.Damage.StrengthCoefficient, 1.96
+PR_BossAnchor.HighTide.Damage.Spread, 0.2
+PR_BossAnchor.HighTide.NPCMoveSpeedMultiplier, 0.3
+PR_BossAnchor.HighTide.NPCKillRadius, 2500.0
+PR_BossAnchor.HighTide.PlayerKillRadius, 2800.0
+PR_BossAnchor.HighTide.PostAbilityAutoAttackDuration, 1.5 ; extra padding where boss cant trigger autoattack specifically
+PR_BossAnchor.HighTide.Tether.CastTime, 0.667
+PR_BossAnchor.HighTide.Tether.PullSpeed, 800.0      ; At LeashLength we apply this speed. Beyond that a little more speed will be applied before snapping.
+PR_BossAnchor.HighTide.Tether.LeashLength, 600.0    ; At this length we apply the full PullSpeed
+PR_BossAnchor.HighTide.Tether.SnapLength, 3500.0     ; At this length the tether will snap.
+PR_BossAnchor.Reinforcements.InitialCooldown, 20.0					;FIRST MATE MARROW - CANNONBALL TROOPS
+PR_BossAnchor.Reinforcements.Cooldown, 70.0
+PR_BossAnchor.Reinforcements.PostAbilityPadding, 2.0
+PR_BossAnchor.Reinforcements.MinSpawnHealthFraction, 0.4
+PR_BossAnchor.Reinforcements.MaxSpawnHealthFraction, 0.6
+PR_BossAnchor.Reinforcements.MaxSpawnDistanceFromCenter, 1600.0
+PR_BossAnchor.Reinforcements.SpawnDelay, 2.5
+PR_BossAnchor.Reinforcements.CannonFireDelay, 0.3
+PR_BossAnchor.Reinforcements.SpawnHealthFractionMin, 0.4
+PR_BossAnchor.Reinforcements.SpawnHealthFractionMax, 0.6
+PR_BossAnchor.Reinforcements.Damage.Radius, 350.0
+PR_BossAnchor.Reinforcements.Damage.StrengthCoefficient, 7.32
+PR_BossAnchor.Reinforcements.Damage.KnockbackStrength, 1000.0
+PR_BossAnchor.CannonBarrage.InitialCooldown, 6.0 ; This cooldown only starts after Reinforcements is cast and stops when HighTide is cast.
+PR_BossAnchor.CannonBarrage.Cooldown, 6.0
+PR_BossAnchor.CannonBarrage.PostAbilityPadding, 2.0
+PR_BossAnchor.CannonBarrage.MaxSpawnDistanceFromTargetPlayer, 250.0
+PR_BossAnchor.CannonBarrage.SpawnDelay, 2.5
+PR_BossAnchor.CannonBarrage.CannonFireDelay, 0.3
+PR_BossAnchor.CannonBarrage.Damage.Radius, 350.0
+PR_BossAnchor.CannonBarrage.Damage.StrengthCoefficient, 3.32
+PR_BossAnchor.CannonBarrage.Damage.KnockbackStrength, 1000.0
+PR_BossAnchor.Reinforced.ScallywagsBase, 2.0
+PR_BossAnchor.Reinforced.WavecrashersBase, 1.0
+PR_BossAnchor.Reinforced.ScallywagsPerStack, 1.0
+PR_BossAnchor.Reinforced.WavecrashersPerStack, 0.0
+PR_BossAnchor.Reinforced.CannonballsBase, 3.0
+PR_BossAnchor.Reinforced.CannonballsPerStack, 1.0
+PR_BossAnchor.PeriodicMultiSoak.InitialMinCooldown, 15.0
+PR_BossAnchor.PeriodicMultiSoak.InitialMaxCooldown, 15.0
+PR_BossAnchor.PeriodicMultiSoak.MinCooldown, 40.0
+PR_BossAnchor.PeriodicMultiSoak.MaxCooldown, 40.0
+PR_BossAnchor.PeriodicMultiSoak.MinSpawnRadius, 1000.0
+PR_BossAnchor.PeriodicMultiSoak.MaxSpawnRadius, 1800.0
+PR_BossAnchor.PeriodicMultiSoak.NumPools, 2.0
+PR_BossAnchor.PeriodicMultiSoak.Pool.SpawnStaggerTime, 0.50
+PR_BossAnchor.PeriodicMultiSoak.Pool.DetonateTime, 5.0			; time before it explodes
+PR_BossAnchor.PeriodicMultiSoak.Pool.Radius, 400.0
+PR_BossAnchor.PeriodicMultiSoak.Pool.PrimaryAttributeCoefficient , 2.79
+PR_BossAnchor.PeriodicMultiSoak.Debuff.IncomingHealScaler, 0.50
+PR_BossAnchor.PeriodicMultiSoak.Debuff.StackLimit, 5.0
+PR_BossAnchor.PeriodicMultiSoak.Debuff.Duration, 24.0
+PR_BossAnchor.PeriodicMultiSoak.Debuff.PrimaryAttributeCoefficient , 1.12
+PR_BossAnchor.PeriodicMultiSoak.Debuff.Tickrate, 1.5
+PR_BossPirateCaptain.MeleeAutoAttack.StrengthCoefficient, 8.70		;DEATHLESS KATRINE - AUTO ATTACK
+PR_BossPirateCaptain.MeleeAutoAttack.MaxRange, 500.0
+PR_BossPirateCaptain.MeleeAutoAttack.Cooldown, 2.1 
+PR_BossPirateCaptain.Spin.InitialCooldown, 22.0						;DEATHLESS KATRINE - SOULPOWDER CYCLONE
+PR_BossPirateCaptain.Spin.Cooldown, 33.0
+PR_BossPirateCaptain.Spin.PostAbilityPadding, 1.5
+PR_BossPirateCaptain.Spin.MaxRadius, 2000.0
+PR_BossPirateCaptain.Spin.CastTime, 0.5
+PR_BossPirateCaptain.Spin.Duration, 8.90
+PR_BossPirateCaptain.Spin.MoveSpeedMultiplier, 0.25
+PR_BossPirateCaptain.Spin.Damage.TickInterval, 0.5
+PR_BossPirateCaptain.Spin.Damage.StrengthCoefficient, 2.95		
+PR_BossPirateCaptain.Spin.Damage.Radius, 350.0
+PR_BossPirateCaptain.Spin.Shoot.TickInterval, 0.6
+PR_BossPirateCaptain.Spin.Shoot.Delay, 2.00
+PR_BossPirateCaptain.Spin.Shoot.StrengthCoefficient, 2.43
+PR_BossPirateCaptain.Spin.Shoot.Distance, 3000.0
+PR_BossPirateCaptain.Spin.Shoot.Width, 120.0
+PR_BossPirateCaptain.Spin.Shoot.OffsetFromCenter, 180.0 ; How far away from the pirate captain the box will spawn.
+PR_BossPirateCaptain.Spin.ShootDebuff.Radius, 400.0
+PR_BossPirateCaptain.Spin.ShootDebuff.StrengthCoefficient, 5.67
+PR_BossPirateCaptain.Spin.ShootDebuff.Duration, 2.0
+PR_BossPirateCaptain.Split.InitialCooldown, 5.0						;DEATHLESS KATRINE - CAPTAIN'S ORDERS!
+PR_BossPirateCaptain.Split.Cooldown, 30.0
+PR_BossPirateCaptain.Split.PostAbilityPadding, 1.5
+PR_BossPirateCaptain.Split.Duration, 30.0
+PR_BossPirateCaptain.Split.StrengthCoefficient, 1.2
+PR_BossPirateCaptain.Split.TickInterval, 1.0
+PR_BossPirateCaptain.QuickShots.InitialCooldown, 12.0				;DEATHLESS KATRINE - QUICK DRAW
+PR_BossPirateCaptain.QuickShots.Cooldown, 25.0					
+PR_BossPirateCaptain.QuickShots.StrengthCoefficient, 2.72
+PR_BossPirateCaptain.QuickShots.PreCastTime, 1.0 	  ;careful with these - can mess up anim
+PR_BossPirateCaptain.QuickShots.ChannelDuration, 2.25 ;careful with these - can mess up anim
+PR_BossPirateCaptain.QuickShots.TickInterval, 0.45 	  ;careful with these - can mess up anim
+PR_BossPirateCaptain.QuickShots.PostAbilityPadding, 1.0			
+PR_BossPirateCaptain.DonutAOE.InitialCooldown, 17.0						;DEATHLESS KATRINE - NO QUARTERS!
+PR_BossPirateCaptain.DonutAOE.Cooldown, 40.0
+PR_BossPirateCaptain.DonutAOE.PostAbilityPadding, 1.5
+PR_BossPirateCaptain.DonutAOE.Teleport.FadeTime, 0.8
+PR_BossPirateCaptain.DonutAOE.Teleport.FadeInTime, 0.5
+PR_BossPirateCaptain.DonutAOE.Teleport.FadeOutTime, 0.2
+PR_BossPirateCaptain.DonutAOE.CastTime, 0.5
+PR_BossPirateCaptain.DonutAOE.InnerRadius, 350.0
+PR_BossPirateCaptain.DonutAOE.OuterRadius, 4000.0
+PR_BossPirateCaptain.DonutAOE.Channel.TickInterval, 1.50
+PR_BossPirateCaptain.DonutAOE.Channel.Duration, 6.0
+PR_BossPirateCaptain.DonutAOE.Channel.PrimaryAttributeCoefficient, 2.14
+PR_BossPirateCaptain.DonutAOE.Channel.DamageScaleIncreasePerTick, 0.30 		; 20% more damage each tick
+PR_BossPirateCaptain.BecomeGhost.TransitionTime, 7.0				;DEATHLESS KATRINE - UNFINISHED BUSINESS
+PR_BossPirateCaptain.BecomeGhost.HealDelay, 4.0
+PR_BossPirateCaptain.BecomeGhost.PostAbilityPadding, 2.0
+PR_BossPirateCaptain.ObstacleCourse.InitialCooldown, 1.0			;DEATHLESS KATRINE - SEVER SOULS and SEVER SOUL
+PR_BossPirateCaptain.ObstacleCourse.Cooldown, 55.0
+PR_BossPirateCaptain.ObstacleCourse.PostAbilityPadding, 1.5
+PR_BossPirateCaptain.ObstacleCourse.DontSendBackDuration, 90.0
+PR_BossPirateCaptain.ObstacleCourse.Debuff.DamageScale, 1.00
+PR_BossPirateCaptain.ObstacleCourse.Debuff.MoveSpeedMultiplier, 1.5
+PR_BossPirateCaptain.ObstacleCourse.Dot.StrengthCoefficient, 0.32
+PR_BossPirateCaptain.ObstacleCourse.Dot.TickInterval, 1.5
+PR_BossPirateCaptain.ObstacleCourse.ThreatToAddWhenNoLongerGhost, 10000.0 ; Threat is set to 0 when becoming ghost. When you stop being a ghost we add this much threat back. This is so the boss prioritizes non-ghosts.
+PR_BossPirateCaptain.ObstacleCourse.ReturnBuff.Duration, 20.0
+PR_BossPirateCaptain.ObstacleCourse.ReturnBuff.DamageScale, 1.2
+PR_BossPirateCaptain.ObstacleCourse.ReturnBuff.HealScale, 1.2		; thought this made sense if a healer gets sent back they get some help healing the party back up. feel free to set to 1.0 and remove my comment
+PR_BossPirateCaptain.EmptyArenaChannel.Cooldown, 2.0
+PR_BossPirateCaptain.EmptyArenaChannel.PostAbilityPadding, 1.5
+PR_BossPirateCaptain.EmptyArenaChannel.TickInterval, 2.0
+PR_BossPirateCaptain.EmptyArenaChannel.Radius, 8500.0
+PR_BossPirateCaptain.EmptyArenaChannel.StrengthCoefficient, 0.1
+PR_BossPirateCaptain.CannonAoe.ActivationDelay, 1.0		; This is how long time from calling it to fire. AKA light up time
+PR_BossPirateCaptain.CannonAoe.FireInterval, 1.0
+PR_BossPirateCaptain.CannonAoe.Duration, 2.0
+PR_BossPirateCaptain.CannonAoe.DotTickInterval, 0.5
+PR_BossPirateCaptain.CannonAoe.IntellectCoefficient, 3.0
+PR_BossPirateCaptain.CannonAoe.AoeLength, 3800.0
+PR_BossPirateCaptain.CannonAoe.AoeWidth, 500
+PR_BossPirateCaptain.CannonAoe.StunDuration, 2.0
+PR_BossPirateCaptain.DebuffAoePool.InitialMinCooldown, 12.0		;DEATHLESS KATRINE - Debuff AOE Pools
+PR_BossPirateCaptain.DebuffAoePool.InitialMaxCooldown, 12.0
+PR_BossPirateCaptain.DebuffAoePool.MinCooldown, 20.0
+PR_BossPirateCaptain.DebuffAoePool.MaxCooldown, 20.0
+PR_BossPirateCaptain.DebuffAoePool.PlacementDebuff.Duration, 8.0
+PR_BossPirateCaptain.DebuffAoePool.Pool.Radius, 300.0
+PR_BossPirateCaptain.DebuffAoePool.Pool.Lifetime, 180.0 			; warning! we can reach max pool count pretty easily (its 30) so if you increase this or decrease the cooldown it will reach the pool limit
+PR_BossPirateCaptain.DebuffAoePool.Pool.PlacementAOE.PrimaryAttributeCoefficient, 4.12
+PR_BossPirateCaptain.DebuffAoePool.Pool.Debuff.Tick, 1.0
+PR_BossPirateCaptain.DebuffAoePool.Pool.Debuff.PrimaryAttributeCoefficient, 1.94
+PR_BossPirateCaptain.DebuffAoePool.Pool.Debuff.MovementSpeedMultiplier, 0.5
+PR_SpectralSwab.Wander.InitialMinCooldown, 0.0						;DEATHLESS KATRINE - SPECTRAL SWAP MINIONS
+PR_SpectralSwab.Wander.InitialMaxCooldown, 1.0
+PR_SpectralSwab.Wander.MinCooldown, 1.0
+PR_SpectralSwab.Wander.MaxCooldown, 2.5
+PR_SpectralSwab.Wander.WalkDistanceMin, 400.0
+PR_SpectralSwab.Wander.WalkDistanceMax, 800.0
+PR_SpectralSwab.Explode.StunDuration, 1.0			
+PR_SpectralSwab.Explode.RespawnDelay, 10.0	
+PR_SpectralSwab.Explode.Radius, 75.0
+PR_SpectralSwab.Explode.StrengthCoefficient, 1.57
+PR_BossTreasureDemon.MeleeAutoAttack.StrengthCoefficient, 2.80					;BAEL'AURUM - AUTO ATTACK
+PR_BossTreasureDemon.MeleeAutoAttack.Cooldown, 2.20
+PR_BossTreasureDemon.MeleeAutoAttack.MaxRange, 2875.0
+PR_BossTreasureDemon.CastedRangedProjectile.MaxRange, 5000.0					;BAEL'AURUM - SHADOW BOLT
+PR_BossTreasureDemon.CastedRangedProjectile.CastingTime, 3.0
+PR_BossTreasureDemon.CastedRangedProjectile.IntellectCoefficient, 2.59
+PR_BossTreasureDemon.ConeAttack.InitialCooldown, 15.0							;BAEL'AURUM - ???
+PR_BossTreasureDemon.ConeAttack.Cooldown, 25.0
+PR_BossTreasureDemon.ConeAttack.MaxRange, 3000.0
+PR_BossTreasureDemon.ConeAttack.ConeAngle, 90.0      ; Degrees 
+PR_BossTreasureDemon.ConeAttack.ConeMaxLength, 2200.0
+PR_BossTreasureDemon.ConeAttack.ConeMidLength, 1200.0
+PR_BossTreasureDemon.ConeAttack.CastingDuration, 3.0
+PR_BossTreasureDemon.ConeAttack.IntellectCoefficient, 7.812
+PR_BossTreasureDemon.ConeAttack.FearDuration, 8.0
+PR_BossTreasureDemon.ConeAttack.FearDamageThresholdScaler, 10.0 ; FearDamageThresholdScaler * Strength * DifficulyScaling
+PR_BossTreasureDemon.SummonBall.MaxSpawnRange, 2000.0
+PR_BossTreasureDemon.SummonBall.InitialCooldown, 8.0
+PR_BossTreasureDemon.SummonBall.PostAbilityPadding, 1.0
+PR_BossTreasureDemon.SummonBall.CastTime, 1.0
+PR_BossTreasureDemon.SummonBall.Hit.KnockbackStrength, 1500.0
+PR_BossTreasureDemon.SummonBall.Hit.Radius, 200.0
+PR_BossTreasureDemon.SummonBall.Hit.StrengthCoefficient, 6.42
+PR_BossTreasureDemon.ScatterCoins.HealthPercentPerScatter, 0.035	;0.0175
+PR_BossTreasureDemon.ScatterCoins.Targeted.MinOffset, 0.0
+PR_BossTreasureDemon.ScatterCoins.Targeted.MaxOffset, 20.0
+PR_BossTreasureDemon.ScatterCoins.Targeted.MinArenaRadius, 500.0
+PR_BossTreasureDemon.ScatterCoins.Random.MinSpawnRadius, 500.0
+PR_BossTreasureDemon.ScatterCoins.Random.MaxSpawnRadius, 2000.0
+PR_BossTreasureDemon.ScatterCoins.Impact.StrengthCoefficient, 2.10
+PR_BossTreasureDemon.ScatterCoins.Impact.Radius, 125.0
+PR_BossTreasureDemon.ScatterCoins.Aura.Radius,125.0
+PR_BossTreasureDemon.ScatterCoins.Aura.StrengthCoefficient, 1.266
+PR_BossTreasureDemon.ScatterCoins.Aura.TickInterval, 1.0
+PR_BossTreasureDemon.SuckInCoins.InitialMinCooldown, 60.0
+PR_BossTreasureDemon.SuckInCoins.InitialMaxCooldown, 60.0
+PR_BossTreasureDemon.SuckInCoins.MinCooldown, 60.0
+PR_BossTreasureDemon.SuckInCoins.MaxCooldown, 60.0
+PR_BossTreasureDemon.SuckInCoins.MinPostAbilityPadding, 2.0
+PR_BossTreasureDemon.SuckInCoins.MaxPostAbilityPadding, 2.0
+PR_BossTreasureDemon.SuckInCoins.ChannelingTime, 10.0
+PR_BossTreasureDemon.SuckInCoins.SuckInBallDelay, 1.5
+PR_BossTreasureDemon.SuckInCoins.StartSuckInNewPileInterval, 0.10
+PR_BossTreasureDemon.SuckInCoins.SuckStartSpeed, 0.0
+PR_BossTreasureDemon.SuckInCoins.SuckAcceleration, 300.0
+PR_BossTreasureDemon.SuckInCoins.AbsorbDistance, 450.0
+PR_BossTreasureDemon.SuckInCoins.HealFractionPerCoin, 0.035		;0.0175
+PR_BossTreasureDemon.Nova.InitialCooldown, 35.0
+PR_BossTreasureDemon.Nova.Cooldown, 50.0
+PR_BossTreasureDemon.Nova.CastDuration, 3.0
+PR_BossTreasureDemon.Nova.ChannelDuration, 8.0
+PR_BossTreasureDemon.Nova.ChannelTickInterval, 1.0
+PR_BossTreasureDemon.Nova.MinRadius, 875.0
+PR_BossTreasureDemon.Nova.Radius, 4000.0
+PR_BossTreasureDemon.Nova.VisualRadius, 2500.0
+PR_BossTreasureDemon.Nova.StrengthCoefficient, 1.89
+PR_BossTreasureDemon.Tornado.InitialCooldown, 20.0
+PR_BossTreasureDemon.Tornado.Cooldown, 60.0
+PR_BossTreasureDemon.Tornado.PostAbilityPadding, 0.5
+PR_BossTreasureDemon.Tornado.MaxTargetCount, 1.0
+PR_BossTreasureDemon.Tornado.Radius, 275.0
+PR_BossTreasureDemon.Tornado.EdgeSafetyMargin, 650.0 ; This ought to be radius plus a little more.
+PR_BossTreasureDemon.Tornado.MinDistanceToNewTarget, 500.0
+PR_BossTreasureDemon.Tornado.StartDelay, 3.0
+PR_BossTreasureDemon.Tornado.Duration, 999.0
+PR_BossTreasureDemon.Tornado.Speed, 300.0
+PR_BossTreasureDemon.Tornado.KnockbackForce, 1000.0
+PR_BossTreasureDemon.Tornado.BallPushStrength, 350.0 ; This is akin to the boss dealing this much damage to the ball and is then further scaled by the boss' DamageDifficultyScale.
+PR_BossTreasureDemon.Tornado.StrengthCoefficient, 5.18
+PR_BossTreasureDemon.Tornado.DamageCooldown, 1.0
+PR_BossTreasureDemon_Ball.Roll.SquaredSpeedPerDamage, 3600.0    ; sqrt((SquaredSpeedPerDamage * Damage) / HealthScale) * CoinSpeedMultiplier.
+PR_BossTreasureDemon_Ball.Roll.SpeedMultiplierPerSecond, 0.6
+PR_BossTreasureDemon_Ball.Roll.SpeedMultiplierPerCoin, 0.95     ; Exponential. if this is 0.95 then 10 coins will be 0.95^10 = 0.6 or 40% slowdown.
+PR_BossTreasureDemon_Ball.Roll.MaxRollSpeed, 1000.0
+PR_BossTreasureDemon_Ball.AbsorbCoins.Radius, 300.0
+PR_BossTreasureDemon_Ball.AbsorbCoins.SizeIncreasePerCoin, 0.075
+PR_BossTreasureDemon_Ball.AbsorbCoins.SlowPerCoin, 0.0125
+PR_BossTreasureDemon_Ball.Knockback.MinSpeedForKnockback, 100.0
+PR_BossTreasureDemon_Ball.Knockback.MinimumKnockbackForce, 800.0
+PR_BossTreasureDemon_Ball.Knockback.BaseKnockbackStrength, 500.0
+PR_BossTreasureDemon_Ball.Knockback.KnockbackStrengthPerSpeed, 1.20
+PR_BossTreasureDemon_Ball.Knockback.BaseStrengthCoefficient, 1.0
+PR_BossTreasureDemon_Ball.Knockback.StrengthCoefficientPerSpeed, 0.002
+PR_BossTreasureDemon_Ball.Knockback.DamageMultiPerCoin, 0.05
+PR_BossTreasureDemon_Ball.Knockback.KnockbackMultiPerCoin, 0.03
+PR_BossTreasureDemon_Ball.Knockback_Immune.Duration, 0.5
+PR_BossTreasureDemon_Ball.CrashIntoBoss.StartSpeed, 1000.0
+PR_BossTreasureDemon_Ball.CrashIntoBoss.Acceleration, 26000.0
+PR_BossTreasureDemon_Ball.CrashIntoBoss.LiftDuration, 8.0
+PR_BossTreasureDemon_Ball.CrashIntoBoss.LiftSpeed, 50.0
+PR_BossTreasureDemon_Ball.CrashIntoBoss.BlendTime, 0.2 ; We blend from the roll vector from damage to the roll vector from crashing into the boss over this amount of time.
+PR_BossTreasureDemon_Ball.CrashIntoBoss.CrashDistance, 425.0
+PR_BossTreasureDemon_Ball.CrashIntoBoss.Damage.HealthFractionBase, 0.05
+PR_BossTreasureDemon_Ball.CrashIntoBoss.Damage.HealthFractionPerCoin, 0.00875
+PR_BossTreasureDemon_Ball.CrashIntoBoss.Damage.Spread, 0.0
+PR_BossTreasureDemon_Ball.CrashIntoBoss.StunDurationBase, 5.0
+PR_BossTreasureDemon_Ball.CrashIntoBoss.StunDurationPerCoin, 0.5
+PR_BossTreasureDemon.Bleed.InitialMinCooldown, 3.0    ; CUT ABILITY
+PR_BossTreasureDemon.Bleed.InitialMaxCooldown, 3.0
+PR_BossTreasureDemon.Bleed.MinCooldown, 5.0
+PR_BossTreasureDemon.Bleed.MaxCooldown, 5.0
+PR_BossTreasureDemon.Bleed.MinPostAbilityPadding, 0.0
+PR_BossTreasureDemon.Bleed.MaxPostAbilityPadding, 0.0
+PR_BossTreasureDemon.Bleed.Duration, 8.0
+PR_BossTreasureDemon.Bleed.TickInterval, 2.0
+PR_BossTreasureDemon.Bleed.StrengthCoefficient, 0.50
+PR_BossTreasureDemon.Bleed.Spread, 0.0
+PR_BossTreasureDemon.Bleed.MaxRange, 875.0
+PR_BossTreasureDemon.PunchBall.InitialMinCooldown, 1.0    ; CUT ABILITY
+PR_BossTreasureDemon.PunchBall.InitialMaxCooldown, 1.0
+PR_BossTreasureDemon.PunchBall.MinCooldown, 2.0
+PR_BossTreasureDemon.PunchBall.MaxCooldown, 2.0
+PR_BossTreasureDemon.PunchBall.MinPostAbilityPadding, 2.0
+PR_BossTreasureDemon.PunchBall.MaxPostAbilityPadding, 2.0
+PR_BossTreasureDemon.PunchBall.MaxRange, 250.0
+PR_BossTreasureDemon.PunchBall.StrengthCoefficient, 5.0
+PR_BossTreasureDemon.SelectBallMoverPassive.NumJumps, 0  ; 0 means no jumps and stay on tank the entire time 1 means stay on tank but jumps once to dps across the duration 2 means it jumps back to tank 3 means it will jump to dps again etc
+PR_Shark.SpawnCooldownAfterDeath, 3.0
+PR_Shark.Projectile.InitialMinCooldown, 0.5									;SHARK - PROJECTILE
+PR_Shark.Projectile.InitialMaxCooldown, 0.5
+PR_Shark.Projectile.SwimDirMaxHalfAngle, 5.0
+PR_Shark.Projectile.JumpDistance, 120.0
+PR_Shark.Projectile.MinDistanceAlongLine, 25.0
+PR_Shark.Projectile.MaxDistanceAlongLine, 1800.0
+PR_Shark.JumpAttack.MaxRange, 300.0
+PR_Shark.JumpAttackProjectile.MaxRange, 120.0
+PR_Shark.BiteAttached.InitialMinCooldown, 0.5								;SHARK - BITE
+PR_Shark.BiteAttached.InitialMaxCooldown, 0.5
+PR_Shark.BiteAttached.MinCooldown, 1.0
+PR_Shark.BiteAttached.MaxCooldown, 1.0
+PR_Shark.BiteAttached.MinPostAbilityPadding, 2.0
+PR_Shark.BiteAttached.MaxPostAbilityPadding, 2.0
+PR_Shark.BiteAttached.StrengthCoefficient, 0.33
+PR_Shark.BiteAttached.Spread, 0.2
+PR_Scallywag.MeleeAutoAttack.StrengthCoefficient, 1.02						;SCALLYWAG - AUTO ATTACK
+PR_Scallywag.MeleeAutoAttack.Cooldown, 1.8
+PR_Scallywag.MeleeAutoAttack.MaxRange, 400.0
+PR_Scallywag.Jump.InitialMinCooldown, 6.0									;SCALLYWAG - SCURVY STRIKE
+PR_Scallywag.Jump.InitialMaxCooldown, 12.0
+PR_Scallywag.Jump.Cooldown, 8.0
+PR_Scallywag.Jump.CastTime, 0.7
+PR_Scallywag.Jump.PreJumpDelay, 0.25
+PR_Scallywag.Jump.MinRange, 2000.0
+PR_Scallywag.Jump.MaxRange, 3000.0
+PR_Scallywag.TargetHealthDamage.StrengthCoefficient, 1.89						; do not remove - this ability is now applied as part of jump ability
+PR_Scallywag.TargetHealthDamage.DoTStrengthCoefficient, 0.20					; do not remove - this ability is now applied as part of jump ability
+PR_Scallywag.TargetHealthDamage.DoTDuration, 8.0								; do not remove - this ability is now applied as part of jump ability
+PR_Scallywag.TargetHealthDamage.DoTPeriod, 1.0									; do not remove - this ability is now applied as part of jump ability
+PR_Scallywag.TargetHealthDamage.DoTDamageScalerBasedOnTargetMaxHealth, 1.0		; do not remove - this ability is now applied as part of jump ability
+PR_Scallywag.TargetHealthDamage.InitialMinCooldown, 6.0			;not in use
+PR_Scallywag.TargetHealthDamage.InitialMaxCooldown, 12.0		;not in use
+PR_Scallywag.TargetHealthDamage.Cooldown, 20.0					;not in use
+PR_Scallywag.TargetHealthDamage.MaxRange, 500.0					;not in use
+PR_BlunderbussPirate.RangedAutoAttack.StrengthCoefficient, 1.43				;BLUNDERBUSS BUCCANEER - AUTO ATTACK		
+PR_BlunderbussPirate.RangedAutoAttack.Cooldown, 2.2
+PR_BlunderbussPirate.RangedAutoAttack.MaxRange, 3000.0
+PR_BlunderbussPirate.MeleeAutoAttack.Cooldown, 2.0
+PR_BlunderbussPirate.MeleeAutoAttack.MaxRange, 500.0
+PR_BlunderbussPirate.MeleeAutoAttack.StrengthCoefficient, 0.68
+PR_BlunderbussPirate.RangedDamageDebuff.MaxRange, 4000						;BLUNDERBUSS BUCCANEER - SOULPOWDER SHOT
+PR_BlunderbussPirate.RangedDamageDebuff.CastTime, 3.0
+PR_BlunderbussPirate.RangedDamageDebuff.StrengthCoefficient, 1.87		
+PR_BlunderbussPirate.RangedDamageDebuff.InitialMinCooldown, 6.0
+PR_BlunderbussPirate.RangedDamageDebuff.InitialMaxCooldown, 14.0
+PR_BlunderbussPirate.RangedDamageDebuff.MinCooldown, 24.0
+PR_BlunderbussPirate.RangedDamageDebuff.MaxCooldown, 24.0
+PR_BlunderbussPirate.RangedDamageDebuff.Debuff.Duration, 12.0
+PR_BlunderbussPirate.RangedDamageDebuff.FullStackDebuff.Duration, 2.0
+PR_BlunderbussPirate.RangedDamageDebuff.FullStackDebuff.StrengthCoefficient, 4.36
+PR_BlunderbussPirate.RangedDamageDebuff.FullStackDebuff.ImpactRadius, 400.0
+PR_BlunderbussPirate.RangedDamageDebuff.InterruptCooldown, 18.0
+PR_BlunderbussPirate.RangedDamageDebuff.AbilityPadding, 1.5
+PR_Swashbuckler.MeleeAutoAttack.StrengthCoefficient, 3.46					;BLEACHBONE BRUTE - AUTO ATTACK	- this is an area auto attack
+PR_Swashbuckler.MeleeAutoAttack.MaxRange, 700.0
+PR_Swashbuckler.MeleeAutoAttack.Cooldown, 2.8
+PR_Swashbuckler.MeleeAutoAttack.CastingDuration, 0.67
+PR_Swashbuckler.MeleeAutoAttack.Radius, 350.0
+PR_Swashbuckler.CastedAoeKnockup.MaxRange, 650.0							;BLEACHBONE BRUTE - BONEBREAKER
+PR_Swashbuckler.CastedAoeKnockup.CastTime, 2.0
+PR_Swashbuckler.CastedAoeKnockup.AoeRadius, 400.0
+PR_Swashbuckler.CastedAoeKnockup.StrengthCoefficient, 7.5
+PR_Swashbuckler.CastedAoeKnockup.KnockupForce, 500.0
+PR_Swashbuckler.CastedAoeKnockup.ActivePeriod, 1.0
+PR_Swashbuckler.CastedAoeKnockup.InitialMinCooldown, 6.0
+PR_Swashbuckler.CastedAoeKnockup.InitialMaxCooldown, 15.0
+PR_Swashbuckler.CastedAoeKnockup.Cooldown, 15.0
+PR_Swashbuckler.CastedAoeKnockup.AbilityPadding, 0.01
+PR_Swashbuckler.CastedGrowingEarthStomp.MinInitialCooldown, 9.0
+PR_Swashbuckler.CastedGrowingEarthStomp.MaxInitialCooldown, 18.0
+PR_Swashbuckler.CastedGrowingEarthStomp.Cooldown, 28.0
+PR_Swashbuckler.CastedGrowingEarthStomp.MaxRange, 1800.0
+PR_Swashbuckler.CastedGrowingEarthStomp.CastingDuration, 2.0
+PR_Swashbuckler.CastedGrowingEarthStomp.StrengthCoefficient, 7.02
+PR_Swashbuckler.CastedGrowingEarthStomp.Duration, 0.5
+PR_Swashbuckler.CastedGrowingEarthStomp.Angle, 45.0
+PR_Swashbuckler.CastedGrowingEarthStomp.StartRadius, 250.0
+PR_Swashbuckler.CastedGrowingEarthStomp.MaxRadius, 1900.0
+PR_Swashbuckler.CastedGrowingEarthStomp.WaveThickness, 250.0
+PR_Swashbuckler.CastedGrowingEarthStomp.KnockbackForce, 1200.0
+PR_WaterCaster.MeleeAutoAttack.StrengthCoefficient, 0.71					;DREADSWORN MAGE - AUTO ATTACK	
+PR_WaterCaster.MeleeAutoAttack.MaxRange, 500.0
+PR_WaterCaster.MeleeAutoAttack.Cooldown, 1.5
+PR_Watercaster.CastedRangedProjectile.MaxRange, 4000.0						;DREADSWORN MAGE - DREADWATER BOLT
+PR_Watercaster.CastedRangedProjectile.CastTime, 2.0
+PR_Watercaster.CastedRangedProjectile.IntellectCoefficient, 2.89
+PR_Watercaster.CastedRangedProjectile.Aoe.IntellectCoefficient, 1.0
+PR_Watercaster.CastedRangedProjectile.Aoe.Spread, 0.2
+PR_Watercaster.CastedRangedProjectile.Aoe.Radius, 50.0
+PR_WaterCaster.CastedRangedProjectile.Cooldown, 0.0   
+PR_WaterCaster.CastedRangedProjectile.InterruptCooldown, 8.0
+PR_Watercaster.CastedAoeProjectile.MaxRange, 3000.0							;DREADSWORN MAGE - SUNKEN GALE
+PR_Watercaster.CastedAoeProjectile.CastTime, 3.0
+PR_Watercaster.CastedAoeProjectile.InitialMinCooldown, 8.0
+PR_Watercaster.CastedAoeProjectile.InitialMaxCooldown, 16.0
+PR_Watercaster.CastedAoeProjectile.Cooldown, 27.0
+PR_Watercaster.CastedAoeProjectile.SpawnInFrontOffset, 250.0
+PR_Watercaster.CastedAoeProjectile.Projectile.Duration, 2.75
+PR_Watercaster.CastedAoeProjectile.Projectile.Radius, 300.0
+PR_Watercaster.CastedAoeProjectile.Projectile.Velocity, 1100.0
+PR_Watercaster.CastedAoeProjectile.Projectile.IntellectCoefficient, 0.85
+PR_Watercaster.CastedAoeProjectile.Projectile.TickInterval, 0.5
+PR_WaterCaster.CastedAoeProjectile.Projectile.MoveSpeedMultiplier, 0.20
+PR_WaterCaster.CastedAoeProjectile.InterruptCooldown, 22.0
+PR_WaterCaster.TankSplash.MinInitialCooldown, 15.0							;Not in use - delete?
+PR_WaterCaster.TankSplash.MaxInitialCooldown, 15.0
+PR_WaterCaster.TankSplash.MinCooldown, 15.0
+PR_WaterCaster.TankSplash.MaxCooldown, 15.0 
+PR_WaterCaster.TankSplash.MaxRange, 240.0
+PR_WaterCaster.TankSplash.CastingDuration, 2.0
+PR_WaterCaster.TankSplash.IntellectCoefficient, 5.0
+PR_WaterCaster.TankSplash.Spread, 0.4
+PR_WaterCaster.TankSplash.Duration, 2.5
+PR_WaterCaster.TankSplash.WaveRadius, 200.0
+PR_WaterCaster.TankSplash.WaveSpeed, 800.0
+PR_WaterCaster.TankSplash.SlowDuration, 10.0
+PR_WaterCaster.TankSplash.MovementSpeedMultiplier, 0.80	
+PR_CannonPirate.MeleeAutoAttack.Cooldown, 2.5
+PR_CannonPirate.MeleeAutoAttack.MaxRange, 500.0
+PR_CannonPirate.MeleeAutoAttack.StrengthCoefficient, 0.97
+PR_CannonPirate.RangedAutoAttack.StrengthCoefficient, 2.50						;SCUTTLEJACK CANNONEER - AUTO ATTACK
+PR_CannonPirate.RangedAutoAttack.Cooldown, 3.20
+PR_CannonPirate.RangedAutoAttack.MaxRange, 3000.0
+PR_CannonPirate.Cannon.Comment, 0; 												;SCUTTLEJACK CANNONEER - GRAPESHOT
+PR_CannonPirate.Cannon.Cooldown, 16.0
+PR_CannonPirate.Cannon.InitialMinCooldown, 3.0
+PR_CannonPirate.Cannon.InitialMaxCooldown, 8.0
+PR_CannonPirate.Cannon.PostAbilityPadding, 1.0
+PR_CannonPirate.Cannon.CastTime, 2.0
+PR_CannonPirate.Cannon.StrengthCoefficient, 3.61
+PR_CannonPirate.Cannon.ProjectileRadius, 100.0
+PR_CannonPirate.Cannon.MaxRange, 4000.0
+PR_CannonPirate.Cannon.ProjectileSpeed, 5000.0
+PR_CannonPirate.Cannon.InterruptCooldown, 12.0
+PR_CannonPirate.ChainShot.Cooldown, 30.0										;SCUTTLEJACK CANNONEER - SHACKLE SHOT
+PR_CannonPirate.ChainShot.InitialMinCooldown, 14.0
+PR_CannonPirate.ChainShot.InitialMaxCooldown, 22.0
+PR_CannonPirate.ChainShot.PostAbilityPadding, 1.0
+PR_CannonPirate.ChainShot.CastTime, 3.0
+PR_CannonPirate.ChainShot.MaxRange, 4000.0
+PR_CannonPirate.ChainShot.ProjectileSpeed, 4000.0
+PR_CannonPirate.ChainShot.InterruptCooldown, 24.0
+PR_AttachedChains.Attach.Duration, 16.0											;SCUTTLEJACK CANNONEER - ATTACHED CHAIN (shackle shot)
+PR_CannonPirate.Bombardment.Cooldown, 30.0										;SCUTTLEJACK CANNONEER - BOMBS AWAY!
+PR_CannonPirate.Bombardment.InitialMinCooldown, 20.0
+PR_CannonPirate.Bombardment.InitialMaxCooldown, 30.0
+PR_CannonPirate.Bombardment.PostAbilityPadding, 1.5
+PR_CannonPirate.Bombardment.ChannelingTime, 8.0
+PR_CannonPirate.Bombardment.TickInterval, 0.4
+PR_CannonPirate.Bombardment.MaxRange, 4000.0
+PR_CannonPirate.Bombardment.Radius, 200.0
+PR_CannonPirate.Bombardment.TrajectoryTime, 2.0
+PR_CannonPirate.Bombardment.ProjectileFallTime, 0.6
+PR_CannonPirate.Bombardment.ProjectileFallHeight, 2000.0
+PR_CannonPirate.Bombardment.StrengthCoefficient, 3.24
+PR_ShipRat.MeleeAutoAttack.StrengthCoefficient, 0.75							;SHIP RAT - AUTO ATTACK
+PR_ShipRat.MeleeAutoAttack.MaxRange, 350.0
+PR_ShipRat.MeleeAutoAttack.MinCooldown, 2.0
+PR_ShipRat.MeleeAutoAttack.MaxCooldown, 2.0
+PR_ShipRat.MoveToTarget.MaxRange, 5000.0										;SHIP RAT - FIXATE AND CHASE PLAYER
+PR_ShipRat.MoveToTarget.SpeedMultiplier, 1.20
+PR_ShipRat.MoveToTarget.SelfDetonateTimeoutDuration, 6.0
+PR_ShipRat.OnDeathAoe.CastTime, 2.0												;SHIP RAT - EXPLODE		
+PR_ShipRat.OnDeathAoe.StrengthCoefficient, 5.44
+PR_ShipRat.OnDeathAoe.Aoe.DamageScaler, 1.0 ; Based on the StrengthCoefficient
+PR_ShipRat.OnDeathAoe.Aoe.Radius, 500.0
+PR_Bilgerat.MeleeAutoAttack.MaxRange, 500.0										;BILGERAT - AUTO ATTACK
+PR_Bilgerat.MeleeAutoAttack.StrengthCoefficient, 1.30
+PR_Bilgerat.MeleeAutoAttack.Cooldown, 2.0
+PR_Bilgerat.ChanneledActorSpawner.PreCastTime, 1.5								;SHIP RAT - VERMIN TIDE	
+PR_Bilgerat.ChanneledActorSpawner.Duration, 4.1
+PR_Bilgerat.ChanneledActorSpawner.SpawnRate, 1.0
+PR_Bilgerat.ChanneledActorSpawner.InitialMinCooldown, 3.0
+PR_Bilgerat.ChanneledActorSpawner.InitialMaxCooldown, 9.0
+PR_Bilgerat.ChanneledActorSpawner.Cooldown, 20.0
+PR_Bilgerat.ChanneledActorSpawner.InterruptCooldown, 14.0
+PR_Bilgerat.MoveAwayDestroy.Duration, 2.5										;SHIP RAT - LEADERLESS
+PR_BarbarousLasher.MeleeAutoAttack.Cooldown, 3.0								;BARBEROUS LASHER - AUTO ATTACK
+PR_BarbarousLasher.MeleeAutoAttack.MaxRange, 650.0
+PR_BarbarousLasher.MeleeAutoAttack.StrengthCoefficient, 2.97
+PR_BarbarousLasher.ReflectDamage.Fraction, 0.15									;BARBEROUS LASHER - THORNS
+PR_BarbarousLasher.ShatterArmor.StrengthCoefficient, 8.87						;BARBEROUS LASHER - SHATTER ARMOR
+PR_BarbarousLasher.ShatterArmor.Cooldown, 18.0
+PR_BarbarousLasher.ShatterArmor.InitialMinCooldown, 9.0
+PR_BarbarousLasher.ShatterArmor.InitialMaxCooldown, 22.0
+PR_BarbarousLasher.ShatterArmor.MaxRange, 650.0
+PR_BarbarousLasher.ShatterArmor.PostAbilityPadding, 1.5
+PR_BarbarousLasher.ShatterArmor.Duration, 12.0
+PR_BarbarousLasher.ShatterArmor.ArmorMultiplier, 0.90
+PR_FoB.RangedAutoAttack.MaxRange, 3000 //Fragment of Bael'aurum					;VOIDBOUND PRISM - AUTO ATTACK (ranged)
+PR_FoB.RangedAutoAttack.Cooldown, 2.6
+PR_FoB.RangedAutoAttack.ProjectileMaxSpeed, 3000.0
+PR_FoB.RangedAutoAttack.IntellectCoefficient, 1.83
+PR_FoB.MeleeAutoAttack.Cooldown, 1.8
+PR_FoB.MeleeAutoAttack.MaxRange, 500.0
+PR_FoB.MeleeAutoAttack.StrengthCoefficient, 0.64
+PR_FoB.CastedStun.PreCastTime, 2.0												;VOIDBOUND PRISM - MINDRENDER BARRAGE
+PR_FoB.CastedStun.ChannelDuration, 2.0
+PR_FoB.CastedStun.ChannelPeriod, 0.5
+PR_FoB.CastedStun.MaxRange, 4000
+PR_FoB.CastedStun.ProjectileMaxSpeed, 3000.0
+PR_FoB.CastedStun.IntellectCoefficient, 1.27
+PR_FoB.CastedStun.StunDuration, 3.0
+PR_FoB.CastedStun.InitialMinCooldown, 4.0
+PR_FoB.CastedStun.InitialMaxCooldown, 20.0
+PR_FoB.CastedStun.Cooldown, 30.0
+PR_FoB.CastedStun.InterruptCooldown, 22.0
+PR_FoB.ChanneledSlowedMoveToTarget.MaxSearchLength, 3000.0						;disabled - Axel
+PR_FoB.ChanneledSlowedMoveToTarget.HealthThreshold, 0.3	; Percentages
+PR_FoB.ChanneledSlowedMoveToTarget.MoveSpeedScale, 0.25
+PR_PossessedArmor.MeleeAutoAttack.MaxRange, 500.0								;GREEDSWORN SENTINEL - AUTO ATTACK
+PR_PossessedArmor.MeleeAutoAttack.Cooldown, 1.8
+PR_PossessedArmor.MeleeAutoAttack.IntellectCoefficient, 1.47
+PR_PossessedArmor.ChanneledSelfBuff.Duration, 10.0								;GREEDSWORN SENTINEL - GREED'S EMBRACE
+PR_PossessedArmor.ChanneledSelfBuff.TickInterval, 2.0
+PR_PossessedArmor.ChanneledSelfBuff.DamageReduction, 0.2
+PR_PossessedArmor.ChanneledSelfBuff.InitialMinCooldown, 6.0
+PR_PossessedArmor.ChanneledSelfBuff.InitialMaxCooldown, 12.0
+PR_PossessedArmor.ChanneledSelfBuff.Cooldown, 20.0
+PR_PossessedArmor.ChanneledSelfBuff.InterruptCooldown, 15.0
+PR_PossessedArmor.RampingDamageDebuff.IntellectCoefficient, 0.315	;do not remove - Ability disabled but GE used in Greed's Embrace (channeledselfbuff)-ability
+PR_PossessedArmor.RampingDamageDebuff.DebuffDuration, 20.0			;do not remove - Ability disabled but GE used in Greed's Embrace (channeledselfbuff)-ability
+PR_PossessedArmor.RampingDamageDebuff.DebuffPeriod, 3.0				;do not remove - Ability disabled but GE used in Greed's Embrace (channeledselfbuff)-ability
+PR_PossessedArmor.RampingDamageDebuff.DebuffRadius, 1000			;do not remove - Ability disabled but GE used in Greed's Embrace (channeledselfbuff)-ability
+PR_PossessedArmor.RampingDamageDebuff.HasteIncrease, 0.03			;do not remove - Ability disabled but GE used in Greed's Embrace (channeledselfbuff)-ability
+PR_PossessedArmor.RampingDamageDebuff.MaxRange, 3000				;No longer in use
+PR_PossessedArmor.RampingDamageDebuff.InitialMinCooldown, 3.0		;No longer in use
+PR_PossessedArmor.RampingDamageDebuff.InitialMaxCooldown, 8.0		;No longer in use
+PR_PossessedArmor.RampingDamageDebuff.Cooldown, 15.0				;No longer in use
+PR_PossessedArmor.RampingDamageDebuff.StackInterval, 3.0			;No longer in use
+PR_PossessedArmor.RampingDamageDebuff.DamageInterval, 3.0			;No longer in use
+PR_PossessedArmor.RampingDamageDebuff.ChangeHeroRangeLimit, 5000.0	;No longer in use
+PR_PirateGrunt.MeleeAutoAttack.StrengthCoefficient, 1.79						;GLOOMSCYTHE - AUTO ATTACK
+PR_PirateGrunt.MeleeAutoAttack.MaxRange, 400.0
+PR_PirateGrunt.MeleeAutoAttack.Cooldown, 2.7
+PR_PirateGrunt.CastedTankAoeDamage.MaxRange, 400.0								;GLOOMSCYTHE - HEAVY STRIKE
+PR_PirateGrunt.CastedTankAoeDamage.CastTime, 1.0
+PR_PirateGrunt.CastedTankAoeDamage.Radius, 700.0
+PR_PirateGrunt.CastedTankAoeDamage.AngleWidth, 90.0
+PR_PirateGrunt.CastedTankAoeDamage.StrengthCoefficient, 3.35
+PR_PirateGrunt.CastedTankAoeDamage.DebuffStackMultiplier, 1.5
+PR_PirateGrunt.CastedTankAoeDamage.InitialMinCooldown, 4.0
+PR_PirateGrunt.CastedTankAoeDamage.InitialMaxCooldown, 20.0
+PR_PirateGrunt.CastedTankAoeDamage.Cooldown, 16.0
+PR_PirateGrunt.CastedTankAoeDamage.InterruptCooldown, 12.0
+PR_PirateGrunt.ChanneledAoe.MaxRange, 600										;ability disabled - Axel
+PR_PirateGrunt.ChanneledAoe.Radius, 350
+PR_PirateGrunt.ChanneledAoe.CastTime, 1.5
+PR_PirateGrunt.ChanneledAoe.ChannelDuration, 4
+PR_PirateGrunt.ChanneledAoe.ChannelTickInterval, 0.5
+PR_PirateGrunt.ChanneledAoe.StrengthCoefficient, 1
+PR_PirateGrunt.ChanneledAoe.Spread, 0.2
+PR_PirateGrunt.ChanneledAoe.SelfSlow.SpeedScale, 0.2
+PR_PirateGrunt.ChanneledAoe.InitialMinCooldown, 8
+PR_PirateGrunt.ChanneledAoe.InitialMaxCooldown, 10
+PR_PirateGrunt.ChanneledAoe.MinCooldown, 18.0
+PR_PirateGrunt.ChanneledAoe.MaxCooldown, 20.0
+PR_PirateGrunt.ChanneledAoe.SpinProximityTolerance, 150
+PR_PirateGrunt.ChanneledAoe.MinCancelCooldown, 16.0
+PR_PirateGrunt.ChanneledAoe.MaxCancelCooldown, 22.0
+PR_TigerCat.MeleeAutoAttack.StrengthCoefficient, 1.8							;JUNGLE STALKER - AUTO ATTACK
+PR_TigerCat.MeleeAutoAttack.MaxRange, 600.0
+PR_TigerCat.MeleeAutoAttack.Cooldown, 2.2
+PR_TigerCat.Bite.StrengthCoefficient, 3.58										;JUNGLE STALKER - STALKER'S BITE
+PR_TigerCat.Bite.MaxRange, 600.0
+PR_TigerCat.Bite.CastTime, 1.0
+PR_TigerCat.Bite.InitialMinCooldown, 4.0
+PR_TigerCat.Bite.InitialMaxCooldown, 18.0
+PR_TigerCat.Bite.Cooldown, 16.0
+PR_TigerCat.Bite.PostAbilityPadding, 1.5
+PR_TigerCat.SlashClaws.MaxRange, 600.0											;ability disabled - Axel
+PR_TigerCat.SlashClaws.Cast.Duration, 1.5
+PR_TigerCat.SlashClaws.Channel.Duration, 1.0
+PR_TigerCat.SlashClaws.Channel.TickInterval, 0.25
+PR_TigerCat.SlashClaws.Cooldown, 22.0
+PR_TigerCat.SlashClaws.InitialMinCooldown, 10.0
+PR_TigerCat.SlashClaws.InitialMaxCooldown, 16.0
+PR_TigerCat.SlashClaws.PostAbilityPadding, 1.5
+PR_TigerCat.SlashClaws.Pie.AngleWidth, 90.0
+PR_TigerCat.SlashClaws.Pie.MinRadius, 0.0
+PR_TigerCat.SlashClaws.Pie.MaxRadius, 700.0
+PR_TigerCat.SlashClaws.Pie.Height, 500.0
+PR_TigerCat.SlashClaws.Damage.StrengthCoefficient, 1.37
+PR_InteractableCannon.Shoot.CastTime, 2.0										;INTERACTABLE CANNON - SHOOT

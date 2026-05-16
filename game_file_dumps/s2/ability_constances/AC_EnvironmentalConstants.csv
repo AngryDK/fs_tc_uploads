@@ -1,0 +1,20 @@
+name,value
+Environmental.Hazards.Fire_Minor.SustainedDot, 200.0
+Environmental.Hazards.Fire_Major.SustainedTickInterval, 2.0
+Environmental.Hazards.Fire_Major.SustainedDot, 400.0
+Environmental.Hazards.Fire_Major.LingerTickInterval, 2.0
+Environmental.Hazards.Fire_Major.LingerDot, 300.0
+Environmental.Hazard.BlowingSands.SlowMultiplier, 0.5
+Environmental.Hazard.BlowingSands.Dot, 400.0
+Environmental.Hazard.BlowingSands.DotTickInterval, 2.0
+Environmental.Hazard.IceColdWater.SlowMultiplier, 0.5
+Environmental.Hazard.IceColdWater.Dot, 200.0
+Environmental.Hazard.IceColdWater.DotTickInterval, 1.0
+Environmental.Hazard.IceColdWater.Linger.Duration, 4.0
+Environmental.Hazard.IceColdWater.Linger.Dot, 100.0
+Environmental.Hazard.IceColdWater.Linger.DotTickInterval, 1.0
+Environmental.Hazard.LightningBolts.DamageCoefficient, 4.0
+Environmental.Hazard.LightningBolts.Radius, 300.0
+Environmental.Hazard.LightningBolts.ActivationDelay, 1.6
+Environmental.Hazard.LightningBolts.TickInterval, 0.2
+Environmental.Hazard.Water.SlowMultiplier, 0.5

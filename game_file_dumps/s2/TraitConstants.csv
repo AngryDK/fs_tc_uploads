@@ -1,0 +1,165 @@
+name,r1,r2,r3,r4
+
+Trait.DamageReductionWhenHealthy.DamageReductionMultiplier, 0.94,0.928,0.916,0.904
+
+Trait.IncreasedStaminaToHealthConversion.Multiplier, 1.04, 1.05, 1.06, 1.07
+
+Trait.StandingStillHealStacking.MaxStacks, 10.0, 10.0, 10.0, 10.0
+Trait.StandingStillHealStacking.TickInterval, 1.0, 1.0, 1.0, 1.0
+Trait.StandingStillHealStacking.StackToHealMultiplier, 0.50, 0.60, 0.70, 0.80
+Trait.StandingStillHealStacking.MaxDistanceToLowestHealthTarget, 3000.0, 3000.0, 3000.0, 3000.0
+
+Trait.IncomingDamageToHotAndAbsorb.ChancePPM, 0.8, 0.8, 0.8, 0.8
+Trait.IncomingDamageToHotAndAbsorb.Hot.FlatHealValue, 1.65, 1.98, 2.31, 2.64
+Trait.IncomingDamageToHotAndAbsorb.Hot.Duration, 6.0, 6.0, 6.0, 6.0
+Trait.IncomingDamageToHotAndAbsorb.Hot.TickInterval, 2.0, 2.0, 2.0, 2.0
+Trait.IncomingDamageToHotAndAbsorb.Absorb.Duration, 12.0, 12.0, 12.0, 12.0
+Trait.IncomingDamageToHotAndAbsorb.Absorb.FlatAbsorbValue, 4.80, 5.76, 6.72, 7.68
+Trait.IncomingDamageToHotAndAbsorb.Absorb.MaxRange, 4000.0,4000.0,4000.0,4000.0
+
+Trait.IncomingDamageToDefenceAndDamage.Duration, 10.0, 10.0, 10.0, 10.0
+Trait.IncomingDamageToDefenceAndDamage.PPM, 1.4, 1.4, 1.4, 1.4
+Trait.IncomingDamageToDefenceAndDamage.FlatArmorValue, 1.20, 1.24, 1.28, 1.32
+Trait.IncomingDamageToDefenceAndDamage.FlatDamageValue, 0.34, 0.41, 0.48, 0.55
+
+Trait.NoDamageToDamageReduction.MaxStacks, 5.0, 6.0, 7.0, 8.0
+Trait.NoDamageToDamageReduction.AdditionalDamageReductionPerStack, 0.98, 0.98, 0.98, 0.98
+Trait.NoDamageToDamageReduction.SecondsBetweenStackIncrease, 10.0, 9.0, 8.0, 7.0
+
+Trait.IncomingHealToStackingHealWithThreshold.HealValue, 2.17, 2.61, 3.05, 3.48
+Trait.IncomingHealToStackingHealWithThreshold.PPM, 2.6, 2.6, 2.6, 2.6
+Trait.IncomingHealToStackingHealWithThreshold.MaxHealthThreshold, 0.50, 0.50, 0.50, 0.50
+
+Trait.FirstIncomingHitToReducedIncomingDamageBuff.Buff.Duration, 20.0, 20.0, 20.0, 20.0
+Trait.FirstIncomingHitToReducedIncomingDamageBuff.Buff.IncomingDamageMultiplier, 0.94, 0.928, 0.916, 0.904
+
+
+Trait.RelicToDamageReduction.Buff.Duration, 12.0, 12.0, 12.0, 12.0
+Trait.RelicToDamageReduction.Buff.DamageReductionMultiplier, 0.85, 0.82, 0.78, 0.74
+
+
+
+Trait.ExtraDotHotOnEffectApplicationProc.PPM, 2.1, 2.1, 2.1, 2.1
+Trait.ExtraDotHotOnEffectApplicationProc.Dot.FlatDamageValue, 0.92, 1.10, 1.33, 1.60
+Trait.ExtraDotHotOnEffectApplicationProc.Dot.Period, 1.5, 1.5, 1.5, 1.5
+Trait.ExtraDotHotOnEffectApplicationProc.Dot.MaxStackCount, 1.0, 1.0, 1.0, 1.0
+Trait.ExtraDotHotOnEffectApplicationProc.Dot.Duration, 9.0, 9.0, 9.0, 9.0
+Trait.ExtraDotHotOnEffectApplicationProc.Hot.FlatHealValue, 0.92, 1.10, 1.33, 1.60
+Trait.ExtraDotHotOnEffectApplicationProc.Hot.Period, 1.5, 1.5, 1.5, 1.5
+Trait.ExtraDotHotOnEffectApplicationProc.Hot.MaxStackCount, 1.0, 1.0, 1.0, 1.0
+Trait.ExtraDotHotOnEffectApplicationProc.Hot.Duration, 9.0, 9.0, 9.0, 9.0
+
+Trait.IncreasedMainStatAndSpiritRating.AdditionalSpiritRating, 59.0, 89.0, 118.0, 148.0
+Trait.IncreasedMainStatAndSpiritRating.Buff.MainStatAdd, 1.03, 1.036, 1.042, 1.048
+Trait.IncreasedMainStatAndSpiritRating.Buff.Duration, 4.0, 4.0, 4.0, 4.0
+
+Trait.CritsToIncreasedCritRating.RequiredNumOfCrits, 20.0, 20.0, 20.0, 20.0
+Trait.CritsToIncreasedCritRating.CooldownDuration, 12.0, 12.0, 12.0, 12.0
+Trait.CritsToIncreasedCritRating.Buff.Duration, 12.0, 12.0, 12.0, 12.0
+Trait.CritsToIncreasedCritRating.Buff.AdditionalCritRating, 112.0, 168.0, 224.0, 280.0
+
+Trait.CommitToHasteRatingAndWeaponCooldown.ChancePPM, 1.2, 1.2, 1.2, 1.2
+Trait.CommitToHasteRatingAndWeaponCooldown.AdditionalAllies, 1.0, 2.0, 3.0, 3.0
+Trait.CommitToHasteRatingAndWeaponCooldown.WeaponAbilityCooldownReductionInSeconds, 2.0, 3.0, 4.0, 5.0
+Trait.CommitToHasteRatingAndWeaponCooldown.Buff.Duration, 8.0, 8.0, 8.0, 8.0
+Trait.CommitToHasteRatingAndWeaponCooldown.Buff.AdditionalHasteRating, 85.0, 85.0, 85.0, 127.0
+
+Trait.OffensiveAbilityHasteRatingStacking.Duration, 8.0, 8.0, 8.0, 8.0
+Trait.OffensiveAbilityHasteRatingStacking.MaxStacks, 5.0, 5.0, 5.0, 5.0
+Trait.OffensiveAbilityHasteRatingStacking.AdditionalHasteRating, 20.0, 32.0, 43.0, 55.0
+
+Trait.StandingStillStaminaExpertiseRatingIncrease.ApplicationDelay, 3.0, 3.0, 3.0, 3.0
+Trait.StandingStillStaminaExpertiseRatingIncrease.RemovalDelay, 6.0, 6.0, 6.0, 6.0
+Trait.StandingStillStaminaExpertiseRatingIncrease.Buff.StaminaMultiplier, 1.05, 1.05, 1.05, 1.05
+Trait.StandingStillStaminaExpertiseRatingIncrease.Buff.AdditionalExpertiseRating, 71, 107, 141, 177
+
+Trait.CritsToIncreasedPrimaryStatBuff.ChancePPM, 2.0, 2.0, 2.0, 2.0
+Trait.CritsToIncreasedPrimaryStatBuff.MaxHealthThreshold, 0.5, 0.5, 0.5, 0.5
+Trait.CritsToIncreasedPrimaryStatBuff.Buff.Duration, 6.0, 6.0, 6.0, 6.0
+Trait.CritsToIncreasedPrimaryStatBuff.Buff.AdditionalPrimaryStat, 1.04, 1.048, 1.056, 1.064
+Trait.CritsToIncreasedPrimaryStatBuff.Hot.Duration, 6.0, 6.0, 6.0, 6.0
+Trait.CritsToIncreasedPrimaryStatBuff.Hot.TickInterval, 1.5, 1.5, 1.5, 1.5
+Trait.CritsToIncreasedPrimaryStatBuff.Hot.HealValue, 1.44, 1.73, 2.02, 2.30
+
+Trait.OffensiveAbilityToHighestStatBuff.ChanceProc, 0.2, 0.2, 0.2, 0.2
+Trait.OffensiveAbilityToHighestStatBuff.Cooldown, 90.0, 90.0, 90.0, 90.0
+Trait.OffensiveAbilityToHighestStatBuff.Buff.Duration, 30.0, 30.0, 30.0, 30.0
+Trait.OffensiveAbilityToHighestStatBuff.Buff.AdditionalValue, 276.0, 414.0, 552.0, 690.0
+Trait.OffensiveAbilityToHighestStatBuff.ShouldDynamicallyUpdateBuff, 0.0, 0.0, 0.0, 0.0		; 0.0 is false and 1.0 is true. If true then the attribute that is increased will change whenever a new attribute is greater
+
+Trait.AbilityToIncreasedMainStat.ChancePPM, 2.6, 2.6, 2.6, 2.6
+Trait.AbilityToIncreasedMainStat.Stacker.MaxStacks, 5.0, 5.0, 5.0, 5.0
+Trait.AbilityToIncreasedMainStat.Stacker.Duration, 60.0, 60.0, 60.0, 60.0
+Trait.AbilityToIncreasedMainStat.Buff.Duration, 15.0, 15.0, 15.0, 15.0
+Trait.AbilityToIncreasedMainStat.Buff.AdditionalMainStat, 1.075, 1.09, 1.105, 1.12
+
+Trait.WeaponCritChanceCooldownReduction.Buff.AddedWeaponCritChance, 0.20,0.24,0.28,0.38
+Trait.WeaponCritChanceCooldownReduction.CooldownReductionPerWeaponCrit, 0.30,0.30,0.30,0.30
+Trait.WeaponCritChanceCooldownReduction.NumCritsCounterPerAbilityCommit, 1.0,1.0,1.0,1.0 ; Limit the amount of times this effect can be applied per ability commit (it can only reduce cooldown 8 times per ability run)
+
+Trait.CooldownRecoveryOnWeaponAbility.Buff.CooldownRecoveryBonus, 1.50,1.50,1.50,1.50
+Trait.CooldownRecoveryOnWeaponAbility.Buff.DurationWeaponAbilityCoefficient, 0.10,0.12,0.14,0.16	; Based on WeaponAbilityCooldown stat!
+
+Trait.WeaponHealDamageIncrease.Buff.DamageMultiplier, 1.5, 1.6, 1.7, 1.8
+Trait.WeaponHealDamageIncrease.Buff.HealMultiplier, 1.5, 1.6, 1.7, 1.8
+
+Trait.WeaponDamageReductionPrimaryStatIncrease.Buff.WeaponCooldownToDuration, 0.20, 0.24, 0.28, 0.32
+Trait.WeaponDamageReductionPrimaryStatIncrease.Buff.PrimaryAttributeAddition, 1.10, 1.10, 1.10, 1.10
+Trait.WeaponDamageReductionPrimaryStatIncrease.Buff.AdditionalDamageReduction, 0.85, 0.85, 0.85, 0.85
+
+Trait.WeaponAndSpiritPoints.SpiritPointsGain.CooldownMultiplier, 2.0, 2.4, 2.8, 3.2	; Gain = CooldownMultiplier * (WeaponAbilityCooldown / CooldownDivider)
+Trait.WeaponAndSpiritPoints.SpiritPointsGain.CooldownDivider, 30.0, 30.0, 30.0, 30.0
+
+Trait.GemWhirlwind.PPM, 1.3,1.3,1.3,1.3
+Trait.GemWhirlwind.Radius, 250.0,250.0,250.0,250.0
+Trait.GemWhirlwind.Lifetime, 6.0,6.0,6.0,6.0
+Trait.GemWhirlwind.Period, 1.0,1.0,1.0,1.0
+Trait.GemWhirlwind.MaxSpeed, 350.0,350.0,350.0,350.0
+Trait.GemWhirlwind.OscillationAmplitude, 300.0,300.0,300.0,300.0
+Trait.GemWhirlwind.OscillationFrequency, 120.0,120.0,120.0,120.0
+Trait.GemWhirlwind.HealthPercentageAsDamage, 0.045,0.054,0.063,0.073
+Trait.GemWhirlwind.PercentageIncrementPerGemPower, 0.0000,0.0000,0.0000,0.0000
+
+Trait.GemDotHotOnCrit.Debuff.DamagePercentage, 0.07,0.08,0.09,0.10
+Trait.GemDotHotOnCrit.Debuff.TickRate, 2.0,2.0,2.0,2.0
+Trait.GemDotHotOnCrit.Debuff.Duration, 8.0,8.0,8.0,8.0
+Trait.GemDotHotOnCrit.Buff.HealPercentage, 0.07,0.08,0.09,0.10
+Trait.GemDotHotOnCrit.Buff.TickRate, 2.0,2.0,2.0,2.0
+Trait.GemDotHotOnCrit.Buff.Duration, 8.0,8.0,8.0,8.0
+Trait.GemDotHotOnCrit.PercentageIncrementPerGemPower, 0.0000,0.0000,0.0000,0.0000
+
+Trait.GemCooldownRecoveryOnAbilityProc.Cooldown, 15.0,15.0,15.0,15.0
+Trait.GemCooldownRecoveryOnAbilityProc.PPM, 1.0,1.0,1.0,1.0
+Trait.GemCooldownRecoveryOnAbilityProc.CooldownRecovery, 1.30,1.36,1.42,1.48
+Trait.GemCooldownRecoveryOnAbilityProc.OverCapPerGemPower, 0.0000,0.0000,0.0000,0.0000
+
+Trait.GemTargetedSpikeProc.PPM, 2.00,2.00,2.00,2.00
+Trait.GemTargetedSpikeProc.Small.SpikeDamage.PrimaryAttributeCoefficient, 6.0,7.0,8.0,9.0
+Trait.GemTargetedSpikeProc.DamageIncreasePerGemPower, 0.0000,0.0000,0.0000,0.0000
+
+Trait.GemSingleTargetProcOnDamageHeal.PPM, 5.0,5.5,6.1,6.7
+Trait.GemSingleTargetProcOnDamageHeal.Damage.PrimaryAttributeCoefficient, 1.48,1.78,2.0,2.37
+Trait.GemSingleTargetProcOnDamageHeal.Heal.PrimaryAttributeCoefficient, 1.48,1.78,2.0,2.37
+Trait.GemSingleTargetProcOnDamageHeal.Bonus.PercentageIncrementPerGemPower, 0.0000,0.0000,0.0000,0.0000
+Trait.GemSingleTargetProcOnDamageHeal.CriticalChanceHasteExpertiseAndSpiritBonus.ExtraDamagePerStack, 0.35,0.35,0.35,0.35
+Trait.GemSingleTargetProcOnDamageHeal.TargetDebuff.ExtraDamagePerStack, 0.40,0.40,0.40,0.40
+Trait.GemSingleTargetProcOnDamageHeal.TargetDebuff.Duration, 20.0,20.0,20.0,20.0
+
+Trait.GemPulsatingOnAbilityTotemProc.PPM, 1.4,1.4,1.4,1.4
+Trait.GemPulsatingOnAbilityTotemProc.MaxRange, 1000.0,1000.0,1000.0,1000.0
+Trait.GemPulsatingOnAbilityTotemProc.Damage.Max.PrimaryAttributeCoefficient, 50.0,50.0,50.0,50.0			; how much max damage each pulse can do; based on primary attribute
+Trait.GemPulsatingOnAbilityTotemProc.Damage.AccumulationPercentage, 0.069, 0.083, 0.10, 0.12
+Trait.GemPulsatingOnAbilityTotemProc.Damage.MaxTargetFalloff, 1.0,1.0,1.0,1.0
+Trait.GemPulsatingOnAbilityTotemProc.Damage.InitialPulseDelay, 3.0,3.0,3.0,3.0
+Trait.GemPulsatingOnAbilityTotemProc.Heal.Max.PrimaryAttributeCoefficient, 50.0,50.0,50.0,50.0 				; how much max heal each pulse can do; based on primary attribute
+Trait.GemPulsatingOnAbilityTotemProc.Heal.AccumulationPercentage, 0.093, 0.111, 0.133, 0.16
+Trait.GemPulsatingOnAbilityTotemProc.Heal.InitialPulseDelay, 2.0,2.0,2.0,2.0
+Trait.GemPulsatingOnAbilityTotemProc.NumPulses, 3.0,3.0,3.0,3.0
+Trait.GemPulsatingOnAbilityTotemProc.DelayBetweenPulses, 3.0,3.0,3.0,3.0
+
+Trait.DeathPreventionWithImmunity.Immunity.Duration, 5.0, 5.0, 5.0, 5.0
+Trait.DeathPreventionWithImmunity.Cooldown, 480.0, 420.0, 360.0, 300.0
+
+Trait.BigBlowMitigation.DamageMaxHealthFraction, 0.4, 0.4, 0.4, 0.4
+Trait.BigBlowMitigation.DamageReduction, 0.25, 0.3, 0.35, 0.4
+Trait.BigBlowMitigation.Cooldown, 15.0, 15.0, 15.0, 15.0

@@ -1,0 +1,122 @@
+name,value
+GemBonus.Overcap.BonusMultiplier, 0.00005   ; every 2 gem overcap grants a fraction extra primary attribute + stamina multiplier
+GemBonus.PrimaryAttributeBonusWhenHealthy.Small, 1.03															;RUBY TIER 1		Primary Attribute Bonus when Healthy			Small
+GemBonus.StaminaAndPrimaryAttributeBonus.Small.StaminaIncrease, 140.0											;RUBY TIER 2		Stamina & Main Flat Boost						Small
+GemBonus.StaminaAndPrimaryAttributeBonus.Small.PrimaryAttributeIncrease, 15.0
+GemBonus.HealthRegenBonusInCombat.Small.HealthRegenFactor, 0.007												;RUBY TIER 3		Passive Health Regen in combat					Small
+GemBonus.HealthRegenBonusInCombat.Small.HealthRegenPeriod, 2.0
+GemBonus.MaxHealthPercentageBonus.Small.MaxHealthScaler, 1.04													;RUBY TIER 4		Max Health percentage boost						Small
+GemBonus.DamageHealingAsborbBonusInBossBattle.Small.Scaler, 1.05												;RUBY TIER 5		Damage Healing Absorb bonus in boss fights		Small
+GemBonus.PrimaryAttributeBonusWhenHealthy.Medium, 1.09															;RUBY TIER 6		Primary Attribute Bonus when Healthy			Medium
+GemBonus.StaminaAndPrimaryAttributeBonus.Medium.StaminaIncrease, 420.0											;RUBY TIER 7		Stamina & Main Stat Boost						Medium
+GemBonus.StaminaAndPrimaryAttributeBonus.Medium.PrimaryAttributeIncrease, 45.0
+GemBonus.HealthRegenBonusInCombat.Medium.HealthRegenFactor, 0.021												;RUBY TIER 8		Passive Health Regen in combat					Medium
+GemBonus.HealthRegenBonusInCombat.Medium.HealthRegenPeriod, 2.0
+GemBonus.MaxHealthPercentageBonus.Medium.MaxHealthScaler, 1.12													;RUBY TIER 9		Health percentage								Medium
+GemBonus.DamageHealingAsborbBonusInBossBattle.Medium.Scaler, 1.15												;RUBY TIER 10		Damage Healing Absorb bonus in boss fights		Medium
+GemBonus.CriticalChanceBonusAgainstHealthyTarget.Small.CriticalChancePercentageIncrease, 0.05					;AMETHYST TIER 1 	Crit Chance against healthy target				Small
+GemBonus.StaminaAndCriticalBonus.Small.StaminaIncrease, 100.0													;AMETHYST TIER 2	Stamina & Crit stat Boost						Small
+GemBonus.StaminaAndCriticalBonus.Small.CritRatingIncrease, 100.0
+GemBonus.HoTOnTouchedTargetDeath.Duration, 18.0																	;AMETHYST TIER 3	Reapers Reprieve								Base
+GemBonus.HoTOnTouchedTargetDeath.Period, 1.5	
+GemBonus.HoTOnTouchedTargetDeath.Small.HealPercentagePerTick, 0.01																													Small 
+GemBonus.CriticalStrikePercentageBonus.Small.CriticalStrikeScaler, 0.03											;AMETHYST TIER 4	Crit percentage 								Small
+GemBonus.CriticalPowerPercentageBonus.Small.CriticalStrikeScaler, 1.03											;AMETHYST TIER 5	Crit Strike Power 								Small
+GemBonus.CriticalChanceBonusAgainstHealthyTarget.Medium.CriticalChancePercentageIncrease, 0.15					;AMETHYST TIER 6 	Crit Chance against healthy target				Medium
+GemBonus.StaminaAndCriticalBonus.Medium.StaminaIncrease, 300.0													;AMETHYST TIER 7	Stamina & Crit stat Boost						Medium
+GemBonus.StaminaAndCriticalBonus.Medium.CritRatingIncrease, 300.0
+GemBonus.HoTOnTouchedTargetDeath.Medium.HealPercentagePerTick, 0.03											;AMETHYST TIER 8	Reapers Reprieve II								Medium
+GemBonus.CriticalStrikePercentageBonus.Medium.CriticalStrikeScaler, 0.09										;AMETHYST TIER 9	Crit percentage 								Medium
+GemBonus.CriticalPowerPercentageBonus.Medium.CriticalStrikeScaler, 1.09											;AMETHYST TIER 10	Crit Strike Power 								Medium
+GemBonus.HastePercentageBonusWhenTargettingUnhealthyTargets.Small.HastePercentageIncrease, 0.03					;TOPAZ TIER 1		Haste proc when dmg or heal low					Small
+GemBonus.HastePercentageBonusWhenTargettingUnhealthyTargets.Small.Duration, 10.0
+GemBonus.StaminaAndHasteBonus.Small.StaminaIncrease, 100.0														;TOPAZ TIER 2		Stamina & Haste stat Boost						Small
+GemBonus.StaminaAndHasteBonus.Small.HasteRatingIncrease, 100.0
+GemBonus.AutoHealOnLowHealth.HealthThreshold, 0.50																;TOPAZ TIER 3		Self Heal on low health							Base
+GemBonus.AutoHealOnLowHealth.Cooldown, 20.0																
+GemBonus.AutoHealOnLowHealth.HealthPercentageHeal.Small, 0.08																														Small
+GemBonus.HastePercentageBonus.Small.HasteIncrease, 0.03															;TOPAZ TIER 4		Haste percentage 								Small	
+GemBonus.HastePercentageBonusWhileNotHeroism.Small.HastePercentageIncrease, 0.03								;TOPAZ TIER 5		Haste percentage while no Heroism				Small
+GemBonus.HastePercentageBonusWhenTargettingUnhealthyTargets.Medium.HastePercentageIncrease, 0.09				;TOPAZ TIER 6		Haste proc when dmg or heal low					Medium
+GemBonus.HastePercentageBonusWhenTargettingUnhealthyTargets.Medium.Duration, 10.0
+GemBonus.StaminaAndHasteBonus.Medium.StaminaIncrease, 300.0														;TOPAZ TIER 7		Stamina & Haste stat Boost						Medium
+GemBonus.StaminaAndHasteBonus.Medium.HasteRatingIncrease, 300.0						
+GemBonus.AutoHealOnLowHealth.HealthPercentageHeal.Medium, 0.24													;TOPAZ TIER 8		Self Heal on low health							Medium
+GemBonus.HastePercentageBonus.Medium.HasteIncrease, 0.09														;TOPAZ TIER 9		Haste percentage 								Medium
+GemBonus.HastePercentageBonusWhileNotHeroism.Medium.HastePercentageIncrease, 0.09								;TOPAZ TIER 10		Haste percentage while no Heroism				Medium
+GemBonus.ExpertiseStacksOnFirstDamage.Base.Duration, 15.0														;EMERALD TIER 1		Expertise Stacks on first damage				Base
+GemBonus.ExpertiseStacksOnFirstDamage.ExpertiseBonusPerStack.Small, 0.05																											Small
+GemBonus.StaminaAndExpertiseBonus.Small.StaminaIncrease, 100.0													;EMERALD TIER 2		Stamina & Expertise stat Boost					Small
+GemBonus.StaminaAndExpertiseBonus.Small.ExpertiseRatingIncrease, 100.0	
+GemBonus.ApplyPeriodicAbsorb.Base.Duration, 60.0																;EMERALD TIER 3		Periodic Absorb									Base
+GemBonus.ApplyPeriodicAbsorb.AbsorbMaxHealthFraction.Small, 0.10																													Small
+GemBonus.ExpertisePercentageBonus.Small.ExpertiseIncrease, 0.03													;EMERALD TIER 4		Expertise percentage							Small
+GemBonus.PassiveCooldownReduction.Small.CooldownReduction, 0.04													;EMERALD TIER 5		Cooldown Reduction								Small
+GemBonus.ExpertiseStacksOnFirstDamageExpertiseBonusPerStack.Medium, 0.15										;EMERALD TIER 6		Expertise Stacks on first damage				Medium
+GemBonus.StaminaAndExpertiseBonus.Medium.StaminaIncrease, 300.0													;EMERALD TIER 7		Stamina & Expertise stat Boost					Medium
+GemBonus.StaminaAndExpertiseBonus.Medium.ExpertiseRatingIncrease, 300.0
+GemBonus.ApplyPeriodicAbsorb.AbsorbMaxHealthFraction.Medium, 0.30												;EMERALD TIER 8		Periodic Absorb	II								Medium
+GemBonus.ExpertisePercentageBonus.Medium.ExpertiseIncrease, 0.09												;EMERALD TIER 9		Expertise percentage							Medium
+GemBonus.PassiveCooldownReduction.Medium.CooldownReduction, 0.12												;EMERALD TIER 10	Cooldown Reduction								Medium
+GemBonus.PrimaryAttributeBonusWhileHeroism.Small, 1.08															;SAPPHIRE TIER 1	While Heroism Primary attribute boost			Small
+GemBonus.AddedMaxSpiritPoints.Small, 10.0
+GemBonus.StaminaAndSpiritBonus.Small.StaminaIncrease, 100.0														;SAPPHIRE TIER 2	Stamina & Spirit stat Boost						Small
+GemBonus.StaminaAndSpiritBonus.Small.SpiritRatingIncrease, 100.0
+GemBonus.IncomingHealMultiplierForMissingHealth.MultiplierPerMissingHealthPercentage.Small, 0.001				;SAPPHIRE TIER 3	Reduced incoming damage per missing health		Small		now damage reduction instead of healing taken
+GemBonus.SpiritPercentageBonus.Small.SpiritIncrease, 0.03														;SAPPHIRE TIER 4	Spirit percentage								Small
+GemBonus.HeroismDurationBonus.Small.DurationBonus, 6.0															;SAPPHIRE TIER 5	Heroism Duration increase						Small
+GemBonus.SpiritAbilityCostReduction.Small, 0.95
+GemBonus.PrimaryAttributeBonusWhileHeroism.Medium, 1.24															;SAPPHIRE TIER 6	While Heroism Primary attribute boost			Medium
+GemBonus.AddedMaxSpiritPoints.Medium, 30.0
+GemBonus.StaminaAndSpiritBonus.Medium.StaminaIncrease, 300.0													;SAPPHIRE TIER 7	Stamina & Spirit stat Boost						Medium
+GemBonus.StaminaAndSpiritBonus.Medium.SpiritRatingIncrease, 300.0
+GemBonus.IncomingHealMultiplierForMissingHealth.MultiplierPerMissingHealthPercentage.Medium, 0.003				;SAPPHIRE TIER 8	Reduced incoming damage per missing health		Medium		now damage reduction instead of healing taken
+GemBonus.SpiritPercentageBonus.Medium.SpiritIncrease, 0.09														;SAPPHIRE TIER 9	Spirit percentage								Medium
+GemBonus.HeroismDurationBonus.Medium.DurationBonus, 18.0														;SAPPHIRE TIER 10	Heroism Duration increase						Medium
+GemBonus.SpiritAbilityCostReduction.Medium, 0.85
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Small.CriticalChanceIncrease, 0.003					;DIAMOND TIER 1		All Secondary Stat percentage					Small
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Small.HasteIncrease, 0.003
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Small.ExpertiseIncrease, 0.003
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Small.SpiritIncrease, 0.003
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Small.TargetMaxRange, 6000.0
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Small.MaxStacks, 10.0
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Small.Duration, 5.0
+GemBonus.PrimaryAttributeAndStaminaBonus.Small.ArmorIncrease, 500.0											;DIAMOND TIER 2		Stamina & Main Flat Boost						Small
+GemBonus.PrimaryAttributeAndStaminaBonus.Small.PrimaryAttributeIncrease, 25.0
+GemBonus.MagicResistBonusOnDamageTaken.Cooldown, 20.0															;DIAMOND TIER 3		Tranquil Resolve I								Base
+GemBonus.MagicResistBonusOnDamageTaken.IncomingMagicDamageScale.Duration, 6.0																										Base
+GemBonus.MagicResistBonusOnDamageTaken.IncomingMagicDamageScale.Small, 0.92																											Small
+GemBonus.PrimaryBonus.Small, 1.03																				;DIAMOND TIER 4		Primary Bonus									Small
+GemBonus.RelicCooldownReductionBonus.Small.CooldownReductionPercentage, 0.08									;DIAMOND TIER 5		Relic Cooldown reduction						Small
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Medium.CriticalChanceIncrease, 0.009					;DIAMOND TIER 6		All Secondary Stat percentage					Medium
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Medium.HasteIncrease, 0.009
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Medium.ExpertiseIncrease, 0.009
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Medium.SpiritIncrease, 0.009
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Medium.TargetMaxRange, 6000.0
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Medium.MaxStacks, 10.0
+GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Medium.Duration, 5.0
+GemBonus.PrimaryAttributeAndStaminaBonus.Medium.ArmorIncrease, 1500.0											;DIAMOND TIER 7		Stamina & Main Flat Boost						Medium
+GemBonus.PrimaryAttributeAndStaminaBonus.Medium.PrimaryAttributeIncrease, 75.0
+GemBonus.MagicResistBonusOnDamageTaken.IncomingMagicDamageScale.Medium, 0.76									;DIAMOND TIER 8		Tranquil Resolve II								Medium
+GemBonus.PrimaryBonus.Medium, 1.09																				;DIAMOND TIER 9		Primary Bonus									Medium
+GemBonus.RelicCooldownReductionBonus.Medium.CooldownReductionPercentage, 0.24									;DIAMOND TIER 10	Relic Cooldown reduction						Medium
+GemBonus.ExpertisePercentageBonusWhenMultipleEnemiesEngaged.Small.ExpertiseIncrease, 0.045						;[Old] EMERALD TIER 2
+GemBonus.ExpertisePercentageBonusWhenSingleEnemyEngaged.Small.ExpertiseIncrease, 0.08							;[Old] EMERALD TIER 5
+GemBonus.ExpertisePercentageBonusWhenMultipleEnemiesEngaged.Medium.ExpertiseIncrease, 0.09						;[Old] EMERALD TIER 8
+GemBonus.ExpertisePercentageBonusWhenSingleEnemyEngaged.Medium.ExpertiseIncrease, 0.16							;[Old] EMERALD TIER 11
+GemBonus.CriticalChanceHasteExpertisePercentageBonusWhileHeroism.Small.CriticalChancePercentageIncrease, 0.06	;[Old] SAPPHIRE TIER 2
+GemBonus.CriticalChanceHasteExpertisePercentageBonusWhileHeroism.Small.HastePercentageIncrease, 0.06
+GemBonus.CriticalChanceHasteExpertisePercentageBonusWhileHeroism.Small.ExpertisePercentageIncrease, 0.06
+GemBonus.CriticalChanceHasteExpertisePercentageBonusWhileHeroism.Medium.CriticalChancePercentageIncrease, 0.12	;[Old SAPPHIRE TIER 8
+GemBonus.CriticalChanceHasteExpertisePercentageBonusWhileHeroism.Medium.HastePercentageIncrease, 0.12
+GemBonus.CriticalChanceHasteExpertisePercentageBonusWhileHeroism.Medium.ExpertisePercentageIncrease, 0.12
+GemBonus.SpiritGenerationBonusInBossBattle.Small.SpiritGenerationScaler, 1.5									;[Old] SAPPHIRE TIER 5
+GemBonus.SpiritGenerationBonusInBossBattle.Medium.SpiritGenerationScaler, 2.0									;[Old] SAPPHIRE TIER 11
+GemBonus.HealthPercentageAsAbsorbBonus.Small.HealthPercentage, 0.02												;[Old] DIAMOND TIER 5
+GemBonus.HealthPercentageAsAbsorbBonus.Small.Period, 3.0
+GemBonus.HealthPercentageAsAbsorbBonus.Small.HealthPercentageLimit, 0.15
+GemBonus.HealthPercentageAsAbsorbBonus.Medium.HealthPercentage, 0.04											;[Old] DIAMOND TIER 11
+GemBonus.HealthPercentageAsAbsorbBonus.Medium.Period, 3.0
+GemBonus.HealthPercentageAsAbsorbBonus.Medium.HealthPercentageLimit, 0.30
+GemBonus.DamageReductionPercentageBonus.Small.DamageReductionIncrease, 0.025									;[Old] DIAMOND TIER 4
+GemBonus.DamageReductionPercentageBonus.Medium.DamageReductionIncrease, 0.05									;[Old] DIAMOND TIER 10

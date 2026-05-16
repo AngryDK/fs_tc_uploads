@@ -1,0 +1,358 @@
+name,value
+SG_CoralLasher.MeleeAutoAttack.MaxRange, 400.0
+SG_CoralLasher.MeleeAutoAttack.Cooldown, 1.6
+SG_CoralLasher.InitialRangedAttack.StrengthCoefficient, 0.78						; CORAL LASHER - DISGORGED MUCK
+SG_CoralLasher.InitialRangedAttack.Dot.StrengthCoefficient, 0.17
+SG_CoralLasher.InitialRangedAttack.Dot.Duration, 21.0
+SG_CoralLasher.InitialRangedAttack.Dot.Period, 1.5
+SG_CoralLasher.InitialRangedAttack.MaxRange, 4000.0
+SG_CoralLasher.InitialRangedAttack.InitialMinCooldown, 4.0
+SG_CoralLasher.InitialRangedAttack.InitialMaxCooldown, 10.0
+SG_CoralLasher.InitialRangedAttack.Cooldown, 12.0
+SG_DrownedSailor.AutoAttack.DamageIntellectCoefficient, 1.16						; VENGEFUL SHADE - MELEE AUTO ATTACK
+SG_DrownedSailor.AutoAttack.Cooldown, 1.80
+SG_DrownedSailor.AutoAttack.MaxRange, 500.0
+SG_DrownedSailor.PoisonDagger.InitialMinCooldown, 6.0								; VENGEFUL SHADE - WITHERBANE TOXIN		
+SG_DrownedSailor.PoisonDagger.InitialMaxCooldown, 25.0
+SG_DrownedSailor.PoisonDagger.Cooldown, 25.0
+SG_DrownedSailor.PoisonDagger.CCcooldown, 12.0
+SG_DrownedSailor.PoisonDagger.CastDuration, 2.0
+SG_DrownedSailor.PoisonDagger.Dot.Duration, 18.0
+SG_DrownedSailor.PoisonDagger.Dot.Period, 3.00
+SG_DrownedSailor.PoisonDagger.Dot.StrengthCoefficient, 1.85 	; Dot tick damage
+SG_DrownedSailor.PoisonDagger.HasteReductionMultiplier.Duration, 18.0
+SG_DrownedSailor.PoisonDagger.HasteReductionMultiplier.TickPeriod, 0.0		;Should not tick
+SG_DrownedSailor.PoisonDagger.HasteReductionMultiplier.HasteMultiplier, 1.00
+SG_DrownedSailor.PoisonDagger.HasteReductionMultiplier.MoveSpeedMultiplier, 0.70
+SG_DrownedSailor.PoisonDagger.MaxRange, 4000.0
+SG_DrownedSailor.CastedEnrageTarget.MaxRange, 4000.0								; VENGEFUL SHADE - BITTER FRENZY
+SG_DrownedSailor.CastedEnrageTarget.CastingDuration, 3.0
+SG_DrownedSailor.CastedEnrageTarget.Duration, 12.0
+SG_DrownedSailor.CastedEnrageTarget.HasteAdded, 0.30
+SG_DrownedSailor.CastedEnrageTarget.SizeScale, 1.20
+SG_DrownedSailor.CastedEnrageTarget.InitialMinCooldown, 6.0		
+SG_DrownedSailor.CastedEnrageTarget.InitialMaxCooldown, 20.0		
+SG_DrownedSailor.CastedEnrageTarget.Cooldown, 20.0			
+SG_DrownedSailor.CastedEnrageTarget.InterruptCooldown, 16.0
+SG_WaterElemental.MeleeAutoAttack.StrengthCoefficient, 1.63							; WATER ELEMENTAL - MELEE AUTO ATTACK
+SG_WaterElemental.MeleeAutoAttack.MaxRange, 600.0
+SG_WaterElemental.MeleeAutoAttack.Cooldown, 2.10
+SG_WaterElemental.CastedRangedProjectile.MaxRange, 4000.0							; WATER ELEMENTAL - HYDRO BOLT
+SG_WaterElemental.CastedRangedProjectile.CastTime, 2.0
+SG_WaterElemental.CastedRangedProjectile.IntellectCoefficient, 3.89
+SG_WaterElemental.CastedRangedProjectile.Aoe.IntellectCoefficient, 3.89
+SG_WaterElemental.CastedRangedProjectile.Aoe.Radius, 400.0
+SG_WaterElemental.CastedRangedProjectile.InitialMinCooldown, 5.0   
+SG_WaterElemental.CastedRangedProjectile.InitialMaxCooldown, 9.0   
+SG_WaterElemental.CastedRangedProjectile.Cooldown, 15.0   
+SG_WaterElemental.CastedRangedProjectile.InterruptCooldown, 12.0
+SG_WaterElemental.CastedSingleTargetHeal.MaxRange, 4000.0							; WATER ELEMENTAL - HEALING WATERS
+SG_WaterElemental.CastedSingleTargetHeal.CastTime, 3.0
+SG_WaterElemental.CastedSingleTargetHeal.IntellectCoefficient, 23.47
+SG_WaterElemental.CastedSingleTargetHeal.InitialMinCooldown, 9.0   
+SG_WaterElemental.CastedSingleTargetHeal.InitialMaxCooldown, 18.0   
+SG_WaterElemental.CastedSingleTargetHeal.Cooldown, 20.0   
+SG_WaterElemental.CastedSingleTargetHeal.InterruptCooldown, 16.0
+SG_GhostOrc.MeleeAutoAttack.StrengthCoefficient, 2.08								; HOLLOWED CORSAIR - AUTO ATTACK
+SG_GhostOrc.MeleeAutoAttack.MaxRange, 550.0
+SG_GhostOrc.MeleeAutoAttack.Cooldown, 2.85
+SG_GhostOrc.Cleave.StrengthCoefficient, 3.15										; HOLLOWED CORSAIR - WAILING STRIKE
+SG_GhostOrc.Cleave.MaxRange, 550.0 ; The range needed to start an attack on the target
+SG_GhostOrc.Cleave.InitialMinCooldown, 4.0
+SG_GhostOrc.Cleave.InitialMaxCooldown, 6.0
+SG_GhostOrc.Cleave.Cooldown, 4.0
+SG_GhostOrc.Cleave.MinRadius, 45.0
+SG_GhostOrc.Cleave.MaxRadius, 700.0 ; How far the cleave reaches when the attack is done 
+SG_GhostOrc.Cleave.Angle, 120.0
+SG_GhostOrc.Cleave.Height, 600.0
+SG_GhostOrc.Cleave.Debuff.Duration, 5.0
+SG_GhostOrc.Cleave.Dot.StrengthCoefficient, 0.32			
+SG_GhostOrc.Cleave.Dot.Duration, 5.0
+SG_GhostOrc.Cleave.Dot.Period, 2.0
+SG_EchoingSpirit.MeleeAutoAttack.StrengthCoefficient, 1.01							; TORMENTED SPECTRE - MELEE AUTO ATTACK
+SG_EchoingSpirit.MeleeAutoAttack.Cooldown, 1.6
+SG_EchoingSpirit.MeleeAutoAttack.MaxRange, 450.0
+SG_EchoingSpirit.ChainLightning.Cooldown, 18.0										; TORMENTED SPECTRE - ANGUISH UNLEASHED
+SG_EchoingSpirit.ChainLightning.CastDuration, 2.0
+SG_EchoingSpirit.ChainLightning.CastRange, 4000.0
+SG_EchoingSpirit.ChainLightning.MaxChainLength, 800 ;max distance a chain can be. if no players are within this range it cant cast. if there is no next target within range it wont jump
+SG_EchoingSpirit.ChainLightning.MaxChainJumps, 4
+SG_EchoingSpirit.ChainLightning.ChainDamageDropoff, 0.8 ; 20% less damage per jump
+SG_EchoingSpirit.ChainLightning.MinChainDamageFraction, 0.2 ; The dropoff multiplier can never go below this value.
+SG_EchoingSpirit.ChainLightning.IntellectCoefficient, 4.62
+SG_EchoingSpirit.ChainLightning.InitialMinCooldown, 6.0
+SG_EchoingSpirit.ChainLightning.InitialMaxCooldown, 16.0
+SG_EchoingSpirit.ChainLightning.InterruptCooldown, 14.0
+SG_EchoingSpiritGhost.AutoAttack.StrengthCoefficient, 1.0							; TORMENTED SPECTRE - AUTO ATTACK - only used to move them toward target
+SG_EchoingSpiritGhost.AutoAttack.MinCooldown, 1.5
+SG_EchoingSpiritGhost.AutoAttack.MaxCooldown, 1.5 
+SG_EchoingSpiritGhost.AutoAttack.MaxRange, 10.0
+SG_EchoingSpiritGhost.SpawnDelay, 3.0
+SG_EchoingSpiritGhost.SelfDamagePerTick, 0.05 
+SG_EchoingSpiritGhost.SelfDamageTickRating, 1.0
+SG_EchoingSpiritGhost.Explode.Radius, 75.0											; TORMENTED SPECTRE - FINAL LAMENT - CUT
+SG_EchoingSpiritGhost.Explode.StrengthCoefficient, 8.76
+SG_GhostCorpse.MeleeAutoAttack.StrengthCoefficient,  0.52		
+SG_GhostCorpse.MeleeAutoAttack.MaxRange, 350
+SG_GhostCorpse.MeleeAutoAttack.Cooldown, 1.4
+SG_GhostEruptor.MeleeAutoAttack.StrengthCoefficient, 1.47
+SG_GhostEruptor.MeleeAutoAttack.MaxRange, 550.0
+SG_GhostEruptor.MeleeAutoAttack.Cooldown, 1.95
+SG_GhostEruptor.CastedRangedProjectileInstantDamage.Cooldown, 0.0				; NIGHTBOUND MAGI - NECROTIC BOLT
+SG_GhostEruptor.CastedRangedProjectileInstantDamage.InterruptCooldown, 6.0
+SG_GhostEruptor.CastedRangedProjectileInstantDamage.IntellectCoefficient, 2.49
+SG_GhostEruptor.CastedRangedProjectileInstantDamage.MaxRange, 3000.0
+SG_GhostEruptor.CastedRangedProjectileInstantDamage.CastTime, 2.0
+SG_GhostEruptor.SoakDebuff.InitialMinCooldown, 12.0				; NIGHTBOUND MAGI - HARROWING SOLITUDE
+SG_GhostEruptor.SoakDebuff.InitialMaxCooldown, 20.0
+SG_GhostEruptor.SoakDebuff.Cooldown, 20.0
+SG_GhostEruptor.SoakDebuff.MinRange, 0.0
+SG_GhostEruptor.SoakDebuff.MaxRange, 4000.0
+SG_GhostEruptor.SoakDebuff.Debuff.SoakRadius, 300.0
+SG_GhostEruptor.SoakDebuff.Debuff.Duration, 6.0
+SG_GhostEruptor.SoakDebuff.Debuff.TickInterval, 5.99
+SG_GhostEruptor.SoakDebuff.Damage.IntCoefficient, 9.48
+SG_GhostEruptor.SoakDebuff.TargetCount, 1.0
+SG_GhostEruptor.CastedPartyAoeDebuff.InitialMinCooldown, 5.0	; NIGHTBOUND MAGI - SHADOW ERUPTION
+SG_GhostEruptor.CastedPartyAoeDebuff.InitialMaxCooldown, 18.0
+SG_GhostEruptor.CastedPartyAoeDebuff.Cooldown, 20.0 
+SG_GhostEruptor.CastedPartyAoeDebuff.InterruptCooldown, 15.0 
+SG_GhostEruptor.CastedPartyAoeDebuff.MaxNumPlayers, 4		; All players for now
+SG_GhostEruptor.CastedPartyAoeDebuff.CastTime, 3.0
+SG_GhostEruptor.CastedPartyAoeDebuff.IntellectCoefficient, 7.21
+SG_GhostEruptor.CastedPartyAoeDebuff.Radius, 4000.0
+SG_GhostEruptor.CastedPartyAoeDebuff.Height, 350.0
+SG_GhostEruptor.CastedPartyAoeDebuff.Debuff.Duration, 30.0
+SG_GhostEruptor.CastedPartyAoeDebuff.Debuff.IncomingMagicDamageScaler, 1.5
+SG_GhostFerventSoldier.MeleeAutoAttack.StrengthCoefficient, 1.28
+SG_GhostFerventSoldier.MeleeAutoAttack.MaxRange, 400.0
+SG_GhostFerventSoldier.MeleeAutoAttack.Cooldown, 2.05
+SG_GhostFerventSoldier.MeleeAutoAttack.Buff.HasteGainPerStack, 0.02
+SG_GhostFerventSoldier.MeleeAutoAttack.Buff.Duration, 15.0
+SG_BossSiren.MastTether.CastTime, 0.66
+SG_BossSiren.MastTether.PullSpeed, 2500.0      ; At LeashLength we apply this speed. Beyond that a little more speed will be applied before snapping.
+SG_BossSiren.MastTether.LeashLengthMin, 450.0    ; At this length we apply the full PullSpeed
+SG_BossSiren.MastTether.LeashLengthMax, 500.0    ; At this length we apply the full PullSpeed
+SG_BossSiren.MastTether.SnapLength, 1000.0     ; At this length the tether will snap.
+SG_BossSiren.MeleeAutoAttack.Cooldown, 2.1
+SG_BossSiren.MeleeAutoAttack.StrengthCoefficient, 5.68
+SG_BossSiren.MeleeAutoAttack.MaxRange, 650.0
+SG_BossSiren.Bleed.StrengthCoefficient, 0.125		; Disabled
+SG_BossSiren.Bleed.Spread, 0.4
+SG_BossSiren.Bleed.TickInterval, 3.0
+SG_BossSiren.Bleed.Duration, 6.0
+SG_BossSiren.Bubble.InitialCooldown, 30.0
+SG_BossSiren.Bubble.Cooldown, 30.0
+SG_BossSiren.Bubble.MaxRange, 5000.0
+SG_BossSiren.Bubble.CastTime, 2.0
+SG_BossSiren.Bubble.PreSpawnDot.Duration, 16.0
+SG_BossSiren.Bubble.PreSpawnDot.StrengthCoefficient, 0.74
+SG_BossSiren.Bubble.PreSpawnDot.TickInterval, 2.0
+SG_BossSiren.Bubble.Duration, 10000.0
+SG_BossSiren.Bubble.Radius, 300.0
+SG_BossSiren.Bubble.TickInterval, 1.5
+SG_BossSiren.Bubble.StrengthCoefficient, 0.93
+SG_BossSiren.Bubble.MoveSpeedMultiplier, 0.65
+SG_BossSiren.WalkOverEdge.TriggerHealthFraction, 0.50
+SG_BossSiren.WalkOverEdge.MinPostAbilityPadding, 2.0
+SG_BossSiren.WalkOverEdge.MaxPostAbilityPadding, 2.0
+SG_BossSiren.WalkOverEdge.MoveSpeedOverride, 0.85
+SG_BossSiren.WalkOverEdge.VanishDuration, 1.0
+SG_BossSiren.WalkOverEdge.CastTime, 4.0
+SG_BossSiren.WalkOverEdge.ChannelingTime, 8.0
+SG_BossSiren.WalkOverEdge.ApplyDebuffCheckInterval, 0.5
+SG_BossSiren.WalkOverEdge.Dot.StrengthCoefficient, 0.65
+SG_BossSiren.WalkOverEdge.Dot.TickInterval, 3.0
+SG_BossSiren.Interrupt.InitialCooldown, 12.0
+SG_BossSiren.Interrupt.Cooldown, 23.0
+SG_BossSiren.Interrupt.CastTime, 2.0
+SG_BossSiren.Interrupt.MaxRange, 5000.0
+; I cant find where to set silence duration!? I seems broken, does it work for heroes?
+SG_BossSiren.Interrupt.StrengthCoefficient, 3.94
+SG_BossSiren.Wave.InitialCooldown, 24.0
+SG_BossSiren.Wave.Cooldown, 26.0
+SG_BossSiren.Wave.CastTime, 3.0
+SG_BossSiren.Wave.MaxRange, 2500.0
+SG_BossSiren.Wave.TravelDistance, 2500.0
+SG_BossSiren.Wave.Radius, 500.0
+SG_BossSiren.Wave.Speed, 3000.0
+SG_BossSiren.Wave.StrengthCoefficient, 4.0
+SG_BossSiren.Wave.SpawnInFrontOffset, 250.0
+SG_BossSiren.Wave.KnockbackStrength, 2500.0
+SG_BossSiren.TankSlamAndLink.InitialCooldown, 18.0
+SG_BossSiren.TankSlamAndLink.Cooldown, 30.0 
+SG_BossSiren.TankSlamAndLink.MaxRange, 650.0
+SG_BossSiren.TankSlamAndLink.MaxLinkSearchRadius, 6000.0
+SG_BossSiren.TankSlamAndLink.Slam.StrengthCoefficient, 5.24
+SG_BossSiren.TankSlamAndLink.Link.StrengthCoefficient, 1.12
+SG_BossSiren.TankSlamAndLink.Link.TickInterval, 1.50
+SG_BossSiren.TankSlamAndLink.Link.Duration, 12.0
+SG_BossSiren.TankSlamAndLink.Link.MinDistance, 350.0 ; Inside of this distance no damage will be dealt. At exactly this distance min damage will be dealth
+SG_BossSiren.TankSlamAndLink.Link.MaxDistance, 1500.0 ; Outside of this distance max damage will be dealt
+SG_BossSiren.TankSlamAndLink.Link.DamageMultiplierAtMinDistance, 1.0
+SG_BossSiren.TankSlamAndLink.Link.DamageMultiplierAtMaxDistance, 3.0
+SG_GreaterWaterElemental.AutoAttack.StrengthCoefficient, 1.00		;ALL ABILITIES AND ENEMIES BELOW HERE WILL NOT BE USED IN CURRENT VERSION - PROBABLY
+SG_GreaterWaterElemental.AutoAttack.MinCooldown, 3.5
+SG_GreaterWaterElemental.AutoAttack.MaxCooldown, 3.5
+SG_GreaterWaterElemental.AutoAttack.Spread, 0.2
+SG_GreaterWaterElemental.AutoAttack.MaxRange, 500.0 
+SG_GreaterWaterElemental.Upheaval.StrengthCoefficient, 3.56 
+SG_GreaterWaterElemental.Upheaval.InitialMinCooldown, 40
+SG_GreaterWaterElemental.Upheaval.InitalMaxCooldown, 40
+SG_GreaterWaterElemental.Upheaval.MinCooldown, 40
+SG_GreaterWaterElemental.Upheaval.MaxCooldown, 40
+SG_GreaterWaterElemental.Upheaval.Spread, 0.2
+SG_GreaterWaterElemental.Upheaval.CastTime, 3.0
+SG_GreaterWaterElemental.Upheaval.Radius, 300.0
+SG_GreaterWaterElemental.BurrowedStrike.StrengthCoefficient, 2.86
+SG_GreaterWaterElemental.BurrowedStrike.InitalMinCooldown, 15
+SG_GreaterWaterElemental.BurrowedStrike.InitialMaxCooldown, 20
+SG_GreaterWaterElemental.BurrowedStrike.MinCooldown, 34
+SG_GreaterWaterElemental.BurrowedStrike.MaxCooldown, 34
+SG_GreaterWaterElemental.BurrowedStrike.Spread, 0.2
+SG_GreaterWaterElemental.BurrowedStrike.StrikeInterval, 0.2
+SG_GreaterWaterElemental.BurrowedStrike.PopUpInterval, 1.0
+SG_GreaterWaterElemental.BurrowedStrike.Radius, 200
+SG_GreaterWaterElemental.BurrowedStrike.StrikeCount, 5.0
+SG_GreaterWaterElemental.EarthStomp.StrengthCoefficient, 3.24
+SG_GreaterWaterElemental.EarthStomp.InitalMinCooldown, 5.0
+SG_GreaterWaterElemental.EarthStomp.InitialMaxCooldown, 9.0
+SG_GreaterWaterElemental.EarthStomp.MinCooldown, 24.0
+SG_GreaterWaterElemental.EarthStomp.MaxCooldown, 24.0
+SG_GreaterWaterElemental.EarthStomp.Spread, 0.2
+SG_GreaterWaterElemental.EarthStomp.Radius, 1000.0 
+SG_GreaterWaterElemental.EarthBreaker.StrengthCoefficient, 4.00
+SG_GreaterWaterElemental.EarthBreaker.InitalMinCooldown, 5.0
+SG_GreaterWaterElemental.EarthBreaker.InitalMaxCooldown, 5.0
+SG_GreaterWaterElemental.EarthBreaker.MinCooldown, 15.0
+SG_GreaterWaterElemental.EarthBreaker.MaxCooldown, 15.0
+SG_GreaterWaterElemental.EarthBreaker.CastTime, 2.0
+SG_GreaterWaterElemental.EarthBreaker.ConeRange, 2000
+SG_GreaterWaterElemental.EarthBreaker.ConeAngle, 45.0
+SG_GreaterWaterElemental.EarthBreaker.MovementSpeedMultiplier, 0.4 ; 60% slowed
+SG_GreaterWaterElemental.EarthBreaker.SlowDuration, 5.0
+SG_GreaterWaterElemental.EarthBreaker.Spread, 0.2
+SG_DrownedSailor.BarrierOfProtection.CastingDuration, 3.0       ; DISABLED
+SG_DrownedSailor.BarrierOfProtection.MaxHealthAbsorb, 0.25      ; DISABLED
+SG_DrownedSailor.BarrierOfProtection.Radius, 1200               ; DISABLED
+SG_DrownedSailor.BarrierOfProtection.InitialMinCooldown, 5.0    ; DISABLED
+SG_DrownedSailor.BarrierOfProtection.InitialMaxCooldown, 9.0    ; DISABLED
+SG_DrownedSailor.BarrierOfProtection.MinCooldown, 18.0    		; DISABLED
+SG_DrownedSailor.BarrierOfProtection.MaxCooldown, 24.0    		; DISABLED
+SG_DrownedSailor.BarrierOfProtection.MinAbilityPadding, 0.5    	; DISABLED
+SG_DrownedSailor.BarrierOfProtection.MaxAbilityPadding, 0.6    	; DISABLED
+SG_DrownedSailor.BarrierOfProtection.MinCancelCooldown, 16.0    ; DISABLED
+SG_DrownedSailor.BarrierOfProtection.MaxCancelCooldown, 20.0    ; DISABLED
+SG_DrownedSailor.ShatteringBarrier.CastingDuration, 3.0			; DISABLED
+SG_DrownedSailor.ShatteringBarrier.MaxHealthAbsorb, 0.25		; DISABLED
+SG_DrownedSailor.ShatteringBarrier.MaxRange, 3000.0				; DISABLED
+SG_DrownedSailor.ShatteringBarrier.AoeDamageRadius, 600.0		; DISABLED	
+SG_DrownedSailor.ShatteringBarrier.AoeDamageTickPeriod, 1.0		; DISABLED
+SG_DrownedSailor.ShatteringBarrier.AoeDamageStrengthCoefficient, 0.832	; DISABLED
+SG_DrownedSailor.ShatteringBarrier.AoeDamageSpread, 0.4			; DISABLED
+SG_DrownedSailor.ShatteringBarrier.InitialMinCooldown, 5.0		; DISABLED
+SG_DrownedSailor.ShatteringBarrier.InitialMaxCooldown, 9.0		; DISABLED
+SG_DrownedSailor.ShatteringBarrier.MinCooldown, 18.0			; DISABLED
+SG_DrownedSailor.ShatteringBarrier.MaxCooldown, 24.0			; DISABLED
+SG_DrownedSailor.ShatteringBarrier.MinAbilityPadding, 0.5		; DISABLED
+SG_DrownedSailor.ShatteringBarrier.MaxAbilityPadding, 0.6		; DISABLED
+SG_DrownedSailor.ShatteringBarrier.InterruptCooldown, 15.0		; DISABLED
+SG_DrownedSailor.ShacklesOfIce.ChannelingTickInterval, 1.0		; DISABLED
+SG_DrownedSailor.ShacklesOfIce.ChannelDuration, 5.15			; DISABLED
+SG_DrownedSailor.ShacklesOfIce.InitialMinCooldown, 2.0			; DISABLED
+SG_DrownedSailor.ShacklesOfIce.InitialMaxCooldown, 10.0			; DISABLED
+SG_DrownedSailor.ShacklesOfIce.MinCooldown, 15.0				; DISABLED
+SG_DrownedSailor.ShacklesOfIce.MaxCooldown, 25.0				; DISABLED
+SG_DrownedSailor.ShacklesOfIce.SlowPercentage, -0.40 ; 45% decrease (influenced by tenacity)	; DISABLED
+SG_DrownedSailor.ShacklesOfIce.MinAbilityPadding, 1.0			; DISABLED
+SG_DrownedSailor.ShacklesOfIce.MaxAbilityPadding, 2.0			; DISABLED
+SG_WaterElemental.TankSplash.MinInitialCooldown, 15.0
+SG_WaterElemental.TankSplash.MaxInitialCooldown, 15.0
+SG_WaterElemental.TankSplash.MinCooldown, 15.0
+SG_WaterElemental.TankSplash.MaxCooldown, 15.0 
+SG_WaterElemental.TankSplash.MaxRange, 240.0
+SG_WaterElemental.TankSplash.CastingDuration, 2.0
+SG_WaterElemental.TankSplash.IntellectCoefficient, 5.0
+SG_WaterElemental.TankSplash.Spread, 0.4
+SG_WaterElemental.TankSplash.Duration, 2.5
+SG_WaterElemental.TankSplash.WaveRadius, 200.0
+SG_WaterElemental.TankSplash.WaveSpeed, 800.0
+SG_WaterElemental.TankSplash.SlowDuration, 10.0
+SG_WaterElemental.TankSplash.MovementSpeedPercentage, 0.80	
+SG_WaterElemental.CastedAoeProjectile.MaxRange, 1500.0	;disabled - Squall ability is no longer used by this enemy - Axel
+SG_WaterElemental.CastedAoeProjectile.CastTime, 4.0
+SG_WaterElemental.CastedAoeProjectile.InitialMinCooldown, 12.0
+SG_WaterElemental.CastedAoeProjectile.InitialMaxCooldown, 20.0
+SG_WaterElemental.CastedAoeProjectile.MinCooldown, 20.0
+SG_WaterElemental.CastedAoeProjectile.MaxCooldown, 24.0
+SG_WaterElemental.CastedAoeProjectile.MinCancelCooldown, 18.0
+SG_WaterElemental.CastedAoeProjectile.MaxCancelCooldown, 18.0
+SG_WaterElemental.CastedAoeProjectile.SpawnInFrontOffset, 250.0
+SG_WaterElemental.CastedAoeProjectile.Projectile.Duration, 2.75
+SG_WaterElemental.CastedAoeProjectile.Projectile.Radius, 300.0
+SG_WaterElemental.CastedAoeProjectile.Projectile.Velocity, 900.0
+SG_WaterElemental.CastedAoeProjectile.Projectile.IntellectCoefficient, 2.0
+SG_WaterElemental.CastedAoeProjectile.Projectile.Spread, 0.2
+SG_WaterElemental.CastedAoeProjectile.Projectile.TickInterval, 1.0
+SG_WaterElemental.CastedAoeProjectile.Projectile.MoveSpeedMultiplier, 0.5
+SG_GhostOrc.ChannelAoe.StrengthCoefficient, 1.0		;disabled - delete?
+SG_GhostOrc.ChannelAoe.StunDuration, 0.5
+SG_GhostOrc.ChannelAoe.Radius, 500.0
+SG_GhostOrc.ChannelAoe.ChannelDuration, 4.55
+SG_GhostOrc.ChannelAoe.ChannelTickInterval, 1.5
+SG_GhostOrc.ChannelAoe.InitialMinCooldown, 15.0
+SG_GhostOrc.ChannelAoe.InitialMaxCooldown, 15.0
+SG_GhostOrc.ChannelAoe.MinCooldown, 15.0
+SG_GhostOrc.ChannelAoe.MaxCooldown, 15.0
+SG_EchoingSpirit.RangedAutoAttack.StrengthCoefficient, 1.0	;DISABLED
+SG_EchoingSpirit.RangedAutoAttack.MinCooldown, 1.5
+SG_EchoingSpirit.RangedAutoAttack.MaxCooldown, 1.5
+SG_EchoingSpirit.RangedAutoAttack.MaxRange, 2400.0
+SG_SaltSprite.MeleeAutoAttack.StrengthCoefficient, 1.00
+SG_SaltSprite.MeleeAutoAttack.Spread, 0.2
+SG_SaltSprite.MeleeAutoAttack.Cooldown, 2.0
+SG_SaltSprite.MeleeAutoAttack.MaxRange, 500.0
+SG_SaltSprite.Jump.InitialMinCooldown, 4.0
+SG_SaltSprite.Jump.InitialMaxCooldown, 6.0
+SG_SaltSprite.Jump.MinCooldown, 2.0
+SG_SaltSprite.Jump.MaxCooldown, 4.0
+SG_SaltSprite.Jump.CastTime, 2.0
+SG_SaltSprite.Jump.MinRange, 525.0
+SG_SaltSprite.Jump.MaxRange, 1500.0
+SG_SaltSprite.TargetHealthDamage.StrengthCoefficient, 2.47
+SG_SaltSprite.TargetHealthDamage.Spread, 0.2
+SG_SaltSprite.TargetHealthDamage.InitialMinCooldown, 4.0
+SG_SaltSprite.TargetHealthDamage.InitialMaxCooldown, 12.0
+SG_SaltSprite.TargetHealthDamage.MinCooldown, 12.0
+SG_SaltSprite.TargetHealthDamage.MaxCooldown, 24.0
+SG_SaltSprite.TargetHealthDamage.CastTime, 2.0
+SG_SaltSprite.TargetHealthDamage.MaxRange, 500.0
+SG_Wisp.OnDeathAoe.CastTime, 1.5
+SG_Wisp.OnDeathAoe.StrengthCoefficient, 5.0
+SG_Wisp.OnDeathAoe.Spread, 0.4
+SG_Wisp.OnDeathAoe.Aoe.Radius, 550.0
+SG_Wisp.MeleeAutoAttack.StrengthCoefficient, 1.0
+SG_Wisp.MeleeAutoAttack.Spread, 0.4
+SG_Wisp.MeleeAutoAttack.MaxRange, 500.0
+SG_Wisp.MeleeAutoAttack.MinCooldown, 2.0
+SG_Wisp.MeleeAutoAttack.MaxCooldown, 2.0
+SG_Wisp.SingleTargetAttackAndMoveBack.StrengthCoefficient, 1.0
+SG_Wisp.SingleTargetAttackAndMoveBack.Spread, 0.4
+SG_Wisp.SingleTargetAttackAndMoveBack.MaxRange, 500
+SG_Wisp.SingleTargetAttackAndMoveBack.FurthestPlayerDistance, 1000		; How far away a player can stand from the group to still be included
+SG_Wisp.SingleTargetAttackAndMoveBack.MaxDistanceFromPlayerGroup, 750		; How far out from the player group the imp will travel after an attack
+SG_Wisp.SingleTargetAttackAndMoveBack.MinDistanceFromPlayerGroup, 650
+SG_Wisp.SingleTargetAttackAndMoveBack.MinCooldown, 6.0
+SG_Wisp.SingleTargetAttackAndMoveBack.MaxCooldown, 8.0
+SG_Wisp.SingleTargetAttackAndMoveBack.MaxSearchRange, 6000.0
+SG_Wisp.GetClosestFriend.InitialCooldown, 30		; Time to activation
+SG_Wisp.GetClosestFriend.HealthThreshold, 0.15
+SG_Wisp.GetClosestFriend.FriendMaxRange, 5000		; The max distance the imp is willing to find help
+SG_Wisp.GetClosestFriend.GroupRadius, 500			; How far will the cry for help reach around the closest found friend
+SG_Wisp.FlyThroughTargetDamage.StrengthCoefficient, 0.60	; THIS ABILITY IS NOT IN GAME (ARCHIVED)
+SG_Wisp.FlyThroughTargetDamage.Spread, 0.4
+SG_Wisp.FlyThroughTargetDamage.MaxRange, 650
+SG_Wisp.FlyThroughTargetDamage.RangeAfterTarget, 700.0	; How much further the imp will fly after it has passed its target
+SG_Wisp.FlyThroughTargetDamage.MinCooldown, 5.0
+SG_Wisp.FlyThroughTargetDamage.MaxCooldown, 5.0
+SG_Wisp.FlyThroughTargetDamage.FlyDuration, 1.0

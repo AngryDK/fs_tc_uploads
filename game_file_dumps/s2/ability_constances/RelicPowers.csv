@@ -1,0 +1,45 @@
+name,value
+RelicPower.MassDispel.MaxRange, 4000.0
+RelicPower.PartyMoveSpeedBuff.Cooldown, 90.0
+RelicPower.PartyMoveSpeedBuff.MaxRange, 4000.0
+RelicPower.PartyMoveSpeedBuff.MoveSpeedScaler, 1.50
+RelicPower.PartyMoveSpeedBuff.CooldownRecoveryIncrease, 1.5
+RelicPower.PartyMoveSpeedBuff.Duration, 12.0
+RelicPower.PartyDamageReductionBuff.Cooldown, 180.0
+RelicPower.PartyDamageReductionBuff.MaxRange, 4000.0
+RelicPower.PartyDamageReductionBuff.IncommingDamageScalar, 0.85
+RelicPower.PartyDamageReductionBuff.FlatDamageReduction, 0.0
+RelicPower.PartyDamageReductionBuff.Duration, 15.0
+RelicPower.PersonalDamageReductionBuff.Cooldown, 60.0
+RelicPower.PersonalDamageReductionBuff.IncommingDamageScalar, 0.70
+RelicPower.PersonalDamageReductionBuff.FlatDamageReduction, 0.0
+RelicPower.PersonalDamageReductionBuff.Duration, 9.0
+RelicPower.HealthPotion.Cooldown, 120.0
+RelicPower.HealthPotion.MaxHealthFraction, 0.40
+RelicPower.ManaPotion.Cooldown, 120.0
+RelicPower.ManaPotion.MaxManaFraction, 0.40
+RelicPower.DamagePotion.Cooldown, 300.0
+RelicPower.DamagePotion.BasePrimaryAttributeBonus, 20.0
+RelicPower.DamagePotion.PrimaryAttributeBonusPer15ItemLevels, 2.75
+RelicPower.DamagePotion.Duration, 20.0
+RelicPower.CastedSingleTargetRevive.Cooldown, 300.0
+RelicPower.CastedSingleTargetRevive.CastDuration, 2.0
+RelicPower.CastedSingleTargetRevive.MaxRange, 4000.0
+RelicPower.CastedSingleTargetRevive.ReviveHealthFrac, 0.4
+RelicPower.CastedSingleTargetRevive.ReviveManaFrac, 0.4
+RelicPower.PolymorphTargetWithSharedCharges.Cooldown, 180.0
+RelicPower.PolymorphTargetWithSharedCharges.MaxSharedCharges.Adventure, 2.0
+RelicPower.PolymorphTargetWithSharedCharges.MaxSharedCharges.Dungeon, 4.0
+RelicPower.PolymorphTargetWithSharedCharges.MaxRange, 3000.0
+RelicPower.PolymorphTargetWithSharedCharges.ThreatAdded, 100.0 ; amount of additional threat added to the chicken when it spawns
+RelicPower.PolymorphTargetWithSharedCharges.BaseHealthThreshold.Large, 3.5 ; Anything higher than this is a large chicken
+RelicPower.PolymorphTargetWithSharedCharges.BaseHealthThreshold.Medium, 2.0 ; Otherwise a larger than this is a medium chicken. If not then itll be a small chicken
+RelicPower.PartyInvisibility.Cooldown, 360.0
+RelicPower.PartyInvisibility.Aura.Radius, 1000.0
+RelicPower.PartyInvisibility.Aura.Duration, 15.0
+RelicPower.Portal.Cooldown, 120.0
+RelicPower.Portal.Targeting.MaxPlacementRangeHorizontal, 3000.0
+RelicPower.Portal.Targeting.MaxPlacementRangeUp, 2000.0
+RelicPower.Portal.Targeting.MaxPlacementRangeDown, 5000.0
+RelicPower.Portal.Targeting.PlacementRadius, 200.0 		; radius of the targeting circle visual really
+RelicPower.Portal.PortalSicknessDebuff.Duration, 20.0

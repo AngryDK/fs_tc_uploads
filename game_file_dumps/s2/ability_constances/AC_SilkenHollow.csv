@@ -1,0 +1,299 @@
+name,value
+SH_Spiderling.MeleeAutoAttack.MaxCooldown, 1.8 
+SH_Spiderling.MeleeAutoAttack.MaxRange, 250.0
+SH_Spiderling.MeleeAutoAttack.StrengthCoefficient, 0.42
+SH_Spiderling.Leap.InitialMinCooldown, 6.0
+SH_Spiderling.Leap.InitialMaxCooldown, 12.0
+SH_Spiderling.Leap.MinCooldown, 8.0
+SH_Spiderling.Leap.MaxCooldown, 8.0
+SH_Spiderling.Leap.LeapDuration, 0.5
+SH_Spiderling.Leap.PreLeapDelay, 0.2
+SH_Spiderling.Leap.MinRange, 600.0
+SH_Spiderling.Leap.MaxRange, 1200.0
+SH_Spiderling.Leap.StrengthCoefficient, 0.64
+SH_Spiderling.PickRandomTarget.MaxRange, 3500.0
+SH_Spiderling.PickRandomTarget.ThreatToAdd," 1.0     ; ""initiation threat"" will also be added (InitiationThreat = PrimaryAttribute * IncomingDamageThreatMultiplier * InitiationThreatMultiplier)"
+SH_GravesnareKidnapper.MeleeAutoAttack.MinCooldown, 1.8
+SH_GravesnareKidnapper.MeleeAutoAttack.MaxCooldown, 1.8 
+SH_GravesnareKidnapper.MeleeAutoAttack.MaxRange, 500.0
+SH_GravesnareKidnapper.MeleeAutoAttack.StrengthCoefficient, 1.64
+SH_GravesnareKidnapper.Kidnap.InitialMinCooldown, 16.0
+SH_GravesnareKidnapper.Kidnap.InitialMaxCooldown, 24.0
+SH_GravesnareKidnapper.Kidnap.MinCooldown, 32.0
+SH_GravesnareKidnapper.Kidnap.MaxCooldown, 32.0
+SH_GravesnareKidnapper.Kidnap.InterruptCooldown, 25.0
+SH_GravesnareKidnapper.Kidnap.CCCooldown, 12.0
+SH_GravesnareKidnapper.Kidnap.CastTime, 1.5
+SH_GravesnareKidnapper.Kidnap.LeapDistance, 1000.0
+SH_GravesnareKidnapper.Kidnap.LeapDuration, 0.5
+SH_GravesnareKidnapper.Kidnap.Pull.Duration, 8.0
+SH_GravesnareKidnapper.Kidnap.Pull.Speed, 800.0
+SH_GravesnareKidnapper.Kidnap.Pull.MinDistance, 200.0 ; When the target is within this distance the pull stops and the target is bitten.
+SH_GravesnareKidnapper.Kidnap.Pull.BreakDistance, 5000.0
+SH_GravesnareKidnapper.Kidnap.MaxShootRange, 4500.0
+SH_GravesnareKidnapper.Kidnap.MaxRange, 3000.0
+SH_GravesnareKidnapper.Kidnap.StrengthCoefficient, 1.0
+SH_GravesnareKidnapper.Kidnap.PostAbilityPadding, 2.0
+SH_GravesnareKidnapper.KidnapBite.MaxRange, 800.0
+SH_GravesnareKidnapper.KidnapBite.StrengthCoefficient, 12.0
+SH_GravesnareKidnapper.KidnapBite.StunDuration, 3.0
+SH_GravesnareKidnapper.KidnapBite.HealFraction, 0.2
+SH_GravesnareKidnapper.KidnapBite.PostAbilityPadding, 3.0
+SH_GravesnareKidnapper.SlowCone.InitialMinCooldown, 6.0
+SH_GravesnareKidnapper.SlowCone.InitialMaxCooldown, 10.0
+SH_GravesnareKidnapper.SlowCone.MinCooldown, 28.0
+SH_GravesnareKidnapper.SlowCone.MaxCooldown, 28.0
+SH_GravesnareKidnapper.SlowCone.PostAbilityPadding, 3.0
+SH_GravesnareKidnapper.SlowCone.CastTime, 1.5
+SH_GravesnareKidnapper.SlowCone.MaxRange, 1500.0
+SH_GravesnareKidnapper.SlowCone.ConeRadius, 2000.0
+SH_GravesnareKidnapper.SlowCone.ConeAngle, 45.0
+SH_GravesnareKidnapper.SlowCone.MoveSpeedMultiplier, 0.6
+SH_GravesnareKidnapper.SlowCone.Duration, 12.0
+SH_GravesnareKidnapper.SlowCone.StrengthCoefficient, 6.0
+SH_GravesnareKidnapper.ConeAoeProjectiles.InitialMinCooldown, 9.0
+SH_GravesnareKidnapper.ConeAoeProjectiles.InitialMaxCooldown, 24.0
+SH_GravesnareKidnapper.ConeAoeProjectiles.MinCooldown, 32.0
+SH_GravesnareKidnapper.ConeAoeProjectiles.MaxCooldown, 32.0
+SH_GravesnareKidnapper.ConeAoeProjectiles.MinPostAbilityPadding, 3.0
+SH_GravesnareKidnapper.ConeAoeProjectiles.MaxPostAbilityPadding, 3.0
+SH_GravesnareKidnapper.ConeAoeProjectiles.MaxRange, 3000.0
+SH_GravesnareKidnapper.ConeAoeProjectiles.CastTime, 0.5
+SH_GravesnareKidnapper.ConeAoeProjectiles.ChannelDuration, 2.5
+SH_GravesnareKidnapper.ConeAoeProjectiles.ChannelTickInterval," .0333325         ;  Each tick shoots a projectile. We might end up shooting fewer projectiles if we don't have room to fit more of them inside the cone. So try to set this so that the entire ground is filled and the channel is just done (there is a ""right"" answer for this but it is quite hard to calculate so I expose it here instead). "
+SH_GravesnareKidnapper.ConeAoeProjectiles.NumTicksToIgnoreFirstCast, 30.0 		; does not spawn projectiles or pools until after these number of ticks
+SH_GravesnareKidnapper.ConeAoeProjectiles.PieMinRadius, 300.0
+SH_GravesnareKidnapper.ConeAoeProjectiles.PieMaxRadius, 2500.0
+SH_GravesnareKidnapper.ConeAoeProjectiles.Angle, 30.0   
+SH_GravesnareKidnapper.ConeAoeProjectiles.MinDistance, 450.0                 ; Distance between ground circles.
+SH_GravesnareKidnapper.ConeAoeProjectiles.DamageRadius, 225.0                ; Radius of ground circles.
+SH_GravesnareKidnapper.ConeAoeProjectiles.PrimaryAttributeCoefficient, 3.0
+SH_GravesnareKidnapper.ConeAoeProjectiles.Dot.PrimaryAttributeCoefficient, 1.68
+SH_GravesnareKidnapper.ConeAoeProjectiles.Dot.TickInterval, 2.0
+SH_GravesnareKidnapper.ConeAoeProjectiles.Dot.MoveSpeedMultiplier, 0.5
+SH_GravesnareKidnapper.ConeAoeProjectiles.PoolLifetime, 30.0 ; how long the pools stay
+SH_RotheartRecluse.MeleeAutoAttack.MinCooldown, 1.4
+SH_RotheartRecluse.MeleeAutoAttack.MaxCooldown, 1.4 
+SH_RotheartRecluse.MeleeAutoAttack.MaxRange, 500.0
+SH_RotheartRecluse.MeleeAutoAttack.StrengthCoefficient, 1.2
+SH_RotheartRecluse.MeleeDot.InitialMinCooldown, 4.0
+SH_RotheartRecluse.MeleeDot.InitialMaxCooldown, 16.0
+SH_RotheartRecluse.MeleeDot.MinCooldown, 20.0
+SH_RotheartRecluse.MeleeDot.MaxCooldown, 20.0
+SH_RotheartRecluse.MeleeDot.InterruptCooldown, 16.0
+SH_RotheartRecluse.MeleeDot.MinPostAbilityPadding, 0.0
+SH_RotheartRecluse.MeleeDot.MaxPostAbilityPadding, 0.0
+SH_RotheartRecluse.MeleeDot.CastTime, 1.5
+SH_RotheartRecluse.MeleeDot.MaxRange, 500.0
+SH_RotheartRecluse.MeleeDot.Duration, 6.0
+SH_RotheartRecluse.MeleeDot.TickInterval, 2.0
+SH_RotheartRecluse.MeleeDot.StrengthCoefficient, 3.325
+SH_RotheartRecluse.DotProjectile.InitialMinCooldown, 8.0             ; Heartstopper
+SH_RotheartRecluse.DotProjectile.InitialMaxCooldown, 11.0
+SH_RotheartRecluse.DotProjectile.MinCooldown, 10.0
+SH_RotheartRecluse.DotProjectile.MaxCooldown, 10.0
+SH_RotheartRecluse.DotProjectile.InterruptCooldown, 16.0
+SH_RotheartRecluse.DotProjectile.MinPostAbilityPadding, 0.0
+SH_RotheartRecluse.DotProjectile.MaxPostAbilityPadding, 0.0
+SH_RotheartRecluse.DotProjectile.CastTime, 0.0
+SH_RotheartRecluse.DotProjectile.MaxRange, 3000.0
+SH_RotheartRecluse.DotProjectile.AcquisitionMaxRange, 3000.0         
+SH_RotheartRecluse.DotProjectile.Dot.Duration, 45.0                  
+SH_RotheartRecluse.DotProjectile.Dot.TickInterval, 3.0
+SH_RotheartRecluse.DotProjectile.Dot.StrengthCoefficient, 0.33
+SH_RotheartRecluse.DotProjectile.End.StrengthCoefficient, 18.0
+SH_RotheartRecluse.DotProjectile.Slow.MoveSpeedMultiplier, 0.80
+SH_BossSpider.InitialClimbDownDuration, 3.0 ; animation is 3s - it would be nice to change it if we want this to be longer
+SH_BossSpider.MeleeAutoAttack.MinCooldown, 3.2
+SH_BossSpider.MeleeAutoAttack.MaxCooldown, 3.2 
+SH_BossSpider.MeleeAutoAttack.MaxRange, 700.0
+SH_BossSpider.MeleeAutoAttack.StrengthCoefficient, 8.30
+SH_BossSpider.TankSlam.InitialMinCooldown, 9.0
+SH_BossSpider.TankSlam.InitialMaxCooldown, 9.0
+SH_BossSpider.TankSlam.MinCooldown, 40.0
+SH_BossSpider.TankSlam.MaxCooldown, 40.0
+SH_BossSpider.TankSlam.MinPostAbilityPadding, 0.0
+SH_BossSpider.TankSlam.MaxPostAbilityPadding, 0.0
+SH_BossSpider.TankSlam.MaxRange, 700.0
+SH_BossSpider.TankSlam.CastTime, 2.5
+SH_BossSpider.TankSlam.StrengthCoefficient, 13.42
+SH_BossSpider.VenomSpray.InitialMinCooldown, 32.0
+SH_BossSpider.VenomSpray.InitialMaxCooldown, 32.0
+SH_BossSpider.VenomSpray.MinCooldown, 40.0
+SH_BossSpider.VenomSpray.MaxCooldown, 40.0
+SH_BossSpider.VenomSpray.MinPostAbilityPadding, 0.0
+SH_BossSpider.VenomSpray.MaxPostAbilityPadding, 0.0
+SH_BossSpider.VenomSpray.MaxRange, 2400.0
+SH_BossSpider.VenomSpray.CastTime, 0.5
+SH_BossSpider.VenomSpray.ChannelDuration, 2.25
+SH_BossSpider.VenomSpray.ChannelTickInterval," .0333325         ; Each tick shoots a projectile. We might end up shooting fewer projectiles if we don't have room to fit more of them inside the cone. So try to set this so that the entire ground is filled and the channel is just done (there is a ""right"" answer for this but it is quite hard to calculate so I expose it here instead). "
+SH_BossSpider.VenomSpray.NumTicksToIgnoreFirstCast, 30.0       ; does not spawn projectiles or pools until after these number of ticks
+SH_BossSpider.VenomSpray.PieMinRadius, 300.0
+SH_BossSpider.VenomSpray.PieMaxRadius, 3500.0
+SH_BossSpider.VenomSpray.Angle, 60.0                        
+SH_BossSpider.VenomSpray.MinDistance, 450.0                 ; Distance between ground circles.
+SH_BossSpider.VenomSpray.DamageRadius, 225.0                ; Radius of ground circles.
+SH_BossSpider.VenomSpray.StrengthCoefficient, 2.4
+SH_BossSpider.VenomSpray.ActivationCount, 3.0
+SH_BossSpider.VenomSpray.DelayBetweenActivations, 0.5
+SH_BossSpider.Tether.InitialMinCooldown, 60.0
+SH_BossSpider.Tether.InitialMaxCooldown, 60.0
+SH_BossSpider.Tether.MinCooldown, 60.0
+SH_BossSpider.Tether.MaxCooldown, 60.0
+SH_BossSpider.Tether.MinPostAbilityPadding, 0.0
+SH_BossSpider.Tether.MaxPostAbilityPadding, 0.0
+SH_BossSpider.Tether.MaxRange, 3500.0
+SH_BossSpider.Tether.MaxBounceRange, 2300.0
+SH_BossSpider.Tether.MaxBounceAcquisitionRange, 2200.0      ; Will only shoot a projectile at a hero who has a friend within this distance (so that the projectile can bounce).
+SH_BossSpider.Tether.PrePullDelay, 4.0
+SH_BossSpider.Tether.MaxPullDuration, 5.0       ; Actual duration depents on the pull speed. distance between the characters. and their movement input. But probably takes less than a second.
+SH_BossSpider.Tether.PullSpeed, 2000.0
+SH_BossSpider.Tether.BreakDistance, 2300.0
+SH_BossSpider.Tether.SnapTogetherDistance, 400.0
+SH_BossSpider.Tether.StunDuration, 4.0                      ; Might be more thematic as an immobilize?
+SH_BossSpider.TetherAttack.MinCooldown, 8.0
+SH_BossSpider.TetherAttack.MaxCooldown, 8.0
+SH_BossSpider.TetherAttack.MinPostAbilityPadding, 0.7
+SH_BossSpider.TetherAttack.MaxPostAbilityPadding, 0.7
+SH_BossSpider.TetherAttack.LeapDuration, 0.5
+SH_BossSpider.TetherAttack.PreLeapDelay, 0.2
+SH_BossSpider.TetherAttack.MaxRange, 2000.0
+SH_BossSpider.TetherAttack.StrengthCoefficient, 5.6
+SH_BossSpider.SpawnAdds.MaxHealthMultiplier, 0.6
+SH_BossSpider.SpawnAdds.ExtraSpawnDungeonDifficulty, 7.0
+SH_BossSpider.SpawnAdds.InitialMinCooldown, 15.0
+SH_BossSpider.SpawnAdds.InitialMaxCooldown, 15.0
+SH_BossSpider.SpawnAdds.MinCooldown, 63.0
+SH_BossSpider.SpawnAdds.MaxCooldown, 63.0
+SH_BossSpider.SpawnAdds.CastTime, 1.5
+SH_BossSpider.SpawnAdds.Shake.Duration, 2.5
+SH_BossSpider.SpawnAdds.Shake.SpiderlingSpawnInterval, 0.5   ; 5 spiderlings
+SH_BossSpider.SpawnAdds.Shake.SpiderlingImpactMinRadius, 400.0
+SH_BossSpider.SpawnAdds.Shake.SpiderlingImpactMaxRadius, 800.0
+SH_BossSpider.SpawnAdds.SwarmCount, 1.0
+SH_BossSpider.SpawnAdds.SwarmSpawnDelay, 1.5
+SH_BossSpider.SpawnAdds.SwarmSpawnInterval, 0.2
+SH_BossSpider.SpawnAdds.SwarmImpactRadius, 750.0
+SH_BossSpider.Swarm.Radius, 500.0
+SH_BossSpider.Swarm.TrackingRadius, 1250.0 ; Measured from center of the swarm.
+SH_BossSpider.Swarm.MoveSpeed, 350.0
+SH_BossSpider.Swarm.StrengthCoefficient, 1.4
+SH_BossSpider.Swarm.UpdateTargetInterval, 8.0
+SH_BossSpider.Swarm.TickInterval, 1.0
+SH_BossSpider.Swarm.LingerTime, 3.0
+SH_BossSpider.AOEDotAndBuff.InitialMinCooldown, 44.0			; Mother's Milk.
+SH_BossSpider.AOEDotAndBuff.InitialMaxCooldown, 44.0
+SH_BossSpider.AOEDotAndBuff.MinCooldown, 60.0
+SH_BossSpider.AOEDotAndBuff.MaxCooldown, 60.0
+SH_BossSpider.AOEDotAndBuff.CastTime, 2.0
+SH_BossSpider.AOEDotAndBuff.Aoe.Duration, 10.0                     	
+SH_BossSpider.AOEDotAndBuff.Aoe.StackInterval, 2.0
+SH_BossSpider.AOEDotAndBuff.Dot.StrengthCoefficient, 0.3
+SH_BossSpider.AOEDotAndBuff.Dot.TickInterval, 2.0
+SH_BossSpider.AOEDotAndBuff.Dot.Duration, 6.0
+SH_BossSpider.AOEDotAndBuff.Dot.MoveSpeedMultiplier, 0.95
+SH_BossSpider.AOEDotAndBuff.SpiderBuff.MaxHealthMultiplierPerStack, 1.1
+SH_BossSpider.AOEDotAndBuff.SpiderBuff.DamageScalePerStack, 1.1
+SH_BossSpider.AOEDotAndBuff.SpiderBuff.MaxStackCount, 1.0
+SH_BossSpider.SpeicalFallDamage.Duration, 4.0
+SH_BossSpider.SpeicalFallDamage.MaxHealthFraction, 0.40
+SH_CarrionHorror.MeleeAutoAttack.MinCooldown, 2.7
+SH_CarrionHorror.MeleeAutoAttack.MaxCooldown, 2.7
+SH_CarrionHorror.MeleeAutoAttack.MaxRange, 500.0
+SH_CarrionHorror.MeleeAutoAttack.StrengthCoefficient, 3.2
+SH_CarrionHorror.ExplodeCorpse.InitialMinCooldown, 12.0
+SH_CarrionHorror.ExplodeCorpse.InitialMaxCooldown, 24.0
+SH_CarrionHorror.ExplodeCorpse.MinCooldown, 12.0
+SH_CarrionHorror.ExplodeCorpse.MaxCooldown, 12.0
+SH_CarrionHorror.ExplodeCorpse.MaxRange, 1500.0
+SH_CarrionHorror.ExplodeCorpse.CastRange, 50.0
+SH_CarrionHorror.ExplodeCorpse.CastTime, 3.0
+SH_CarrionHorror.ExplodeCorpse.ExplosionDelay, 0.05
+SH_CarrionHorror.ExplodeCorpse.ExplosionHeight, 2000.0
+SH_CarrionHorror.ExplodeCorpse.ExplosionRadius, 6000.0
+SH_CarrionHorror.ExplodeCorpse.StrengthCoefficient, 4.03
+SH_CarrionHorror.ExplodeCorpse.Dot.StrengthCoefficient, 0.73
+; SH_CarrionHorror.ExplodeCorpse.MinConeCount, 5.0
+; SH_CarrionHorror.ExplodeCorpse.MaxConeCount, 8.0
+; SH_CarrionHorror.ExplodeCorpse.ConeAngle, 20.0
+; SH_CarrionHorror.ExplodeCorpse.ConeAngleVariation, 15.0        ; +- degrees away from perfectly spread out cones.
+; SH_CarrionHorror.ExplodeCorpse.MinBroodlingsPerCone, 2.0
+; SH_CarrionHorror.ExplodeCorpse.MaxBroodlingsPerCone, 4.0
+SH_CarrionHorror.OnDeathExplosion.ExplosionDelay, 2.0          ; Will also scale animation time
+SH_CarrionHorror.OnDeathExplosion.MinSpiderlingsToSpawn, 0.0
+SH_CarrionHorror.OnDeathExplosion.MaxSpiderlingsToSpawn, 0.0
+SH_CarrionHorror.OnDeathExplosion.SpiderlingImpactMinRadius, 350.0
+SH_CarrionHorror.OnDeathExplosion.SpiderlingImpactMaxRadius, 600.0
+SH_Broodling.MaxDistance, 5000.0
+SH_Broodling.DetectionRadius, 150.0
+SH_Broodling.ExplosionRadius, 150.0
+SH_Broodling.Speed, 1000.0
+SH_Broodling.MaxWidth, 125.0
+SH_Broodling.MinSegmentLength, 200.0
+SH_Broodling.MaxSegmentLength, 400.0
+SH_Broodling.StrengthCoefficient, 1.96                           ; Technically this will be the strength of whoever spawned it since the broodling itself has no strength (it's not a character).
+SH_Broodling.MaxRecentHits, 6.0
+SH_Broodling.RecentHitDuration, 0.4
+SH_Eggbearer.MeleeAutoAttack.MinCooldown, 1.7
+SH_Eggbearer.MeleeAutoAttack.MaxCooldown, 1.7
+SH_Eggbearer.MeleeAutoAttack.MaxRange, 500.0
+SH_Eggbearer.MeleeAutoAttack.StrengthCoefficient, 0.86
+SH_Eggbearer.OnDeathExplosion.ExplosionDelay, 0.5          ; Will also scale animation time
+SH_Eggbearer.OnDeathExplosion.MinSpiderlingsToSpawn, 2.0
+SH_Eggbearer.OnDeathExplosion.MaxSpiderlingsToSpawn, 3.0
+SH_Eggbearer.OnDeathExplosion.SpiderlingImpactMinRadius, 250.0
+SH_Eggbearer.OnDeathExplosion.SpiderlingImpactMaxRadius, 500.0
+SH_Venomdrinker.MeleeAutoAttack.MinCooldown, 1.3
+SH_Venomdrinker.MeleeAutoAttack.MaxCooldown, 1.3
+SH_Venomdrinker.MeleeAutoAttack.MaxRange, 500.0
+SH_Venomdrinker.MeleeAutoAttack.StrengthCoefficient, 0.63
+SH_Venomdrinker.CastProjectile.MinCooldown, 0.0
+SH_Venomdrinker.CastProjectile.MaxCooldown, 0.0
+SH_Venomdrinker.CastProjectile.MaxRange, 3000.0
+SH_Venomdrinker.CastProjectile.CastTime, 2.0
+SH_Venomdrinker.CastProjectile.StrengthCoefficient, 2.55
+SH_Venomdrinker.Dot.Duration, 8.0							; CUT
+SH_Venomdrinker.Dot.TickInterval, 2.0
+SH_Venomdrinker.Dot.StrengthCoefficient, 1.0
+SH_Venomdrinker.Dot.IncomingHealMultiplier, 0.95
+SH_Venomdrinker.Dot.StackCountMax, 10.0
+SH_Venomdrinker.Tornado.InitialMinCooldown, 8.0
+SH_Venomdrinker.Tornado.InitialMaxCooldown, 16.0
+SH_Venomdrinker.Tornado.MinCooldown, 30.0
+SH_Venomdrinker.Tornado.MaxCooldown, 30.0
+SH_Venomdrinker.Tornado.MinPostAbilityPadding, 0.0
+SH_Venomdrinker.Tornado.MaxPostAbilityPadding, 0.0
+SH_Venomdrinker.Tornado.MaxRange, 3000.0
+SH_Venomdrinker.Tornado.CastTime, 3.0
+SH_Venomdrinker.Tornado.SpawnInFrontOffset, 0.0
+SH_Venomdrinker.Tornado.Projectile.Duration, 8.0
+SH_Venomdrinker.Tornado.Projectile.Radius, 200.0
+SH_Venomdrinker.Tornado.Projectile.Velocity, 200.0
+SH_Venomdrinker.Tornado.Projectile.WobbleFrequency, 0.4
+SH_Venomdrinker.Tornado.Projectile.WobbleAmplitude, 1000.0
+SH_Venomdrinker.Tornado.StrengthCoefficient, 4.77
+SH_Venomdrinker.Tornado.ApplyInterval, 0.5
+SH_Venomdrinker.CastSlowHomingProjectile.InitialMinCooldown, 8.0
+SH_Venomdrinker.CastSlowHomingProjectile.InitialMaxCooldown, 16.0
+SH_Venomdrinker.CastSlowHomingProjectile.MinCooldown, 36.0
+SH_Venomdrinker.CastSlowHomingProjectile.MaxCooldown, 36.0
+SH_Venomdrinker.CastSlowHomingProjectile.CCCooldown, 21.0
+SH_Venomdrinker.CastSlowHomingProjectile.MinPostAbilityPadding, 0.0
+SH_Venomdrinker.CastSlowHomingProjectile.MaxPostAbilityPadding, 0.0
+SH_Venomdrinker.CastSlowHomingProjectile.MaxRange, 3000.0
+SH_Venomdrinker.CastSlowHomingProjectile.CastTime, 3.0
+SH_Venomdrinker.CastSlowHomingProjectile.SpawnInFrontOffset, 250.0
+SH_Venomdrinker.CastSlowHomingProjectile.Projectile.Lifetime, 16.0
+SH_Venomdrinker.CastSlowHomingProjectile.Projectile.Radius, 200.0
+SH_Venomdrinker.CastSlowHomingProjectile.Projectile.Velocity, 150.0
+SH_Venomdrinker.CastSlowHomingProjectile.PrimaryAttributeCoefficient, 3.77
+SH_Venomdrinker.CastSlowHomingProjectile.ApplyInterval, 1.0
+SH_QuiveringEggSac.Quiver.InactiveTime, 4.0
+SH_QuiveringEggSac.Quiver.ActivationTime, 1.0
+SH_QuiveringEggSac.Quiver.Rattle.MaxAmount, 60.0
+SH_QuiveringEggSac.Quiver.Rattle.DecayPerSecond, 0.3
+SH_QuiveringEggSac.Quiver.Rattle.DecayDelay, 0.25
+SH_QuiveringEggSac.Quiver.Rattle.GainPerSecondPerCharacter, 0.5
+SH_QuiveringEggSac.Quiver.RattlePerBroodling, 0.25
+SH_QuiveringEggSac.Quiver.BroodlingCountOnExplosion, 10.0
+SH_QuiveringEggSac.Quiver.BroodlingSpawnAngle, 60.0

@@ -1,0 +1,263 @@
+name,value
+Lisa.RangedMaxRange, 3000.0
+Lisa.SpiritProc.ResourceRefund.FlatSpiritPointGain, 1.0
+Lisa.Stagger.HealStaggerReductionFactor, 0.0	; How many percent of the heal that should remove stagger. The rest goes to healing
+Lisa.Stagger.DamageStaggerAdditionFactor, 0.50	; How many percent of the damage that should add stagger. The rest goes to damage
+Lisa.Stagger.DirectHealInfluence, 0.0			; How much the direct healing should affect stagger. 0 means no removal of stagger which is 100 percent heal. 1 means as much as heal from damage. More than 1 means more than heal from damage
+Lisa.Stagger.Dot.Period, 3.0		; OLD - Check AbilityConstants
+Lisa.Stagger.Dot.Duration, 15.0 	; OLD - Check AbilityConstants
+Lisa.Stagger.MaxRange, 4000.0
+Lisa.Stagger.ColorThreshold1, 0.66	; Red if equal or more
+Lisa.Stagger.ColorThreshold2, 0.33	; Yellow if equal or more
+Lisa.Stagger.ColorThreshold3, 0.00	; Green if equal or more
+Lisa.DamageToHealMultiplier.Multiplier, 1.00		; How much of her outgoing damage that goes into healing 
+Lisa.DamageToHealMultiplier.ThreatMaxRange, 4000.0	; The range of how far the heal will contribute to the threat list
+Lisa.SavedDamageDuration, 5.0
+Lisa.SpiritProc.ResourceGain, 30.0
+Lisa.CastedSingleTargetProjectile.CastTime, 1.5
+Lisa.CastedSingleTargetProjectile.IntellectCoefficient, 1.06
+Lisa.CastedSingleTargetProjectile.ResourceGain, 4.0
+Lisa.CastedSingleTargetProjectile.ResourceGainCrit, 6.0
+Lisa.CastedSingleTargetProjectile.Cost, 1.0
+Lisa.CastedSingleTargetProjectile.Talent.CastedHealFromPreviousDamageProc.ProcChance, 0.20
+Lisa.CastedSingleTargetProjectile.Talent.CastedHealFromPreviousDamageProc.MaxProcs, 2.0
+Lisa.CastedSingleTargetProjectile.Talent.CastedHealFromPreviousDamageProc.ProcsPerHit, 1.0
+Lisa.CastedSingleTargetProjectile.Talent.CooldownReduction.ReductionInSeconds, 1.0
+Lisa.InstantSingleTargetDamageAndDot.Damage.IntellectCoefficient, 0.3
+Lisa.InstantSingleTargetDamageAndDot.Dot.IntellectCoefficient, 0.3
+Lisa.InstantSingleTargetDamageAndDot.Dot.Duration, 18.0
+Lisa.InstantSingleTargetDamageAndDot.Dot.TickInterval, 2.0
+Lisa.InstantSingleTargetDamageAndDot.Dot.ResourceGainPerTick, 0.0
+Lisa.InstantSingleTargetDamageAndDot.Dot.ResourceGainPerTickCrit, 0.0
+Lisa.InstantSingleTargetDamageAndDot.Cost, 3.0
+Lisa.InstantSingleTargetDamageAndDot.Talent.ChargeUpMultiple.CastDuration, 2.0
+Lisa.InstantSingleTargetDamageAndDot.Talent.ChargeUpMultiple.AdditionalAmountOfTargets, 2.0
+Lisa.InstantSingleTargetDamageAndDot.Talent.ChargeUpMultiple.RadiusAroundTarget, 800.0
+Lisa.InstantSingleTargetDamageAndDot.Talent.ChargeUpMultiple.ResourceGainMultiplier, 1.5
+Lisa.InstantSingleTargetDamageAndDot.Talent.ChargeUpMultiple.DurationMultiplier, 0.8
+Lisa.InstantSingleTargetDamageAndDot.Talent.ChargeUpMultiple.Cost, 10.0
+Lisa.CastedProjectileDamageIncreaseDebuff.CastTime, 2.0
+Lisa.CastedProjectileDamageIncreaseDebuff.IntellectCoefficient, 3.6
+Lisa.CastedProjectileDamageIncreaseDebuff.ResourceGain, 20.0
+Lisa.CastedProjectileDamageIncreaseDebuff.ResourceGainCrit, 30.0
+Lisa.CastedProjectileDamageIncreaseDebuff.Cost, 82.0
+Lisa.CastedProjectileDamageIncreaseDebuff.Cooldown, 45.0
+Lisa.CastedProjectileDamageIncreaseDebuff.Debuff.Duration, 20.0
+Lisa.CastedProjectileDamageIncreaseDebuff.Debuff.IncomingDamageMultiplier, 1.2
+Lisa.CastedProjectileDamageIncreaseDebuff.DamageToAoeDamage.TickInterval, 3.0
+Lisa.CastedProjectileDamageIncreaseDebuff.DamageToAoeDamage.DamageMultiplier, 0.2
+Lisa.CastedProjectileDamageIncreaseDebuff.DamageToAoeDamage.Radius, 800.0
+Lisa.CastedProjectileDamageIncreaseDebuff.DamageToAoeDamage.TargetCountDamageThreshold, 8.0 ; Damage falloff after this amount
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.DamageAbilityBuff.CastedSingleTargetProjectile.DurationMultiplier, 2.0
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.DamageAbilityBuff.CastedSingleTargetProjectile.DamageMultiplier, 10.0
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.DamageAbilityBuff.CastedSingleTargetProjectile.ProjectileVFXScale, 2.0
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.DamageAbilityBuff.CastedSingleTargetProjectile.ResourceMultiplier, 10.0
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.DamageAbilityBuff.InstantSingleTargetDamageAndDot.MaxTargets, 20.0
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.ChargesAndCrit.NumOfCharges, 2.0
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.ChargesAndCrit.AdditionalCritChance, 0.5
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.InstigatorBuff.AdditionalHaste, 0.2
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.AbilityDamageIncrease.CastedSingleTargetProjectile.AdditionalCritChance, 1.0
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.AbilityDamageIncrease.Dot.TickIntervalMultiplier, 0.8
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.AbilityDamageIncrease.CooldownMultiplier, 0.66667
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.AbilityDamageIncrease.ManaMultiplier, 0.66667
+Lisa.CastedProjectileDamageIncreaseDebuff.Talent.AbilityDamageIncrease.DurationMultiplier, 0.75
+Lisa.CastedHealFromPreviousDamage.CastTime, 1.5
+Lisa.CastedHealFromPreviousDamage.IntellectCoefficient, 10.77
+Lisa.CastedHealFromPreviousDamage.PreviousDamageToHealMultiplier, 0.3
+Lisa.CastedHealFromPreviousDamage.Cost, 88.0
+Lisa.CastedHealFromPreviousDamage.ResourceGain, 8.0
+Lisa.CastedHealFromPreviousDamage.ResourceGainCrit, 12.0
+Lisa.CastedHealFromPreviousDamage.Talent.AdditionalTarget.Radius, 1500.0
+Lisa.CastedHealFromPreviousDamage.Talent.AdditionalTarget.HealMultiplier, 1.0
+Lisa.CastedHeal.CastTime, 1.5
+Lisa.CastedHeal.IntellectCoefficient, 16.16
+Lisa.CastedHeal.Cost, 88.0
+Lisa.CastedHeal.ResourceGain, 6.0
+Lisa.CastedHeal.ResourceGainCrit, 9.0
+Lisa.CastedHeal.HealToStaggerMultiplier, 0.5
+Lisa.AoeAbsorbSpender.Duration, 25.0 
+Lisa.AoeAbsorbSpender.IntellectCoefficient, 4.5
+Lisa.AoeAbsorbSpender.MaxIntellectCoefficent, 20.0	; IntellectCoefficient + Resources
+Lisa.AoeAbsorbSpender.Cost, 80.0
+Lisa.AoeAbsorbSpender.Talent.StrongerOnSelf.AbsorbMultiplier, 1.5	; Works for SingleTargetAbsorb aswell
+Lisa.SingleTargetAbsorb.Duration, 12.0 
+Lisa.SingleTargetAbsorb.IntellectCoefficient, 23.11
+Lisa.SingleTargetAbsorb.Cost, 80.0
+Lisa.SingleTargetAbsorb.Cooldown, 24.0
+Lisa.SingleTargetAbsorb.Talent.DecreasedIncomingDamage.IncomingPhysicalDamageMultiplier, 0.8
+Lisa.StaggerRemoveToAbsorb.Duration, 12.0 
+Lisa.StaggerRemoveToAbsorb.StaggerToAbsorbMultiplier, 1.0
+Lisa.StaggerRemoveToAbsorb.Cost, 80.0
+Lisa.StaggerRemoveToAbsorb.Cooldown, 120.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.ChannelDuration, 2.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.ChannelTickInterval, 0.5
+Lisa.ChanneledHealOrDamageProjectilesSpender.MaxAngle, 270.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.Damage.IntellectCoefficient, 1.0		; CURRENTLY NOT USED
+Lisa.ChanneledHealOrDamageProjectilesSpender.Damage.MaxIntellectCoefficient, 2.28 	; IntellectCoefficient + Resources ;int coeff per tic
+Lisa.ChanneledHealOrDamageProjectilesSpender.Heal.IntellectCoefficient, 1.7			; CURRENTLY NOT USED
+Lisa.ChanneledHealOrDamageProjectilesSpender.Heal.MaxIntellectCoefficient, 8.7		; IntellectCoefficient + Resources
+Lisa.ChanneledHealOrDamageProjectilesSpender.ResourceGain, 4.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.ResourceGainCrit, 6.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.Cooldown, 12.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.Cost, 61.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.OverhealAbsorb.Duration, 15.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.OverhealAbsorb.HealToAbsorbMultiplier, 1.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.ResourceToEmpower.ResourceThreshold, 100.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.ResourceToEmpower.DamageMultiplier, 1.5	; No longer in use!
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.ResourceToEmpower.Cleave.DamageMultiplier, 0.3
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.ResourceToEmpower.Cleave.Radius, 800.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.ResourceToEmpower.Cleave.MaxAdditionalTargets, 3.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.CooldownReduction.ReductionInSeconds, 0.3
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.CooldownReduction.DurationIncreaseSeconds, 0.3
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.Empowered.DamageMultiplier, 1.2
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.Empowered.Cleave.DamageMultiplier, 0.3
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.Empowered.Cleave.Radius, 800.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.Empowered.Cleave.MaxAdditionalTargets, 2.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.Empowered.Cleave.ProjectileSizeMultiplier, 0.5
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.Empowered.Cleave.ResourceGainPerAdditionalTarget, 1.0
+Lisa.ChanneledHealOrDamageProjectilesSpender.Talent.Empowered.StaggerRemovalInPercentage, 0.05
+Lisa.CastedAoeHotFromPreviousDamageSpender.CastTime, 0.0
+Lisa.CastedAoeHotFromPreviousDamageSpender.IntellectCoefficient, 0.3
+Lisa.CastedAoeHotFromPreviousDamageSpender.MaxIntellectCoefficient, 2.0
+Lisa.CastedAoeHotFromPreviousDamageSpender.PreviousDamageToHotMultiplier, 0.01
+Lisa.CastedAoeHotFromPreviousDamageSpender.MaxPreviousDamageToHotMultiplier, 0.20
+Lisa.CastedAoeHotFromPreviousDamageSpender.Hot.Duration, 12.0
+Lisa.CastedAoeHotFromPreviousDamageSpender.Hot.TickInterval, 2.0
+Lisa.CastedAoeHotFromPreviousDamageSpender.Cost, 0.0
+Lisa.HotFromPreviousDamageSpender.IntellectCoefficient, 0.43
+Lisa.HotFromPreviousDamageSpender.MaxIntellectCoefficient, 2.15
+Lisa.HotFromPreviousDamageSpender.PreviousDamageToHotMultiplier, 0.01
+Lisa.HotFromPreviousDamageSpender.MaxPreviousDamageToHotMultiplier, 0.20
+Lisa.HotFromPreviousDamageSpender.Hot.Duration, 6.0
+Lisa.HotFromPreviousDamageSpender.Hot.TickInterval, 1.0
+Lisa.HotFromPreviousDamageSpender.Cost, 0.0
+Lisa.AoeHealFromPreviousDamageSpender.IntellectCoefficient, 2.15
+Lisa.AoeHealFromPreviousDamageSpender.MaxIntellectCoefficient, 21.50
+Lisa.AoeHealFromPreviousDamageSpender.PreviousDamageToHealMultiplier, 0.01
+Lisa.AoeHealFromPreviousDamageSpender.MaxPreviousDamageToHealMultiplier, 0.20
+Lisa.AoeHealFromPreviousDamageSpender.Cost, 0.0
+Lisa.AoeHeal.IntellectCoefficient, 21.50
+Lisa.AoeHeal.Cooldown, 30.0
+Lisa.AoeHeal.Cost, 80.0
+Lisa.AoeStaggerRemovalSpender.MaxRemovalPercentage, 0.50	; OLD
+Lisa.AoeStaggerRemovalSpender.BaseRemovalPercentage, 0.01	; OLD
+Lisa.AoeStaggerRemovalSpender.StaggerRemovalPercentage, 0.50
+Lisa.AoeStaggerRemovalSpender.ResourceCostInPercentage, 0.50
+Lisa.AoeStaggerRemovalSpender.StaggerToHealMultiplier, 0.50
+Lisa.AoeStaggerRemovalSpender.Cost, 0.0
+Lisa.AoeStaggerRemovalSpender.StaggerThreshold.MaxHealthMultiplier, 0.50
+Lisa.AoeStaggerRemovalSpender.StaggerRemovalPercentageToManaGained.ManaFactor, 0.20
+Lisa.SingleTargetStaggerRemovalSpender.MaxRemovalPercentage, 1.0	; OLD
+Lisa.SingleTargetStaggerRemovalSpender.BaseRemovalPercentage, 0.01	; OLD
+Lisa.SingleTargetStaggerRemovalSpender.StaggerRemovalPercentage, 0.50
+Lisa.SingleTargetStaggerRemovalSpender.ResourceCostInPercentage, 0.30
+Lisa.SingleTargetStaggerRemovalSpender.StaggerToHealMultiplier, 0.50
+Lisa.SingleTargetStaggerRemovalSpender.Cost, 0.0
+Lisa.SingleTargetStaggerRemovalSpender.StaggerThreshold.MaxHealthMultiplier, 0.50
+Lisa.SingleTargetStaggerRemovalSpender.StaggerRemovalPercentageToManaGained.ManaFactor, 0.20
+Lisa.InstantDamageSpender.IntellectCoefficient, 7.896
+Lisa.InstantDamageSpender.ResourceCostInPercentage, 0.30
+Lisa.InstantDamageSpender.Cost, 0.0
+Lisa.InstantDamageSpender.Talent.DamageToDot.Duration, 8.0
+Lisa.InstantDamageSpender.Talent.DamageToDot.TickInterval, 2.0
+Lisa.InstantDamageSpender.Talent.DamageToDot.DamageMultiplier, 0.20
+Lisa.InstantDamageSpender.Talent.Absorb.Duration, 8.0
+Lisa.InstantDamageSpender.Talent.Absorb.OverhealToAbsorbMultiplier, 0.5
+Lisa.InstantDamageSpender.Talent.CritPowerBonus.AdditiveMultiplier, 1.20
+Lisa.InstantDamageSpender.Talent.SelfBuff.Duration, 1.0
+Lisa.InstantDamageSpender.Talent.SelfBuff.CooldownRecoveryMultiplier, 2.0
+Lisa.CastedDurationalAoeDebuff.CastDuration, 2.0
+Lisa.CastedDurationalAoeDebuff.Duration, 20.0
+Lisa.CastedDurationalAoeDebuff.TickInterval, 1.5
+Lisa.CastedDurationalAoeDebuff.IntellectCoefficient, 4.5
+Lisa.CastedDurationalAoeDebuff.IntellectCoefficient.Aoe, 0.5
+Lisa.CastedDurationalAoeDebuff.TargetCountThreshold, 5.0
+Lisa.CastedDurationalAoeDebuff.Radius, 800.0
+Lisa.CastedDurationalAoeDebuff.Cost, 70.0
+Lisa.CastedDurationalAoeDebuff.ResourceGainTick, 20.0
+Lisa.CastedDurationalAoeDebuff.ResourceGainPerTarget, 0.5 
+Lisa.CastedDurationalAoeDebuff.ResourceGainPerTargetCrit, 0.7
+Lisa.CastedDurationalAoeDebuff.Cooldown, 45.0
+Lisa.TeleportForward.Distance, 1500.0
+Lisa.TeleportForward.CooldownDuration, 15.0
+Lisa.TeleportForward.Talent.DamageReduction.Duration, 4.0
+Lisa.TeleportForward.Talent.DamageReduction.AdditionalDamageReduction, 0.15
+Lisa.SingleAllyDispel.CooldownDuration, 6.0
+Lisa.SingleAllyDispel.ManaCost, 80
+Lisa.PauseResourcesAndPartyHealth.Duration, 6.0
+Lisa.PauseResourcesAndPartyHealth.Cost, 100.0	; Spirit
+Lisa.PauseResourcesAndPartyHealth.CooldownRecoveryMultiplier, 6.0
+Lisa.PauseResourcesAndPartyHealth.CooldownReductionMultiplier, 6.0
+Lisa.PauseResourcesAndPartyHealth.GatheredHealingToOutgoingHealingMultiplier, 1.0
+Lisa.PauseResourcesAndPartyHealth.OutgoingHealingRadius, 1500.0
+Lisa.PauseResourcesAndPartyHealth.NewDamageStaggerAdditionFactor, 0.5
+Lisa.SingleTargetDamageImmunityBuff.Duration, 15.0
+Lisa.SingleTargetDamageImmunityBuff.Cost, 20.0
+Lisa.SingleTargetDamageImmunityBuff.CooldownDuration, 180.0
+Lisa.TargetedAoeSilence.Duration, 7.0
+Lisa.TargetedAoeSilence.Radius, 500.0
+Lisa.TargetedAoeSilence.MaxRangeUp, 1500.0
+Lisa.TargetedAoeSilence.MaxRangeDown, 2000.0
+Lisa.TargetedAoeSilence.MaxNumOfTargets, 40.0
+Lisa.TargetedAoeSilence.Cooldown, 300.0
+Lisa.TargetedAoeSilence.Cost, 98.0
+Lisa.SingleTargetDot.Duration, 6.0
+Lisa.SingleTargetDot.TickInterval, 1.5
+Lisa.SingleTargetDot.CastTime, 1.5
+Lisa.SingleTargetDot.Cooldown, 20.0 
+Lisa.SingleTargetDot.IntellectCoefficient, 2.225
+Lisa.SingleTargetDot.Cost, 63.0
+Lisa.SingleTargetDot.ResourceGainPerTick, 4.0
+Lisa.SingleTargetDot.ResourceGainCritPerTick, 6.0
+Lisa.SingleTargetDot.Talent.DamageDecrease.DamageMultiplier, 0.95
+Lisa.SingleTargetDot.Talent.SingleTargetAbsorb.CooldownReduction.SecondsPerTick, 1.0
+Lisa.SingleTargetDot.Talent.DotAoe.Aoe.IntellectCoefficient, 2.225
+Lisa.SingleTargetDot.Talent.DotAoe.Aoe.Radius, 800.0
+Lisa.SingleTargetDot.Talent.DotAoe.Aoe.TargetCountDamageThreshold, 5.0
+Lisa.SingleTargetDot.Talent.DotAoe.Dot.Duration, 9.0
+Lisa.SingleTargetDot.Talent.DotAoe.Dot.TickInterval, 1.5
+Lisa.SingleTargetDot.Talent.DotAoe.Dot.IntellectCoefficient, 0.35
+Lisa.SingleTargetDot.Talent.Charged.MaxCharges, 2.0
+Lisa.SingleTargetDot.Talent.Charged.AdditionalDuration, 2.0
+Lisa.ResourceSelfBuff.Duration, 20.0
+Lisa.ResourceSelfBuff.TickInterval, 0.20
+Lisa.ResourceSelfBuff.AdditionalCooldownRecovery, 1.5
+Lisa.ResourceSelfBuff.ResourceGainPerTick, 1.0
+Lisa.ResourceSelfBuff.Cost, 50.0
+Lisa.ResourceSelfBuff.Cooldown, 90.0
+Lisa.ResourceSelfBuff.Talent.BuffAoe.Radius, 1500.0
+Lisa.ResourceSelfBuff.Talent.BuffAoe.SelfBuff.MovementSpeedMultiplier, 1.20
+Lisa.ResourceSelfBuff.Talent.BuffAoe.SelfBuff.AdditionalCooldownRecovery, 1.5 ;axel changed to cooldown recovery. reduction is illegal to apply dynamically
+Lisa.ResourceSelfBuff.Talent.BuffAoe.SelfBuff.AdditionalHaste, 0.20
+Lisa.ResourceSelfBuff.Talent.BuffAoe.AoeBuff.MovementSpeedMultiplier, 1.00
+Lisa.ResourceSelfBuff.Talent.BuffAoe.AoeBuff.AdditionalHaste, 0.00
+Lisa.SelfBuffSpender.AdditionalCooldownRecovery, 1.5
+Lisa.SelfBuffSpender.ResourceDrainInterval, 0.1 
+Lisa.SelfBuffSpender.ResourceDrainAmount, 1.1 
+Lisa.SelfBuffSpender.Cost, 50.0
+Lisa.SelfBuffSpender.Cooldown, 20.0
+Lisa.SelfBuffSpender.Talent.FullResources.Amount, 60.0
+Lisa.InstantSelfBuff.Duration, 15.0
+Lisa.InstantSelfBuff.AdditionalCooldownRecovery, 1.5
+Lisa.InstantSelfBuff.Cost, 79.0
+Lisa.InstantSelfBuff.Cooldown, 20.0
+Lisa.Talent.ResourceThresholdBuffs.Threshold, 0.5
+Lisa.Talent.ResourceThresholdBuffs.DamageMultiplier, 1.15
+Lisa.Talent.ResourceThresholdBuffs.AdditionalDamageReduction, 0.15
+Lisa.Talent.ResourceThresholdBuffs.ResourceMultiplier, 1.15
+Lisa.Talent.StaggerOverhealHot.Duration, 5.0
+Lisa.Talent.StaggerOverhealHot.TickInterval, 1.0
+Lisa.Talent.StaggerOverhealHot.OverhealToHotHealMultiplier, 0.5
+Lisa.Talent.StaggerOverhealToStackingHeal.MaxIntellectCoefficient, 18.30 ; Maximum stored health
+Lisa.Talent.StaggerOverhealToStackingHeal.CooldownDuration, 120.0
+Lisa.Talent.StaggerOverhealToStackingHeal.HealthThresholdPercentage, 0.5
+Lisa.Talent.SpendersToManaRegen.Duration, 9.0
+Lisa.Talent.SpendersToManaRegen.ManaRegenMultiplier, 0.015
+Lisa.Talent.SpendersToManaRegen.MaxStacks, 5.0
+Lisa.Talent.DecreasedIncomingMagicDamage.DamageMultiplier, 0.9
+Lisa.Talent.ResourceToFreeSpender.ResourceThreshold, 4.0
+Lisa.Talent.IncomingAoeDamageReduction.AdditionalAvoidance, 0.1
+Lisa.Talent.IncreasedHealingToSelf.HealMultiplier, 1.2
+Lisa.Talent.StaggerRemovalOverTime.Duration, 3.0
+Lisa.Talent.StaggerRemovalOverTime.TickInterval, 1.0
+Lisa.Talent.StaggerRemovalOverTime.PercentageOfMaxHealth, 0.03

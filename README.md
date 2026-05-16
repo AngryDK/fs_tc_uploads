@@ -59,7 +59,7 @@ This is applied to the stam directly then the stamina to health mod is used on i
 ```
 armor / (0.9232 * armor + 13460)
 ```
-![armor curve pic](armor_curve_formula.png)
+![armor curve pic](pictures/armor_curve_formula.png)
 **Damage and ability mods**
 ```
 random(0.9, 1.1)

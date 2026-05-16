@@ -1,0 +1,32 @@
+name,value
+ArmorSetBonus.ThreatIncrease.ThreatScaler, 1.15
+ArmorSetBonus.ThreatDecrease.ThreatScaler, 0.85
+ArmorSetBonus.PowerBonusOnCrit.PPM, 1.0
+ArmorSetBonus.PowerBonusOnCrit.PowerIncreaseFactor, 1.18
+ArmorSetBonus.PowerBonusOnCrit.BuffDuration, 14.0
+ArmorSetBonus.PowerBonusOnCrit.Cooldown, 5.0   
+ArmorSetBonus.HasteBonus.HasteIncrease, 0.03
+ArmorSetBonus.MoveSpeedBonus.MoveSpeedScaler, 1.20
+ArmorSetBonus.HasteBuffOnAbilityUse.PPM, 0.80
+ArmorSetBonus.HasteBuffOnAbilityUse.HasteBonus, 0.25
+ArmorSetBonus.HasteBuffOnAbilityUse.BuffDuration, 20.0
+ArmorSetBonus.HasteBuffOnAbilityUse.Cooldown, 5.0
+ArmorSetBonus.ExpertiseBonus.ExpertiseIncrease, 0.03
+ArmorSetBonus.MaxHealthBonus.MaxHealthScaler, 1.05
+ArmorSetBonus.PowerBonusAndAutoHeal.PowerScaler, 1.04
+ArmorSetBonus.PowerBonusAndAutoHeal.HealthThreshold, 0.20
+ArmorSetBonus.PowerBonusAndAutoHeal.HealMaxHealthFraction, 0.35
+ArmorSetBonus.PowerBonusAndAutoHeal.Cooldown, 180.0
+ArmorSetBonus.SpiritBonus.SpiritIncrease, 0.03
+ArmorSetBonus.MagicResistBonus.IncomingMagicDamageMultiplier, 0.90
+ArmorSetBonus.TargetLowHealthDamageBonus.DamageScaler, 1.15
+ArmorSetBonus.MaxManaBonus.MaxManaScaler, 1.15
+ArmorSetBonus.HeroismPowerAndDamageReductionBonus.PowerScaler, 1.20
+ArmorSetBonus.HeroismPowerAndDamageReductionBonus.IncomingDamageMultiplier, 0.80	;disabled currently
+ArmorSetBonus.Quickplay.CritChanceBonus, .15
+ArmorSetBonus.Quickplay.HasteBonus, .20
+ArmorSetBonus.Quickplay.Expertise, .20
+ArmorSetBonus.Quickplay.SpiritBonus, .20
+ArmorSetBonus.MaxHealthAndCritPowerBonus.CriticalStrikeDamageIncrease, 1.03		; retired
+ArmorSetBonus.CooldownReductionBonusAndThreatIncrease.CooldownReductionIncrease, 0.10	;retired
+ArmorSetBonus.CooldownReductionBonusAndThreatDecrease.CooldownReductionIncrease, 0.10	;retired
