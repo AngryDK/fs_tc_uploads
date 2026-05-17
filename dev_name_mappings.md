@@ -110,3 +110,19 @@ affix_mapping = {
 	"Ultimatum": "Ultimatum"
 	}
 ```
+Hero Ults (FSL codes)
+```py
+ult_ids = {
+	'Aeona': 1002613,
+	'Ardeos': 1001270, # Doesn't track proper?
+	'Elarion': 1002312,
+	'Helena': 1002192,
+	'Mara': 1002039,
+	'Meiko': 1001547,
+	'Rime': 1001387,
+	'Sylvie': 1001439,
+	'Tariq': 1001766,
+	'Vigour': 1001333,
+	'Xavian': 1002558
+	}
+```
