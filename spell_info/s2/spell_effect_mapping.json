@@ -11,6 +11,18 @@
     "Type": "1",
     "FSLID": "1000029"
   },
+  "31": {
+    "GameName": "Stunned",
+    "DevName": "GE_DungeonModifier_MeteorRain_Meteor_Stun",
+    "Type": "1",
+    "FSLID": "1000031"
+  },
+  "35": {
+    "GameName": "Stunned",
+    "DevName": "GE_DungeonModifier_MeteorRain_Fragment_Stun",
+    "Type": "1",
+    "FSLID": "1000035"
+  },
   "44": {
     "GameName": "Empowered Minion: Victory Rush",
     "DevName": "GA_UB_DefendingArcher_RangedAutoAttack",
@@ -167,6 +179,36 @@
     "Type": "1024",
     "FSLID": "1000145"
   },
+  "146": {
+    "GameName": "Falling Chest",
+    "DevName": "GE_Environmental_InstantKill_Crushed",
+    "Type": "1",
+    "FSLID": "1000146"
+  },
+  "147": {
+    "GameName": "Freezing",
+    "DevName": "GE_Environmental_IceColdWater_Slow_Linger",
+    "Type": "1",
+    "FSLID": "1000147"
+  },
+  "148": {
+    "GameName": "Freezing",
+    "DevName": "GE_Environmental_IceColdWater_Slow",
+    "Type": "1",
+    "FSLID": "1000148"
+  },
+  "149": {
+    "GameName": "Ice Cold Water",
+    "DevName": "GE_Environmental_IceColdWater_Dot_Linger",
+    "Type": "1024",
+    "FSLID": "1000149"
+  },
+  "150": {
+    "GameName": "Ice Cold Water",
+    "DevName": "GE_Environmental_IceColdWater_Dot",
+    "Type": "1024",
+    "FSLID": "1000150"
+  },
   "156": {
     "GameName": "Bloodrite Fervor",
     "DevName": "GA_Weapon_InstantChargedProjectileHealOrDamage",
@@ -185,6 +227,18 @@
     "Type": "1024",
     "FSLID": "1000183"
   },
+  "187": {
+    "GameName": "Frostbitten Strength",
+    "DevName": "GE_VV_IcebiteReaver_HasteBuff_Buff",
+    "Type": "1",
+    "FSLID": "1000187"
+  },
+  "188": {
+    "GameName": "Creeping Frostbite",
+    "DevName": "GE_VV_Shared_IceBite",
+    "Type": "1",
+    "FSLID": "1000188"
+  },
   "192": {
     "GameName": "Blood Frenzy",
     "DevName": "GA_VV_BossVikingGod_Split",
@@ -197,11 +251,131 @@
     "Type": "1",
     "FSLID": "1000194"
   },
+  "219": {
+    "GameName": "Blinding Fear",
+    "DevName": "GE_VV_BossVikingMystic_TransferableDebuff_Fear",
+    "Type": "1",
+    "FSLID": "1000219"
+  },
+  "220": {
+    "GameName": "Blinding Fear",
+    "DevName": "GE_VV_BossVikingMystic_TransferableDebuff_Dot",
+    "Type": "1024",
+    "FSLID": "1000220"
+  },
+  "221": {
+    "GameName": "Revelation",
+    "DevName": "GE_VV_BossVikingMystic_TeleportAttack_Stun",
+    "Type": "1",
+    "FSLID": "1000221"
+  },
+  "241": {
+    "GameName": "Burning",
+    "DevName": "GE_VV_BossKaldursonFire_DotAura_Dot",
+    "Type": "1024",
+    "FSLID": "1000241"
+  },
+  "242": {
+    "GameName": "Burning Aura",
+    "DevName": "GE_VV_BossKaldursonFire_DotAura_Buff",
+    "Type": "1",
+    "FSLID": "1000242"
+  },
+  "244": {
+    "GameName": "Ice Tomb",
+    "DevName": "GE_VV_BossFrostTroll_IceBlock_Freeze_Stun",
+    "Type": "1",
+    "FSLID": "1000244"
+  },
+  "247": {
+    "GameName": "Freezing",
+    "DevName": "GE_VV_BossFrostTroll_StationaryDot_Debuff",
+    "Type": "1024",
+    "FSLID": "1000247"
+  },
+  "249": {
+    "GameName": "Frost Bite",
+    "DevName": "GE_VV_BossFrostTroll_SingleTargetDot_Dot",
+    "Type": "1024",
+    "FSLID": "1000249"
+  },
+  "251": {
+    "GameName": "Burning",
+    "DevName": "GE_VV_BossFrostTroll_DotAura_Dot",
+    "Type": "1024",
+    "FSLID": "1000251"
+  },
+  "252": {
+    "GameName": "Burning Aura",
+    "DevName": "GE_VV_BossFrostTroll_DotAura_Buff",
+    "Type": "1",
+    "FSLID": "1000252"
+  },
+  "265": {
+    "GameName": "SIlence",
+    "DevName": "GE_VV_BlackmistWhisperer_Silence_Silence",
+    "Type": "1",
+    "FSLID": "1000265"
+  },
+  "274": {
+    "GameName": "Devour Light",
+    "DevName": "GE_BlackmistShadowMinion_Cast_Buff",
+    "Type": "1",
+    "FSLID": "1000274"
+  },
+  "282": {
+    "GameName": "Blackburn Eye",
+    "DevName": "GE_VV_BlackburnMystic_RotatingOrb_Dot",
+    "Type": "1024",
+    "FSLID": "1000282"
+  },
+  "284": {
+    "GameName": "Invigorate",
+    "DevName": "GE_VV_BlackburnMystic_Heal_Buff",
+    "Type": "1",
+    "FSLID": "1000284"
+  },
+  "285": {
+    "GameName": "Frost Bolt",
+    "DevName": "GE_VV_BlackburnMystic_CastProjectile_Slow",
+    "Type": "1",
+    "FSLID": "1000285"
+  },
   "300": {
     "GameName": "Bola Throw",
     "DevName": "GA_UM_GorestainedButcher_Enrage",
     "Type": "1",
     "FSLID": "1000300"
+  },
+  "303": {
+    "GameName": "Defiled Blood",
+    "DevName": "GE_UM_HornedSeer_OrbProjectile_Debuff",
+    "Type": "1",
+    "FSLID": "1000303"
+  },
+  "316": {
+    "GameName": "Wildroot Thorns",
+    "DevName": "GE_UM_BossSlavetraderBrull_PlacedSlowAoe_AoeDot",
+    "Type": "1024",
+    "FSLID": "1000316"
+  },
+  "319": {
+    "GameName": "Enraged",
+    "DevName": "GE_UM_BossSlavetraderBrull_Aina_Shared_Enrage_StackingBuff",
+    "Type": "1",
+    "FSLID": "1000319"
+  },
+  "320": {
+    "GameName": "Enraged",
+    "DevName": "GE_UM_BossSlavetraderBrull_Aina_Shared_Enrage_FinalBuff",
+    "Type": "1",
+    "FSLID": "1000320"
+  },
+  "325": {
+    "GameName": "Scythe",
+    "DevName": "GE_UM_BossDrazhulTheFleshbroker_ConjureScythe_Damage",
+    "Type": "1",
+    "FSLID": "1000325"
   },
   "342": {
     "GameName": "Death Throes",
@@ -221,6 +395,12 @@
     "Type": "1",
     "FSLID": "1000545"
   },
+  "555": {
+    "GameName": "Squalled",
+    "DevName": "GE_SG_WaterElemental_CastedRangedProjectile_AoeDamage",
+    "Type": "1024",
+    "FSLID": "1000555"
+  },
   "568": {
     "GameName": "Wailing Strike: Bleed",
     "DevName": "GA_PR_BossTreasureDemon_Stunned",
@@ -232,6 +412,12 @@
     "DevName": "GA_PR_BossTreasureDemon_SuckInCoins",
     "Type": "1",
     "FSLID": "1000572"
+  },
+  "575": {
+    "GameName": "Call of the Abyss",
+    "DevName": "GE_SG_GhostEruptor_CastedPartyAoeDebuff_Debuff",
+    "Type": "1",
+    "FSLID": "1000575"
   },
   "587": {
     "GameName": "Bitter Frenzy",
@@ -293,6 +479,18 @@
     "Type": "1024",
     "FSLID": "1000608"
   },
+  "624": {
+    "GameName": "Sunken Gale",
+    "DevName": "GE_PR_WaterCaster_CastedAoeProjectile_CollisionEffect",
+    "Type": "1024",
+    "FSLID": "1000624"
+  },
+  "634": {
+    "GameName": "Spectral Sailor: Stun",
+    "DevName": "GE_PR_SpectralSwab_Explode_Stun",
+    "Type": "1",
+    "FSLID": "1000634"
+  },
   "645": {
     "GameName": "Greed's Embrace: Temptation",
     "DevName": "GA_MF_FoulTotemic_Heal",
@@ -304,6 +502,84 @@
     "DevName": "GA_MF_DawnstoneGuardian_DamageReflect_Passive",
     "Type": "1",
     "FSLID": "1000649"
+  },
+  "668": {
+    "GameName": "Knockout",
+    "DevName": "GE_PR_BossTreasureDemon_Ball_CrashIntoBoss_Stun",
+    "Type": "1",
+    "FSLID": "1000668"
+  },
+  "669": {
+    "GameName": "GE_PR_BossTreasureDemon_Ball_CrashIntoBoss_Damage_C",
+    "DevName": "GE_PR_BossTreasureDemon_Ball_CrashIntoBoss_Damage",
+    "Type": "1",
+    "FSLID": "1000669"
+  },
+  "670": {
+    "GameName": "Amassed Treasure",
+    "DevName": "GE_PR_BossTreasureDemon_Ball_AbsorbedCoin",
+    "Type": "1",
+    "FSLID": "1000670"
+  },
+  "671": {
+    "GameName": "Deepening Shadows",
+    "DevName": "GE_PR_BossTreasureDemon__StackingSelfBuff",
+    "Type": "1",
+    "FSLID": "1000671"
+  },
+  "677": {
+    "GameName": "Cursed Treassure",
+    "DevName": "GE_PR_BossTreasureDemon_ScatterCoins_DamageAura",
+    "Type": "1024",
+    "FSLID": "1000677"
+  },
+  "692": {
+    "GameName": "Soulpowder Shot",
+    "DevName": "GE_PR_BossPirateCaptain_Spin_ShootDebuff",
+    "Type": "1",
+    "FSLID": "1000692"
+  },
+  "702": {
+    "GameName": "Severed Soul",
+    "DevName": "GE_PR_BossPirateCaptain_ObstacleCourse_PlayerGhost",
+    "Type": "1",
+    "FSLID": "1000702"
+  },
+  "703": {
+    "GameName": "Sever Souls",
+    "DevName": "GE_PR_BossPirateCaptain_ObstacleCourse_Dot",
+    "Type": "1024",
+    "FSLID": "1000703"
+  },
+  "711": {
+    "GameName": "Reinforced",
+    "DevName": "GE_PR_BossAnchor_Reinforcements_SpawnMoreStuff",
+    "Type": "1",
+    "FSLID": "1000711"
+  },
+  "717": {
+    "GameName": "Anchored",
+    "DevName": "GE_PR_BossAnchor_HighTide_BossBuff",
+    "Type": "1",
+    "FSLID": "1000717"
+  },
+  "718": {
+    "GameName": "Anchored",
+    "DevName": "GE_PR_BossAnchor_HighTideTether_Tethered",
+    "Type": "1",
+    "FSLID": "1000718"
+  },
+  "723": {
+    "GameName": "Soulpowder Shot",
+    "DevName": "GE_PR_BlunderbussPirate_RangedDamageDebuff_FullStackDebuff",
+    "Type": "1",
+    "FSLID": "1000723"
+  },
+  "730": {
+    "GameName": "Crush Armor",
+    "DevName": "GE_PR_BarbarousLasher_ShatterArmor_Debuff",
+    "Type": "1",
+    "FSLID": "1000730"
   },
   "734": {
     "GameName": "Shackle Shot",
@@ -341,6 +617,210 @@
     "Type": "1",
     "FSLID": "1000761"
   },
+  "777": {
+    "GameName": "Coalescing Bloodstone",
+    "DevName": "GE_MF_DawnstoneGuardian_DamageReflect_Buff",
+    "Type": "1",
+    "FSLID": "1000777"
+  },
+  "792": {
+    "GameName": "Glory",
+    "DevName": "GE_MF_BlightedMorningGlory_OnDeathHeal_Heal",
+    "Type": "8",
+    "FSLID": "1000792"
+  },
+  "794": {
+    "GameName": "Blighted Ichor",
+    "DevName": "GE_MF_BlightedMorningGlory_DotProjectile_Damage",
+    "Type": "1024",
+    "FSLID": "1000794"
+  },
+  "831": {
+    "GameName": "Erosion of Time",
+    "DevName": "GE_IC_Healer_TwoTargetDot_Damage",
+    "Type": "1024",
+    "FSLID": "1000831"
+  },
+  "833": {
+    "GameName": "Temporal Manipulation",
+    "DevName": "GE_IC_Healer_ChannelMultiTargetHeal_HasteBuff",
+    "Type": "1",
+    "FSLID": "1000833"
+  },
+  "834": {
+    "GameName": "Arcane Reconstruction",
+    "DevName": "GE_IC_Healer_ChanneledMultiTargetHeal_HealBuff",
+    "Type": "8",
+    "FSLID": "1000834"
+  },
+  "849": {
+    "GameName": "Splintering Ice",
+    "DevName": "GE_IC_BossMagistrate_Redemption_Dot",
+    "Type": "1024",
+    "FSLID": "1000849"
+  },
+  "858": {
+    "GameName": "Frigid Mist",
+    "DevName": "GE_IC_BossMagistrate_FrigidMist_Damage",
+    "Type": "1024",
+    "FSLID": "1000858"
+  },
+  "861": {
+    "GameName": "Wicked Strikes: Stun",
+    "DevName": "GE_IC_Assassin_WickedStrike_Stun",
+    "Type": "1",
+    "FSLID": "1000861"
+  },
+  "866": {
+    "GameName": "Shadebloom Poison",
+    "DevName": "GE_IC_Assassin_PoisonDagger_ConvertHealingDebuff",
+    "Type": "1",
+    "FSLID": "1000866"
+  },
+  "870": {
+    "GameName": "Ice Spike",
+    "DevName": "GE_FK_IceGolem_SpikeAOE_Damage",
+    "Type": "1",
+    "FSLID": "1000870"
+  },
+  "874": {
+    "GameName": "Shardling Explosion",
+    "DevName": "GE_FK_Elf_Shardling_DeathExplosionSlowDebuff",
+    "Type": "1",
+    "FSLID": "1000874"
+  },
+  "875": {
+    "GameName": "Shardling Explosion",
+    "DevName": "GE_FK_Elf_Shardling_DeathExplosionDotDebuff",
+    "Type": "1024",
+    "FSLID": "1000875"
+  },
+  "889": {
+    "GameName": "Shattering Barrier",
+    "DevName": "GE_FK_Elf_Guard_ShatteringBarrier_Absorb",
+    "Type": "1",
+    "FSLID": "1000889"
+  },
+  "894": {
+    "GameName": "Enraged",
+    "DevName": "GE_FK_Elf_Duelist_IceBreaker_EnragedBuff",
+    "Type": "1",
+    "FSLID": "1000894"
+  },
+  "897": {
+    "GameName": "Ice Bolt",
+    "DevName": "GE_FK_Elf_Cleric_SoulBolt_Damage",
+    "Type": "1024",
+    "FSLID": "1000897"
+  },
+  "899": {
+    "GameName": "Freezing Blood",
+    "DevName": "GE_FK_Elf_Cleric_Redemption_DoT",
+    "Type": "1024",
+    "FSLID": "1000899"
+  },
+  "903": {
+    "GameName": "Drain Life",
+    "DevName": "GE_FK_Elf_Cleric_DrainLife_Damage",
+    "Type": "1024",
+    "FSLID": "1000903"
+  },
+  "906": {
+    "GameName": "Razor Trap",
+    "DevName": "GE_FK_BossRangerCaptain_IceTrap_Root",
+    "Type": "1",
+    "FSLID": "1000906"
+  },
+  "908": {
+    "GameName": "Arcane Volley",
+    "DevName": "GE_FK_BossRangerCaptain_HailOfArrows_DoT",
+    "Type": "1024",
+    "FSLID": "1000908"
+  },
+  "910": {
+    "GameName": "Betrayer's Arrow",
+    "DevName": "GE_FK_BossRangerCaptain_ExplosiveShot_Debuff",
+    "Type": "1",
+    "FSLID": "1000910"
+  },
+  "911": {
+    "GameName": "Betrayer's Arrow",
+    "DevName": "GE_FK_BossRangerCaptain_ExplosiveShot_Damage",
+    "Type": "1024",
+    "FSLID": "1000911"
+  },
+  "917": {
+    "GameName": "Calamitous Affliction",
+    "DevName": "GE_FK_BossFreezingWaterLord_IceSoak_IncreasedDamageDebuff",
+    "Type": "1",
+    "FSLID": "1000917"
+  },
+  "918": {
+    "GameName": "Unstable Energy",
+    "DevName": "GE_FK_BossFreezingWaterlord_IceSoak_AboutToSpawnPuddle",
+    "Type": "1",
+    "FSLID": "1000918"
+  },
+  "921": {
+    "GameName": "Shatterstrike: Converging Ice",
+    "DevName": "GE_FK_BossFreezingWaterLord_GreaterWaterNova_Dot",
+    "Type": "1024",
+    "FSLID": "1000921"
+  },
+  "928": {
+    "GameName": "Calamity Rift",
+    "DevName": "GE_FK_BossFreezingWaterlord_ExplodePuddles_Damage",
+    "Type": "1024",
+    "FSLID": "1000928"
+  },
+  "932": {
+    "GameName": "Bloodhunt: Bleed",
+    "DevName": "GE_FK_BossElfDragon_MultiDashArrivalBleedDebuff",
+    "Type": "1",
+    "FSLID": "1000932"
+  },
+  "933": {
+    "GameName": "Bloodhunt",
+    "DevName": "GE_FK_BossElfDragon_MultiDashArrivalAOEDamage",
+    "Type": "1",
+    "FSLID": "1000933"
+  },
+  "935": {
+    "GameName": "Breath of Al'zerac",
+    "DevName": "GE_FK_BossElfDragon_KnockbackConeRoot",
+    "Type": "1",
+    "FSLID": "1000935"
+  },
+  "936": {
+    "GameName": "You're being moved by Cithrel!",
+    "DevName": "GE_FK_BossElfDragon_KnockbackConeOrRadialSuckIn_PullDebuff",
+    "Type": "1",
+    "FSLID": "1000936"
+  },
+  "937": {
+    "GameName": "Path to Oblivion (Burst)",
+    "DevName": "GE_FK_BossElfDragon_FierySoak_SoakDamage",
+    "Type": "1024",
+    "FSLID": "1000937"
+  },
+  "938": {
+    "GameName": "Path to Oblivion",
+    "DevName": "GE_FK_BossElfDragon_FierySoak_PoolAOEDamage",
+    "Type": "1024",
+    "FSLID": "1000938"
+  },
+  "939": {
+    "GameName": "Draconic Frenzy",
+    "DevName": "GE_FK_BossElfDragon_EnragedPhaseHasteBuff",
+    "Type": "1",
+    "FSLID": "1000939"
+  },
+  "940": {
+    "GameName": "Blood Marked",
+    "DevName": "GE_FK_BossElfDragon_DashTargetDebuff",
+    "Type": "1",
+    "FSLID": "1000940"
+  },
   "946": {
     "GameName": "Collapsing Star",
     "DevName": "GA_CM_BossTroll_Crush",
@@ -371,6 +851,24 @@
     "Type": "1024",
     "FSLID": "1000991"
   },
+  "993": {
+    "GameName": "Sacrificial Offering",
+    "DevName": "GE_DR_Ritualist_TurretDot",
+    "Type": "1024",
+    "FSLID": "1000993"
+  },
+  "994": {
+    "GameName": "Sacrificial Offering",
+    "DevName": "GE_DR_Ritualist_SacrificeDot",
+    "Type": "1024",
+    "FSLID": "1000994"
+  },
+  "1002": {
+    "GameName": "Enrage",
+    "DevName": "GE_DR_HornedDemon_Enrage_Buff",
+    "Type": "1",
+    "FSLID": "1001002"
+  },
   "1015": {
     "GameName": "Wither",
     "DevName": "GA_Rime_SelfDefenceBuff",
@@ -383,11 +881,95 @@
     "Type": "1",
     "FSLID": "1001025"
   },
+  "1048": {
+    "GameName": "Hemorrhaging Strike",
+    "DevName": "GE_DR_BossGateWizard_TankDot_Bleed",
+    "Type": "1",
+    "FSLID": "1001048"
+  },
+  "1055": {
+    "GameName": "Tainted Blood",
+    "DevName": "GE_DR_BossGateWizard_KickFootballDebuff",
+    "Type": "1",
+    "FSLID": "1001055"
+  },
+  "1057": {
+    "GameName": "Burning",
+    "DevName": "GE_DR_BossGateWizard_FirePillar_Dot",
+    "Type": "1024",
+    "FSLID": "1001057"
+  },
+  "1060": {
+    "GameName": "Slumber",
+    "DevName": "GE_DR_BossDemonPlant_WakeUpAdds_SelfDebuff",
+    "Type": "1",
+    "FSLID": "1001060"
+  },
+  "1063": {
+    "GameName": "GE_DR_BossDemonPlant_SharedHealth_Damage_C",
+    "DevName": "GE_DR_BossDemonPlant_SharedHealth_Damage",
+    "Type": "1",
+    "FSLID": "1001063"
+  },
+  "1064": {
+    "GameName": "Lifelink",
+    "DevName": "GE_DR_BossDemonPlant_SharedHealth",
+    "Type": "1",
+    "FSLID": "1001064"
+  },
+  "1076": {
+    "GameName": "Shadow Fire",
+    "DevName": "GE_DR_BossCultLeader_RotatingCross_Damage",
+    "Type": "1024",
+    "FSLID": "1001076"
+  },
+  "1079": {
+    "GameName": "Sanguine Strength",
+    "DevName": "GE_DR_BossCultLeader_BloodPool_SelfBuff_Linger",
+    "Type": "1",
+    "FSLID": "1001079"
+  },
+  "1080": {
+    "GameName": "Demonic Empowerment",
+    "DevName": "GE_DR_BossCultLeader_BloodPool_SelfBuff",
+    "Type": "1",
+    "FSLID": "1001080"
+  },
+  "1081": {
+    "GameName": "Demonic Pit",
+    "DevName": "GE_DR_BossCultLeader_BloodPoolSlow",
+    "Type": "1",
+    "FSLID": "1001081"
+  },
+  "1082": {
+    "GameName": "Slow",
+    "DevName": "GE_DR_BossCultLeader_Grip_Slow",
+    "Type": "1",
+    "FSLID": "1001082"
+  },
+  "1107": {
+    "GameName": "Bloodstone Blight",
+    "DevName": "GE_CM_RubiliteTriggerstone_Trap_Dot",
+    "Type": "1024",
+    "FSLID": "1001107"
+  },
   "1112": {
     "GameName": "Vulnerable",
     "DevName": "GA_Meiko_ChanneledHeavyDamage",
     "Type": "1",
     "FSLID": "1001112"
+  },
+  "1122": {
+    "GameName": "Fear",
+    "DevName": "GE_CM_ElfWarden_Fear_Fear",
+    "Type": "1",
+    "FSLID": "1001122"
+  },
+  "1142": {
+    "GameName": "Agonizing Poison",
+    "DevName": "GE_CM_ElfInterrogator_WickedStrike_Dot",
+    "Type": "1024",
+    "FSLID": "1001142"
   },
   "1157": {
     "GameName": "Reflective Shield",
@@ -455,6 +1037,12 @@
     "Type": "1024",
     "FSLID": "1001296"
   },
+  "1307": {
+    "GameName": "Beacon in the Dark",
+    "DevName": "GE_Vigor_Talent_InstantFrontalConeDamageHeal_DotProc_Proc",
+    "Type": "1",
+    "FSLID": "1001307"
+  },
   "1312": {
     "GameName": "Stunned by a book",
     "DevName": "GA_Bowguy_ChanneledMultiProjectileDebuff",
@@ -521,6 +1109,12 @@
     "Type": "1024",
     "FSLID": "1001365"
   },
+  "1373": {
+    "GameName": "Soulfrost Torrent",
+    "DevName": "GE_Rime_Talent_ChanneledBeamSingleDamage_BoostByCritProc_Proc",
+    "Type": "1",
+    "FSLID": "1001373"
+  },
   "1379": {
     "GameName": "Frost Ward",
     "DevName": "GA_FxDebug_Beam_Arcane",
@@ -568,6 +1162,102 @@
     "DevName": "GA_SH_BossSpider_GoBackToPhase1",
     "Type": "1",
     "FSLID": "1001397"
+  },
+  "1491": {
+    "GameName": "Soul Split: Bulwark",
+    "DevName": "GE_Meiko_TauntTotem_SelfBuff",
+    "Type": "1",
+    "FSLID": "1001491"
+  },
+  "1510": {
+    "GameName": "Everlasting Spirit",
+    "DevName": "GE_Meiko_Talent_InstantSelfDefensive_DamageReductionLessHeal",
+    "Type": "1",
+    "FSLID": "1001510"
+  },
+  "1512": {
+    "GameName": "Resonance of Earth",
+    "DevName": "GE_Meiko_Talent_DamageSoakBuff_IncreasedIncomingHealing_Buff",
+    "Type": "1",
+    "FSLID": "1001512"
+  },
+  "1514": {
+    "GameName": "Taunted",
+    "DevName": "GE_Meiko_RangedTaunt_Debuff",
+    "Type": "1",
+    "FSLID": "1001514"
+  },
+  "1530": {
+    "GameName": "Stormfall",
+    "DevName": "GE_Meiko_MeleeDamageSelfBuff_SelfBuff",
+    "Type": "1",
+    "FSLID": "1001530"
+  },
+  "1532": {
+    "GameName": "Earthfall",
+    "DevName": "GE_Meiko_MeleeDamageLowHealthSelfBuff_SelfBuff",
+    "Type": "1",
+    "FSLID": "1001532"
+  },
+  "1534": {
+    "GameName": "Spirited Strikes",
+    "DevName": "GE_Meiko_MeleeDamageImmediateSelfBuff_SelfBuff",
+    "Type": "1",
+    "FSLID": "1001534"
+  },
+  "1538": {
+    "GameName": "Stunned",
+    "DevName": "GE_Meiko_FrontalAoeDebuff_Stun",
+    "Type": "1",
+    "FSLID": "1001538"
+  },
+  "1542": {
+    "GameName": "Stone Stomp",
+    "DevName": "GE_Meiko_FrontalAoeDebuff_Damage",
+    "Type": "1024",
+    "FSLID": "1001542"
+  },
+  "1547": {
+    "GameName": "Soul Split: Army of One",
+    "DevName": "GE_Meiko_DurationalMultipleTeleportDamage_SelfBuff",
+    "Type": "1",
+    "FSLID": "1001547"
+  },
+  "1548": {
+    "GameName": "Twin Souls: Army of One",
+    "DevName": "GE_Meiko_DurationalMultipleTeleportDamage_Damage",
+    "Type": "1024",
+    "FSLID": "1001548"
+  },
+  "1556": {
+    "GameName": "Shatter Earth",
+    "DevName": "GE_Meiko_MoveToLocationAoeDamage_Dot",
+    "Type": "1024",
+    "FSLID": "1001556"
+  },
+  "1568": {
+    "GameName": "Spirited Vortex",
+    "DevName": "GE_Meiko_DurationalAoeDamageBuff_DecreasedMovementSpeed",
+    "Type": "1",
+    "FSLID": "1001568"
+  },
+  "1570": {
+    "GameName": "Spirited Vortex",
+    "DevName": "GE_Meiko_DurationalAoeDamageBuff_BuffIcon",
+    "Type": "1",
+    "FSLID": "1001570"
+  },
+  "1572": {
+    "GameName": "Stone Shield",
+    "DevName": "GE_Meiko_DamageSoakBuff_Damage",
+    "Type": "1024",
+    "FSLID": "1001572"
+  },
+  "1574": {
+    "GameName": "Stone Shield",
+    "DevName": "GE_Meiko_DamageSoakBuff_Buff",
+    "Type": "1",
+    "FSLID": "1001574"
   },
   "1583": {
     "GameName": "Cheap Shot",
@@ -622,6 +1312,12 @@
     "DevName": "GA_Mount_Bear_ArmoredWhiteBlue",
     "Type": "1024",
     "FSLID": "1001731"
+  },
+  "1744": {
+    "GameName": "Far Beyond Driven",
+    "DevName": "GE_Ink_Talent_AutoAttackBuffDurationalStatBonus",
+    "Type": "1",
+    "FSLID": "1001744"
   },
   "1748": {
     "GameName": "Square Hammer",
@@ -689,6 +1385,12 @@
     "Type": "1",
     "FSLID": "1001780"
   },
+  "1804": {
+    "GameName": "Fiery Resilience",
+    "DevName": "GE_Firemage_Talent_SelfDefenceBuff_Absorb",
+    "Type": "1",
+    "FSLID": "1001804"
+  },
   "1815": {
     "GameName": "Flame Ward",
     "DevName": "GA_DM_WinterWitch_EngageCombat",
@@ -700,6 +1402,12 @@
     "DevName": "GA_DM_WinterWitch_CastDelayedAoeSequence",
     "Type": "1024",
     "FSLID": "1001819"
+  },
+  "1820": {
+    "GameName": "Searing Blaze",
+    "DevName": "GE_Firemage_InstantSingleTargetDot_Dot",
+    "Type": "1024",
+    "FSLID": "1001820"
   },
   "1823": {
     "GameName": "Scorched",
@@ -899,6 +1607,18 @@
     "Type": "1",
     "FSLID": "1001969"
   },
+  "1986": {
+    "GameName": "Draconic Might",
+    "DevName": "GE_ArmorSetBonus_PowerBonusOnCrit_Buff",
+    "Type": "1",
+    "FSLID": "1001986"
+  },
+  "1987": {
+    "GameName": "Torment of Bael'Aurum",
+    "DevName": "GE_ArmorSetBonus_PowerBonusAndAutoHeal_Heal",
+    "Type": "8",
+    "FSLID": "1001987"
+  },
   "1993": {
     "GameName": "Drakheim's Absolution",
     "DevName": "GA_FM_OrcCaster_AutoAttack",
@@ -934,5 +1654,1313 @@
     "DevName": "GA_Lisa_Passive_Talent_InstantDamageSpender_SelfBuff",
     "Type": "1024",
     "FSLID": "1002018"
+  },
+  "2038": {
+    "GameName": "Spider Swarm",
+    "DevName": "GE_SH_BossSpider_Swarm_Dot_Linger",
+    "Type": "1024",
+    "FSLID": "1002038"
+  },
+  "2039": {
+    "GameName": "Matriarch Macabre",
+    "DevName": "GE_Mara_CopyCharacterDamage_SelfBuff",
+    "Type": "1",
+    "FSLID": "1002039"
+  },
+  "2042": {
+    "GameName": "Freezing",
+    "DevName": "GE_VV_BossChilgar_IceColdWater_Slow_Linger",
+    "Type": "1",
+    "FSLID": "1002042"
+  },
+  "2043": {
+    "GameName": "Freezing Waters",
+    "DevName": "GE_VV_BossChilgar_IceColdWater_Dot_Linger",
+    "Type": "1024",
+    "FSLID": "1002043"
+  },
+  "2068": {
+    "GameName": "Deadly Scheme: Active",
+    "DevName": "GE_Mara_Talent_ResourceAttackSpenderCritChance_Proc",
+    "Type": "1",
+    "FSLID": "1002068"
+  },
+  "2074": {
+    "GameName": "Resurgent Winds",
+    "DevName": "GE_Bowguy_Talent_CastedProjectileHeavyDamage_InstantNoCooldownProc_Proc",
+    "Type": "1",
+    "FSLID": "1002074"
+  },
+  "2078": {
+    "GameName": "Willful Momentum",
+    "DevName": "GE_Trait_IncreasedMainStatAndSpiritRating_MainStat",
+    "Type": "1",
+    "FSLID": "1002078"
+  },
+  "2090": {
+    "GameName": "Divine Mediation: Heal",
+    "DevName": "GE_Trait_IncomingDamageToHotAndAbsorb_Hot",
+    "Type": "8",
+    "FSLID": "1002090"
+  },
+  "2091": {
+    "GameName": "Divine Mediation: Shield",
+    "DevName": "GE_Trait_IncomingDamageToHotAndAbsorb_Absorb",
+    "Type": "1",
+    "FSLID": "1002091"
+  },
+  "2096": {
+    "GameName": "Grasping Vines",
+    "DevName": "GE_UM_UrrakWitch_GroundRoots_Dot",
+    "Type": "1024",
+    "FSLID": "1002096"
+  },
+  "2102": {
+    "GameName": "Volatile Energy",
+    "DevName": "GE_EM_BossVaerith_BombDebuff_Dot",
+    "Type": "1024",
+    "FSLID": "1002102"
+  },
+  "2105": {
+    "GameName": "Arcane Surge",
+    "DevName": "GE_EM_BossVaerith_BuffTroll_Buff",
+    "Type": "1",
+    "FSLID": "1002105"
+  },
+  "2107": {
+    "GameName": "Stalwart Readiness",
+    "DevName": "GE_Trait_NoDamageToDamageReduction_Buff",
+    "Type": "1",
+    "FSLID": "1002107"
+  },
+  "2108": {
+    "GameName": "Iron Spikes",
+    "DevName": "GE_Trait_IncomingDamageToDefenceAndDamage_DefenceBuff",
+    "Type": "1",
+    "FSLID": "1002108"
+  },
+  "2109": {
+    "GameName": "Iron Spikes",
+    "DevName": "GE_Trait_IncomingDamageToDefenceAndDamage_Damage",
+    "Type": "1024",
+    "FSLID": "1002109"
+  },
+  "2110": {
+    "GameName": "Seized Opportunity",
+    "DevName": "GE_Trait_CritsToIncreasedCritRating_CritRatingBuff",
+    "Type": "1",
+    "FSLID": "1002110"
+  },
+  "2111": {
+    "GameName": "Seized Opportunity",
+    "DevName": "GE_Trait_CritsToIncreasedCritRating_Counter",
+    "Type": "1",
+    "FSLID": "1002111"
+  },
+  "2112": {
+    "GameName": "Inspired Allegiance",
+    "DevName": "GE_Trait_CommitToHasteRatingAndWeaponCooldown_HasteRatingBuff",
+    "Type": "1",
+    "FSLID": "1002112"
+  },
+  "2114": {
+    "GameName": "Stone Skin",
+    "DevName": "GE_DungeonModifier_StoneSkin_DeathAbility_Dot",
+    "Type": "1",
+    "FSLID": "1002114"
+  },
+  "2119": {
+    "GameName": "Grand Melee",
+    "DevName": "GE_Warmaster_AoeIncite_SelfBuff",
+    "Type": "1",
+    "FSLID": "1002119"
+  },
+  "2120": {
+    "GameName": "Grand Melee",
+    "DevName": "GE_Warmaster_AoeIncite_InciteTarget",
+    "Type": "1",
+    "FSLID": "1002120"
+  },
+  "2121": {
+    "GameName": "Promoted Enemy",
+    "DevName": "GE_DungeonModifiers_PromotedEnemies_EnemyBuff",
+    "Type": "1",
+    "FSLID": "1002121"
+  },
+  "2122": {
+    "GameName": "Breaker of Chains",
+    "DevName": "GE_UM_CageDeath_Buff",
+    "Type": "1",
+    "FSLID": "1002122"
+  },
+  "2124": {
+    "GameName": "GE_DD_Arbalist_MeleeAutoAttack_Damage_C",
+    "DevName": "GE_DD_Arbalist_MeleeAutoAttack_Damage",
+    "Type": "1",
+    "FSLID": "1002124"
+  },
+  "2132": {
+    "GameName": "Arcane Levitation",
+    "DevName": "GE_EM_BossVaerith_Levitate",
+    "Type": "1",
+    "FSLID": "1002132"
+  },
+  "2133": {
+    "GameName": "Stun",
+    "DevName": "GE_CM_ElfInterrogator_WickedStrike_Stun",
+    "Type": "1",
+    "FSLID": "1002133"
+  },
+  "2135": {
+    "GameName": "Fall Damage (Vexira)",
+    "DevName": "GE_SH_BossSpider_SpecialFallDamage_Damage",
+    "Type": "1",
+    "FSLID": "1002135"
+  },
+  "2137": {
+    "GameName": "Peck",
+    "DevName": "GE_Shared_PolymorphChicken_AutoAttack_Damage",
+    "Type": "1",
+    "FSLID": "1002137"
+  },
+  "2141": {
+    "GameName": "Trait : Focused Haste",
+    "DevName": "GE_Trait_OffensiveAbilityHasteRatingStacking_Buff",
+    "Type": "1",
+    "FSLID": "1002141"
+  },
+  "2143": {
+    "GameName": "Crystaline Corruption",
+    "DevName": "GE_MF_Skittershard_OnDeath_Debuff",
+    "Type": "1024",
+    "FSLID": "1002143"
+  },
+  "2145": {
+    "GameName": "Sanguine Ritual",
+    "DevName": "GE_UM_HornedSeer_ChanneledOrbProjectiles_SelfDamage",
+    "Type": "1024",
+    "FSLID": "1002145"
+  },
+  "2146": {
+    "GameName": "Major Invisibility",
+    "DevName": "GE_RelicPower_PartyInvisibility",
+    "Type": "1",
+    "FSLID": "1002146"
+  },
+  "2148": {
+    "GameName": "Stun",
+    "DevName": "GE_MF_BossUnicorn_Charge_Stun",
+    "Type": "1",
+    "FSLID": "1002148"
+  },
+  "2149": {
+    "GameName": "Patient Soul",
+    "DevName": "GE_Trait_StandingStillStaminaExpertiseRatingIncrease_Buff_Infinite",
+    "Type": "1",
+    "FSLID": "1002149"
+  },
+  "2150": {
+    "GameName": "Patient Soul",
+    "DevName": "GE_Trait_StandingStillStaminaExpertiseRatingIncrease_Buff_Durational",
+    "Type": "1",
+    "FSLID": "1002150"
+  },
+  "2151": {
+    "GameName": "Latent Resurgence",
+    "DevName": "GE_Trait_IncomingHealToStackingHealWithThreshold_Heal",
+    "Type": "8",
+    "FSLID": "1002151"
+  },
+  "2152": {
+    "GameName": "Latent Resurgence",
+    "DevName": "GE_Trait_IncomingHealToStackingHealWithThreshold_Buff",
+    "Type": "1",
+    "FSLID": "1002152"
+  },
+  "2154": {
+    "GameName": "First Man Standing",
+    "DevName": "GE_Trait_FirstIncomingHitToReducedIncomingDamageBuff_Buff",
+    "Type": "1",
+    "FSLID": "1002154"
+  },
+  "2158": {
+    "GameName": "Navigator's Intuition : Spirit",
+    "DevName": "GE_Trait_OffensiveAbilityToHighestStatBuff_Buff_Spirit",
+    "Type": "1",
+    "FSLID": "1002158"
+  },
+  "2159": {
+    "GameName": "Navigator's Intuition : Haste",
+    "DevName": "GE_Trait_OffensiveAbilityToHighestStatBuff_Buff_Haste",
+    "Type": "1",
+    "FSLID": "1002159"
+  },
+  "2160": {
+    "GameName": "Navigator's Intuition : Expertise",
+    "DevName": "GE_Trait_OffensiveAbilityToHighestStatBuff_Buff_Expertise",
+    "Type": "1",
+    "FSLID": "1002160"
+  },
+  "2161": {
+    "GameName": "Navigator's Intuition : Critical Strike",
+    "DevName": "GE_Trait_OffensiveAbilityToHighestStatBuff_Buff_Crit",
+    "Type": "1",
+    "FSLID": "1002161"
+  },
+  "2162": {
+    "GameName": "Vengeful Soul",
+    "DevName": "GE_Trait_CritsToIncreasedPrimaryStatBuff_Hot",
+    "Type": "8",
+    "FSLID": "1002162"
+  },
+  "2163": {
+    "GameName": "Vengeful Soul",
+    "DevName": "GE_Trait_CritsToIncreasedPrimaryStatBuff_Buff",
+    "Type": "1",
+    "FSLID": "1002163"
+  },
+  "2164": {
+    "GameName": "Hidden Power",
+    "DevName": "GE_Trait_AbilityToIncreasedMainStat_Stacker",
+    "Type": "1",
+    "FSLID": "1002164"
+  },
+  "2165": {
+    "GameName": "Power Revealed",
+    "DevName": "GE_Trait_AbilityToIncreasedMainStat_Buff",
+    "Type": "1",
+    "FSLID": "1002165"
+  },
+  "2171": {
+    "GameName": "Undulating Spirit",
+    "DevName": "GE_Shared_Talent_AbilityCommitToSpiritRefund_Proc",
+    "Type": "1",
+    "FSLID": "1002171"
+  },
+  "2174": {
+    "GameName": "Martial Initiative",
+    "DevName": "GE_Trait_WeaponDamageReductionPrimaryStatIncrease_Buff",
+    "Type": "1",
+    "FSLID": "1002174"
+  },
+  "2175": {
+    "GameName": "Slavebinding Aura",
+    "DevName": "GE_UM_SlaveCage_DebuffAura",
+    "Type": "1",
+    "FSLID": "1002175"
+  },
+  "2176": {
+    "GameName": "Portal Sickness",
+    "DevName": "GE_RelicPower_Portal_RecentlyUsedPortal",
+    "Type": "1",
+    "FSLID": "1002176"
+  },
+  "2178": {
+    "GameName": "Rotten Undergrowth",
+    "DevName": "GE_UM_BossSlavetraderBrull_PlacedSlowAoe_EmpoweredDot",
+    "Type": "1",
+    "FSLID": "1002178"
+  },
+  "2179": {
+    "GameName": "Bleeding",
+    "DevName": "GE_UM_BossDrazhulTheFleshbroker_ConjureScythe_Dot",
+    "Type": "1",
+    "FSLID": "1002179"
+  },
+  "2190": {
+    "GameName": "Stalker Step",
+    "DevName": "GE_Mara_ChargedTeleportBehindTarget_IncreasedDamageOrMovementSpeed_IncreasedMovementSpeed",
+    "Type": "1",
+    "FSLID": "1002190"
+  },
+  "2192": {
+    "GameName": "Siegebreaker",
+    "DevName": "GE_Warmaster_ShieldSelfBuff_Buff",
+    "Type": "1",
+    "FSLID": "1002192"
+  },
+  "2194": {
+    "GameName": "Maiden of Death",
+    "DevName": "GE_Mara_Talent_ChargedResourceRefillSelfBuff_IncreasedDamage_Buff",
+    "Type": "1",
+    "FSLID": "1002194"
+  },
+  "2195": {
+    "GameName": "Feed the Queen",
+    "DevName": "GE_Mara_Talent_AoeAttackBuilder_HeavyAttackSpenderDamageIncrease_Buff",
+    "Type": "1",
+    "FSLID": "1002195"
+  },
+  "2205": {
+    "GameName": "Grand Melee",
+    "DevName": "GE_Warmaster_AoeIncite_FriendlyAura_Buff",
+    "Type": "1",
+    "FSLID": "1002205"
+  },
+  "2208": {
+    "GameName": "Taskmaster's Mark",
+    "DevName": "GE_CM_ElfTaskmaster_MarkForPull_Mark",
+    "Type": "1",
+    "FSLID": "1002208"
+  },
+  "2209": {
+    "GameName": "Piercing Strike",
+    "DevName": "GE_CM_ElfEnforcer_TankSlam_Debuff",
+    "Type": "1",
+    "FSLID": "1002209"
+  },
+  "2213": {
+    "GameName": "Shadow Lord's Orbs",
+    "DevName": "GE_DungeonModifiers_ShadowLord_OrbBuffStacks",
+    "Type": "1",
+    "FSLID": "1002213"
+  },
+  "2217": {
+    "GameName": "Shattering",
+    "DevName": "GE_CM_EarthElemental_CastAoeDamage_Debuff",
+    "Type": "1",
+    "FSLID": "1002217"
+  },
+  "2219": {
+    "GameName": "Shadow Lord's Weakness",
+    "DevName": "GE_DungeonModifier_ShadowLord_TickingAoE_Debuff",
+    "Type": "1",
+    "FSLID": "1002219"
+  },
+  "2221": {
+    "GameName": "Shadow's Defeat",
+    "DevName": "GE_DungeonModifier_ShadowLord_OnDeathGrantBuff_Buff",
+    "Type": "1",
+    "FSLID": "1002221"
+  },
+  "2222": {
+    "GameName": "Final Cresendo",
+    "DevName": "GE_Bowguy_Talent_CastedProjectileHeavyDamage_StacksMoreDamageAndBounces_Stacker",
+    "Type": "1",
+    "FSLID": "1002222"
+  },
+  "2229": {
+    "GameName": "Empowered Shield Slam: Barrier",
+    "DevName": "GE_Warmaster_MeleeCleave_Absorb",
+    "Type": "1",
+    "FSLID": "1002229"
+  },
+  "2245": {
+    "GameName": "Assassin's Guile",
+    "DevName": "GE_Mara_Talent_Stealth_SpenderIncreasedDamage_Proc",
+    "Type": "1",
+    "FSLID": "1002245"
+  },
+  "2247": {
+    "GameName": "Jungle Rot",
+    "DevName": "GE_UM_UrrakWitch_ProjectileVolley_Dot",
+    "Type": "1024",
+    "FSLID": "1002247"
+  },
+  "2250": {
+    "GameName": "Slayer's Mosh",
+    "DevName": "GE_Ink_Talent_MoveToLocationAoeDamage_TargetExtraInkDamage_Debuff",
+    "Type": "1",
+    "FSLID": "1002250"
+  },
+  "2253": {
+    "GameName": "Spirit of Heroism",
+    "DevName": "GE_Shared_SpiritTriggeredBuff_NotTank",
+    "Type": "1",
+    "FSLID": "1002253"
+  },
+  "2255": {
+    "GameName": "Stun",
+    "DevName": "GE_MF_BossUnicorn_Charge_StunPiercing",
+    "Type": "1",
+    "FSLID": "1002255"
+  },
+  "2258": {
+    "GameName": "Freezing Aura",
+    "DevName": "GE_VV_BossFrostTroll_StationaryAura_Buff",
+    "Type": "1",
+    "FSLID": "1002258"
+  },
+  "2262": {
+    "GameName": "Drenched in Blood",
+    "DevName": "GE_Mara_Talent_SpiritRefundToExpertise_Buff",
+    "Type": "1",
+    "FSLID": "1002262"
+  },
+  "2264": {
+    "GameName": "Frostwyrm's Spite",
+    "DevName": "GE_Rime_Talent_ChanneledBeamSingleDamage_StackBuffForInstantSingleDamage_StackBuff",
+    "Type": "1",
+    "FSLID": "1002264"
+  },
+  "2265": {
+    "GameName": "Frostwyrm's Spite",
+    "DevName": "GE_Rime_Talent_ChanneledBeamSingleDamage_StackBuffForInstantSingleDamage_CleaveDamage",
+    "Type": "1024",
+    "FSLID": "1002265"
+  },
+  "2267": {
+    "GameName": "Executioner's Grin",
+    "DevName": "GE_Ink_Talent_LowHealthSingleTargetResourceDamage_ChanceActiveOnCommit_Proc",
+    "Type": "1",
+    "FSLID": "1002267"
+  },
+  "2271": {
+    "GameName": "Focused Expanse",
+    "DevName": "GE_Bowguy_Talent_CastedProjectileDamage_AoeProjectileDamageEmpowered_SelfBuff",
+    "Type": "1",
+    "FSLID": "1002271"
+  },
+  "2277": {
+    "GameName": "Spirit of Heroism",
+    "DevName": "GE_Shared_SpiritTriggeredBuff_Healer",
+    "Type": "1",
+    "FSLID": "1002277"
+  },
+  "2279": {
+    "GameName": "Asha's Arcane Embrace",
+    "DevName": "GE_Weapon_ChanneledCooldownReducer_Buff",
+    "Type": "1",
+    "FSLID": "1002279"
+  },
+  "2281": {
+    "GameName": "Stunned",
+    "DevName": "GE_Weapon_FrontalAOEConeRepeatingStunDamage_Stun",
+    "Type": "1",
+    "FSLID": "1002281"
+  },
+  "2286": {
+    "GameName": "Curse of An'zhyr",
+    "DevName": "GE_Weapon_CastedRepetitivelyAOEDamageDebuff_Dot",
+    "Type": "1024",
+    "FSLID": "1002286"
+  },
+  "2288": {
+    "GameName": "Epiphany",
+    "DevName": "GE_Vigor_Talent_SkillshotAoeProjectile_ResetCooldownFreecast_Proc",
+    "Type": "1",
+    "FSLID": "1002288"
+  },
+  "2289": {
+    "GameName": "Meticulous Runesmith",
+    "DevName": "GE_Vigor_Passive_Talent_SkillshotAoeProjectile_HealsApplyAbsorb_Absorb",
+    "Type": "1",
+    "FSLID": "1002289"
+  },
+  "2293": {
+    "GameName": "Fire Ball",
+    "DevName": "GE_Firemage_PlacedProjectileAoe_DirectDamageBased_Dot",
+    "Type": "1024",
+    "FSLID": "1002293"
+  },
+  "2294": {
+    "GameName": "Harmonizing Refractions",
+    "DevName": "GE_Vigor_Talent_SpiritProcBuff_NextRuneSpenderIncreasedPower_Proc",
+    "Type": "1",
+    "FSLID": "1002294"
+  },
+  "2300": {
+    "GameName": "Coalescing Frost",
+    "DevName": "GE_Rime_ChanneledBeamSingleDamage_AoeDamage",
+    "Type": "1024",
+    "FSLID": "1002300"
+  },
+  "2301": {
+    "GameName": "Reign of Fire",
+    "DevName": "GE_Firemage_Talent_PlacedProjectileAoe_ResetCooldownDamageBuff",
+    "Type": "1",
+    "FSLID": "1002301"
+  },
+  "2303": {
+    "GameName": "Winter's Embrace",
+    "DevName": "GE_Rime_CastedDebuffAoeDamage_Talent_BuffWhileActive",
+    "Type": "1",
+    "FSLID": "1002303"
+  },
+  "2305": {
+    "GameName": "Frostweaver's Wrath",
+    "DevName": "GE_Rime_Talent_ChanceOnOrbGain_NextSpenderCritIncrease_Buff",
+    "Type": "1",
+    "FSLID": "1002305"
+  },
+  "2306": {
+    "GameName": "Coalescing Frost",
+    "DevName": "GE_Rime_Talent_CleaveBuildUpPerTick_VisualBuff",
+    "Type": "1",
+    "FSLID": "1002306"
+  },
+  "2308": {
+    "GameName": "Icy Flow",
+    "DevName": "GE_Rime_Talent_InstantSingleDamage_ReducesCastTimeOnOrbSpender_Proc",
+    "Type": "1",
+    "FSLID": "1002308"
+  },
+  "2310": {
+    "GameName": "Corrosive Spill",
+    "DevName": "GE_Mara_Talent_ComboPointsChanceAoeDamage_Dot",
+    "Type": "1024",
+    "FSLID": "1002310"
+  },
+  "2312": {
+    "GameName": "Event Horizon",
+    "DevName": "GE_Bowguy_ReducedCostCooldownRecoveryBuff_SelfBuff",
+    "Type": "1",
+    "FSLID": "1002312"
+  },
+  "2316": {
+    "GameName": "Skylit Grace",
+    "DevName": "GE_Bowguy_TargetedAoeDamage_Talent_BuffWhileActive",
+    "Type": "1",
+    "FSLID": "1002316"
+  },
+  "2317": {
+    "GameName": "Impending Heartseeker",
+    "DevName": "GE_Bowguy_Talent_ChanneledMultiProjectileDebuff_ResetCooldownAndBuff_Proc",
+    "Type": "1",
+    "FSLID": "1002317"
+  },
+  "2325": {
+    "GameName": "Engulfing Flames",
+    "DevName": "GE_Firemage_CastedSingleHeavyDot_Dot",
+    "Type": "1024",
+    "FSLID": "1002325"
+  },
+  "2326": {
+    "GameName": "Blazing Earth",
+    "DevName": "GE_VV_BossKaldursonFire_Stomp_PlayerDot",
+    "Type": "1024",
+    "FSLID": "1002326"
+  },
+  "2329": {
+    "GameName": "Blazing Earth",
+    "DevName": "GE_VV_BossFrostTroll_Stomp_PlayerDot",
+    "Type": "1024",
+    "FSLID": "1002329"
+  },
+  "2331": {
+    "GameName": "Blazing Earth",
+    "DevName": "GE_VV_BossFrostTroll_Stomp_IceBlockDot",
+    "Type": "1024",
+    "FSLID": "1002331"
+  },
+  "2340": {
+    "GameName": "Unscarred Soul",
+    "DevName": "GE_Warmaster_Talent_MeleeCleaveAbsorbBuff_ReducedDamageReflectDamage_Damage",
+    "Type": "1",
+    "FSLID": "1002340"
+  },
+  "2344": {
+    "GameName": "Grieving Eldsupptok",
+    "DevName": "GE_VV_BossFrostTroll_Kaldurson_FireIsDeadBuff",
+    "Type": "1",
+    "FSLID": "1002344"
+  },
+  "2345": {
+    "GameName": "Targeted: Ice Tomb",
+    "DevName": "GE_VV_BossFrostTroll_IceTomb_CastTargetDebuff",
+    "Type": "1",
+    "FSLID": "1002345"
+  },
+  "2346": {
+    "GameName": "Sapphire Aurastone Heal",
+    "DevName": "GE_Trait_GemPulsatingOnAbilityTotemProc_FlatHeal",
+    "Type": "8",
+    "FSLID": "1002346"
+  },
+  "2347": {
+    "GameName": "Sapphire Aurastone Damage",
+    "DevName": "GE_Trait_GemPulsatingOnAbilityTotemProc_FlatDamage",
+    "Type": "1024",
+    "FSLID": "1002347"
+  },
+  "2349": {
+    "GameName": "Mother's Milk",
+    "DevName": "GE_SH_BossSpider_AOEDotAndBuff_Dot",
+    "Type": "1024",
+    "FSLID": "1002349"
+  },
+  "2352": {
+    "GameName": "Mother's Milk",
+    "DevName": "GE_SH_BossSpider_AOEDotAndBuff_Buff",
+    "Type": "1",
+    "FSLID": "1002352"
+  },
+  "2360": {
+    "GameName": "Bleeding",
+    "DevName": "GE_CM_ElfTaskmaster_ConePull_Dot",
+    "Type": "1",
+    "FSLID": "1002360"
+  },
+  "2362": {
+    "GameName": "Shimmer",
+    "DevName": "GE_Bowguy_Talent_CastedProjectileHeavyDamage_IncreasedIncomingDamageDebuff_Debuff",
+    "Type": "1",
+    "FSLID": "1002362"
+  },
+  "2364": {
+    "GameName": "Vexira's Venom",
+    "DevName": "GE_Mara_Talent_AoeAttackSpender_DamageToPoisionDot_Poison",
+    "Type": "1024",
+    "FSLID": "1002364"
+  },
+  "2370": {
+    "GameName": "Sinnari's Wrath",
+    "DevName": "GE_DD_WitheringMagiPeriodicDamage_Buff",
+    "Type": "1",
+    "FSLID": "1002370"
+  },
+  "2373": {
+    "GameName": "Splintering Ice",
+    "DevName": "GE_IC_BossMagistrate_Redemption_ShootProjectileOnExpired_Damage",
+    "Type": "1024",
+    "FSLID": "1002373"
+  },
+  "2378": {
+    "GameName": "Storm's Conduit: Jolt",
+    "DevName": "GE_NP_BossHellcaller_PeriodicDamage_Damage",
+    "Type": "1024",
+    "FSLID": "1002378"
+  },
+  "2379": {
+    "GameName": "Storm's Conduit",
+    "DevName": "GE_NP_BossHellcaller_PeriodicDamage_Buff",
+    "Type": "1",
+    "FSLID": "1002379"
+  },
+  "2380": {
+    "GameName": "Taunted",
+    "DevName": "GE_Meiko_TauntTotem_Taunt",
+    "Type": "1",
+    "FSLID": "1002380"
+  },
+  "2392": {
+    "GameName": "CRDamageReflectGameplayEffect",
+    "DevName": "CRDamageReflectGameplayEffect",
+    "Type": "1024",
+    "FSLID": "1002392"
+  },
+  "2401": {
+    "GameName": "Heartstopper",
+    "DevName": "GE_SH_RotheartRecluse_DotProjectile_DotDamage",
+    "Type": "1024",
+    "FSLID": "1002401"
+  },
+  "2404": {
+    "GameName": "Corrupting Shot (Explode)",
+    "DevName": "GE_MF_BossNecrolord_DispellableSoakDot_SoakExplodeDamage",
+    "Type": "1024",
+    "FSLID": "1002404"
+  },
+  "2405": {
+    "GameName": "Corrupting Shot",
+    "DevName": "GE_MF_BossNecrolord_DispellableSoakDot_Dot",
+    "Type": "1",
+    "FSLID": "1002405"
+  },
+  "2407": {
+    "GameName": "Searing Beam",
+    "DevName": "GE_CM_RubiliteAurastone_LockOnLaser_Dot",
+    "Type": "1024",
+    "FSLID": "1002407"
+  },
+  "2410": {
+    "GameName": "Tethered",
+    "DevName": "GE_SH_BossSpider_Tether_CountDownToPull",
+    "Type": "1",
+    "FSLID": "1002410"
+  },
+  "2411": {
+    "GameName": "Razorlace Web",
+    "DevName": "GE_SH_GravesnareKidnapper_ConeAoeProjectiles_Slow",
+    "Type": "1",
+    "FSLID": "1002411"
+  },
+  "2412": {
+    "GameName": "Razorlace Web",
+    "DevName": "GE_SH_GravesnareKidnapper_ConeAoeProjectiles_Dot",
+    "Type": "1024",
+    "FSLID": "1002412"
+  },
+  "2420": {
+    "GameName": "Spirit Armor",
+    "DevName": "GE_Meiko_SpiritProc_IncreasedArmorBuff",
+    "Type": "1",
+    "FSLID": "1002420"
+  },
+  "2423": {
+    "GameName": "Face Breaker",
+    "DevName": "GE_Ink_Passive_Talent_SecondChanceSingleTargetAttack_CritAoe_Damage",
+    "Type": "1",
+    "FSLID": "1002423"
+  },
+  "2428": {
+    "GameName": "Aftershock",
+    "DevName": "GE_Warmaster_Talent_MoveToTargetStun_ArrivalMeleeAoeSlow_TargetExtraWarmasterDamage",
+    "Type": "1",
+    "FSLID": "1002428"
+  },
+  "2429": {
+    "GameName": "Vanguard's Advance",
+    "DevName": "GE_Warmaster_Talent_MeleeAoeSlow_ReducedIncomingDamageFromTarget",
+    "Type": "1",
+    "FSLID": "1002429"
+  },
+  "2430": {
+    "GameName": "Malevolence: Queen's Fang",
+    "DevName": "GE_Mara_Talent_DamageSpenders_BuffOtherSpender_HeavyAttackSpenderProc",
+    "Type": "1",
+    "FSLID": "1002430"
+  },
+  "2431": {
+    "GameName": "Malevolence: Arachnid Assault",
+    "DevName": "GE_Mara_Talent_DamageSpenders_BuffOtherSpender_AoeAttackSpenderProc",
+    "Type": "1",
+    "FSLID": "1002431"
+  },
+  "2432": {
+    "GameName": "Soulbrand: Remnant",
+    "DevName": "GE_Vigor_SingleTargetDot_BuffActiveAdditionalDirectDamage",
+    "Type": "1024",
+    "FSLID": "1002432"
+  },
+  "2434": {
+    "GameName": "Deadly Scheme",
+    "DevName": "GE_Mara_Talent_ResourceAttackSpenderCritChance_Stacker",
+    "Type": "1",
+    "FSLID": "1002434"
+  },
+  "2435": {
+    "GameName": "Empowered Shield Slam",
+    "DevName": "GE_Warmaster_MeleeCleave_AbsorbBuff_SelfBuff",
+    "Type": "1",
+    "FSLID": "1002435"
+  },
+  "2437": {
+    "GameName": "Orb Energy",
+    "DevName": "GE_UB_BossArchBishop_Orb_OrbOnDeathBuff_Buff",
+    "Type": "1",
+    "FSLID": "1002437"
+  },
+  "2438": {
+    "GameName": "Harrowing Solitude",
+    "DevName": "GE_SG_GhostEruptor_SoakDebuff_Debuff",
+    "Type": "1",
+    "FSLID": "1002438"
+  },
+  "2441": {
+    "GameName": "Curse of the Covetous",
+    "DevName": "GE_PR_BossTreasureDemon_BallMoverDebuff",
+    "Type": "1",
+    "FSLID": "1002441"
+  },
+  "2443": {
+    "GameName": "Pending Revive",
+    "DevName": "GE_Shared_Status_BeingRevived",
+    "Type": "1",
+    "FSLID": "1002443"
+  },
+  "2446": {
+    "GameName": "Flight of the Navir",
+    "DevName": "GE_Rime_TargetedPeriodicProjectileAoe_AoeBuff",
+    "Type": "1",
+    "FSLID": "1002446"
+  },
+  "2447": {
+    "GameName": "Warden of the Temple",
+    "DevName": "GE_Meiko_Talent_ConsumedBuffsToDefensiveBuff_Stacker",
+    "Type": "1",
+    "FSLID": "1002447"
+  },
+  "2449": {
+    "GameName": "Earthwell",
+    "DevName": "GE_Meiko_DamageSoakBuff_StoneInvinsibilityBuff",
+    "Type": "1",
+    "FSLID": "1002449"
+  },
+  "2450": {
+    "GameName": "Everlasting Spirit: Pulse",
+    "DevName": "GE_Meiko_Talent_InstantSelfDefensive_DamageReductionLessHel_Damage",
+    "Type": "1024",
+    "FSLID": "1002450"
+  },
+  "2454": {
+    "GameName": "Harsh Winds",
+    "DevName": "GE_Meiko_Talent_DurationalAoeDamageBuff_FinisherIncreasedDodgeChance_DodgeChance",
+    "Type": "1",
+    "FSLID": "1002454"
+  },
+  "2455": {
+    "GameName": "Keelhaul",
+    "DevName": "GE_PR_BossAnchor_PeriodicMultiSoak_Dot",
+    "Type": "1024",
+    "FSLID": "1002455"
+  },
+  "2462": {
+    "GameName": "Bursting Brood: Acidic Goo",
+    "DevName": "GE_SH_CarrionHorror_ExplodeCorpse_Dot",
+    "Type": "1024",
+    "FSLID": "1002462"
+  },
+  "2463": {
+    "GameName": "Returned Buff",
+    "DevName": "GE_PR_BossPirateCaptain_ObstacleCourse_ReturnBuff",
+    "Type": "1",
+    "FSLID": "1002463"
+  },
+  "2465": {
+    "GameName": "Touch of Death",
+    "DevName": "GE_PR_BossPirateCaptain_DebuffAoePool_PoolDamage",
+    "Type": "1024",
+    "FSLID": "1002465"
+  },
+  "2466": {
+    "GameName": "Touch of Death",
+    "DevName": "GE_PR_BossPirateCaptain_DebuffAoePool_PlacementDebuff",
+    "Type": "1",
+    "FSLID": "1002466"
+  },
+  "2478": {
+    "GameName": "Lingering Concussion",
+    "DevName": "GE_Warmaster_MeleeCleave_ReducedIncomingDamageFromTarget_Debuff",
+    "Type": "1",
+    "FSLID": "1002478"
+  },
+  "2484": {
+    "GameName": "Torment of Bael'Aurum",
+    "DevName": "GE_ArmorSetBonus_PowerBonusAndAutoHeal_Heal_CooldownVisualBuff",
+    "Type": "1",
+    "FSLID": "1002484"
+  },
+  "2492": {
+    "GameName": "The White Witch's Boon: Shield",
+    "DevName": "GE_DungeonModifier_WinterWitch_BoonAoeBuff",
+    "Type": "8",
+    "FSLID": "1002492"
+  },
+  "2493": {
+    "GameName": "The White Witch's Boon",
+    "DevName": "GE_DungeonModifier_WinterWitch_BoonActivated",
+    "Type": "1",
+    "FSLID": "1002493"
+  },
+  "2496": {
+    "GameName": "Lingering Chill",
+    "DevName": "GE_DM_WinterWitch_ChannelAoeDamage_SlowDebuff",
+    "Type": "1",
+    "FSLID": "1002496"
+  },
+  "2498": {
+    "GameName": "The White Witch's Boon: Shield",
+    "DevName": "GE_DM_WinterWitch_CastSelfAbsorbHot_Buff",
+    "Type": "8",
+    "FSLID": "1002498"
+  },
+  "2522": {
+    "GameName": "Ghorn's Boon",
+    "DevName": "GE_DungeonModifier_WinterGiant_BoonActivated",
+    "Type": "1",
+    "FSLID": "1002522"
+  },
+  "2530": {
+    "GameName": "Icebreaker",
+    "DevName": "GE_DM_WinterGiant_CastSoakDebuff_Debuff",
+    "Type": "1",
+    "FSLID": "1002530"
+  },
+  "2544": {
+    "GameName": "Taunted",
+    "DevName": "GE_Sune_SingleTargetTaunt_Taunt",
+    "Type": "1",
+    "FSLID": "1002544"
+  },
+  "2551": {
+    "GameName": "Solar Shield",
+    "DevName": "GE_Sune_SingleTargetAbsorb_Absorb",
+    "Type": "1",
+    "FSLID": "1002551"
+  },
+  "2553": {
+    "GameName": "Solaris",
+    "DevName": "GE_Sune_OverhealToAoeDamage_Damage",
+    "Type": "1",
+    "FSLID": "1002553"
+  },
+  "2555": {
+    "GameName": "Blinded",
+    "DevName": "GE_Sune_AutoAttackParryDebuff_Debuff",
+    "Type": "1",
+    "FSLID": "1002555"
+  },
+  "2557": {
+    "GameName": "Decree of the Sun",
+    "DevName": "GE_Sune_SelfImmunityAndAoeHeal_SelfBuff_Immunity",
+    "Type": "1",
+    "FSLID": "1002557"
+  },
+  "2558": {
+    "GameName": "Decree of the Sun",
+    "DevName": "GE_Sune_SelfImmunityAndAoeHeal_SelfBuff_DamageReduction",
+    "Type": "1",
+    "FSLID": "1002558"
+  },
+  "2566": {
+    "GameName": "Stunned",
+    "DevName": "GE_Sune_InstantConeStunAndPull_Stun",
+    "Type": "1",
+    "FSLID": "1002566"
+  },
+  "2569": {
+    "GameName": "Shining Halo",
+    "DevName": "GE_Sune_DroppedPulseAoe_SelfBuff",
+    "Type": "1",
+    "FSLID": "1002569"
+  },
+  "2574": {
+    "GameName": "Omega Reprieval",
+    "DevName": "GE_Sune_BuffedTargetedCastedHealOrDamage_Buff",
+    "Type": "1",
+    "FSLID": "1002574"
+  },
+  "2582": {
+    "GameName": "Chrono Bind",
+    "DevName": "GE_Lisa_TargetedAoeSilence_Buff",
+    "Type": "1",
+    "FSLID": "1002582"
+  },
+  "2584": {
+    "GameName": "Resonant Fate",
+    "DevName": "GE_Lisa_Talent_StaggerOverhealToStackingHeal_HealStacker",
+    "Type": "1",
+    "FSLID": "1002584"
+  },
+  "2585": {
+    "GameName": "Resonant Fate",
+    "DevName": "GE_Lisa_Talent_StaggerOverhealToStackingHeal_Heal",
+    "Type": "8",
+    "FSLID": "1002585"
+  },
+  "2586": {
+    "GameName": "Resonant Fate: Exhausted",
+    "DevName": "GE_Lisa_Talent_StaggerOverhealToStackingHeal_Cooldown",
+    "Type": "1",
+    "FSLID": "1002586"
+  },
+  "2588": {
+    "GameName": "Chrona Tap",
+    "DevName": "GE_Lisa_Talent_SpendersToManaRegen_ManaRegen",
+    "Type": "1",
+    "FSLID": "1002588"
+  },
+  "2593": {
+    "GameName": "Uchronia",
+    "DevName": "GE_Lisa_Talent_ResourceToFreeSpender_Stacker",
+    "Type": "1",
+    "FSLID": "1002593"
+  },
+  "2603": {
+    "GameName": "Entropy's Claim",
+    "DevName": "GE_Lisa_SingleTargetDot_Dot",
+    "Type": "1024",
+    "FSLID": "1002603"
+  },
+  "2613": {
+    "GameName": "Epoch Break",
+    "DevName": "GE_Lisa_PauseResourcesAndPartyHealth_HealthBuff",
+    "Type": "1",
+    "FSLID": "1002613"
+  },
+  "2616": {
+    "GameName": "Echoes of Ruin",
+    "DevName": "GE_Lisa_InstantSingleTargetDamageAndDot_Dot",
+    "Type": "1024",
+    "FSLID": "1002616"
+  },
+  "2624": {
+    "GameName": "Unfolding Doom",
+    "DevName": "GE_Lisa_CastedProjectileDamageIncreaseDebuff_Debuff",
+    "Type": "1",
+    "FSLID": "1002624"
+  },
+  "2649": {
+    "GameName": "Hallowed Shield",
+    "DevName": "GE_Sune_Talent_SingleTargetAbsorb_ParryBoost_Buff",
+    "Type": "1",
+    "FSLID": "1002649"
+  },
+  "2651": {
+    "GameName": "Counter-Attack",
+    "DevName": "GE_Sune_Talent_ParryCounterAttack_Damage",
+    "Type": "1",
+    "FSLID": "1002651"
+  },
+  "2652": {
+    "GameName": "Vanguard of Vengeance",
+    "DevName": "GE_Sune_Talent_ParryCounterAttack_Buff",
+    "Type": "1",
+    "FSLID": "1002652"
+  },
+  "2653": {
+    "GameName": "Shifting Spectrum",
+    "DevName": "GE_Sune_Talent_LowHealthDamageReduction",
+    "Type": "1",
+    "FSLID": "1002653"
+  },
+  "2655": {
+    "GameName": "Light's Oath",
+    "DevName": "GE_Sune_Talent_DroppedPulseAoe_StackingBoostBuff",
+    "Type": "1",
+    "FSLID": "1002655"
+  },
+  "2658": {
+    "GameName": "Fortress in the Sands: Exhausted",
+    "DevName": "GE_Sune_Talent_DeathPrevention_Cooldown",
+    "Type": "1",
+    "FSLID": "1002658"
+  },
+  "2661": {
+    "GameName": "Golden Hour",
+    "DevName": "GE_Sune_Talent_AoeMelee_CooldownProc_Proc",
+    "Type": "1",
+    "FSLID": "1002661"
+  },
+  "2662": {
+    "GameName": "Spirit of Heroism",
+    "DevName": "GE_Sune_SpiritTriggeredBuff",
+    "Type": "1",
+    "FSLID": "1002662"
+  },
+  "2663": {
+    "GameName": "Swift Reprieval",
+    "DevName": "GE_Sune_Resource_Proc",
+    "Type": "1",
+    "FSLID": "1002663"
+  },
+  "2664": {
+    "GameName": "Sunstruck",
+    "DevName": "GE_Sune_AoeMeleeDamageBoostAndManaRefundDebuff_Debuff",
+    "Type": "1",
+    "FSLID": "1002664"
+  },
+  "2667": {
+    "GameName": "Gift of Solace",
+    "DevName": "GE_Sune_DamageTransferAura_SelfBuff",
+    "Type": "1",
+    "FSLID": "1002667"
+  },
+  "2669": {
+    "GameName": "Aura of Solace",
+    "DevName": "GE_Sune_DamageTransferAura_Damage",
+    "Type": "1024",
+    "FSLID": "1002669"
+  },
+  "2676": {
+    "GameName": "Continuum Shift",
+    "DevName": "GE_Lisa_Talent_CastedProjectileDamageIncreaseDebuff_DamageAbilityBuff_Buff",
+    "Type": "1",
+    "FSLID": "1002676"
+  },
+  "2696": {
+    "GameName": "Stagger",
+    "DevName": "GE_Shared_Stagger_Damage",
+    "Type": "1",
+    "FSLID": "1002696"
+  },
+  "2699": {
+    "GameName": "Storm's Fury",
+    "DevName": "GE_DungeonModifier_StormShield_ShieldBuff_CritBonusBuff",
+    "Type": "1",
+    "FSLID": "1002699"
+  },
+  "2700": {
+    "GameName": "Storm Shield",
+    "DevName": "GE_DungeonModifier_StormShield_ShieldBuff_Buff",
+    "Type": "1",
+    "FSLID": "1002700"
+  },
+  "2704": {
+    "GameName": "Anomalous Residue: Topaz",
+    "DevName": "GE_DungeonModifier_AnomalousOrbs_Buff_Topaz",
+    "Type": "1",
+    "FSLID": "1002704"
+  },
+  "2705": {
+    "GameName": "Anomalous Residue: Sapphire",
+    "DevName": "GE_DungeonModifier_AnomalousOrbs_Buff_Sapphire",
+    "Type": "1",
+    "FSLID": "1002705"
+  },
+  "2706": {
+    "GameName": "Anomalous Residue: Ruby",
+    "DevName": "GE_DungeonModifier_AnomalousOrbs_Buff_Ruby",
+    "Type": "1",
+    "FSLID": "1002706"
+  },
+  "2707": {
+    "GameName": "Anomalous Residue: Emerald",
+    "DevName": "GE_DungeonModifier_AnomalousOrbs_Buff_Emerald",
+    "Type": "1",
+    "FSLID": "1002707"
+  },
+  "2708": {
+    "GameName": "Anomalous Residue: Diamond",
+    "DevName": "GE_DungeonModifier_AnomalousOrbs_Buff_Diamond",
+    "Type": "1",
+    "FSLID": "1002708"
+  },
+  "2710": {
+    "GameName": "Anomalous Residue: Amethyst",
+    "DevName": "GE_DungeonModifier_AnomalousOrbs_Buff_Amethyst",
+    "Type": "1",
+    "FSLID": "1002710"
+  },
+  "2711": {
+    "GameName": "Anomalous Instability",
+    "DevName": "GE_DungeonModifier_AnomalousOrbs_BlockAllSkills_SelfDebuff",
+    "Type": "1",
+    "FSLID": "1002711"
+  },
+  "2712": {
+    "GameName": "Ancestral Intervention",
+    "DevName": "GE_Trait_DeathPreventionWithImmunity_ImmunityBuff",
+    "Type": "1",
+    "FSLID": "1002712"
+  },
+  "2713": {
+    "GameName": "Ancestral Intervention: Cooldown",
+    "DevName": "GE_Trait_DeathPreventionWithImmunity_Cooldown",
+    "Type": "1",
+    "FSLID": "1002713"
+  },
+  "2714": {
+    "GameName": "Against All Odds: Cooldown",
+    "DevName": "GE_Trait_BigBlowMitigation_Cooldown",
+    "Type": "1",
+    "FSLID": "1002714"
+  },
+  "2715": {
+    "GameName": "Obsidian Skin",
+    "DevName": "GE_RelicPower_PersonalDamageReductionBuff_Buff",
+    "Type": "1",
+    "FSLID": "1002715"
+  },
+  "2716": {
+    "GameName": "GE_EM_BossGiantTroll_SummonAdds_DamageBossOnDeath_Damage_C",
+    "DevName": "GE_EM_BossGiantTroll_SummonAdds_DamageBossOnDeath_Damage",
+    "Type": "1",
+    "FSLID": "1002716"
+  },
+  "2717": {
+    "GameName": "Joint Endurance",
+    "DevName": "GE_EM_BossGiantTroll_SummonAdds_DamageBossOnDeath",
+    "Type": "1",
+    "FSLID": "1002717"
+  },
+  "2721": {
+    "GameName": "Invictus",
+    "DevName": "GE_Sune_Talent_SingleTargetAbsorb_AoeDamage_Damage",
+    "Type": "1024",
+    "FSLID": "1002721"
+  },
+  "2723": {
+    "GameName": "Grossly Incandescent",
+    "DevName": "GE_Sune_Passive_talent_ResourceConsumed_StackingBuffToProc_Stacker",
+    "Type": "1",
+    "FSLID": "1002723"
+  },
+  "2724": {
+    "GameName": "Sun's Touch",
+    "DevName": "GE_Sune_Talent_InstantSingleTargetHealOrDamage_DotHot_Hot",
+    "Type": "8",
+    "FSLID": "1002724"
+  },
+  "2725": {
+    "GameName": "Sun's Touch",
+    "DevName": "GE_Sune_Talent_InstantSingleTargetHealOrDamage_DotHot_Dot",
+    "Type": "1024",
+    "FSLID": "1002725"
+  },
+  "2727": {
+    "GameName": "Solar Glare",
+    "DevName": "GE_Sune_Talent_AtTargetInstantAoe_DamageReduction_Debuff",
+    "Type": "1",
+    "FSLID": "1002727"
+  },
+  "2730": {
+    "GameName": "Navir's Keeper",
+    "DevName": "GE_Rime_Talent_InstantSingleDamage_FreeCast_Proc",
+    "Type": "1",
+    "FSLID": "1002730"
+  },
+  "2735": {
+    "GameName": "Erasure",
+    "DevName": "GE_Lisa_Talent_InstantDamageSpender_DamageToDot_Dot",
+    "Type": "1024",
+    "FSLID": "1002735"
+  },
+  "2736": {
+    "GameName": "Oblivion's Embrace",
+    "DevName": "GE_Lisa_InstantDamageSpender_Absorb_Absorb",
+    "Type": "1",
+    "FSLID": "1002736"
+  },
+  "2739": {
+    "GameName": "Aura of Deferred Fate",
+    "DevName": "GE_Lisa_Stagger_Attributes",
+    "Type": "1",
+    "FSLID": "1002739"
+  },
+  "2744": {
+    "GameName": "Fleeting Hour",
+    "DevName": "GE_Lisa_InstantSelfBuff_SelfBuff",
+    "Type": "1",
+    "FSLID": "1002744"
+  },
+  "2754": {
+    "GameName": "Charged Up",
+    "DevName": "GE_Ink_Talent_AutoAttackBuff_GainToChainLightningDamage",
+    "Type": "1",
+    "FSLID": "1002754"
+  },
+  "2755": {
+    "GameName": "Heavy Strike",
+    "DevName": "GE_Ink_AutoAttackBuff_CleaveDamage",
+    "Type": "1024",
+    "FSLID": "1002755"
+  },
+  "2818": {
+    "GameName": "Echoes of Divinity",
+    "DevName": "GE_Lisa_Talent_StaggerRemovalOverTime",
+    "Type": "1",
+    "FSLID": "1002818"
+  },
+  "2819": {
+    "GameName": "Entropic Burst",
+    "DevName": "GE_Lisa_Talent_SingleTargetDot_DotAoe_Dot",
+    "Type": "1024",
+    "FSLID": "1002819"
+  },
+  "2820": {
+    "GameName": "Cooldown Recovery",
+    "DevName": "GE_Lisa_Talent_InstantDamageSpender_SelfBuff_Buff",
+    "Type": "1",
+    "FSLID": "1002820"
+  },
+  "2823": {
+    "GameName": "Ability Enhancement",
+    "DevName": "GE_Lisa_Talent_CastedProjectileDamageIncreaseDebuff_DamageAbilityBuff_Stun",
+    "Type": "1",
+    "FSLID": "1002823"
+  },
+  "2832": {
+    "GameName": "Lunarlight Salvo: Erupt",
+    "DevName": "GE_Bowguy_InstantMarkTarget_AoeDamage",
+    "Type": "1024",
+    "FSLID": "1002832"
+  },
+  "2838": {
+    "GameName": "Residual Light",
+    "DevName": "GE_Vigor_SingleTargetAbsorb_UponRemovalBuff",
+    "Type": "1",
+    "FSLID": "1002838"
   }
 }

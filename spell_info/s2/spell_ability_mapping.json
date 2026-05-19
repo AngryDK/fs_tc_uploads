@@ -53,11 +53,23 @@
     "Type": "1",
     "FSLID": "53"
   },
+  "55": {
+    "GameName": "Kamikazee",
+    "DevName": "GA_PR_ShipRat_MoveToTarget",
+    "Type": "1",
+    "FSLID": "55"
+  },
   "56": {
     "GameName": "Dark Cleave",
     "DevName": "GA_PR_PirateGrunt_CastedTankAoeDamage",
     "Type": "1",
     "FSLID": "56"
+  },
+  "57": {
+    "GameName": "Bombs Away!",
+    "DevName": "GA_PR_CannonPirate_Bombardment",
+    "Type": "1",
+    "FSLID": "57"
   },
   "59": {
     "GameName": "Grip",
@@ -65,17 +77,59 @@
     "Type": "1",
     "FSLID": "59"
   },
+  "62": {
+    "GameName": "Erosion of Time",
+    "DevName": "GA_IC_Healer_TwoTargetDot",
+    "Type": "1",
+    "FSLID": "62"
+  },
   "63": {
     "GameName": "Decripify",
     "DevName": "GA_IC_Healer_HighThreatChannel",
     "Type": "1",
     "FSLID": "63"
   },
+  "64": {
+    "GameName": "Temporal Manipulation",
+    "DevName": "GA_IC_Healer_ChanneledMultiTargetHeal",
+    "Type": "1",
+    "FSLID": "64"
+  },
   "65": {
     "GameName": "Attack",
     "DevName": "GA_IC_Healer_AutoAttackMelee",
     "Type": "1",
     "FSLID": "65"
+  },
+  "66": {
+    "GameName": "Coldheart Poison",
+    "DevName": "GA_IC_Assassin_PoisonDagger",
+    "Type": "1",
+    "FSLID": "66"
+  },
+  "69": {
+    "GameName": "Shardling Explosion",
+    "DevName": "GA_FK_Elf_Shardling_DeathExplosion",
+    "Type": "1",
+    "FSLID": "69"
+  },
+  "70": {
+    "GameName": "Attack",
+    "DevName": "GA_FK_BossFreezingWaterLord_AutoAttack",
+    "Type": "1",
+    "FSLID": "70"
+  },
+  "71": {
+    "GameName": "Bloodhunter's Mark",
+    "DevName": "GA_FK_BossElfDragon_MultiDashTargetingAbility",
+    "Type": "1",
+    "FSLID": "71"
+  },
+  "78": {
+    "GameName": "Wicked Hook",
+    "DevName": "GA_DR_BossCultLeader_Grip",
+    "Type": "1",
+    "FSLID": "78"
   },
   "85": {
     "GameName": "Sweeping Hook",
@@ -167,6 +221,12 @@
     "Type": "1",
     "FSLID": "142"
   },
+  "143": {
+    "GameName": "Meteor Rain: Meteor",
+    "DevName": "GA_DungeonModifier_MeteorRain",
+    "Type": "1024",
+    "FSLID": "143"
+  },
   "144": {
     "GameName": "Protective Aura",
     "DevName": "GA_NPC_MalevolentSpirits_Spirit_Aura",
@@ -184,6 +244,18 @@
     "DevName": "GA_DungeonModifier_BloodShardVolley",
     "Type": "1024",
     "FSLID": "148"
+  },
+  "149": {
+    "GameName": "Douse Flame",
+    "DevName": "GA_DR_InteractableOpenFlameGate",
+    "Type": "1",
+    "FSLID": "149"
+  },
+  "150": {
+    "GameName": "Keep Looking",
+    "DevName": "GA_LookAtTutorial",
+    "Type": "1",
+    "FSLID": "150"
   },
   "152": {
     "GameName": "Al'zerac's Shackle",
@@ -220,6 +292,18 @@
     "DevName": "GA_Weapon_CastedBuffStacksHealOnDamage",
     "Type": "8",
     "FSLID": "164"
+  },
+  "166": {
+    "GameName": "Ruby Storm",
+    "DevName": "GA_Trait_GemWhirlwindProc",
+    "Type": "1024",
+    "FSLID": "166"
+  },
+  "167": {
+    "GameName": "Emerald Judgement",
+    "DevName": "GA_Trait_GemTargetedSpikeProc",
+    "Type": "1024",
+    "FSLID": "167"
   },
   "168": {
     "GameName": "Diamond Strike",
@@ -287,6 +371,24 @@
     "Type": "1024",
     "FSLID": "203"
   },
+  "204": {
+    "GameName": "Attack",
+    "DevName": "GA_VV_IcebiteReaver_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "204"
+  },
+  "205": {
+    "GameName": "Glacial Sunder",
+    "DevName": "GA_VV_IcebiteReaver_Slam",
+    "Type": "1024",
+    "FSLID": "205"
+  },
+  "206": {
+    "GameName": "Frostbitten Strength",
+    "DevName": "GA_VV_IcebiteReaver_HasteBuff",
+    "Type": "1",
+    "FSLID": "206"
+  },
   "207": {
     "GameName": "Attack",
     "DevName": "GA_VV_IcebitePillager_MeleeAutoAttack",
@@ -298,6 +400,210 @@
     "DevName": "GA_VV_FrenziedLooter_MeleeAutoAttack",
     "Type": "1",
     "FSLID": "209"
+  },
+  "211": {
+    "GameName": "Attack",
+    "DevName": "GA_VV_CravenHiisi_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "211"
+  },
+  "212": {
+    "GameName": "Jump 'n Bonk",
+    "DevName": "GA_VV_CravenHiisi_JumpAttack",
+    "Type": "1",
+    "FSLID": "212"
+  },
+  "215": {
+    "GameName": "Bonk Noggin",
+    "DevName": "GA_VV_CravenHiisi_AttachedAttack",
+    "Type": "1",
+    "FSLID": "215"
+  },
+  "216": {
+    "GameName": "Attack",
+    "DevName": "GA_VV_ColdbrineFiend_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "216"
+  },
+  "217": {
+    "GameName": "Brine Bolt",
+    "DevName": "GA_VV_ColdbrineFiend_CastProjectile",
+    "Type": "1024",
+    "FSLID": "217"
+  },
+  "218": {
+    "GameName": "Icy Annihilation",
+    "DevName": "GA_VV_ColdbrineFiend_CastBigProjectile",
+    "Type": "1024",
+    "FSLID": "218"
+  },
+  "220": {
+    "GameName": "Blinding Fear",
+    "DevName": "GA_VV_ColdbrineElementalist_CastProjectile",
+    "Type": "1",
+    "FSLID": "220"
+  },
+  "222": {
+    "GameName": "Glacial Slam",
+    "DevName": "GA_VV_BossChilgar_TankSoakAoe",
+    "Type": "1024",
+    "FSLID": "222"
+  },
+  "223": {
+    "GameName": "Arctic Winds",
+    "DevName": "GA_VV_BossChilgar_SwirlProjectile",
+    "Type": "1024",
+    "FSLID": "223"
+  },
+  "228": {
+    "GameName": "Freezing Flood",
+    "DevName": "GA_VV_BossChilgar_LinearProjectiles",
+    "Type": "1",
+    "FSLID": "228"
+  },
+  "229": {
+    "GameName": "Attack",
+    "DevName": "GA_VV_BossChilgar_AutoAttack",
+    "Type": "1",
+    "FSLID": "229"
+  },
+  "232": {
+    "GameName": "Devouring Darkness",
+    "DevName": "GA_BossVikingMystic_RuneMinion_Cast",
+    "Type": "1",
+    "FSLID": "232"
+  },
+  "234": {
+    "GameName": "Blinding Fear",
+    "DevName": "GA_VV_BossVikingMystic_TransferableDebuff",
+    "Type": "1",
+    "FSLID": "234"
+  },
+  "235": {
+    "GameName": "Revelation",
+    "DevName": "GA_VV_BossVikingMystic_TeleportAttack",
+    "Type": "1024",
+    "FSLID": "235"
+  },
+  "236": {
+    "GameName": "Abyssal Offering",
+    "DevName": "GA_VV_BossVikingMystic_TankNuke",
+    "Type": "1024",
+    "FSLID": "236"
+  },
+  "237": {
+    "GameName": "Dark Ritual",
+    "DevName": "GA_VV_BossVikingMystic_StartPhase2",
+    "Type": "1",
+    "FSLID": "237"
+  },
+  "239": {
+    "GameName": "Attack",
+    "DevName": "GA_VV_BossVikingMystic_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "239"
+  },
+  "241": {
+    "GameName": "Burning",
+    "DevName": "GA_VV_BossVikingMystic_FogDamage",
+    "Type": "1",
+    "FSLID": "241"
+  },
+  "242": {
+    "GameName": "Channel Ritual",
+    "DevName": "GA_VV_BossVikingMystic_ChanneledAoeDamage",
+    "Type": "1024",
+    "FSLID": "242"
+  },
+  "247": {
+    "GameName": "Freezing",
+    "DevName": "GA_VV_BossKaldursonIce_ColdDebuff",
+    "Type": "1",
+    "FSLID": "247"
+  },
+  "248": {
+    "GameName": "Blazing Slam",
+    "DevName": "GA_VV_BossKaldursonFire_Stomp",
+    "Type": "1",
+    "FSLID": "248"
+  },
+  "249": {
+    "GameName": "Frost Bite",
+    "DevName": "GA_VV_BossKaldursonFire_DotAura",
+    "Type": "1",
+    "FSLID": "249"
+  },
+  "250": {
+    "GameName": "Attack",
+    "DevName": "GA_VV_BossKaldursonFire_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "250"
+  },
+  "251": {
+    "GameName": "Burning",
+    "DevName": "GA_VV_BossFrostTroll_IceBlock_Freeze",
+    "Type": "1",
+    "FSLID": "251"
+  },
+  "252": {
+    "GameName": "Blazing Slam",
+    "DevName": "GA_VV_BossFrostTroll_Stomp",
+    "Type": "1",
+    "FSLID": "252"
+  },
+  "255": {
+    "GameName": "Frost Bite",
+    "DevName": "GA_VV_BossFrostTroll_SingleTargetDot",
+    "Type": "1",
+    "FSLID": "255"
+  },
+  "257": {
+    "GameName": "Attack",
+    "DevName": "GA_VV_BossFrostTroll_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "257"
+  },
+  "264": {
+    "GameName": "Attack",
+    "DevName": "GA_VV_BlackmistWhisperer_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "264"
+  },
+  "265": {
+    "GameName": "Silence",
+    "DevName": "GA_VV_BlackmistWhisperer_Silence",
+    "Type": "1",
+    "FSLID": "265"
+  },
+  "266": {
+    "GameName": "Shadow Bolt",
+    "DevName": "GA_VV_BlackmistWhisperer_CastProjectile",
+    "Type": "1024",
+    "FSLID": "266"
+  },
+  "268": {
+    "GameName": "Attack",
+    "DevName": "GA_VV_BlackmistShadow_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "268"
+  },
+  "269": {
+    "GameName": "Dark Ritual",
+    "DevName": "GA_VV_BlackmistShadow_RunePuzzle",
+    "Type": "1",
+    "FSLID": "269"
+  },
+  "271": {
+    "GameName": "Devouring Darkness",
+    "DevName": "GA_BlackmistShadowMinion_Cast",
+    "Type": "1024",
+    "FSLID": "271"
+  },
+  "272": {
+    "GameName": "Shadow Slam",
+    "DevName": "GA_VV_BlackmistShadow_MagicSlam",
+    "Type": "1024",
+    "FSLID": "272"
   },
   "273": {
     "GameName": "Attack",
@@ -316,6 +622,54 @@
     "DevName": "GA_VV_BlackmistCutthroat_Backstab",
     "Type": "1",
     "FSLID": "275"
+  },
+  "276": {
+    "GameName": "Attack",
+    "DevName": "GA_VV_BlackburnSlaver_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "276"
+  },
+  "278": {
+    "GameName": "Attack",
+    "DevName": "GA_VV_BlackburnMystic_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "278"
+  },
+  "279": {
+    "GameName": "Eye of Ul'morgat",
+    "DevName": "GA_VV_BlackburnMystic_RotatingOrb",
+    "Type": "1",
+    "FSLID": "279"
+  },
+  "280": {
+    "GameName": "Invigorate",
+    "DevName": "GA_VV_BlackburnMystic_Heal",
+    "Type": "8",
+    "FSLID": "280"
+  },
+  "281": {
+    "GameName": "Frost Bolt",
+    "DevName": "GA_VV_BlackburnMystic_CastProjectile",
+    "Type": "1024",
+    "FSLID": "281"
+  },
+  "282": {
+    "GameName": "Blackburn Eye",
+    "DevName": "GA_VC_BossBrute_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "282"
+  },
+  "287": {
+    "GameName": "Attack",
+    "DevName": "GA_UM_UrrakWitch_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "287"
+  },
+  "290": {
+    "GameName": "Mossfire Bolt",
+    "DevName": "GA_UM_UrrakWitch_CastProjectile",
+    "Type": "1024",
+    "FSLID": "290"
   },
   "291": {
     "GameName": "Attack",
@@ -341,6 +695,24 @@
     "Type": "1",
     "FSLID": "295"
   },
+  "296": {
+    "GameName": "Orb of Blood",
+    "DevName": "GA_UM_HornedSeer_OrbProjectile",
+    "Type": "1024",
+    "FSLID": "296"
+  },
+  "297": {
+    "GameName": "Attack",
+    "DevName": "GA_UM_HornedSeer_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "297"
+  },
+  "298": {
+    "GameName": "Sanguine Offering",
+    "DevName": "GA_UM_HornedSeer_ChanneledOrbProjectiles",
+    "Type": "1",
+    "FSLID": "298"
+  },
   "299": {
     "GameName": "Attack",
     "DevName": "GA_UM_GorestainedButcher_MeleeAutoAttack",
@@ -359,11 +731,77 @@
     "Type": "1",
     "FSLID": "302"
   },
+  "303": {
+    "GameName": "Attack",
+    "DevName": "GA_UM_Desecrater_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "303"
+  },
   "304": {
     "GameName": "Infernal Explosive",
     "DevName": "GA_UM_Desecrater_AOESoak",
     "Type": "1024",
     "FSLID": "304"
+  },
+  "305": {
+    "GameName": "Attack",
+    "DevName": "GA_UM_BossSlavetraderBrull_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "305"
+  },
+  "307": {
+    "GameName": "Enrage",
+    "DevName": "GA_UM_BossSlavetraderBrull_Aina_Shared_EnragePassive",
+    "Type": "1",
+    "FSLID": "307"
+  },
+  "308": {
+    "GameName": "Wild Bolt",
+    "DevName": "GA_UM_BossSlavetraderBrull_CastFillerProjectile",
+    "Type": "1024",
+    "FSLID": "308"
+  },
+  "309": {
+    "GameName": "Creeping Death",
+    "DevName": "GA_UM_BossSlavetraderBrull_CastDebuffProjectile",
+    "Type": "1024",
+    "FSLID": "309"
+  },
+  "310": {
+    "GameName": "Attack",
+    "DevName": "GA_UM_BossDrazhulTheFleshbroker_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "310"
+  },
+  "311": {
+    "GameName": "Conjure Scythe",
+    "DevName": "GA_UM_BossDrazhulTheFleshbroker_ConjureScythe",
+    "Type": "1",
+    "FSLID": "311"
+  },
+  "312": {
+    "GameName": "Infernal Explosive",
+    "DevName": "GA_UM_BossDrazhulTheFleshbroker_AOESoak",
+    "Type": "1024",
+    "FSLID": "312"
+  },
+  "313": {
+    "GameName": "Vortex",
+    "DevName": "GA_UM_BossDrazhulTheFleshbroker_AoEDamageSlow",
+    "Type": "1",
+    "FSLID": "313"
+  },
+  "314": {
+    "GameName": "Enrage",
+    "DevName": "GA_UM_BossDrazhulTheFleshbroker_Aina_Shared_EnragePassive",
+    "Type": "1",
+    "FSLID": "314"
+  },
+  "316": {
+    "GameName": "Wildroot Thorns",
+    "DevName": "GA_UC_RottenWretchHands_AutoAttackMelee",
+    "Type": "1",
+    "FSLID": "316"
   },
   "320": {
     "GameName": "Frenzy",
@@ -376,6 +814,12 @@
     "DevName": "GA_UC_EvilSpirit_AutoAttackMelee",
     "Type": "1",
     "FSLID": "321"
+  },
+  "325": {
+    "GameName": "Scythe",
+    "DevName": "GA_UC_CadavrianMonk_DeathBurstAOE",
+    "Type": "1",
+    "FSLID": "325"
   },
   "455": {
     "GameName": "Darkstar Ruin",
@@ -472,6 +916,24 @@
     "DevName": "GA_SH_BossSpider_MeleeAutoAttack",
     "Type": "1",
     "FSLID": "473"
+  },
+  "479": {
+    "GameName": "Attack",
+    "DevName": "GA_SG_WaterElemental_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "479"
+  },
+  "480": {
+    "GameName": "Healing Waters",
+    "DevName": "GA_SG_WaterElemental_CastedSingleTargetHeal",
+    "Type": "8",
+    "FSLID": "480"
+  },
+  "481": {
+    "GameName": "Hydrobolt",
+    "DevName": "GA_SG_WaterElemental_CastedRangedProjectile",
+    "Type": "1024",
+    "FSLID": "481"
   },
   "491": {
     "GameName": "Attack",
@@ -581,6 +1043,96 @@
     "Type": "1",
     "FSLID": "514"
   },
+  "525": {
+    "GameName": "Attack",
+    "DevName": "GA_PR_WaterCaster_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "525"
+  },
+  "526": {
+    "GameName": "Dreadwater Bolt",
+    "DevName": "GA_PR_WaterCaster_CastedRangedProjectile",
+    "Type": "1024",
+    "FSLID": "526"
+  },
+  "527": {
+    "GameName": "Sunken Gale",
+    "DevName": "GA_PR_WaterCaster_CastedAoeProjectile",
+    "Type": "1",
+    "FSLID": "527"
+  },
+  "532": {
+    "GameName": "Attack",
+    "DevName": "GA_PR_TigerCat_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "532"
+  },
+  "533": {
+    "GameName": "Stalker's Bite",
+    "DevName": "GA_PR_TigerCat_Bite",
+    "Type": "1",
+    "FSLID": "533"
+  },
+  "534": {
+    "GameName": "Anchor Strike",
+    "DevName": "GA_PR_Swashbuckler_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "534"
+  },
+  "535": {
+    "GameName": "Rupture Earth",
+    "DevName": "GA_PR_Swashbuckler_CastedGrowingEarthStomp",
+    "Type": "1",
+    "FSLID": "535"
+  },
+  "538": {
+    "GameName": "Ghastly Grasp",
+    "DevName": "GA_PR_SpectralSwab_Explode",
+    "Type": "1024",
+    "FSLID": "538"
+  },
+  "539": {
+    "GameName": "Explosive Death",
+    "DevName": "GA_PR_ShipRat_Passive_OnDeathAoe",
+    "Type": "1",
+    "FSLID": "539"
+  },
+  "541": {
+    "GameName": "Torpedo",
+    "DevName": "GA_PR_Shark_Projectile",
+    "Type": "1",
+    "FSLID": "541"
+  },
+  "542": {
+    "GameName": "Leap",
+    "DevName": "GA_PR_Shark_JumpAttack_Projectile",
+    "Type": "1",
+    "FSLID": "542"
+  },
+  "543": {
+    "GameName": "Leap",
+    "DevName": "GA_PR_Shark_JumpAttack",
+    "Type": "1",
+    "FSLID": "543"
+  },
+  "544": {
+    "GameName": "Bite",
+    "DevName": "GA_PR_Shark_BiteAttached",
+    "Type": "1",
+    "FSLID": "544"
+  },
+  "545": {
+    "GameName": "Attack",
+    "DevName": "GA_PR_Scallywag_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "545"
+  },
+  "546": {
+    "GameName": "Salted Blade",
+    "DevName": "GA_PR_Scallywag_Jump",
+    "Type": "1",
+    "FSLID": "546"
+  },
   "551": {
     "GameName": "Attack",
     "DevName": "GA_PR_PossessedArmor_MeleeAutoAttack",
@@ -599,11 +1151,143 @@
     "Type": "1",
     "FSLID": "554"
   },
+  "555": {
+    "GameName": "Squalled",
+    "DevName": "GA_PR_PirateGrunt_FoBHeal",
+    "Type": "1",
+    "FSLID": "555"
+  },
+  "557": {
+    "GameName": "Firing Cannon",
+    "DevName": "GA_PR_InteractableCannon_Shoot",
+    "Type": "1",
+    "FSLID": "557"
+  },
+  "558": {
+    "GameName": "Attack",
+    "DevName": "GA_PR_FoB_RangedAutoAttack",
+    "Type": "1024",
+    "FSLID": "558"
+  },
+  "560": {
+    "GameName": "Mindrender Barrage",
+    "DevName": "GA_PR_FoB_CastedStun",
+    "Type": "1",
+    "FSLID": "560"
+  },
+  "561": {
+    "GameName": "Shoot",
+    "DevName": "GA_PR_CannonPirate_RangedAutoAttack",
+    "Type": "1",
+    "FSLID": "561"
+  },
+  "562": {
+    "GameName": "Shackle Blast",
+    "DevName": "GA_PR_CannonPirate_ChainShot",
+    "Type": "1",
+    "FSLID": "562"
+  },
+  "563": {
+    "GameName": "Blunder Boom",
+    "DevName": "GA_PR_CannonPirate_Cannon",
+    "Type": "1024",
+    "FSLID": "563"
+  },
+  "565": {
+    "GameName": "Crushing Orb",
+    "DevName": "GA_PR_BossTreasureDemon_Ball_Knockback",
+    "Type": "1",
+    "FSLID": "565"
+  },
   "568": {
     "GameName": "Wailing Strike: Bleed",
     "DevName": "GA_PR_BossTreasureDemon_Stunned",
     "Type": "1",
     "FSLID": "568"
+  },
+  "570": {
+    "GameName": "Coalescing Avarice",
+    "DevName": "GA_PR_BossTreasureDemon_Tornado",
+    "Type": "1024",
+    "FSLID": "570"
+  },
+  "571": {
+    "GameName": "Orb of Bael'Aurum",
+    "DevName": "GA_PR_BossTreasureDemon_SummonBall",
+    "Type": "1",
+    "FSLID": "571"
+  },
+  "572": {
+    "GameName": "Hoard",
+    "DevName": "GA_PR_BossTreasureDemon_SuckInCoins",
+    "Type": "8",
+    "FSLID": "572"
+  },
+  "573": {
+    "GameName": "Cursed Treasure",
+    "DevName": "GA_PR_BossTreasureDemon_ScatterCoins",
+    "Type": "1024",
+    "FSLID": "573"
+  },
+  "575": {
+    "GameName": "Shadowgreed Eclipse",
+    "DevName": "GA_PR_BossTreasureDemon_Nova",
+    "Type": "1024",
+    "FSLID": "575"
+  },
+  "576": {
+    "GameName": "Erupting Envy",
+    "DevName": "GA_PR_BossTreasureDemon_Cone",
+    "Type": "1",
+    "FSLID": "576"
+  },
+  "577": {
+    "GameName": "Temptation",
+    "DevName": "GA_PR_BossTreasureDemon_CastedRangedProjectile",
+    "Type": "1024",
+    "FSLID": "577"
+  },
+  "579": {
+    "GameName": "Attack",
+    "DevName": "GA_PR_BossPirateCaptain_AutoAttackMelee",
+    "Type": "1",
+    "FSLID": "579"
+  },
+  "582": {
+    "GameName": "Soulpowder Cyclone",
+    "DevName": "GA_PR_BossPirateCaptain_Spin",
+    "Type": "1024",
+    "FSLID": "582"
+  },
+  "584": {
+    "GameName": "Quick Draw",
+    "DevName": "GA_PR_BossPirateCaptain_QuickShots",
+    "Type": "1",
+    "FSLID": "584"
+  },
+  "586": {
+    "GameName": "Unfinished Business",
+    "DevName": "GA_PR_BossPirateCaptain_BecomeGhost",
+    "Type": "8",
+    "FSLID": "586"
+  },
+  "588": {
+    "GameName": "Sever Souls",
+    "DevName": "GA_PR_BossPirateCaptain_ObstacleCourse_All",
+    "Type": "1",
+    "FSLID": "588"
+  },
+  "589": {
+    "GameName": "Sever Soul",
+    "DevName": "GA_PR_BossPirateCaptain_ObstacleCourse",
+    "Type": "1",
+    "FSLID": "589"
+  },
+  "590": {
+    "GameName": "Thwart the Mutiny",
+    "DevName": "GA_PR_BossPirateCaptain_EmptyArenaChannel",
+    "Type": "1",
+    "FSLID": "590"
   },
   "591": {
     "GameName": "Soulpowder Cannon",
@@ -611,17 +1295,53 @@
     "Type": "1",
     "FSLID": "591"
   },
+  "592": {
+    "GameName": "Anchor Strike",
+    "DevName": "GA_PR_BossAnchor_MeleeAutoAttack_AreaHit",
+    "Type": "1",
+    "FSLID": "592"
+  },
   "593": {
     "GameName": "Witchreef Toxin",
     "DevName": "GA_PR_BossAnchor_MeleeAutoAttack",
     "Type": "1",
     "FSLID": "593"
   },
+  "595": {
+    "GameName": "Cannonball Troops",
+    "DevName": "GA_PR_BossAnchor_Reinforcements",
+    "Type": "1",
+    "FSLID": "595"
+  },
+  "597": {
+    "GameName": "Anchor",
+    "DevName": "GA_PR_BossAnchor_HighTideTether",
+    "Type": "1",
+    "FSLID": "597"
+  },
   "598": {
     "GameName": "High Tide",
     "DevName": "GA_PR_BossAnchor_HighTide",
     "Type": "1",
     "FSLID": "598"
+  },
+  "599": {
+    "GameName": "Wavestomp",
+    "DevName": "GA_PR_BossAnchor_CastedGrowingTankWave",
+    "Type": "1",
+    "FSLID": "599"
+  },
+  "602": {
+    "GameName": "Soulpowder Shot",
+    "DevName": "GA_PR_BlunderbussPirate_RangedDamageDebuff",
+    "Type": "1024",
+    "FSLID": "602"
+  },
+  "603": {
+    "GameName": "Shoot",
+    "DevName": "GA_PR_BlunderbussPirate_RangedAutoAttack",
+    "Type": "1",
+    "FSLID": "603"
   },
   "607": {
     "GameName": "Attack",
@@ -634,6 +1354,18 @@
     "DevName": "GA_PR_Bilgerat_ChanneledActorSpawner",
     "Type": "1",
     "FSLID": "608"
+  },
+  "609": {
+    "GameName": "Crush Armor",
+    "DevName": "GA_PR_BarbarousLasher_ShatterAmor",
+    "Type": "1",
+    "FSLID": "609"
+  },
+  "610": {
+    "GameName": "Attack",
+    "DevName": "GA_PR_BarbarousLasher_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "610"
   },
   "614": {
     "GameName": "Attack",
@@ -749,17 +1481,389 @@
     "Type": "1024",
     "FSLID": "636"
   },
+  "637": {
+    "GameName": "Corruption",
+    "DevName": "GA_MF_Totem_AoePulse",
+    "Type": "1024",
+    "FSLID": "637"
+  },
   "638": {
     "GameName": "Attack",
     "DevName": "GA_MF_Skittershard_MeleeAutoAttack",
     "Type": "1",
     "FSLID": "638"
   },
+  "641": {
+    "GameName": "Bash",
+    "DevName": "GA_MF_MangyBrute_TankSlam",
+    "Type": "1",
+    "FSLID": "641"
+  },
+  "642": {
+    "GameName": "Attack",
+    "DevName": "GA_MF_MangyBrute_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "642"
+  },
+  "643": {
+    "GameName": "Bloodstone Totem",
+    "DevName": "GA_MF_FoulTotemic_SummonTotem",
+    "Type": "1",
+    "FSLID": "643"
+  },
+  "644": {
+    "GameName": "Attack",
+    "DevName": "GA_MF_FoulTotemic_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "644"
+  },
   "645": {
     "GameName": "Restoration",
     "DevName": "GA_MF_FoulTotemic_Heal",
     "Type": "1",
     "FSLID": "645"
+  },
+  "646": {
+    "GameName": "Shadow Lob",
+    "DevName": "GA_MF_FoulTotemic_CastProjectile",
+    "Type": "1024",
+    "FSLID": "646"
+  },
+  "647": {
+    "GameName": "Earthcore Upheaval",
+    "DevName": "GA_MF_DawnstoneGuardian_Spikes",
+    "Type": "1",
+    "FSLID": "647"
+  },
+  "648": {
+    "GameName": "Attack",
+    "DevName": "GA_MF_DawnstoneGuardian_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "648"
+  },
+  "650": {
+    "GameName": "Bloodstone Erruption",
+    "DevName": "GA_MF_DawnstoneGuardian_DamageReflect",
+    "Type": "1024",
+    "FSLID": "650"
+  },
+  "652": {
+    "GameName": "Panicked Charge",
+    "DevName": "GA_MF_BossUnicorn_Charge",
+    "Type": "1",
+    "FSLID": "652"
+  },
+  "657": {
+    "GameName": "Crystal Volley",
+    "DevName": "GA_MF_BossNecrolord_MultiShot",
+    "Type": "1024",
+    "FSLID": "657"
+  },
+  "661": {
+    "GameName": "Godrot Eclipse",
+    "DevName": "GA_MF_BossNecrolord_DeathCast",
+    "Type": "1",
+    "FSLID": "661"
+  },
+  "662": {
+    "GameName": "Umbral Eruption",
+    "DevName": "GA_MF_BossNecrolord_ChanneledNova",
+    "Type": "1024",
+    "FSLID": "662"
+  },
+  "663": {
+    "GameName": "Glory",
+    "DevName": "GA_MF_BlightedMorningGlory_OnDeathHeal",
+    "Type": "1",
+    "FSLID": "663"
+  },
+  "664": {
+    "GameName": "Attack",
+    "DevName": "GA_MF_BlightedMorningGlory_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "664"
+  },
+  "665": {
+    "GameName": "Blighted Ichor",
+    "DevName": "GA_MF_BlightedMorningGlory_DotProjectile",
+    "Type": "1",
+    "FSLID": "665"
+  },
+  "677": {
+    "GameName": "Attack",
+    "DevName": "GA_JS_TutorialOrc_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "677"
+  },
+  "698": {
+    "GameName": "Attack",
+    "DevName": "GA_IC_Lookout_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "698"
+  },
+  "703": {
+    "GameName": "Avalanche",
+    "DevName": "GA_IC_GreaterIceElemental_EarthBreaker",
+    "Type": "1",
+    "FSLID": "703"
+  },
+  "708": {
+    "GameName": "Splintering Ice",
+    "DevName": "GA_IC_BossMagistrate_Redemption",
+    "Type": "1",
+    "FSLID": "708"
+  },
+  "709": {
+    "GameName": "Attack",
+    "DevName": "GA_IC_BossMagistrate_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "709"
+  },
+  "710": {
+    "GameName": "Howling Blast",
+    "DevName": "GA_IC_BossMagistrate_KnockbackCone",
+    "Type": "1024",
+    "FSLID": "710"
+  },
+  "712": {
+    "GameName": "Glacial Spikes",
+    "DevName": "GA_IC_BossMagistrate_IceSpikes",
+    "Type": "1024",
+    "FSLID": "712"
+  },
+  "713": {
+    "GameName": "Icy Death",
+    "DevName": "GA_IC_BossMagistrate_Frostbolt",
+    "Type": "1024",
+    "FSLID": "713"
+  },
+  "714": {
+    "GameName": "Frigid Mists",
+    "DevName": "GA_IC_BossMagistrate_FrigidMist",
+    "Type": "1",
+    "FSLID": "714"
+  },
+  "716": {
+    "GameName": "Attack",
+    "DevName": "GA_IC_Assassin_AutoAttack",
+    "Type": "1",
+    "FSLID": "716"
+  },
+  "717": {
+    "GameName": "Wicked Strikes",
+    "DevName": "GA_IC_Assassin_WickedStrike",
+    "Type": "1",
+    "FSLID": "717"
+  },
+  "720": {
+    "GameName": "Ice Spike",
+    "DevName": "GA_FK_IceGolem_SpikeAOE",
+    "Type": "1",
+    "FSLID": "720"
+  },
+  "722": {
+    "GameName": "Attack",
+    "DevName": "GA_FK_IceGolem_AutoAttack",
+    "Type": "1",
+    "FSLID": "722"
+  },
+  "723": {
+    "GameName": "Attack",
+    "DevName": "GA_FK_Elf_Shardling_AutoAttack",
+    "Type": "1",
+    "FSLID": "723"
+  },
+  "724": {
+    "GameName": "Rapid Fire",
+    "DevName": "GA_FK_Elf_Ranger_RapidFire",
+    "Type": "1",
+    "FSLID": "724"
+  },
+  "726": {
+    "GameName": "Shoot",
+    "DevName": "GA_FK_Elf_Ranger_AutoAttack",
+    "Type": "1",
+    "FSLID": "726"
+  },
+  "729": {
+    "GameName": "Volatile Orb",
+    "DevName": "GA_FK_Elf_Illusionist_ExplosiveOrb",
+    "Type": "1024",
+    "FSLID": "729"
+  },
+  "730": {
+    "GameName": "Rune of Detonation",
+    "DevName": "GA_FK_Elf_Illusionist_ChanneledDamageAoe",
+    "Type": "1024",
+    "FSLID": "730"
+  },
+  "731": {
+    "GameName": "Arcane Strike",
+    "DevName": "GA_FK_Elf_Illusionist_CastSingleFrost",
+    "Type": "1024",
+    "FSLID": "731"
+  },
+  "732": {
+    "GameName": "Attack",
+    "DevName": "GA_FK_Elf_Illusionist_AutoAttackMelee",
+    "Type": "1",
+    "FSLID": "732"
+  },
+  "733": {
+    "GameName": "Shattering Barrier",
+    "DevName": "GA_FK_Elf_Guard_ShatteringBarrier_Monitor",
+    "Type": "1024",
+    "FSLID": "733"
+  },
+  "734": {
+    "GameName": "Shattering Barrier",
+    "DevName": "GA_FK_Elf_Guard_ShatteringBarrier",
+    "Type": "1",
+    "FSLID": "734"
+  },
+  "735": {
+    "GameName": "Attack",
+    "DevName": "GA_FK_Elf_Guard_AutoAttack",
+    "Type": "1",
+    "FSLID": "735"
+  },
+  "736": {
+    "GameName": "Attack",
+    "DevName": "GA_FK_Elf_Goon_AutoAttack",
+    "Type": "1",
+    "FSLID": "736"
+  },
+  "737": {
+    "GameName": "Slicing Blades",
+    "DevName": "GA_FK_Elf_Duelist_SpinningIceSword",
+    "Type": "1",
+    "FSLID": "737"
+  },
+  "738": {
+    "GameName": "Ice Breaker",
+    "DevName": "GA_FK_Elf_Duelist_IceBreaker",
+    "Type": "1",
+    "FSLID": "738"
+  },
+  "739": {
+    "GameName": "Enrage",
+    "DevName": "GA_FK_Elf_Duelist_Enraged",
+    "Type": "1",
+    "FSLID": "739"
+  },
+  "740": {
+    "GameName": "Attack",
+    "DevName": "GA_FK_Elf_Duelist_AutoAttack",
+    "Type": "1",
+    "FSLID": "740"
+  },
+  "741": {
+    "GameName": "Ice Bolt",
+    "DevName": "GA_FK_Elf_Cleric_SoulBolt",
+    "Type": "1",
+    "FSLID": "741"
+  },
+  "743": {
+    "GameName": "Freezing Blood",
+    "DevName": "GA_FK_Elf_Cleric_Redemption",
+    "Type": "1",
+    "FSLID": "743"
+  },
+  "744": {
+    "GameName": "Drain Life",
+    "DevName": "GA_FK_Elf_Cleric_DrainLife",
+    "Type": "1",
+    "FSLID": "744"
+  },
+  "745": {
+    "GameName": "Attack",
+    "DevName": "GA_FK_Elf_Cleric_AutoAttackMelee",
+    "Type": "1",
+    "FSLID": "745"
+  },
+  "747": {
+    "GameName": "Cold-blooded Twist",
+    "DevName": "GA_FK_BossRangerCaptain_LeapAndBigCrosses",
+    "Type": "1024",
+    "FSLID": "747"
+  },
+  "748": {
+    "GameName": "Razor Trap",
+    "DevName": "GA_FK_BossRangerCaptain_IceTrap",
+    "Type": "1",
+    "FSLID": "748"
+  },
+  "749": {
+    "GameName": "Arcane Volley",
+    "DevName": "GA_FK_BossRangerCaptain_HailOfArrows",
+    "Type": "1024",
+    "FSLID": "749"
+  },
+  "750": {
+    "GameName": "Betrayer's Arrow",
+    "DevName": "GA_FK_BossRangerCaptain_ExplosiveShot",
+    "Type": "1",
+    "FSLID": "750"
+  },
+  "751": {
+    "GameName": "Attack",
+    "DevName": "GA_FK_BossRangerCaptain_AutoAttackMelee",
+    "Type": "1",
+    "FSLID": "751"
+  },
+  "754": {
+    "GameName": "Calamitous Fracture",
+    "DevName": "GA_FK_BossFreezingWaterLord_IceSoak",
+    "Type": "1024",
+    "FSLID": "754"
+  },
+  "756": {
+    "GameName": "Shatterstrike",
+    "DevName": "GA_FK_BossFreezingWaterLord_FreezingCone",
+    "Type": "1024",
+    "FSLID": "756"
+  },
+  "757": {
+    "GameName": "Volatile Orb",
+    "DevName": "GA_FK_BossFreezingWaterLord_ExplosiveOrb",
+    "Type": "1024",
+    "FSLID": "757"
+  },
+  "759": {
+    "GameName": "Maelstrom",
+    "DevName": "GA_FK_BossElfDragon_RadialSuckIn",
+    "Type": "1",
+    "FSLID": "759"
+  },
+  "761": {
+    "GameName": "Bloodhunt",
+    "DevName": "GA_FK_BossElfDragon_MultiDash",
+    "Type": "1",
+    "FSLID": "761"
+  },
+  "763": {
+    "GameName": "Breath of Al'zerac",
+    "DevName": "GA_FK_BossElfDragon_KnockbackCone",
+    "Type": "1024",
+    "FSLID": "763"
+  },
+  "764": {
+    "GameName": "Path to Oblivion",
+    "DevName": "GA_FK_BossElfDragon_FierySoak",
+    "Type": "1",
+    "FSLID": "764"
+  },
+  "765": {
+    "GameName": "Draconic Frenzy",
+    "DevName": "GA_FK_BossElfDragon_CastNextPhase",
+    "Type": "1",
+    "FSLID": "765"
+  },
+  "766": {
+    "GameName": "Attack",
+    "DevName": "GA_FK_BossElfDragon_AutoAttack",
+    "Type": "1",
+    "FSLID": "766"
   },
   "769": {
     "GameName": "Attack",
@@ -778,6 +1882,18 @@
     "DevName": "GA_DD_WitheringMagi_CastedRangedProjectileDOT",
     "Type": "1",
     "FSLID": "772"
+  },
+  "774": {
+    "GameName": "Attack",
+    "DevName": "GA_DD_NightboundMagi_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "774"
+  },
+  "776": {
+    "GameName": "Shadow Bolt",
+    "DevName": "GA_DD_NightboundMagi_CastedRangedProjectile",
+    "Type": "1024",
+    "FSLID": "776"
   },
   "780": {
     "GameName": "Charge",
@@ -833,6 +1949,12 @@
     "Type": "1024",
     "FSLID": "794"
   },
+  "805": {
+    "GameName": "Attack",
+    "DevName": "GA_DR_Slaughtervine_AutoAttackMelee",
+    "Type": "1",
+    "FSLID": "805"
+  },
   "806": {
     "GameName": "Acidic Sap",
     "DevName": "GA_DR_RuinsLasher_PassiveAOEPools",
@@ -844,6 +1966,78 @@
     "DevName": "GA_DR_RuinsLasher_AutoAttackMelee",
     "Type": "1",
     "FSLID": "807"
+  },
+  "810": {
+    "GameName": "Demon Eruption",
+    "DevName": "GA_DR_Ritualist_OnDeathAbility",
+    "Type": "1",
+    "FSLID": "810"
+  },
+  "812": {
+    "GameName": "Attack",
+    "DevName": "GA_DR_Mancatcher_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "812"
+  },
+  "813": {
+    "GameName": "Shred",
+    "DevName": "GA_DR_Mancatcher_AOECone",
+    "Type": "1",
+    "FSLID": "813"
+  },
+  "815": {
+    "GameName": "Attack",
+    "DevName": "GA_DR_HornedDemon_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "815"
+  },
+  "816": {
+    "GameName": "Enrage",
+    "DevName": "GA_DR_HornedDemon_Enrage",
+    "Type": "1",
+    "FSLID": "816"
+  },
+  "817": {
+    "GameName": "Impale",
+    "DevName": "GA_DR_HornedDemon_Charge",
+    "Type": "1",
+    "FSLID": "817"
+  },
+  "825": {
+    "GameName": "Attack",
+    "DevName": "GA_DR_CultistSickle_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "825"
+  },
+  "826": {
+    "GameName": "Throw Dagger",
+    "DevName": "GA_DR_CultistSickle_InitiateRangedAttack",
+    "Type": "1",
+    "FSLID": "826"
+  },
+  "827": {
+    "GameName": "Attack",
+    "DevName": "GA_DR_CultistMajorCaster_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "827"
+  },
+  "828": {
+    "GameName": "Demonic Lash",
+    "DevName": "GA_DR_CultistMajorCaster_CastedRangedProjectile",
+    "Type": "1024",
+    "FSLID": "828"
+  },
+  "829": {
+    "GameName": "Restore Vitality",
+    "DevName": "GA_DR_CultistMajorCaster_CastedSingleTargetHeal",
+    "Type": "8",
+    "FSLID": "829"
+  },
+  "830": {
+    "GameName": "Armaggedon",
+    "DevName": "GA_DR_CultistMajorCaster_GrowingCircleCast",
+    "Type": "1024",
+    "FSLID": "830"
   },
   "831": {
     "GameName": "Attack",
@@ -875,17 +2069,167 @@
     "Type": "1",
     "FSLID": "838"
   },
+  "849": {
+    "GameName": "Splintering Ice",
+    "DevName": "GA_DR_BossSummonedDemon_TankSlam",
+    "Type": "1",
+    "FSLID": "849"
+  },
+  "856": {
+    "GameName": "Hemorrhaging Strike",
+    "DevName": "GA_DR_BossGateWizard_TankDot",
+    "Type": "1",
+    "FSLID": "856"
+  },
+  "858": {
+    "GameName": "Frigid Mist",
+    "DevName": "GA_DR_BossGateWizard_SafeDangerZones",
+    "Type": "1",
+    "FSLID": "858"
+  },
+  "861": {
+    "GameName": "Attack",
+    "DevName": "GA_DR_BossGateWizard_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "861"
+  },
+  "862": {
+    "GameName": "Blood Burst",
+    "DevName": "GA_DR_BossGateWizard_FootballHitPulse",
+    "Type": "1024",
+    "FSLID": "862"
+  },
+  "863": {
+    "GameName": "Siphon Blood",
+    "DevName": "GA_DR_BossGateWizard_Football",
+    "Type": "1024",
+    "FSLID": "863"
+  },
+  "864": {
+    "GameName": "Sacrificial Pyre",
+    "DevName": "GA_DR_BossGateWizard_FirePillar",
+    "Type": "1",
+    "FSLID": "864"
+  },
+  "866": {
+    "GameName": "Thornmother’s Slumber",
+    "DevName": "GA_DR_BossDemonPlant_WakeUpAdds",
+    "Type": "1",
+    "FSLID": "866"
+  },
+  "868": {
+    "GameName": "Raise Terrorvines",
+    "DevName": "GA_DR_BossDemonPlant_SpawnVine",
+    "Type": "1",
+    "FSLID": "868"
+  },
+  "870": {
+    "GameName": "Legion of Vun'Kahr",
+    "DevName": "GA_DR_BossDemonPlant_ProjectileSpray",
+    "Type": "1",
+    "FSLID": "870"
+  },
+  "871": {
+    "GameName": "Attack",
+    "DevName": "GA_DR_BossDemonPlant_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "871"
+  },
+  "874": {
+    "GameName": "Attack",
+    "DevName": "GA_DR_BossCultLeader_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "874"
+  },
+  "875": {
+    "GameName": "Demonic Infusion",
+    "DevName": "GA_DR_BossCultLeader_Beam",
+    "Type": "1",
+    "FSLID": "875"
+  },
+  "878": {
+    "GameName": "Abyssal Nexus",
+    "DevName": "GA_DR_BossCultLeader_FinaleRotatingCrossAbility",
+    "Type": "1",
+    "FSLID": "878"
+  },
+  "879": {
+    "GameName": "Dark Malice",
+    "DevName": "GA_DR_BossCultLeader_Defile",
+    "Type": "1024",
+    "FSLID": "879"
+  },
+  "880": {
+    "GameName": "Ez'Rath's Chosen",
+    "DevName": "GA_DR_BossCultLeader_ChosenForSacrifice",
+    "Type": "1",
+    "FSLID": "880"
+  },
+  "883": {
+    "GameName": "Shred",
+    "DevName": "GA_DR_BloodfangMauler_PostJump_AOECone",
+    "Type": "1",
+    "FSLID": "883"
+  },
+  "884": {
+    "GameName": "Attack",
+    "DevName": "GA_DR_BloodfangMauler_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "884"
+  },
+  "885": {
+    "GameName": "Shred",
+    "DevName": "GA_DR_BloodfangMauler_AOECone",
+    "Type": "1",
+    "FSLID": "885"
+  },
+  "886": {
+    "GameName": "Attack",
+    "DevName": "GA_DR_BarbedRoot_AutoAttackMelee",
+    "Type": "1",
+    "FSLID": "886"
+  },
+  "887": {
+    "GameName": "Toxic Spores",
+    "DevName": "GA_DR_BarbedRoot_ChanneledAoe",
+    "Type": "1024",
+    "FSLID": "887"
+  },
+  "888": {
+    "GameName": "Rootslam",
+    "DevName": "GA_DR_BarbedRoot_CastedSlam",
+    "Type": "1",
+    "FSLID": "888"
+  },
+  "897": {
+    "GameName": "Ice Bolt",
+    "DevName": "GA_CM_RubiliteFocus_Laser",
+    "Type": "1",
+    "FSLID": "897"
+  },
   "898": {
     "GameName": "Brittle",
     "DevName": "GA_CM_RubiliteAurastone_Vulnerable",
     "Type": "1",
     "FSLID": "898"
   },
+  "899": {
+    "GameName": "Freezing Blood",
+    "DevName": "GA_CM_RubiliteAurastone_ChasingLaser",
+    "Type": "1",
+    "FSLID": "899"
+  },
   "902": {
     "GameName": "Attack",
     "DevName": "GA_CM_Elf_Warden_MeleeAutoAttack",
     "Type": "1",
     "FSLID": "902"
+  },
+  "903": {
+    "GameName": "Drain Life",
+    "DevName": "GA_CM_Elf_Warden_BurstingBarrier",
+    "Type": "1",
+    "FSLID": "903"
   },
   "904": {
     "GameName": "Psionic Horror",
@@ -911,11 +2255,29 @@
     "Type": "1",
     "FSLID": "907"
   },
+  "908": {
+    "GameName": "Arcane Volley",
+    "DevName": "GA_CM_ElfLookout_AOESoak",
+    "Type": "1",
+    "FSLID": "908"
+  },
   "909": {
     "GameName": "Bolt Barrage",
     "DevName": "GA_CM_ElfLookout_QuickShots",
     "Type": "1",
     "FSLID": "909"
+  },
+  "910": {
+    "GameName": "Attack",
+    "DevName": "GA_CM_ElfInterrogator_AutoAttack",
+    "Type": "1",
+    "FSLID": "910"
+  },
+  "911": {
+    "GameName": "Poisonous Strike",
+    "DevName": "GA_CM_ElfInterrogator_WickedStrike",
+    "Type": "1",
+    "FSLID": "911"
   },
   "912": {
     "GameName": "Attack",
@@ -940,6 +2302,48 @@
     "DevName": "GA_CM_EarthElemental_AutoAttack",
     "Type": "1",
     "FSLID": "920"
+  },
+  "921": {
+    "GameName": "Shatterstrike: Converging Ice",
+    "DevName": "GA_CM_CrystalConstructCharged_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "921"
+  },
+  "928": {
+    "GameName": "Calamity Rift",
+    "DevName": "GA_CM_BossYrsa_Aina_Shared_EnragePassive",
+    "Type": "1",
+    "FSLID": "928"
+  },
+  "932": {
+    "GameName": "Bloodhunt: Bleed",
+    "DevName": "GA_CM_BossWhisperingCore_Beam",
+    "Type": "1",
+    "FSLID": "932"
+  },
+  "933": {
+    "GameName": "Bloodhunt",
+    "DevName": "GA_CM_BossWhisperingCore_AutoAttack",
+    "Type": "1",
+    "FSLID": "933"
+  },
+  "937": {
+    "GameName": "Path to Oblivion (Burst)",
+    "DevName": "GA_CM_BossWhisperingCore_SpawnGolems",
+    "Type": "1",
+    "FSLID": "937"
+  },
+  "938": {
+    "GameName": "Path to Oblivion",
+    "DevName": "GA_CM_BossWhisperingCore_ReflectionSpawn",
+    "Type": "1",
+    "FSLID": "938"
+  },
+  "946": {
+    "GameName": "Collapsing Star",
+    "DevName": "GA_CM_BossTroll_Crush",
+    "Type": "1",
+    "FSLID": "946"
   },
   "959": {
     "GameName": "Making Camp",
@@ -1181,6 +2585,144 @@
     "Type": "1024",
     "FSLID": "1033"
   },
+  "1048": {
+    "GameName": "Hemorrhaging Strike",
+    "DevName": "GA_Mosse_Talent_Passive_DotMonitor",
+    "Type": "1",
+    "FSLID": "1048"
+  },
+  "1057": {
+    "GameName": "Prickly Vine",
+    "DevName": "GA_Mosse_ProjectileTurrets",
+    "Type": "1",
+    "FSLID": "1057"
+  },
+  "1076": {
+    "GameName": "Nettlebolt",
+    "DevName": "GA_Mosse_CastedSingleTargetProjectile",
+    "Type": "1",
+    "FSLID": "1076"
+  },
+  "1082": {
+    "GameName": "Twin Souls: Bulwark",
+    "DevName": "GA_Meiko_TauntTotem",
+    "Type": "1",
+    "FSLID": "1082"
+  },
+  "1095": {
+    "GameName": "Taunt",
+    "DevName": "GA_Meiko_RangedTaunt",
+    "Type": "1",
+    "FSLID": "1095"
+  },
+  "1100": {
+    "GameName": "Earth Fist",
+    "DevName": "GA_Meiko_MeleeRight",
+    "Type": "1",
+    "FSLID": "1100"
+  },
+  "1101": {
+    "GameName": "Spirit Palm",
+    "DevName": "GA_Meiko_MeleeLeft",
+    "Type": "1",
+    "FSLID": "1101"
+  },
+  "1102": {
+    "GameName": "Wind Kick",
+    "DevName": "GA_Meiko_MeleeDown",
+    "Type": "1024",
+    "FSLID": "1102"
+  },
+  "1103": {
+    "GameName": "Rising Storm",
+    "DevName": "GA_Meiko_MeleeDamageSelfBuff",
+    "Type": "1024",
+    "FSLID": "1103"
+  },
+  "1104": {
+    "GameName": "Rising Earth",
+    "DevName": "GA_Meiko_MeleeDamageLowHealthSelfBuff",
+    "Type": "1",
+    "FSLID": "1104"
+  },
+  "1105": {
+    "GameName": "Double Palm Strike",
+    "DevName": "GA_Meiko_MeleeDamageImmediateSelfBuff",
+    "Type": "1",
+    "FSLID": "1105"
+  },
+  "1106": {
+    "GameName": "Lashing Stormkick",
+    "DevName": "GA_Meiko_HighDamageCleave",
+    "Type": "1024",
+    "FSLID": "1106"
+  },
+  "1107": {
+    "GameName": "Stone Stomp",
+    "DevName": "GA_Meiko_FrontalAoeDebuff",
+    "Type": "1",
+    "FSLID": "1107"
+  },
+  "1110": {
+    "GameName": "Twin Souls: Army of One",
+    "DevName": "GA_Meiko_DurationalMultipleTeleportDamage_New",
+    "Type": "1",
+    "FSLID": "1110"
+  },
+  "1112": {
+    "GameName": "Earthfist Barrage",
+    "DevName": "GA_Meiko_ChanneledHeavyDamage",
+    "Type": "8",
+    "FSLID": "1112"
+  },
+  "1115": {
+    "GameName": "Shatter Earth",
+    "DevName": "GA_Meiko_MoveToLocationAoeDamage",
+    "Type": "1",
+    "FSLID": "1115"
+  },
+  "1116": {
+    "GameName": "Stagger",
+    "DevName": "GA_Meiko_MeleeInterrupt",
+    "Type": "1",
+    "FSLID": "1116"
+  },
+  "1118": {
+    "GameName": "Attack",
+    "DevName": "GA_Meiko_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "1118"
+  },
+  "1119": {
+    "GameName": "Serenity",
+    "DevName": "GA_Meiko_InstantSelfDefensive",
+    "Type": "8",
+    "FSLID": "1119"
+  },
+  "1120": {
+    "GameName": "Spirited Vortex",
+    "DevName": "GA_Meiko_DurationalAoeDamageBuff",
+    "Type": "1024",
+    "FSLID": "1120"
+  },
+  "1122": {
+    "GameName": "Stone Shield",
+    "DevName": "GA_Meiko_DamageSoakBuff",
+    "Type": "1",
+    "FSLID": "1122"
+  },
+  "1123": {
+    "GameName": "Gust",
+    "DevName": "GA_Meiko_ChargedForwardDash",
+    "Type": "1",
+    "FSLID": "1123"
+  },
+  "1125": {
+    "GameName": "Cyclone",
+    "DevName": "GA_Meiko_AoePull",
+    "Type": "1",
+    "FSLID": "1125"
+  },
   "1128": {
     "GameName": "Enveloping Web",
     "DevName": "GA_Mara_StunSpender",
@@ -1204,6 +2746,12 @@
     "DevName": "GA_Mara_SelfDefenceBuff",
     "Type": "1",
     "FSLID": "1133"
+  },
+  "1142": {
+    "GameName": "Agonizing Poison",
+    "DevName": "GA_Mara_SingleTargetStun",
+    "Type": "1",
+    "FSLID": "1142"
   },
   "1200": {
     "GameName": "Kick",
@@ -1337,6 +2885,18 @@
     "Type": "1",
     "FSLID": "1241"
   },
+  "1242": {
+    "GameName": "Hammer Storm",
+    "DevName": "GA_Ink_AoeAttack",
+    "Type": "1024",
+    "FSLID": "1242"
+  },
+  "1254": {
+    "GameName": "Frog Squad",
+    "DevName": "GA_Firemage_Passive_Talent_FireFrogOnDotCrit_Monitor",
+    "Type": "1024",
+    "FSLID": "1254"
+  },
   "1258": {
     "GameName": "Flame Ward",
     "DevName": "GA_Firemage_SelfDefenceBuff",
@@ -1445,6 +3005,12 @@
     "Type": "1",
     "FSLID": "1308"
   },
+  "1309": {
+    "GameName": "Lunarlight Salvo",
+    "DevName": "GA_Bowguy_Passive_InstantMarkTarget_Monitor",
+    "Type": "1024",
+    "FSLID": "1309"
+  },
   "1310": {
     "GameName": "Lunarlight Mark",
     "DevName": "GA_Bowguy_InstantMarkTarget",
@@ -1486,6 +3052,12 @@
     "DevName": "GA_FxDebug_Beam_Soul",
     "Type": "1",
     "FSLID": "1365"
+  },
+  "1388": {
+    "GameName": "Torment of Bael'Aurum",
+    "DevName": "GA_ArmorSetBonus_PowerBonusAndAutoHeal",
+    "Type": "1",
+    "FSLID": "1388"
   },
   "1393": {
     "GameName": "Devour",
@@ -1541,11 +3113,65 @@
     "Type": "1",
     "FSLID": "1420"
   },
+  "1423": {
+    "GameName": "Grasping Pillar",
+    "DevName": "GA_VV_BossChilgar_IceSpike",
+    "Type": "1",
+    "FSLID": "1423"
+  },
+  "1426": {
+    "GameName": "Ice Tomb",
+    "DevName": "GA_VV_BossFrostTroll_IceTomb",
+    "Type": "1",
+    "FSLID": "1426"
+  },
+  "1427": {
+    "GameName": "Elemental Shift",
+    "DevName": "GA_VV_BossFrostTroll_ChangeAura",
+    "Type": "1",
+    "FSLID": "1427"
+  },
+  "1428": {
+    "GameName": "Shadow Conduit",
+    "DevName": "GA_VV_BossVikingMystic_CrossLines",
+    "Type": "1024",
+    "FSLID": "1428"
+  },
+  "1429": {
+    "GameName": "Channel Ritual",
+    "DevName": "GA_VV_BossVikingMystic_ChanneledAoeDamageWithLines",
+    "Type": "1024",
+    "FSLID": "1429"
+  },
+  "1440": {
+    "GameName": "Wildroot Thorns",
+    "DevName": "GA_UM_BossSlavetraderBrull_PlacedSlowAoe",
+    "Type": "1",
+    "FSLID": "1440"
+  },
+  "1446": {
+    "GameName": "Divine Mediation",
+    "DevName": "GA_Trait_Passive_IncomingDamageToHotAndAbsorb",
+    "Type": "1",
+    "FSLID": "1446"
+  },
+  "1449": {
+    "GameName": "Grasping Vines",
+    "DevName": "GA_UM_UrrakWitch_GroundRoots",
+    "Type": "1",
+    "FSLID": "1449"
+  },
   "1450": {
     "GameName": "Titanic Slam",
     "DevName": "GA_EM_BossGiantTroll_MultiSoak",
     "Type": "1",
     "FSLID": "1450"
+  },
+  "1451": {
+    "GameName": "Earthquake",
+    "DevName": "GA_EM_BossGiantTroll_ChanneledAoeDamage",
+    "Type": "1",
+    "FSLID": "1451"
   },
   "1454": {
     "GameName": "Mana Bomb",
@@ -1595,6 +3221,12 @@
     "Type": "1",
     "FSLID": "1483"
   },
+  "1484": {
+    "GameName": "Corrupted Prayer",
+    "DevName": "GA_MF_FoulTotemic_SummonTraps",
+    "Type": "1",
+    "FSLID": "1484"
+  },
   "1486": {
     "GameName": "Major Invisibility",
     "DevName": "GA_RelicPower_PartyInvisibility",
@@ -1613,11 +3245,23 @@
     "Type": "1",
     "FSLID": "1506"
   },
+  "1509": {
+    "GameName": "Invalid Ability Data",
+    "DevName": "GA_Bowguy_Passive_Talent_SelfDefenceBuff_IncreasedDurationAndDispel",
+    "Type": "1",
+    "FSLID": "1509"
+  },
   "1511": {
     "GameName": "Climb Up",
     "DevName": "GA_SH_BossSpider_Rope",
     "Type": "1",
     "FSLID": "1511"
+  },
+  "1512": {
+    "GameName": "Shoot",
+    "DevName": "GA_MF_BossNecrolord_RangedAutoAttack",
+    "Type": "1",
+    "FSLID": "1512"
   },
   "1515": {
     "GameName": "Siegebreaker",
@@ -1631,6 +3275,12 @@
     "Type": "1",
     "FSLID": "1519"
   },
+  "1520": {
+    "GameName": "Furious Tantrum",
+    "DevName": "GA_UM_BossDrazhulTheFleshbroker_ChanneledAoeDamage",
+    "Type": "1",
+    "FSLID": "1520"
+  },
   "1525": {
     "GameName": "Taskmaster's Mark",
     "DevName": "GA_CM_ElfTaskmaster_MarkForPull",
@@ -1642,6 +3292,12 @@
     "DevName": "GA_DungeonModifier_ShadowLord_MeleeAutoAttack",
     "Type": "1",
     "FSLID": "1528"
+  },
+  "1529": {
+    "GameName": "Shatter",
+    "DevName": "GA_CM_EarthElemental_CastAoeDamage",
+    "Type": "1024",
+    "FSLID": "1529"
   },
   "1530": {
     "GameName": "Shadow Lord's Aura",
@@ -1655,11 +3311,35 @@
     "Type": "1",
     "FSLID": "1532"
   },
+  "1544": {
+    "GameName": "Jungle Rot",
+    "DevName": "GA_UM_UrrakWitch_ProjectileVolley",
+    "Type": "1",
+    "FSLID": "1544"
+  },
+  "1545": {
+    "GameName": "Pain Bolt",
+    "DevName": "GA_UM_HornedSeer_CastProjectile",
+    "Type": "1024",
+    "FSLID": "1545"
+  },
   "1558": {
     "GameName": "Chronoshift",
     "DevName": "GA_Weapon_ChanneledCooldownReducer",
     "Type": "1024",
     "FSLID": "1558"
+  },
+  "1559": {
+    "GameName": "Earthbreaker",
+    "DevName": "GA_Weapon_FrontalAOEConeRepeatingStunDamage",
+    "Type": "1024",
+    "FSLID": "1559"
+  },
+  "1561": {
+    "GameName": "Icicles of An'zhyr",
+    "DevName": "GA_Weapon_CastedRepetitivelyAOEDamageDebuff",
+    "Type": "1024",
+    "FSLID": "1561"
   },
   "1563": {
     "GameName": "Meticulous Runesmith",
@@ -1672,6 +3352,12 @@
     "DevName": "GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor",
     "Type": "1",
     "FSLID": "1565"
+  },
+  "1576": {
+    "GameName": "Burstbolter",
+    "DevName": "GA_Rime_Talent_Passive_CastedProjectileDamageFiller_TriggerPulse_DamageMonitor",
+    "Type": "1024",
+    "FSLID": "1576"
   },
   "1583": {
     "GameName": "Corrosive Spill",
@@ -1697,11 +3383,53 @@
     "Type": "1",
     "FSLID": "1587"
   },
+  "1594": {
+    "GameName": "Burning Aura",
+    "DevName": "GA_VV_BossKaldursonFire_DotAuraPassive",
+    "Type": "1",
+    "FSLID": "1594"
+  },
+  "1595": {
+    "GameName": "Burning Aura",
+    "DevName": "GA_VV_BossKaldursonFire_CastDotAura",
+    "Type": "1",
+    "FSLID": "1595"
+  },
+  "1596": {
+    "GameName": "Freezing",
+    "DevName": "GA_VV_BossFrostTroll_StationaryDotPassive",
+    "Type": "1",
+    "FSLID": "1596"
+  },
+  "1597": {
+    "GameName": "Freezing Aura",
+    "DevName": "GA_VV_BossFrostTroll_CastStationaryDot",
+    "Type": "1",
+    "FSLID": "1597"
+  },
+  "1598": {
+    "GameName": "Burning",
+    "DevName": "GA_VV_BossFrostTroll_DotAuraPassive",
+    "Type": "1",
+    "FSLID": "1598"
+  },
+  "1599": {
+    "GameName": "Burning Aura",
+    "DevName": "GA_VV_BossFrostTroll_CastDotAura",
+    "Type": "1",
+    "FSLID": "1599"
+  },
   "1600": {
     "GameName": "Mothers Milk",
     "DevName": "GA_SH_BossSpider_AOEDotAndBuff",
     "Type": "1",
     "FSLID": "1600"
+  },
+  "1601": {
+    "GameName": "Constellation of Ruin",
+    "DevName": "GA_DD_NightboundMagi_MultiAoeSoak",
+    "Type": "1024",
+    "FSLID": "1601"
   },
   "1605": {
     "GameName": "Magic Missiles",
@@ -1720,6 +3448,12 @@
     "DevName": "GA_Mara_Passive_Talent_AoeAttackSpender_DamageToPoisonDot",
     "Type": "1",
     "FSLID": "1616"
+  },
+  "1617": {
+    "GameName": "Sinnari's Wrath",
+    "DevName": "GA_DD_WitheringMagiPeriodicDamage_Granted",
+    "Type": "1024",
+    "FSLID": "1617"
   },
   "1618": {
     "GameName": "Sinnari's Wrath",
@@ -1750,6 +3484,18 @@
     "DevName": "GA_NP_BossHellcaller_PeriodicDamage",
     "Type": "1",
     "FSLID": "1636"
+  },
+  "1638": {
+    "GameName": "Bloodstone Totem",
+    "DevName": "GA_MF_BossNecrolord_SummonTotem",
+    "Type": "1",
+    "FSLID": "1638"
+  },
+  "1640": {
+    "GameName": "Corrupting Shot",
+    "DevName": "GA_MF_BossNecrolord_DispellableSoakDot",
+    "Type": "1",
+    "FSLID": "1640"
   },
   "1641": {
     "GameName": "Decimate",
@@ -1787,6 +3533,18 @@
     "Type": "1",
     "FSLID": "1652"
   },
+  "1653": {
+    "GameName": "Corruption",
+    "DevName": "GA_MF_BossTotem_AoePulse",
+    "Type": "1024",
+    "FSLID": "1653"
+  },
+  "1654": {
+    "GameName": "Left Hand Path",
+    "DevName": "GA_Ink_Passive_Talent_SecondChanceSingleTargetAttack_CritAoe_Monitor",
+    "Type": "1024",
+    "FSLID": "1654"
+  },
   "1664": {
     "GameName": "Sinnari's Judgement",
     "DevName": "GA_UB_BossArchbishop_ArenaAoeBeam",
@@ -1805,11 +3563,23 @@
     "Type": "1024",
     "FSLID": "1667"
   },
+  "1668": {
+    "GameName": "Select Ball Mover",
+    "DevName": "GA_PR_BossTreasureDemon_SelectBallMoverPassive",
+    "Type": "1",
+    "FSLID": "1668"
+  },
   "1683": {
     "GameName": "Mount Nightveil Widow",
     "DevName": "GA_Mount_Spider_UnarmoredBlackRed",
     "Type": "1",
     "FSLID": "1683"
+  },
+  "1693": {
+    "GameName": "Mount Squeaks",
+    "DevName": "GA_Mount_Rat_UnarmoredBlack",
+    "Type": "1",
+    "FSLID": "1693"
   },
   "1694": {
     "GameName": "Mount Bäckahäst",
@@ -1817,11 +3587,47 @@
     "Type": "1",
     "FSLID": "1694"
   },
+  "1700": {
+    "GameName": "Mount Raging Deathcharger",
+    "DevName": "GA_Mount_HorseMagic_ArmoredDeathRed",
+    "Type": "1",
+    "FSLID": "1700"
+  },
   "1705": {
     "GameName": "Mount Vidahlian Courser",
     "DevName": "GA_Mount_Horse_UnarmoredBrown",
     "Type": "1",
     "FSLID": "1705"
+  },
+  "1708": {
+    "GameName": "Mount Alabaster Warhorse",
+    "DevName": "GA_Mount_Horse_ArmoredWhite",
+    "Type": "1",
+    "FSLID": "1708"
+  },
+  "1709": {
+    "GameName": "Mount Palomino Warhorse",
+    "DevName": "GA_Mount_Horse_ArmoredTan",
+    "Type": "1",
+    "FSLID": "1709"
+  },
+  "1712": {
+    "GameName": "Mount Obsidian Warhorse",
+    "DevName": "GA_Mount_Horse_ArmoredBlack",
+    "Type": "1",
+    "FSLID": "1712"
+  },
+  "1713": {
+    "GameName": "Mount Corrupted Bloodfang",
+    "DevName": "GA_Mount_CatMagic_UndeadBlackRed",
+    "Type": "1",
+    "FSLID": "1713"
+  },
+  "1720": {
+    "GameName": "Mount Midnight Panther",
+    "DevName": "GA_Mount_Cat_UnarmoredBlack",
+    "Type": "1",
+    "FSLID": "1720"
   },
   "1731": {
     "GameName": "Mount Drakheim Warbear",
@@ -1829,11 +3635,47 @@
     "Type": "1",
     "FSLID": "1731"
   },
+  "1739": {
+    "GameName": "Mount Vengeful Vermin",
+    "DevName": "GA_Mount_RatMagic_ArmoredGhostRed",
+    "Type": "1",
+    "FSLID": "1739"
+  },
   "1747": {
     "GameName": "Mount Scryer's Warhorse",
     "DevName": "GA_Mount_HorseMagic_ArmoredGhostPurple",
     "Type": "1",
     "FSLID": "1747"
+  },
+  "1756": {
+    "GameName": "Mount Radiant Feline",
+    "DevName": "GA_Mount_CatMagic_ArmoredGhostGold",
+    "Type": "1",
+    "FSLID": "1756"
+  },
+  "1763": {
+    "GameName": "Keelhaul",
+    "DevName": "GA_PR_BossAnchor_PeriodicMultiSoak",
+    "Type": "1024",
+    "FSLID": "1763"
+  },
+  "1764": {
+    "GameName": "Fangroot Snap",
+    "DevName": "GA_DR_BossDemonPlant_TankSlamAoe",
+    "Type": "1",
+    "FSLID": "1764"
+  },
+  "1766": {
+    "GameName": "No Quarters!",
+    "DevName": "GA_PR_BossPirateCaptain_DonutAoe",
+    "Type": "1",
+    "FSLID": "1766"
+  },
+  "1771": {
+    "GameName": "Touch of Death",
+    "DevName": "GA_PR_BossPirateCaptain_DebuffAoePool",
+    "Type": "1",
+    "FSLID": "1771"
   },
   "1774": {
     "GameName": "Mount Cheesers",
@@ -1853,11 +3695,41 @@
     "Type": "1",
     "FSLID": "1777"
   },
+  "1778": {
+    "GameName": "Mount Gilded Hoarder",
+    "DevName": "GA_Mount_RatMagic_ArmoredSoul",
+    "Type": "1",
+    "FSLID": "1778"
+  },
   "1779": {
     "GameName": "Heavy Strike",
     "DevName": "BP_Mount_HorseMagic_ArmoredBrownPurple",
     "Type": "1",
     "FSLID": "1779"
+  },
+  "1780": {
+    "GameName": "Mount Lunarscar Tiger",
+    "DevName": "GA_Mount_CatMagic_ArmoredWhiteRed",
+    "Type": "1",
+    "FSLID": "1780"
+  },
+  "1781": {
+    "GameName": "Mount Woodpaw Warbear",
+    "DevName": "GA_Mount_Bear_ArmoredBrownGreen",
+    "Type": "1",
+    "FSLID": "1781"
+  },
+  "1782": {
+    "GameName": "Mount Ashpaw Companion",
+    "DevName": "GA_Mount_Bear_ArmoredBlackRed",
+    "Type": "1",
+    "FSLID": "1782"
+  },
+  "1788": {
+    "GameName": "Mount Arcanist's Warhorse",
+    "DevName": "GA_Mount_HorseMagic_ArmoredBrownPurple",
+    "Type": "1",
+    "FSLID": "1788"
   },
   "1795": {
     "GameName": "Mount Haunted Broom",
@@ -1876,6 +3748,18 @@
     "DevName": "GA_Mount_Wolf_WinterPrestige_Fire",
     "Type": "1",
     "FSLID": "1807"
+  },
+  "1808": {
+    "GameName": "Mount Whitemane Wolf",
+    "DevName": "GA_Mount_Wolf_WinterFestive",
+    "Type": "1",
+    "FSLID": "1808"
+  },
+  "1809": {
+    "GameName": "Mount Willy Wind-Up",
+    "DevName": "GA_Mount_WindUpMouse_WinterTrancendence",
+    "Type": "1",
+    "FSLID": "1809"
   },
   "1812": {
     "GameName": "Mount Brum the Winter Warmth",
@@ -1919,11 +3803,35 @@
     "Type": "1024",
     "FSLID": "1819"
   },
+  "1820": {
+    "GameName": "Searing Blaze",
+    "DevName": "GA_DM_WinterWitch_CastAoeImmobalize",
+    "Type": "1",
+    "FSLID": "1820"
+  },
   "1821": {
     "GameName": "Attack",
     "DevName": "GA_DM_WinterWitch_AutoAttackMelee",
     "Type": "1",
     "FSLID": "1821"
+  },
+  "1826": {
+    "GameName": "Fire Frogs",
+    "DevName": "GA_DM_WinterTrickster_ThrowHomingBomb",
+    "Type": "1",
+    "FSLID": "1826"
+  },
+  "1827": {
+    "GameName": "Fire Frogs",
+    "DevName": "GA_DM_ClockworkRat_Passive_OnDeathAoe",
+    "Type": "1",
+    "FSLID": "1827"
+  },
+  "1829": {
+    "GameName": "Incenerate",
+    "DevName": "GA_DM_FriendlyClockworkRat_Passive_OnDeathAoe",
+    "Type": "1",
+    "FSLID": "1829"
   },
   "1830": {
     "GameName": "Crushing Blows",
@@ -2105,6 +4013,12 @@
     "Type": "1024",
     "FSLID": "1890"
   },
+  "1897": {
+    "GameName": "Mount Spirit of Akari",
+    "DevName": "GA_Mount_Stag_RescueStag",
+    "Type": "1",
+    "FSLID": "1897"
+  },
   "1900": {
     "GameName": "Mount Vilesoul Raptor",
     "DevName": "GA_Mount_Raptor_Armored",
@@ -2152,6 +4066,12 @@
     "DevName": "GA_RelicPower_PersonalDamageReductionBuff",
     "Type": "1",
     "FSLID": "1952"
+  },
+  "1953": {
+    "GameName": "Shackle Chuck",
+    "DevName": "GA_VV_BlackburnSlaver_ChainShot",
+    "Type": "1",
+    "FSLID": "1953"
   },
   "1954": {
     "GameName": "Shackle Chuck",
