@@ -89,6 +89,12 @@
     "Type": "1",
     "FSLID": "1000075"
   },
+  "77": {
+    "GameName": "Sahril's Aegis",
+    "DevName": "GE_Weapon_AbsorbDelayedAoeDamage_Absorb",
+    "Type": "1",
+    "FSLID": "1000077"
+  },
   "87": {
     "GameName": "Frozen Light",
     "DevName": "GA_CM_ElfLookout_ChannelRandomTargetAoe",
@@ -251,6 +257,12 @@
     "Type": "1",
     "FSLID": "1000194"
   },
+  "217": {
+    "GameName": "Devour Light",
+    "DevName": "GE_BossVikingMystic_RuneMinion_Cast_Buff",
+    "Type": "1",
+    "FSLID": "1000217"
+  },
   "219": {
     "GameName": "Blinding Fear",
     "DevName": "GE_VV_BossVikingMystic_TransferableDebuff_Fear",
@@ -268,6 +280,12 @@
     "DevName": "GE_VV_BossVikingMystic_TeleportAttack_Stun",
     "Type": "1",
     "FSLID": "1000221"
+  },
+  "233": {
+    "GameName": "Freezing",
+    "DevName": "GE_VV_BossKaldursonIce_StationaryDot_Debuff",
+    "Type": "1024",
+    "FSLID": "1000233"
   },
   "241": {
     "GameName": "Burning",
@@ -653,6 +671,18 @@
     "Type": "8",
     "FSLID": "1000834"
   },
+  "840": {
+    "GameName": "Slow",
+    "DevName": "GE_IC_GreaterIceElemental_EarthBreaker_Slow",
+    "Type": "1",
+    "FSLID": "1000840"
+  },
+  "846": {
+    "GameName": "Freezing Pool",
+    "DevName": "GE_IC_GlacialSprite_PassiveAOEPools_Damage",
+    "Type": "1024",
+    "FSLID": "1000846"
+  },
   "849": {
     "GameName": "Splintering Ice",
     "DevName": "GE_IC_BossMagistrate_Redemption_Dot",
@@ -719,6 +749,12 @@
     "Type": "1024",
     "FSLID": "1000899"
   },
+  "900": {
+    "GameName": "Freezing Blood: Burst",
+    "DevName": "GE_FK_Elf_Cleric_Redemption_Damage",
+    "Type": "1024",
+    "FSLID": "1000900"
+  },
   "903": {
     "GameName": "Drain Life",
     "DevName": "GE_FK_Elf_Cleric_DrainLife_Damage",
@@ -772,6 +808,12 @@
     "DevName": "GE_FK_BossFreezingWaterlord_ExplodePuddles_Damage",
     "Type": "1024",
     "FSLID": "1000928"
+  },
+  "931": {
+    "GameName": "Unbearable Cold",
+    "DevName": "GE_FK_BossElfDragon_ShrinkingArenaDebuff_Dot",
+    "Type": "1024",
+    "FSLID": "1000931"
   },
   "932": {
     "GameName": "Bloodhunt: Bleed",
@@ -977,6 +1019,18 @@
     "Type": "1",
     "FSLID": "1001157"
   },
+  "1214": {
+    "GameName": "Second Wind: Build up",
+    "DevName": "GE_Warmaster_Talent_ToughnessBuff_Stacker",
+    "Type": "1",
+    "FSLID": "1001214"
+  },
+  "1215": {
+    "GameName": "Second Wind",
+    "DevName": "GE_Warmaster_Talent_ToughnessBuff_Buff",
+    "Type": "1",
+    "FSLID": "1001215"
+  },
   "1240": {
     "GameName": "Martial Command",
     "DevName": "GA_Ink_AutoAttackBuff",
@@ -1109,11 +1163,23 @@
     "Type": "1024",
     "FSLID": "1001365"
   },
+  "1368": {
+    "GameName": "Tundra Guard's Favor",
+    "DevName": "GE_Rime_Talent_SelfDefenceBuff_DurationBoostAndHealFromDamage_Heal",
+    "Type": "8",
+    "FSLID": "1001368"
+  },
   "1373": {
     "GameName": "Soulfrost Torrent",
     "DevName": "GE_Rime_Talent_ChanneledBeamSingleDamage_BoostByCritProc_Proc",
     "Type": "1",
     "FSLID": "1001373"
+  },
+  "1377": {
+    "GameName": "Glacial Assault",
+    "DevName": "GE_Rime_CastedProjectileDamageOrbSpender_Talent_InstantAndBonusDamage_ProcStacker",
+    "Type": "1",
+    "FSLID": "1001377"
   },
   "1379": {
     "GameName": "Frost Ward",
@@ -1162,6 +1228,72 @@
     "DevName": "GA_SH_BossSpider_GoBackToPhase1",
     "Type": "1",
     "FSLID": "1001397"
+  },
+  "1419": {
+    "GameName": "Sprouting Nettles",
+    "DevName": "GE_Mosse_Talent_ButterflyHeal_CastedSingleTargetProjectile_Proc_Buff",
+    "Type": "1",
+    "FSLID": "1001419"
+  },
+  "1439": {
+    "GameName": "Fluttercall: Jubilee",
+    "DevName": "GE_Mosse_SharedHealthBuff_Buff",
+    "Type": "1",
+    "FSLID": "1001439"
+  },
+  "1440": {
+    "GameName": "Prickly Vine",
+    "DevName": "GE_Mosse_ProjectileTurret_Damage",
+    "Type": "1024",
+    "FSLID": "1001440"
+  },
+  "1445": {
+    "GameName": "Fluttercall: Heal",
+    "DevName": "GE_Mosse_PinkButterfly_Simple_Hot",
+    "Type": "8",
+    "FSLID": "1001445"
+  },
+  "1448": {
+    "GameName": "Fluttercall: Restore Life",
+    "DevName": "GE_Mosse_PinkButterfly_Double_Hot",
+    "Type": "8",
+    "FSLID": "1001448"
+  },
+  "1450": {
+    "GameName": "Fluttercall: Restore Life - Pollinating",
+    "DevName": "GE_Mosse_PinkButterfly_Double_Chargeup",
+    "Type": "1",
+    "FSLID": "1001450"
+  },
+  "1470": {
+    "GameName": "Hidden Trail",
+    "DevName": "GE_Mosse_InstantSelfEscapeBuff_Buff",
+    "Type": "1",
+    "FSLID": "1001470"
+  },
+  "1474": {
+    "GameName": "Shroomsplosion",
+    "DevName": "GE_Mosse_ExplosiveMinion_Damage",
+    "Type": "1024",
+    "FSLID": "1001474"
+  },
+  "1484": {
+    "GameName": "Ironleaf Ward",
+    "DevName": "GE_Mosse_SingleTargetCastedDamageReductionBuff",
+    "Type": "1",
+    "FSLID": "1001484"
+  },
+  "1485": {
+    "GameName": "Fluttercall: Protect",
+    "DevName": "GE_Mosse_BlueButterfly_TargetBuff",
+    "Type": "1",
+    "FSLID": "1001485"
+  },
+  "1486": {
+    "GameName": "Fluttercall: Embrace",
+    "DevName": "GE_Mosse_BlueButterfly_SelfBuff",
+    "Type": "1",
+    "FSLID": "1001486"
   },
   "1491": {
     "GameName": "Soul Split: Bulwark",
@@ -1697,6 +1829,18 @@
     "Type": "1",
     "FSLID": "1002078"
   },
+  "2079": {
+    "GameName": "Grounded Spirit",
+    "DevName": "GE_Trait_StandingStillHealStacking_Heal",
+    "Type": "8",
+    "FSLID": "1002079"
+  },
+  "2080": {
+    "GameName": "Grounded Spirit",
+    "DevName": "GE_Trait_StandingStillHealStacking_Buff",
+    "Type": "1",
+    "FSLID": "1002080"
+  },
   "2090": {
     "GameName": "Divine Mediation: Heal",
     "DevName": "GE_Trait_IncomingDamageToHotAndAbsorb_Hot",
@@ -1937,6 +2081,12 @@
     "Type": "1",
     "FSLID": "1002171"
   },
+  "2172": {
+    "GameName": "Unyielding Bloom",
+    "DevName": "GE_Mosse_Talent_DurationalAoeHealPlacement_OverhealGivesAbsorb_AbsorbBuff",
+    "Type": "1",
+    "FSLID": "1002172"
+  },
   "2174": {
     "GameName": "Martial Initiative",
     "DevName": "GE_Trait_WeaponDamageReductionPrimaryStatIncrease_Buff",
@@ -2045,6 +2195,24 @@
     "Type": "1",
     "FSLID": "1002229"
   },
+  "2232": {
+    "GameName": "Enfeebling Rootsap",
+    "DevName": "GE_Mosse_TurretChannelHeal_Debuff",
+    "Type": "1",
+    "FSLID": "1002232"
+  },
+  "2240": {
+    "GameName": "Natural Protector",
+    "DevName": "GE_Mosse_Talent_TargetAbsorb",
+    "Type": "1",
+    "FSLID": "1002240"
+  },
+  "2241": {
+    "GameName": "Bloomin' Boomshrooms",
+    "DevName": "GE_Mosse_Talent_ExplosiveMinion_AllyTargetHeal_Heal",
+    "Type": "8",
+    "FSLID": "1002241"
+  },
   "2245": {
     "GameName": "Assassin's Guile",
     "DevName": "GE_Mara_Talent_Stealth_SpenderIncreasedDamage_Proc",
@@ -2075,6 +2243,12 @@
     "Type": "1",
     "FSLID": "1002255"
   },
+  "2257": {
+    "GameName": "Freezing Aura",
+    "DevName": "GE_VV_BossKaldursonIce_DotAura_Buff",
+    "Type": "1",
+    "FSLID": "1002257"
+  },
   "2258": {
     "GameName": "Freezing Aura",
     "DevName": "GE_VV_BossFrostTroll_StationaryAura_Buff",
@@ -2104,6 +2278,12 @@
     "DevName": "GE_Ink_Talent_LowHealthSingleTargetResourceDamage_ChanceActiveOnCommit_Proc",
     "Type": "1",
     "FSLID": "1002267"
+  },
+  "2269": {
+    "GameName": "Safe Haven",
+    "DevName": "GE_Mosse_PlacedAoeBuff_IncreasedHealingTakenBuff",
+    "Type": "1",
+    "FSLID": "1002269"
   },
   "2271": {
     "GameName": "Focused Expanse",
@@ -2170,6 +2350,12 @@
     "DevName": "GE_Firemage_Talent_PlacedProjectileAoe_ResetCooldownDamageBuff",
     "Type": "1",
     "FSLID": "1002301"
+  },
+  "2302": {
+    "GameName": "Crackling Inferno",
+    "DevName": "GE_Firemage__Talent_CastedDotBoostProjectile_DirectDamageBased_Dot",
+    "Type": "1024",
+    "FSLID": "1002302"
   },
   "2303": {
     "GameName": "Winter's Embrace",
@@ -2248,6 +2434,18 @@
     "DevName": "GE_Warmaster_Talent_MeleeCleaveAbsorbBuff_ReducedDamageReflectDamage_Damage",
     "Type": "1",
     "FSLID": "1002340"
+  },
+  "2342": {
+    "GameName": "Targeted: Ice Tomb",
+    "DevName": "GE_VV_BossKaldursonIce_IceTomb_CastTargetDebuff",
+    "Type": "1",
+    "FSLID": "1002342"
+  },
+  "2343": {
+    "GameName": "Grieving Isilagður",
+    "DevName": "GE_VV_BossFrostTroll_Kaldurson_IceIsDeadBuff",
+    "Type": "1",
+    "FSLID": "1002343"
   },
   "2344": {
     "GameName": "Grieving Eldsupptok",
@@ -2495,6 +2693,12 @@
     "Type": "1024",
     "FSLID": "1002455"
   },
+  "2457": {
+    "GameName": "Reduced Power",
+    "DevName": "GE_Shared_Passive_PowerScaler",
+    "Type": "1",
+    "FSLID": "1002457"
+  },
   "2462": {
     "GameName": "Bursting Brood: Acidic Goo",
     "DevName": "GE_SH_CarrionHorror_ExplodeCorpse_Dot",
@@ -2542,6 +2746,12 @@
     "DevName": "GE_DungeonModifier_WinterWitch_BoonActivated",
     "Type": "1",
     "FSLID": "1002493"
+  },
+  "2495": {
+    "GameName": "Lingering Chill: Erupt",
+    "DevName": "GE_DM_WinterWitch_ChannelAoeDamage_SlowDebuffOverflow",
+    "Type": "1024",
+    "FSLID": "1002495"
   },
   "2496": {
     "GameName": "Lingering Chill",
@@ -2681,6 +2891,18 @@
     "Type": "1",
     "FSLID": "1002624"
   },
+  "2647": {
+    "GameName": "Sun's Verdict",
+    "DevName": "GE_Sune_Talent_SingleTargetFillerMelee_AoeProcBuff_Damage",
+    "Type": "1024",
+    "FSLID": "1002647"
+  },
+  "2648": {
+    "GameName": "Sun's Verdict",
+    "DevName": "GE_Sune_Talent_SingleTargetFillerMelee_AoeProcBuff_Buff",
+    "Type": "1",
+    "FSLID": "1002648"
+  },
   "2649": {
     "GameName": "Hallowed Shield",
     "DevName": "GE_Sune_Talent_SingleTargetAbsorb_ParryBoost_Buff",
@@ -2753,6 +2975,12 @@
     "Type": "1024",
     "FSLID": "1002669"
   },
+  "2674": {
+    "GameName": "Quickening",
+    "DevName": "GE_Lisa_Talent_CastedSingleTargetProjectile_CastedHealFromPreviousDamageProc_Proc",
+    "Type": "1",
+    "FSLID": "1002674"
+  },
   "2676": {
     "GameName": "Continuum Shift",
     "DevName": "GE_Lisa_Talent_CastedProjectileDamageIncreaseDebuff_DamageAbilityBuff_Buff",
@@ -2776,6 +3004,12 @@
     "DevName": "GE_DungeonModifier_StormShield_ShieldBuff_Buff",
     "Type": "1",
     "FSLID": "1002700"
+  },
+  "2703": {
+    "GameName": "Pathfinder's Guidance",
+    "DevName": "GE_DungeonModifiers_PathFinder_Buff",
+    "Type": "1",
+    "FSLID": "1002703"
   },
   "2704": {
     "GameName": "Anomalous Residue: Topaz",
@@ -2890,6 +3124,12 @@
     "DevName": "GE_Rime_Talent_InstantSingleDamage_FreeCast_Proc",
     "Type": "1",
     "FSLID": "1002730"
+  },
+  "2731": {
+    "GameName": "Natural Selection",
+    "DevName": "GE_Mosse_Passive_PartyStaminaBuff_Buff",
+    "Type": "1",
+    "FSLID": "1002731"
   },
   "2735": {
     "GameName": "Erasure",

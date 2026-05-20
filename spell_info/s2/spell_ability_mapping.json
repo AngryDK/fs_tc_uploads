@@ -149,6 +149,12 @@
     "Type": "1",
     "FSLID": "92"
   },
+  "93": {
+    "GameName": "Emerald Judgement",
+    "DevName": "GA_CM_ElfEnforcer_Protect",
+    "Type": "1",
+    "FSLID": "93"
+  },
   "96": {
     "GameName": "Diamond Strike",
     "DevName": "GA_CM_CrystalConstructCharged_ChainLightning",
@@ -190,6 +196,12 @@
     "DevName": "GA_Vigor_CastedSingleTargetHeal",
     "Type": "8",
     "FSLID": "112"
+  },
+  "116": {
+    "GameName": "Ironleaf Ward",
+    "DevName": "GA_Mosse_SingleTargetCastedDamageReduction",
+    "Type": "1",
+    "FSLID": "116"
   },
   "125": {
     "GameName": "Grappling Arrow",
@@ -281,11 +293,23 @@
     "Type": "1024",
     "FSLID": "157"
   },
+  "159": {
+    "GameName": "Sahril's Aegis",
+    "DevName": "GA_Weapon_AbsorbDelayedAoeDamage",
+    "Type": "1024",
+    "FSLID": "159"
+  },
   "161": {
     "GameName": "Nature's Fury",
     "DevName": "GA_Weapon_CastedChainHealDamage",
     "Type": "1024",
     "FSLID": "161"
+  },
+  "162": {
+    "GameName": "Zeraleth's Hunger",
+    "DevName": "GA_Weapon_CastedHealAndDamageChannel",
+    "Type": "1024",
+    "FSLID": "162"
   },
   "164": {
     "GameName": "Repository of Frozen Light",
@@ -310,6 +334,12 @@
     "DevName": "GA_Trait_GemSingleTargetProcOnDamageHeal",
     "Type": "1",
     "FSLID": "168"
+  },
+  "169": {
+    "GameName": "Sapphire Aurastone",
+    "DevName": "GA_Trait_GemPulsatingOnAbilityTotemProc",
+    "Type": "1024",
+    "FSLID": "169"
   },
   "170": {
     "GameName": "Amethyst Splinters",
@@ -346,6 +376,12 @@
     "DevName": "GA_RelicPower_MassDispel",
     "Type": "1",
     "FSLID": "187"
+  },
+  "188": {
+    "GameName": "Restore Mana",
+    "DevName": "GA_RelicPower_ManaPotion",
+    "Type": "1",
+    "FSLID": "188"
   },
   "189": {
     "GameName": "Rejuvenate",
@@ -467,11 +503,23 @@
     "Type": "1",
     "FSLID": "229"
   },
+  "231": {
+    "GameName": "False Rune Explosion",
+    "DevName": "GA_BossVikingMystic_RuneMinion_OnDeathExplosion",
+    "Type": "1024",
+    "FSLID": "231"
+  },
   "232": {
     "GameName": "Devouring Darkness",
     "DevName": "GA_BossVikingMystic_RuneMinion_Cast",
     "Type": "1",
     "FSLID": "232"
+  },
+  "233": {
+    "GameName": "Freezing",
+    "DevName": "GA_VV_BossVikingMystic_TransferableDebuff_Granted",
+    "Type": "1",
+    "FSLID": "233"
   },
   "234": {
     "GameName": "Blinding Fear",
@@ -514,6 +562,18 @@
     "DevName": "GA_VV_BossVikingMystic_ChanneledAoeDamage",
     "Type": "1024",
     "FSLID": "242"
+  },
+  "244": {
+    "GameName": "Freezing Aura",
+    "DevName": "GA_VV_BossKaldursonIce_SlowAura",
+    "Type": "1",
+    "FSLID": "244"
+  },
+  "245": {
+    "GameName": "Attack",
+    "DevName": "GA_VV_BossKaldursonIce_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "245"
   },
   "247": {
     "GameName": "Freezing",
@@ -592,6 +652,12 @@
     "DevName": "GA_VV_BlackmistShadow_RunePuzzle",
     "Type": "1",
     "FSLID": "269"
+  },
+  "270": {
+    "GameName": "False Rune Explosion",
+    "DevName": "GA_BlackmistShadowMinion_OnDeathExplosion",
+    "Type": "1024",
+    "FSLID": "270"
   },
   "271": {
     "GameName": "Devouring Darkness",
@@ -1601,11 +1667,29 @@
     "Type": "1",
     "FSLID": "698"
   },
+  "702": {
+    "GameName": "Frozen Stomp",
+    "DevName": "GA_IC_GreaterIceElemental_EarthStomp",
+    "Type": "1",
+    "FSLID": "702"
+  },
   "703": {
     "GameName": "Avalanche",
     "DevName": "GA_IC_GreaterIceElemental_EarthBreaker",
     "Type": "1",
     "FSLID": "703"
+  },
+  "705": {
+    "GameName": "Attack",
+    "DevName": "GA_IC_GreaterIceElemental_AutoAttack",
+    "Type": "1",
+    "FSLID": "705"
+  },
+  "707": {
+    "GameName": "Attack",
+    "DevName": "GA_IC_GlacialSprite_AutoAttackMelee",
+    "Type": "1024",
+    "FSLID": "707"
   },
   "708": {
     "GameName": "Splintering Ice",
@@ -2069,6 +2153,12 @@
     "Type": "1",
     "FSLID": "838"
   },
+  "846": {
+    "GameName": "Freezing Pool",
+    "DevName": "GA_DR_BossSummonedDemon_PortalDemon_AoePulse",
+    "Type": "1",
+    "FSLID": "846"
+  },
   "849": {
     "GameName": "Splintering Ice",
     "DevName": "GA_DR_BossSummonedDemon_TankSlam",
@@ -2219,6 +2309,12 @@
     "Type": "1",
     "FSLID": "899"
   },
+  "900": {
+    "GameName": "Freezing Blood: Burst",
+    "DevName": "GA_CM_ReflectedHero_AutoAttack",
+    "Type": "1",
+    "FSLID": "900"
+  },
   "902": {
     "GameName": "Attack",
     "DevName": "GA_CM_Elf_Warden_MeleeAutoAttack",
@@ -2314,6 +2410,12 @@
     "DevName": "GA_CM_BossYrsa_Aina_Shared_EnragePassive",
     "Type": "1",
     "FSLID": "928"
+  },
+  "931": {
+    "GameName": "Unbearable Cold",
+    "DevName": "GA_CM_BossWhisperingCore_Emerge",
+    "Type": "1",
+    "FSLID": "931"
   },
   "932": {
     "GameName": "Bloodhunt: Bleed",
@@ -2585,11 +2687,29 @@
     "Type": "1024",
     "FSLID": "1033"
   },
+  "1047": {
+    "GameName": "Enfeebling Rootsap",
+    "DevName": "GA_Mosse_TurretChannelHeal",
+    "Type": "1",
+    "FSLID": "1047"
+  },
   "1048": {
     "GameName": "Hemorrhaging Strike",
     "DevName": "GA_Mosse_Talent_Passive_DotMonitor",
     "Type": "1",
     "FSLID": "1048"
+  },
+  "1054": {
+    "GameName": "Cure Ailment",
+    "DevName": "GA_Mosse_SingleTargetDispel",
+    "Type": "1",
+    "FSLID": "1054"
+  },
+  "1055": {
+    "GameName": "Fluttercall: Jubilee",
+    "DevName": "GA_Mosse_SharedHealthBuff",
+    "Type": "1",
+    "FSLID": "1055"
   },
   "1057": {
     "GameName": "Prickly Vine",
@@ -2597,11 +2717,65 @@
     "Type": "1",
     "FSLID": "1057"
   },
+  "1059": {
+    "GameName": "Safe Haven",
+    "DevName": "GA_Mosse_PlacedAoeBuff",
+    "Type": "1",
+    "FSLID": "1059"
+  },
+  "1060": {
+    "GameName": "Fluttercall: Heal",
+    "DevName": "GA_Mosse_PinkButterfly_Simple",
+    "Type": "1",
+    "FSLID": "1060"
+  },
+  "1061": {
+    "GameName": "Fluttercall: Restore Life",
+    "DevName": "GA_Mosse_PinkButterfly_Double",
+    "Type": "8",
+    "FSLID": "1061"
+  },
+  "1071": {
+    "GameName": "Hidden Trail",
+    "DevName": "GA_Mosse_InstantSelfEscapeBuff",
+    "Type": "1",
+    "FSLID": "1071"
+  },
+  "1072": {
+    "GameName": "Life Petal",
+    "DevName": "GA_Mosse_HealingAoeTotem",
+    "Type": "8",
+    "FSLID": "1072"
+  },
+  "1073": {
+    "GameName": "Shroomsplosion",
+    "DevName": "GA_Mosse_ExplosiveMinion",
+    "Type": "1",
+    "FSLID": "1073"
+  },
+  "1075": {
+    "GameName": "Heart Bloom",
+    "DevName": "GA_Mosse_DurationalAoeHealPlacement",
+    "Type": "8",
+    "FSLID": "1075"
+  },
   "1076": {
     "GameName": "Nettlebolt",
     "DevName": "GA_Mosse_CastedSingleTargetProjectile",
     "Type": "1",
     "FSLID": "1076"
+  },
+  "1079": {
+    "GameName": "Fluttercall: Protect",
+    "DevName": "GA_Mosse_BlueButterfly_SendOut",
+    "Type": "1",
+    "FSLID": "1079"
+  },
+  "1080": {
+    "GameName": "Fluttercall: Embrace",
+    "DevName": "GA_Mosse_BlueButterfly_Recall",
+    "Type": "1",
+    "FSLID": "1080"
   },
   "1082": {
     "GameName": "Twin Souls: Bulwark",
@@ -3119,6 +3293,12 @@
     "Type": "1",
     "FSLID": "1423"
   },
+  "1424": {
+    "GameName": "Ice Tomb",
+    "DevName": "GA_VV_BossKaldursonIce_IceTomb",
+    "Type": "1",
+    "FSLID": "1424"
+  },
   "1426": {
     "GameName": "Ice Tomb",
     "DevName": "GA_VV_BossFrostTroll_IceTomb",
@@ -3203,6 +3383,12 @@
     "Type": "1",
     "FSLID": "1468"
   },
+  "1474": {
+    "GameName": "Shroomsplosion",
+    "DevName": "GA_FK_Elf_Ranger__MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "1474"
+  },
   "1475": {
     "GameName": "Reposition",
     "DevName": "GA_EM_BossVaerith_Reposition",
@@ -3232,6 +3418,12 @@
     "DevName": "GA_RelicPower_PartyInvisibility",
     "Type": "1",
     "FSLID": "1486"
+  },
+  "1500": {
+    "GameName": "Unyielding Bloom",
+    "DevName": "GA_Mosse_Talent_Passive_DurationalAoeHealPlacement_OverhealGivesAbsorb_Monitor",
+    "Type": "1",
+    "FSLID": "1500"
   },
   "1504": {
     "GameName": "Conjure Portal",
@@ -3323,6 +3515,12 @@
     "Type": "1024",
     "FSLID": "1545"
   },
+  "1556": {
+    "GameName": "Shatter Earth",
+    "DevName": "GA_Ink_Passive_Talent_LowHealthSingleTargetResourceDamage_ChanceActiveOnCommit",
+    "Type": "1",
+    "FSLID": "1556"
+  },
   "1558": {
     "GameName": "Chronoshift",
     "DevName": "GA_Weapon_ChanneledCooldownReducer",
@@ -3353,6 +3551,18 @@
     "Type": "1",
     "FSLID": "1565"
   },
+  "1568": {
+    "GameName": "Crackling Inferno",
+    "DevName": "GA_Firemage_Talent_Passive_CastedDotBoostProjectile_CritsApplyDot_DamageMonitor",
+    "Type": "1",
+    "FSLID": "1568"
+  },
+  "1572": {
+    "GameName": "Stone Shield",
+    "DevName": "GA_Rime_Talent_Passive_CastedProjectileDamageOrbSpender_TertiaryResourceSpendMonitor",
+    "Type": "1",
+    "FSLID": "1572"
+  },
   "1576": {
     "GameName": "Burstbolter",
     "DevName": "GA_Rime_Talent_Passive_CastedProjectileDamageFiller_TriggerPulse_DamageMonitor",
@@ -3371,6 +3581,12 @@
     "Type": "1",
     "FSLID": "1584"
   },
+  "1585": {
+    "GameName": "Caustic Poison",
+    "DevName": "GA_Bowguy_Passive_ReducedCostCooldownRecoveryBuff_Manager",
+    "Type": "1",
+    "FSLID": "1585"
+  },
   "1586": {
     "GameName": "Engulfing Flames",
     "DevName": "GA_Firemage_CastedSingleHeavyDot",
@@ -3382,6 +3598,18 @@
     "DevName": "GA_Firemage_CastedSingleDot2",
     "Type": "1",
     "FSLID": "1587"
+  },
+  "1592": {
+    "GameName": "Freezing Aura",
+    "DevName": "GA_VV_BossKaldursonIce_StationaryDotPassive",
+    "Type": "1",
+    "FSLID": "1592"
+  },
+  "1593": {
+    "GameName": "Freezing Aura",
+    "DevName": "GA_VV_BossKaldursonIce_CastStationaryDot",
+    "Type": "1",
+    "FSLID": "1593"
   },
   "1594": {
     "GameName": "Burning Aura",
@@ -3545,6 +3773,12 @@
     "Type": "1024",
     "FSLID": "1654"
   },
+  "1657": {
+    "GameName": "Attack",
+    "DevName": "GA_FK_Elf_Ranger_MeleeAutoAttack",
+    "Type": "1",
+    "FSLID": "1657"
+  },
   "1664": {
     "GameName": "Sinnari's Judgement",
     "DevName": "GA_UB_BossArchbishop_ArenaAoeBeam",
@@ -3587,17 +3821,35 @@
     "Type": "1",
     "FSLID": "1694"
   },
+  "1699": {
+    "GameName": "Mount Eldrin Chillcharger",
+    "DevName": "GA_Mount_HorseMagic_ArmoredIce",
+    "Type": "1",
+    "FSLID": "1699"
+  },
   "1700": {
     "GameName": "Mount Raging Deathcharger",
     "DevName": "GA_Mount_HorseMagic_ArmoredDeathRed",
     "Type": "1",
     "FSLID": "1700"
   },
+  "1702": {
+    "GameName": "Mount Alabaster Steed",
+    "DevName": "GA_Mount_Horse_UnarmoredWhite",
+    "Type": "1",
+    "FSLID": "1702"
+  },
   "1705": {
     "GameName": "Mount Vidahlian Courser",
     "DevName": "GA_Mount_Horse_UnarmoredBrown",
     "Type": "1",
     "FSLID": "1705"
+  },
+  "1706": {
+    "GameName": "Mount Obsidian Charger",
+    "DevName": "GA_Mount_Horse_UnarmoredBlack",
+    "Type": "1",
+    "FSLID": "1706"
   },
   "1708": {
     "GameName": "Mount Alabaster Warhorse",
@@ -3611,6 +3863,12 @@
     "Type": "1",
     "FSLID": "1709"
   },
+  "1711": {
+    "GameName": "Mount Vidahlian Warhorse",
+    "DevName": "GA_Mount_Horse_ArmoredBrown",
+    "Type": "1",
+    "FSLID": "1711"
+  },
   "1712": {
     "GameName": "Mount Obsidian Warhorse",
     "DevName": "GA_Mount_Horse_ArmoredBlack",
@@ -3623,11 +3881,47 @@
     "Type": "1",
     "FSLID": "1713"
   },
+  "1716": {
+    "GameName": "Seething Poison",
+    "DevName": "GA_Mount_CatMagic_UnarmoredGhostGold",
+    "Type": "1",
+    "FSLID": "1716"
+  },
+  "1717": {
+    "GameName": "Mount Ael'dethi Prowler",
+    "DevName": "GA_Mount_Cat_UnarmoredStripedWhiteBlue",
+    "Type": "1",
+    "FSLID": "1717"
+  },
   "1720": {
     "GameName": "Mount Midnight Panther",
     "DevName": "GA_Mount_Cat_UnarmoredBlack",
     "Type": "1",
     "FSLID": "1720"
+  },
+  "1721": {
+    "GameName": "Mount Bloodfang Matriarch",
+    "DevName": "GA_Mount_Cat_ArmoredStripedBlackRed",
+    "Type": "1",
+    "FSLID": "1721"
+  },
+  "1724": {
+    "GameName": "Hemorrhage",
+    "DevName": "GA_Mount_BearMagic_ArmoredGhostTeal",
+    "Type": "1",
+    "FSLID": "1724"
+  },
+  "1727": {
+    "GameName": "Mount Guardian Ghostclaw",
+    "DevName": "GA_Mount_BearMagic_ArmoredGhostBlue",
+    "Type": "1",
+    "FSLID": "1727"
+  },
+  "1730": {
+    "GameName": "Volatile Poison",
+    "DevName": "GA_Mount_Bear_UnarmoredBlack",
+    "Type": "1",
+    "FSLID": "1730"
   },
   "1731": {
     "GameName": "Mount Drakheim Warbear",
@@ -3682,6 +3976,12 @@
     "DevName": "GA_Mount_Rat_ArmoredWhite",
     "Type": "1",
     "FSLID": "1774"
+  },
+  "1775": {
+    "GameName": "Mount Wyrdwood Warhorse",
+    "DevName": "GA_Mount_HorseMagic_ArmoredBrownGreen",
+    "Type": "1",
+    "FSLID": "1775"
   },
   "1776": {
     "GameName": "Heavy Strike",
@@ -4114,5 +4414,11 @@
     "DevName": "GA_Lisa_Passive_Talent_InstantDamageSpender_SelfBuff",
     "Type": "1",
     "FSLID": "2018"
+  },
+  "2023": {
+    "GameName": "Glacial Assault",
+    "DevName": "GA_Rime_Talent_Passive_CastedProjectileDamageOrbSpender_DamageToAoe_Monitor",
+    "Type": "1024",
+    "FSLID": "2023"
   }
 }
