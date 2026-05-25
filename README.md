@@ -6,10 +6,12 @@
 Massive updates to how mobs / spells are tracked. (5/25/26)
 ```
 
+This Git is for sharing my TC data or dumps with the community. I will update as needed. 
 
-I will be updating this as needed. This Git is for sharing my TC data or dumps with the community. I will update as needed. 
 
-**WIP**
+## (WIP) - I'll be updating a lot.
+
+
 
 It seems both Health and Dmg scaling follow the same rules.
 ```
