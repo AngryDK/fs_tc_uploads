@@ -1,4 +1,8 @@
 {
+  "1": {
+    "DevName": "FriendTest",
+    "NotFound": "s2"
+  },
   "2": {
     "DevName": "BossTest",
     "NotFound": "s2"
@@ -49,13 +53,13 @@
     "DevZoneName": "VikingVillage",
     "FoundInZones": [
       "HOT",
-      "RAN",
-      "SW"
+      "SW",
+      "RAN"
     ],
     "FoundInZoneIDs": [
       50005,
-      50023,
-      50012
+      50012,
+      50023
     ]
   },
   "11": {
@@ -99,13 +103,13 @@
     "DevZoneName": "VikingVillage",
     "FoundInZones": [
       "HOT",
-      "RAN",
-      "SW"
+      "SW",
+      "RAN"
     ],
     "FoundInZoneIDs": [
       50005,
-      50023,
-      50012
+      50012,
+      50023
     ]
   },
   "13": {
@@ -125,12 +129,12 @@
     "BossUnconfirmed": false,
     "DevZoneName": "VikingVillage",
     "FoundInZones": [
-      "RAN",
-      "SH"
+      "SH",
+      "RAN"
     ],
     "FoundInZoneIDs": [
-      50023,
-      50024
+      50024,
+      50023
     ]
   },
   "14": {
@@ -456,13 +460,13 @@
     "DevZoneName": "VikingVillage",
     "FoundInZones": [
       "HOT",
-      "RAN",
-      "SW"
+      "SW",
+      "RAN"
     ],
     "FoundInZoneIDs": [
       50005,
-      50023,
-      50012
+      50012,
+      50023
     ]
   },
   "33": {
@@ -680,8 +684,8 @@
     "KillScore": 0.0,
     "SpiritPointValue": 22.0,
     "ks_sp_equal": false,
-    "IsTrueBoss": false,
-    "IsBossFight": true,
+    "IsTrueBoss": true,
+    "IsBossFight": false,
     "IsAffix": false,
     "IsJunk": false,
     "BossUnconfirmed": false,
@@ -705,8 +709,8 @@
     "KillScore": 0.0,
     "SpiritPointValue": 23.0,
     "ks_sp_equal": false,
-    "IsTrueBoss": false,
-    "IsBossFight": true,
+    "IsTrueBoss": true,
+    "IsBossFight": false,
     "IsAffix": false,
     "IsJunk": false,
     "BossUnconfirmed": false,
@@ -1227,7 +1231,7 @@
   "105": {
     "DevName": "SG_BossSiren",
     "Name": "Sinthara",
-    "MobType": "NPC",
+    "MobType": "Boss",
     "DefaultBaseHealthMultiplier": 23.863,
     "Armor": 0.0,
     "Resist": 0.0,
@@ -1533,14 +1537,14 @@
     "BossUnconfirmed": false,
     "DevZoneName": "PirateRaid",
     "FoundInZones": [
-      "RAN",
+      "WTV",
       "UM",
-      "WTV"
+      "RAN"
     ],
     "FoundInZoneIDs": [
-      50023,
+      50013,
       50021,
-      50013
+      50023
     ]
   },
   "121": {
@@ -1606,8 +1610,8 @@
     "KillScore": 0.0,
     "SpiritPointValue": 22.0,
     "ks_sp_equal": false,
-    "IsTrueBoss": false,
-    "IsBossFight": true,
+    "IsTrueBoss": true,
+    "IsBossFight": false,
     "IsAffix": false,
     "IsJunk": false,
     "BossUnconfirmed": false,
@@ -1757,12 +1761,12 @@
     "BossUnconfirmed": false,
     "DevZoneName": "NightPatrol",
     "FoundInZones": [
-      "SH",
-      "SW"
+      "SW",
+      "SH"
     ],
     "FoundInZoneIDs": [
-      50024,
-      50012
+      50012,
+      50024
     ]
   },
   "131": {
@@ -1780,12 +1784,12 @@
     "BossUnconfirmed": false,
     "DevZoneName": "NightPatrol",
     "FoundInZones": [
-      "SH",
-      "SW"
+      "SW",
+      "SH"
     ],
     "FoundInZoneIDs": [
-      50024,
-      50012
+      50012,
+      50024
     ]
   },
   "132": {
@@ -1803,12 +1807,12 @@
     "BossUnconfirmed": false,
     "DevZoneName": "NightPatrol",
     "FoundInZones": [
-      "SH",
-      "SW"
+      "SW",
+      "SH"
     ],
     "FoundInZoneIDs": [
-      50024,
-      50012
+      50012,
+      50024
     ]
   },
   "133": {
@@ -1900,12 +1904,12 @@
     "BossUnconfirmed": false,
     "DevZoneName": "MythicForest",
     "FoundInZones": [
-      "EG",
-      "GFQ"
+      "GFQ",
+      "EG"
     ],
     "FoundInZoneIDs": [
-      50011,
-      50025
+      50025,
+      50011
     ],
     "PassiveMoveSpeed": 1.0
   },
@@ -2190,7 +2194,7 @@
   "156": {
     "DevName": "IC_BossMagistrate",
     "Name": "Apostate Veras",
-    "MobType": "NPC",
+    "MobType": "Boss",
     "DefaultBaseHealthMultiplier": 21.9946,
     "Armor": 0.0,
     "Resist": 0.0,
@@ -3064,12 +3068,10 @@
     "BossUnconfirmed": false,
     "DevZoneName": "DemonicRitual",
     "FoundInZones": [
-      "HOT",
-      "UM"
+      "HOT"
     ],
     "FoundInZoneIDs": [
-      50005,
-      50021
+      50005
     ],
     "PassiveMoveSpeed": 1.3
   },
@@ -3495,25 +3497,23 @@
     "DevZoneName": null,
     "FoundInZones": [
       "ES",
-      "EG",
       "GFQ",
-      "RAN",
-      "SA",
+      "CF",
+      "WH",
+      "EG",
+      "WTV",
       "SH",
-      "SW",
-      "UM",
-      "WH"
+      "UM"
     ],
     "FoundInZoneIDs": [
       50006,
-      50011,
       50025,
-      50023,
-      50015,
+      50007,
+      50008,
+      50011,
+      50013,
       50024,
-      50012,
-      50021,
-      50008
+      50021
     ],
     "BaseHealth": 45890.0,
     "Power": 0.0,
@@ -3644,13 +3644,7 @@
     "IsAffix": false,
     "IsJunk": false,
     "BossUnconfirmed": false,
-    "DevZoneName": "VikingVillage",
-    "FoundInZones": [
-      "RAN"
-    ],
-    "FoundInZoneIDs": [
-      50023
-    ]
+    "DevZoneName": "VikingVillage"
   },
   "270": {
     "DevName": "EM_BossVaerith",
@@ -3660,8 +3654,8 @@
     "KillScore": 0.0,
     "SpiritPointValue": 3.0,
     "ks_sp_equal": false,
-    "IsTrueBoss": false,
-    "IsBossFight": true,
+    "IsTrueBoss": true,
+    "IsBossFight": false,
     "IsAffix": false,
     "IsJunk": false,
     "BossUnconfirmed": false,
@@ -3696,32 +3690,32 @@
     "BossUnconfirmed": false,
     "DevZoneName": null,
     "FoundInZones": [
-      "CF",
       "ES",
-      "EG",
-      "GFQ",
       "HOT",
-      "RAN",
+      "GFQ",
+      "CF",
+      "WH",
+      "EG",
+      "SW",
+      "WTV",
       "SA",
       "SH",
-      "SW",
       "UM",
-      "WTV",
-      "WH"
+      "RAN"
     ],
     "FoundInZoneIDs": [
-      50007,
       50006,
-      50011,
-      50025,
       50005,
-      50023,
+      50025,
+      50007,
+      50008,
+      50011,
+      50012,
+      50013,
       50015,
       50024,
-      50012,
       50021,
-      50013,
-      50008
+      50023
     ]
   },
   "275": {
@@ -3740,14 +3734,14 @@
     "BossUnconfirmed": false,
     "DevZoneName": null,
     "FoundInZones": [
-      "EG",
+      "HOT",
       "GFQ",
-      "HOT"
+      "EG"
     ],
     "FoundInZoneIDs": [
-      50011,
+      50005,
       50025,
-      50005
+      50011
     ]
   },
   "277": {
@@ -3763,27 +3757,27 @@
     "DevZoneName": null,
     "FoundInZones": [
       "ES",
-      "EG",
-      "GFQ",
       "HOT",
-      "RAN",
-      "SH",
+      "GFQ",
+      "WH",
+      "EG",
       "SW",
-      "UM",
       "WTV",
-      "WH"
+      "SH",
+      "UM",
+      "RAN"
     ],
     "FoundInZoneIDs": [
       50006,
-      50011,
-      50025,
       50005,
-      50023,
-      50024,
+      50025,
+      50008,
+      50011,
       50012,
-      50021,
       50013,
-      50008
+      50024,
+      50021,
+      50023
     ]
   },
   "278": {
@@ -3798,32 +3792,32 @@
     "BossUnconfirmed": false,
     "DevZoneName": null,
     "FoundInZones": [
-      "CF",
       "ES",
-      "EG",
-      "GFQ",
       "HOT",
-      "RAN",
+      "GFQ",
+      "CF",
+      "WH",
+      "EG",
+      "SW",
+      "WTV",
       "SA",
       "SH",
-      "SW",
       "UM",
-      "WTV",
-      "WH"
+      "RAN"
     ],
     "FoundInZoneIDs": [
-      50007,
       50006,
-      50011,
-      50025,
       50005,
-      50023,
+      50025,
+      50007,
+      50008,
+      50011,
+      50012,
+      50013,
       50015,
       50024,
-      50012,
       50021,
-      50013,
-      50008
+      50023
     ]
   },
   "279": {
@@ -3865,30 +3859,30 @@
     "BossUnconfirmed": false,
     "DevZoneName": null,
     "FoundInZones": [
-      "CF",
       "ES",
-      "EG",
-      "GFQ",
       "HOT",
-      "RAN",
+      "GFQ",
+      "CF",
+      "WH",
+      "EG",
+      "SW",
       "SA",
       "SH",
       "UM",
-      "WTV",
-      "WH"
+      "RAN"
     ],
     "FoundInZoneIDs": [
-      50007,
       50006,
-      50011,
-      50025,
       50005,
-      50023,
+      50025,
+      50007,
+      50008,
+      50011,
+      50012,
       50015,
       50024,
       50021,
-      50013,
-      50008
+      50023
     ],
     "CritChance": 0.0,
     "PassiveMoveSpeed": 1.2
@@ -3910,20 +3904,24 @@
     "BossUnconfirmed": false,
     "DevZoneName": null,
     "FoundInZones": [
-      "CF",
       "ES",
-      "GFQ",
       "HOT",
+      "GFQ",
+      "CF",
+      "SW",
+      "SA",
       "SH",
-      "SW"
+      "UM"
     ],
     "FoundInZoneIDs": [
-      50007,
       50006,
-      50025,
       50005,
+      50025,
+      50007,
+      50012,
+      50015,
       50024,
-      50012
+      50021
     ],
     "CritChance": 0.0,
     "PassiveMoveSpeed": 1.2
@@ -3970,23 +3968,23 @@
     "DevZoneName": null,
     "FoundInZones": [
       "ES",
-      "EG",
       "GFQ",
+      "WH",
+      "EG",
+      "SW",
       "SA",
       "SH",
-      "SW",
-      "UM",
-      "WH"
+      "UM"
     ],
     "FoundInZoneIDs": [
       50006,
-      50011,
       50025,
+      50008,
+      50011,
+      50012,
       50015,
       50024,
-      50012,
-      50021,
-      50008
+      50021
     ],
     "DodgeChance": 0.0
   },

@@ -1,0 +1,4454 @@
+{
+  "Elarion": {
+    "dev_name": "Bowguy",
+    "abilities": {
+      "125": {
+        "name": "Grappling Arrow",
+        "fsl_id": 125,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_TargetedAoePull"
+      },
+      "126": {
+        "name": "Starfall Volley",
+        "fsl_id": 126,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Bowguy_TargetedAoeDamage"
+      },
+      "1301": {
+        "name": "Celestial Shot",
+        "fsl_id": 1301,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Bowguy_SingleProjectileDamage"
+      },
+      "1302": {
+        "name": "Pathfinder's Resillience",
+        "fsl_id": 1302,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_SelfDefenceBuff"
+      },
+      "1303": {
+        "name": "Shoot",
+        "fsl_id": 1303,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_RangedAutoAttack"
+      },
+      "1304": {
+        "name": "Skystrider's Grace",
+        "fsl_id": 1304,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_ProcHasteBuff"
+      },
+      "1308": {
+        "name": "Disrupt",
+        "fsl_id": 1308,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_InstantSingleInterrupt"
+      },
+      "1309": {
+        "name": "Lunarlight Salvo",
+        "fsl_id": 1309,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Bowguy_Passive_InstantMarkTarget_Monitor"
+      },
+      "1310": {
+        "name": "Lunarlight Mark",
+        "fsl_id": 1310,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_InstantMarkTarget"
+      },
+      "1311": {
+        "name": "Roll",
+        "fsl_id": 1311,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_ChargedMoveWithDirection"
+      },
+      "1312": {
+        "name": "Heartseeker Barrage",
+        "fsl_id": 1312,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_ChanneledMultiProjectileDebuff"
+      },
+      "1313": {
+        "name": "Highwind Arrow",
+        "fsl_id": 1313,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_CastedProjectileHeavyDamage"
+      },
+      "1315": {
+        "name": "Focused Shot",
+        "fsl_id": 1315,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_CastedProjectileDamage"
+      },
+      "1318": {
+        "name": "Multishot",
+        "fsl_id": 1318,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Bowguy_AoeProjectileDamage"
+      },
+      "1398": {
+        "name": "Skystrider's Supremacy",
+        "fsl_id": 1398,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_SelfBuffForAoeProjectile"
+      },
+      "1509": {
+        "name": "Invalid Ability Data",
+        "fsl_id": 1509,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_Passive_Talent_SelfDefenceBuff_IncreasedDurationAndDispel"
+      },
+      "1584": {
+        "name": "Event Horizon",
+        "fsl_id": 1584,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_ReducedCostCooldownRecoveryBuff"
+      },
+      "1585": {
+        "name": "Caustic Poison",
+        "fsl_id": 1585,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Bowguy_Passive_ReducedCostCooldownRecoveryBuff_Manager"
+      }
+    },
+    "effects": {
+      "1861": {
+        "name": "Grappling Arrow",
+        "fsl_id": 1001861,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_TargetedAoePull_Slow"
+      },
+      "1866": {
+        "name": "Pathfinder's Resilience",
+        "fsl_id": 1001866,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_SelfDefenceBuff_SelfBuff"
+      },
+      "1867": {
+        "name": "Celestial Impetus",
+        "fsl_id": 1001867,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_RangedAutoAttack_Proc"
+      },
+      "1869": {
+        "name": "Skystrider's Grace",
+        "fsl_id": 1001869,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_ProcHasteBuff_Buff"
+      },
+      "1876": {
+        "name": "Lunarlight Mark",
+        "fsl_id": 1001876,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_InstantMarkTarget_Debuff"
+      },
+      "1877": {
+        "name": "Lunarlight Salvo",
+        "fsl_id": 1001877,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Bowguy_InstantMarkTarget_Damage"
+      },
+      "2008": {
+        "name": "Grappling Arrow",
+        "fsl_id": 1002008,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_TargetedAoePull_Pull"
+      },
+      "2009": {
+        "name": "Skystrider's Supremacy",
+        "fsl_id": 1002009,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_SelfBuffForAoeProjectile_SelfBuff"
+      },
+      "2074": {
+        "name": "Resurgent Winds",
+        "fsl_id": 1002074,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_Talent_CastedProjectileHeavyDamage_InstantNoCooldownProc_Proc"
+      },
+      "2222": {
+        "name": "Final Cresendo",
+        "fsl_id": 1002222,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_Talent_CastedProjectileHeavyDamage_StacksMoreDamageAndBounces_Stacker"
+      },
+      "2271": {
+        "name": "Focused Expanse",
+        "fsl_id": 1002271,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_Talent_CastedProjectileDamage_AoeProjectileDamageEmpowered_SelfBuff"
+      },
+      "2312": {
+        "name": "Event Horizon",
+        "fsl_id": 1002312,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_ReducedCostCooldownRecoveryBuff_SelfBuff"
+      },
+      "2316": {
+        "name": "Skylit Grace",
+        "fsl_id": 1002316,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_TargetedAoeDamage_Talent_BuffWhileActive"
+      },
+      "2317": {
+        "name": "Impending Heartseeker",
+        "fsl_id": 1002317,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_Talent_ChanneledMultiProjectileDebuff_ResetCooldownAndBuff_Proc"
+      },
+      "2362": {
+        "name": "Shimmer",
+        "fsl_id": 1002362,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Bowguy_Talent_CastedProjectileHeavyDamage_IncreasedIncomingDamageDebuff_Debuff"
+      },
+      "2832": {
+        "name": "Lunarlight Salvo: Erupt",
+        "fsl_id": 1002832,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Bowguy_InstantMarkTarget_AoeDamage"
+      }
+    },
+    "talents": {
+      "124": {
+        "name": "Repeating Stars",
+        "fsl_id": 2000124,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_Talent1"
+      },
+      "126": {
+        "name": "Resurgent Winds",
+        "fsl_id": 2000126,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_Talent3"
+      },
+      "128": {
+        "name": "Fusillade",
+        "fsl_id": 2000128,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_PassiveTalent2"
+      },
+      "130": {
+        "name": "Lunar Fury",
+        "fsl_id": 2000130,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_Talent4"
+      },
+      "131": {
+        "name": "Path of Twilight",
+        "fsl_id": 2000131,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_Talent6"
+      },
+      "132": {
+        "name": "Skyward Munitions",
+        "fsl_id": 2000132,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_Talent5"
+      },
+      "134": {
+        "name": "Magic Ward",
+        "fsl_id": 2000134,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_PassiveTalent4"
+      },
+      "135": {
+        "name": "Spirited Fortitude",
+        "fsl_id": 2000135,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_PassiveTalent5"
+      },
+      "136": {
+        "name": "Fervent Supremacy",
+        "fsl_id": 2000136,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_Talent7"
+      },
+      "164": {
+        "name": " Last Lights",
+        "fsl_id": 2000164,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_Talent8"
+      },
+      "165": {
+        "name": "The Weight of Gravity",
+        "fsl_id": 2000165,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_Talent9"
+      },
+      "167": {
+        "name": "Focused Expanse",
+        "fsl_id": 2000167,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_Talent10"
+      },
+      "168": {
+        "name": "Impending Heartseeker",
+        "fsl_id": 2000168,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_Talent11"
+      },
+      "169": {
+        "name": "Final Crescendo",
+        "fsl_id": 2000169,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_Talent12"
+      },
+      "200": {
+        "name": "Skylit Grace",
+        "fsl_id": 2000200,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_PassiveTalent8"
+      },
+      "201": {
+        "name": "Piercing Seekers",
+        "fsl_id": 2000201,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_Trait3"
+      },
+      "202": {
+        "name": "Lethal Shots",
+        "fsl_id": 2000202,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_PassiveTalent9"
+      },
+      "203": {
+        "name": "Lunarlight Affinity",
+        "fsl_id": 2000203,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Bowguy_PassiveTalent7"
+      }
+    }
+  },
+  "Ardeos": {
+    "dev_name": "Firemage",
+    "abilities": {
+      "1254": {
+        "name": "Frog Squad",
+        "fsl_id": 1254,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Firemage_Passive_Talent_FireFrogOnDotCrit_Monitor"
+      },
+      "1257": {
+        "name": "Flare Up",
+        "fsl_id": 1257,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Firemage_Passive_CastedDotBoostProjectile_Talent_DamageSpreadToCastedSingleDot_Monitor"
+      },
+      "1258": {
+        "name": "Flame Ward",
+        "fsl_id": 1258,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_SelfDefenceBuff"
+      },
+      "1260": {
+        "name": "Fire Ball",
+        "fsl_id": 1260,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Firemage_PlacedProjectileAoe"
+      },
+      "1263": {
+        "name": "Scorch",
+        "fsl_id": 1263,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_InstantSingleInterrupt"
+      },
+      "1265": {
+        "name": "Fireflash",
+        "fsl_id": 1265,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_InstantSingleDisorient"
+      },
+      "1267": {
+        "name": "Wildfire",
+        "fsl_id": 1267,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_InstantDotSpread"
+      },
+      "1268": {
+        "name": "Fire Frogs",
+        "fsl_id": 1268,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_FireFrogs"
+      },
+      "1269": {
+        "name": "Flickerstep",
+        "fsl_id": 1269,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_DashForward"
+      },
+      "1270": {
+        "name": "Incinerate",
+        "fsl_id": 1270,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Firemage_ChanneledForwardAoeDamage"
+      },
+      "1272": {
+        "name": "Shockwave",
+        "fsl_id": 1272,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_CastedPlacedAoe_TargetingAbility"
+      },
+      "1273": {
+        "name": "Apocalypse",
+        "fsl_id": 1273,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Firemage_CastedPlacedAoe"
+      },
+      "1275": {
+        "name": "Detonate",
+        "fsl_id": 1275,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Firemage_CastedDotDetonate"
+      },
+      "1276": {
+        "name": "Infernal Wave",
+        "fsl_id": 1276,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Firemage_CastedDotBoostProjectile"
+      },
+      "1532": {
+        "name": "Fire Frogs",
+        "fsl_id": 1532,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_Passive_FrogDamageMonitor"
+      },
+      "1565": {
+        "name": "Fire Ball",
+        "fsl_id": 1565,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor"
+      },
+      "1568": {
+        "name": "Crackling Inferno",
+        "fsl_id": 1568,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_Talent_Passive_CastedDotBoostProjectile_CritsApplyDot_DamageMonitor"
+      },
+      "1586": {
+        "name": "Engulfing Flames",
+        "fsl_id": 1586,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_CastedSingleHeavyDot"
+      },
+      "1587": {
+        "name": "Searing Blaze",
+        "fsl_id": 1587,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_CastedSingleDot2"
+      },
+      "1623": {
+        "name": "Pyromania",
+        "fsl_id": 1623,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Firemage_InstantMultiTargetDot"
+      }
+    },
+    "effects": {
+      "1804": {
+        "name": "Fiery Resilience",
+        "fsl_id": 1001804,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Firemage_Talent_SelfDefenceBuff_Absorb"
+      },
+      "1810": {
+        "name": "Flare Up",
+        "fsl_id": 1001810,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Firemage_CastedDotBoostProjectile_Talent_DamageSpreadToCastedSingleDot_Damage"
+      },
+      "1815": {
+        "name": "Flame Ward",
+        "fsl_id": 1001815,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Firemage_SelfDefenceBuff_SelfBuff"
+      },
+      "1819": {
+        "name": "Searing Blaze",
+        "fsl_id": 1001819,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Firemage_InstantSingleTargetDot_Dot_StackingBoostTalent"
+      },
+      "1820": {
+        "name": "Searing Blaze",
+        "fsl_id": 1001820,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Firemage_InstantSingleTargetDot_Dot"
+      },
+      "1823": {
+        "name": "Scorched",
+        "fsl_id": 1001823,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Firemage_InstantSingleDisorient_Debuff"
+      },
+      "1825": {
+        "name": "Wildfire",
+        "fsl_id": 1001825,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Firemage_InstantDotSpread_DotBonusBuff"
+      },
+      "1826": {
+        "name": "Fire Frogs",
+        "fsl_id": 1001826,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Firemage_FireFrog_Dot"
+      },
+      "1827": {
+        "name": "Fire Frogs",
+        "fsl_id": 1001827,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Firemage_FireFrog_DirectDamage"
+      },
+      "1829": {
+        "name": "Incenerate",
+        "fsl_id": 1001829,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Firemage_ChanneledForwardAoeDamage_Dot"
+      },
+      "2293": {
+        "name": "Fire Ball",
+        "fsl_id": 1002293,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Firemage_PlacedProjectileAoe_DirectDamageBased_Dot"
+      },
+      "2301": {
+        "name": "Reign of Fire",
+        "fsl_id": 1002301,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Firemage_Talent_PlacedProjectileAoe_ResetCooldownDamageBuff"
+      },
+      "2302": {
+        "name": "Crackling Inferno",
+        "fsl_id": 1002302,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Firemage__Talent_CastedDotBoostProjectile_DirectDamageBased_Dot"
+      },
+      "2325": {
+        "name": "Engulfing Flames",
+        "fsl_id": 1002325,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Firemage_CastedSingleHeavyDot_Dot"
+      }
+    },
+    "talents": {
+      "145": {
+        "name": "Agonizing Blaze",
+        "fsl_id": 2000145,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_AgonizingBlaze"
+      },
+      "146": {
+        "name": "Pyrophibian Frenzy",
+        "fsl_id": 2000146,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_PyrophibianFrenzy"
+      },
+      "149": {
+        "name": "Firestarter",
+        "fsl_id": 2000149,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_PassiveTalent2"
+      },
+      "150": {
+        "name": "Undying Flame",
+        "fsl_id": 2000150,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_PassiveTalent3"
+      },
+      "151": {
+        "name": "Intensifying Inferno",
+        "fsl_id": 2000151,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_IntensifyingInferno"
+      },
+      "152": {
+        "name": "Fiery Resilience",
+        "fsl_id": 2000152,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_FieryResilience"
+      },
+      "153": {
+        "name": "Spontaneous Combustion",
+        "fsl_id": 2000153,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_Warmth"
+      },
+      "155": {
+        "name": "Magic Ward",
+        "fsl_id": 2000155,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_PassiveTalent5"
+      },
+      "157": {
+        "name": "Reign of Fire",
+        "fsl_id": 2000157,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_ReignOfFire"
+      },
+      "158": {
+        "name": "Frog Squad",
+        "fsl_id": 2000158,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_FrogSquad"
+      },
+      "159": {
+        "name": "Flare up",
+        "fsl_id": 2000159,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_BurstingFlames"
+      },
+      "160": {
+        "name": "Great Balls of Fire",
+        "fsl_id": 2000160,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_PassiveTalent7"
+      },
+      "162": {
+        "name": "Slow Burn",
+        "fsl_id": 2000162,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_PassiveTalent9"
+      },
+      "183": {
+        "name": "Crackling Inferno",
+        "fsl_id": 2000183,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_PassiveTalent11"
+      },
+      "184": {
+        "name": "Crash and Burn",
+        "fsl_id": 2000184,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_Ouroboros"
+      },
+      "226": {
+        "name": "Rolling Flames",
+        "fsl_id": 2000226,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_RollingFlames_New"
+      },
+      "617": {
+        "name": "Backdraft",
+        "fsl_id": 2000617,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Firemage_PassiveTalent10"
+      }
+    }
+  },
+  "Gunde": {
+    "dev_name": "Gunde",
+    "abilities": {},
+    "effects": {},
+    "talents": {}
+  },
+  "Tariq": {
+    "dev_name": "Ink",
+    "abilities": {
+      "1218": {
+        "name": "Unbreakable Will",
+        "fsl_id": 1218,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Ink_SelfDefenceBuff"
+      },
+      "1219": {
+        "name": "Face Breaker",
+        "fsl_id": 1219,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Ink_SecondChanceSingleTargetAttack"
+      },
+      "1225": {
+        "name": "Leap Smash",
+        "fsl_id": 1225,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Ink_MoveToLocationAoeDamage"
+      },
+      "1226": {
+        "name": "Pummel",
+        "fsl_id": 1226,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Ink_MeleeInterrupt"
+      },
+      "1227": {
+        "name": "Attack",
+        "fsl_id": 1227,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Ink_MeleeAutoAttack"
+      },
+      "1228": {
+        "name": "Culling Strike",
+        "fsl_id": 1228,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Ink_LowHealthSingleTargetResourceDamage"
+      },
+      "1229": {
+        "name": "Skull Crusher",
+        "fsl_id": 1229,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Ink_HeavySingleTargetAttack"
+      },
+      "1231": {
+        "name": "Raging Tempest",
+        "fsl_id": 1231,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Ink_EnhancedChargedBuff"
+      },
+      "1233": {
+        "name": "Focused Wrath",
+        "fsl_id": 1233,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Ink_CostReductionBuff"
+      },
+      "1234": {
+        "name": "Wild Swing",
+        "fsl_id": 1234,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Ink_CleaveAttack"
+      },
+      "1235": {
+        "name": "Thunder Call",
+        "fsl_id": 1235,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Ink_ChargedBuff"
+      },
+      "1237": {
+        "name": "Chain Lightning",
+        "fsl_id": 1237,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Ink_BouncyProjectile"
+      },
+      "1241": {
+        "name": "Intimidate",
+        "fsl_id": 1241,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Ink_AoeFear"
+      },
+      "1242": {
+        "name": "Hammer Storm",
+        "fsl_id": 1242,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Ink_AoeAttack"
+      },
+      "1543": {
+        "name": "Splintered Bone",
+        "fsl_id": 1543,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Ink_Passive_Talent_SecondChanceSingleTargetAttack_CritBleed_Monitor"
+      },
+      "1556": {
+        "name": "Shatter Earth",
+        "fsl_id": 1556,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Ink_Passive_Talent_LowHealthSingleTargetResourceDamage_ChanceActiveOnCommit"
+      },
+      "1654": {
+        "name": "Left Hand Path",
+        "fsl_id": 1654,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Ink_Passive_Talent_SecondChanceSingleTargetAttack_CritAoe_Monitor"
+      },
+      "1929": {
+        "name": "Heavy Strike",
+        "fsl_id": 1929,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Ink_AutoAttackBuff_InstantAttack"
+      }
+    },
+    "effects": {
+      "1744": {
+        "name": "Far Beyond Driven",
+        "fsl_id": 1001744,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_Talent_AutoAttackBuffDurationalStatBonus"
+      },
+      "1746": {
+        "name": "Schism - Skull Crusher",
+        "fsl_id": 1001746,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_Talent_ChanceIncreasedSpenderDamage_HeavySingleTargetAttack_Proc"
+      },
+      "1747": {
+        "name": "Schism - Hammer Storm",
+        "fsl_id": 1001747,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_Talent_ChanceIncreasedSpenderDamage_AoeAttack_Proc"
+      },
+      "1748": {
+        "name": "Square Hammer",
+        "fsl_id": 1001748,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_Talent_AutoAttackBuff_GainToIncreasedDamage_Stacker"
+      },
+      "1752": {
+        "name": "Unbreakable Will",
+        "fsl_id": 1001752,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_SelfDefenceBuff_SelfBuff_First"
+      },
+      "1753": {
+        "name": "Flash of Anger",
+        "fsl_id": 1001753,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_SecondChanceSingleTargetDamage_Proc"
+      },
+      "1766": {
+        "name": "Raging Tempest",
+        "fsl_id": 1001766,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_EnhancedChargedBuff_PulsatingSingleDamage_SelfBuff"
+      },
+      "1767": {
+        "name": "Raging Currents",
+        "fsl_id": 1001767,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Ink_EnhancedChargedBuff_PulsatingSingleDamage_Damage"
+      },
+      "1769": {
+        "name": "Focused Wrath",
+        "fsl_id": 1001769,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_CostReductionBuff_SelfBuff"
+      },
+      "1772": {
+        "name": "Thunder Call",
+        "fsl_id": 1001772,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_ChargedBuff_Buff"
+      },
+      "1774": {
+        "name": "Chain Lightning",
+        "fsl_id": 1001774,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Ink_BouncyProjectile_Damage"
+      },
+      "1776": {
+        "name": "Heavy Strike",
+        "fsl_id": 1001776,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_AutoAttackBuff_Damage"
+      },
+      "1779": {
+        "name": "Heavy Strike",
+        "fsl_id": 1001779,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Ink_AutoAttackBuff_AoeDamage"
+      },
+      "1780": {
+        "name": "Intimidate",
+        "fsl_id": 1001780,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_AoeFear_Fear"
+      },
+      "2231": {
+        "name": "Pneuma",
+        "fsl_id": 1002231,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_Talent_ChargedBuff_LifestealAndStatBoost"
+      },
+      "2246": {
+        "name": "Splintered Bone",
+        "fsl_id": 1002246,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_Talent_SecondChanceSingleTargetAttack_CritBleed_Bleed"
+      },
+      "2250": {
+        "name": "Slayer's Mosh",
+        "fsl_id": 1002250,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_Talent_MoveToLocationAoeDamage_TargetExtraInkDamage_Debuff"
+      },
+      "2267": {
+        "name": "Executioner's Grin",
+        "fsl_id": 1002267,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_Talent_LowHealthSingleTargetResourceDamage_ChanceActiveOnCommit_Proc"
+      },
+      "2423": {
+        "name": "Face Breaker",
+        "fsl_id": 1002423,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_Passive_Talent_SecondChanceSingleTargetAttack_CritAoe_Damage"
+      },
+      "2488": {
+        "name": "Pneuma",
+        "fsl_id": 1002488,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GE_Ink_Talent_ChargedBuff_LifestealAndStatboost_Heal"
+      },
+      "2754": {
+        "name": "Charged Up",
+        "fsl_id": 1002754,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Ink_Talent_AutoAttackBuff_GainToChainLightningDamage"
+      },
+      "2755": {
+        "name": "Heavy Strike",
+        "fsl_id": 1002755,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Ink_AutoAttackBuff_CleaveDamage"
+      }
+    },
+    "talents": {
+      "72": {
+        "name": "Left Hand Path",
+        "fsl_id": 2000072,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_Talent2"
+      },
+      "73": {
+        "name": "Concatenation",
+        "fsl_id": 2000073,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_PassiveTalent2"
+      },
+      "74": {
+        "name": "Blood & Thunder",
+        "fsl_id": 2000074,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_Talent3"
+      },
+      "75": {
+        "name": "Them Bones",
+        "fsl_id": 2000075,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_PassiveTalent1"
+      },
+      "76": {
+        "name": "Bloodline",
+        "fsl_id": 2000076,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_Talent6"
+      },
+      "77": {
+        "name": "Crack the Sky",
+        "fsl_id": 2000077,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_PassiveTalent7"
+      },
+      "79": {
+        "name": "Far Beyond Driven",
+        "fsl_id": 2000079,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_Talent8"
+      },
+      "80": {
+        "name": "Mouth for War",
+        "fsl_id": 2000080,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_Talent5"
+      },
+      "84": {
+        "name": "Kill 'Em All",
+        "fsl_id": 2000084,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_Trait1"
+      },
+      "85": {
+        "name": "Schism",
+        "fsl_id": 2000085,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_Talent9"
+      },
+      "86": {
+        "name": "Square Hammer",
+        "fsl_id": 2000086,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_Talent1"
+      },
+      "87": {
+        "name": "Ride the Lightning",
+        "fsl_id": 2000087,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_Talent7"
+      },
+      "88": {
+        "name": "Spit It Out",
+        "fsl_id": 2000088,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_PassiveTalent3"
+      },
+      "89": {
+        "name": "Thunderstruck",
+        "fsl_id": 2000089,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_PassiveTalent8"
+      },
+      "441": {
+        "name": "High Road",
+        "fsl_id": 2000441,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Ink_Talent10"
+      }
+    }
+  },
+  "Aeona": {
+    "dev_name": "Lisa",
+    "abilities": {
+      "1814": {
+        "name": "Intercession",
+        "fsl_id": 1814,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Lisa_TargetedAoeSilence"
+      },
+      "1864": {
+        "name": "Time Skip",
+        "fsl_id": 1864,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Lisa_TeleportForward"
+      },
+      "1876": {
+        "name": "Entropy's Claim",
+        "fsl_id": 1876,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Lisa_SingleTargetDot"
+      },
+      "1877": {
+        "name": "Lunarlight Salvo",
+        "fsl_id": 1877,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Lisa_SingleTargetDamageImmunityBuff"
+      },
+      "1879": {
+        "name": "Revert Magic",
+        "fsl_id": 1879,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Lisa_SingleAllyDispel"
+      },
+      "1881": {
+        "name": "Epoch Break",
+        "fsl_id": 1881,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Lisa_PauseResourcesAndPartyHealth"
+      },
+      "1887": {
+        "name": "Echoes of Ruin",
+        "fsl_id": 1887,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Lisa_InstantSingleTargetDamageAndDot"
+      },
+      "1889": {
+        "name": "Time Shard",
+        "fsl_id": 1889,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Lisa_CastedSingleTargetProjectile"
+      },
+      "1890": {
+        "name": "Unfolding Doom",
+        "fsl_id": 1890,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Lisa_CastedProjectileDamageIncreaseDebuff"
+      },
+      "1926": {
+        "name": "Temporal Barrage",
+        "fsl_id": 1926,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Lisa_ChanneledHealOrDamageProjectiles"
+      },
+      "1927": {
+        "name": "Flash Revision",
+        "fsl_id": 1927,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Lisa_CastedHeal"
+      },
+      "1964": {
+        "name": "Amend Fate",
+        "fsl_id": 1964,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Lisa_SingleTargetStaggerRemovalSpender"
+      },
+      "1969": {
+        "name": "Fleeting Hour",
+        "fsl_id": 1969,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Lisa_InstantSelfBuff"
+      },
+      "1970": {
+        "name": "Oblivion",
+        "fsl_id": 1970,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Lisa_InstantDamageSpender"
+      },
+      "1973": {
+        "name": "Restore Continuity",
+        "fsl_id": 1973,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Lisa_AoeStaggerRemovalSpender"
+      },
+      "2018": {
+        "name": "Necrotic Venom",
+        "fsl_id": 2018,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Lisa_Passive_Talent_InstantDamageSpender_SelfBuff"
+      }
+    },
+    "effects": {
+      "2582": {
+        "name": "Chrono Bind",
+        "fsl_id": 1002582,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_TargetedAoeSilence_Buff"
+      },
+      "2584": {
+        "name": "Resonant Fate",
+        "fsl_id": 1002584,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_Talent_StaggerOverhealToStackingHeal_HealStacker"
+      },
+      "2585": {
+        "name": "Resonant Fate",
+        "fsl_id": 1002585,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GE_Lisa_Talent_StaggerOverhealToStackingHeal_Heal"
+      },
+      "2586": {
+        "name": "Resonant Fate: Exhausted",
+        "fsl_id": 1002586,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_Talent_StaggerOverhealToStackingHeal_Cooldown"
+      },
+      "2588": {
+        "name": "Chrona Tap",
+        "fsl_id": 1002588,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_Talent_SpendersToManaRegen_ManaRegen"
+      },
+      "2593": {
+        "name": "Uchronia",
+        "fsl_id": 1002593,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_Talent_ResourceToFreeSpender_Stacker"
+      },
+      "2603": {
+        "name": "Entropy's Claim",
+        "fsl_id": 1002603,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Lisa_SingleTargetDot_Dot"
+      },
+      "2613": {
+        "name": "Epoch Break",
+        "fsl_id": 1002613,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_PauseResourcesAndPartyHealth_HealthBuff"
+      },
+      "2616": {
+        "name": "Echoes of Ruin",
+        "fsl_id": 1002616,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Lisa_InstantSingleTargetDamageAndDot_Dot"
+      },
+      "2624": {
+        "name": "Unfolding Doom",
+        "fsl_id": 1002624,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_CastedProjectileDamageIncreaseDebuff_Debuff"
+      },
+      "2674": {
+        "name": "Quickening",
+        "fsl_id": 1002674,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_Talent_CastedSingleTargetProjectile_CastedHealFromPreviousDamageProc_Proc"
+      },
+      "2676": {
+        "name": "Continuum Shift",
+        "fsl_id": 1002676,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_Talent_CastedProjectileDamageIncreaseDebuff_DamageAbilityBuff_Buff"
+      },
+      "2735": {
+        "name": "Erasure",
+        "fsl_id": 1002735,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Lisa_Talent_InstantDamageSpender_DamageToDot_Dot"
+      },
+      "2736": {
+        "name": "Oblivion's Embrace",
+        "fsl_id": 1002736,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_InstantDamageSpender_Absorb_Absorb"
+      },
+      "2739": {
+        "name": "Aura of Deferred Fate",
+        "fsl_id": 1002739,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_Stagger_Attributes"
+      },
+      "2744": {
+        "name": "Fleeting Hour",
+        "fsl_id": 1002744,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_InstantSelfBuff_SelfBuff"
+      },
+      "2818": {
+        "name": "Echoes of Divinity",
+        "fsl_id": 1002818,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_Talent_StaggerRemovalOverTime"
+      },
+      "2819": {
+        "name": "Entropic Burst",
+        "fsl_id": 1002819,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Lisa_Talent_SingleTargetDot_DotAoe_Dot"
+      },
+      "2820": {
+        "name": "Cooldown Recovery",
+        "fsl_id": 1002820,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_Talent_InstantDamageSpender_SelfBuff_Buff"
+      },
+      "2823": {
+        "name": "Ability Enhancement",
+        "fsl_id": 1002823,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Lisa_Talent_CastedProjectileDamageIncreaseDebuff_DamageAbilityBuff_Stun"
+      }
+    },
+    "talents": {
+      "536": {
+        "name": "Resonant Fate",
+        "fsl_id": 2000536,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent3"
+      },
+      "537": {
+        "name": "Synchronicity",
+        "fsl_id": 2000537,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent2"
+      },
+      "539": {
+        "name": "Chrona Tap",
+        "fsl_id": 2000539,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent4"
+      },
+      "540": {
+        "name": "Quickening",
+        "fsl_id": 2000540,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent5"
+      },
+      "553": {
+        "name": "Spirited Fortitude",
+        "fsl_id": 2000553,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent18"
+      },
+      "554": {
+        "name": "Uchronia",
+        "fsl_id": 2000554,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent16"
+      },
+      "557": {
+        "name": "Magic Ward",
+        "fsl_id": 2000557,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent11"
+      },
+      "590": {
+        "name": "Temporal Shift",
+        "fsl_id": 2000590,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent17"
+      },
+      "592": {
+        "name": "Entropic Burst",
+        "fsl_id": 2000592,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent14"
+      },
+      "610": {
+        "name": "Vestige of Truth",
+        "fsl_id": 2000610,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent24"
+      },
+      "611": {
+        "name": "Oblivion's Embrace",
+        "fsl_id": 2000611,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent23"
+      },
+      "612": {
+        "name": "Surging Chrona",
+        "fsl_id": 2000612,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent22"
+      },
+      "613": {
+        "name": "Kind Rewind",
+        "fsl_id": 2000613,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent21"
+      },
+      "614": {
+        "name": "Erasure",
+        "fsl_id": 2000614,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent20"
+      },
+      "621": {
+        "name": "Continuum Shift",
+        "fsl_id": 2000621,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent28"
+      },
+      "622": {
+        "name": "Paradoxical Twist",
+        "fsl_id": 2000622,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent27"
+      },
+      "623": {
+        "name": "Echoes of Divinity",
+        "fsl_id": 2000623,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent26"
+      },
+      "624": {
+        "name": "Hastening Doom",
+        "fsl_id": 2000624,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Lisa_Talent25"
+      }
+    }
+  },
+  "Mara": {
+    "dev_name": "Mara",
+    "abilities": {
+      "1128": {
+        "name": "Enveloping Web",
+        "fsl_id": 1128,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_StunSpender"
+      },
+      "1129": {
+        "name": "Backstab",
+        "fsl_id": 1129,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_StrongerBehindAttackBuilder"
+      },
+      "1130": {
+        "name": "Brooding Shadows",
+        "fsl_id": 1130,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_Stealth"
+      },
+      "1133": {
+        "name": "Shadow Protection",
+        "fsl_id": 1133,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_SelfDefenceBuff"
+      },
+      "1142": {
+        "name": "Agonizing Poison",
+        "fsl_id": 1142,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_SingleTargetStun"
+      },
+      "1200": {
+        "name": "Kick",
+        "fsl_id": 1200,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_MeleeInterrupt"
+      },
+      "1201": {
+        "name": "Queen's Fang",
+        "fsl_id": 1201,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_HeavyAttackSpender"
+      },
+      "1205": {
+        "name": "Stalker Step",
+        "fsl_id": 1205,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_ChargedTeleportBehindTarget"
+      },
+      "1206": {
+        "name": "Maiden of Death",
+        "fsl_id": 1206,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_ChargedResourceRefillSelfBuff"
+      },
+      "1207": {
+        "name": "Widow's Bite",
+        "fsl_id": 1207,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_ChargedDoubleAttackBuilder"
+      },
+      "1208": {
+        "name": "Hemorrhaging Strike",
+        "fsl_id": 1208,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_BleedAttackSpender"
+      },
+      "1209": {
+        "name": "Attack",
+        "fsl_id": 1209,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_AutoAttack"
+      },
+      "1212": {
+        "name": "Arachnid Assault",
+        "fsl_id": 1212,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_AoeAttackSpender"
+      },
+      "1213": {
+        "name": "Skittering Blades",
+        "fsl_id": 1213,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_AoeAttackBuilder"
+      },
+      "1420": {
+        "name": "Matriarch Macabre",
+        "fsl_id": 1420,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_CopyCharacterDamage"
+      },
+      "1468": {
+        "name": "Final Stratagem",
+        "fsl_id": 1468,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_ResetCooldownRefillResources"
+      },
+      "1542": {
+        "name": "Stone Stomp",
+        "fsl_id": 1542,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_Passive_Talent_Stealth_SpenderIncreasedDamage"
+      },
+      "1583": {
+        "name": "Corrosive Spill",
+        "fsl_id": 1583,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_Passive_Talent_ComboPointsChanceAoeDamage"
+      },
+      "1590": {
+        "name": "Hemotoxin",
+        "fsl_id": 1590,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_Passive_Talent_BleedAttackSpender_ExplosivePoison"
+      },
+      "1616": {
+        "name": "Vexira's Venom",
+        "fsl_id": 1616,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mara_Passive_Talent_AoeAttackSpender_DamageToPoisonDot"
+      }
+    },
+    "effects": {
+      "1583": {
+        "name": "Cheap Shot",
+        "fsl_id": 1001583,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_StunSpender_Stun"
+      },
+      "1585": {
+        "name": "Caustic Poison",
+        "fsl_id": 1001585,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Mara_StrongerBehindAttackBuilder_Poison_Damage"
+      },
+      "1591": {
+        "name": "Brooding Shadows",
+        "fsl_id": 1001591,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_Stealth"
+      },
+      "1592": {
+        "name": "Shadow Protection",
+        "fsl_id": 1001592,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_SelfDefenceBuff_SelfBuff"
+      },
+      "1715": {
+        "name": "Predator's Rush",
+        "fsl_id": 1001715,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_ChargedDoubleAttackBuilder_Poison_Buff"
+      },
+      "1716": {
+        "name": "Seething Poison",
+        "fsl_id": 1001716,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Mara_ChargedDoubleAttackBuilder_Poison"
+      },
+      "1724": {
+        "name": "Hemorrhage",
+        "fsl_id": 1001724,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_BleedAttackSpender_Bleed"
+      },
+      "1730": {
+        "name": "Volatile Poison",
+        "fsl_id": 1001730,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Mara_AoeAttackBuilder_Poison_Aoe_Damage"
+      },
+      "1731": {
+        "name": "Volatile Poison",
+        "fsl_id": 1001731,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Mara_AoeAttackBuilder_Poison"
+      },
+      "2039": {
+        "name": "Matriarch Macabre",
+        "fsl_id": 1002039,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_CopyCharacterDamage_SelfBuff"
+      },
+      "2068": {
+        "name": "Deadly Scheme: Active",
+        "fsl_id": 1002068,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_Talent_ResourceAttackSpenderCritChance_Proc"
+      },
+      "2190": {
+        "name": "Stalker Step",
+        "fsl_id": 1002190,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_ChargedTeleportBehindTarget_IncreasedDamageOrMovementSpeed_IncreasedMovementSpeed"
+      },
+      "2194": {
+        "name": "Maiden of Death",
+        "fsl_id": 1002194,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_Talent_ChargedResourceRefillSelfBuff_IncreasedDamage_Buff"
+      },
+      "2195": {
+        "name": "Feed the Queen",
+        "fsl_id": 1002195,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_Talent_AoeAttackBuilder_HeavyAttackSpenderDamageIncrease_Buff"
+      },
+      "2245": {
+        "name": "Assassin's Guile",
+        "fsl_id": 1002245,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_Talent_Stealth_SpenderIncreasedDamage_Proc"
+      },
+      "2262": {
+        "name": "Drenched in Blood",
+        "fsl_id": 1002262,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_Talent_SpiritRefundToExpertise_Buff"
+      },
+      "2310": {
+        "name": "Corrosive Spill",
+        "fsl_id": 1002310,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Mara_Talent_ComboPointsChanceAoeDamage_Dot"
+      },
+      "2337": {
+        "name": "Hemotoxin",
+        "fsl_id": 1002337,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Mara_Talent_BleedAttackSpender_ExplosivePoison_Poison"
+      },
+      "2338": {
+        "name": "Hemotoxin",
+        "fsl_id": 1002338,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Mara_Talent_BleedAttackSpender_ExplosivePoison_ExplosionDamage"
+      },
+      "2364": {
+        "name": "Vexira's Venom",
+        "fsl_id": 1002364,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Mara_Talent_AoeAttackSpender_DamageToPoisionDot_Poison"
+      },
+      "2430": {
+        "name": "Malevolence: Queen's Fang",
+        "fsl_id": 1002430,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_Talent_DamageSpenders_BuffOtherSpender_HeavyAttackSpenderProc"
+      },
+      "2431": {
+        "name": "Malevolence: Arachnid Assault",
+        "fsl_id": 1002431,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_Talent_DamageSpenders_BuffOtherSpender_AoeAttackSpenderProc"
+      },
+      "2434": {
+        "name": "Deadly Scheme",
+        "fsl_id": 1002434,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mara_Talent_ResourceAttackSpenderCritChance_Stacker"
+      }
+    },
+    "talents": {
+      "108": {
+        "name": "Red Ledger",
+        "fsl_id": 2000108,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Talent1"
+      },
+      "110": {
+        "name": "Deadly Scheme",
+        "fsl_id": 2000110,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Talent3"
+      },
+      "112": {
+        "name": "Venomous Delight",
+        "fsl_id": 2000112,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_PassiveTalent2"
+      },
+      "113": {
+        "name": "Efficient Killer",
+        "fsl_id": 2000113,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_PassiveTalent3"
+      },
+      "115": {
+        "name": "Veil of Shadows",
+        "fsl_id": 2000115,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Talent5"
+      },
+      "118": {
+        "name": "Magic Ward",
+        "fsl_id": 2000118,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_PassiveTalent5"
+      },
+      "121": {
+        "name": "Feed the Queen",
+        "fsl_id": 2000121,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Talent8"
+      },
+      "122": {
+        "name": "Gushing Blood",
+        "fsl_id": 2000122,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Talent9"
+      },
+      "123": {
+        "name": "Puncture",
+        "fsl_id": 2000123,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_PassiveTalent4"
+      },
+      "163": {
+        "name": "Bloodrush",
+        "fsl_id": 2000163,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Talent10"
+      },
+      "166": {
+        "name": "Arachnid Onslaught",
+        "fsl_id": 2000166,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Talent11"
+      },
+      "205": {
+        "name": "Hemotoxin",
+        "fsl_id": 2000205,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Talent13"
+      },
+      "206": {
+        "name": "Corrosive Spill",
+        "fsl_id": 2000206,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Trait3"
+      },
+      "422": {
+        "name": "Assassin's Guile",
+        "fsl_id": 2000422,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Trait1"
+      },
+      "442": {
+        "name": "Maiden's Doom",
+        "fsl_id": 2000442,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Talent14"
+      },
+      "443": {
+        "name": "Malevolence",
+        "fsl_id": 2000443,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Talent15"
+      },
+      "586": {
+        "name": "Sinner's Pride",
+        "fsl_id": 2000586,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mara_Talent16"
+      }
+    }
+  },
+  "Meiko": {
+    "dev_name": "Meiko",
+    "abilities": {
+      "1082": {
+        "name": "Twin Souls: Bulwark",
+        "fsl_id": 1082,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_TauntTotem"
+      },
+      "1090": {
+        "name": "Forbidden Technique",
+        "fsl_id": 1090,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_Passive_Talent_MeleeDamageImmediateSelfBuff_DamageBuilder"
+      },
+      "1095": {
+        "name": "Taunt",
+        "fsl_id": 1095,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_RangedTaunt"
+      },
+      "1100": {
+        "name": "Earth Fist",
+        "fsl_id": 1100,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_MeleeRight"
+      },
+      "1101": {
+        "name": "Spirit Palm",
+        "fsl_id": 1101,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_MeleeLeft"
+      },
+      "1102": {
+        "name": "Wind Kick",
+        "fsl_id": 1102,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Meiko_MeleeDown"
+      },
+      "1103": {
+        "name": "Rising Storm",
+        "fsl_id": 1103,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Meiko_MeleeDamageSelfBuff"
+      },
+      "1104": {
+        "name": "Rising Earth",
+        "fsl_id": 1104,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_MeleeDamageLowHealthSelfBuff"
+      },
+      "1105": {
+        "name": "Double Palm Strike",
+        "fsl_id": 1105,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_MeleeDamageImmediateSelfBuff"
+      },
+      "1106": {
+        "name": "Lashing Stormkick",
+        "fsl_id": 1106,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Meiko_HighDamageCleave"
+      },
+      "1107": {
+        "name": "Stone Stomp",
+        "fsl_id": 1107,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Meiko_FrontalAoeDebuff"
+      },
+      "1110": {
+        "name": "Twin Souls: Army of One",
+        "fsl_id": 1110,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_DurationalMultipleTeleportDamage_New"
+      },
+      "1112": {
+        "name": "Earthfist Barrage",
+        "fsl_id": 1112,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Meiko_ChanneledHeavyDamage"
+      },
+      "1115": {
+        "name": "Shatter Earth",
+        "fsl_id": 1115,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Meiko_MoveToLocationAoeDamage"
+      },
+      "1116": {
+        "name": "Stagger",
+        "fsl_id": 1116,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_MeleeInterrupt"
+      },
+      "1118": {
+        "name": "Attack",
+        "fsl_id": 1118,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_MeleeAutoAttack"
+      },
+      "1119": {
+        "name": "Serenity",
+        "fsl_id": 1119,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Meiko_InstantSelfDefensive"
+      },
+      "1120": {
+        "name": "Spirited Vortex",
+        "fsl_id": 1120,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Meiko_DurationalAoeDamageBuff"
+      },
+      "1121": {
+        "name": "Stone Shield",
+        "fsl_id": 1121,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Meiko_Passive_DamageSoakBuff_Monitor"
+      },
+      "1122": {
+        "name": "Stone Shield",
+        "fsl_id": 1122,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_DamageSoakBuff"
+      },
+      "1123": {
+        "name": "Gust",
+        "fsl_id": 1123,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_ChargedForwardDash"
+      },
+      "1125": {
+        "name": "Cyclone",
+        "fsl_id": 1125,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_AoePull"
+      },
+      "1547": {
+        "name": "Peacefield",
+        "fsl_id": 1547,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_Passive_Talent_InstantSelfDefensive_ApplyHot"
+      },
+      "1767": {
+        "name": "Raging Currents",
+        "fsl_id": 1767,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Meiko_Passive_Talent_SelfHealToStoneHealth"
+      }
+    },
+    "effects": {
+      "1491": {
+        "name": "Soul Split: Bulwark",
+        "fsl_id": 1001491,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_TauntTotem_SelfBuff"
+      },
+      "1507": {
+        "name": "Forbidden Technique: Heal",
+        "fsl_id": 1001507,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GE_Meiko_Talent_MeleeDamageImmediateSelfBuff_DamageBuilder_Heal"
+      },
+      "1508": {
+        "name": "Forbidden Technique",
+        "fsl_id": 1001508,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_Talent_MeleeDamageImmediateSelfBuff_DamageBuilder_Debuff"
+      },
+      "1509": {
+        "name": "Forbidden Technique",
+        "fsl_id": 1001509,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Meiko_Talent_MeleeDamageImmediateSelfBuff_DamageBuilder_Damage"
+      },
+      "1510": {
+        "name": "Everlasting Spirit",
+        "fsl_id": 1001510,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_Talent_InstantSelfDefensive_DamageReductionLessHeal"
+      },
+      "1512": {
+        "name": "Resonance of Earth",
+        "fsl_id": 1001512,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_Talent_DamageSoakBuff_IncreasedIncomingHealing_Buff"
+      },
+      "1513": {
+        "name": "Slipstream",
+        "fsl_id": 1001513,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_Talent_ChargedForwardDash_AoeSlow_Debuff"
+      },
+      "1514": {
+        "name": "Taunted",
+        "fsl_id": 1001514,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_RangedTaunt_Debuff"
+      },
+      "1530": {
+        "name": "Stormfall",
+        "fsl_id": 1001530,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_MeleeDamageSelfBuff_SelfBuff"
+      },
+      "1532": {
+        "name": "Earthfall",
+        "fsl_id": 1001532,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_MeleeDamageLowHealthSelfBuff_SelfBuff"
+      },
+      "1534": {
+        "name": "Spirited Strikes",
+        "fsl_id": 1001534,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_MeleeDamageImmediateSelfBuff_SelfBuff"
+      },
+      "1538": {
+        "name": "Stunned",
+        "fsl_id": 1001538,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_FrontalAoeDebuff_Stun"
+      },
+      "1542": {
+        "name": "Stone Stomp",
+        "fsl_id": 1001542,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Meiko_FrontalAoeDebuff_Damage"
+      },
+      "1547": {
+        "name": "Soul Split: Army of One",
+        "fsl_id": 1001547,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_DurationalMultipleTeleportDamage_SelfBuff"
+      },
+      "1548": {
+        "name": "Twin Souls: Army of One",
+        "fsl_id": 1001548,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Meiko_DurationalMultipleTeleportDamage_Damage"
+      },
+      "1556": {
+        "name": "Shatter Earth",
+        "fsl_id": 1001556,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Meiko_MoveToLocationAoeDamage_Dot"
+      },
+      "1568": {
+        "name": "Spirited Vortex",
+        "fsl_id": 1001568,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_DurationalAoeDamageBuff_DecreasedMovementSpeed"
+      },
+      "1570": {
+        "name": "Spirited Vortex",
+        "fsl_id": 1001570,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_DurationalAoeDamageBuff_BuffIcon"
+      },
+      "1572": {
+        "name": "Stone Shield",
+        "fsl_id": 1001572,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Meiko_DamageSoakBuff_Damage"
+      },
+      "1574": {
+        "name": "Stone Shield",
+        "fsl_id": 1001574,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_DamageSoakBuff_Buff"
+      },
+      "2256": {
+        "name": "Peacefield",
+        "fsl_id": 1002256,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GE_Meiko_Talent_InstantSelfDefensive_ApplyHot_Hot"
+      },
+      "2380": {
+        "name": "Taunted",
+        "fsl_id": 1002380,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_TauntTotem_Taunt"
+      },
+      "2420": {
+        "name": "Spirit Armor",
+        "fsl_id": 1002420,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_SpiritProc_IncreasedArmorBuff"
+      },
+      "2447": {
+        "name": "Warden of the Temple",
+        "fsl_id": 1002447,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_Talent_ConsumedBuffsToDefensiveBuff_Stacker"
+      },
+      "2449": {
+        "name": "Earthwell",
+        "fsl_id": 1002449,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_DamageSoakBuff_StoneInvinsibilityBuff"
+      },
+      "2450": {
+        "name": "Everlasting Spirit: Pulse",
+        "fsl_id": 1002450,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Meiko_Talent_InstantSelfDefensive_DamageReductionLessHel_Damage"
+      },
+      "2454": {
+        "name": "Harsh Winds",
+        "fsl_id": 1002454,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Meiko_Talent_DurationalAoeDamageBuff_FinisherIncreasedDodgeChance_DodgeChance"
+      }
+    },
+    "talents": {
+      "90": {
+        "name": "Resonance of Earth",
+        "fsl_id": 2000090,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_Talent2"
+      },
+      "91": {
+        "name": "Perfect Storm",
+        "fsl_id": 2000091,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_Talent3"
+      },
+      "92": {
+        "name": "Will of Stone",
+        "fsl_id": 2000092,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_Talent5"
+      },
+      "93": {
+        "name": "Thundering Kicks",
+        "fsl_id": 2000093,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_PassiveTalent2"
+      },
+      "95": {
+        "name": "Rumbling Stone",
+        "fsl_id": 2000095,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_PassiveTalent5"
+      },
+      "96": {
+        "name": "Earthwell",
+        "fsl_id": 2000096,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_Talent1"
+      },
+      "97": {
+        "name": "Debilitating Vortex",
+        "fsl_id": 2000097,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_Talent6"
+      },
+      "98": {
+        "name": "Harsh Winds",
+        "fsl_id": 2000098,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_PassiveTalent6"
+      },
+      "99": {
+        "name": "Slipstream",
+        "fsl_id": 2000099,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_Talent4"
+      },
+      "100": {
+        "name": "Magic Ward",
+        "fsl_id": 2000100,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_PassiveTalent3"
+      },
+      "102": {
+        "name": "Warden of the Temple",
+        "fsl_id": 2000102,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_Talent7"
+      },
+      "104": {
+        "name": "Forbidden Technique",
+        "fsl_id": 2000104,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_Talent9"
+      },
+      "107": {
+        "name": "Conclusive Strikes",
+        "fsl_id": 2000107,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_PassiveTalent9"
+      },
+      "174": {
+        "name": "Peacefield",
+        "fsl_id": 2000174,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_Talent10"
+      },
+      "446": {
+        "name": "Stone Guard",
+        "fsl_id": 2000446,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_Talent11"
+      },
+      "514": {
+        "name": "Guardian's Fluidity",
+        "fsl_id": 2000514,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_Talent12"
+      },
+      "626": {
+        "name": "Whipping Apex",
+        "fsl_id": 2000626,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Meiko_Talent13"
+      }
+    }
+  },
+  "Sylvie": {
+    "dev_name": "Mosse",
+    "abilities": {
+      "116": {
+        "name": "Ironleaf Ward",
+        "fsl_id": 116,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mosse_SingleTargetCastedDamageReduction"
+      },
+      "1047": {
+        "name": "Enfeebling Rootsap",
+        "fsl_id": 1047,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mosse_TurretChannelHeal"
+      },
+      "1048": {
+        "name": "Hemorrhaging Strike",
+        "fsl_id": 1048,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mosse_Talent_Passive_DotMonitor"
+      },
+      "1054": {
+        "name": "Cure Ailment",
+        "fsl_id": 1054,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mosse_SingleTargetDispel"
+      },
+      "1055": {
+        "name": "Fluttercall: Jubilee",
+        "fsl_id": 1055,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mosse_SharedHealthBuff"
+      },
+      "1057": {
+        "name": "Prickly Vine",
+        "fsl_id": 1057,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Mosse_ProjectileTurrets"
+      },
+      "1059": {
+        "name": "Safe Haven",
+        "fsl_id": 1059,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mosse_PlacedAoeBuff"
+      },
+      "1060": {
+        "name": "Fluttercall: Heal",
+        "fsl_id": 1060,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mosse_PinkButterfly_Simple"
+      },
+      "1061": {
+        "name": "Fluttercall: Restore Life",
+        "fsl_id": 1061,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Mosse_PinkButterfly_Double"
+      },
+      "1071": {
+        "name": "Hidden Trail",
+        "fsl_id": 1071,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mosse_InstantSelfEscapeBuff"
+      },
+      "1072": {
+        "name": "Life Petal",
+        "fsl_id": 1072,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Mosse_HealingAoeTotem"
+      },
+      "1073": {
+        "name": "Shroomsplosion",
+        "fsl_id": 1073,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Mosse_ExplosiveMinion"
+      },
+      "1075": {
+        "name": "Heart Bloom",
+        "fsl_id": 1075,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Mosse_DurationalAoeHealPlacement"
+      },
+      "1076": {
+        "name": "Nettlebolt",
+        "fsl_id": 1076,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Mosse_CastedSingleTargetProjectile"
+      },
+      "1079": {
+        "name": "Fluttercall: Protect",
+        "fsl_id": 1079,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mosse_BlueButterfly_SendOut"
+      },
+      "1080": {
+        "name": "Fluttercall: Embrace",
+        "fsl_id": 1080,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mosse_BlueButterfly_Recall"
+      },
+      "1500": {
+        "name": "Unyielding Bloom",
+        "fsl_id": 1500,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Mosse_Talent_Passive_DurationalAoeHealPlacement_OverhealGivesAbsorb_Monitor"
+      }
+    },
+    "effects": {
+      "1419": {
+        "name": "Sprouting Nettles",
+        "fsl_id": 1001419,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_Talent_ButterflyHeal_CastedSingleTargetProjectile_Proc_Buff"
+      },
+      "1439": {
+        "name": "Fluttercall: Jubilee",
+        "fsl_id": 1001439,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_SharedHealthBuff_Buff"
+      },
+      "1440": {
+        "name": "Prickly Vine",
+        "fsl_id": 1001440,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Mosse_ProjectileTurret_Damage"
+      },
+      "1445": {
+        "name": "Fluttercall: Heal",
+        "fsl_id": 1001445,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GE_Mosse_PinkButterfly_Simple_Hot"
+      },
+      "1448": {
+        "name": "Fluttercall: Restore Life",
+        "fsl_id": 1001448,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GE_Mosse_PinkButterfly_Double_Hot"
+      },
+      "1450": {
+        "name": "Fluttercall: Restore Life - Pollinating",
+        "fsl_id": 1001450,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_PinkButterfly_Double_Chargeup"
+      },
+      "1470": {
+        "name": "Hidden Trail",
+        "fsl_id": 1001470,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_InstantSelfEscapeBuff_Buff"
+      },
+      "1474": {
+        "name": "Shroomsplosion",
+        "fsl_id": 1001474,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Mosse_ExplosiveMinion_Damage"
+      },
+      "1484": {
+        "name": "Ironleaf Ward",
+        "fsl_id": 1001484,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_SingleTargetCastedDamageReductionBuff"
+      },
+      "1485": {
+        "name": "Fluttercall: Protect",
+        "fsl_id": 1001485,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_BlueButterfly_TargetBuff"
+      },
+      "1486": {
+        "name": "Fluttercall: Embrace",
+        "fsl_id": 1001486,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_BlueButterfly_SelfBuff"
+      },
+      "2172": {
+        "name": "Unyielding Bloom",
+        "fsl_id": 1002172,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_Talent_DurationalAoeHealPlacement_OverhealGivesAbsorb_AbsorbBuff"
+      },
+      "2232": {
+        "name": "Enfeebling Rootsap",
+        "fsl_id": 1002232,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_TurretChannelHeal_Debuff"
+      },
+      "2240": {
+        "name": "Natural Protector",
+        "fsl_id": 1002240,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_Talent_TargetAbsorb"
+      },
+      "2241": {
+        "name": "Bloomin' Boomshrooms",
+        "fsl_id": 1002241,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GE_Mosse_Talent_ExplosiveMinion_AllyTargetHeal_Heal"
+      },
+      "2269": {
+        "name": "Safe Haven",
+        "fsl_id": 1002269,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_PlacedAoeBuff_IncreasedHealingTakenBuff"
+      },
+      "2309": {
+        "name": "Rowdy Rootsap",
+        "fsl_id": 1002309,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_Talent_TurretChannelHeal_ReducedSpeedAoeDebuff_Debuff"
+      },
+      "2731": {
+        "name": "Natural Selection",
+        "fsl_id": 1002731,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Mosse_Passive_PartyStaminaBuff_Buff"
+      }
+    },
+    "talents": {
+      "20": {
+        "name": "Synchronized Fluttering",
+        "fsl_id": 2000020,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent2"
+      },
+      "21": {
+        "name": "Symbiosis",
+        "fsl_id": 2000021,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent3"
+      },
+      "22": {
+        "name": "Will of Nature",
+        "fsl_id": 2000022,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_PassiveTalent1"
+      },
+      "23": {
+        "name": "Flutterswift",
+        "fsl_id": 2000023,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_PassiveTalent2"
+      },
+      "24": {
+        "name": "Sprouting Nettles",
+        "fsl_id": 2000024,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent4"
+      },
+      "25": {
+        "name": "Elusive Wildling",
+        "fsl_id": 2000025,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent5"
+      },
+      "26": {
+        "name": "Bluey's Gambit",
+        "fsl_id": 2000026,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent6"
+      },
+      "28": {
+        "name": "Magic Ward",
+        "fsl_id": 2000028,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_PassiveTalent6"
+      },
+      "29": {
+        "name": "Spirited Fortitude",
+        "fsl_id": 2000029,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_PassiveTalent5"
+      },
+      "31": {
+        "name": "Flower Power",
+        "fsl_id": 2000031,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent8"
+      },
+      "32": {
+        "name": "Bloomin' Boomshrooms",
+        "fsl_id": 2000032,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent9"
+      },
+      "170": {
+        "name": "Verdant Restoration",
+        "fsl_id": 2000170,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent10"
+      },
+      "172": {
+        "name": "Trailing Restoration",
+        "fsl_id": 2000172,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent13"
+      },
+      "173": {
+        "name": "Natural Protector",
+        "fsl_id": 2000173,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent12"
+      },
+      "176": {
+        "name": "Nettle to the Petal",
+        "fsl_id": 2000176,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent14"
+      },
+      "196": {
+        "name": "Rowdy Rootsap",
+        "fsl_id": 2000196,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent16"
+      },
+      "197": {
+        "name": "Nurtured Haven",
+        "fsl_id": 2000197,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent15"
+      },
+      "198": {
+        "name": "Natural Knowledge",
+        "fsl_id": 2000198,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Mosse_Talent17"
+      }
+    }
+  },
+  "Rime": {
+    "dev_name": "Rime",
+    "abilities": {
+      "1009": {
+        "name": "Flight of the Navir",
+        "fsl_id": 1009,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Rime_TargetedPeriodicProjectileAoe"
+      },
+      "1015": {
+        "name": "Frost Ward",
+        "fsl_id": 1015,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Rime_SelfDefenceBuff"
+      },
+      "1018": {
+        "name": "Ice Comet",
+        "fsl_id": 1018,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Rime_OnTargetPulsatingAoe"
+      },
+      "1019": {
+        "name": "Brain Freeze",
+        "fsl_id": 1019,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Rime_InstantSingleInterrupt"
+      },
+      "1020": {
+        "name": "Cold Snap",
+        "fsl_id": 1020,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Rime_InstantSingleDamage"
+      },
+      "1021": {
+        "name": "Frigid Winds",
+        "fsl_id": 1021,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Rime_InstantConeKnockback"
+      },
+      "1023": {
+        "name": "Wrath of Winter",
+        "fsl_id": 1023,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Rime_FullResourcesSelfBuff"
+      },
+      "1024": {
+        "name": "Ice Dash",
+        "fsl_id": 1024,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Rime_DashForward"
+      },
+      "1026": {
+        "name": "Winter's Blessing",
+        "fsl_id": 1026,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Rime_DamageAsAoeHealingBuff"
+      },
+      "1027": {
+        "name": "Freezing Torrent",
+        "fsl_id": 1027,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Rime_ChanneledBeamSingleDamage"
+      },
+      "1028": {
+        "name": "Glacial Blast",
+        "fsl_id": 1028,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Rime_CastedProjectileDamageOrbSpender"
+      },
+      "1029": {
+        "name": "Frost Bolt",
+        "fsl_id": 1029,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Rime_CastedProjectileDamageFiller"
+      },
+      "1031": {
+        "name": "Bursting Ice",
+        "fsl_id": 1031,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Rime_CastedDebuffAoeDamage"
+      },
+      "1032": {
+        "name": "Ice Blitz",
+        "fsl_id": 1032,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Rime_AutoProjectileOnResourceGainBuff"
+      },
+      "1033": {
+        "name": "Frost Swallows",
+        "fsl_id": 1033,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Rime_Helper_AutoDamageProjectile"
+      },
+      "1572": {
+        "name": "Stone Shield",
+        "fsl_id": 1572,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Rime_Talent_Passive_CastedProjectileDamageOrbSpender_TertiaryResourceSpendMonitor"
+      },
+      "1576": {
+        "name": "Burstbolter",
+        "fsl_id": 1576,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Rime_Talent_Passive_CastedProjectileDamageFiller_TriggerPulse_DamageMonitor"
+      },
+      "2023": {
+        "name": "Glacial Assault",
+        "fsl_id": 2023,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Rime_Talent_Passive_CastedProjectileDamageOrbSpender_DamageToAoe_Monitor"
+      }
+    },
+    "effects": {
+      "1365": {
+        "name": "Frost Swallows",
+        "fsl_id": 1001365,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Rime_TargetedPeriodicProjectileAoe_Damage"
+      },
+      "1368": {
+        "name": "Tundra Guard's Favor",
+        "fsl_id": 1001368,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GE_Rime_Talent_SelfDefenceBuff_DurationBoostAndHealFromDamage_Heal"
+      },
+      "1373": {
+        "name": "Soulfrost Torrent",
+        "fsl_id": 1001373,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_Talent_ChanneledBeamSingleDamage_BoostByCritProc_Proc"
+      },
+      "1377": {
+        "name": "Glacial Assault",
+        "fsl_id": 1001377,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_CastedProjectileDamageOrbSpender_Talent_InstantAndBonusDamage_ProcStacker"
+      },
+      "1379": {
+        "name": "Frost Ward",
+        "fsl_id": 1001379,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_SelfDefenceBuff_SelfBuff"
+      },
+      "1385": {
+        "name": "Frigid Winds",
+        "fsl_id": 1001385,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_InstantConeKnockback_Debuff"
+      },
+      "1387": {
+        "name": "Wrath of Winter",
+        "fsl_id": 1001387,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_FullResourcesSelfBuff_Buff"
+      },
+      "1389": {
+        "name": "Winter's Blessing",
+        "fsl_id": 1001389,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_DamageAsAoeHealingBuff_SelfBuff"
+      },
+      "1390": {
+        "name": "Winter's Blessing",
+        "fsl_id": 1001390,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GE_Rime_DamageAsAoeHealingBuff_Heal"
+      },
+      "1395": {
+        "name": "Bursting Ice",
+        "fsl_id": 1001395,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_CastedDebuffAoeDamage_Debuff"
+      },
+      "1396": {
+        "name": "Bursting Ice",
+        "fsl_id": 1001396,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Rime_CastedDebuffAoeDamage_Damage"
+      },
+      "1397": {
+        "name": "Ice Blitz",
+        "fsl_id": 1001397,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_AutoProjectileOnResourceGainBuff_Buff"
+      },
+      "2264": {
+        "name": "Frostwyrm's Spite",
+        "fsl_id": 1002264,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_Talent_ChanneledBeamSingleDamage_StackBuffForInstantSingleDamage_StackBuff"
+      },
+      "2265": {
+        "name": "Frostwyrm's Spite",
+        "fsl_id": 1002265,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Rime_Talent_ChanneledBeamSingleDamage_StackBuffForInstantSingleDamage_CleaveDamage"
+      },
+      "2300": {
+        "name": "Coalescing Frost",
+        "fsl_id": 1002300,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Rime_ChanneledBeamSingleDamage_AoeDamage"
+      },
+      "2303": {
+        "name": "Winter's Embrace",
+        "fsl_id": 1002303,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_CastedDebuffAoeDamage_Talent_BuffWhileActive"
+      },
+      "2305": {
+        "name": "Frostweaver's Wrath",
+        "fsl_id": 1002305,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_Talent_ChanceOnOrbGain_NextSpenderCritIncrease_Buff"
+      },
+      "2306": {
+        "name": "Coalescing Frost",
+        "fsl_id": 1002306,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_Talent_CleaveBuildUpPerTick_VisualBuff"
+      },
+      "2308": {
+        "name": "Icy Flow",
+        "fsl_id": 1002308,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_Talent_InstantSingleDamage_ReducesCastTimeOnOrbSpender_Proc"
+      },
+      "2446": {
+        "name": "Flight of the Navir",
+        "fsl_id": 1002446,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_TargetedPeriodicProjectileAoe_AoeBuff"
+      },
+      "2730": {
+        "name": "Navir's Keeper",
+        "fsl_id": 1002730,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Rime_Talent_InstantSingleDamage_FreeCast_Proc"
+      }
+    },
+    "talents": {
+      "36": {
+        "name": "Coalescing Frost",
+        "fsl_id": 2000036,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_Chillblain"
+      },
+      "38": {
+        "name": "Glacial Assault",
+        "fsl_id": 2000038,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_GlacialAssault"
+      },
+      "42": {
+        "name": "Tundra Guard",
+        "fsl_id": 2000042,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_TundraGuard"
+      },
+      "43": {
+        "name": "Chilling Finesse",
+        "fsl_id": 2000043,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_UnrelentingIce"
+      },
+      "44": {
+        "name": "Icy Flow",
+        "fsl_id": 2000044,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_IcyFlow"
+      },
+      "45": {
+        "name": "Spirited Fortitude",
+        "fsl_id": 2000045,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_PassiveTalent4"
+      },
+      "46": {
+        "name": "Magic Ward",
+        "fsl_id": 2000046,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_PassiveTalent6"
+      },
+      "48": {
+        "name": "Avalanche",
+        "fsl_id": 2000048,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_Avalanche"
+      },
+      "49": {
+        "name": "Wisdom of the North",
+        "fsl_id": 2000049,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_WisdomOfTheNorth"
+      },
+      "51": {
+        "name": "Biting Cold",
+        "fsl_id": 2000051,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_PassiveTalent7"
+      },
+      "186": {
+        "name": "Winter's Embrace",
+        "fsl_id": 2000186,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_PassiveTalent10"
+      },
+      "189": {
+        "name": "Navir's Keeper",
+        "fsl_id": 2000189,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_PassiveTalent12"
+      },
+      "190": {
+        "name": "Greater Glacial Blast",
+        "fsl_id": 2000190,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_PassiveTalent13"
+      },
+      "191": {
+        "name": "Frostweaver's Wrath",
+        "fsl_id": 2000191,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_ChanceOnOrbGain_NextSpenderCritIncrease"
+      },
+      "192": {
+        "name": "Cascading Blitz",
+        "fsl_id": 2000192,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_PassiveTalent16"
+      },
+      "193": {
+        "name": "Burstbolter",
+        "fsl_id": 2000193,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_PassiveTalent17"
+      },
+      "195": {
+        "name": "Soulfrost Torrent",
+        "fsl_id": 2000195,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_PassiveTalent19"
+      },
+      "527": {
+        "name": "Supreme Torrent",
+        "fsl_id": 2000527,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Rime_PassiveTalent20"
+      }
+    }
+  },
+  "Xavian": {
+    "dev_name": "Sune",
+    "abilities": {
+      "1841": {
+        "name": "Sky Crash",
+        "fsl_id": 1841,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Sune_TargetedLeapAoe"
+      },
+      "1843": {
+        "name": "Taunt",
+        "fsl_id": 1843,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Sune_SingleTargetTaunt"
+      },
+      "1844": {
+        "name": "Interrupt",
+        "fsl_id": 1844,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Sune_SingleTargetInterrupt"
+      },
+      "1845": {
+        "name": "Sun Strike",
+        "fsl_id": 1845,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Sune_SingleTargetFillerMelee"
+      },
+      "1848": {
+        "name": "Solar Shield",
+        "fsl_id": 1848,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Sune_SingleTargetAbsorb"
+      },
+      "1853": {
+        "name": "Decree of the Sun",
+        "fsl_id": 1853,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Sune_SelfImmunityAndAoeHeal"
+      },
+      "1854": {
+        "name": "Attack",
+        "fsl_id": 1854,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Sune_MeleeAutoAttack"
+      },
+      "1855": {
+        "name": "Brilliant Flash",
+        "fsl_id": 1855,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Sune_InstantSingleTargetHealOrDamage"
+      },
+      "1857": {
+        "name": "Ruptured Dawn",
+        "fsl_id": 1857,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Sune_InstantConeStunAndPull"
+      },
+      "1858": {
+        "name": "Blinding Slash",
+        "fsl_id": 1858,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Sune_InstantCleaveMelee"
+      },
+      "1859": {
+        "name": "Shining Halo",
+        "fsl_id": 1859,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Sune_DroppedPulseAoe"
+      },
+      "1860": {
+        "name": "Brilliant Flare",
+        "fsl_id": 1860,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Sune_CastedSingleTargetHeal"
+      },
+      "1861": {
+        "name": "Omega Reprieval",
+        "fsl_id": 1861,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Sune_BuffedTargetedCastedHealOrDamage"
+      },
+      "1862": {
+        "name": "Solar Blades",
+        "fsl_id": 1862,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Sune_AtTargetInstantAoe"
+      },
+      "1863": {
+        "name": "Omnistrike",
+        "fsl_id": 1863,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Sune_AoeMelee"
+      },
+      "1917": {
+        "name": "Aura of Solace",
+        "fsl_id": 1917,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Sune_DamageTransferAura"
+      }
+    },
+    "effects": {
+      "2544": {
+        "name": "Taunted",
+        "fsl_id": 1002544,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_SingleTargetTaunt_Taunt"
+      },
+      "2551": {
+        "name": "Solar Shield",
+        "fsl_id": 1002551,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_SingleTargetAbsorb_Absorb"
+      },
+      "2553": {
+        "name": "Solaris",
+        "fsl_id": 1002553,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_OverhealToAoeDamage_Damage"
+      },
+      "2555": {
+        "name": "Blinded",
+        "fsl_id": 1002555,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_AutoAttackParryDebuff_Debuff"
+      },
+      "2557": {
+        "name": "Decree of the Sun",
+        "fsl_id": 1002557,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_SelfImmunityAndAoeHeal_SelfBuff_Immunity"
+      },
+      "2558": {
+        "name": "Decree of the Sun",
+        "fsl_id": 1002558,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_SelfImmunityAndAoeHeal_SelfBuff_DamageReduction"
+      },
+      "2566": {
+        "name": "Stunned",
+        "fsl_id": 1002566,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_InstantConeStunAndPull_Stun"
+      },
+      "2569": {
+        "name": "Shining Halo",
+        "fsl_id": 1002569,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_DroppedPulseAoe_SelfBuff"
+      },
+      "2574": {
+        "name": "Omega Reprieval",
+        "fsl_id": 1002574,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_BuffedTargetedCastedHealOrDamage_Buff"
+      },
+      "2646": {
+        "name": "Tempered Descent",
+        "fsl_id": 1002646,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_Talent_TargetedLeapAoe_MoveSpeedAndArmorBuff_Buff"
+      },
+      "2647": {
+        "name": "Sun's Verdict",
+        "fsl_id": 1002647,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Sune_Talent_SingleTargetFillerMelee_AoeProcBuff_Damage"
+      },
+      "2648": {
+        "name": "Sun's Verdict",
+        "fsl_id": 1002648,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_Talent_SingleTargetFillerMelee_AoeProcBuff_Buff"
+      },
+      "2649": {
+        "name": "Hallowed Shield",
+        "fsl_id": 1002649,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_Talent_SingleTargetAbsorb_ParryBoost_Buff"
+      },
+      "2651": {
+        "name": "Counter-Attack",
+        "fsl_id": 1002651,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_Talent_ParryCounterAttack_Damage"
+      },
+      "2652": {
+        "name": "Vanguard of Vengeance",
+        "fsl_id": 1002652,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_Talent_ParryCounterAttack_Buff"
+      },
+      "2653": {
+        "name": "Shifting Spectrum",
+        "fsl_id": 1002653,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_Talent_LowHealthDamageReduction"
+      },
+      "2655": {
+        "name": "Light's Oath",
+        "fsl_id": 1002655,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_Talent_DroppedPulseAoe_StackingBoostBuff"
+      },
+      "2658": {
+        "name": "Fortress in the Sands: Exhausted",
+        "fsl_id": 1002658,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_Talent_DeathPrevention_Cooldown"
+      },
+      "2660": {
+        "name": "Sunburn",
+        "fsl_id": 1002660,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Sune_Talent_AtTargetInstantAoe_AddsDot_Dot"
+      },
+      "2661": {
+        "name": "Golden Hour",
+        "fsl_id": 1002661,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_Talent_AoeMelee_CooldownProc_Proc"
+      },
+      "2662": {
+        "name": "Spirit of Heroism",
+        "fsl_id": 1002662,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_SpiritTriggeredBuff"
+      },
+      "2663": {
+        "name": "Swift Reprieval",
+        "fsl_id": 1002663,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_Resource_Proc"
+      },
+      "2664": {
+        "name": "Sunstruck",
+        "fsl_id": 1002664,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_AoeMeleeDamageBoostAndManaRefundDebuff_Debuff"
+      },
+      "2667": {
+        "name": "Gift of Solace",
+        "fsl_id": 1002667,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_DamageTransferAura_SelfBuff"
+      },
+      "2669": {
+        "name": "Aura of Solace",
+        "fsl_id": 1002669,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Sune_DamageTransferAura_Damage"
+      },
+      "2721": {
+        "name": "Invictus",
+        "fsl_id": 1002721,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Sune_Talent_SingleTargetAbsorb_AoeDamage_Damage"
+      },
+      "2723": {
+        "name": "Grossly Incandescent",
+        "fsl_id": 1002723,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_Passive_talent_ResourceConsumed_StackingBuffToProc_Stacker"
+      },
+      "2724": {
+        "name": "Sun's Touch",
+        "fsl_id": 1002724,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GE_Sune_Talent_InstantSingleTargetHealOrDamage_DotHot_Hot"
+      },
+      "2725": {
+        "name": "Sun's Touch",
+        "fsl_id": 1002725,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Sune_Talent_InstantSingleTargetHealOrDamage_DotHot_Dot"
+      },
+      "2727": {
+        "name": "Solar Glare",
+        "fsl_id": 1002727,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Sune_Talent_AtTargetInstantAoe_DamageReduction_Debuff"
+      }
+    },
+    "talents": {
+      "567": {
+        "name": "Hallowed Shield",
+        "fsl_id": 2000567,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent9"
+      },
+      "568": {
+        "name": "Light's Oath",
+        "fsl_id": 2000568,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent8"
+      },
+      "569": {
+        "name": "Imposing Presence",
+        "fsl_id": 2000569,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent7"
+      },
+      "570": {
+        "name": "Solar Burn",
+        "fsl_id": 2000570,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent6"
+      },
+      "571": {
+        "name": "Grand Halo",
+        "fsl_id": 2000571,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent5"
+      },
+      "572": {
+        "name": "Tempered Descent",
+        "fsl_id": 2000572,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent4"
+      },
+      "573": {
+        "name": "Rising Sun",
+        "fsl_id": 2000573,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent3"
+      },
+      "574": {
+        "name": "Healing Halo",
+        "fsl_id": 2000574,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent2"
+      },
+      "575": {
+        "name": "Celestial Favor",
+        "fsl_id": 2000575,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent18"
+      },
+      "576": {
+        "name": "Shifting Spectrum",
+        "fsl_id": 2000576,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent17"
+      },
+      "578": {
+        "name": "Golden Hour",
+        "fsl_id": 2000578,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent15"
+      },
+      "580": {
+        "name": "Vanguard of Vengeance",
+        "fsl_id": 2000580,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent13"
+      },
+      "581": {
+        "name": "Gleaming Strikes",
+        "fsl_id": 2000581,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent12"
+      },
+      "583": {
+        "name": "Sun's Verdict",
+        "fsl_id": 2000583,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent1"
+      },
+      "584": {
+        "name": "Magic Ward",
+        "fsl_id": 2000584,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_PassiveTalent1"
+      },
+      "604": {
+        "name": "Invictus",
+        "fsl_id": 2000604,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Trait3"
+      },
+      "607": {
+        "name": "Sun's Touch",
+        "fsl_id": 2000607,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent20"
+      },
+      "608": {
+        "name": "Zenith Technique",
+        "fsl_id": 2000608,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Sune_Talent19"
+      }
+    }
+  },
+  "Vigour": {
+    "dev_name": "Vigor",
+    "abilities": {
+      "109": {
+        "name": "Radiant Blast",
+        "fsl_id": 109,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Vigor_InstantFrontalConeDamageHeal"
+      },
+      "110": {
+        "name": "Circle of Light",
+        "fsl_id": 110,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Vigor_InstantAoeHeal"
+      },
+      "111": {
+        "name": "Lightshaper's Ward",
+        "fsl_id": 111,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Vigor_DamageReductionAndImmunityBuff"
+      },
+      "112": {
+        "name": "Greater Heal",
+        "fsl_id": 112,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Vigor_CastedSingleTargetHeal"
+      },
+      "991": {
+        "name": "Acidic Sap",
+        "fsl_id": 991,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Vigor_Passive_Talent_CastedSingleTargetHeal_CheaperInstantCast_Monitor"
+      },
+      "992": {
+        "name": "Dawnbreaker Orb",
+        "fsl_id": 992,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Vigor_SkillshotAoeProjectile"
+      },
+      "993": {
+        "name": "Throw Book",
+        "fsl_id": 993,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Vigor_SingleTargetProjectileStun"
+      },
+      "994": {
+        "name": "Soulbrand",
+        "fsl_id": 994,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Vigor_SingleTargetDot"
+      },
+      "995": {
+        "name": "Rune of Renewal",
+        "fsl_id": 995,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Vigor_SingleTargetChargedHot"
+      },
+      "996": {
+        "name": "Luminous Barrier",
+        "fsl_id": 996,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Vigor_SingleTargetAbsorb"
+      },
+      "997": {
+        "name": "Remove Magic",
+        "fsl_id": 997,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Vigor_SingleAllyDispel"
+      },
+      "1000": {
+        "name": "Avatar of Light",
+        "fsl_id": 1000,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GA_Vigor_PartyHealAndSelfBuff"
+      },
+      "1001": {
+        "name": "Runic Proliferation",
+        "fsl_id": 1001,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Vigor_InstantResourceGain"
+      },
+      "1003": {
+        "name": "Levitate",
+        "fsl_id": 1003,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Vigor_ChargedMovementSpeedSelfBuff"
+      },
+      "1004": {
+        "name": "Dawnflare",
+        "fsl_id": 1004,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GA_Vigor_CastedSingleTargetDamage"
+      },
+      "1563": {
+        "name": "Meticulous Runesmith",
+        "fsl_id": 1563,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Vigor_Passive_Talent_SkillshotAoeProjectile_HealsApplyAbsorb_Monitor"
+      }
+    },
+    "effects": {
+      "1294": {
+        "name": "Expansive Mind",
+        "fsl_id": 1001294,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_Talent_CastedSingleTargetDamage_ManaRegenBuff"
+      },
+      "1296": {
+        "name": "Ruptured Soul",
+        "fsl_id": 1001296,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Vigor_Talent_SingleTargetDot_DamageToAoe_Damage"
+      },
+      "1307": {
+        "name": "Beacon in the Dark",
+        "fsl_id": 1001307,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_Talent_InstantFrontalConeDamageHeal_DotProc_Proc"
+      },
+      "1312": {
+        "name": "Stunned by a book",
+        "fsl_id": 1001312,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_SingleTargetProjectileStun_Stun"
+      },
+      "1315": {
+        "name": "Soulbrand",
+        "fsl_id": 1001315,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Vigor_SingleTargetDot_Dot"
+      },
+      "1316": {
+        "name": "Rune of Renewal",
+        "fsl_id": 1001316,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_SingleTargetEchoProccer_Buff"
+      },
+      "1321": {
+        "name": "Luminous Barrier",
+        "fsl_id": 1001321,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_SingleTargetAbsorb_Absorb"
+      },
+      "1328": {
+        "name": "Rune of Renewal: Echo",
+        "fsl_id": 1001328,
+        "type": "8",
+        "type_name": "heal",
+        "dev_name": "GE_Vigor_Echo_Heal"
+      },
+      "1334": {
+        "name": "Runic Proliferation",
+        "fsl_id": 1001334,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_InstantResourceGain_Buff"
+      },
+      "1342": {
+        "name": "Lightshaper's Ward",
+        "fsl_id": 1001342,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_DamageReductionAndImmunityBuff"
+      },
+      "1343": {
+        "name": "Levitate",
+        "fsl_id": 1001343,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_ChargedMovementSpeedSelfBuff_SelfBuff"
+      },
+      "2278": {
+        "name": "Ceremony of Light",
+        "fsl_id": 1002278,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_Talent_InstantAoeHeal_DamageReduction_AoeBuff"
+      },
+      "2288": {
+        "name": "Epiphany",
+        "fsl_id": 1002288,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_Talent_SkillshotAoeProjectile_ResetCooldownFreecast_Proc"
+      },
+      "2289": {
+        "name": "Meticulous Runesmith",
+        "fsl_id": 1002289,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_Passive_Talent_SkillshotAoeProjectile_HealsApplyAbsorb_Absorb"
+      },
+      "2294": {
+        "name": "Harmonizing Refractions",
+        "fsl_id": 1002294,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_Talent_SpiritProcBuff_NextRuneSpenderIncreasedPower_Proc"
+      },
+      "2295": {
+        "name": "Resplendent Dawn",
+        "fsl_id": 1002295,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_Talent_CastedSingleTargetDamage_ReducedCastTime"
+      },
+      "2432": {
+        "name": "Soulbrand: Remnant",
+        "fsl_id": 1002432,
+        "type": "1024",
+        "type_name": "damage",
+        "dev_name": "GE_Vigor_SingleTargetDot_BuffActiveAdditionalDirectDamage"
+      },
+      "2838": {
+        "name": "Residual Light",
+        "fsl_id": 1002838,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Vigor_SingleTargetAbsorb_UponRemovalBuff"
+      }
+    },
+    "talents": {
+      "56": {
+        "name": "Radiant Soul",
+        "fsl_id": 2000056,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_PassiveTalent7"
+      },
+      "57": {
+        "name": "Dawnbreaker's Legacy",
+        "fsl_id": 2000057,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_PassiveTalent3"
+      },
+      "59": {
+        "name": "Alacritous Healing",
+        "fsl_id": 2000059,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_PassiveTalent9"
+      },
+      "61": {
+        "name": "Expansive Mind",
+        "fsl_id": 2000061,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_Talent6"
+      },
+      "62": {
+        "name": "Ruptured Soul",
+        "fsl_id": 2000062,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_Talent3"
+      },
+      "64": {
+        "name": "Magic Ward",
+        "fsl_id": 2000064,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_PassiveTalent6"
+      },
+      "65": {
+        "name": "Beacon in the Dark",
+        "fsl_id": 2000065,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_Talent4"
+      },
+      "66": {
+        "name": "Master of Triage",
+        "fsl_id": 2000066,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_Talent7"
+      },
+      "68": {
+        "name": "Grand Design",
+        "fsl_id": 2000068,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_Talent9"
+      },
+      "71": {
+        "name": "Runic Revelations",
+        "fsl_id": 2000071,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_PassiveTalent4"
+      },
+      "178": {
+        "name": "Epiphany",
+        "fsl_id": 2000178,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_Talent11"
+      },
+      "179": {
+        "name": "Meticulous Runesmith",
+        "fsl_id": 2000179,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_Talent12"
+      },
+      "181": {
+        "name": "Ascending Avatar",
+        "fsl_id": 2000181,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_Talent10"
+      },
+      "182": {
+        "name": "Bracing Light",
+        "fsl_id": 2000182,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_Talent13"
+      },
+      "393": {
+        "name": "Ceremony of Light",
+        "fsl_id": 2000393,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_Trait3"
+      },
+      "564": {
+        "name": "Preserved Illumination",
+        "fsl_id": 2000564,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_Trait5"
+      },
+      "566": {
+        "name": "Sacred Barrier",
+        "fsl_id": 2000566,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Vigor_Talent16"
+      }
+    }
+  },
+  "Helena": {
+    "dev_name": "Warmaster",
+    "abilities": {
+      "966": {
+        "name": "Taunt",
+        "fsl_id": 966,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_RangedTaunt"
+      },
+      "973": {
+        "name": "Iron Wall",
+        "fsl_id": 973,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_NoResourceLossSelfBuff"
+      },
+      "974": {
+        "name": "Charge",
+        "fsl_id": 974,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_MoveToTargetStun"
+      },
+      "975": {
+        "name": "Hold the Line",
+        "fsl_id": 975,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_MoveSpeedBuff"
+      },
+      "976": {
+        "name": "Bash",
+        "fsl_id": 976,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_MeleeInterrupt"
+      },
+      "977": {
+        "name": "Shield Slam",
+        "fsl_id": 977,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_MeleeCleave"
+      },
+      "978": {
+        "name": "Attack",
+        "fsl_id": 978,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_MeleeAutoAttack"
+      },
+      "979": {
+        "name": "Shockwave",
+        "fsl_id": 979,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_MeleeAoeSlow"
+      },
+      "980": {
+        "name": "Measured Strike",
+        "fsl_id": 980,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_LightMelee"
+      },
+      "981": {
+        "name": "Sweeping Strike",
+        "fsl_id": 981,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_InstantMeleeCleave"
+      },
+      "982": {
+        "name": "Power Strike",
+        "fsl_id": 982,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_HeavyMelee"
+      },
+      "984": {
+        "name": "Shields Up",
+        "fsl_id": 984,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_DefenceBuff"
+      },
+      "985": {
+        "name": "Shield Throw",
+        "fsl_id": 985,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_BouncyProjectile"
+      },
+      "1465": {
+        "name": "Grand Melee",
+        "fsl_id": 1465,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_AoeIncite"
+      },
+      "1515": {
+        "name": "Siegebreaker",
+        "fsl_id": 1515,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GA_Warmaster_ShieldSelfBuff"
+      }
+    },
+    "effects": {
+      "1214": {
+        "name": "Second Wind: Build up",
+        "fsl_id": 1001214,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_Talent_ToughnessBuff_Stacker"
+      },
+      "1215": {
+        "name": "Second Wind",
+        "fsl_id": 1001215,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_Talent_ToughnessBuff_Buff"
+      },
+      "1231": {
+        "name": "The Best Defense",
+        "fsl_id": 1001231,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_Talent_BouncyProjectile_IncreasedDamageProc"
+      },
+      "1240": {
+        "name": "Martial Command",
+        "fsl_id": 1001240,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_SharedToughnessAura_PartyBuff"
+      },
+      "1241": {
+        "name": "Taunted",
+        "fsl_id": 1001241,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_RangedTaunt_Debuff"
+      },
+      "1254": {
+        "name": "Iron Wall",
+        "fsl_id": 1001254,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_NoResourceLossSelfBuff_Buff"
+      },
+      "1255": {
+        "name": "Stunned",
+        "fsl_id": 1001255,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_MoveToTargetStun_Stun"
+      },
+      "1270": {
+        "name": "Shockwave",
+        "fsl_id": 1001270,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_MeleeAoeSlow_DebuffIcon"
+      },
+      "1272": {
+        "name": "Shockwave",
+        "fsl_id": 1001272,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_MeleeAoeSlow_Damage"
+      },
+      "1276": {
+        "name": "Sweeping Strike",
+        "fsl_id": 1001276,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_InstantMeleeCleave_BleedDebuff"
+      },
+      "1282": {
+        "name": "Shields Up",
+        "fsl_id": 1001282,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_DefenceBuff_Buff"
+      },
+      "2119": {
+        "name": "Grand Melee",
+        "fsl_id": 1002119,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_AoeIncite_SelfBuff"
+      },
+      "2120": {
+        "name": "Grand Melee",
+        "fsl_id": 1002120,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_AoeIncite_InciteTarget"
+      },
+      "2192": {
+        "name": "Siegebreaker",
+        "fsl_id": 1002192,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_ShieldSelfBuff_Buff"
+      },
+      "2205": {
+        "name": "Grand Melee",
+        "fsl_id": 1002205,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_AoeIncite_FriendlyAura_Buff"
+      },
+      "2229": {
+        "name": "Empowered Shield Slam: Barrier",
+        "fsl_id": 1002229,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_MeleeCleave_Absorb"
+      },
+      "2340": {
+        "name": "Unscarred Soul",
+        "fsl_id": 1002340,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_Talent_MeleeCleaveAbsorbBuff_ReducedDamageReflectDamage_Damage"
+      },
+      "2357": {
+        "name": "Razor Shrapnel",
+        "fsl_id": 1002357,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_Talent_BouncyProjectile_ChanceAoeDamage_Damage"
+      },
+      "2361": {
+        "name": "Agonizing Wound",
+        "fsl_id": 1002361,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_Talent_BouncyProjectile_FirstHitAoeDamageDebuff_Debuff"
+      },
+      "2428": {
+        "name": "Aftershock",
+        "fsl_id": 1002428,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_Talent_MoveToTargetStun_ArrivalMeleeAoeSlow_TargetExtraWarmasterDamage"
+      },
+      "2429": {
+        "name": "Vanguard's Advance",
+        "fsl_id": 1002429,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_Talent_MeleeAoeSlow_ReducedIncomingDamageFromTarget"
+      },
+      "2435": {
+        "name": "Empowered Shield Slam",
+        "fsl_id": 1002435,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_MeleeCleave_AbsorbBuff_SelfBuff"
+      },
+      "2478": {
+        "name": "Lingering Concussion",
+        "fsl_id": 1002478,
+        "type": "1",
+        "type_name": "state",
+        "dev_name": "GE_Warmaster_MeleeCleave_ReducedIncomingDamageFromTarget_Debuff"
+      }
+    },
+    "talents": {
+      "14": {
+        "name": "Martial Command",
+        "fsl_id": 2000014,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent1"
+      },
+      "207": {
+        "name": "The Best Defense",
+        "fsl_id": 2000207,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent2"
+      },
+      "208": {
+        "name": "Shield Mastery",
+        "fsl_id": 2000208,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent3"
+      },
+      "209": {
+        "name": "Sword & Board",
+        "fsl_id": 2000209,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent4"
+      },
+      "210": {
+        "name": "High Command",
+        "fsl_id": 2000210,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent19"
+      },
+      "211": {
+        "name": "Guarded Veteran",
+        "fsl_id": 2000211,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent6"
+      },
+      "212": {
+        "name": "Punishing Strikes",
+        "fsl_id": 2000212,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent7"
+      },
+      "213": {
+        "name": "Aftershock",
+        "fsl_id": 2000213,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent8"
+      },
+      "214": {
+        "name": "Skull Cracker",
+        "fsl_id": 2000214,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent9"
+      },
+      "215": {
+        "name": "Sharpened Blade",
+        "fsl_id": 2000215,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent10"
+      },
+      "216": {
+        "name": "Magic Ward",
+        "fsl_id": 2000216,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent11"
+      },
+      "217": {
+        "name": "Reinforced Steel",
+        "fsl_id": 2000217,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent12"
+      },
+      "219": {
+        "name": "Second Wind",
+        "fsl_id": 2000219,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent14"
+      },
+      "220": {
+        "name": "Gleaming Shield",
+        "fsl_id": 2000220,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent15"
+      },
+      "221": {
+        "name": "Front Line Defender",
+        "fsl_id": 2000221,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent16"
+      },
+      "222": {
+        "name": "Master of War",
+        "fsl_id": 2000222,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent17"
+      },
+      "223": {
+        "name": "Greater Shockwave",
+        "fsl_id": 2000223,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Talent18"
+      },
+      "390": {
+        "name": "Unscarred Soul",
+        "fsl_id": 2000390,
+        "type": 1,
+        "type_name": "state",
+        "dev_name": "CAA_Talent_Warmaster_Trait3"
+      }
+    }
+  }
+}
