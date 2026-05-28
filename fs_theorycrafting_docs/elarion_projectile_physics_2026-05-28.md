@@ -49,7 +49,6 @@ This table shows two columns. The **game-design value** is the speed the engine 
 | Grappling Arrow | **80 yd/s** (game-file) | 84.3 yd/s | 347 | Low (n=53) — log noise; game-file value wins |
 | **Voidbringer's Touch** | **40 yd/s** (shared engine speed) | 41.7 yd/s | 204 | High (n=331) |
 | Lunarlight Mark | INSTANT | n/a (instant) | 7 | Very high (n=354) — confirms no projectile |
-| Starfall Volley | n/a — target-anchored AoE | n/a | — | — |
 
 ### The clean reading
 
@@ -60,8 +59,6 @@ This table shows two columns. The **game-design value** is the speed the engine 
 **Voidbringer's Touch is roughly half the speed of standard arrows.** Game-design speed: 40 yd/s. Observed: 41.7 yd/s. The 40 figure is the engine's shared "slow projectile" speed — the same value appears on chain-shot abilities used by several enemy mob types, so we know it's a real engine constant rather than a coincidence. The log fit (R² = 0.90, n=331) confirms VBT actually behaves at this speed in real combat. It is mechanically a different projectile from standard arrows — slower-moving, void-themed — and the engine treats it that way.
 
 **Lunarlight Mark genuinely has no travel time.** Earlier analysis suspected the ~1ms timing was measurement noise. With a larger sample (354 casts) the answer is clear: it's an instant debuff that applies on cast regardless of how far the target is. No projectile is involved.
-
-**Starfall Volley is not a placed ground AoE.** It attaches to the target you cast it on. The AoE moves with that target across the field, dealing damage to anything inside its radius. If the target dies mid-duration, the AoE locks onto the corpse position and runs the rest of its 8-second duration there. Because the AoE chases a moving target rather than flying through the air, "projectile speed" is not a meaningful concept for this ability and was excluded from the speed fit.
 
 ### What "fire overhead" tells you
 
@@ -97,7 +94,7 @@ Here is the median engagement distance measured from Heartseeker Barrage casts, 
 
 **Wyrmheart engages at 2.6× the distance of Sailor's Abyss.** That is the largest zone-shape effect in the entire study.
 
-The likely driver: Wyrmheart has an unusually high share of dangerous stationary casters (Deceitful Scholar, Chronomancer, and similar). Players engage from max range to dodge their mob mechanics. The opposite pattern in Sailor's Abyss — close, fast fights — comes from a zone layout that doesn't reward kiting.
+The driver: Wyrmheart features casters and bolters whose mechanics make range the safer position to fight from. Sailor's Abyss is the opposite — close-range layout where the engagement happens at melee distance regardless.
 
 ### Example of what this costs in real time
 
@@ -114,7 +111,7 @@ That is about a tenth of a second of extra delay on first damage every time you 
 
 Earlier rough analysis suggested certain players were unusually "slow" or "fast" with their casts. Looking at the full cohort, that finding doesn't hold up.
 
-When we measure each player's median engagement distance across all their zones, almost everyone lands in the 8–12 yard band. The big outlier (HorrschT at 18.7 yd median) was sampled almost entirely on Wyrmheart, where the zone forces long range. His Wyrmheart-only number drives his apparent player-level outlier; he is not actually a kite-heavy player across zones.
+When we measure each subject's median engagement distance across all their zones, almost everyone lands in the 8–12 yard band. The one apparent outlier (TestSubject_1 at 18.7 yd median) was sampled almost entirely on Wyrmheart, where the zone forces long range. That zone-specific exposure drives the apparent subject-level outlier; once normalized, this subject is not actually a long-range outlier across zones.
 
 **Conclusion:** zone shape is the dominant factor in engagement distance. Player positioning style is a real but secondary effect.
 
