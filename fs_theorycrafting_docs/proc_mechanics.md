@@ -1,12 +1,12 @@
 *Season 2. The mechanic has held all season; the per-proc rates below are the S2 numbers.*
 
-# How Procs Work — It's Time and Haste, Not a Flat Roll
+# How Procs Work — Time and Haste, Not Just a Flat Roll
 
-Procs in Fellowship don't roll a flat percentage. Your chance to proc scales with two things at once: how long it's been since your last attempt, and your haste. It's capped at 100%, and there's bad-luck protection underneath so you never go cold forever. That has real consequences for play. More haste literally means more procs, and stepping out of combat for a moment hands you a near-guaranteed one on the way back in.
+Many procs in Fellowship don't roll a flat percentage. For those, your chance to proc scales with two things at once: how long it's been since your last attempt, and your haste. It's capped at 100%, and there's bad-luck protection underneath so you never go cold forever. That has real consequences for play. More haste literally means more procs, and stepping out of combat for a moment hands you a near-guaranteed one on the way back in. Not every proc works this way — some are just a flat chance — so this report covers the ones that aren't, the handful that were measured here.
 
 ## The rule
 
-Every proc has a per-minute rate, its PPM. But the roll on any single attempt isn't just PPM over 60. It's stretched by the time since your last attempt and your haste:
+The procs covered here run on a per-minute rate, a PPM. Not every proc does — some are just a flat chance per attempt, with no rate behind them — but for a PPM proc, the roll on any single attempt isn't just PPM over 60. It's stretched by the time since your last attempt and your haste:
 
 ```
 chance = PPM / 60 * seconds_since_last_attempt * (1 + haste)      (capped at 100%)
