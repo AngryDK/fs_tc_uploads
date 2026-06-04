@@ -12,6 +12,12 @@ On a critical strike, the trait deals an extra 7/8/9/10% (by rank) of that hit's
 
 A normal damage-over-time effect throws away whatever it hasn't dealt yet the moment you re-apply it. Splinters does the opposite. When a fresh crit lands while the effect is still ticking, it carries the leftover un-dealt damage forward, adds the new deposit on top, and re-spreads the combined pool over a fresh 8 seconds. A stream of crits compounds into one growing rolling effect instead of a row of half-wasted ones. That's why the trait rewards sustained crit pressure rather than one-off hits.
 
+## Your big detonation feeds it too
+
+Voidbringer's Touch builds up your damage and then unloads it as one huge critical hit. That detonation is a crit like any other, so the trait skims its cut off it and drops it into the splinter pool. Because the hit is so large, that one deposit is a real chunk of the splinter's lifetime damage.
+
+This was checked on players running both at once. Rebuild each player's splinter damage from their crits, once counting the detonations and once leaving them out. Counting them lands on the real logged damage; leaving them out falls short by roughly 7 to 10 percent. The gap is the detonation's deposit. So if you run Voidbringer's Touch alongside Splinters, the detonation isn't separate from the trait. It pays into it.
+
 ## It's hasted, and that's the bigger factor
 
 This is the part that explains the missing damage. The per-tick size is set for the base cadence, four ticks across 8 seconds. But the effect is hasted, so it ticks faster (roughly every 1.5 seconds at 40% haste) and more than four ticks fire before the window closes. Each tick still delivers its base-sized amount, so the effect pays out about (1 + your haste) times what was deposited. At 40% haste that's a 1.4x multiplier on top of the deposit, for nothing.
@@ -39,6 +45,8 @@ splinter_total ~= (1 + haste) * 0.10 * (total crit damage dealt)
 Two things feed it. Crit sets the deposit — the 10% skimmed off each crit, so more crits or bigger crits make a bigger pool. Haste sets the delivery — the (1 + haste) multiplier from the extra hasted ticks. Both grow the trait's output.
 
 Which stat to gear for is a separate question, and the splinter math alone doesn't answer it — that depends on your whole rotation, not just this trait. So count crit and haste as both feeding Splinters, and let the rest of your build settle the balance.
+
+It came out to about 4 percent of total damage for the builds measured here, climbing toward 8 percent on the higher trait ranks with more crit. That's the share for players who actually run it, which today is an off-the-beaten-path setup rather than a common one. Treat the number as the rough size of the slice, not a promise for every build.
 
 ## The clock is fixed at 8 seconds
 
