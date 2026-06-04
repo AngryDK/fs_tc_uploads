@@ -50,9 +50,9 @@ It came out to about 4 percent of total damage for the builds measured here, cli
 
 ## The clock is fixed at 8 seconds
 
-Re-critting makes a splinter hit harder, not last longer. When a new crit lands on one that's still ticking, the timer snaps back to a flat 8 seconds and never goes past it. No old time carries forward, no pandemic-style extension. All the accumulation lives in the damage pool, none of it in the clock. Every application in the logs runs exactly 8.000 seconds, with no refresh stretching it.
+Re-critting makes a splinter hit harder, not last longer. When a new crit lands on one that's still ticking, the timer snaps back to a flat 8 seconds and never goes past it. No old time carries forward, no pandemic-style extension. All the accumulation lives in the damage pool, none of it in the clock.
 
-A small timing rule rides along. A splinter normally fires a final partial tick for whatever time is left after its last full tick, but if that leftover is under 0.1 seconds the game drops it. That holds for every damage-over-time effect, not just this one. Across 359 clean splinters, no two ticks ever landed closer than 0.100 seconds. The dropped sliver is a rounding-error amount, so it won't show in your totals. It just means a splinter pays out a whole number of ticks, never a hair-thin one at the end.
+A small timing rule rides along. A splinter normally fires a final partial tick for whatever time is left after its last full tick, but if that leftover is under 0.1 seconds the game drops it. That holds for every damage-over-time effect, not just this one. The dropped sliver is a rounding-error amount, so it won't show in your totals. It just means a splinter pays out a whole number of ticks, never a hair-thin one at the end.
 
 ## What it means for play
 
