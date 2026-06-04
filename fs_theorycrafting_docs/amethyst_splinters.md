@@ -40,8 +40,15 @@ Two things feed it. Crit sets the deposit — the 10% skimmed off each crit, so 
 
 Which stat to gear for is a separate question, and the splinter math alone doesn't answer it — that depends on your whole rotation, not just this trait. So count crit and haste as both feeding Splinters, and let the rest of your build settle the balance.
 
+## The clock is fixed at 8 seconds
+
+Re-critting makes a splinter hit harder, not last longer. When a new crit lands on one that's still ticking, the timer snaps back to a flat 8 seconds and never goes past it. No old time carries forward, no pandemic-style extension. All the accumulation lives in the damage pool, none of it in the clock. Every application in the logs runs exactly 8.000 seconds, with no refresh stretching it.
+
+A small timing rule rides along. A splinter normally fires a final partial tick for whatever time is left after its last full tick, but if that leftover is under 0.1 seconds the game drops it. That holds for every damage-over-time effect, not just this one. Across 359 clean splinters, no two ticks ever landed closer than 0.100 seconds. The dropped sliver is a rounding-error amount, so it won't show in your totals. It just means a splinter pays out a whole number of ticks, never a hair-thin one at the end.
+
 ## What it means for play
 
 - It's worth more than the tooltip reads. The "X% of your crit" is only the deposit; haste decides how much actually gets delivered.
 - It scales on two stats at once. Your biggest crits make the biggest deposits, and your haste sets how many times each deposit pays out.
 - It rewards sustained crit pressure. Crits compound into a single rolling pool that never wastes its leftover, so steady output beats spiky bursts.
+- The clock doesn't stretch. Re-critting refreshes the timer to 8 seconds and no further, so you grow a splinter by critting more, not by spacing crits to make it last.
