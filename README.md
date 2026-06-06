@@ -2,6 +2,10 @@
 
 
 ## News
+**Changed Guide location**
+https://angrydk.github.io/fs-theorycrafting/
+
+
 ```
 Massive updates to how mobs / spells are tracked. (5/25/26)
 ```
@@ -84,3 +88,12 @@ Apparently this is just added to base before the other math.
 5/s
 5 * 1.haste%
 ```
+**Sqrt Scaling**
+```
+
+```
+**Spirit Gen**
+```
+spirit = enemy.SpiritPointValue × min(dmg, enemyMaxHP)/enemyMaxHP × Hero.SpiritPointGain.SpiritPointsFromDamageScaler
+```
+
