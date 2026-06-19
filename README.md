@@ -3,7 +3,7 @@
 
 ## News
 **Changed Guide location**
-https://angrydk.github.io/fs-theorycrafting/
+https://fs-theorycrafting.com
 
 
 ```
