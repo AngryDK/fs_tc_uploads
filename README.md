@@ -1,33 +1,44 @@
 # Welcome to Ângry's Fellowship TC dump
 
-
 ## News
-**Changed Guide location**
-https://fs-theorycrafting.com
+**S3 "Rise of the Heskyr" — LIVE 2026-06-22**
+Season 3 is live. Full progression reset. New hero Gunde, Loot 2.0, stat squish, new zones.
 
+**Guide + tool site:** https://fs-theorycrafting.com
 
-```
-Massive updates to how mobs / spells are tracked. (5/25/26)
-```
-
-This Git is for sharing my TC data or dumps with the community. I will update as needed. 
-
-
-## (WIP) - I'll be updating a lot.
-
+**Data repo restructured** — season-first layout: `/s2/<resource>.json`, `/s3/<resource>.json`
 
 
 It seems both Health and Dmg scaling follow the same rules.
+
+S3 (current):
 ```
-ROUND(ROUND(28560*BaseHealthMutliplier)*DifficultyScaleMultiplier)
-ROUND(ROUND(1700*Spell_CoEffecient)*DifficultyScaleMultiplier)
+ROUND(ROUND(2856*BaseHealthMultiplier)*DifficultyScaleMultiplier)
+ROUND(ROUND(120*Spell_CoEfficient)*DifficultyScaleMultiplier)
 ```
+
+S2 (reference):
+```
+ROUND(ROUND(28560*BaseHealthMultiplier)*DifficultyScaleMultiplier)
+ROUND(ROUND(1700*Spell_CoEfficient)*DifficultyScaleMultiplier)
+```
+*Base values from `CT_CharacterBaseAttributes` Default row. S3 base main stat 1700→120, base health 28560→2856.*
 
 # Fellowship Formulas
 ### Stats
 **Diminishing Returns**
 Secondary attributes are affected by Diminishing Returns (DR). Beyond 10%, each rating point has less weight towards the stat percent.
 
+S3 (current):
+- From 0-10% you get full value.
+- From 10-15% you get 0.98 value.
+- From 15-20% you get 0.96 value.
+- From 20-25% you get 0.94 value.
+- Beyond 25% you get 0.92 value
+
+*The default mod starts at .16 but each step the new value gets reduced by the next tier*
+
+S2 (reference):
 - From 0-10% you get full value.
 - From 10-15% you get 0.95 value.
 - From 15-20% you get 0.9 value.
@@ -70,9 +81,9 @@ This is applied to the stam directly then the stamina to health mod is used on i
 ```
 **Armor DR**
 ```
-armor / (0.9232 * armor + 13460)
+(armor * 0.0052) / (7 + armor * 0.0048)
 ```
-![armor curve pic](pictures/armor_curve_formula.png)
+![armor curve](pictures/armor_curve_formula.png)
 **Damage and ability mods**
 ```
 random(0.9, 1.1)
@@ -88,12 +99,23 @@ Apparently this is just added to base before the other math.
 5/s
 5 * 1.haste%
 ```
-**Sqrt Scaling**
+**Sqrt Scaling** (AoE target-count falloff)
+All AoE abilities deal full damage up to a per-ability `TargetCountThreshold`. When N targets exceeds the threshold, each target takes reduced damage:
 ```
+if N <= threshold:
+    damage_per_target = base_damage
 
+if N > threshold:
+    damage_per_target = base_damage * sqrt(threshold / N)
 ```
+Elarion Multishot threshold = **12** (from `AC_Hero_Bowguy.csv: Bowguy.AoeProjectileDamage.TargetCountThreshold`).
+
+Example — MS hitting 20 targets:
+```
+damage × sqrt(12 / 20) = damage × sqrt(0.6) ≈ damage × 0.775
+```
+Each hero's threshold is set per-ability in their AC csv.
 **Spirit Gen**
 ```
 spirit = enemy.SpiritPointValue × min(dmg, enemyMaxHP)/enemyMaxHP × Hero.SpiritPointGain.SpiritPointsFromDamageScaler
 ```
-
