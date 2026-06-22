@@ -1,0 +1,55 @@
+{
+  "name": "Ângry's Fellowship API-ish Dump",
+  "updated": "2026-06-22",
+  "live_season": "s3",
+  "seasons": {
+    "s2": {
+      "status": "complete",
+      "files": {
+        "mob_data.json": {
+          "bytes": 258016
+        },
+        "dungeon_data.json": {
+          "bytes": 607566
+        },
+        "hero_data.json": {
+          "bytes": 235601
+        },
+        "spell_data.json": {
+          "bytes": 600580
+        },
+        "gear_data.json": {
+          "bytes": 52476
+        }
+      }
+    },
+    "s3": {
+      "status": "partial",
+      "files": {
+        "mob_data.json": {
+          "bytes": 264262
+        },
+        "dungeon_data.json": {
+          "bytes": 641668
+        },
+        "hero_data.json": {
+          "bytes": 246061
+        },
+        "spell_data.json": {
+          "bytes": 693110
+        },
+        "gear_data.json": {
+          "bytes": 59583
+        }
+      },
+      "notes": "S3 launched 2026-06-22. This is an initial cut from the base-game data; the GameFeature PLUGIN layer is not yet merged in.",
+      "pending_updates": [
+        "dungeon_data: 4 plugin zones missing (MoorCastle, SandTomb, SnowPeak, ForestMeadow)",
+        "mob_data: plugin-zone rosters missing (MoorCastle/SandTomb/SnowPeak enemies)",
+        "hero_data: Gunde (plugin hero) missing",
+        "gear_data: Finesse/Blessings + Perks not yet included",
+        "all: per-plugin AbilityConstants (AC_<zone>.csv) not yet merged"
+      ]
+    }
+  }
+}
