@@ -2639,6 +2639,13 @@
       "type_name": "state",
       "dev_name": "GA_DR_BossCultLeader_ChosenForSacrifice"
     },
+    "882": {
+      "name": "Pounce",
+      "fsl_id": 882,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GA_PR_BloodfangMauler_JumpBehind"
+    },
     "883": {
       "name": "Shred",
       "fsl_id": 883,
@@ -3597,6 +3604,20 @@
       "type": "1024",
       "type_name": "damage",
       "dev_name": "GA_Ink_AoeAttack"
+    },
+    "1244": {
+      "name": "Jawbreaker",
+      "fsl_id": 1244,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GA_Gunde_SingleTargetInterrupt"
+    },
+    "1249": {
+      "name": "Attack",
+      "fsl_id": 1249,
+      "type": "1024",
+      "type_name": "damage",
+      "dev_name": "GA_Gunde_MeleeAutoAttack"
     },
     "1254": {
       "name": "Frog Squad",
@@ -4676,6 +4697,13 @@
       "type_name": "state",
       "dev_name": "GA_Mount_BearMagic_ArmoredGhostBlue"
     },
+    "1728": {
+      "name": "GE_Mara_AoeAttackSpender_Damage_C",
+      "fsl_id": 1728,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GA_Mount_Bear_UnarmoredWhite"
+    },
     "1729": {
       "name": "Mount Woodpaw Grizzly",
       "fsl_id": 1729,
@@ -5350,6 +5378,13 @@
       "type_name": "state",
       "dev_name": "GE_DungeonModifiers_EmpoweredMinions_MinionKilledBuff_HasteAndMovespeedBuff"
     },
+    "46": {
+      "name": "Empowered Minion",
+      "fsl_id": 1000046,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_DungeonModifiers_EmpoweredMinions_EmpoweredEnemyBuff"
+    },
     "47": {
       "name": "Binding Ice",
       "fsl_id": 1000047,
@@ -5707,6 +5742,20 @@
       "type_name": "state",
       "dev_name": "GE_VV_BossFrostTroll_DotAura_Buff"
     },
+    "255": {
+      "name": "Strength of Isilagður",
+      "fsl_id": 1000255,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_VV_BossFrostTroll_Kaldurson_Ice"
+    },
+    "256": {
+      "name": "Strength of Eldsupptok",
+      "fsl_id": 1000256,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_VV_BossFrostTroll_Kaldurson_Fire"
+    },
     "265": {
       "name": "SIlence",
       "fsl_id": 1000265,
@@ -5903,6 +5952,13 @@
       "type_name": "damage",
       "dev_name": "GE_SG_BossSiren_Bubble_Dot"
     },
+    "614": {
+      "name": "Sleeping",
+      "fsl_id": 1000614,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_Shared_Idle_Sleep_Blind"
+    },
     "624": {
       "name": "Sunken Gale",
       "fsl_id": 1000624,
@@ -6042,6 +6098,13 @@
       "type": "1",
       "type_name": "state",
       "dev_name": "GE_PR_BarbarousLasher_ShatterArmor_Debuff"
+    },
+    "732": {
+      "name": "Wicked Thorns",
+      "fsl_id": 1000732,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_PR_BarbarousLasher_ReflectDamage"
     },
     "734": {
       "name": "Shackle Shot",
@@ -6225,6 +6288,13 @@
       "type_name": "damage",
       "dev_name": "GE_FK_Elf_Cleric_Redemption_Damage"
     },
+    "901": {
+      "name": "Life Tap",
+      "fsl_id": 1000901,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_FK_Elf_Cleric_LifeLeech_SelfBuff"
+    },
     "903": {
       "name": "Drain Life",
       "fsl_id": 1000903,
@@ -6386,6 +6456,13 @@
       "type_name": "state",
       "dev_name": "GE_DD_Arbalist_LineAttack_Debuff"
     },
+    "987": {
+      "name": "Thorns",
+      "fsl_id": 1000987,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_DR_SlaughterVine_ReflectDamage"
+    },
     "991": {
       "name": "Acidic Sap",
       "fsl_id": 1000991,
@@ -6511,6 +6588,13 @@
       "type": "1024",
       "type_name": "damage",
       "dev_name": "GE_CM_RubiliteTriggerstone_Trap_Dot"
+    },
+    "1109": {
+      "name": "Brittle",
+      "fsl_id": 1001109,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_CM_RubiliteFocus_Vulnerable_Buff"
     },
     "1112": {
       "name": "Vulnerable",
@@ -7037,6 +7121,13 @@
       "type_name": "state",
       "dev_name": "GE_Mara_SelfDefenceBuff_SelfBuff"
     },
+    "1705": {
+      "name": "GE_Mara_HeavyAttackSpender_Damage_C",
+      "fsl_id": 1001705,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_Mara_HeavyAttackSpender_Damage"
+    },
     "1715": {
       "name": "Predator's Rush",
       "fsl_id": 1001715,
@@ -7057,6 +7148,13 @@
       "type": "1",
       "type_name": "state",
       "dev_name": "GE_Mara_BleedAttackSpender_Bleed"
+    },
+    "1728": {
+      "name": "GE_Mara_AoeAttackSpender_Damage_C",
+      "fsl_id": 1001728,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_Mara_AoeAttackSpender_Damage"
     },
     "1730": {
       "name": "Volatile Poison",
@@ -7281,6 +7379,20 @@
       "type": "1024",
       "type_name": "damage",
       "dev_name": "GE_Bowguy_InstantMarkTarget_Damage"
+    },
+    "1919": {
+      "name": "Ancestral Surge",
+      "fsl_id": 1001919,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_GemBonus_PrimaryAttributeBonusWhileHeroismSmall"
+    },
+    "1920": {
+      "name": "Ancestral Surge - II",
+      "fsl_id": 1001920,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_GemBonus_PrimaryAttributeBonusWhileHeroismMedium"
     },
     "1921": {
       "name": "Might of the Minotaur",
@@ -7520,6 +7632,13 @@
       "type_name": "damage",
       "dev_name": "GE_VV_BossChilgar_IceColdWater_Dot_Linger"
     },
+    "2049": {
+      "name": "Shadow Conduit",
+      "fsl_id": 1002049,
+      "type": "1024",
+      "type_name": "damage",
+      "dev_name": "GE_VV_BossVikingMystic_CrossLines_Damage"
+    },
     "2068": {
       "name": "Deadly Scheme: Active",
       "fsl_id": 1002068,
@@ -7554,6 +7673,20 @@
       "type": "1",
       "type_name": "state",
       "dev_name": "GE_Trait_StandingStillHealStacking_Buff"
+    },
+    "2081": {
+      "name": "Guarding Totem",
+      "fsl_id": 1002081,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_UM_SlaveCage_Guard_Guard"
+    },
+    "2082": {
+      "name": "Guarded",
+      "fsl_id": 1002082,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_UM_SlaveCage_Guard_DamageImmunity"
     },
     "2090": {
       "name": "Divine Mediation: Heal",
@@ -7771,6 +7904,20 @@
       "type": "1",
       "type_name": "state",
       "dev_name": "GE_Trait_FirstIncomingHitToReducedIncomingDamageBuff_Buff"
+    },
+    "2155": {
+      "name": "Dire Wound",
+      "fsl_id": 1002155,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_MF_BossUnicorn_BossVulnerabilityDebuff"
+    },
+    "2157": {
+      "name": "Treasure Hunter's Delight",
+      "fsl_id": 1002157,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_Trait_RelicToDamageReduction_Buff"
     },
     "2158": {
       "name": "Navigator's Intuition : Spirit",
@@ -8612,6 +8759,13 @@
       "type_name": "damage",
       "dev_name": "GE_Meiko_Talent_InstantSelfDefensive_DamageReductionLessHel_Damage"
     },
+    "2451": {
+      "name": "Enduring Light",
+      "fsl_id": 1002451,
+      "type": "8",
+      "type_name": "heal",
+      "dev_name": "GE_Vigor_Talent_InstantAoeHeal_Hot"
+    },
     "2454": {
       "name": "Harsh Winds",
       "fsl_id": 1002454,
@@ -8864,6 +9018,13 @@
       "type_name": "state",
       "dev_name": "GE_Lisa_CastedProjectileDamageIncreaseDebuff_Debuff"
     },
+    "2639": {
+      "name": "Pathfinder's Guidance",
+      "fsl_id": 1002639,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_DungeonModifiers_PathFinder_DebuffIcon"
+    },
     "2646": {
       "name": "Tempered Descent",
       "fsl_id": 1002646,
@@ -8891,6 +9052,13 @@
       "type": "1",
       "type_name": "state",
       "dev_name": "GE_Sune_Talent_SingleTargetAbsorb_ParryBoost_Buff"
+    },
+    "2650": {
+      "name": "Magic Ward",
+      "fsl_id": 1002650,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_Sune_Talent_ReducedIncomingMagicDamage_Buff"
     },
     "2651": {
       "name": "Counter-Attack",
@@ -9241,6 +9409,13 @@
       "type": "1",
       "type_name": "state",
       "dev_name": "GE_Vigor_SingleTargetAbsorb_UponRemovalBuff"
+    },
+    "2839": {
+      "name": "Harrowing Ice",
+      "fsl_id": 1002839,
+      "type": "1",
+      "type_name": "state",
+      "dev_name": "GE_Rime_Talent_CastedDebuffAoeDamage_StackingDamageBonus_Buff"
     }
   },
   "talents": {

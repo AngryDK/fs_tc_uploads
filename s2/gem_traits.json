@@ -1,0 +1,157 @@
+{
+  "_metadata": {
+    "version": "s2-2026-05-26",
+    "source": "Merged from game_data/s2/csv_files/GemConstants.csv + in-game tooltips 2026-05-25 + observed log buff names from 10-log cohort",
+    "note": "Methodology (gem economy, slot strategy, orb interactions, Harmonious Soul decay) lives in the sibling memory/reference_gem_powers.md"
+  },
+
+  "constants": {
+    "global_gem_power_cap": 2640,
+    "global_gem_power_cap_note": "NOT a hard cap. Going over IS allowed. Past 2640 you stop unlocking new traits, but each overcap point still grants the small overcap bonus.",
+    "overcap_bonus_multiplier": 0.00005,
+    "overcap_formula": "0.00005 × overcap_points = fractional primary stat + HP bonus (e.g. 114 overcap = +0.57% main stat)",
+    "trait_unlock_thresholds": [120, 240, 480, 720, 960, 1200, 1560, 1920, 2280, 2640]
+  },
+
+  "slot_multipliers": {
+    "standard":  {"multiplier": 1.0},
+    "upgraded":  {"multiplier": 1.35, "note": "Rare-drop slot"},
+    "legendary": {"multiplier": 2.0,  "equip_limit_per_character": 1}
+  },
+
+  "slot_count_per_archetype": {
+    "0_set":       11,
+    "1_2pc":        9,
+    "2_2pc":        7,
+    "triple_2pc":   5,
+    "note": "Set pieces have NO gem slots. Each set 2pc commitment = 2 fewer gem-eligible gear pieces."
+  },
+
+  "naming_inconsistency": {
+    "rule": "Rank-5 trait tooltip uses 'Blessing of the X' but the buff fires in logs as 'Essence of the X'. Rank-10 tooltip says 'Blessing of the X - II' and fires in logs as 'Blessing of the X - II'.",
+    "implication": "When matching FSL buff events to a gem trait, both 'Blessing' (rank 10+) and 'Essence' (rank 5-9) need to be in the lookup."
+  },
+
+  "colors": {
+    "ruby": {
+      "color_code": 1,
+      "design_role": "DPS-conditional (boss damage); ranks 2/7 are stamina-heavy",
+      "traits": [
+        {"rank": 1,  "power": 120,  "name": "Might of the Minotaur",                                                                 "effect": "+3% primary stat while above 80% HP"},
+        {"rank": 2,  "power": 240,  "name": "Champion's Heart",                                                                       "effect": "+140 Stam, +15 Str/Int/Agi"},
+        {"rank": 3,  "power": 480,  "name": "Unyielding Vitality",                                                                    "effect": "Heal 0.7% Max HP every 2s in combat"},
+        {"rank": 4,  "power": 720,  "name": "Titan's Blood",                                                                          "effect": "+4% Stamina"},
+        {"rank": 5,  "power": 960,  "name_tooltip": "Blessing of the Conqueror", "name_log": "Essence of the Conqueror",              "effect": "In combat with a boss: +5% Damage/Healing/Absorption"},
+        {"rank": 6,  "power": 1200, "name": "Might of the Minotaur - II",                                                             "effect": "+9% primary stat while above 80% HP"},
+        {"rank": 7,  "power": 1560, "name": "Champion's Heart - II",                                                                  "effect": "+420 Stam, +45 Str/Int/Agi"},
+        {"rank": 8,  "power": 1920, "name": "Unyielding Vitality - II",                                                               "effect": "Heal 2.1% Max HP every 2s"},
+        {"rank": 9,  "power": 2280, "name": "Titan's Blood - II",                                                                     "effect": "+12% Stamina"},
+        {"rank": 10, "power": 2640, "name": "Blessing of the Conqueror - II",                                                         "effect": "+15% Damage/Healing/Absorption in boss fights"}
+      ],
+      "meta_observation": "Nobody runs Ruby rank 10 in observed cohorts (top end is rank 6/7). Reasons: stam-heavy top end, boss-only bonus too narrow given Sapphire B10 anchors the meta, and gem economy makes 2× rank-10 colors prohibitive."
+    },
+
+    "amethyst": {
+      "color_code": 2,
+      "design_role": "Crit-focused",
+      "traits": [
+        {"rank": 1,  "power": 120,  "name": "Sealed Fate",                                                                            "effect": "+5% crit vs enemies >50% HP"},
+        {"rank": 2,  "power": 240,  "name": "Berserker's Zeal",                                                                       "effect": "+100 Stam, +100 Critical Strike"},
+        {"rank": 3,  "power": 480,  "name": "Reaper's Reprieve",                                                                      "effect": "Heal 12% Max HP over 18s on enemy death"},
+        {"rank": 4,  "power": 720,  "name": "Killer Instinct",                                                                        "effect": "+3% Crit chance"},
+        {"rank": 5,  "power": 960,  "name_tooltip": "Blessing of the Deathdealer", "name_log": "Essence of the Deathdealer",          "effect": "Crit strikes +3% damage/healing"},
+        {"rank": 6,  "power": 1200, "name": "Sealed Fate - II",                                                                       "effect": "+15% crit vs enemies >50% HP"},
+        {"rank": 7,  "power": 1560, "name": "Berserker's Zeal - II",                                                                  "effect": "+300 Stam, +300 Critical Strike"},
+        {"rank": 8,  "power": 1920, "name": "Reaper's Reprieve - II",                                                                 "effect": "Heal 36% Max HP over 18s on enemy death"},
+        {"rank": 9,  "power": 2280, "name": "Killer Instinct - II",                                                                   "effect": "+9% Crit chance"},
+        {"rank": 10, "power": 2640, "name": "Blessing of the Deathdealer - II",                                                       "effect": "Crit strikes +9% damage/healing"}
+      ]
+    },
+
+    "topaz": {
+      "color_code": 3,
+      "design_role": "Haste-focused; every trait either grants haste, scales with haste, or is haste-conditional",
+      "traits": [
+        {"rank": 1,  "power": 120,  "name": "Adrenaline Rush",                                                                        "effect": "+3% Haste 10s on damage/heal to a target ≤30% HP"},
+        {"rank": 2,  "power": 240,  "name": "Thief's Alacrity",                                                                       "effect": "+100 Stam, +100 Haste"},
+        {"rank": 3,  "power": 480,  "name": "Rogue's Resurgence",                                                                     "effect": "Below 50% HP: instantly heal 8% Max HP. 20s ICD"},
+        {"rank": 4,  "power": 720,  "name": "Feline's Grace",                                                                         "effect": "+3% Haste"},
+        {"rank": 5,  "power": 960,  "name_tooltip": "Blessing of the Virtuoso", "name_log": "Essence of the Virtuoso",                "effect": "Retain +3% Haste from Spirit of Heroism while it's NOT active"},
+        {"rank": 6,  "power": 1200, "name": "Adrenaline Rush - II",                                                                   "effect": "+9% Haste 10s on damage/heal to a target ≤30% HP"},
+        {"rank": 7,  "power": 1560, "name": "Thief's Alacrity - II",                                                                  "effect": "+300 Stam, +300 Haste"},
+        {"rank": 8,  "power": 1920, "name": "Rogue's Resurgence - II",                                                                "effect": "Below 50% HP: instantly heal 24% Max HP. 20s ICD"},
+        {"rank": 9,  "power": 2280, "name": "Feline's Grace - II",                                                                    "effect": "+9% Haste"},
+        {"rank": 10, "power": 2640, "name": "Blessing of the Virtuoso - II",                                                          "effect": "Retain +9% Haste from Spirit of Heroism while it's NOT active"}
+      ]
+    },
+
+    "emerald": {
+      "color_code": 4,
+      "design_role": "Expertise-focused + CDR",
+      "traits": [
+        {"rank": 1,  "power": 120,  "name": "First Strike",                                                                           "effect": "+5% Expertise for 15s when dealing damage to any enemy for the first time"},
+        {"rank": 2,  "power": 240,  "name": "Vanguard's Resolve",                                                                     "effect": "+100 Stam, +100 Expertise"},
+        {"rank": 3,  "power": 480,  "name": "Sentinel's Bastion",                                                                     "effect": "Every 60s: shield = 10% max HP, lasts 60s"},
+        {"rank": 4,  "power": 720,  "name": "Tactician's Accumen",                                                                    "effect": "+3% Expertise"},
+        {"rank": 5,  "power": 960,  "name_tooltip": "Blessing of the Commander", "name_log": "Essence of the Commander",              "effect": "Ability Cooldowns -4%"},
+        {"rank": 6,  "power": 1200, "name": "First Strike - II",                                                                      "effect": "+15% Expertise for 15s on first damage to a new enemy. REFRESHABLE: each new mob hit within the 15s window resets the buff timer back to 15s. On capstone-style pack-dense play, uptime is near-permanent through trash (drops to single-arm during bosses where 'new enemy' = boss alone). User-confirmed 2026-05-26."},
+        {"rank": 7,  "power": 1560, "name": "Vanguard's Resolve - II",                                                                "effect": "+300 Stam, +300 Expertise"},
+        {"rank": 8,  "power": 1920, "name": "Sentinel's Bastion - II",                                                                "effect": "Every 60s: shield = 30% max HP, lasts 60s"},
+        {"rank": 9,  "power": 2280, "name": "Tactician's Accumen - II",                                                               "effect": "+9% Expertise"},
+        {"rank": 10, "power": 2640, "name": "Blessing of the Commander - II",                                                         "effect": "Ability Cooldowns -12%"}
+      ],
+      "design_note": "Emerald Judgement weapon trait references 'your current rank of First Strike (Emerald Gem Power)' — confirms First Strike scales with emerald rank."
+    },
+
+    "sapphire": {
+      "color_code": 5,
+      "design_role": "Spirit-Ability synergy; every trait modifies EH cost, SoH duration, Spirit stat, or activates during EH window. UNIVERSAL meta anchor for S2 Elarion — every observed player runs B10.",
+      "traits": [
+        {"rank": 1,  "power": 120,  "name": "Ancestral Surge",                                                                        "effect": "+10 Max Spirit Points; while Spirit of Heroism active, +8% Str/Agi/Int"},
+        {"rank": 2,  "power": 240,  "name": "Mystic's Intuition",                                                                     "effect": "+100 Stam, +100 Spirit"},
+        {"rank": 3,  "power": 480,  "name": "Resonating Soul",                                                                        "effect": "For each 10% HP missing, -1% all damage taken"},
+        {"rank": 4,  "power": 720,  "name": "Oracle's Foresight",                                                                     "effect": "+3% Spirit"},
+        {"rank": 5,  "power": 960,  "name_tooltip": "Blessing of the Prophet", "name_log": "Essence of the Prophet",                  "effect": "Spirit Ability cost -5%; SoH duration +6s"},
+        {"rank": 6,  "power": 1200, "name": "Ancestral Surge - II",                                                                   "effect": "+30 Max Spirit Points; while SoH active, +24% Str/Agi/Int"},
+        {"rank": 7,  "power": 1560, "name": "Mystic's Intuition - II",                                                                "effect": "+300 Stam, +300 Spirit"},
+        {"rank": 8,  "power": 1920, "name": "Resonating Soul - II",                                                                   "effect": "For each 10% HP missing, -3% all damage taken"},
+        {"rank": 9,  "power": 2280, "name": "Oracle's Foresight - II",                                                                "effect": "+9% Spirit"},
+        {"rank": 10, "power": 2640, "name": "Blessing of the Prophet - II",                                                           "effect": "Spirit Ability cost -15%; SoH duration +18s"}
+      ],
+      "math_confirmations": [
+        "B10 sapphire reduces EH cost to 85: 100 SP × (1 - 0.15 from Prophet II) = 85",
+        "B10 sapphire extends SoH to 38s: base 20s + 18s from Prophet II = 38s"
+      ]
+    },
+
+    "diamond": {
+      "color_code": 6,
+      "design_role": "Trinket CDR + situational survivability + Harmonious Soul stack engine",
+      "traits": [
+        {"rank": 1,  "power": 120,  "name": "Harmonious Soul",                                                                        "effect": "On enemy death: +0.3% Crit/Haste/Expertise/Spirit for 5s, stacks to 10 (1 stack per second decay after expire)"},
+        {"rank": 2,  "power": 240,  "name": "Stoic's Teachings",                                                                      "effect": "+500 Armor, +25 Str/Int/Agi"},
+        {"rank": 3,  "power": 480,  "name": "Tranquil Resolve",                                                                       "effect": "On taking magic damage: -8% magic damage 6s (ICD 20s)"},
+        {"rank": 4,  "power": 720,  "name": "Ancient's Wisdom",                                                                       "effect": "+3% Strength/Intellect/Agility"},
+        {"rank": 5,  "power": 960,  "name_tooltip": "Blessing of the Artisan", "name_log": "Essence of the Artisan",                  "effect": "Relic (Trinket) cooldowns -8%"},
+        {"rank": 6,  "power": 1200, "name": "Harmonious Soul - II",                                                                   "effect": "On enemy death: +0.9% per stack of Crit/Haste/Expertise/Spirit for 5s, stacks to 10"},
+        {"rank": 7,  "power": 1560, "name": "Stoic's Teachings - II",                                                                 "effect": "+1500 Armor, +75 Str/Int/Agi"},
+        {"rank": 8,  "power": 1920, "name": "Tranquil Resolve - II",                                                                  "effect": "On taking magic damage: -24% magic damage 6s (ICD 20s)"},
+        {"rank": 9,  "power": 2280, "name": "Ancient's Wisdom - II",                                                                  "effect": "+9% Strength/Intellect/Agility"},
+        {"rank": 10, "power": 2640, "name": "Blessing of the Artisan - II",                                                           "effect": "Trinket cooldowns -24%"}
+      ],
+      "csv_naming_note": "CSV uses 'Relic' for what the in-game UI calls 'Trinket'. Same thing — see reference_trinkets_s2."
+    }
+  },
+
+  "log_buff_correlations": [
+    {"buff_name": "Might of the Minotaur",      "source_color": "ruby",     "rank_threshold": 1, "via_orb_possible": false},
+    {"buff_name": "Might of the Minotaur - II", "source_color": "ruby",     "rank_threshold": 6, "via_orb_possible": false},
+    {"buff_name": "Essence of the Conqueror",   "source_color": "ruby",     "rank_threshold": 5, "via_orb_possible": false},
+    {"buff_name": "Harmonious Soul - Small",    "source_color": "diamond",  "rank_threshold": 1, "via_orb_possible": true,  "fsl_typo": "Harmounious Soul - Small"},
+    {"buff_name": "Harmonious Soul - Medium",   "source_color": "diamond",  "rank_threshold": 4, "via_orb_possible": true,  "fsl_typo": "Harmounious Soul - Medium"},
+    {"buff_name": "Tranquil Resolve",           "source_color": "diamond",  "rank_threshold": 3, "via_orb_possible": true},
+    {"buff_name": "First Strike",               "source_color": "emerald",  "rank_threshold": 1, "via_orb_possible": true},
+    {"buff_name": "Reaper's Reprieve",          "source_color": "amethyst", "rank_threshold": 3, "via_orb_possible": true},
+    {"buff_name": "Adrenaline Rush",            "source_color": "topaz",    "rank_threshold": 1, "via_orb_possible": true}
+  ]
+}

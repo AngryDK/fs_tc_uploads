@@ -1,4 +1,4 @@
-# Welcome to Ângry's Fellowship TC dump
+# Welcome to Ângry's Fellowship API-ish Dump
 
 ## News
 **S3 "Rise of the Heskyr" — LIVE 2026-06-22**
