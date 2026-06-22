@@ -1991,6 +1991,7 @@
       "Tier": 1,
       "Difficulty": 1,
       "MaxScore": 140,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -2035,6 +2036,7 @@
       "Tier": 2,
       "Difficulty": 2,
       "MaxScore": 155,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -2084,6 +2086,7 @@
       "Tier": 3,
       "Difficulty": 3,
       "MaxScore": 170,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -2138,6 +2141,7 @@
       "Tier": 4,
       "Difficulty": 4,
       "MaxScore": 185,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 5,
@@ -2158,6 +2162,7 @@
       "Tier": 5,
       "Difficulty": 5,
       "MaxScore": 200,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 5,
@@ -2178,6 +2183,7 @@
       "Tier": 1,
       "Difficulty": 6,
       "MaxScore": 215,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -2237,6 +2243,7 @@
       "Tier": 2,
       "Difficulty": 7,
       "MaxScore": 230,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -2301,6 +2308,7 @@
       "Tier": 3,
       "Difficulty": 8,
       "MaxScore": 245,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -2370,6 +2378,7 @@
       "Tier": 4,
       "Difficulty": 9,
       "MaxScore": 260,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 23,
@@ -2395,6 +2404,7 @@
       "Tier": 5,
       "Difficulty": 10,
       "MaxScore": 275,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 23,
@@ -2420,6 +2430,7 @@
       "Tier": 1,
       "Difficulty": 11,
       "MaxScore": 290,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -2509,6 +2520,7 @@
       "Tier": 2,
       "Difficulty": 12,
       "MaxScore": 305,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -2603,6 +2615,7 @@
       "Tier": 3,
       "Difficulty": 13,
       "MaxScore": 320,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -2702,6 +2715,7 @@
       "Tier": 4,
       "Difficulty": 14,
       "MaxScore": 350,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 13,
@@ -2727,6 +2741,7 @@
       "Tier": 5,
       "Difficulty": 15,
       "MaxScore": 365,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 13,
@@ -2752,6 +2767,7 @@
       "Tier": 1,
       "Difficulty": 16,
       "MaxScore": 380,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -2841,6 +2857,7 @@
       "Tier": 2,
       "Difficulty": 17,
       "MaxScore": 395,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -2935,6 +2952,7 @@
       "Tier": 3,
       "Difficulty": 18,
       "MaxScore": 410,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -3034,6 +3052,7 @@
       "Tier": 4,
       "Difficulty": 19,
       "MaxScore": 425,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 7,
@@ -3059,6 +3078,7 @@
       "Tier": 5,
       "Difficulty": 20,
       "MaxScore": 440,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 7,
@@ -3084,6 +3104,7 @@
       "Tier": 1,
       "Difficulty": 21,
       "MaxScore": 455,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -3200,6 +3221,7 @@
       "Tier": 2,
       "Difficulty": 22,
       "MaxScore": 470,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -3316,6 +3338,7 @@
       "Tier": 3,
       "Difficulty": 23,
       "MaxScore": 485,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -3437,6 +3460,7 @@
       "Tier": 4,
       "Difficulty": 24,
       "MaxScore": 500,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -3553,6 +3577,7 @@
       "Tier": 5,
       "Difficulty": 25,
       "MaxScore": 515,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -3669,6 +3694,7 @@
       "Tier": 6,
       "Difficulty": 26,
       "MaxScore": 530,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -3790,6 +3816,7 @@
       "Tier": 7,
       "Difficulty": 27,
       "MaxScore": 545,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -3906,6 +3933,7 @@
       "Tier": 8,
       "Difficulty": 28,
       "MaxScore": 560,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -4022,6 +4050,7 @@
       "Tier": 9,
       "Difficulty": 29,
       "MaxScore": 575,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -4143,6 +4172,7 @@
       "Tier": 10,
       "Difficulty": 30,
       "MaxScore": 590,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -4259,6 +4289,7 @@
       "Tier": 1,
       "Difficulty": 31,
       "MaxScore": 605,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -4375,6 +4406,7 @@
       "Tier": 2,
       "Difficulty": 32,
       "MaxScore": 620,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -4496,6 +4528,7 @@
       "Tier": 3,
       "Difficulty": 33,
       "MaxScore": 635,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -4612,6 +4645,7 @@
       "Tier": 4,
       "Difficulty": 34,
       "MaxScore": 650,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -4728,6 +4762,7 @@
       "Tier": 5,
       "Difficulty": 35,
       "MaxScore": 665,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -4849,6 +4884,7 @@
       "Tier": 6,
       "Difficulty": 36,
       "MaxScore": 680,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -4965,6 +5001,7 @@
       "Tier": 7,
       "Difficulty": 37,
       "MaxScore": 695,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -5081,6 +5118,7 @@
       "Tier": 8,
       "Difficulty": 38,
       "MaxScore": 710,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -5202,6 +5240,7 @@
       "Tier": 9,
       "Difficulty": 39,
       "MaxScore": 725,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -5318,6 +5357,7 @@
       "Tier": 10,
       "Difficulty": 40,
       "MaxScore": 740,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -5434,6 +5474,7 @@
       "Tier": 11,
       "Difficulty": 41,
       "MaxScore": 755,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -5555,6 +5596,7 @@
       "Tier": 12,
       "Difficulty": 42,
       "MaxScore": 770,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -5671,6 +5713,7 @@
       "Tier": 13,
       "Difficulty": 43,
       "MaxScore": 785,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -5787,6 +5830,7 @@
       "Tier": 14,
       "Difficulty": 44,
       "MaxScore": 800,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -5908,6 +5952,7 @@
       "Tier": 15,
       "Difficulty": 45,
       "MaxScore": 815,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -6024,6 +6069,7 @@
       "Tier": 16,
       "Difficulty": 46,
       "MaxScore": 830,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -6140,6 +6186,7 @@
       "Tier": 17,
       "Difficulty": 47,
       "MaxScore": 845,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -6261,6 +6308,7 @@
       "Tier": 18,
       "Difficulty": 48,
       "MaxScore": 860,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -6377,6 +6425,7 @@
       "Tier": 19,
       "Difficulty": 49,
       "MaxScore": 875,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -6493,6 +6542,7 @@
       "Tier": 20,
       "Difficulty": 50,
       "MaxScore": 890,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -6614,6 +6664,7 @@
       "Tier": 21,
       "Difficulty": 51,
       "MaxScore": 905,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -6730,6 +6781,7 @@
       "Tier": 22,
       "Difficulty": 52,
       "MaxScore": 920,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -6846,6 +6898,7 @@
       "Tier": 23,
       "Difficulty": 53,
       "MaxScore": 935,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -6967,6 +7020,7 @@
       "Tier": 24,
       "Difficulty": 54,
       "MaxScore": 950,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -7083,6 +7137,7 @@
       "Tier": 25,
       "Difficulty": 55,
       "MaxScore": 965,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -7199,6 +7254,7 @@
       "Tier": 26,
       "Difficulty": 56,
       "MaxScore": 980,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -7320,6 +7376,7 @@
       "Tier": 27,
       "Difficulty": 57,
       "MaxScore": 995,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -7436,6 +7493,7 @@
       "Tier": 28,
       "Difficulty": 58,
       "MaxScore": 1010,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -7552,6 +7610,7 @@
       "Tier": 29,
       "Difficulty": 59,
       "MaxScore": 1025,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -7673,6 +7732,7 @@
       "Tier": 30,
       "Difficulty": 60,
       "MaxScore": 1040,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -7789,6 +7849,7 @@
       "Tier": 31,
       "Difficulty": 61,
       "MaxScore": 1055,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -7905,6 +7966,7 @@
       "Tier": 32,
       "Difficulty": 62,
       "MaxScore": 1070,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -8026,6 +8088,7 @@
       "Tier": 33,
       "Difficulty": 63,
       "MaxScore": 1085,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -8142,6 +8205,7 @@
       "Tier": 34,
       "Difficulty": 64,
       "MaxScore": 1100,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -8258,6 +8322,7 @@
       "Tier": 35,
       "Difficulty": 65,
       "MaxScore": 1115,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -8363,6 +8428,7 @@
       "Tier": 36,
       "Difficulty": 66,
       "MaxScore": 1130,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -8479,6 +8545,7 @@
       "Tier": 37,
       "Difficulty": 67,
       "MaxScore": 1145,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -8595,6 +8662,7 @@
       "Tier": 38,
       "Difficulty": 68,
       "MaxScore": 1160,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -8716,6 +8784,7 @@
       "Tier": 39,
       "Difficulty": 69,
       "MaxScore": 1175,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -8832,6 +8901,7 @@
       "Tier": 40,
       "Difficulty": 70,
       "MaxScore": 1190,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -8948,6 +9018,7 @@
       "Tier": 41,
       "Difficulty": 71,
       "MaxScore": 1205,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -9069,6 +9140,7 @@
       "Tier": 42,
       "Difficulty": 72,
       "MaxScore": 1220,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -9185,6 +9257,7 @@
       "Tier": 43,
       "Difficulty": 73,
       "MaxScore": 1235,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -9301,6 +9374,7 @@
       "Tier": 44,
       "Difficulty": 74,
       "MaxScore": 1250,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -9422,6 +9496,7 @@
       "Tier": 45,
       "Difficulty": 75,
       "MaxScore": 1265,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -9538,6 +9613,7 @@
       "Tier": 46,
       "Difficulty": 76,
       "MaxScore": 1280,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -9654,6 +9730,7 @@
       "Tier": 47,
       "Difficulty": 77,
       "MaxScore": 1295,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -9775,6 +9852,7 @@
       "Tier": 48,
       "Difficulty": 78,
       "MaxScore": 1310,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -9891,6 +9969,7 @@
       "Tier": 49,
       "Difficulty": 79,
       "MaxScore": 1325,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -10007,6 +10086,7 @@
       "Tier": 50,
       "Difficulty": 80,
       "MaxScore": 1340,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -10128,6 +10208,7 @@
       "Tier": 51,
       "Difficulty": 81,
       "MaxScore": 1355,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -10244,6 +10325,7 @@
       "Tier": 52,
       "Difficulty": 82,
       "MaxScore": 1370,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -10360,6 +10442,7 @@
       "Tier": 53,
       "Difficulty": 83,
       "MaxScore": 1385,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -10481,6 +10564,7 @@
       "Tier": 54,
       "Difficulty": 84,
       "MaxScore": 1400,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -10597,6 +10681,7 @@
       "Tier": 55,
       "Difficulty": 85,
       "MaxScore": 1415,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -10713,6 +10798,7 @@
       "Tier": 56,
       "Difficulty": 86,
       "MaxScore": 1430,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -10834,6 +10920,7 @@
       "Tier": 57,
       "Difficulty": 87,
       "MaxScore": 1445,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -10950,6 +11037,7 @@
       "Tier": 58,
       "Difficulty": 88,
       "MaxScore": 1460,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -11066,6 +11154,7 @@
       "Tier": 59,
       "Difficulty": 89,
       "MaxScore": 1475,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -11187,6 +11276,7 @@
       "Tier": 60,
       "Difficulty": 90,
       "MaxScore": 1490,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -11303,6 +11393,7 @@
       "Tier": 61,
       "Difficulty": 91,
       "MaxScore": 1505,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -11419,6 +11510,7 @@
       "Tier": 62,
       "Difficulty": 92,
       "MaxScore": 1520,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -11540,6 +11632,7 @@
       "Tier": 63,
       "Difficulty": 93,
       "MaxScore": 1535,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -11656,6 +11749,7 @@
       "Tier": 64,
       "Difficulty": 94,
       "MaxScore": 1550,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -11772,6 +11866,7 @@
       "Tier": 65,
       "Difficulty": 95,
       "MaxScore": 1565,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -11893,6 +11988,7 @@
       "Tier": 66,
       "Difficulty": 96,
       "MaxScore": 1580,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -12009,6 +12105,7 @@
       "Tier": 67,
       "Difficulty": 97,
       "MaxScore": 1595,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -12125,6 +12222,7 @@
       "Tier": 68,
       "Difficulty": 98,
       "MaxScore": 1610,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -12246,6 +12344,7 @@
       "Tier": 69,
       "Difficulty": 99,
       "MaxScore": 1625,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -12362,6 +12461,7 @@
       "Tier": 70,
       "Difficulty": 100,
       "MaxScore": 1640,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -12478,6 +12578,7 @@
       "Tier": 71,
       "Difficulty": 101,
       "MaxScore": 1655,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -12599,6 +12700,7 @@
       "Tier": 72,
       "Difficulty": 102,
       "MaxScore": 1670,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -12715,6 +12817,7 @@
       "Tier": 73,
       "Difficulty": 103,
       "MaxScore": 1685,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -12831,6 +12934,7 @@
       "Tier": 74,
       "Difficulty": 104,
       "MaxScore": 1700,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -12952,6 +13056,7 @@
       "Tier": 75,
       "Difficulty": 105,
       "MaxScore": 1715,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -13068,6 +13173,7 @@
       "Tier": 76,
       "Difficulty": 106,
       "MaxScore": 1730,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -13184,6 +13290,7 @@
       "Tier": 77,
       "Difficulty": 107,
       "MaxScore": 1745,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -13305,6 +13412,7 @@
       "Tier": 78,
       "Difficulty": 108,
       "MaxScore": 1760,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -13421,6 +13529,7 @@
       "Tier": 79,
       "Difficulty": 109,
       "MaxScore": 1775,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -13537,6 +13646,7 @@
       "Tier": 80,
       "Difficulty": 110,
       "MaxScore": 1790,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -13658,6 +13768,7 @@
       "Tier": 81,
       "Difficulty": 111,
       "MaxScore": 1805,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -13774,6 +13885,7 @@
       "Tier": 82,
       "Difficulty": 112,
       "MaxScore": 1820,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -13890,6 +14002,7 @@
       "Tier": 83,
       "Difficulty": 113,
       "MaxScore": 1835,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -14011,6 +14124,7 @@
       "Tier": 84,
       "Difficulty": 114,
       "MaxScore": 1850,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -14127,6 +14241,7 @@
       "Tier": 85,
       "Difficulty": 115,
       "MaxScore": 1865,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -14243,6 +14358,7 @@
       "Tier": 86,
       "Difficulty": 116,
       "MaxScore": 1880,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -14364,6 +14480,7 @@
       "Tier": 87,
       "Difficulty": 117,
       "MaxScore": 1895,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -14480,6 +14597,7 @@
       "Tier": 88,
       "Difficulty": 118,
       "MaxScore": 1910,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -14596,6 +14714,7 @@
       "Tier": 89,
       "Difficulty": 119,
       "MaxScore": 1925,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -14717,6 +14836,7 @@
       "Tier": 90,
       "Difficulty": 120,
       "MaxScore": 1940,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -14833,6 +14953,7 @@
       "Tier": 91,
       "Difficulty": 121,
       "MaxScore": 1955,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -14949,6 +15070,7 @@
       "Tier": 92,
       "Difficulty": 122,
       "MaxScore": 1970,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -15070,6 +15192,7 @@
       "Tier": 93,
       "Difficulty": 123,
       "MaxScore": 1985,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -15186,6 +15309,7 @@
       "Tier": 94,
       "Difficulty": 124,
       "MaxScore": 2000,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -15302,6 +15426,7 @@
       "Tier": 95,
       "Difficulty": 125,
       "MaxScore": 2015,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -15423,6 +15548,7 @@
       "Tier": 96,
       "Difficulty": 126,
       "MaxScore": 2030,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -15539,6 +15665,7 @@
       "Tier": 97,
       "Difficulty": 127,
       "MaxScore": 2045,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -15655,6 +15782,7 @@
       "Tier": 98,
       "Difficulty": 128,
       "MaxScore": 2060,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -15776,6 +15904,7 @@
       "Tier": 99,
       "Difficulty": 129,
       "MaxScore": 2075,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -15892,6 +16021,7 @@
       "Tier": 100,
       "Difficulty": 130,
       "MaxScore": 2090,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -16008,6 +16138,7 @@
       "Tier": 101,
       "Difficulty": 131,
       "MaxScore": 2105,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -16129,6 +16260,7 @@
       "Tier": 102,
       "Difficulty": 132,
       "MaxScore": 2120,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -16245,6 +16377,7 @@
       "Tier": 103,
       "Difficulty": 133,
       "MaxScore": 2135,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -16361,6 +16494,7 @@
       "Tier": 104,
       "Difficulty": 134,
       "MaxScore": 2150,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -16482,6 +16616,7 @@
       "Tier": 105,
       "Difficulty": 135,
       "MaxScore": 2165,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -16598,6 +16733,7 @@
       "Tier": 106,
       "Difficulty": 136,
       "MaxScore": 2180,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -16714,6 +16850,7 @@
       "Tier": 107,
       "Difficulty": 137,
       "MaxScore": 2195,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -16835,6 +16972,7 @@
       "Tier": 108,
       "Difficulty": 138,
       "MaxScore": 2210,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -16951,6 +17089,7 @@
       "Tier": 109,
       "Difficulty": 139,
       "MaxScore": 2225,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -17067,6 +17206,7 @@
       "Tier": 110,
       "Difficulty": 140,
       "MaxScore": 2240,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -17188,6 +17328,7 @@
       "Tier": 111,
       "Difficulty": 141,
       "MaxScore": 2255,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -17304,6 +17445,7 @@
       "Tier": 112,
       "Difficulty": 142,
       "MaxScore": 2270,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -17420,6 +17562,7 @@
       "Tier": 113,
       "Difficulty": 143,
       "MaxScore": 2285,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -17541,6 +17684,7 @@
       "Tier": 114,
       "Difficulty": 144,
       "MaxScore": 2300,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -17657,6 +17801,7 @@
       "Tier": 115,
       "Difficulty": 145,
       "MaxScore": 2315,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 29,
@@ -17773,6 +17918,7 @@
       "Tier": 116,
       "Difficulty": 146,
       "MaxScore": 2330,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 8,
@@ -17894,6 +18040,7 @@
       "Tier": 117,
       "Difficulty": 147,
       "MaxScore": 2345,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 24,
@@ -18010,6 +18157,7 @@
       "Tier": 118,
       "Difficulty": 148,
       "MaxScore": 2360,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 25,
@@ -18126,6 +18274,7 @@
       "Tier": 119,
       "Difficulty": 149,
       "MaxScore": 2375,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 15,
@@ -18247,6 +18396,7 @@
       "Tier": 120,
       "Difficulty": 150,
       "MaxScore": 2390,
+      "OddCompSubmitLeaderboard": false,
       "Dungeons": [
         {
           "ZoneID": 21,
@@ -18357,6 +18507,118 @@
           ]
         }
       ]
+    }
+  },
+  "OddComp": {
+    "Objective": "Complete dungeons as any Odd Comp team composition",
+    "Compositions": {
+      "DDDD": {
+        "Name": "Gravesworn Mercenaries",
+        "Tanks": 0,
+        "Dps": 4,
+        "Heals": 0
+      },
+      "DDDH": {
+        "Name": "Hexbound Corsairs",
+        "Tanks": 0,
+        "Dps": 3,
+        "Heals": 1
+      },
+      "DDHH": {
+        "Name": "Dawn Syndicate",
+        "Tanks": 0,
+        "Dps": 2,
+        "Heals": 2
+      },
+      "DHHH": {
+        "Name": "Oathbound Watch",
+        "Tanks": 0,
+        "Dps": 1,
+        "Heals": 3
+      },
+      "HHHH": {
+        "Name": "Celestial Chorus",
+        "Tanks": 0,
+        "Dps": 0,
+        "Heals": 4
+      },
+      "TDDD": {
+        "Name": "Ashen Marauders",
+        "Tanks": 1,
+        "Dps": 3,
+        "Heals": 0
+      },
+      "TDDH": {
+        "Name": "The Holy Trinity",
+        "Tanks": 1,
+        "Dps": 2,
+        "Heals": 1
+      },
+      "TDHH": {
+        "Name": "Sacred Tribunal",
+        "Tanks": 1,
+        "Dps": 1,
+        "Heals": 2
+      },
+      "THHH": {
+        "Name": "Hallowed Guard",
+        "Tanks": 1,
+        "Dps": 0,
+        "Heals": 3
+      },
+      "TTDD": {
+        "Name": "Crimson Vanguard",
+        "Tanks": 2,
+        "Dps": 2,
+        "Heals": 0
+      },
+      "TTDH": {
+        "Name": "Obsidian Phalanx",
+        "Tanks": 2,
+        "Dps": 1,
+        "Heals": 1
+      },
+      "TTHH": {
+        "Name": "Ivory Bulwark",
+        "Tanks": 2,
+        "Dps": 0,
+        "Heals": 2
+      },
+      "TTTD": {
+        "Name": "Adamant Legion",
+        "Tanks": 3,
+        "Dps": 1,
+        "Heals": 0
+      },
+      "TTTH": {
+        "Name": "Stoneward Order",
+        "Tanks": 3,
+        "Dps": 0,
+        "Heals": 1
+      },
+      "TTTT": {
+        "Name": "Iron Bastion",
+        "Tanks": 4,
+        "Dps": 0,
+        "Heals": 0
+      }
+    },
+    "Challenges": {
+      "Novice": {
+        "Name": "Odd Comp Novice",
+        "RequiredCount": 3,
+        "Stat": "Stat.ID.Account.Level.TimesCompletedDungeonsAsOddComp"
+      },
+      "Adept": {
+        "Name": "Odd Comp Adept",
+        "RequiredCount": 10,
+        "Stat": "Stat.ID.Account.Level.TimesCompletedDungeonsAsOddComp"
+      },
+      "Master": {
+        "Name": "Odd Comp Master",
+        "RequiredCount": 25,
+        "Stat": "Stat.ID.Account.Level.TimesCompletedDungeonsAsOddComp"
+      }
     }
   },
   "KeyScaling": {
