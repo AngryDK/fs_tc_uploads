@@ -1,0 +1,1935 @@
+{
+  "Gems": {
+    "Economy": {
+      "Cap": 2640.0,
+      "OvercapPerPoint": 0.00005,
+      "CombineCost": {
+        "Small": 1,
+        "Large": 3,
+        "Splendid": 9,
+        "Flawless": 27
+      },
+      "GemSizes": {
+        "Small": 120,
+        "Large": 240,
+        "Splendid": 360,
+        "Flawless": 480
+      }
+    },
+    "Ruby": {
+      "DisplayName": "Ruby",
+      "Attribute": "RubyPower",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "RankName": "MIGHT OF THE MINOTAUR",
+          "RequiredGemPower": 120,
+          "GrantedAugmentation": "CA_GemBonus_PrimaryAttributeBonusWhenHealthySmall",
+          "Magnitude": 1.03,
+          "Description": "+3% primary stat while you are above 80% health."
+        },
+        {
+          "Rank": 2,
+          "RankName": "CHAMPION'S HEART",
+          "RequiredGemPower": 240,
+          "GrantedAugmentation": "CA_GemBonus_StaminaAndPrimaryAttributeBonusSmall",
+          "Magnitude": {
+            "StaminaIncrease": 140.0,
+            "PrimaryAttributeIncrease": 15.0
+          },
+          "Description": "+140 Stamina\n+15 Strength / Intellect / Agiility"
+        },
+        {
+          "Rank": 3,
+          "RankName": "UNYIELDING VITALITY",
+          "RequiredGemPower": 480,
+          "GrantedAugmentation": "CA_GemBonus_HealthRegenBonusInCombatSmall",
+          "Magnitude": {
+            "HealthRegenFactor": 0.007,
+            "HealthRegenPeriod": 2.0
+          },
+          "Description": "You heal for 0.7% of your Maximum Health every 2 seconds while in combat."
+        },
+        {
+          "Rank": 4,
+          "RankName": "TITAN'S BLOOD",
+          "RequiredGemPower": 720,
+          "GrantedAugmentation": "CA_GemBonus_MaxHealthPercentageBonusSmall",
+          "Magnitude": 1.04,
+          "Description": "+4% Stamina"
+        },
+        {
+          "Rank": 5,
+          "RankName": "BLESSING OF THE CONQUEROR",
+          "RequiredGemPower": 960,
+          "GrantedAugmentation": "CA_GemBonus_DamageHealAbsorbBonusInBossBattleSmall",
+          "Magnitude": 1.05,
+          "Description": "While in combat with a boss your Damage, Healing, and Absorbtion is increased by 5%."
+        },
+        {
+          "Rank": 6,
+          "RankName": "MIGHT OF THE MINOTAUR - II",
+          "RequiredGemPower": 1200,
+          "GrantedAugmentation": "CA_GemBonus_PrimaryAttributeBonusWhenHealthyMedium",
+          "Magnitude": 1.09,
+          "Description": "+9% primary stat while you are above 80% health.\n\n(Replaces Might of the Minotaur)"
+        },
+        {
+          "Rank": 7,
+          "RankName": "CHAMPION'S HEART - II",
+          "RequiredGemPower": 1560,
+          "GrantedAugmentation": "CA_GemBonus_StaminaAndPrimaryAttributeBonusMedium",
+          "Magnitude": {
+            "StaminaIncrease": 420.0,
+            "PrimaryAttributeIncrease": 45.0
+          },
+          "Description": "+420 Stamina\n+45 Strength / Intellect / Agiility\n\n(Replaces Champion's Heart)"
+        },
+        {
+          "Rank": 8,
+          "RankName": "UNYIELDING VITALITY - II",
+          "RequiredGemPower": 1920,
+          "GrantedAugmentation": "CA_GemBonus_HealthRegenBonusInCombatMedium",
+          "Magnitude": {
+            "HealthRegenFactor": 0.021,
+            "HealthRegenPeriod": 2.0
+          },
+          "Description": "You heal for 2.1% of your Maximum Health every 2 seconds while in combat.\n\n(Replaces Unyielfing Vitality)"
+        },
+        {
+          "Rank": 9,
+          "RankName": "TITAN'S BLOOD - II",
+          "RequiredGemPower": 2280,
+          "GrantedAugmentation": "CA_GemBonus_MaxHealthPercentageBonusMedium",
+          "Magnitude": 1.12,
+          "Description": "+12% Stamina\n\n(Replaces Titan's Blood)"
+        },
+        {
+          "Rank": 10,
+          "RankName": "BLESSING OF THE CONQUEROR - II",
+          "RequiredGemPower": 2640,
+          "GrantedAugmentation": "CA_GemBonus_DamageHealAbsorbBonusInBossBattleMedium",
+          "Magnitude": 1.15,
+          "Description": "While in combat with a boss your Damage, Healing, and Absorbtion is increased by 15%.\n\n(Replaces Essence of the Conqueror)"
+        }
+      ]
+    },
+    "Amethyst": {
+      "DisplayName": "Amethyst",
+      "Attribute": "AmethystPower",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "RankName": "SEALED FATE",
+          "RequiredGemPower": 120,
+          "GrantedAugmentation": "CA_GemBonus_CritChanceBonusAgainstHalfHealthTargetSmall",
+          "Magnitude": 0.05,
+          "Description": "Your Damage and Healing effects on characters with more than 50% health have +5% critical strike chance."
+        },
+        {
+          "Rank": 2,
+          "RankName": "BERSERKER'S ZEAL",
+          "RequiredGemPower": 240,
+          "GrantedAugmentation": "CA_GemBonus_StaminaAndCritRatingBonusSmall",
+          "Magnitude": {
+            "StaminaIncrease": 100.0,
+            "CritRatingIncrease": 100.0
+          },
+          "Description": "+100 Stamina\n+100 Critical Strike"
+        },
+        {
+          "Rank": 3,
+          "RankName": "REAPER'S REPRIEVE",
+          "RequiredGemPower": 480,
+          "GrantedAugmentation": "CA_GemBonus_HoTOnTouchedTargetDeathSmall",
+          "Magnitude": {
+            "Duration": 18.0,
+            "Period": 1.5,
+            "HealPercentagePerTick": 0.01
+          },
+          "Description": "Each time an enemy that you dealt damage to dies, you gain Reaper's Reprieve, healing you for 12% of your Maximum Health over 18 seconds."
+        },
+        {
+          "Rank": 4,
+          "RankName": "KILLER INSTINCT",
+          "RequiredGemPower": 720,
+          "GrantedAugmentation": "CA_GemBonus_CriticalStrikePercentageBonusSmall",
+          "Magnitude": 0.03,
+          "Description": "+3% Critical Strike chance"
+        },
+        {
+          "Rank": 5,
+          "RankName": "BLESSING OF THE DEATHDEALER",
+          "RequiredGemPower": 960,
+          "GrantedAugmentation": "CA_GemBonus_CriticalPowerBonusSmall",
+          "Magnitude": 1.03,
+          "Description": "Your critical strikes do 3% more damage and healing."
+        },
+        {
+          "Rank": 6,
+          "RankName": "SEALED FATE - II",
+          "RequiredGemPower": 1200,
+          "GrantedAugmentation": "CA_GemBonus_CritChanceBonusAgainstHalfHealthTargetMedium",
+          "Magnitude": 0.15,
+          "Description": "Your Damage and Healing effects on characters with more than 50% health have +15% critical strike chance.\n\n(Replaces Sealed Fate)"
+        },
+        {
+          "Rank": 7,
+          "RankName": "BERSERKER'S ZEAL - II",
+          "RequiredGemPower": 1560,
+          "GrantedAugmentation": "CA_GemBonus_StaminaAndCritRatingBonusMedium",
+          "Magnitude": {
+            "StaminaIncrease": 300.0,
+            "CritRatingIncrease": 300.0
+          },
+          "Description": "+300 Stamina\n+300 Critical Strike\n\n(Replaces Berserker's Zeal)"
+        },
+        {
+          "Rank": 8,
+          "RankName": "REAPER'S REPRIEVE - II",
+          "RequiredGemPower": 1920,
+          "GrantedAugmentation": "CA_GemBonus_HoTOnTouchedTargetDeathMedium",
+          "Magnitude": {
+            "Duration": 18.0,
+            "Period": 1.5,
+            "HealPercentagePerTick": 0.03
+          },
+          "Description": "Each time an enemy that you dealt damage to dies, you gain Reaper's Reprieve, healing you for 36% of your Maximum Health over 18 seconds.\n\n(Replaces Reaper's Reprieve)"
+        },
+        {
+          "Rank": 9,
+          "RankName": "KILLER INSTINCT - II",
+          "RequiredGemPower": 2280,
+          "GrantedAugmentation": "CA_GemBonus_CriticalStrikePercentageBonusMedium",
+          "Magnitude": 0.09,
+          "Description": "+9% Critical Strike chance\n\n(Replaces Killer Instinct)"
+        },
+        {
+          "Rank": 10,
+          "RankName": "BLESSING OF THE DEATHDEALER - II",
+          "RequiredGemPower": 2640,
+          "GrantedAugmentation": "CA_GemBonus_CriticalPowerBonusMedium",
+          "Magnitude": 1.09,
+          "Description": "Your critical strikes do 9% more damage and healing.\n\n(Replaces Essence of the Deathdealer)"
+        }
+      ]
+    },
+    "Topaz": {
+      "DisplayName": "Topaz",
+      "Attribute": "TopazPower",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "RankName": "ADRENALINE RUSH",
+          "RequiredGemPower": 120,
+          "GrantedAugmentation": "CA_GemBonus_HastePercentageBonusWhenTargettingUnhealthyTargetsSmall",
+          "Magnitude": {
+            "HastePercentageIncrease": 0.03,
+            "Duration": 10.0
+          },
+          "Description": "+3% Haste for 10 seconds each time you deal damage to or heal a character that has 30% or less health."
+        },
+        {
+          "Rank": 2,
+          "RankName": "THIEF'S ALACRITY",
+          "RequiredGemPower": 240,
+          "GrantedAugmentation": "CA_GemBonus_StaminaAndHasteRatingBonusSmall",
+          "Magnitude": {
+            "StaminaIncrease": 100.0,
+            "HasteRatingIncrease": 100.0
+          },
+          "Description": "+100 Stamina\n+100 Haste"
+        },
+        {
+          "Rank": 3,
+          "RankName": "ROGUE'S RESURGENCE",
+          "RequiredGemPower": 480,
+          "GrantedAugmentation": "CA_GemBonus_AutoHealOnLowHealthSmall",
+          "Magnitude": {
+            "HealthThreshold": 0.5,
+            "Cooldown": 20.0,
+            "HealthPercentageHeal": 0.08
+          },
+          "Description": "When you are below 50% health you are instantly healed for 8% of your maximum health. This effect can only occur once every 20 seconds."
+        },
+        {
+          "Rank": 4,
+          "RankName": "FELINE'S GRACE",
+          "RequiredGemPower": 720,
+          "GrantedAugmentation": "CA_GemBonus_HastePercentageBonusSmall",
+          "Magnitude": 0.03,
+          "Description": "+3% Haste"
+        },
+        {
+          "Rank": 5,
+          "RankName": "BLESSING OF THE VIRTUOSO",
+          "RequiredGemPower": 960,
+          "GrantedAugmentation": "CA_GemBonus_HastePercentageBonusWhileNotHeroismSmall",
+          "Magnitude": 0.03,
+          "Description": "You retain +3% Haste from 'Spirit of Heroism' while it is not active."
+        },
+        {
+          "Rank": 6,
+          "RankName": "ADRENALINE RUSH - II",
+          "RequiredGemPower": 1200,
+          "GrantedAugmentation": "CA_GemBonus_HastePercentageBonusWhenTargettingUnhealthyTargetsMedium",
+          "Magnitude": {
+            "HastePercentageIncrease": 0.09,
+            "Duration": 10.0
+          },
+          "Description": "+9% Haste for 10 seconds each time you deal damage to or heal a character that has 30% or less health.\n\n(Replaces Adrenaline Rush)"
+        },
+        {
+          "Rank": 7,
+          "RankName": "THIEF'S ALACRITY - II",
+          "RequiredGemPower": 1560,
+          "GrantedAugmentation": "CA_GemBonus_StaminaAndHasteRatingBonusMedium",
+          "Magnitude": {
+            "StaminaIncrease": 300.0,
+            "HasteRatingIncrease": 300.0
+          },
+          "Description": "+300 Stamina\n+300 Haste\n\n(Replaces Thief's Alacrity)"
+        },
+        {
+          "Rank": 8,
+          "RankName": "ROGUE'S RESURGENCE - II",
+          "RequiredGemPower": 1920,
+          "GrantedAugmentation": "CA_GemBonus_AutoHealOnLowHealthMedium",
+          "Magnitude": {
+            "HealthThreshold": 0.5,
+            "Cooldown": 20.0,
+            "HealthPercentageHeal": 0.24
+          },
+          "Description": "When you are below 50% health you are instantly healed for 24% of your maximum health. This effect can only occur once every 20 seconds.\n\n(Replaces Rogue's Resurgence)"
+        },
+        {
+          "Rank": 9,
+          "RankName": "FELINE GRACE - II",
+          "RequiredGemPower": 2280,
+          "GrantedAugmentation": "CA_GemBonus_HastePercentageBonusMedium",
+          "Magnitude": 0.09,
+          "Description": "+9% Haste\n\n(Replaces Feline Grace)"
+        },
+        {
+          "Rank": 10,
+          "RankName": "BLESSING OF THE VIRTUOSO - II",
+          "RequiredGemPower": 2640,
+          "GrantedAugmentation": "CA_GemBonus_HastePercentageBonusWhileNotHeroismMedium",
+          "Magnitude": 0.09,
+          "Description": "You retain +9% Haste from 'Spirit of Heroism' while it is not active.\n\n(Replaces Essence of the Virtuoso)"
+        }
+      ]
+    },
+    "Emerald": {
+      "DisplayName": "Emerald",
+      "Attribute": "EmeraldPower",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "RankName": "FIRST STRIKE",
+          "RequiredGemPower": 120,
+          "GrantedAugmentation": "CA_GemBonus_ExpertiseStacksOnFirstDamageSmall",
+          "Magnitude": {
+            "Base.Duration": 15.0,
+            "ExpertiseBonusPerStack": 0.05
+          },
+          "Description": "+5% Expertise for 15 seconds when dealing damage to any enemy for the first time."
+        },
+        {
+          "Rank": 2,
+          "RankName": "VANGUARD'S RESOLVE",
+          "RequiredGemPower": 240,
+          "GrantedAugmentation": "CA_GemBonus_StaminaAndExpertiseRatingBonusSmall",
+          "Magnitude": {
+            "StaminaIncrease": 100.0,
+            "ExpertiseRatingIncrease": 100.0
+          },
+          "Description": "+100 Stamina\n+100 Expertise"
+        },
+        {
+          "Rank": 3,
+          "RankName": "SENTINEL'S BASTION",
+          "RequiredGemPower": 480,
+          "GrantedAugmentation": "CA_GemBonus_ApplyPeriodicAbsorbSmall",
+          "Magnitude": {
+            "Base.Duration": 60.0,
+            "AbsorbMaxHealthFraction": 0.1
+          },
+          "Description": "Every 60 seconds you gain a shield that absorbs damage equal to 10% of your maximum health. The shield lasts for 60 seconds."
+        },
+        {
+          "Rank": 4,
+          "RankName": "TACTICIAN'S ACCUMEN",
+          "RequiredGemPower": 720,
+          "GrantedAugmentation": "CA_GemBonus_ExpertisePercentageBonusSmall",
+          "Magnitude": 0.03,
+          "Description": "+3% Expertise"
+        },
+        {
+          "Rank": 5,
+          "RankName": "BLESSING OF THE COMMANDER",
+          "RequiredGemPower": 960,
+          "GrantedAugmentation": "CA_GemBonus_CooldownReductionSmall",
+          "Magnitude": 0.04,
+          "Description": "Your ability Cooldowns are reduced by 4%."
+        },
+        {
+          "Rank": 6,
+          "RankName": "FIRST STRIKE - II",
+          "RequiredGemPower": 1200,
+          "GrantedAugmentation": "CA_GemBonus_ExpertiseStacksOnFirstDamageMedium",
+          "Magnitude": 0.15,
+          "Description": "+15% Expertise for 15 seconds when dealing damage to any enemy for the first time.\n\n(Replaces First Strike)"
+        },
+        {
+          "Rank": 7,
+          "RankName": "VANGUARD'S RESOLVE - II",
+          "RequiredGemPower": 1560,
+          "GrantedAugmentation": "CA_GemBonus_StaminaAndExpertiseRatingBonusMedium",
+          "Magnitude": {
+            "StaminaIncrease": 300.0,
+            "ExpertiseRatingIncrease": 300.0
+          },
+          "Description": "+300 Stamina\n+300 Expertise\n\n(Replaces Vanguard's Resolve)"
+        },
+        {
+          "Rank": 8,
+          "RankName": "SENTINEL'S BASTION - II",
+          "RequiredGemPower": 1920,
+          "GrantedAugmentation": "CA_GemBonus_ApplyPeriodicAbsorbMedium",
+          "Magnitude": {
+            "Base.Duration": 60.0,
+            "AbsorbMaxHealthFraction": 0.3
+          },
+          "Description": "Every 60 seconds you gain a shield that absorbs damage equal to 30% of your maximum health. The shield lasts for 60 seconds.\n\n(Replaces Sentinel's Bastion)"
+        },
+        {
+          "Rank": 9,
+          "RankName": "TACTICIAN'S ACCUMEN - II",
+          "RequiredGemPower": 2280,
+          "GrantedAugmentation": "CA_GemBonus_ExpertisePercentageBonusMedium",
+          "Magnitude": 0.09,
+          "Description": "+9% Expertise\n\n(Replaces Tactician's Accumen)"
+        },
+        {
+          "Rank": 10,
+          "RankName": "BLESSING OF THE COMMANDER - II",
+          "RequiredGemPower": 2640,
+          "GrantedAugmentation": "CA_GemBonus_CooldownReductionMedium",
+          "Magnitude": 0.12,
+          "Description": "+12% Ability Cooldown Reduction\n\n(Replaces Essence of the Commander)"
+        }
+      ]
+    },
+    "Sapphire": {
+      "DisplayName": "Sapphire",
+      "Attribute": "SapphirePower",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "RankName": "ANCESTRAL SURGE",
+          "RequiredGemPower": 120,
+          "GrantedAugmentation": "CA_GemBonus_PrimaryAttributeBonusWhileHeroismSmall",
+          "Magnitude": 1.08,
+          "Description": "Your maximum Spirit Points is increased by 10.\n\nWhile Spirit of Heroism is active, your Strength / Agility / Intellect is increased by 8%."
+        },
+        {
+          "Rank": 2,
+          "RankName": "MYSTIC'S INTUITION",
+          "RequiredGemPower": 240,
+          "GrantedAugmentation": "CA_GemBonus_StaminaAndSpiritRatingBonusSmall",
+          "Magnitude": {
+            "StaminaIncrease": 100.0,
+            "SpiritRatingIncrease": 100.0
+          },
+          "Description": "+100 Stamina\n+100 Spirit"
+        },
+        {
+          "Rank": 3,
+          "RankName": "RESONATING SOUL",
+          "RequiredGemPower": 480,
+          "GrantedAugmentation": "CA_GemBonus_IncomingHealMultiplierForMissingHealth_Small",
+          "Magnitude": 0.001,
+          "Description": "For every 10% Health you are missing, all damage you take is reduced by 1%."
+        },
+        {
+          "Rank": 4,
+          "RankName": "ORACLE'S FORESIGHT",
+          "RequiredGemPower": 720,
+          "GrantedAugmentation": "CA_GemBonus_SpiritPercentageBonusSmall",
+          "Magnitude": 0.03,
+          "Description": "+3% Spirit"
+        },
+        {
+          "Rank": 5,
+          "RankName": "BLESSING OF THE PROPHET",
+          "RequiredGemPower": 960,
+          "GrantedAugmentation": "CA_GemBonus_HeroismDurationBonusSmall",
+          "Magnitude": 6.0,
+          "Description": "The cost of your Spirit Ability is reduced by 5%.\n\nThe duration of your Spirit of Heroism is increased by 6 seconds."
+        },
+        {
+          "Rank": 6,
+          "RankName": "ANCESTRAL SURGE - II",
+          "RequiredGemPower": 1200,
+          "GrantedAugmentation": "CA_GemBonus_PrimaryAttributeBonusWhileHeroismMedium",
+          "Magnitude": 1.24,
+          "Description": "Your maximum Spirit Points is increased by 30.\n\nWhile Spirit of Heroism is active, your Strength / Agility / Intellect is increased by 24%.\n\n(Replaces Ancestral Surge)"
+        },
+        {
+          "Rank": 7,
+          "RankName": "MYSTIC'S INTUITION - II",
+          "RequiredGemPower": 1560,
+          "GrantedAugmentation": "CA_GemBonus_StaminaAndSpiritRatingBonusMedium",
+          "Magnitude": {
+            "StaminaIncrease": 300.0,
+            "SpiritRatingIncrease": 300.0
+          },
+          "Description": "+300 Stamina\n+300 Spirit\n\n(Replaces Mystic's Intuition)"
+        },
+        {
+          "Rank": 8,
+          "RankName": "RESONATING SOUL - II",
+          "RequiredGemPower": 1920,
+          "GrantedAugmentation": "CA_GemBonus_IncomingHealMultiplierForMissingHealth_Medium",
+          "Magnitude": 0.003,
+          "Description": "For every 10% Health you are missing, all damage you take is reduced by 3%.\n\n(Replaces Resonating Soul)"
+        },
+        {
+          "Rank": 9,
+          "RankName": "ORACLE'S FORESIGHT - II",
+          "RequiredGemPower": 2280,
+          "GrantedAugmentation": "CA_GemBonus_SpiritPercentageBonusMedium",
+          "Magnitude": 0.09,
+          "Description": "+9% Spirit\n\n(Replaces Oracle's Foresight)"
+        },
+        {
+          "Rank": 10,
+          "RankName": "BLESSING OF THE PROPHET - II",
+          "RequiredGemPower": 2640,
+          "GrantedAugmentation": "CA_GemBonus_HeroismDurationBonusMedium",
+          "Magnitude": 18.0,
+          "Description": "The cost of your Spirit Ability is reduced by 15%.\n\nThe duration of your Spirit of Heroism is increased by 18 seconds.\n\n(Replaces Essence of the Prophet)"
+        }
+      ]
+    },
+    "Diamond": {
+      "DisplayName": "Diamond",
+      "Attribute": "DiamondPower",
+      "Ranks": [
+        {
+          "Rank": 1,
+          "RankName": "HARMONIOUS SOUL",
+          "RequiredGemPower": 120,
+          "GrantedAugmentation": "CA_GemBonus_CriticalChanceHasteExpertiseAndSpiritBonusSmall",
+          "Magnitude": {
+            "CriticalChanceIncrease": 0.003,
+            "HasteIncrease": 0.003,
+            "ExpertiseIncrease": 0.003,
+            "SpiritIncrease": 0.003,
+            "TargetMaxRange": 6000.0,
+            "MaxStacks": 10.0,
+            "Duration": 5.0
+          },
+          "Description": "Each time an enemy you are in combat with is defeated, you gain +0.3% Critical Strike, Haste, Expertise, and Spirit for 5 seconds, stacking up to 10 times.\n\nWhen the duration of Harmonius Soul expires, you lose 1 stack."
+        },
+        {
+          "Rank": 2,
+          "RankName": "STOIC'S TEACHINGS",
+          "RequiredGemPower": 240,
+          "GrantedAugmentation": "CA_GemBonus_PrimaryAttributeBonusAndStaminaSmall",
+          "Magnitude": {
+            "ArmorIncrease": 500.0,
+            "PrimaryAttributeIncrease": 25.0
+          },
+          "Description": "+500 Armor\n+25 Strength / Intellect / Agility"
+        },
+        {
+          "Rank": 3,
+          "RankName": "TRANQUIL RESOLVE",
+          "RequiredGemPower": 480,
+          "GrantedAugmentation": "CA_GemBonus_MagicResistBonusOnDamageTaken_Small",
+          "Magnitude": {
+            "Cooldown": 20.0,
+            "IncomingMagicDamageScale.Duration": 6.0,
+            "IncomingMagicDamageScale": 0.92
+          },
+          "Description": "When you take Magic Damage you gain 'Tranquil Resolve', reducing all Magic Damage you take by 8% for 6 seconds. This effect cannot occur more than once every 20 seconds."
+        },
+        {
+          "Rank": 4,
+          "RankName": "ANCIENT'S WISDOM",
+          "RequiredGemPower": 720,
+          "GrantedAugmentation": "CA_GemBonus_PrimaryBonusSmall",
+          "Magnitude": 1.03,
+          "Description": "+3% Strength / Intellect / Agility"
+        },
+        {
+          "Rank": 5,
+          "RankName": "BLESSING OF THE ARTISAN",
+          "RequiredGemPower": 960,
+          "GrantedAugmentation": "CA_GemBonus_RelicCooldownReductionBonusSmall",
+          "Magnitude": 0.08,
+          "Description": "Your Relic cooldowns are reduced by 8%."
+        },
+        {
+          "Rank": 6,
+          "RankName": "HARMONIOUS SOUL - II",
+          "RequiredGemPower": 1200,
+          "GrantedAugmentation": "CA_GemBonus_CriticalChanceHasteExpertiseAndSpiritBonusMedium",
+          "Magnitude": {
+            "CriticalChanceIncrease": 0.009,
+            "HasteIncrease": 0.009,
+            "ExpertiseIncrease": 0.009,
+            "SpiritIncrease": 0.009,
+            "TargetMaxRange": 6000.0,
+            "MaxStacks": 10.0,
+            "Duration": 5.0
+          },
+          "Description": "Each time an enemy you are in combat with is defeated, you gain +0.9% Critical Strike, Haste, Expertise, and Spirit for 5 seconds, stacking up to 10 times.\n\nWhen the duration of Harmonius Soul expires, you lose 1 stack.\n\n(Replaces Harmonious Soul)"
+        },
+        {
+          "Rank": 7,
+          "RankName": "STOIC'S TEACHINGS - II",
+          "RequiredGemPower": 1560,
+          "GrantedAugmentation": "CA_GemBonus_PrimaryAttributeBonusAndStaminaMedium",
+          "Magnitude": {
+            "ArmorIncrease": 1500.0,
+            "PrimaryAttributeIncrease": 75.0
+          },
+          "Description": "+1500 Armor\n+75 Strength / Intellect / Agility\n\n(Replaces Stoic's Teachings)"
+        },
+        {
+          "Rank": 8,
+          "RankName": "TRANQUIL RESOLVE - II",
+          "RequiredGemPower": 1920,
+          "GrantedAugmentation": "CA_GemBonus_MagicResistBonusOnDamageTaken_Medium",
+          "Magnitude": {
+            "Cooldown": 20.0,
+            "IncomingMagicDamageScale.Duration": 6.0,
+            "IncomingMagicDamageScale": 0.76
+          },
+          "Description": "When you take Magic Damage you gain 'Tranquil Resolve', reducing all Magic Damage you take by 24% for 6 seconds. This effect cannot occur more than once every 20 seconds.\n\n(Replaces Tranquil Resolve)"
+        },
+        {
+          "Rank": 9,
+          "RankName": "ANCIENT'S WISDOM - II",
+          "RequiredGemPower": 2280,
+          "GrantedAugmentation": "CA_GemBonus_PrimaryBonusMedium",
+          "Magnitude": 1.09,
+          "Description": "+9% Strength / Intellect / Agility\n\n(Replaces Anient's Wisdom)"
+        },
+        {
+          "Rank": 10,
+          "RankName": "BLESSING OF THE ARTISAN - II",
+          "RequiredGemPower": 2640,
+          "GrantedAugmentation": "CA_GemBonus_RelicCooldownReductionBonusMedium",
+          "Magnitude": 0.24,
+          "Description": "Your Relic cooldowns are reduced by 24%.\n\n(Replaces Essence of the Artisan)"
+        }
+      ]
+    }
+  },
+  "Weapons": {
+    "Sahril's Aegis": {
+      "FSLID": 159,
+      "DevName": "GA_Weapon_AbsorbDelayedAoeDamage",
+      "Cooldown": 90.0,
+      "Absorb": {
+        "Duration": 18.0,
+        "AbsorbMaxHealthPercentage": 0.7
+      },
+      "Explosion": {
+        "PrimaryAttributeCoefficient": 22.41,
+        "Radius": 1000.0,
+        "DamageFalloffTargetCountThreshold": 1.0
+      }
+    },
+    "Twilight Skybolt": {
+      "FSLID": 156,
+      "DevName": "GA_Weapon_InstantChargedProjectileHealOrDamage",
+      "Cooldown": 20.0,
+      "Charges": 2.0,
+      "MaxRange": 3000.0,
+      "Heal": {
+        "PrimaryAttributeCoefficient": 19.104
+      },
+      "Damage": {
+        "PrimaryAttributeCoefficient": 9.552
+      },
+      "PowerCharge": {
+        "BonusPerStack": 0.3,
+        "MaxCharges": 2.0
+      }
+    },
+    "Sahril's Wrath": {
+      "FSLID": 157,
+      "DevName": "GA_Weapon_InstantAoeDamageBuff",
+      "Cooldown": 120.0,
+      "Radius": 1000.0,
+      "Damage": {
+        "PrimaryAttributeCoefficient": 21.09,
+        "DamageFalloffTargetCountThreshold": 1.0
+      },
+      "Buff": {
+        "Duration": 20.0,
+        "CriticalStrikeBonusPerStack": 0.06,
+        "MaxStacks": 5.0
+      }
+    },
+    "Nature's Fury": {
+      "FSLID": 161,
+      "DevName": "GA_Weapon_CastedChainHealDamage",
+      "Cooldown": 60.0,
+      "CastDuration": 1.5,
+      "Damage": {
+        "PrimaryAttributeCoefficient": 13.977
+      },
+      "Heal": {
+        "PrimaryAttributeCoefficient": 18.17
+      },
+      "InitialHitPowerScaler": 2.0,
+      "AbilityAddedCritChance": 0.3,
+      "MaxRange": 3000.0,
+      "ChainBehavior": {
+        "MaxEnemyTargets": 4.0,
+        "MaxFriendlyTargets": 4.0,
+        "JumpDelay": 0.15,
+        "MaxJumpRangeInCombat": 2000.0,
+        "MaxJumpRangeOutOfCombat": 500.0
+      }
+    },
+    "Voidbringer's Touch": {
+      "FSLID": 155,
+      "DevName": "GA_Weapon_InstantDamageAccumulativeDebuff",
+      "MaxRange": 3000.0,
+      "Cooldown": 90.0,
+      "Duration": 15.0,
+      "MaxDamageCoefficient": 42.5,
+      "AccumulativeDamageFactor": 0.1
+    },
+    "Zeraleth's Hunger": {
+      "FSLID": 162,
+      "DevName": "GA_Weapon_CastedHealAndDamageChannel",
+      "CastDuration": 0.5,
+      "ChannelDuration": 3.0,
+      "TickInterval": 0.5,
+      "TargetMaxRange": 3000.0,
+      "HealAoeRadius": 3000.0,
+      "DamageAoeRadius": 700.0,
+      "PrimaryAttributeCoefficient": 6.07,
+      "DamageToHealMultiplier": 1.0,
+      "MaxFriendlyTargets": 3.0,
+      "DamageFalloffTargetCountThreshold": 3.0,
+      "Cooldown": 60.0,
+      "FirstOverhealDelay": 0.2,
+      "SecondOverhealDelay": 0.0
+    },
+    "Repository of Frozen Light": {
+      "FSLID": 164,
+      "DevName": "GA_Weapon_CastedBuffStacksHealOnDamage",
+      "AoeRadius": 6000.0,
+      "CastDuration": 1.5,
+      "Duration": 30.0,
+      "Cooldown": 120.0,
+      "StacksCapPerTarget": 20.0,
+      "MaxStacks": 60.0,
+      "PrimaryAttributeCoefficient": 4.19,
+      "CooldownReductionInSecondsPerStack": 0.3
+    },
+    "Fated Strike": {
+      "FSLID": 160,
+      "DevName": "GA_Weapon_CleaveDamageBuffCooldownReduction",
+      "MeleeRange": 500.0,
+      "PrimaryAttributeCoefficient": 7.39,
+      "Cleave": {
+        "PrimaryAttributeCoefficient": 2.874,
+        "DamageFalloffTargetCountThreshold": 3.0,
+        "Radius": 700.0,
+        "AngleCutoff": 210.0
+      },
+      "Buff": {
+        "Duration": 6.0,
+        "CooldownRecoveryMultiplier": 3.0,
+        "AddedExpertise": 0.0
+      },
+      "CooldownReduction": 30.0,
+      "ChargesIncrease": 1.0,
+      "Cooldown": 60.0,
+      "Charge": {
+        "CastingDuration": 0.15,
+        "ArrivalRange": 200.0,
+        "MaxRange": 2000.0,
+        "Speed": 5000.0
+      },
+      "PostChargeDelay": 0.5
+    },
+    "Al'zerac's Shackle": {
+      "FSLID": 152,
+      "DevName": "GA_Weapon_StunDotAoeDamageSlow",
+      "MaxRange": 3000.0,
+      "Cooldown": 30.0,
+      "Stun": {
+        "Duration": 3.0,
+        "Dot": {
+          "PrimaryAttributeCoefficient": 1.74,
+          "TickInterval": 1.5
+        }
+      },
+      "Aoe": {
+        "Radius": 1000.0,
+        "PrimaryAttributeCoefficient": 0.63,
+        "DamageFalloffTargetCountThreshold": 8.0
+      },
+      "Debuff": {
+        "Duration": 15.0,
+        "MovementSpeedMultiplier": 0.35,
+        "AttackSpeedMultiplier": 0.6,
+        "Dot": {
+          "PrimaryAttributeCoefficient": 0.252,
+          "TickInterval": 2.0
+        }
+      }
+    },
+    "Chronoshift": {
+      "FSLID": 1558,
+      "DevName": "GA_Weapon_ChanneledCooldownReducer",
+      "Cooldown": 180.0,
+      "MaxRange": 1500.0,
+      "CastDuration": 1.0,
+      "Channel": {
+        "Duration": 3.0,
+        "Tick": 1.5,
+        "ReduceCooldownsPerTickPercentage": 0.05,
+        "WhileActiveAddedCooldownRecovery": 8.0
+      },
+      "Damage": {
+        "PrimaryAttributeCoefficient": 5.769,
+        "TargetCountThreshold": 5.0
+      },
+      "Buff": {
+        "IncomingDamageMultiplier": 0.5
+      }
+    },
+    "Earthbreaker": {
+      "FSLID": 1559,
+      "DevName": "GA_Weapon_FrontalAOEConeRepeatingStunDamage",
+      "Cooldown": 180.0,
+      "Cone": {
+        "Range": 1400.0,
+        "Angle": 50.0,
+        "Duration": 10.0,
+        "TickInterval": 1.5
+      },
+      "StunDuration": 3.0,
+      "InitialHit": {
+        "PrimaryAttributeCoefficient": 8.767
+      },
+      "RepeatingHit": {
+        "PrimaryAttributeCoefficient": 1.332
+      },
+      "FinalHit": {
+        "PrimaryAttributeCoefficient": 12.66
+      },
+      "TargetCountThreshold": 3.0
+    },
+    "Icicles of An'zhyr": {
+      "FSLID": 1561,
+      "DevName": "GA_Weapon_CastedRepetitivelyAOEDamageDebuff",
+      "Cooldown": 40.0,
+      "MaxRange": 3000.0,
+      "RangeUp": 2000.0,
+      "RangeDown": 3000.0,
+      "AOERadius": 700.0,
+      "Aoe": {
+        "NumberOfVolleys": 3.0,
+        "VolleyInterval": 1.0,
+        "VolleyDamageDelay": 0.25,
+        "Damage": {
+          "PrimaryAttributeCoefficient": 1.44,
+          "TargetCountThreshold": 15.0
+        },
+        "DamageMultiplierWithDebuff": 3.0
+      },
+      "Debuff": {
+        "PrimaryAttributeCoefficient": 0.384,
+        "TickInterval": 3.0
+      }
+    }
+  },
+  "WeaponTraits": {
+    "1": {
+      "Name": "Hidden Power",
+      "FSLID": 3000001,
+      "DevName": "ItemTrait.ID.AbilityToIncreasedMainStat",
+      "Constants": {
+        "ChancePPM": [
+          2.6,
+          2.6,
+          2.6,
+          2.6
+        ],
+        "Stacker.MaxStacks": [
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "Stacker.Duration": [
+          60.0,
+          60.0,
+          60.0,
+          60.0
+        ],
+        "Buff.Duration": [
+          15.0,
+          15.0,
+          15.0,
+          15.0
+        ],
+        "Buff.AdditionalMainStat": [
+          1.075,
+          1.09,
+          1.105,
+          1.12
+        ]
+      }
+    },
+    "2": {
+      "Name": "Inspired Allegiance",
+      "FSLID": 3000002,
+      "DevName": "ItemTrait.ID.CommitToHasteRatingAndWeaponCooldown",
+      "Constants": {
+        "ChancePPM": [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ],
+        "AdditionalAllies": [
+          1.0,
+          2.0,
+          3.0,
+          3.0
+        ],
+        "WeaponAbilityCooldownReductionInSeconds": [
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "Buff.Duration": [
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "Buff.AdditionalHasteRating": [
+          85.0,
+          85.0,
+          85.0,
+          127.0
+        ]
+      }
+    },
+    "3": {
+      "Name": "Inspired Arms",
+      "FSLID": 3000003,
+      "DevName": "ItemTrait.ID.CooldownRecoveryOnWeaponAbility",
+      "Constants": {
+        "Buff.CooldownRecoveryBonus": [
+          1.5,
+          1.5,
+          1.5,
+          1.5
+        ],
+        "Buff.DurationWeaponAbilityCoefficient": [
+          0.1,
+          0.12,
+          0.14,
+          0.16
+        ]
+      }
+    },
+    "4": {
+      "Name": "Seized Opportunity",
+      "FSLID": 3000004,
+      "DevName": "ItemTrait.ID.CritsToIncreasedCritRating",
+      "Constants": {
+        "RequiredNumOfCrits": [
+          20.0,
+          20.0,
+          20.0,
+          20.0
+        ],
+        "CooldownDuration": [
+          12.0,
+          12.0,
+          12.0,
+          12.0
+        ],
+        "Buff.Duration": [
+          12.0,
+          12.0,
+          12.0,
+          12.0
+        ],
+        "Buff.AdditionalCritRating": [
+          112.0,
+          168.0,
+          224.0,
+          280.0
+        ]
+      }
+    },
+    "5": {
+      "Name": "Vengeful Soul",
+      "FSLID": 3000005,
+      "DevName": "ItemTrait.ID.CritsToIncreasedPrimaryStatBuff",
+      "Constants": {
+        "ChancePPM": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "MaxHealthThreshold": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "Buff.Duration": [
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "Buff.AdditionalPrimaryStat": [
+          1.04,
+          1.048,
+          1.056,
+          1.064
+        ],
+        "Hot.Duration": [
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "Hot.TickInterval": [
+          1.5,
+          1.5,
+          1.5,
+          1.5
+        ],
+        "Hot.HealValue": [
+          1.44,
+          1.73,
+          2.02,
+          2.3
+        ]
+      }
+    },
+    "6": {
+      "Name": "King of the Hill",
+      "FSLID": 3000006,
+      "DevName": "ItemTrait.ID.DamageReductionWhenHealthy",
+      "Constants": {
+        "DamageReductionMultiplier": [
+          0.94,
+          0.928,
+          0.916,
+          0.904
+        ]
+      }
+    },
+    "28": {
+      "Name": "Kindling",
+      "FSLID": 3000028,
+      "DevName": "ItemTrait.ID.ExtraDotHotOnEffectApplicationProc",
+      "Constants": {
+        "PPM": [
+          2.1,
+          2.1,
+          2.1,
+          2.1
+        ],
+        "Dot.FlatDamageValue": [
+          0.92,
+          1.1,
+          1.33,
+          1.6
+        ],
+        "Dot.Period": [
+          1.5,
+          1.5,
+          1.5,
+          1.5
+        ],
+        "Dot.MaxStackCount": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Dot.Duration": [
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ],
+        "Hot.FlatHealValue": [
+          0.92,
+          1.1,
+          1.33,
+          1.6
+        ],
+        "Hot.Period": [
+          1.5,
+          1.5,
+          1.5,
+          1.5
+        ],
+        "Hot.MaxStackCount": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Hot.Duration": [
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ]
+      }
+    },
+    "29": {
+      "Name": "First Man Standing",
+      "FSLID": 3000029,
+      "DevName": "ItemTrait.ID.FirstIncomingHitToReducedIncomingDamageBuff",
+      "Constants": {
+        "Buff.Duration": [
+          20.0,
+          20.0,
+          20.0,
+          20.0
+        ],
+        "Buff.IncomingDamageMultiplier": [
+          0.94,
+          0.928,
+          0.916,
+          0.904
+        ]
+      }
+    },
+    "30": {
+      "Name": "Topaz Winds",
+      "FSLID": 3000030,
+      "DevName": "ItemTrait.ID.GemCooldownRecoveryOnAbilityProc",
+      "Constants": {
+        "Cooldown": [
+          15.0,
+          15.0,
+          15.0,
+          15.0
+        ],
+        "PPM": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "CooldownRecovery": [
+          1.3,
+          1.36,
+          1.42,
+          1.48
+        ],
+        "OverCapPerGemPower": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "31": {
+      "Name": "Amethyst Splinters",
+      "FSLID": 3000031,
+      "DevName": "ItemTrait.ID.GemDotHotOnCrit",
+      "Constants": {
+        "Debuff.DamagePercentage": [
+          0.07,
+          0.08,
+          0.09,
+          0.1
+        ],
+        "Debuff.TickRate": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "Debuff.Duration": [
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "Buff.HealPercentage": [
+          0.07,
+          0.08,
+          0.09,
+          0.1
+        ],
+        "Buff.TickRate": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "Buff.Duration": [
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "PercentageIncrementPerGemPower": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "32": {
+      "Name": "Sapphire Aurastone",
+      "FSLID": 3000032,
+      "DevName": "ItemTrait.ID.GemPulsatingOnAbilityTotemProc",
+      "Constants": {
+        "PPM": [
+          1.4,
+          1.4,
+          1.4,
+          1.4
+        ],
+        "MaxRange": [
+          1000.0,
+          1000.0,
+          1000.0,
+          1000.0
+        ],
+        "Damage.Max.PrimaryAttributeCoefficient": [
+          50.0,
+          50.0,
+          50.0,
+          50.0
+        ],
+        "Damage.AccumulationPercentage": [
+          0.069,
+          0.083,
+          0.1,
+          0.12
+        ],
+        "Damage.MaxTargetFalloff": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Damage.InitialPulseDelay": [
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ],
+        "Heal.Max.PrimaryAttributeCoefficient": [
+          50.0,
+          50.0,
+          50.0,
+          50.0
+        ],
+        "Heal.AccumulationPercentage": [
+          0.093,
+          0.111,
+          0.133,
+          0.16
+        ],
+        "Heal.InitialPulseDelay": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "NumPulses": [
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ],
+        "DelayBetweenPulses": [
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ]
+      }
+    },
+    "33": {
+      "Name": "Diamond Strike",
+      "FSLID": 3000033,
+      "DevName": "ItemTrait.ID.GemSingleTargetProcOnDamageHeal",
+      "Constants": {
+        "PPM": [
+          5.0,
+          5.5,
+          6.1,
+          6.7
+        ],
+        "Damage.PrimaryAttributeCoefficient": [
+          1.48,
+          1.78,
+          2.0,
+          2.37
+        ],
+        "Heal.PrimaryAttributeCoefficient": [
+          1.48,
+          1.78,
+          2.0,
+          2.37
+        ],
+        "Bonus.PercentageIncrementPerGemPower": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "CriticalChanceHasteExpertiseAndSpiritBonus.ExtraDamagePerStack": [
+          0.35,
+          0.35,
+          0.35,
+          0.35
+        ],
+        "TargetDebuff.ExtraDamagePerStack": [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        "TargetDebuff.Duration": [
+          20.0,
+          20.0,
+          20.0,
+          20.0
+        ]
+      }
+    },
+    "34": {
+      "Name": "Emerald Judgement",
+      "FSLID": 3000034,
+      "DevName": "ItemTrait.ID.GemTargetedSpikeProc",
+      "Constants": {
+        "PPM": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "Small.SpikeDamage.PrimaryAttributeCoefficient": [
+          6.0,
+          7.0,
+          8.0,
+          9.0
+        ],
+        "DamageIncreasePerGemPower": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "35": {
+      "Name": "Ruby Storm",
+      "FSLID": 3000035,
+      "DevName": "ItemTrait.ID.GemWhirlwindProc",
+      "Constants": {
+        "PPM": [
+          1.3,
+          1.3,
+          1.3,
+          1.3
+        ],
+        "Radius": [
+          250.0,
+          250.0,
+          250.0,
+          250.0
+        ],
+        "Lifetime": [
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "Period": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "MaxSpeed": [
+          350.0,
+          350.0,
+          350.0,
+          350.0
+        ],
+        "OscillationAmplitude": [
+          300.0,
+          300.0,
+          300.0,
+          300.0
+        ],
+        "OscillationFrequency": [
+          120.0,
+          120.0,
+          120.0,
+          120.0
+        ],
+        "HealthPercentageAsDamage": [
+          0.045,
+          0.054,
+          0.063,
+          0.073
+        ],
+        "PercentageIncrementPerGemPower": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "36": {
+      "Name": "Iron Spikes",
+      "FSLID": 3000036,
+      "DevName": "ItemTrait.ID.IncomingDamageToDefenceAndDamage",
+      "Constants": {
+        "Duration": [
+          10.0,
+          10.0,
+          10.0,
+          10.0
+        ],
+        "PPM": [
+          1.4,
+          1.4,
+          1.4,
+          1.4
+        ],
+        "FlatArmorValue": [
+          1.2,
+          1.24,
+          1.28,
+          1.32
+        ],
+        "FlatDamageValue": [
+          0.34,
+          0.41,
+          0.48,
+          0.55
+        ]
+      }
+    },
+    "37": {
+      "Name": "Divine Mediation",
+      "FSLID": 3000037,
+      "DevName": "ItemTrait.ID.IncomingDamageToHotAndAbsorb",
+      "Constants": {
+        "ChancePPM": [
+          0.8,
+          0.8,
+          0.8,
+          0.8
+        ],
+        "Hot.FlatHealValue": [
+          1.65,
+          1.98,
+          2.31,
+          2.64
+        ],
+        "Hot.Duration": [
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "Hot.TickInterval": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "Absorb.Duration": [
+          12.0,
+          12.0,
+          12.0,
+          12.0
+        ],
+        "Absorb.FlatAbsorbValue": [
+          4.8,
+          5.76,
+          6.72,
+          7.68
+        ],
+        "Absorb.MaxRange": [
+          4000.0,
+          4000.0,
+          4000.0,
+          4000.0
+        ]
+      }
+    },
+    "38": {
+      "Name": "Latent Resurgence",
+      "FSLID": 3000038,
+      "DevName": "ItemTrait.ID.IncomingHealToStackingHealWithThreshold",
+      "Constants": {
+        "HealValue": [
+          2.17,
+          2.61,
+          3.05,
+          3.48
+        ],
+        "PPM": [
+          2.6,
+          2.6,
+          2.6,
+          2.6
+        ],
+        "MaxHealthThreshold": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    "39": {
+      "Name": "Willful Momentum",
+      "FSLID": 3000039,
+      "DevName": "ItemTrait.ID.IncreasedMainStatAndSpiritRating",
+      "Constants": {
+        "AdditionalSpiritRating": [
+          59.0,
+          89.0,
+          118.0,
+          148.0
+        ],
+        "Buff.MainStatAdd": [
+          1.03,
+          1.036,
+          1.042,
+          1.048
+        ],
+        "Buff.Duration": [
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      }
+    },
+    "40": {
+      "Name": "Heart of Stone",
+      "FSLID": 3000040,
+      "DevName": "ItemTrait.ID.IncreasedStaminaToHealthConversion",
+      "Constants": {
+        "Multiplier": [
+          1.04,
+          1.05,
+          1.06,
+          1.07
+        ]
+      }
+    },
+    "41": {
+      "Name": "Stalwart Readiness",
+      "FSLID": 3000041,
+      "DevName": "ItemTrait.ID.NoDamageToDamageReduction",
+      "Constants": {
+        "MaxStacks": [
+          5.0,
+          6.0,
+          7.0,
+          8.0
+        ],
+        "AdditionalDamageReductionPerStack": [
+          0.98,
+          0.98,
+          0.98,
+          0.98
+        ],
+        "SecondsBetweenStackIncrease": [
+          10.0,
+          9.0,
+          8.0,
+          7.0
+        ]
+      }
+    },
+    "42": {
+      "Name": "Hunter's Focus",
+      "FSLID": 3000042,
+      "DevName": "ItemTrait.ID.OffensiveAbilityHasteRatingStacking",
+      "Constants": {
+        "Duration": [
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "MaxStacks": [
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "AdditionalHasteRating": [
+          20.0,
+          32.0,
+          43.0,
+          55.0
+        ]
+      }
+    },
+    "44": {
+      "Name": "Treasure Hunter's Delight",
+      "FSLID": 3000044,
+      "DevName": "ItemTrait.ID.RelicToDamageReduction",
+      "Constants": {
+        "Buff.Duration": [
+          12.0,
+          12.0,
+          12.0,
+          12.0
+        ],
+        "Buff.DamageReductionMultiplier": [
+          0.85,
+          0.82,
+          0.78,
+          0.74
+        ]
+      }
+    },
+    "45": {
+      "Name": "Grounded Spirit",
+      "FSLID": 3000045,
+      "DevName": "ItemTrait.ID.StandingStillHealStacking",
+      "Constants": {
+        "MaxStacks": [
+          10.0,
+          10.0,
+          10.0,
+          10.0
+        ],
+        "TickInterval": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "StackToHealMultiplier": [
+          0.5,
+          0.6,
+          0.7,
+          0.8
+        ],
+        "MaxDistanceToLowestHealthTarget": [
+          3000.0,
+          3000.0,
+          3000.0,
+          3000.0
+        ]
+      }
+    },
+    "46": {
+      "Name": "Patient Soul",
+      "FSLID": 3000046,
+      "DevName": "ItemTrait.ID.StandingStillStaminaExpertiseRatingIncrease",
+      "Constants": {
+        "ApplicationDelay": [
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ],
+        "RemovalDelay": [
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "Buff.StaminaMultiplier": [
+          1.05,
+          1.05,
+          1.05,
+          1.05
+        ],
+        "Buff.AdditionalExpertiseRating": [
+          71.0,
+          107.0,
+          141.0,
+          177.0
+        ]
+      }
+    },
+    "47": {
+      "Name": "Visions of Grandeur",
+      "FSLID": 3000047,
+      "DevName": "ItemTrait.ID.WeaponAndSpiritPoints",
+      "Constants": {
+        "SpiritPointsGain.CooldownMultiplier": [
+          2.0,
+          2.4,
+          2.8,
+          3.2
+        ],
+        "SpiritPointsGain.CooldownDivider": [
+          30.0,
+          30.0,
+          30.0,
+          30.0
+        ]
+      }
+    },
+    "48": {
+      "Name": "Brave Machinations",
+      "FSLID": 3000048,
+      "DevName": "ItemTrait.ID.WeaponCritChanceCooldownReduction",
+      "Constants": {
+        "Buff.AddedWeaponCritChance": [
+          0.2,
+          0.24,
+          0.28,
+          0.38
+        ],
+        "CooldownReductionPerWeaponCrit": [
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "NumCritsCounterPerAbilityCommit": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "50": {
+      "Name": "Heroic Brand",
+      "FSLID": 3000050,
+      "DevName": "ItemTrait.ID.WeaponHealDamageIncrease",
+      "Constants": {
+        "Buff.DamageMultiplier": [
+          1.5,
+          1.6,
+          1.7,
+          1.8
+        ],
+        "Buff.HealMultiplier": [
+          1.5,
+          1.6,
+          1.7,
+          1.8
+        ]
+      }
+    },
+    "51": {
+      "Name": "Martial Initiative",
+      "FSLID": 3000051,
+      "DevName": "ItemTrait.ID.WeaponDamageReductionPrimaryStatIncrease",
+      "Constants": {
+        "Buff.WeaponCooldownToDuration": [
+          0.2,
+          0.24,
+          0.28,
+          0.32
+        ],
+        "Buff.PrimaryAttributeAddition": [
+          1.1,
+          1.1,
+          1.1,
+          1.1
+        ],
+        "Buff.AdditionalDamageReduction": [
+          0.85,
+          0.85,
+          0.85,
+          0.85
+        ]
+      }
+    },
+    "53": {
+      "Name": "Ancestral Intervention",
+      "FSLID": 3000053,
+      "DevName": "ItemTrait.ID.DeathPreventionWithImmunity",
+      "Constants": {
+        "Immunity.Duration": [
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "Cooldown": [
+          480.0,
+          420.0,
+          360.0,
+          300.0
+        ]
+      }
+    }
+  },
+  "SetBonuses": {
+    "230": {
+      "Name": "Sinthara's Veil",
+      "FSLID": [
+        689
+      ],
+      "GameID": 230,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_SetD_Percentage_T",
+      "Description": "+3% Spirit\n+10% magic damage reduction"
+    },
+    "231": {
+      "Name": "Haunting Lament",
+      "FSLID": [
+        1772
+      ],
+      "GameID": 231,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_SetD_Percentage_H",
+      "Description": "+3% Spirit\n+15% Max Mana"
+    },
+    "232": {
+      "Name": "Death's Grasp",
+      "FSLID": [
+        1771
+      ],
+      "GameID": 232,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_SetD_Percentage_D",
+      "Description": "+3% Spirit\n+15% damage to low health enemies"
+    },
+    "233": {
+      "Name": "Sin Warding",
+      "FSLID": [
+        684
+      ],
+      "GameID": 233,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_SetC_Percentage_T",
+      "Description": "+3% Expertise\n+5% Max Health"
+    },
+    "234": {
+      "Name": "Sin Warding",
+      "FSLID": [
+        683
+      ],
+      "GameID": 234,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_SetC_Percentage_H",
+      "Description": "+3% Expertise\n+5% Max Health"
+    },
+    "235": {
+      "Name": "Sin Warding",
+      "FSLID": [
+        682
+      ],
+      "GameID": 235,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_SetC_Percentage_D",
+      "Description": "+3% Expertise\n+5% Max Health"
+    },
+    "236": {
+      "Name": "Tuzari Grace",
+      "FSLID": [
+        680
+      ],
+      "GameID": 236,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_SetB_Percentage",
+      "Description": "+3% Haste\n+20% Movement Speed"
+    },
+    "237": {
+      "Name": "Eldrin Fury",
+      "FSLID": [
+        1770
+      ],
+      "GameID": 237,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_SetA_Percentage_T",
+      "Description": "+3% Critical Strike Chance\n+15% Threat Generation"
+    },
+    "238": {
+      "Name": "Eldrin Deceit",
+      "FSLID": [
+        1769
+      ],
+      "GameID": 238,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_SetA_Percentage_DH",
+      "Description": "+3% Critical Strike Chance\n-15% Threat Generation"
+    },
+    "239": {
+      "Name": "Draconic Might",
+      "FSLID": [
+        677,
+        678,
+        679
+      ],
+      "GameID": 239,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_PowerBonusOnCrit",
+      "Description": "Your critical strikes have a chance (0.9 PPM) to increase your Main Stat by 18% for 14 seconds."
+    },
+    "240": {
+      "Name": "Torment of Bael'Aurum",
+      "FSLID": [
+        685,
+        686,
+        687
+      ],
+      "GameID": 240,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_PowerBonusAndAutoHeal",
+      "Description": "+4% Main Stat\n\nWhen dipping below 20% Health, you are instantly healed for 35% of your maximum health. This can occur once every 180 seconds."
+    },
+    "245": {
+      "Name": "Drakheim's Absolution",
+      "FSLID": [
+        690,
+        691,
+        692
+      ],
+      "GameID": 245,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_HeroismPowerAndDamageReductionBonus",
+      "Description": "Your Spirit Ability grants you Drakheim's Absolution, increasing your Main Stat by 20% for 20 seconds."
+    },
+    "246": {
+      "Name": "Dark Prophecy",
+      "FSLID": [
+        681
+      ],
+      "GameID": 246,
+      "Pieces": 2,
+      "GrantedAbility": "CA_ArmorSetBonus_HasteOnAbilityUse",
+      "Description": "Your abilities have a chance (0.8 PPM) to increase your Haste by 25% for 20 seconds."
+    }
+  }
+}
