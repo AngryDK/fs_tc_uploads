@@ -13,7 +13,81 @@
       "RequiredScoreToComplete": 238,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
-      "Mobs": []
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": 10,
+          "MobName": "Ashen Arsonist"
+        },
+        {
+          "MobID": 12,
+          "MobName": "Raging Pillager"
+        },
+        {
+          "MobID": 32,
+          "MobName": "Nightmist Cutthroat"
+        },
+        {
+          "MobID": 128,
+          "MobName": "Barbarous Lasher"
+        },
+        {
+          "MobID": 134,
+          "MobName": "Mancatcher"
+        },
+        {
+          "MobID": 182,
+          "MobName": "Slaughtervine"
+        },
+        {
+          "MobID": 183,
+          "MobName": "Ruins Lasher"
+        },
+        {
+          "MobID": 185,
+          "MobName": "Bloodfang Raider"
+        },
+        {
+          "MobID": 186,
+          "MobName": "Hulking Bulgore"
+        },
+        {
+          "MobID": 189,
+          "MobName": "Executioner"
+        },
+        {
+          "MobID": 190,
+          "MobName": "Sickle"
+        },
+        {
+          "MobID": 191,
+          "MobName": "Hellcaller"
+        },
+        {
+          "MobID": 192,
+          "MobName": "Initiate"
+        },
+        {
+          "MobID": 193,
+          "MobName": "Profane Invoker"
+        },
+        {
+          "MobID": 198,
+          "MobName": "Moar'gore, Master of Sacrifice"
+        },
+        {
+          "MobID": 199,
+          "MobName": "Vun’Kahr, the Thorned Maw"
+        },
+        {
+          "MobID": 200,
+          "MobName": "Prophet Ez'rath"
+        },
+        {
+          "MobID": 201,
+          "MobName": "Bloodfang"
+        }
+      ]
     },
     "6": {
       "DisplayName": "Empyrean Sands",
@@ -28,7 +102,65 @@
       "RequiredScoreToComplete": 130,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
-      "Mobs": []
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": 87,
+          "MobName": "Sin-Magir"
+        },
+        {
+          "MobID": 94,
+          "MobName": "Water Elemental"
+        },
+        {
+          "MobID": 100,
+          "MobName": "Lost Soul"
+        },
+        {
+          "MobID": 115,
+          "MobName": "Greedspawn Sentinel"
+        },
+        {
+          "MobID": 116,
+          "MobName": "Gravescythe"
+        },
+        {
+          "MobID": 118,
+          "MobName": "Greedbound Prism"
+        },
+        {
+          "MobID": 128,
+          "MobName": "Barbarous Lasher"
+        },
+        {
+          "MobID": 173,
+          "MobName": "Acolyte of Sinnari"
+        },
+        {
+          "MobID": 174,
+          "MobName": "Nightbound Magi"
+        },
+        {
+          "MobID": 175,
+          "MobName": "Tombguard Reaver"
+        },
+        {
+          "MobID": 176,
+          "MobName": "Sandsworn Husk"
+        },
+        {
+          "MobID": 177,
+          "MobName": "Gravebreaker Brute"
+        },
+        {
+          "MobID": 179,
+          "MobName": "Dunesnare Hunter"
+        },
+        {
+          "MobID": 183,
+          "MobName": "Ruins Lasher"
+        }
+      ]
     },
     "7": {
       "DisplayName": "Cithrel's Fall",
@@ -43,7 +175,69 @@
       "RequiredScoreToComplete": 188,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
-      "Mobs": []
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": 153,
+          "MobName": "Eldrin Chronomancer"
+        },
+        {
+          "MobID": 154,
+          "MobName": "Greater Ice Elemental"
+        },
+        {
+          "MobID": 155,
+          "MobName": "Frozen Remnant"
+        },
+        {
+          "MobID": 157,
+          "MobName": "Coldheart Assassin"
+        },
+        {
+          "MobID": 160,
+          "MobName": "Spellbound Golem"
+        },
+        {
+          "MobID": 161,
+          "MobName": "Ice Shardling"
+        },
+        {
+          "MobID": 162,
+          "MobName": "Tundra Stalker"
+        },
+        {
+          "MobID": 163,
+          "MobName": "Deceitful Scholar"
+        },
+        {
+          "MobID": 164,
+          "MobName": "Eldrin Sentinel"
+        },
+        {
+          "MobID": 165,
+          "MobName": "Eldrin Recruit"
+        },
+        {
+          "MobID": 166,
+          "MobName": "Blade of Cithrel"
+        },
+        {
+          "MobID": 167,
+          "MobName": "Corrupter"
+        },
+        {
+          "MobID": 168,
+          "MobName": "Noor, The Betrayer"
+        },
+        {
+          "MobID": 169,
+          "MobName": "Ancient Koros"
+        },
+        {
+          "MobID": 170,
+          "MobName": "Cithrel"
+        }
+      ]
     },
     "8": {
       "DisplayName": "Wyrmheart",
@@ -58,7 +252,61 @@
       "RequiredScoreToComplete": 109,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
-      "Mobs": []
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": 151,
+          "MobName": "Expedition Lookout"
+        },
+        {
+          "MobID": 152,
+          "MobName": "Ice Shardling"
+        },
+        {
+          "MobID": 153,
+          "MobName": "Eldrin Chronomancer"
+        },
+        {
+          "MobID": 154,
+          "MobName": "Greater Ice Elemental"
+        },
+        {
+          "MobID": 155,
+          "MobName": "Frozen Remnant"
+        },
+        {
+          "MobID": 156,
+          "MobName": "Apostate Veras"
+        },
+        {
+          "MobID": 157,
+          "MobName": "Coldheart Assassin"
+        },
+        {
+          "MobID": 160,
+          "MobName": "Spellbound Golem"
+        },
+        {
+          "MobID": 162,
+          "MobName": "Tundra Stalker"
+        },
+        {
+          "MobID": 163,
+          "MobName": "Deceitful Scholar"
+        },
+        {
+          "MobID": 164,
+          "MobName": "Eldrin Sentinel"
+        },
+        {
+          "MobID": 165,
+          "MobName": "Eldrin Recruit"
+        },
+        {
+          "MobID": 166,
+          "MobName": "Blade of Cithrel"
+        }
+      ]
     },
     "11": {
       "DisplayName": "Everdawn Grove",
@@ -73,7 +321,57 @@
       "RequiredScoreToComplete": 110,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
-      "Mobs": []
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": "CM_RubiliteTriggerstone",
+          "MobName": "Rubilite Triggerstone"
+        },
+        {
+          "MobID": 39,
+          "MobName": "Outrunner"
+        },
+        {
+          "MobID": 40,
+          "MobName": "Horned Seer"
+        },
+        {
+          "MobID": 41,
+          "MobName": "Gorestained Butcher"
+        },
+        {
+          "MobID": 42,
+          "MobName": "Desecrator"
+        },
+        {
+          "MobID": 136,
+          "MobName": "Skittershard"
+        },
+        {
+          "MobID": 137,
+          "MobName": "Mangy Brute"
+        },
+        {
+          "MobID": 138,
+          "MobName": "Corrupted Totemic"
+        },
+        {
+          "MobID": 139,
+          "MobName": "Bloodstone Goliath"
+        },
+        {
+          "MobID": 140,
+          "MobName": "Akari the Everdawn Lord"
+        },
+        {
+          "MobID": 141,
+          "MobName": "Malgut the Fetid"
+        },
+        {
+          "MobID": 142,
+          "MobName": "Blighted Dawnbloom"
+        }
+      ]
     },
     "12": {
       "DisplayName": "Stormwatch",
@@ -88,7 +386,61 @@
       "RequiredScoreToComplete": 155,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
-      "Mobs": []
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": 10,
+          "MobName": "Ashen Arsonist"
+        },
+        {
+          "MobID": 12,
+          "MobName": "Raging Pillager"
+        },
+        {
+          "MobID": 32,
+          "MobName": "Nightmist Cutthroat"
+        },
+        {
+          "MobID": 48,
+          "MobName": "Dire Rat"
+        },
+        {
+          "MobID": 129,
+          "MobName": "Stormscreamer"
+        },
+        {
+          "MobID": 130,
+          "MobName": "Shinchopper"
+        },
+        {
+          "MobID": 131,
+          "MobName": "Facestabber"
+        },
+        {
+          "MobID": 132,
+          "MobName": "Bully Basher"
+        },
+        {
+          "MobID": 133,
+          "MobName": "Warlord Brogg"
+        },
+        {
+          "MobID": 134,
+          "MobName": "Mancatcher"
+        },
+        {
+          "MobID": 189,
+          "MobName": "Executioner"
+        },
+        {
+          "MobID": 193,
+          "MobName": "Profane Invoker"
+        },
+        {
+          "MobID": 314,
+          "MobName": "Dire Wolf"
+        }
+      ]
     },
     "13": {
       "DisplayName": "Wraithtide Vault",
@@ -103,7 +455,77 @@
       "RequiredScoreToComplete": 281,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 6,
-      "Mobs": []
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": 48,
+          "MobName": "Dire Rat"
+        },
+        {
+          "MobID": 100,
+          "MobName": "Lost Soul"
+        },
+        {
+          "MobID": 107,
+          "MobName": "Tide Witch"
+        },
+        {
+          "MobID": 109,
+          "MobName": "Jungle Stalker"
+        },
+        {
+          "MobID": 110,
+          "MobName": "Bleachbone Brute"
+        },
+        {
+          "MobID": 114,
+          "MobName": "Saltsworn Scallywag"
+        },
+        {
+          "MobID": 115,
+          "MobName": "Greedspawn Sentinel"
+        },
+        {
+          "MobID": 116,
+          "MobName": "Gravescythe"
+        },
+        {
+          "MobID": 118,
+          "MobName": "Greedbound Prism"
+        },
+        {
+          "MobID": 119,
+          "MobName": "Scuttlejack Cannoneer"
+        },
+        {
+          "MobID": 121,
+          "MobName": "Bael'Aurum"
+        },
+        {
+          "MobID": 124,
+          "MobName": "Deathless Katrine"
+        },
+        {
+          "MobID": 125,
+          "MobName": "First Mate Marrow"
+        },
+        {
+          "MobID": 126,
+          "MobName": "Soulpowder Buccaneer"
+        },
+        {
+          "MobID": 127,
+          "MobName": "Bilgerat"
+        },
+        {
+          "MobID": 128,
+          "MobName": "Barbarous Lasher"
+        },
+        {
+          "MobID": 183,
+          "MobName": "Ruins Lasher"
+        }
+      ]
     },
     "15": {
       "DisplayName": "Sailor's Abyss",
@@ -118,7 +540,49 @@
       "RequiredScoreToComplete": 131,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
-      "Mobs": []
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": 48,
+          "MobName": "Dire Rat"
+        },
+        {
+          "MobID": 94,
+          "MobName": "Water Elemental"
+        },
+        {
+          "MobID": 97,
+          "MobName": "Hollowed Corsair"
+        },
+        {
+          "MobID": 98,
+          "MobName": "Fading Raider"
+        },
+        {
+          "MobID": 99,
+          "MobName": "Deepbound Magi"
+        },
+        {
+          "MobID": 100,
+          "MobName": "Lost Soul"
+        },
+        {
+          "MobID": 102,
+          "MobName": "Tormented Spectre"
+        },
+        {
+          "MobID": 103,
+          "MobName": "Vengeful Shade"
+        },
+        {
+          "MobID": 104,
+          "MobName": "Witchreef Lasher"
+        },
+        {
+          "MobID": 105,
+          "MobName": "Sinthara"
+        }
+      ]
     },
     "17": {
       "DisplayName": "The Stronghold",
@@ -133,6 +597,7 @@
       "RequiredScoreToComplete": 0,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
+      "IsSeasonalPinnacle": false,
       "Mobs": []
     },
     "21": {
@@ -148,7 +613,89 @@
       "RequiredScoreToComplete": 160,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
-      "Mobs": []
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": 13,
+          "MobName": "Frenzied Looter"
+        },
+        {
+          "MobID": 36,
+          "MobName": "Urrak Witch"
+        },
+        {
+          "MobID": 37,
+          "MobName": "Urrak Slaver"
+        },
+        {
+          "MobID": 38,
+          "MobName": "Slavebind Totem"
+        },
+        {
+          "MobID": 39,
+          "MobName": "Outrunner"
+        },
+        {
+          "MobID": 40,
+          "MobName": "Horned Seer"
+        },
+        {
+          "MobID": 41,
+          "MobName": "Gorestained Butcher"
+        },
+        {
+          "MobID": 42,
+          "MobName": "Desecrator"
+        },
+        {
+          "MobID": 43,
+          "MobName": "Slavetrader Brull"
+        },
+        {
+          "MobID": 44,
+          "MobName": "Drazhul the Fleshbroker"
+        },
+        {
+          "MobID": 128,
+          "MobName": "Barbarous Lasher"
+        },
+        {
+          "MobID": 134,
+          "MobName": "Mancatcher"
+        },
+        {
+          "MobID": 137,
+          "MobName": "Mangy Brute"
+        },
+        {
+          "MobID": 182,
+          "MobName": "Slaughtervine"
+        },
+        {
+          "MobID": 183,
+          "MobName": "Ruins Lasher"
+        },
+        {
+          "MobID": 185,
+          "MobName": "Bloodfang Raider"
+        },
+        {
+          "MobID": 191,
+          "MobName": "Hellcaller"
+        },
+        {
+          "MobID": 192,
+          "MobName": "Initiate"
+        },
+        {
+          "MobID": 201,
+          "MobName": "Bloodfang"
+        },
+        {
+          "MobID": 246,
+          "MobName": "Dredge"
+        }
+      ]
     },
     "23": {
       "DisplayName": "Ransack of Drakheim",
@@ -163,7 +710,85 @@
       "RequiredScoreToComplete": 260,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
-      "Mobs": []
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": 10,
+          "MobName": "Ashen Arsonist"
+        },
+        {
+          "MobID": 11,
+          "MobName": "Icebite Reaver"
+        },
+        {
+          "MobID": 12,
+          "MobName": "Raging Pillager"
+        },
+        {
+          "MobID": 13,
+          "MobName": "Frenzied Looter"
+        },
+        {
+          "MobID": 14,
+          "MobName": "Craven Hiisi"
+        },
+        {
+          "MobID": 15,
+          "MobName": "Coldbrine Fiend"
+        },
+        {
+          "MobID": 18,
+          "MobName": "Auga Handhafi the Blind"
+        },
+        {
+          "MobID": 22,
+          "MobName": "Kaldurson Isilagður"
+        },
+        {
+          "MobID": 23,
+          "MobName": "Kaldurson Eldsupptok"
+        },
+        {
+          "MobID": 25,
+          "MobName": "Fodir Kaldur"
+        },
+        {
+          "MobID": 28,
+          "MobName": "Chilgar the Drowned"
+        },
+        {
+          "MobID": 29,
+          "MobName": "Nightmist Whisperer"
+        },
+        {
+          "MobID": 30,
+          "MobName": "Shadow of Ulmorgat"
+        },
+        {
+          "MobID": 32,
+          "MobName": "Nightmist Cutthroat"
+        },
+        {
+          "MobID": 33,
+          "MobName": "Bleakfrost Slaver"
+        },
+        {
+          "MobID": 34,
+          "MobName": "Bleakfrost Mystic"
+        },
+        {
+          "MobID": 155,
+          "MobName": "Frozen Remnant"
+        },
+        {
+          "MobID": 313,
+          "MobName": "Glacial Bear"
+        },
+        {
+          "MobID": 314,
+          "MobName": "Dire Wolf"
+        }
+      ]
     },
     "24": {
       "DisplayName": "Silken Hollow",
@@ -178,7 +803,57 @@
       "RequiredScoreToComplete": 168,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
-      "Mobs": []
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": "SH_QuiveringEggSac",
+          "MobName": "Quivering Egg Sac"
+        },
+        {
+          "MobID": 13,
+          "MobName": "Frenzied Looter"
+        },
+        {
+          "MobID": 89,
+          "MobName": "Spiderling"
+        },
+        {
+          "MobID": 90,
+          "MobName": "Rotheart Recluse"
+        },
+        {
+          "MobID": 91,
+          "MobName": "Gravesnare Kidnapper"
+        },
+        {
+          "MobID": 92,
+          "MobName": "Vexira, Mother of Nightmares"
+        },
+        {
+          "MobID": 130,
+          "MobName": "Shinchopper"
+        },
+        {
+          "MobID": 131,
+          "MobName": "Facestabber"
+        },
+        {
+          "MobID": 132,
+          "MobName": "Bully Basher"
+        },
+        {
+          "MobID": 266,
+          "MobName": "Venomdrinker"
+        },
+        {
+          "MobID": 267,
+          "MobName": "Eggbearer"
+        },
+        {
+          "MobID": 268,
+          "MobName": "Carrion Horror"
+        }
+      ]
     },
     "25": {
       "DisplayName": "Godfall Quarry",
@@ -193,7 +868,276 @@
       "RequiredScoreToComplete": 130,
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
-      "Mobs": []
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": 136,
+          "MobName": "Skittershard"
+        },
+        {
+          "MobID": 172,
+          "MobName": "Godfall Titan"
+        },
+        {
+          "MobID": 241,
+          "MobName": "Godfall Wardstone"
+        },
+        {
+          "MobID": 243,
+          "MobName": "Task Master"
+        },
+        {
+          "MobID": 244,
+          "MobName": "Nezari Bolter"
+        },
+        {
+          "MobID": 245,
+          "MobName": "Quarry Stalker"
+        },
+        {
+          "MobID": 246,
+          "MobName": "Dredge"
+        },
+        {
+          "MobID": 247,
+          "MobName": "Enforcer"
+        },
+        {
+          "MobID": 248,
+          "MobName": "Arcane Warden"
+        },
+        {
+          "MobID": 249,
+          "MobName": "Enraged Earth Elemental"
+        },
+        {
+          "MobID": 270,
+          "MobName": "Vaerith Vorn"
+        }
+      ]
+    },
+    "29": {
+      "DisplayName": "Ruins of Regath",
+      "DevName": "MoorCastle",
+      "GameID": 29,
+      "Description": "The outpost of Regath festers with decay. The land it stands upon is soaked with the blood of fallen warriors; betrayed by a Heskyr acolyte, slain in a forgotten battle, for an unholy cause. Now their restless spirits are bound to the land by the unnatural magics of the lost Blood Reliquary, hidden in the crypt beneath.\n\nHoping to extract the blood from within, the Heskyr have mounted an offensive on the keep's inner sanctum. They have stormed the crumbling walls with ease and now seek to unleash the dormant power, awaking the anger and hate of the unquiet dead.",
+      "LevelType": "Adventure",
+      "MinimumDifficulty": null,
+      "MaximumDifficulty": null,
+      "QualifierTime": 900.0,
+      "QualifierTimeHT": "15:00",
+      "RequiredScoreToComplete": 155,
+      "MaxPlayers": 4,
+      "MinimumHeroRankRequired": null,
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": 316,
+          "MobName": "Sanguine Echo"
+        },
+        {
+          "MobID": 326,
+          "MobName": "Heart of Rot"
+        },
+        {
+          "MobID": 327,
+          "MobName": "Undying Champion"
+        },
+        {
+          "MobID": 328,
+          "MobName": "Meandering Acolyte"
+        },
+        {
+          "MobID": 329,
+          "MobName": "Restless Protector"
+        },
+        {
+          "MobID": 330,
+          "MobName": "Xurath, Fist of the Warden"
+        },
+        {
+          "MobID": 331,
+          "MobName": "Sanguine Disciple"
+        },
+        {
+          "MobID": 332,
+          "MobName": "Stalking Grim"
+        },
+        {
+          "MobID": 333,
+          "MobName": "Heskyr Zealot"
+        },
+        {
+          "MobID": 334,
+          "MobName": "Heskyr Brood"
+        },
+        {
+          "MobID": 336,
+          "MobName": "Heskyr Magus"
+        }
+      ]
+    },
+    "30": {
+      "DisplayName": "Xul, The Blood Monolith",
+      "DevName": "SandTomb",
+      "GameID": 30,
+      "Description": "Built at the zenith of the first Heskyrian Dynasty, the Blood Monolith served as the altar of their magic, where rituals of untold power were performed that cast doom on the world and ensured the Heskyr retained their stranglehold. After the dynasty fell, its dormant magics still protected this seat of power, and to this day, no soul who entered has ever emerged.\n\nNow the Heskry rise again and the altars of Xul are stirring within the tower where only screams escape.",
+      "LevelType": "Dungeon",
+      "MinimumDifficulty": null,
+      "MaximumDifficulty": null,
+      "QualifierTime": 1700.0,
+      "QualifierTimeHT": "28:20",
+      "RequiredScoreToComplete": 265,
+      "MaxPlayers": 4,
+      "MinimumHeroRankRequired": null,
+      "IsSeasonalPinnacle": true,
+      "Mobs": [
+        {
+          "MobID": 316,
+          "MobName": "Sanguine Echo"
+        },
+        {
+          "MobID": 317,
+          "MobName": "Sanguine Crusher"
+        },
+        {
+          "MobID": 318,
+          "MobName": "Xul’vorith, Sentinel of the Bloodbound Gate"
+        },
+        {
+          "MobID": 319,
+          "MobName": "Han-Eth, Sentry of Xul"
+        },
+        {
+          "MobID": 321,
+          "MobName": "Vel’korath the Sanctified, Vision of the Covenant"
+        },
+        {
+          "MobID": 326,
+          "MobName": "Heart of Rot"
+        },
+        {
+          "MobID": 331,
+          "MobName": "Sanguine Disciple"
+        },
+        {
+          "MobID": 332,
+          "MobName": "Stalking Grim"
+        },
+        {
+          "MobID": 333,
+          "MobName": "Heskyr Zealot"
+        },
+        {
+          "MobID": 334,
+          "MobName": "Heskyr Brood"
+        },
+        {
+          "MobID": 336,
+          "MobName": "Heskyr Magus"
+        }
+      ]
+    },
+    "31": {
+      "DisplayName": "Scryer's Peak",
+      "DevName": "SnowPeak",
+      "GameID": 31,
+      "Description": "From atop their ancient towers, the Scryers of old looked down on the little people of the world and peered into the deepest of their secrets. Through their arcane devices, they gained incredible insight for centuries, not least the location of the Blood Reliquaries, thought lost at the downfall of the first Heskyrian Dynasty, thousands of years ago.\n\nNow the resurgent Heskyr lay siege to the ruined tower, seeking the long-lost knowledge of the Scryers; the final locations of the last remaining Blood Reliquaries that will bring about the triumphant resurgence of the Blood Order.",
+      "LevelType": "Adventure",
+      "MinimumDifficulty": null,
+      "MaximumDifficulty": null,
+      "QualifierTime": 807.0,
+      "QualifierTimeHT": "13:27",
+      "RequiredScoreToComplete": 180,
+      "MaxPlayers": 4,
+      "MinimumHeroRankRequired": null,
+      "IsSeasonalPinnacle": false,
+      "Mobs": [
+        {
+          "MobID": 15,
+          "MobName": "Coldbrine Fiend"
+        },
+        {
+          "MobID": 152,
+          "MobName": "Ice Shardling"
+        },
+        {
+          "MobID": 154,
+          "MobName": "Greater Ice Elemental"
+        },
+        {
+          "MobID": 155,
+          "MobName": "Frozen Remnant"
+        },
+        {
+          "MobID": 160,
+          "MobName": "Spellbound Golem"
+        },
+        {
+          "MobID": 161,
+          "MobName": "Ice Shardling"
+        },
+        {
+          "MobID": 162,
+          "MobName": "Tundra Stalker"
+        },
+        {
+          "MobID": 163,
+          "MobName": "Deceitful Scholar"
+        },
+        {
+          "MobID": 164,
+          "MobName": "Eldrin Sentinel"
+        },
+        {
+          "MobID": 165,
+          "MobName": "Eldrin Recruit"
+        },
+        {
+          "MobID": 166,
+          "MobName": "Blade of Cithrel"
+        },
+        {
+          "MobID": 167,
+          "MobName": "Corrupter"
+        },
+        {
+          "MobID": 313,
+          "MobName": "Glacial Bear"
+        },
+        {
+          "MobID": 314,
+          "MobName": "Dire Wolf"
+        },
+        {
+          "MobID": 315,
+          "MobName": "Overlord Varux"
+        },
+        {
+          "MobID": 317,
+          "MobName": "Sanguine Crusher"
+        },
+        {
+          "MobID": 331,
+          "MobName": "Sanguine Disciple"
+        },
+        {
+          "MobID": 332,
+          "MobName": "Stalking Grim"
+        },
+        {
+          "MobID": 333,
+          "MobName": "Heskyr Zealot"
+        },
+        {
+          "MobID": 334,
+          "MobName": "Heskyr Brood"
+        },
+        {
+          "MobID": 336,
+          "MobName": "Heskyr Magus"
+        }
+      ]
     }
   },
   "DungeonModifiers": {
@@ -1027,7 +1971,10 @@
       "MythicForest": 708.0,
       "ElfMines": 738.0,
       "SpiderForest": 812.0,
-      "Stronghold": 600.0
+      "Stronghold": 600.0,
+      "MoorCastle": 900.0,
+      "SandTomb": 1700.0,
+      "SnowPeak": 807.0
     },
     "PenaltyModel": {
       "Source": "Reversed using FSL data",
@@ -1120,7 +2067,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -1169,7 +2116,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -1357,7 +2304,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -1476,7 +2423,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -1691,7 +2638,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -1835,7 +2782,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -2050,7 +2997,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -2194,7 +3141,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -2493,7 +3440,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -2609,7 +3556,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -2873,7 +3820,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -2989,7 +3936,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -3253,7 +4200,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -3374,7 +4321,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -3668,7 +4615,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -3784,7 +4731,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -4048,7 +4995,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -4169,7 +5116,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -4433,7 +5380,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -4549,7 +5496,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -4843,7 +5790,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -4964,7 +5911,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -5228,7 +6175,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -5344,7 +6291,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -5608,7 +6555,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -5724,7 +6671,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -6023,7 +6970,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -6139,7 +7086,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -6403,7 +7350,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -6519,7 +7466,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -6783,7 +7730,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -6904,7 +7851,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -7198,7 +8145,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -7314,7 +8261,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -7562,7 +8509,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -7683,7 +8630,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -7947,7 +8894,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -8063,7 +9010,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -8357,7 +9304,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -8478,7 +9425,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -8742,7 +9689,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -8858,7 +9805,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -9122,7 +10069,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -9238,7 +10185,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -9537,7 +10484,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -9653,7 +10600,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -9917,7 +10864,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -10033,7 +10980,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -10297,7 +11244,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -10418,7 +11365,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -10712,7 +11659,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -10828,7 +11775,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -11092,7 +12039,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -11213,7 +12160,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -11477,7 +12424,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -11593,7 +12540,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -11887,7 +12834,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -12008,7 +12955,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -12272,7 +13219,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -12388,7 +13335,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -12652,7 +13599,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -12768,7 +13715,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -13067,7 +14014,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -13183,7 +14130,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -13447,7 +14394,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -13563,7 +14510,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -13827,7 +14774,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -13948,7 +14895,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -14242,7 +15189,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -14358,7 +15305,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -14622,7 +15569,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -14743,7 +15690,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -15007,7 +15954,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -15123,7 +16070,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -15417,7 +16364,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -15538,7 +16485,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -15802,7 +16749,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -15918,7 +16865,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -16182,7 +17129,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -16298,7 +17245,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -16597,7 +17544,7 @@
       "Dungeons": [
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -16713,7 +17660,7 @@
       "Dungeons": [
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -16977,7 +17924,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -17093,7 +18040,7 @@
         },
         {
           "ZoneID": 29,
-          "DisplayName": null,
+          "DisplayName": "Ruins of Regath",
           "IsCapstone": false,
           "DungeonModifiers": [
             {
@@ -17357,7 +18304,7 @@
         },
         {
           "ZoneID": 31,
-          "DisplayName": null,
+          "DisplayName": "Scryer's Peak",
           "IsCapstone": false,
           "DungeonModifiers": [
             {

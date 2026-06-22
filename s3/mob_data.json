@@ -347,16 +347,20 @@
     "DevKey": "VV_ColdbrineFiend",
     "DevZoneName": "VikingVillage",
     "FoundInZones": [
-      "Ransack of Drakheim"
+      "Ransack of Drakheim",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "SnowPeak",
       "VikingVillage"
     ],
     "FoundInZoneGameIDs": [
-      23
+      23,
+      31
     ],
     "FoundInZoneFSLIDs": [
-      50023
+      50023,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
@@ -5789,16 +5793,20 @@
     "DevKey": "IC_Elf_Shardling",
     "DevZoneName": "IceCave",
     "FoundInZones": [
-      "Wyrmheart"
+      "Wyrmheart",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
-      "IceCave"
+      "IceCave",
+      "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
-      8
+      8,
+      31
     ],
     "FoundInZoneFSLIDs": [
-      50008
+      50008,
+      50031
     ],
     "HasAIBC": false,
     "KillScore": null,
@@ -5908,19 +5916,23 @@
     "DevZoneName": "IceCave",
     "FoundInZones": [
       "Cithrel's Fall",
-      "Wyrmheart"
+      "Wyrmheart",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
       "FrozenKingdom",
-      "IceCave"
+      "IceCave",
+      "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
       7,
-      8
+      8,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50007,
-      50008
+      50008,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 8.0,
@@ -5986,22 +5998,26 @@
     "FoundInZones": [
       "Cithrel's Fall",
       "Wyrmheart",
-      "Ransack of Drakheim"
+      "Ransack of Drakheim",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
       "FrozenKingdom",
       "IceCave",
+      "SnowPeak",
       "VikingVillage"
     ],
     "FoundInZoneGameIDs": [
       7,
       8,
-      23
+      23,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50007,
       50008,
-      50023
+      50023,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 1.0,
@@ -6227,19 +6243,23 @@
     "DevZoneName": "FrozenKingdom",
     "FoundInZones": [
       "Cithrel's Fall",
-      "Wyrmheart"
+      "Wyrmheart",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
       "FrozenKingdom",
-      "IceCave"
+      "IceCave",
+      "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
       7,
-      8
+      8,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50007,
-      50008
+      50008,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 5.0,
@@ -6290,16 +6310,20 @@
     "DevKey": "FK_Elf_Shardling",
     "DevZoneName": "FrozenKingdom",
     "FoundInZones": [
-      "Cithrel's Fall"
+      "Cithrel's Fall",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
-      "FrozenKingdom"
+      "FrozenKingdom",
+      "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
-      7
+      7,
+      31
     ],
     "FoundInZoneFSLIDs": [
-      50007
+      50007,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 1.0,
@@ -6332,19 +6356,23 @@
     "DevZoneName": "FrozenKingdom",
     "FoundInZones": [
       "Cithrel's Fall",
-      "Wyrmheart"
+      "Wyrmheart",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
       "FrozenKingdom",
-      "IceCave"
+      "IceCave",
+      "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
       7,
-      8
+      8,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50007,
-      50008
+      50008,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
@@ -6383,19 +6411,23 @@
     "DevZoneName": "FrozenKingdom",
     "FoundInZones": [
       "Cithrel's Fall",
-      "Wyrmheart"
+      "Wyrmheart",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
       "FrozenKingdom",
-      "IceCave"
+      "IceCave",
+      "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
       7,
-      8
+      8,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50007,
-      50008
+      50008,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 5.0,
@@ -6435,19 +6467,23 @@
     "DevZoneName": "FrozenKingdom",
     "FoundInZones": [
       "Cithrel's Fall",
-      "Wyrmheart"
+      "Wyrmheart",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
       "FrozenKingdom",
-      "IceCave"
+      "IceCave",
+      "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
       7,
-      8
+      8,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50007,
-      50008
+      50008,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
@@ -6482,19 +6518,23 @@
     "DevZoneName": "FrozenKingdom",
     "FoundInZones": [
       "Cithrel's Fall",
-      "Wyrmheart"
+      "Wyrmheart",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
       "FrozenKingdom",
-      "IceCave"
+      "IceCave",
+      "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
       7,
-      8
+      8,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50007,
-      50008
+      50008,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 1.0,
@@ -6523,19 +6563,23 @@
     "DevZoneName": "FrozenKingdom",
     "FoundInZones": [
       "Cithrel's Fall",
-      "Wyrmheart"
+      "Wyrmheart",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
       "FrozenKingdom",
-      "IceCave"
+      "IceCave",
+      "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
       7,
-      8
+      8,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50007,
-      50008
+      50008,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
@@ -6573,16 +6617,20 @@
     "DevKey": "FK_Elf_Cleric",
     "DevZoneName": "FrozenKingdom",
     "FoundInZones": [
-      "Cithrel's Fall"
+      "Cithrel's Fall",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
-      "FrozenKingdom"
+      "FrozenKingdom",
+      "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
-      7
+      7,
+      31
     ],
     "FoundInZoneFSLIDs": [
-      50007
+      50007,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 5.0,
@@ -9180,7 +9228,10 @@
       "Urrak Markets",
       "Ransack of Drakheim",
       "Silken Hollow",
-      "Godfall Quarry"
+      "Godfall Quarry",
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -9195,7 +9246,10 @@
       21,
       23,
       24,
-      25
+      25,
+      29,
+      30,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -9209,7 +9263,10 @@
       50021,
       50023,
       50024,
-      50025
+      50025,
+      50029,
+      50030,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 0.0,
@@ -9260,7 +9317,10 @@
       "Urrak Markets",
       "Ransack of Drakheim",
       "Silken Hollow",
-      "Godfall Quarry"
+      "Godfall Quarry",
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -9275,7 +9335,10 @@
       21,
       23,
       24,
-      25
+      25,
+      29,
+      30,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -9289,7 +9352,10 @@
       50021,
       50023,
       50024,
-      50025
+      50025,
+      50029,
+      50030,
+      50031
     ],
     "HasAIBC": false,
     "KillScore": 0.0,
@@ -9326,7 +9392,10 @@
       "Urrak Markets",
       "Ransack of Drakheim",
       "Silken Hollow",
-      "Godfall Quarry"
+      "Godfall Quarry",
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -9341,7 +9410,10 @@
       21,
       23,
       24,
-      25
+      25,
+      29,
+      30,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -9355,7 +9427,10 @@
       50021,
       50023,
       50024,
-      50025
+      50025,
+      50029,
+      50030,
+      50031
     ],
     "HasAIBC": false,
     "KillScore": 0.0,
@@ -9392,7 +9467,10 @@
       "Urrak Markets",
       "Ransack of Drakheim",
       "Silken Hollow",
-      "Godfall Quarry"
+      "Godfall Quarry",
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -9407,7 +9485,10 @@
       21,
       23,
       24,
-      25
+      25,
+      29,
+      30,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -9421,7 +9502,10 @@
       50021,
       50023,
       50024,
-      50025
+      50025,
+      50029,
+      50030,
+      50031
     ],
     "HasAIBC": false,
     "KillScore": 0.0,
@@ -9458,7 +9542,10 @@
       "Urrak Markets",
       "Ransack of Drakheim",
       "Silken Hollow",
-      "Godfall Quarry"
+      "Godfall Quarry",
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -9473,7 +9560,10 @@
       21,
       23,
       24,
-      25
+      25,
+      29,
+      30,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -9487,7 +9577,10 @@
       50021,
       50023,
       50024,
-      50025
+      50025,
+      50029,
+      50030,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 20.0,
@@ -9547,7 +9640,10 @@
       "Urrak Markets",
       "Ransack of Drakheim",
       "Silken Hollow",
-      "Godfall Quarry"
+      "Godfall Quarry",
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -9562,7 +9658,10 @@
       21,
       23,
       24,
-      25
+      25,
+      29,
+      30,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -9576,7 +9675,10 @@
       50021,
       50023,
       50024,
-      50025
+      50025,
+      50029,
+      50030,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 20.0,
@@ -9635,7 +9737,10 @@
       "Urrak Markets",
       "Ransack of Drakheim",
       "Silken Hollow",
-      "Godfall Quarry"
+      "Godfall Quarry",
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -9650,7 +9755,10 @@
       21,
       23,
       24,
-      25
+      25,
+      29,
+      30,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -9664,7 +9772,10 @@
       50021,
       50023,
       50024,
-      50025
+      50025,
+      50029,
+      50030,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 20.0,
@@ -9720,7 +9831,10 @@
       "Urrak Markets",
       "Ransack of Drakheim",
       "Silken Hollow",
-      "Godfall Quarry"
+      "Godfall Quarry",
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -9735,7 +9849,10 @@
       21,
       23,
       24,
-      25
+      25,
+      29,
+      30,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -9749,7 +9866,10 @@
       50021,
       50023,
       50024,
-      50025
+      50025,
+      50029,
+      50030,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": null,
@@ -9789,7 +9909,10 @@
       "Urrak Markets",
       "Ransack of Drakheim",
       "Silken Hollow",
-      "Godfall Quarry"
+      "Godfall Quarry",
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -9804,7 +9927,10 @@
       21,
       23,
       24,
-      25
+      25,
+      29,
+      30,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -9818,7 +9944,10 @@
       50021,
       50023,
       50024,
-      50025
+      50025,
+      50029,
+      50030,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": null,
@@ -9858,7 +9987,10 @@
       "Urrak Markets",
       "Ransack of Drakheim",
       "Silken Hollow",
-      "Godfall Quarry"
+      "Godfall Quarry",
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -9873,7 +10005,10 @@
       21,
       23,
       24,
-      25
+      25,
+      29,
+      30,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -9887,7 +10022,10 @@
       50021,
       50023,
       50024,
-      50025
+      50025,
+      50029,
+      50030,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 0.0,
@@ -9916,16 +10054,20 @@
     "DevKey": "SP_PolarBear",
     "DevZoneName": "SnowPeak",
     "FoundInZones": [
-      "Ransack of Drakheim"
+      "Ransack of Drakheim",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "SnowPeak",
       "VikingVillage"
     ],
     "FoundInZoneGameIDs": [
-      23
+      23,
+      31
     ],
     "FoundInZoneFSLIDs": [
-      50023
+      50023,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 7.0,
@@ -9996,19 +10138,23 @@
     "DevZoneName": "SnowPeak",
     "FoundInZones": [
       "Stormwatch",
-      "Ransack of Drakheim"
+      "Ransack of Drakheim",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
       "NightPatrol",
+      "SnowPeak",
       "VikingVillage"
     ],
     "FoundInZoneGameIDs": [
       12,
-      23
+      23,
+      31
     ],
     "FoundInZoneFSLIDs": [
       50012,
-      50023
+      50023,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
@@ -10066,6 +10212,1807 @@
       "Control": {},
       "Defensive": {},
       "Mechanic": {}
+    }
+  },
+  "315": {
+    "FSLName": "Overlord Varux",
+    "MobType": "BOSS",
+    "CreatureType": null,
+    "DevName": "SP_BossMarcass",
+    "DevKey": "SP_BossMarcass",
+    "DevZoneName": "SnowPeak",
+    "FoundInZones": [
+      "Scryer's Peak"
+    ],
+    "PlacedInZones": [
+      "SnowPeak"
+    ],
+    "FoundInZoneGameIDs": [
+      31
+    ],
+    "FoundInZoneFSLIDs": [
+      50031
+    ],
+    "HasAIBC": true,
+    "KillScore": 0.0,
+    "SpiritPointValue": 45.0,
+    "KsSpEqual": false,
+    "DefaultBaseHealthMultiplier": 22.9463,
+    "Armor": null,
+    "Resist": null,
+    "DodgeChance": 0.05,
+    "Abilities": {
+      "Offensive": {
+        "Fatalistic Ritual": {
+          "DevName": "ChanneledPulsingDamage",
+          "InitialMinCooldown": "45.0",
+          "InitialMaxCooldown": "45.0",
+          "MinCooldown": "45.0",
+          "MaxCooldown": "45.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "TickInterval": "2.0",
+          "AbsorbMaxHealthPercent": "10.0",
+          "AbsorbMultiplierPerDifficultyLevel": "0.98",
+          "PrimaryAttributeCoefficient": "1.0",
+          "Orb.AbsorbDistance": "200.0",
+          "Orb.SuckInSpeed": "0.2",
+          "Orb.SuckInAcceleration": "60.0",
+          "DamagePerTickScaleIncrease": "0.15",
+          "LeapSpeed": "5000.0",
+          "LeapHeight": "400.0",
+          "MinLeapDistance": "500.0"
+        },
+        "Attack": {
+          "DevName": "MeleeAutoAttack",
+          "StrengthCoefficient": "3.5",
+          "MinCooldown": "3.0",
+          "MaxCooldown": "3.0",
+          "MaxRange": "500.0"
+        },
+        "Blood Link": {
+          "DevName": "PairUp",
+          "InitialMinCooldown": "8.0",
+          "InitialMaxCooldown": "8.0",
+          "MinCooldown": "30.0",
+          "MaxCooldown": "30.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "Radius": "5000.0",
+          "CastTime": "2.0",
+          "StrengthCoefficient": "0.02",
+          "Spread": "0.2",
+          "TickInterval": "2.0",
+          "Duration": "12.0",
+          "DamageDuration": "\" 10.0",
+          "DistancePerStack": "200.0",
+          "MaxStackCount": "40.0",
+          "BreakDistance": "2000.0",
+          "StunDuration": "4.0",
+          "BreakPrimaryAttributeCoefficient": "10.0"
+        },
+        "Grim Rush": {
+          "DevName": "Stampede",
+          "InitialMinCooldown": "15.0",
+          "InitialMaxCooldown": "15.0",
+          "MinCooldown": "40.0",
+          "MaxCooldown": "40.0",
+          "MinPostAbilityPadding": "1.5",
+          "MaxPostAbilityPadding": "1.5",
+          "WaveCount": "2.0",
+          "DelayBetweenWaves": "6.0",
+          "CastTime": "3.5",
+          "MoveSpeed": "8000.0",
+          "KnockbackStrength": "2000.0",
+          "HitboxRadius": "125.0",
+          "Bleed.StrengthCoefficient": "2.32",
+          "Bleed.Spread": "0.2",
+          "Bleed.TickInterval": "2.0",
+          "Bleed.Duration": "12.0"
+        }
+      },
+      "Control": {},
+      "Defensive": {
+        "Sanguine Brand": {
+          "DevName": "TankBuster",
+          "StrengthCoefficient": "9.891",
+          "Spread": "0.2",
+          "MaxRange": "500.0",
+          "InitialMinCooldown": "13.0",
+          "InitialMaxCooldown": "13.0",
+          "MinCooldown": "15.0",
+          "MaxCooldown": "15.0",
+          "CastTime": "1.0",
+          "Debuff.IncomingDamageMultiplier": "1.5",
+          "Debuff.Duration": "20.0",
+          "Debuff.MaxStackCount": "100.0"
+        }
+      },
+      "Mechanic": {
+        "Rain of Blood": {
+          "DevName": "BloodRain",
+          "InitialCooldown": "10.0",
+          "Cooldown": "15.0",
+          "NumberOfVolleys": "6.0",
+          "OrbsPerVolley": "5.0",
+          "DelayBetweenVolleys": "4.0",
+          "DelayBetweenOrb": "0.15",
+          "MinSpawnDistanceFromCenter": "800.0",
+          "Orb.Radius": "125.0",
+          "Orb.FallTime": "0.55",
+          "Buff.Duration": "15.0",
+          "Buff.MaxStackCount": "100.0",
+          "Buff.DamageScale": "1.05",
+          "Volatile.Delay": "15.0",
+          "Volatile.Acceleration": "200.0",
+          "Volatile.MoveSpeed": "350.0",
+          "Volatile.UpdateTargetLocationInterval": "2.0",
+          "Volatile.StrengthCoefficient": "4.0"
+        },
+        "Crimson Crucifix": {
+          "DevName": "MultiCone",
+          "InitialMinCooldown": "20.0",
+          "InitialMaxCooldown": "20.0",
+          "MinCooldown": "20.0",
+          "MaxCooldown": "20.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "CastTime": "3.0",
+          "Radius": "4000.0",
+          "PrimaryAttributeCoefficient": "1.75",
+          "DelayBetweenHits": "0.25",
+          "TargetCount": "3.0"
+        }
+      }
+    }
+  },
+  "316": {
+    "FSLName": "Sanguine Echo",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "ST_SmallBloodElemental",
+    "DevKey": "ST_SmallBloodElemental",
+    "DevZoneName": "SandTomb",
+    "FoundInZones": [
+      "Ruins of Regath",
+      "Xul, The Blood Monolith"
+    ],
+    "PlacedInZones": [
+      "MoorCastle",
+      "SandTomb"
+    ],
+    "FoundInZoneGameIDs": [
+      29,
+      30
+    ],
+    "FoundInZoneFSLIDs": [
+      50029,
+      50030
+    ],
+    "HasAIBC": true,
+    "KillScore": 2.0,
+    "SpiritPointValue": 2.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 1.291,
+    "Armor": 0.0,
+    "Resist": 0.0,
+    "PassiveMoveSpeed": 1.1,
+    "Abilities": {
+      "Offensive": {},
+      "Control": {},
+      "Defensive": {},
+      "Mechanic": {
+        "Blood Bolt": {
+          "DevName": "CastProjectile",
+          "InitialMinCooldown": "5.0",
+          "InitialMaxCooldown": "12.0",
+          "MinCooldown": "20.0",
+          "MaxCooldown": "20.0",
+          "InterruptCooldown": "17.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "MaxRange": "4000.0",
+          "CastTime": "2.0",
+          "PrimaryAttributeCoefficient": "1.84"
+        },
+        "SpawnAnimation": {
+          "DevName": "SpawnAnimation"
+        },
+        "SpawnBlood": {
+          "DevName": "SpawnBlood",
+          "BloodAmount": "2.0",
+          "BlobsToSpawn": "1.0"
+        },
+        "Shake It Off": {
+          "DevName": "SpinProjectiles",
+          "InitialMinCooldown": "6.0",
+          "InitialMaxCooldown": "21.0",
+          "MinCooldown": "30.0",
+          "MaxCooldown": "30.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "InterruptCooldown": "24.0",
+          "Duration": "8.0",
+          "TickInterval": "0.2",
+          "PieSlices": "6.0",
+          "MinDistance": "140.0",
+          "MaxDistance": "3000.0",
+          "Radius": "200.0",
+          "AirTime": "2.0",
+          "MinDistanceBetweenImpacts": "250.0",
+          "PrimaryAttributeCoefficient": "1.79"
+        }
+      }
+    }
+  },
+  "317": {
+    "FSLName": "Sanguine Crusher",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "ST_SanguineCrusher",
+    "DevKey": "ST_SanguineCrusher",
+    "DevZoneName": "SandTomb",
+    "FoundInZones": [
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
+    ],
+    "PlacedInZones": [
+      "SandTomb",
+      "SnowPeak"
+    ],
+    "FoundInZoneGameIDs": [
+      30,
+      31
+    ],
+    "FoundInZoneFSLIDs": [
+      50030,
+      50031
+    ],
+    "HasAIBC": true,
+    "KillScore": 6.0,
+    "SpiritPointValue": 6.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 6.156,
+    "Armor": 0.0,
+    "Resist": 0.0,
+    "PassiveMoveSpeed": 1.0,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "MeleeAutoAttack",
+          "StrengthCoefficient": "3.0",
+          "MinCooldown": "2.3",
+          "MaxCooldown": "2.3",
+          "MaxRange": "500.0"
+        }
+      },
+      "Control": {
+        "Sunder Earth": {
+          "DevName": "Knockback",
+          "InitialMinCooldown": "15.0",
+          "InitialMaxCooldown": "15.0",
+          "MinCooldown": "18.0",
+          "MaxCooldown": "18.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "Cas1Time": "3.0",
+          "Radius": "6000.0",
+          "KnockbackStrength": "1200.0",
+          "StrengthCoefficient": "2.19"
+        }
+      },
+      "Defensive": {},
+      "Mechanic": {
+        "Pulverize": {
+          "DevName": "TankSlam",
+          "InitialMinCooldown": "5.0",
+          "InitialMaxCooldown": "8.0",
+          "MinCooldown": "12.0",
+          "MaxCooldown": "12.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "CastTime": "1.5",
+          "MaxRange": "650.0",
+          "Radius": "800.0",
+          "StrengthCoefficient": "5.5"
+        }
+      }
+    }
+  },
+  "318": {
+    "FSLName": "Xul’vorith, Sentinel of the Bloodbound Gate",
+    "MobType": "BOSS",
+    "CreatureType": null,
+    "DevName": "ST_BossGatekeeper",
+    "DevKey": "ST_BossGatekeeper",
+    "DevZoneName": "SandTomb",
+    "FoundInZones": [
+      "Xul, The Blood Monolith"
+    ],
+    "PlacedInZones": [
+      "SandTomb"
+    ],
+    "FoundInZoneGameIDs": [
+      30
+    ],
+    "FoundInZoneFSLIDs": [
+      50030
+    ],
+    "HasAIBC": true,
+    "KillScore": null,
+    "SpiritPointValue": null,
+    "KsSpEqual": false,
+    "DefaultBaseHealthMultiplier": null,
+    "Armor": null,
+    "Resist": null,
+    "Abilities": {
+      "Offensive": {
+        "MeleeAutoAttack": {
+          "DevName": "MeleeAutoAttack",
+          "InitialMinCooldown": "1.0",
+          "InitialMaxCooldown": "1.0",
+          "MinCooldown": "3.0",
+          "MaxCooldown": "3.0",
+          "PrimaryAttributeCoefficient": "3.9"
+        },
+        "MultiCastedMeleeStrike": {
+          "DevName": "MultiCastedMeleeStrike",
+          "NumCasts": "3.0",
+          "CastingDuration": "1.0",
+          "FinalCastingDuration": "2.0",
+          "InitialMinCooldown": "10.0",
+          "InitialMaxCooldown": "10.0",
+          "MinCooldown": "15.0",
+          "MaxCooldown": "15.0",
+          "MaxRange": "850.0",
+          "TickDamage.PrimaryAttributeCoefficient": "4.5",
+          "Debuff.IncomingDamageBonus": "1.1"
+        },
+        "TankCone": {
+          "DevName": "TankCone",
+          "InitialMinCooldown": "35.0",
+          "InitialMaxCooldown": "35.0",
+          "MinCooldown": "15.0",
+          "MaxCooldown": "15.0",
+          "CastTime": "2.5",
+          "MaxRadius": "850.0",
+          "MinRadius": "0.0",
+          "Angle": "90.0",
+          "Height": "500.0",
+          "MaxRange": "400.0",
+          "Damage.PrimaryAttributeCoefficient": "13.0",
+          "DestroyConduitBuff.DamageScalePerStack": "1.20",
+          "DestroyConduitBuff.EmpoweredConduitDamageScalePerStack": "1.25",
+          "DestroyConduitBuff.EmpoweredHasteMultiplierPerStack": "1.1"
+        }
+      },
+      "Control": {
+        "PullAndCastedAoe": {
+          "DevName": "PullAndCastedAoe",
+          "InitialMinCooldown": "20.0",
+          "InitialMaxCooldown": "20.0",
+          "MinCooldown": "55.0",
+          "MaxCooldown": "55.0",
+          "Pull.MaxRange": "8000.0",
+          "Pull.PullTime": "0.5",
+          "Pull.MinimumDistance": "300.0",
+          "Aoe.CastTime": "2.5",
+          "Aoe.Radius": "1000.0",
+          "Aoe.PrimaryAttributeCoefficient": "20.0"
+        }
+      },
+      "Defensive": {},
+      "Mechanic": {}
+    }
+  },
+  "319": {
+    "FSLName": "Han-Eth, Sentry of Xul",
+    "MobType": "BOSS",
+    "CreatureType": null,
+    "DevName": "ST_BossDefenseEye",
+    "DevKey": "ST_BossDefenseEye",
+    "DevZoneName": "SandTomb",
+    "FoundInZones": [
+      "Xul, The Blood Monolith"
+    ],
+    "PlacedInZones": [
+      "SandTomb"
+    ],
+    "FoundInZoneGameIDs": [
+      30
+    ],
+    "FoundInZoneFSLIDs": [
+      50030
+    ],
+    "HasAIBC": true,
+    "KillScore": 0.0,
+    "SpiritPointValue": 45.0,
+    "KsSpEqual": false,
+    "DefaultBaseHealthMultiplier": 36.5951,
+    "Armor": 0.0,
+    "Resist": 0.0,
+    "PassiveMoveSpeed": 1.0,
+    "Abilities": {
+      "Offensive": {
+        "Judgement": {
+          "DevName": "Beams",
+          "InitialMinCooldown": "22.0",
+          "InitialMaxCooldown": "22.0",
+          "MinCooldown": "40.0",
+          "MaxCooldown": "40.0",
+          "MinPostAbilityPadding": "0.5",
+          "MaxPostAbilityPadding": "0.5",
+          "DebuffTickInterval": "1.0",
+          "IntellectCoefficient": "9.21",
+          "LifeSpan": "10.0",
+          "RotationFactor": "0.45",
+          "BeamLength": "3100.0",
+          "CastTime": "2.0",
+          "StartChargeUpDelay": "0.5",
+          "ChargeUpDuration": "3.5",
+          "BeamWidth": "200.0",
+          "Hard.IncreasingStacks.Debuff.Period": "2.0",
+          "Hard.IncreasingStacks.Debuff.Damage.PrimaryAttributeCoefficient": "0.25",
+          "ChannelingDuration": "4.0",
+          "TickInterval": "3.0",
+          "PrimaryAttributeCoefficient": "4.0",
+          "PlayerDamageMultAddedPerTick": "0.02",
+          "SelfRemainingHealthReductionPerTick": "0.1",
+          "Spread": "0.0",
+          "MaxRange": "10000.0"
+        },
+        "Annihilation Protocol": {
+          "DevName": "RotatingCross",
+          "InitialMinCooldown": "22.0",
+          "InitialMaxCooldown": "22.0",
+          "MinCooldown": "40.0",
+          "MaxCooldown": "40.0",
+          "MinPostAbilityPadding": "0.5",
+          "MaxPostAbilityPadding": "0.5",
+          "DebuffTickInterval": "1.0",
+          "IntellectCoefficient": "9.21",
+          "LifeSpan": "10.0",
+          "RotationFactor": "0.45",
+          "BeamLength": "3100.0",
+          "CastTime": "3.0",
+          "StartChargeUpDelay": "0.5",
+          "ChargeUpDuration": "3.5",
+          "BeamWidth": "200.0",
+          "Hard.IncreasingStacks.Debuff.Period": "2.0",
+          "Hard.IncreasingStacks.Debuff.Damage.PrimaryAttributeCoefficient": "0.25"
+        }
+      },
+      "Control": {},
+      "Defensive": {
+        "Draw Blood": {
+          "DevName": "AbsorbAdds",
+          "InitialMinCooldown": "90.0",
+          "InitialMaxCooldown": "90.0",
+          "MinCooldown": "45.0",
+          "MaxCooldown": "45.0",
+          "MinPostAbilityPadding": "0.5",
+          "MaxPostAbilityPadding": "0.5",
+          "MaxAbsorbChannelDuration": "45.0"
+        },
+        "Vein Seeds": {
+          "DevName": "ApplyDelayedAoePlacementDebuffToAll",
+          "InitialMinCooldown": "15.0",
+          "InitialMaxCooldown": "15.0",
+          "MinCooldown": "35.0",
+          "MaxCooldown": "35.0",
+          "CastingDuration": "2.0",
+          "Debuff.Duration": "5.0"
+        },
+        "Palace Response Unit": {
+          "DevName": "SpawnAdds",
+          "TimeUntillFirstBloodCreationWave": "10.0",
+          "TimeBetweenBloodCreationWaves": "35.0",
+          "NextWaveDelayIfAllKilled": "3.0",
+          "HealthReductionOnAddDeath.BloodBrute": "0.25",
+          "HealthReductionOnAddDeath.BloodCreation": "0.00",
+          "HealthReductionOnAddDeath.BloodHound": "0.10",
+          "HealthReductionOnAddDeath.BloodGrunt": "0.025"
+        }
+      },
+      "Mechanic": {
+        "Summon Creations": {
+          "DevName": "CastSpawnBloodCreation",
+          "InitialMinCooldown": "25.0",
+          "InitialMaxCooldown": "25.0",
+          "MinCooldown": "60.0",
+          "MaxCooldown": "60.0",
+          "CastDuration": "15.0",
+          "Pool.NumSmallPools": "12.0",
+          "Pool.NumBigPools": "3.0",
+          "Pool.SmallRadius": "250.0",
+          "Pool.BigRadius": "500.0",
+          "BigPool.SquishTime": "3.0",
+          "Pool.SpawnDistanceMin": "1000.0",
+          "Pool.SpawnDistanceMax": "2900.0"
+        }
+      }
+    },
+    "Summons": {
+      "ST_BloodBrute": {
+        "GameID": 325,
+        "FSLName": "Crimson Abomination",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "ST_BloodBrute",
+        "DevKey": "ST_BloodBrute",
+        "KillScore": 0.0,
+        "SpiritPointValue": 5.0,
+        "KsSpEqual": false,
+        "DefaultBaseHealthMultiplier": 8.345,
+        "Armor": 0.0,
+        "Resist": 0.0,
+        "PassiveMoveSpeed": 1.0,
+        "Abilities": {
+          "Offensive": {
+            "Attack": {
+              "DevName": "MeleeAutoAttack",
+              "Cooldown": "4.2",
+              "MaxRange": "500.0",
+              "PrimaryAttributeCoefficient": "4.49"
+            }
+          },
+          "Control": {},
+          "Defensive": {
+            "Perish": {
+              "DevName": "TankSlam",
+              "Cooldown": "4.2",
+              "MaxRange": "500.0",
+              "PrimaryAttributeCoefficient": "4.49",
+              "InitialMinCooldown": "10.0",
+              "InitialMaxCooldown": "10.0",
+              "MinCooldown": "10.0",
+              "MaxCooldown": "10.0",
+              "MinPostAbilityPadding": "0.5",
+              "MaxPostAbilityPadding": "0.5",
+              "IncreaseDamageTakenDebuff.Duration": "5.0",
+              "IncreaseDamageTakenDebuff.PercentageDamageBonus": "0.01"
+            }
+          },
+          "Mechanic": {
+            "SpawnAnimation": {
+              "DevName": "SpawnAnimation"
+            },
+            "Perish Pulse": {
+              "DevName": "TankSlamAoe",
+              "InitialMinCooldown": "5.0",
+              "InitialMaxCooldown": "5.0",
+              "MinCooldown": "5.0",
+              "MaxCooldown": "5.0",
+              "MinPostAbilityPadding": "1.0",
+              "MaxPostAbilityPadding": "1.0",
+              "CastTime": "2.0",
+              "MaxRange": "900.0",
+              "Radius": "900.0",
+              "Angle": "90.0",
+              "Height": "1000.0",
+              "PrimaryAttributeCoefficient": "13.72"
+            }
+          }
+        }
+      },
+      "ST_BloodCreation": {
+        "GameID": 324,
+        "FSLName": "Clot Spawn",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "ST_BloodCreation",
+        "DevKey": "ST_BloodCreation",
+        "KillScore": 0.0,
+        "SpiritPointValue": 5.0,
+        "KsSpEqual": false,
+        "DefaultBaseHealthMultiplier": 0.34,
+        "Armor": 0.0,
+        "Resist": 0.0,
+        "PassiveMoveSpeed": 0.101,
+        "Abilities": {
+          "Offensive": {
+            "Attack": {
+              "DevName": "MeleeAutoAttack",
+              "MaxRange": "150.0",
+              "PrimaryAttributeCoefficient": "2.34"
+            }
+          },
+          "Control": {},
+          "Defensive": {},
+          "Mechanic": {}
+        }
+      },
+      "ST_BloodCreationBig": {
+        "GameID": 323,
+        "FSLName": "Greater Clot Spawn",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "ST_BloodCreationBig",
+        "DevKey": "ST_BloodCreationBig",
+        "KillScore": 0.0,
+        "SpiritPointValue": 5.0,
+        "KsSpEqual": false,
+        "DefaultBaseHealthMultiplier": 1.36,
+        "Armor": 0.0,
+        "Resist": 0.0,
+        "PassiveMoveSpeed": 0.152,
+        "Abilities": {
+          "Offensive": {
+            "Attack": {
+              "DevName": "MeleeAutoAttack",
+              "MaxRange": "450.0",
+              "PrimaryAttributeCoefficient": "10.98"
+            }
+          },
+          "Control": {},
+          "Defensive": {},
+          "Mechanic": {}
+        }
+      }
+    }
+  },
+  "321": {
+    "FSLName": "Vel’korath the Sanctified, Vision of the Covenant",
+    "MobType": "BOSS",
+    "CreatureType": null,
+    "DevName": "ST_BossArbiter",
+    "DevKey": "ST_BossArbiter",
+    "DevZoneName": "SandTomb",
+    "FoundInZones": [
+      "Xul, The Blood Monolith"
+    ],
+    "PlacedInZones": [
+      "SandTomb"
+    ],
+    "FoundInZoneGameIDs": [
+      30
+    ],
+    "FoundInZoneFSLIDs": [
+      50030
+    ],
+    "HasAIBC": true,
+    "KillScore": 0.0,
+    "SpiritPointValue": 45.0,
+    "KsSpEqual": false,
+    "DefaultBaseHealthMultiplier": 40.3967,
+    "Armor": null,
+    "Resist": null,
+    "Agility": 100.0,
+    "Intellect": 100.0,
+    "Strength": 100.0,
+    "Abilities": {
+      "Offensive": {
+        "Marching Vessels": {
+          "DevName": "ArenaProjectiles",
+          "InitialDelay": "6.0",
+          "InitialDelayMaze": "4.0",
+          "WarningTime": "5.0",
+          "WarningTimeMaze": "2.5",
+          "CooldownTime": "15.0",
+          "CooldownTimeMaze": "7.0",
+          "ProjectileSpeed": "800.0",
+          "ProjectileSpeedMaze": "500.0",
+          "StrengthCoefficient": "14.0",
+          "TickInterval": "0.3",
+          "Dot.StrengthCoefficient": "6.0",
+          "Dot.Duration": "8.0",
+          "Dot.TickInterval": "2.0"
+        },
+        "Sinister Vessels": {
+          "DevName": "BeamIllusions",
+          "InitialDelay": "25.0",
+          "CooldownTime": "25.0",
+          "Beam.InitialCooldown": "0.75",
+          "Beam.CastTime": "5.0",
+          "Beam.Width": "600.0",
+          "Beam.TargetPrimayDamageCoefficient": "4.5",
+          "Beam.AoePrimayDamageCoefficient": "11.5",
+          "Dot.Duration": "8.0",
+          "Dot.TickInterval": "2.0",
+          "Dot.StrengthCoefficient": "1.0"
+        },
+        "Attack": {
+          "DevName": "MeleeAutoAttack",
+          "StrengthCoefficient": "2.2",
+          "MinCooldown": "2.3",
+          "MaxCooldown": "2.3",
+          "MaxRange": "800.0"
+        },
+        "Blood Sermon": {
+          "DevName": "Runes",
+          "InitialMinCooldown": "30.0",
+          "InitialMaxCooldown": "30.0",
+          "MinCooldown": "90.0",
+          "MaxCooldown": "90.0",
+          "MinPostAbilityPadding": "0.5",
+          "MaxPostAbilityPadding": "0.5",
+          "InteractCastTime": "1.0",
+          "CastTime": "1.5",
+          "ChannelingDuration": "8.0",
+          "Radius": "500.0",
+          "Dot.Duration": "10.0",
+          "Dot.StrengthCoefficient": "4.0",
+          "Dot.TickInterval": "2.0",
+          "Buff.Duration": "10.0",
+          "Buff.HasteMultiplier": "1.15",
+          "SelfBuff.Duration": "8.0",
+          "SelfBuff.IncomingDamageMultiplier": "0.01"
+        }
+      },
+      "Control": {},
+      "Defensive": {
+        "One True Path": {
+          "DevName": "Maze",
+          "TickInterval": "2.0",
+          "HealthFractionTrigger1": "0.70",
+          "HealthFractionTrigger2": "0.50",
+          "Explosion.StrengthCoefficient": "4.0",
+          "Debuff.Duration": "20.0",
+          "Debuff.IncomingDamageMultiplier": "1.25",
+          "Goal.ActivationRadius": "500.0",
+          "Goal.ActivationDelay": "1.0",
+          "PlayerAoe.Radius": "300.0",
+          "PlayerAoe.StrengthCoefficient": "4.0"
+        },
+        "Contrite": {
+          "DevName": "TankSlam",
+          "InitialMinCooldown": "15.0",
+          "InitialMaxCooldown": "15.0",
+          "MinCooldown": "15.0",
+          "MaxCooldown": "15.0",
+          "UsesPerFlurry": "4.0",
+          "CooldownBetweenUses": "3.0",
+          "MaxRange": "850.0",
+          "StrengthCoefficient": "3.5",
+          "Debuff.Duration": "6.0",
+          "Debuff.IncomingDamageMultiplier": "1.2"
+        }
+      },
+      "Mechanic": {
+        "Discovered True Sight": {
+          "DevName": "ChannelTruesighter",
+          "InitialMinCooldown": "20.0",
+          "InitialMaxCooldown": "20.0",
+          "MinCooldown": "20.0",
+          "MaxCooldown": "20.0",
+          "MinPostAbilityPadding": "0.5",
+          "MaxPostAbilityPadding": "0.5",
+          "Duration": "5.0",
+          "TickInterval": "1.5",
+          "MaxRange": "5000.0",
+          "Radius": "500.0",
+          "StrengthCoefficient": "3.5"
+        },
+        "Hungering Vessels": {
+          "DevName": "CircleIllusions",
+          "InitialDelay": "20.0",
+          "CooldownTime": "40.0",
+          "SpawnCount": "2.0",
+          "DelayBetweenSpawns": "1.5",
+          "MinSpawnDistanceFromEachOther": "1400.0",
+          "Radius": "900.0",
+          "IllusionCastTime": "1.5",
+          "Duration": "12.05",
+          "Dot.PrimayDamageCoefficient": "2.0",
+          "Dot.TickInterval": "2.0",
+          "StepInside.PrimayDamageCoefficient": "2.5",
+          "StepInsideDot.PrimayDamageCoefficient": "2.5",
+          "StepInsideDot.TickInterval": "2.0"
+        },
+        "Arena Paths": {
+          "DevName": "LavaFloor",
+          "InitialDelay": "2.0",
+          "PreIslandTime": "5.0",
+          "IslandTime": "10.0",
+          "PostIslandTime": "3.0",
+          "FinalPhase.PreIslandTime": "4.0",
+          "FinalPhase.IslandTime": "8.0",
+          "FinalPhase.PostIslandTime": "2.5",
+          "StrengthCoefficient": "4.0",
+          "TickInterval": "2.0"
+        },
+        "Repent": {
+          "DevName": "MazeNuke",
+          "TickInterval": "2.0",
+          "HealthFractionTrigger1": "0.70",
+          "HealthFractionTrigger2": "0.50",
+          "Explosion.StrengthCoefficient": "4.0",
+          "Debuff.Duration": "20.0",
+          "Debuff.IncomingDamageMultiplier": "1.25",
+          "Goal.ActivationRadius": "500.0",
+          "Goal.ActivationDelay": "1.0",
+          "PlayerAoe.Radius": "300.0",
+          "PlayerAoe.StrengthCoefficient": "4.0",
+          "CastTime": "30.0",
+          "StrengthCoefficient": "4.0",
+          "Dot.StrengthCoefficient": "4.0",
+          "Dot.TickInterval": "3.0",
+          "Dot.Duration": "21.0",
+          "Teleport.Duration": "1.0"
+        },
+        "Apotheosis": {
+          "DevName": "RandomImpactsAoe",
+          "Radius": "300.0",
+          "TickInterval": "0.35",
+          "StrengthCoefficient": "6.12",
+          "NumberOfSimultaneousSpawns": "2.0",
+          "ExplosionDelay": "2.0"
+        },
+        "Prevailing Arrogance": {
+          "DevName": "SingleEnemyEnrage",
+          "Buff.AttackSpeedMultiplier": "1.5",
+          "Buff.AutoAttackDamageMultiplier": "3.0",
+          "Buff.AddedCritChance": "1.0"
+        }
+      }
+    }
+  },
+  "326": {
+    "FSLName": "Heart of Rot",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "ST_BigBloodElemental",
+    "DevKey": "ST_BigBloodElemental",
+    "DevZoneName": "SandTomb",
+    "FoundInZones": [
+      "Ruins of Regath",
+      "Xul, The Blood Monolith"
+    ],
+    "PlacedInZones": [
+      "MoorCastle",
+      "SandTomb"
+    ],
+    "FoundInZoneGameIDs": [
+      29,
+      30
+    ],
+    "FoundInZoneFSLIDs": [
+      50029,
+      50030
+    ],
+    "HasAIBC": true,
+    "KillScore": 6.0,
+    "SpiritPointValue": 6.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 5.137,
+    "Armor": 0.0,
+    "Resist": 0.0,
+    "PassiveMoveSpeed": 1.1,
+    "Abilities": {
+      "Offensive": {
+        "Blood Boil": {
+          "DevName": "CastDot",
+          "InitialMinCooldown": "5.0",
+          "InitialMaxCooldown": "18.0",
+          "MinCooldown": "20.0",
+          "MaxCooldown": "20.0",
+          "MinPostAbilityPadding": "2.0",
+          "MaxPostAbilityPadding": "2.0",
+          "CastTime": "2.0",
+          "Duration": "9.0",
+          "TickInterval": "1.5",
+          "StrengthCoefficient": "1.25",
+          "MaxRange": "6000.0"
+        },
+        "Attack": {
+          "DevName": "MeleeAutoAttack",
+          "StrengthCoefficient": "2.7",
+          "MinCooldown": "2.3",
+          "MaxCooldown": "2.3",
+          "MaxRange": "500.0"
+        }
+      },
+      "Control": {},
+      "Defensive": {},
+      "Mechanic": {
+        "Consume": {
+          "DevName": "ChannelBeam",
+          "InitialMinCooldown": "12.0",
+          "InitialMaxCooldown": "25.0",
+          "MinCooldown": "25.0",
+          "MaxCooldown": "25.0",
+          "InterruptCooldown": "15.0",
+          "MinPostAbilityPadding": "2.0",
+          "MaxPostAbilityPadding": "2.0",
+          "Duration": "7.5",
+          "TickInterval": "1.25",
+          "PrimaryAttributeCoefficient": "5.0",
+          "MaxRange": "4000.0"
+        },
+        "SpawnAnimation": {
+          "DevName": "SpawnAnimation"
+        },
+        "SpawnBlood": {
+          "DevName": "SpawnBlood",
+          "BloodAmount": "5.0",
+          "BlobsToSpawn": "4.0"
+        }
+      }
+    }
+  },
+  "327": {
+    "FSLName": "Undying Champion",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "MC_WanderingGhostWarrior",
+    "DevKey": "MC_WanderingGhostWarrior",
+    "DevZoneName": "MoorCastle",
+    "FoundInZones": [
+      "Ruins of Regath"
+    ],
+    "PlacedInZones": [
+      "MoorCastle"
+    ],
+    "FoundInZoneGameIDs": [
+      29
+    ],
+    "FoundInZoneFSLIDs": [
+      50029
+    ],
+    "HasAIBC": true,
+    "KillScore": 2.0,
+    "SpiritPointValue": 2.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 2.675,
+    "Armor": null,
+    "Resist": null,
+    "Abilities": {
+      "Offensive": {
+        "Obliterate Life": {
+          "DevName": "Cone",
+          "InitialMinCooldown": "5.0",
+          "InitialMaxCooldown": "18.0",
+          "MinCooldown": "22.0",
+          "MaxCooldown": "22.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "CastTime": "2.0",
+          "MaxRange": "1000.0",
+          "MinRadius": "0.0",
+          "MaxRadius": "1800.0",
+          "Angle": "90.0",
+          "Height": "500.0",
+          "Damage.StrengthCoefficient": "7.21"
+        },
+        "Attack": {
+          "DevName": "MeleeAutoAttack",
+          "StrengthCoefficient": "2.47",
+          "MinCooldown": "2.6",
+          "MaxCooldown": "2.6",
+          "MaxRange": "500.0"
+        }
+      },
+      "Control": {},
+      "Defensive": {},
+      "Mechanic": {}
+    }
+  },
+  "328": {
+    "FSLName": "Meandering Acolyte",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "MC_WanderingGhostPriest",
+    "DevKey": "MC_WanderingGhostPriest",
+    "DevZoneName": "MoorCastle",
+    "FoundInZones": [
+      "Ruins of Regath"
+    ],
+    "PlacedInZones": [
+      "MoorCastle"
+    ],
+    "FoundInZoneGameIDs": [
+      29
+    ],
+    "FoundInZoneFSLIDs": [
+      50029
+    ],
+    "HasAIBC": true,
+    "KillScore": 2.0,
+    "SpiritPointValue": 2.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 2.245,
+    "Armor": null,
+    "Resist": null,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "MeleeAutoAttack",
+          "StrengthCoefficient": "2.0",
+          "MinCooldown": "2.3",
+          "MaxCooldown": "2.3",
+          "MaxRange": "500.0"
+        }
+      },
+      "Control": {},
+      "Defensive": {
+        "Final Prayer": {
+          "DevName": "BuffCircle",
+          "InitialMinCooldown": "10.0",
+          "InitialMaxCooldown": "25.0",
+          "MinCooldown": "25.0",
+          "MaxCooldown": "25.0",
+          "InterruptCooldown": "20.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "MaxRange": "3000.0",
+          "CastTime": "3.0",
+          "Radius": "600.0",
+          "Duration": "15.0",
+          "HasteMultiplier": "1.15"
+        },
+        "Unholy Restoration": {
+          "DevName": "Heal",
+          "InitialMinCooldown": "25.0",
+          "InitialMaxCooldown": "45.0",
+          "MinCooldown": "42.0",
+          "MaxCooldown": "42.0",
+          "InterruptCooldown": "19.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "CheckRadius": "2000.0",
+          "MaxRange": "3000.0",
+          "CastTime": "3.5",
+          "MaxHealthPercentForHeal": "80.0",
+          "HealPercent": "40.0"
+        }
+      },
+      "Mechanic": {
+        "Ghastly Nova": {
+          "DevName": "AoeExplosion",
+          "InitialMinCooldown": "18.0",
+          "InitialMaxCooldown": "38.0",
+          "MinCooldown": "30.0",
+          "MaxCooldown": "30.0",
+          "InterruptCooldown": "24.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "CastTime": "3.0",
+          "Radius": "4000.0",
+          "StrengthCoefficient": "6.78"
+        },
+        "Hollow Bolt": {
+          "DevName": "CastProjectile",
+          "InitialMinCooldown": "1.0",
+          "InitialMaxCooldown": "1.0",
+          "Cooldown": "0.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "MaxRange": "3000.0",
+          "CastTime": "2.0",
+          "IntCoefficient": "2.25"
+        }
+      }
+    }
+  },
+  "329": {
+    "FSLName": "Restless Protector",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "MC_WanderingGhostGuard",
+    "DevKey": "MC_WanderingGhostGuard",
+    "DevZoneName": "MoorCastle",
+    "FoundInZones": [
+      "Ruins of Regath"
+    ],
+    "PlacedInZones": [
+      "MoorCastle"
+    ],
+    "FoundInZoneGameIDs": [
+      29
+    ],
+    "FoundInZoneFSLIDs": [
+      50029
+    ],
+    "HasAIBC": true,
+    "KillScore": 2.0,
+    "SpiritPointValue": 2.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 3.412,
+    "Armor": null,
+    "Resist": null,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "MeleeAutoAttack",
+          "StrengthCoefficient": "2.12",
+          "MinCooldown": "2.3",
+          "MaxCooldown": "2.3",
+          "MaxRange": "500.0"
+        }
+      },
+      "Control": {},
+      "Defensive": {},
+      "Mechanic": {
+        "Restless Grasp": {
+          "DevName": "Slam",
+          "InitialMinCooldown": "5.0",
+          "InitialMaxCooldown": "35.0",
+          "MinCooldown": "45.0",
+          "MaxCooldown": "45.0",
+          "InterruptCooldown": "20.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "CastTime": "2.0",
+          "Radius": "800.0",
+          "StrengthCoefficient": "4.5",
+          "ImmobilizeDuration": "5.0"
+        }
+      }
+    }
+  },
+  "330": {
+    "FSLName": "Xurath, Fist of the Warden",
+    "MobType": "BOSS",
+    "CreatureType": null,
+    "DevName": "MC_BossGuardian",
+    "DevKey": "MC_BossGuardian",
+    "DevZoneName": "MoorCastle",
+    "FoundInZones": [
+      "Ruins of Regath"
+    ],
+    "PlacedInZones": [
+      "MoorCastle"
+    ],
+    "FoundInZoneGameIDs": [
+      29
+    ],
+    "FoundInZoneFSLIDs": [
+      50029
+    ],
+    "HasAIBC": true,
+    "KillScore": 0.0,
+    "SpiritPointValue": 45.0,
+    "KsSpEqual": false,
+    "DefaultBaseHealthMultiplier": 30.3967,
+    "Armor": 0.0,
+    "Resist": 0.0,
+    "CritChance": 0.0,
+    "PassiveMoveSpeed": 1.1,
+    "Abilities": {
+      "Offensive": {
+        "Cleave": {
+          "DevName": "AutoAttackMeleeCleave",
+          "PrimaryAttributeCoefficient": "4.2",
+          "MaxRange": "800.0",
+          "InitialMinCooldown": "1.0",
+          "InitialMaxCooldown": "1.0",
+          "MinCooldown": "3.0",
+          "MaxCooldown": "3.0",
+          "MinRadius": "50.0",
+          "MaxRadius": "1200.0",
+          "Angle": "120.0",
+          "Height": "600.0"
+        },
+        "Seek and Destroy": {
+          "DevName": "Charge",
+          "InitialMinCooldown": "10.0",
+          "InitialMaxCooldown": "10.0",
+          "MinCooldown": "20.0",
+          "MaxCooldown": "20.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "MaxRange": "8000.0",
+          "MinRange": "0.0",
+          "CastTime": "1.0",
+          "ChargeSpeed": "3000.0",
+          "Stage1DamageMultiplier": "1.3",
+          "PrimaryAttributeCoefficient": "1.88",
+          "Bleed.PrimaryAttributeCoefficient": "1.15",
+          "Bleed.TickInterval": "3.0",
+          "Bleed.Duration": "9.0"
+        },
+        "Searing Fissure": {
+          "DevName": "Soaks",
+          "InitialCooldown": "20.0",
+          "Cooldown": "30.0",
+          "SoakTime": "8.0",
+          "PuddlesPerVolley": "7.0",
+          "DelayBetweenPuddles": "0.1",
+          "DelayBetweenVolleys": "3.0",
+          "VolleyCount": "1.0",
+          "Radius": "200.0",
+          "Stage2PuddlesPerVolley": "12.0",
+          "Stage3DamageScale": "1.25",
+          "Stage2SoakTime": "8.0",
+          "Dot.TickInterval": "2.5",
+          "Dot.RemovalHealthFraction": "0.7",
+          "Dot.PrimaryAttributeCoefficient": "0.45",
+          "Damage.PrimaryAttributeCoefficient": "0.7"
+        },
+        "TickingDamageAllPlayers": {
+          "DevName": "TickingDamageAllPlayers",
+          "PrimaryAttribute.Stage.0": "0.3",
+          "PrimaryAttribute.Stage.1": "0.345",
+          "PrimaryAttribute.Stage.2": "0.39",
+          "PrimaryAttribute.Stage.3": "0.435",
+          "TickInterval": "1.0",
+          "Stage3MovementSpeedMultiplier": "0.5"
+        }
+      },
+      "Control": {},
+      "Defensive": {
+        "Unholy Hymn": {
+          "DevName": "Runes",
+          "Easy.TriggerHealthPercent1": "66.667",
+          "Easy.TriggerHealthPercent2": "33.333",
+          "Hard.TriggerHealthPercent1": "80.0",
+          "Hard.TriggerHealthPercent2": "60.0",
+          "Hard.TriggerHealthPercent3": "40.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "VanishDuration": "0.7",
+          "CastTime": "10.0",
+          "PrimaryAttributeCoefficient": "45.0",
+          "RuneDamageMultiplier": "0.01",
+          "BossBuff.IncomingDamageMultiplier": "0.01",
+          "PlayerBuff.DamageScale": "1.2",
+          "PlayerBuff.Duration": "10.0"
+        }
+      },
+      "Mechanic": {
+        "Crushing Darkness": {
+          "DevName": "TankSlam",
+          "InitialMinCooldown": "6.0",
+          "InitialMaxCooldown": "7.0",
+          "MinCooldown": "14.0",
+          "MaxCooldown": "14.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "MaxRange": "850.0",
+          "Radius": "800.0",
+          "CastTime": "2.0",
+          "PrimaryAttribute.Stage.0": "5.0",
+          "PrimaryAttribute.Stage.1": "5.0",
+          "PrimaryAttribute.Stage.2": "6.5",
+          "PrimaryAttribute.Stage.3": "6.5",
+          "Projectiles.InitialDelay": "2.0",
+          "Projectiles.DelayBetweenBursts": "1.0",
+          "Projectiles.Bursts.Stage.0": "0.0",
+          "Projectiles.Bursts.Stage.1": "1.0",
+          "Projectiles.Bursts.Stage.2": "1.0",
+          "Projectiles.Bursts.Stage.3": "4.0",
+          "Projectiles.Speed": "2000.0",
+          "Projectiles.Radius": "400.0",
+          "Projectiles.PrimaryAttributeCoefficient": "2.5"
+        }
+      }
+    }
+  },
+  "331": {
+    "FSLName": "Sanguine Disciple",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "MC_BloodSummoner",
+    "DevKey": "MC_BloodSummoner",
+    "DevZoneName": "MoorCastle",
+    "FoundInZones": [
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
+    ],
+    "PlacedInZones": [
+      "MoorCastle",
+      "SandTomb",
+      "SnowPeak"
+    ],
+    "FoundInZoneGameIDs": [
+      29,
+      30,
+      31
+    ],
+    "FoundInZoneFSLIDs": [
+      50029,
+      50030,
+      50031
+    ],
+    "HasAIBC": true,
+    "KillScore": 6.0,
+    "SpiritPointValue": 6.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 5.534,
+    "Armor": 0.0,
+    "Resist": 0.0,
+    "PassiveMoveSpeed": 1.3,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "AutoAttackMelee",
+          "PrimaryAttributeCoefficient": "1.43",
+          "MaxRange": "500.0",
+          "InitialMinCooldown": "1.0",
+          "InitialMaxCooldown": "1.0",
+          "MinCooldown": "2.7",
+          "MaxCooldown": "2.7"
+        }
+      },
+      "Control": {},
+      "Defensive": {
+        "Sanguine Ritual": {
+          "DevName": "ChannelSpawnBloodAnimation",
+          "InitialMinCooldown": "8.0",
+          "InitialMaxCooldown": "18.0",
+          "MinCooldown": "30.0",
+          "MaxCooldown": "30.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "MaxRange": "2000.0",
+          "Channel.Duration": "10.0",
+          "Channel.TickInterval": "1.0",
+          "Channel.PrimaryAttributeCoefficient": "3.0",
+          "AnimateBloodMaxHealthMultiplierPerTick": "1.05",
+          "SpawnDelay": "2.0"
+        }
+      },
+      "Mechanic": {
+        "CastSpawnBloodCreation": {
+          "DevName": "CastSpawnBloodCreation",
+          "InitialMinCooldown": "12.0",
+          "InitialMaxCooldown": "22.0",
+          "MinCooldown": "22.0",
+          "MaxCooldown": "22.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "MaxRange": "5000.0",
+          "CastDuration": "5.0",
+          "ChannelingDuration": "5.0",
+          "TickInterval": "1.5",
+          "PoolsPerTick": "2.0",
+          "Pool.NumPools": "6.0",
+          "Pool.SpawnDistanceMin": "400.0",
+          "Pool.SpawnDistanceMax": "800.0",
+          "Pool.SpawnDelay": "4.0",
+          "Pool.Radius": "200.0"
+        },
+        "SpawnBlood": {
+          "DevName": "SpawnBlood",
+          "BloodAmount": "5.0",
+          "BlobsToSpawn": "2.0"
+        }
+      }
+    },
+    "Summons": {
+      "MC_BloodAnimation": {
+        "GameID": 337,
+        "FSLName": "Sanguine Sybling",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "MC_BloodAnimation",
+        "DevKey": "MC_BloodAnimation",
+        "KillScore": 0.0,
+        "SpiritPointValue": 0.0,
+        "KsSpEqual": true,
+        "DefaultBaseHealthMultiplier": 1.034,
+        "Armor": 0.0,
+        "Resist": 0.0,
+        "PassiveMoveSpeed": 0.25,
+        "Abilities": {
+          "Offensive": {
+            "Attack": {
+              "DevName": "AutoAttackMelee",
+              "InitialMinCooldown": "1.0",
+              "InitialMaxCooldown": "1.0",
+              "MinCooldown": "3.0",
+              "MaxCooldown": "3.0",
+              "MinPostAbilityPadding": "0.0",
+              "MaxPostAbilityPadding": "0.0",
+              "MaxRange": "600.0",
+              "PrimaryAttributeCoefficient": "1.0"
+            },
+            "Blood Pulse": {
+              "DevName": "PassiveAoeDamageSelf",
+              "TickRate": "1.0",
+              "Aoe.Radius": "700.0",
+              "DamageMaxHealthCoefficient": "0.1"
+            }
+          },
+          "Control": {},
+          "Defensive": {},
+          "Mechanic": {
+            "MarkHighestThreat": {
+              "DevName": "MarkHighestThreat"
+            },
+            "Spawn": {
+              "DevName": "Spawn"
+            }
+          }
+        }
+      },
+      "ST_BloodCreation": {
+        "GameID": 324,
+        "FSLName": "Clot Spawn",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "ST_BloodCreation",
+        "DevKey": "ST_BloodCreation",
+        "KillScore": 0.0,
+        "SpiritPointValue": 5.0,
+        "KsSpEqual": false,
+        "DefaultBaseHealthMultiplier": 0.34,
+        "Armor": 0.0,
+        "Resist": 0.0,
+        "PassiveMoveSpeed": 0.101,
+        "Abilities": {
+          "Offensive": {
+            "Attack": {
+              "DevName": "MeleeAutoAttack",
+              "MaxRange": "150.0",
+              "PrimaryAttributeCoefficient": "2.34"
+            }
+          },
+          "Control": {},
+          "Defensive": {},
+          "Mechanic": {}
+        }
+      }
+    }
+  },
+  "332": {
+    "FSLName": "Stalking Grim",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "MC_BloodHound",
+    "DevKey": "MC_BloodHound",
+    "DevZoneName": "MoorCastle",
+    "FoundInZones": [
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
+    ],
+    "PlacedInZones": [
+      "MoorCastle",
+      "SandTomb",
+      "SnowPeak"
+    ],
+    "FoundInZoneGameIDs": [
+      29,
+      30,
+      31
+    ],
+    "FoundInZoneFSLIDs": [
+      50029,
+      50030,
+      50031
+    ],
+    "HasAIBC": true,
+    "KillScore": 2.5,
+    "SpiritPointValue": 2.5,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 1.9608,
+    "Armor": 0.0,
+    "Resist": 0.0,
+    "PassiveMoveSpeed": 1.3,
+    "Abilities": {
+      "Offensive": {
+        "Piercing Howl": {
+          "DevName": "CastedAoeDamageAndSilence",
+          "InitialMinCooldown": "12.0",
+          "InitialMaxCooldown": "55.0",
+          "MinCooldown": "85.0",
+          "MaxCooldown": "85.0",
+          "MinPostAbilityPadding": "0.3",
+          "MaxPostAbilityPadding": "0.3",
+          "CastingDuration": "3.0",
+          "Range.Radius": "4000.0",
+          "Damage.PrimaryAttributeCoefficient": "6.0",
+          "Silence.Duration": "3.0",
+          "GrowAndGlow.ScaleMultiplier": "1.2"
+        },
+        "Sanguine Claws": {
+          "DevName": "Cleave",
+          "InitialMinCooldown": "5.0",
+          "InitialMaxCooldown": "25.0",
+          "Cooldown": "32.0",
+          "Bleed.Duration": "8.0",
+          "Bleed.TickInterval": "3.0",
+          "Bleed.PrimaryAttributeCoefficient": "1.03",
+          "MaxRange": "300.0",
+          "Height": "600.0",
+          "MinRadius": "10.0",
+          "Angle": "120.0",
+          "MaxRadius": "700.0",
+          "Damage.PrimaryAttributeCoefficient": "2.0"
+        },
+        "Attack": {
+          "DevName": "MeleeAutoAttack",
+          "PrimaryAttributeCoefficient": "1.49",
+          "MinCooldown": "2.3",
+          "MaxCooldown": "2.3",
+          "MaxRange": "500.0"
+        }
+      },
+      "Control": {},
+      "Defensive": {},
+      "Mechanic": {
+        "Enrage": {
+          "DevName": "Enrage",
+          "DeathSenseRadius": "3000.0",
+          "HasteScalar": "1.1",
+          "DamageScaler": "1.1",
+          "SizeIncrease": "0.07",
+          "IncomingDamageMultiplier": "1.1"
+        },
+        "SpawnBlood": {
+          "DevName": "SpawnBlood",
+          "BloodAmount": "2.0",
+          "BlobsToSpawn": "1.0"
+        }
+      }
+    }
+  },
+  "333": {
+    "FSLName": "Heskyr Zealot",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "MC_BloodGuard",
+    "DevKey": "MC_BloodGuard",
+    "DevZoneName": "MoorCastle",
+    "FoundInZones": [
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
+    ],
+    "PlacedInZones": [
+      "MoorCastle",
+      "SandTomb",
+      "SnowPeak"
+    ],
+    "FoundInZoneGameIDs": [
+      29,
+      30,
+      31
+    ],
+    "FoundInZoneFSLIDs": [
+      50029,
+      50030,
+      50031
+    ],
+    "HasAIBC": true,
+    "KillScore": 4.0,
+    "SpiritPointValue": 4.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 2.953,
+    "Armor": 0.0,
+    "Resist": 0.0,
+    "PassiveMoveSpeed": 1.3,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "AutoAttack",
+          "DamageIntellectCoefficient": "1.49",
+          "MinCooldown": "2.3",
+          "MaxCooldown": "2.3",
+          "MaxRange": "500.0"
+        }
+      },
+      "Control": {},
+      "Defensive": {
+        "Frenzy": {
+          "DevName": "CastedBuffAllies",
+          "InitialMinCooldown": "10.0",
+          "InitialMaxCooldown": "35.0",
+          "InterruptCooldown": "22.0",
+          "MinCooldown": "30.0",
+          "MaxCooldown": "30.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "CastingDuration": "3.0",
+          "ApplicationRadius": "2000.0",
+          "Buff.Duration": "15.0",
+          "Buff.AdditiveDamageScaler": "1.20"
+        }
+      },
+      "Mechanic": {
+        "Twisting Slice": {
+          "DevName": "BladeProjectile",
+          "InitialMinCooldown": "8.0",
+          "InitialMaxCooldown": "18.0",
+          "MinCooldown": "24.0",
+          "MaxCooldown": "24.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "MaxRange": "3000.0",
+          "CastTime": "2.0",
+          "Speed": "3250.0",
+          "MaxTravelDistance": "2000.0",
+          "Radius": "200.0",
+          "StrengthCoefficient": "3.54",
+          "SpawnInFrontOffset": "200.0"
+        },
+        "SpawnBlood": {
+          "DevName": "SpawnBlood",
+          "BloodAmount": "2.0",
+          "BlobsToSpawn": "2.0"
+        }
+      }
+    }
+  },
+  "334": {
+    "FSLName": "Heskyr Brood",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "MC_BloodGrunt",
+    "DevKey": "MC_BloodGrunt",
+    "DevZoneName": "MoorCastle",
+    "FoundInZones": [
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
+    ],
+    "PlacedInZones": [
+      "MoorCastle",
+      "SandTomb",
+      "SnowPeak"
+    ],
+    "FoundInZoneGameIDs": [
+      29,
+      30,
+      31
+    ],
+    "FoundInZoneFSLIDs": [
+      50029,
+      50030,
+      50031
+    ],
+    "HasAIBC": true,
+    "KillScore": 1.5,
+    "SpiritPointValue": 1.5,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 1.7251,
+    "Armor": 0.0,
+    "Resist": 0.0,
+    "PassiveMoveSpeed": 1.3,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "MeleeAutoAttack",
+          "PrimaryAttributeCoefficient": "1.49",
+          "MinCooldown": "2.3",
+          "MaxCooldown": "2.3",
+          "MaxRange": "500.0"
+        }
+      },
+      "Control": {},
+      "Defensive": {
+        "Rabid Leap": {
+          "DevName": "Jump",
+          "InitialMinCooldown": "5.0",
+          "InitialMaxCooldown": "60.0",
+          "Cooldown": "30.0",
+          "PreJumpChargeUpTime": "0.35",
+          "BaseAirTime": "0.20",
+          "DistPerSec": "5000.0",
+          "MinRange": "100.0",
+          "MaxRange": "3000.0",
+          "LandingDistanceFromTarget": "25.0",
+          "LandingPrimaryAttributeCoefficient": "0.89",
+          "Debuff.Duration": "6.0",
+          "Debuff.TickInterval": "0.25",
+          "Debuff.PrimaryAttributeCoefficient": "0.71",
+          "Debuff.Spread": "0.10"
+        }
+      },
+      "Mechanic": {
+        "SpawnAnimation": {
+          "DevName": "SpawnAnimation"
+        },
+        "SpawnBlood": {
+          "DevName": "SpawnBlood",
+          "BloodAmount": "1.0",
+          "BlobsToSpawn": "2.0"
+        }
+      }
+    }
+  },
+  "336": {
+    "FSLName": "Heskyr Magus",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "MC_BloodCaster",
+    "DevKey": "MC_BloodCaster",
+    "DevZoneName": "MoorCastle",
+    "FoundInZones": [
+      "Ruins of Regath",
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
+    ],
+    "PlacedInZones": [
+      "MoorCastle",
+      "SandTomb",
+      "SnowPeak"
+    ],
+    "FoundInZoneGameIDs": [
+      29,
+      30,
+      31
+    ],
+    "FoundInZoneFSLIDs": [
+      50029,
+      50030,
+      50031
+    ],
+    "HasAIBC": true,
+    "KillScore": 4.0,
+    "SpiritPointValue": 4.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 4.134,
+    "Armor": 0.0,
+    "Resist": 0.0,
+    "PassiveMoveSpeed": 1.3,
+    "Abilities": {
+      "Offensive": {
+        "Searing Veins": {
+          "DevName": "CastedBleed",
+          "InitialMinCooldown": "10.0",
+          "InitialMaxCooldown": "15.0",
+          "MinCooldown": "30.0",
+          "MaxCooldown": "30.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "MinRange": "0.0",
+          "MaxRange": "4000.0",
+          "CastTime": "2.0",
+          "Bleed.TickInterval": "1.0",
+          "Bleed.PrimaryAttributeCoefficient": "0.37",
+          "Bleed.MaxStackCount": "10.0",
+          "Bleed.EruptionMaxHealthDamage": "0.35"
+        },
+        "Attack": {
+          "DevName": "MeleeAutoAttack",
+          "Cooldown": "1.5",
+          "PrimaryAttributeCoefficient": "1.49",
+          "MinCooldown": "2.3",
+          "MaxCooldown": "2.3",
+          "MaxRange": "500.0"
+        }
+      },
+      "Control": {},
+      "Defensive": {
+        "Sanguine Maelstrom": {
+          "DevName": "ChanneledTickingAoE",
+          "Cooldown": "1.5",
+          "PrimaryAttributeCoefficient": "6.0",
+          "MinCooldown": "40.0",
+          "MaxCooldown": "40.0",
+          "MaxRange": "500.0",
+          "Duration": "8.0",
+          "TickInterval": "1.0",
+          "Radius": "3000.0",
+          "InitialMinCooldown": "22.0",
+          "InitialMaxCooldown": "22.0",
+          "BloodCrystalHealthReductionPerTicFrac": "0.1251"
+        }
+      },
+      "Mechanic": {
+        "Malice Bolt": {
+          "DevName": "CastProjectile",
+          "InitialMinCooldown": "0.0",
+          "InitialMaxCooldown": "0.0",
+          "MinCooldown": "0.0",
+          "MaxCooldown": "0.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "MaxRange": "4000.0",
+          "CastTime": "2.0",
+          "PrimaryAttributeCoefficient": "2.8"
+        },
+        "SpawnBlood": {
+          "DevName": "SpawnBlood",
+          "BloodAmount": "2.0",
+          "BlobsToSpawn": "2.0"
+        },
+        "Bloodwell Barrier": {
+          "DevName": "SpawnTotem",
+          "InitialMinCooldown": "15.0",
+          "InitialMaxCooldown": "15.0",
+          "MinCooldown": "40.0",
+          "MaxCooldown": "40.0",
+          "CastingDuration": "1.0",
+          "MinSpawnDistance": "600.0",
+          "MaxSpawnDistance": "1100.0",
+          "MinPostAbilityPadding": "0.5",
+          "MaxPostAbilityPadding": "0.5"
+        }
+      }
     }
   },
   "CM_RubiliteTriggerstone": {

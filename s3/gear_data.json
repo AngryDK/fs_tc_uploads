@@ -1993,5 +1993,408 @@
       "GrantedAbility": "CA_ArmorSetBonus_SetE_Percentage",
       "Description": "Your Gem Power is increased by 25%."
     }
+  },
+  "Blessings": {
+    "BasicToAoe": {
+      "Name": "The Vehement",
+      "BuffName": "The Vehement's Disdain",
+      "Description": null,
+      "DevName": "GA_Finesse_Passive_BasicToAoe",
+      "Constants": {
+        "Radius": [
+          800.0,
+          800.0,
+          800.0,
+          800.0
+        ],
+        "CritChanceThreshold": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "SearchRangeNoTarget": [
+          2000.0,
+          2000.0,
+          2000.0,
+          2000.0
+        ],
+        "CounterThreshold": [
+          6.0,
+          5.0,
+          4.0,
+          3.0
+        ],
+        "TargetCountScaling": [
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ]
+      }
+    },
+    "BasicToIncreasedPower": {
+      "Name": "The Intrepid",
+      "BuffName": null,
+      "Description": "The power of your next [POWER] ability is increased by X%, stacking up to 5 times.",
+      "DevName": "GA_Finesse_Passive_BasicToIncreasedPower",
+      "Constants": {
+        "PowerMultiplier": [
+          0.015,
+          0.025,
+          0.04,
+          0.06
+        ],
+        "MaxStacks": [
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ]
+      }
+    },
+    "CritChanceToHealOrDamage": {
+      "Name": "The Usurper",
+      "BuffName": "The Usurper's Verdict",
+      "Description": null,
+      "DevName": "GA_Finesse_Passive_CritChanceToHealOrDamage",
+      "Constants": {
+        "DamageCoefficient": [
+          1.43,
+          2.28,
+          3.65,
+          5.84
+        ],
+        "HealCoefficient": [
+          1.22,
+          1.95,
+          3.12,
+          5.0
+        ],
+        "MaxRadius": [
+          3000.0,
+          3000.0,
+          3000.0,
+          3000.0
+        ],
+        "MaxTargets": [
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ],
+        "Chances.Healer.DamageChance": [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        "Chances.Healer.HealChance": [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        "Chances.DpsTank.DamageChance": [
+          0.8,
+          0.8,
+          0.8,
+          0.8
+        ]
+      }
+    },
+    "CurrentSpiritToBuff": {
+      "Name": "The Philosopher",
+      "BuffName": null,
+      "Description": "Your Haste, Expertise and Critical Strike chance are increased by {increase}.",
+      "DevName": "GA_Finesse_Passive_CurrentSpiritToBuff",
+      "Constants": {
+        "Duration": [
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "IncreasePerSpirit": [
+          0.002,
+          0.002,
+          0.002,
+          0.002
+        ],
+        "SpiritThreshold": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "CurrentSpiritPerIncrease": [
+          4.0,
+          2.5,
+          1.6,
+          1.0
+        ]
+      }
+    },
+    "DrainHealthBasedOnPrimaryStat": {
+      "Name": null,
+      "BuffName": null,
+      "Description": null,
+      "DevName": "GA_Finesse_Passive_DrainHealthBasedOnPrimaryStat",
+      "Constants": {
+        "Chance": [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "PrimaryStatMultiplier": [
+          3.25,
+          5.2,
+          8.32,
+          13.31
+        ],
+        "Radius": [
+          3000.0,
+          3000.0,
+          3000.0,
+          3000.0
+        ]
+      }
+    },
+    "IncreasedBasicDamage": {
+      "Name": "The Vainglorious",
+      "BuffName": null,
+      "Description": null,
+      "DevName": "GA_Finesse_Passive_IncreasedBasicDamage",
+      "Constants": {
+        "AdditionalPrimaryStatCoefficient": [
+          0.25,
+          0.4,
+          0.65,
+          1.0
+        ],
+        "Periodic.AdditionalPrimaryStatCoefficient": [
+          0.05,
+          0.08,
+          0.13,
+          0.2
+        ]
+      }
+    },
+    "IncreasedPowerPerCurrentSpirit": {
+      "Name": null,
+      "BuffName": null,
+      "Description": null,
+      "DevName": "GA_Finesse_Passive_IncreasedPowerPerCurrentSpirit",
+      "Constants": {
+        "PowerValuesPerSpiritAmountInPercentage": [
+          0.3,
+          0.5,
+          0.8,
+          1.2
+        ],
+        "SpiritAmountPerPowerInPercentage": [
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ],
+        "SpiritThreshold": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    "MajorToReducedControlCooldown": {
+      "Name": null,
+      "BuffName": null,
+      "Description": null,
+      "DevName": "GA_Finesse_Passive_MajorToReducedControlCooldown",
+      "Constants": {
+        "CooldownValueReduction": [
+          1.0,
+          2.0,
+          3.0,
+          4.0
+        ],
+        "DamageBonusAgainstLowHealthEnemies": [
+          1.05,
+          1.1,
+          1.15,
+          1.2
+        ]
+      }
+    },
+    "PeriodicHasteBuff_Manager": {
+      "Name": null,
+      "BuffName": null,
+      "Description": null,
+      "DevName": "GA_Finesse_Passive_PeriodicHasteBuff_Manager",
+      "Constants": {
+        "Cooldown": [
+          60.0,
+          60.0,
+          60.0,
+          60.0
+        ],
+        "Buff.Duration": [
+          14.0,
+          14.0,
+          14.0,
+          14.0
+        ],
+        "Buff.AdditionalHaste": [
+          0.06,
+          0.1,
+          0.16,
+          0.25
+        ],
+        "CooldownReduction.MovementAbilityCooldownDenominator": [
+          30.0,
+          30.0,
+          30.0,
+          30.0
+        ],
+        "CooldownReduction.MovementAbilityCooldownFractionMultiplier": [
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      }
+    },
+    "PowerChanceSpirit": {
+      "Name": "The Celestial",
+      "BuffName": null,
+      "Description": null,
+      "DevName": "GA_Finesse_Passive_PowerChanceSpirit",
+      "Constants": {
+        "Chance": [
+          1.05,
+          0.08,
+          0.13,
+          0.2
+        ],
+        "SpiritPoints": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "PowerToIncreasedCritChance": {
+      "Name": null,
+      "BuffName": null,
+      "Description": null,
+      "DevName": "GA_Finesse_Passive_PowerToIncreasedCritChance",
+      "Constants": {
+        "AdditionalCritChance": [
+          0.025,
+          0.04,
+          0.064,
+          0.1
+        ],
+        "Duration": [
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      }
+    },
+    "StartWithSpiritPoints": {
+      "Name": "The Herald",
+      "BuffName": null,
+      "Description": null,
+      "DevName": "GA_Finesse_Passive_StartWithSpiritPoints",
+      "Constants": {
+        "SpiritPoints": [
+          12.0,
+          20.0,
+          30.0,
+          50.0
+        ]
+      }
+    }
+  },
+  "Perks": {
+    "DamageReductionOrMoveSpeed": {
+      "Name": "The Stag",
+      "BuffName": "The Stag's Instinct",
+      "Description": "Your Movement Speed is increased by {increase} and your Damage Reduction is increased by {increase2}.",
+      "DevName": "GA_Perk_Passive_DamageReductionOrMoveSpeed",
+      "Constants": {
+        "MoveSpeedMultiplier": 1.3,
+        "Healer.MoveSpeedMultiplier": 1.3,
+        "Healer.IncomingDamageReduction": 0.8,
+        "Tank.IncomingDamageReduction": 0.88,
+        "Durational.Duration": 8.0
+      }
+    },
+    "DamageToHeal": {
+      "Name": "The Viper",
+      "BuffName": "The Viper's Strike",
+      "Description": "{percentage} of your damage heals you.",
+      "DevName": "GA_Perk_Passive_DamageToHeal",
+      "Constants": {
+        "Duration": 8.0,
+        "PercentageOfDamageToHeal": 0.3,
+        "Lisa.PercentageOfDamageToHeal": 0.3
+      }
+    },
+    "IncreasedDurationOrReducedCooldown": {
+      "Name": "The River",
+      "BuffName": null,
+      "Description": "{uniqueHeroDescription}",
+      "DevName": "GA_Perk_Passive_IncreasedDurationOrReducedCooldown",
+      "Constants": {
+        "IncreasedDurationInSeconds": 4.0,
+        "ReducedCooldownInSeconds": 3.0,
+        "Mosse.ReducedCooldownInSeconds": 6.0,
+        "Mosse.Dispel.ReducedCooldownInSeconds": 1.0,
+        "Vigor.ReducedCooldownInSeconds": 6.0,
+        "Vigor.Dispel.ReducedCooldownInSeconds": 1.0,
+        "Lisa.ReducedCooldownInSeconds": 5.0,
+        "Lisa.Dispel.ReducedCooldownInSeconds": 1.0
+      }
+    },
+    "InstantHealDamageReductionBuff": {
+      "Name": null,
+      "BuffName": null,
+      "Description": null,
+      "DevName": "GA_Perk_Passive_InstantHealDamageReductionBuff",
+      "Constants": {}
+    },
+    "MagicDamageReductionBuff": {
+      "Name": "The Dune",
+      "BuffName": "The Dune's Grace",
+      "Description": "Your Magic Damage Reduction is increased by {increase}.",
+      "DevName": "GA_Perk_Passive_MagicDamageReductionBuff",
+      "Constants": {
+        "AddditionalMagicReduction": 0.6,
+        "Meiko.AddditionalMagicReduction": 0.85,
+        "Warmaster.AddditionalMagicReduction": 0.75,
+        "Sune.AddditionalMagicReduction": 0.85,
+        "Lisa.AddditionalMagicReduction": 0.8,
+        "VigorMosse.AdditionalMagicReduction": 0.5
+      }
+    },
+    "MaxHealthBasedAbsorb": {
+      "Name": "The Dragon",
+      "BuffName": "The Dragon's Embrace",
+      "Description": "Absorbs incoming damage",
+      "DevName": "GA_Perk_Passive_MaxHealthBasedAbsorb",
+      "Constants": {
+        "Tanks.MaxHealthPercentage": 0.4,
+        "DPS.MaxHealthPercentage": 0.4,
+        "VigorMosse.MaxHealthPercentage": 0.4,
+        "Lisa.MaxHealthPercentage": 0.25,
+        "Duration": 12.0,
+        "Lisa.Duration": 8.0
+      }
+    }
   }
 }
