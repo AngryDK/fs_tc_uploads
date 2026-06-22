@@ -18621,6 +18621,112 @@
       }
     }
   },
+  "HolyTrinityNerf": {
+    "Note": "Group-comp balancing modifier (always on). Level0-4 = role COUNT: EnemyHealthModifier by #Tanks, PlayerDamageModifier / PlayerHealingTakenModifier by #Healers, EnemyPrimaryStatModifier by #Dps. No<Role>Bonus = special bonuses granted when that role is absent (some interpolate by dungeon difficulty between MinDungeonDifficulty and MaxDungeonDifficulty).",
+    "Constants": {
+      "EnemyHealthModifier": {
+        "Level0": {
+          "Multiplier": 1.2
+        },
+        "Level1": {
+          "Multiplier": 1.0
+        },
+        "Level2": {
+          "Multiplier": 0.9
+        },
+        "Level3": {
+          "Multiplier": 0.75
+        },
+        "Level4": {
+          "Multiplier": 0.65
+        }
+      },
+      "PlayerDamageModifier": {
+        "Level0": {
+          "Multiplier": 0.85
+        },
+        "Level1": {
+          "Multiplier": 1.0
+        },
+        "Level2": {
+          "Multiplier": 1.15
+        },
+        "Level3": {
+          "Multiplier": 1.35
+        },
+        "Level4": {
+          "Multiplier": 1.65
+        }
+      },
+      "PlayerHealingTakenModifier": {
+        "Level0": {
+          "Multiplier": 1.2
+        },
+        "Level1": {
+          "Multiplier": 1.0
+        },
+        "Level2": {
+          "Multiplier": 0.85
+        },
+        "Level3": {
+          "Multiplier": 0.7
+        },
+        "Level4": {
+          "Multiplier": 0.55
+        }
+      },
+      "EnemyPrimaryStatModifier": {
+        "Level0": {
+          "Multiplier": 1.25
+        },
+        "Level1": {
+          "Multiplier": 1.1
+        },
+        "Level2": {
+          "Multiplier": 1.0
+        },
+        "Level3": {
+          "Multiplier": 0.85
+        },
+        "Level4": {
+          "Multiplier": 0.65
+        }
+      },
+      "NoTankBonus": {
+        "PlayerIncomingPhysicalDamageMultiplier": {
+          "MultAtMinDungeonDifficulty": 0.8,
+          "MultAtMaxDungeonDifficulty": 0.5,
+          "MinDungeonDifficulty": 1.0,
+          "MaxDungeonDifficulty": 19.0
+        },
+        "PlayerIncomingMagicDamagenMultiplier": {
+          "MultAtMinDungeonDifficulty": 0.9,
+          "MultAtMaxDungeonDifficulty": 0.75,
+          "MinDungeonDifficulty": 1.0,
+          "MaxDungeonDifficulty": 19.0
+        },
+        "PlayerIncomingAreaOfEffectDamagenMultiplier": {
+          "MultAtMinDungeonDifficulty": 1.0,
+          "MultAtMaxDungeonDifficulty": 1.7,
+          "MinDungeonDifficulty": 1.0,
+          "MaxDungeonDifficulty": 19.0
+        },
+        "DefensiveActiveThreatMultiplier": 0.5
+      },
+      "NoHealerBonus": {
+        "PlayerLifeStealAdded": 0.25
+      },
+      "NoDpsBonus": {
+        "EnemyDamageTakenAmpRelativeToHealthPercent": {
+          "Level0": 0.0,
+          "Level1": 0.0,
+          "Level2": 0.0,
+          "Level3": 0.4,
+          "Level4": 1.0
+        }
+      }
+    }
+  },
   "KeyScaling": {
     "DifficultyHealthScale": {
       "1": 1.0,
