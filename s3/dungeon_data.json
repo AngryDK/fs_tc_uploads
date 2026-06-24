@@ -4284,9 +4284,9 @@
         }
       ]
     },
-    "Eternal 11": {
-      "Band": "Eternal",
-      "Tier": 11,
+    "Pinnacle 1": {
+      "Band": "Pinnacle",
+      "Tier": 1,
       "Difficulty": 31,
       "MaxScore": 605,
       "OddCompSubmitLeaderboard": true,
@@ -6659,9 +6659,9 @@
         }
       ]
     },
-    "Eternal 31": {
-      "Band": "Eternal",
-      "Tier": 31,
+    "Pinnacle 2": {
+      "Band": "Pinnacle",
+      "Tier": 2,
       "Difficulty": 51,
       "MaxScore": 905,
       "OddCompSubmitLeaderboard": false,
@@ -9608,9 +9608,9 @@
         }
       ]
     },
-    "Eternal 56": {
-      "Band": "Eternal",
-      "Tier": 56,
+    "Pinnacle 3": {
+      "Band": "Pinnacle",
+      "Tier": 3,
       "Difficulty": 76,
       "MaxScore": 1280,
       "OddCompSubmitLeaderboard": false,
