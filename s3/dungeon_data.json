@@ -5474,7 +5474,7 @@
       "Tier": 11,
       "Difficulty": 41,
       "MaxScore": 755,
-      "OddCompSubmitLeaderboard": false,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 11,
@@ -5596,7 +5596,7 @@
       "Tier": 12,
       "Difficulty": 42,
       "MaxScore": 770,
-      "OddCompSubmitLeaderboard": false,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 6,
@@ -5713,7 +5713,7 @@
       "Tier": 13,
       "Difficulty": 43,
       "MaxScore": 785,
-      "OddCompSubmitLeaderboard": false,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 12,
@@ -5830,7 +5830,7 @@
       "Tier": 14,
       "Difficulty": 44,
       "MaxScore": 800,
-      "OddCompSubmitLeaderboard": false,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 31,
@@ -5952,7 +5952,7 @@
       "Tier": 15,
       "Difficulty": 45,
       "MaxScore": 815,
-      "OddCompSubmitLeaderboard": false,
+      "OddCompSubmitLeaderboard": true,
       "Dungeons": [
         {
           "ZoneID": 29,

@@ -483,15 +483,15 @@
             "DurationIncreaseSeconds": 0.3
           },
           "Empowered": {
-            "DamageMultiplier": 1.3,
+            "DamageMultiplier": 1.5,
             "Cleave": {
-              "DamageMultiplier": 0.35,
+              "DamageMultiplier": 0.4,
               "Radius": 800.0,
               "MaxAdditionalTargets": 2.0,
               "ProjectileSizeMultiplier": 0.5,
               "ResourceGainPerAdditionalTarget": 1.0
             },
-            "StaggerRemovalInPercentage": 0.02
+            "StaggerRemovalInPercentage": 0.03
           }
         }
       },
@@ -688,7 +688,7 @@
         "StaggerRemovalOverTime": {
           "Duration": 5.0,
           "TickInterval": 1.0,
-          "PercentageOfMaxHealth": 0.01
+          "PercentageOfMaxHealth": 0.015
         }
       }
     }
@@ -1863,7 +1863,8 @@
         },
         "Talent": {
           "CooldownReduction": {
-            "CooldownReductionInSeconds": 0.3
+            "CooldownReductionInSeconds": 0.3,
+            "MaxCooldownReductionPerActivation": 3.0
           }
         }
       },
@@ -2000,7 +2001,7 @@
           "IncreasedIncomingDamageDebuff": {
             "Duration": 9.0,
             "IncomingDamageMultiplier": 1.1,
-            "MaxStacks": 2.0
+            "MaxStacks": 3.0
           },
           "NoBounceBuff": {
             "BuffDuration": 2.0,
@@ -2696,7 +2697,7 @@
             "BaseStrengthCoefficient": 0.2,
             "DamageIncreasePerStack": 1.3,
             "TargetThresholdScaling": 3.0,
-            "Period": 5.0,
+            "Period": 3.0,
             "Duration": 6.15
           }
         },
