@@ -27116,6 +27116,11 @@
       "Name": "Murder of Crows",
       "FSLID": 1003250,
       "DevName": "GE_Gunde_Talent_HeavyMeleeDotBoost_GuaranteedSpiritProcBuff__Proc"
+    },
+    "3251": {
+      "Name": "Vein Seed",
+      "FSLID": 1003251,
+      "DevName": "GE_ST_BossDefenseEye_ApplyDelayedAoePlacementDebuffToAll_ExplosionDamage"
     }
   }
 }

@@ -3388,18 +3388,18 @@
       "SpiritProc": {
         "DevName": "SpiritProc",
         "ResourceRefund": {
-          "FlatSpiritPointGain": 1.0
+          "FlatSpiritPointGain": 1.2
         }
       },
       "CooldownReductionCombo": {
         "DevName": "CooldownReductionCombo",
         "LightMelee": {
-          "MeleeCleave": 1.5,
-          "BouncyProjectile": 1.5
+          "MeleeCleave": 2.0,
+          "BouncyProjectile": 2.0
         },
         "HeavyMelee": {
-          "MeleeCleave": 1.5,
-          "BouncyProjectile": 1.5
+          "MeleeCleave": 2.0,
+          "BouncyProjectile": 2.0
         },
         "BouncyProjectile": {
           "MeleeAoeSlow": 3.0
@@ -3408,13 +3408,13 @@
           "MeleeAoeSlow": 3.0
         },
         "MeleeAoeSlow": {
-          "DefenceBuff": 6.0
+          "DefenceBuff": 10.0
         },
         "MoveToTargetStun": {
-          "MeleeCleave": 6.0,
-          "BouncyProjectile": 6.0,
-          "MeleeAoeSlow": 6.0,
-          "DefenceBuff": 6.0
+          "MeleeCleave": 10.0,
+          "BouncyProjectile": 10.0,
+          "MeleeAoeSlow": 10.0,
+          "DefenceBuff": 10.0
         },
         "Scalers": {
           "ActiveUltimate": 2.0,

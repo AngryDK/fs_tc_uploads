@@ -10652,9 +10652,9 @@
           "Hard.IncreasingStacks.Debuff.Damage.PrimaryAttributeCoefficient": "0.25",
           "ChannelingDuration": "4.0",
           "TickInterval": "3.0",
-          "PrimaryAttributeCoefficient": "1.0",
-          "PlayerDamageMultAddedPerTick": "0.10",
-          "SelfRemainingHealthReductionPerTick": "0.1",
+          "PrimaryAttributeCoefficient": "2.5",
+          "PlayerDamageMultAddedPerTick": "0.02",
+          "SelfRemainingHealthReductionPerTick": "0.05",
           "Spread": "0.0",
           "MaxRange": "10000.0"
         },
@@ -10699,7 +10699,7 @@
           "MaxCooldown": "35.0",
           "CastingDuration": "2.0",
           "Debuff.Duration": "30.0",
-          "Explosion.PrimaryAttributeCoefficient": "1.54"
+          "Explosion.PrimaryAttributeCoefficient": "1.84"
         },
         "Palace Response Unit": {
           "DevName": "SpawnAdds",
@@ -10719,7 +10719,7 @@
           "InitialMaxCooldown": "25.0",
           "MinCooldown": "60.0",
           "MaxCooldown": "60.0",
-          "CastDuration": "15.0",
+          "CastDuration": "10.0",
           "Pool.NumSmallPools": "12.0",
           "Pool.NumBigPools": "3.0",
           "Pool.SmallRadius": "250.0",
@@ -10751,7 +10751,7 @@
               "DevName": "MeleeAutoAttack",
               "Cooldown": "3.20",
               "MaxRange": "500.0",
-              "PrimaryAttributeCoefficient": "5.89"
+              "PrimaryAttributeCoefficient": "6.47"
             }
           },
           "Control": {},
@@ -10760,7 +10760,7 @@
               "DevName": "TankSlam",
               "Cooldown": "3.20",
               "MaxRange": "500.0",
-              "PrimaryAttributeCoefficient": "5.89",
+              "PrimaryAttributeCoefficient": "6.47",
               "InitialMinCooldown": "10.0",
               "InitialMaxCooldown": "10.0",
               "MinCooldown": "10.0",
