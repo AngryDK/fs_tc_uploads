@@ -4,6 +4,49 @@
     "HeroID": 24,
     "MainStat": "Intellect",
     "IsLive": true,
+    "HeroRole": {
+      "Role": "Healer",
+      "AttackRange": "Ranged",
+      "Classification": "Healer",
+      "ArmorType": "Cloth",
+      "PrimaryStat": "Intellect",
+      "Sources": [
+        "DA_LisaMetaData: CharacterRole / ArmorType",
+        "CharacterInfo row (DT_CharacterInfoTable / CRHeroInfo): MainStat",
+        "HeroDescription (Melee/Ranged phrase)"
+      ]
+    },
+    "HeroResources": {
+      "UsesResourceBar": true,
+      "PrimaryAttribute": null,
+      "PrimaryMaxAttribute": null,
+      "SecondaryAttribute": null,
+      "SecondaryMaxAttribute": null,
+      "Resources": [
+        {
+          "CostType": "Mana",
+          "Name": "Mana",
+          "Attribute": "Mana",
+          "MaxAttribute": "MaxMana"
+        },
+        {
+          "CostType": "Resources",
+          "Name": "Chrona",
+          "Attribute": "Resources",
+          "MaxAttribute": "MaxResources"
+        },
+        {
+          "CostType": "SpiritPoints",
+          "Name": "Spirit",
+          "Attribute": "SpiritPoints",
+          "MaxAttribute": "MaxSpiritPoints"
+        }
+      ],
+      "Sources": [
+        "DT_CharacterInfoTable.LoggedHeroResources",
+        "DA_LisaMetaData"
+      ]
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
@@ -698,6 +741,43 @@
     "HeroID": 7,
     "MainStat": "Intellect",
     "IsLive": true,
+    "HeroRole": {
+      "Role": "DPS",
+      "AttackRange": "Ranged",
+      "Classification": "Spellcasting Damage Dealer",
+      "ArmorType": "Cloth",
+      "PrimaryStat": "Intellect",
+      "Sources": [
+        "DA_Firemage_MetaData: CharacterRole / ArmorType",
+        "CharacterInfo row (DT_CharacterInfoTable / CRHeroInfo): MainStat",
+        "HeroDescription (Melee/Ranged phrase)"
+      ]
+    },
+    "HeroResources": {
+      "UsesResourceBar": false,
+      "PrimaryAttribute": null,
+      "PrimaryMaxAttribute": null,
+      "SecondaryAttribute": null,
+      "SecondaryMaxAttribute": null,
+      "Resources": [
+        {
+          "CostType": "Resources",
+          "Name": "Cinders",
+          "Attribute": "Resources",
+          "MaxAttribute": "MaxResources"
+        },
+        {
+          "CostType": "SpiritPoints",
+          "Name": "Spirit",
+          "Attribute": "SpiritPoints",
+          "MaxAttribute": "MaxSpiritPoints"
+        }
+      ],
+      "Sources": [
+        "DT_CharacterInfoTable.LoggedHeroResources",
+        "DA_Firemage_MetaData"
+      ]
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
@@ -1442,6 +1522,43 @@
     "HeroID": 2,
     "MainStat": "Agility",
     "IsLive": true,
+    "HeroRole": {
+      "Role": "DPS",
+      "AttackRange": "Ranged",
+      "Classification": "Ranged Damage Dealer",
+      "ArmorType": "Mail",
+      "PrimaryStat": "Agility",
+      "Sources": [
+        "DA_BowguyMetaData: CharacterRole / ArmorType",
+        "CharacterInfo row (DT_CharacterInfoTable / CRHeroInfo): MainStat",
+        "HeroDescription (Melee/Ranged phrase)"
+      ]
+    },
+    "HeroResources": {
+      "UsesResourceBar": true,
+      "PrimaryAttribute": "Resources",
+      "PrimaryMaxAttribute": "MaxResources",
+      "SecondaryAttribute": "ResourcesSecond",
+      "SecondaryMaxAttribute": "MaxResourcesSecond",
+      "Resources": [
+        {
+          "CostType": "Resources",
+          "Name": "Focus",
+          "Attribute": "Resources",
+          "MaxAttribute": "MaxResources"
+        },
+        {
+          "CostType": "SpiritPoints",
+          "Name": "Spirit",
+          "Attribute": "SpiritPoints",
+          "MaxAttribute": "MaxSpiritPoints"
+        }
+      ],
+      "Sources": [
+        "DT_CharacterInfoTable.LoggedHeroResources",
+        "DA_BowguyMetaData"
+      ]
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
@@ -2131,6 +2248,44 @@
     "HeroID": null,
     "MainStat": "Strength",
     "IsLive": true,
+    "HeroRole": {
+      "Role": "DPS",
+      "AttackRange": "Melee",
+      "Classification": "Melee Fighter",
+      "ArmorType": "Leather",
+      "PrimaryStat": "Strength",
+      "Sources": [
+        "DA_CharacterMetaData_Gunde: CharacterRole / ArmorType",
+        "CharacterInfo row (DT_CharacterInfoTable / CRHeroInfo): MainStat",
+        "HeroDescription (Melee/Ranged phrase)"
+      ]
+    },
+    "HeroResources": {
+      "UsesResourceBar": true,
+      "PrimaryAttribute": "Resources",
+      "PrimaryMaxAttribute": "MaxResources",
+      "SecondaryAttribute": "ResourcesSecond",
+      "SecondaryMaxAttribute": "MaxResourcesSecond",
+      "NamesDerived": true,
+      "Resources": [
+        {
+          "CostType": "ResourcesTertiary",
+          "Name": "Blood Feathers",
+          "Attribute": "ResourcesTertiary",
+          "MaxAttribute": "MaxResourcesTertiary"
+        },
+        {
+          "CostType": "SpiritPoints",
+          "Name": "Spirit",
+          "Attribute": "SpiritPoints",
+          "MaxAttribute": "MaxSpiritPoints"
+        }
+      ],
+      "Sources": [
+        "supplemental (GE_*_MaxOrbResource + CBA csv dev-comment, user-confirmed)",
+        "DA_CharacterMetaData_Gunde"
+      ]
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
@@ -3061,6 +3216,43 @@
     "HeroID": 22,
     "MainStat": "Strength",
     "IsLive": true,
+    "HeroRole": {
+      "Role": "Tank",
+      "AttackRange": "Melee",
+      "Classification": "Melee Tank",
+      "ArmorType": "Plate",
+      "PrimaryStat": "Strength",
+      "Sources": [
+        "DA_WarmasterMetaData: CharacterRole / ArmorType",
+        "CharacterInfo row (DT_CharacterInfoTable / CRHeroInfo): MainStat",
+        "HeroDescription (Melee/Ranged phrase)"
+      ]
+    },
+    "HeroResources": {
+      "UsesResourceBar": true,
+      "PrimaryAttribute": "Resources",
+      "PrimaryMaxAttribute": "MaxResources",
+      "SecondaryAttribute": "ResourcesSecond",
+      "SecondaryMaxAttribute": "MaxResourcesSecond",
+      "Resources": [
+        {
+          "CostType": "ResourcesSecond",
+          "Name": "Toughness",
+          "Attribute": "ResourcesSecond",
+          "MaxAttribute": "MaxResourcesSecond"
+        },
+        {
+          "CostType": "SpiritPoints",
+          "Name": "Spirit",
+          "Attribute": "SpiritPoints",
+          "MaxAttribute": "MaxSpiritPoints"
+        }
+      ],
+      "Sources": [
+        "DT_CharacterInfoTable.LoggedHeroResources",
+        "DA_WarmasterMetaData"
+      ]
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
@@ -4049,6 +4241,49 @@
     "HeroID": 11,
     "MainStat": "Agility",
     "IsLive": true,
+    "HeroRole": {
+      "Role": "DPS",
+      "AttackRange": "Melee",
+      "Classification": "Melee Damage Dealer",
+      "ArmorType": "Leather",
+      "PrimaryStat": "Agility",
+      "Sources": [
+        "DA_MaraMetaData: CharacterRole / ArmorType",
+        "CharacterInfo row (DT_CharacterInfoTable / CRHeroInfo): MainStat",
+        "HeroDescription (Melee/Ranged phrase)"
+      ]
+    },
+    "HeroResources": {
+      "UsesResourceBar": true,
+      "PrimaryAttribute": "Resources",
+      "PrimaryMaxAttribute": "MaxResources",
+      "SecondaryAttribute": "ResourcesSecond",
+      "SecondaryMaxAttribute": "MaxResourcesSecond",
+      "Resources": [
+        {
+          "CostType": "Resources",
+          "Name": "Energy",
+          "Attribute": "Resources",
+          "MaxAttribute": "MaxResources"
+        },
+        {
+          "CostType": "ResourcesSecond",
+          "Name": "Combo Points",
+          "Attribute": "ResourcesSecond",
+          "MaxAttribute": "MaxResourcesSecond"
+        },
+        {
+          "CostType": "SpiritPoints",
+          "Name": "Spirit",
+          "Attribute": "SpiritPoints",
+          "MaxAttribute": "MaxSpiritPoints"
+        }
+      ],
+      "Sources": [
+        "DT_CharacterInfoTable.LoggedHeroResources",
+        "DA_MaraMetaData"
+      ]
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
@@ -4727,6 +4962,37 @@
     "HeroID": 13,
     "MainStat": "Agility",
     "IsLive": true,
+    "HeroRole": {
+      "Role": "Tank",
+      "AttackRange": "Melee",
+      "Classification": "Melee Tank",
+      "ArmorType": "Leather",
+      "PrimaryStat": "Agility",
+      "Sources": [
+        "DA_MeikoMetaData: CharacterRole / ArmorType",
+        "CharacterInfo row (DT_CharacterInfoTable / CRHeroInfo): MainStat",
+        "HeroDescription (Melee/Ranged phrase)"
+      ]
+    },
+    "HeroResources": {
+      "UsesResourceBar": true,
+      "PrimaryAttribute": null,
+      "PrimaryMaxAttribute": null,
+      "SecondaryAttribute": null,
+      "SecondaryMaxAttribute": null,
+      "Resources": [
+        {
+          "CostType": "SpiritPoints",
+          "Name": "Spirit",
+          "Attribute": "SpiritPoints",
+          "MaxAttribute": "MaxSpiritPoints"
+        }
+      ],
+      "Sources": [
+        "DT_CharacterInfoTable.LoggedHeroResources",
+        "DA_MeikoMetaData"
+      ]
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
@@ -5629,6 +5895,49 @@
     "HeroID": 17,
     "MainStat": "Intellect",
     "IsLive": true,
+    "HeroRole": {
+      "Role": "DPS",
+      "AttackRange": "Ranged",
+      "Classification": "Spellcasting Damage Dealer",
+      "ArmorType": "Cloth",
+      "PrimaryStat": "Intellect",
+      "Sources": [
+        "DA_RimeMetaData: CharacterRole / ArmorType",
+        "CharacterInfo row (DT_CharacterInfoTable / CRHeroInfo): MainStat",
+        "HeroDescription (Melee/Ranged phrase)"
+      ]
+    },
+    "HeroResources": {
+      "UsesResourceBar": true,
+      "PrimaryAttribute": "Resources",
+      "PrimaryMaxAttribute": "MaxResources",
+      "SecondaryAttribute": "ResourcesSecond",
+      "SecondaryMaxAttribute": "MaxResourcesSecond",
+      "Resources": [
+        {
+          "CostType": "Resources",
+          "Name": "Anima",
+          "Attribute": "Resources",
+          "MaxAttribute": "MaxResources"
+        },
+        {
+          "CostType": "ResourcesTertiary",
+          "Name": "Winter Orbs",
+          "Attribute": "ResourcesTertiary",
+          "MaxAttribute": "MaxResourcesTertiary"
+        },
+        {
+          "CostType": "SpiritPoints",
+          "Name": "Spirit",
+          "Attribute": "SpiritPoints",
+          "MaxAttribute": "MaxSpiritPoints"
+        }
+      ],
+      "Sources": [
+        "DT_CharacterInfoTable.LoggedHeroResources",
+        "DA_RimeMetaData"
+      ]
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
@@ -6574,6 +6883,49 @@
     "HeroID": 14,
     "MainStat": "Intellect",
     "IsLive": true,
+    "HeroRole": {
+      "Role": "Healer",
+      "AttackRange": "Ranged",
+      "Classification": "Healer",
+      "ArmorType": "Leather",
+      "PrimaryStat": "Intellect",
+      "Sources": [
+        "DA_MosseMetaData: CharacterRole / ArmorType",
+        "CharacterInfo row (DT_CharacterInfoTable / CRHeroInfo): MainStat",
+        "HeroDescription (Melee/Ranged phrase)"
+      ]
+    },
+    "HeroResources": {
+      "UsesResourceBar": false,
+      "PrimaryAttribute": null,
+      "PrimaryMaxAttribute": null,
+      "SecondaryAttribute": null,
+      "SecondaryMaxAttribute": null,
+      "Resources": [
+        {
+          "CostType": "Mana",
+          "Name": "Mana",
+          "Attribute": "Mana",
+          "MaxAttribute": "MaxMana"
+        },
+        {
+          "CostType": "ResourcesTertiary",
+          "Name": "Pink Butterflies",
+          "Attribute": "ResourcesTertiary",
+          "MaxAttribute": "MaxResourcesTertiary"
+        },
+        {
+          "CostType": "SpiritPoints",
+          "Name": "Spirit",
+          "Attribute": "SpiritPoints",
+          "MaxAttribute": "MaxSpiritPoints"
+        }
+      ],
+      "Sources": [
+        "DT_CharacterInfoTable.LoggedHeroResources",
+        "DA_MosseMetaData"
+      ]
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
@@ -7503,6 +7855,43 @@
     "HeroID": 10,
     "MainStat": "Strength",
     "IsLive": true,
+    "HeroRole": {
+      "Role": "DPS",
+      "AttackRange": "Melee",
+      "Classification": "Melee Damage Dealer",
+      "ArmorType": "Mail",
+      "PrimaryStat": "Strength",
+      "Sources": [
+        "DA_Ink_MetaData: CharacterRole / ArmorType",
+        "CharacterInfo row (DT_CharacterInfoTable / CRHeroInfo): MainStat",
+        "HeroDescription (Melee/Ranged phrase)"
+      ]
+    },
+    "HeroResources": {
+      "UsesResourceBar": true,
+      "PrimaryAttribute": "Resources",
+      "PrimaryMaxAttribute": "MaxResources",
+      "SecondaryAttribute": "ResourcesSecond",
+      "SecondaryMaxAttribute": "MaxResourcesSecond",
+      "Resources": [
+        {
+          "CostType": "Resources",
+          "Name": "Fury",
+          "Attribute": "Resources",
+          "MaxAttribute": "MaxResources"
+        },
+        {
+          "CostType": "SpiritPoints",
+          "Name": "Spirit",
+          "Attribute": "SpiritPoints",
+          "MaxAttribute": "MaxSpiritPoints"
+        }
+      ],
+      "Sources": [
+        "DT_CharacterInfoTable.LoggedHeroResources",
+        "DA_Ink_MetaData"
+      ]
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
@@ -8244,6 +8633,49 @@
     "HeroID": 20,
     "MainStat": "Intellect",
     "IsLive": true,
+    "HeroRole": {
+      "Role": "Healer",
+      "AttackRange": "Ranged",
+      "Classification": "Healer",
+      "ArmorType": "Mail",
+      "PrimaryStat": "Intellect",
+      "Sources": [
+        "DA_VigorMetaData: CharacterRole / ArmorType",
+        "CharacterInfo row (DT_CharacterInfoTable / CRHeroInfo): MainStat",
+        "HeroDescription (Melee/Ranged phrase)"
+      ]
+    },
+    "HeroResources": {
+      "UsesResourceBar": false,
+      "PrimaryAttribute": null,
+      "PrimaryMaxAttribute": null,
+      "SecondaryAttribute": null,
+      "SecondaryMaxAttribute": null,
+      "Resources": [
+        {
+          "CostType": "Mana",
+          "Name": "Mana",
+          "Attribute": "Mana",
+          "MaxAttribute": "MaxMana"
+        },
+        {
+          "CostType": "Resources",
+          "Name": "Radiant Runes",
+          "Attribute": "Resources",
+          "MaxAttribute": "MaxResources"
+        },
+        {
+          "CostType": "SpiritPoints",
+          "Name": "Spirit",
+          "Attribute": "SpiritPoints",
+          "MaxAttribute": "MaxSpiritPoints"
+        }
+      ],
+      "Sources": [
+        "DT_CharacterInfoTable.LoggedHeroResources",
+        "DA_VigorMetaData"
+      ]
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
@@ -9143,6 +9575,43 @@
     "HeroID": 25,
     "MainStat": "Strength",
     "IsLive": true,
+    "HeroRole": {
+      "Role": "Tank",
+      "AttackRange": "Melee",
+      "Classification": "Melee Support Tank",
+      "ArmorType": "Plate",
+      "PrimaryStat": "Strength",
+      "Sources": [
+        "DA_MetaData_Sune: CharacterRole / ArmorType",
+        "CharacterInfo row (DT_CharacterInfoTable / CRHeroInfo): MainStat",
+        "HeroDescription (Melee/Ranged phrase)"
+      ]
+    },
+    "HeroResources": {
+      "UsesResourceBar": true,
+      "PrimaryAttribute": "Resources",
+      "PrimaryMaxAttribute": "MaxResources",
+      "SecondaryAttribute": "ResourcesSecond",
+      "SecondaryMaxAttribute": "MaxResourcesSecond",
+      "Resources": [
+        {
+          "CostType": "Mana",
+          "Name": "Mana",
+          "Attribute": "Mana",
+          "MaxAttribute": "MaxMana"
+        },
+        {
+          "CostType": "SpiritPoints",
+          "Name": "Spirit",
+          "Attribute": "SpiritPoints",
+          "MaxAttribute": "MaxSpiritPoints"
+        }
+      ],
+      "Sources": [
+        "DT_CharacterInfoTable.LoggedHeroResources",
+        "DA_MetaData_Sune"
+      ]
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
