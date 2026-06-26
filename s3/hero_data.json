@@ -3600,7 +3600,7 @@
           "MeleeAoeSlow": 3.0
         },
         "MeleeAoeSlow": {
-          "DefenceBuff": 10.0
+          "DefenceBuff": 6.0
         },
         "MoveToTargetStun": {
           "MeleeCleave": 10.0,

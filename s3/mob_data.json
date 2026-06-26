@@ -5,11 +5,10 @@
     "CreatureType": null,
     "DevName": "VV_SootstainedArsonist",
     "DevKey": "VV_SootstainedArsonist",
-    "DevZoneName": "VikingVillage",
+    "DevZoneName": "VikingVillageAttack",
     "FoundInZones": [
       "The Heart of Tuzari",
-      "Stormwatch",
-      "Ransack of Drakheim"
+      "Stormwatch"
     ],
     "PlacedInZones": [
       "DemonicRitual",
@@ -18,13 +17,11 @@
     ],
     "FoundInZoneGameIDs": [
       5,
-      12,
-      23
+      12
     ],
     "FoundInZoneFSLIDs": [
       50005,
-      50012,
-      50023
+      50012
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
@@ -35,42 +32,20 @@
     "Resist": 0.0,
     "Abilities": {
       "Offensive": {
-        "Flame Blast": {
-          "DevName": "Cone",
-          "InitialMinCooldown": "6.0",
-          "InitialMaxCooldown": "12.0",
-          "Cooldown": "18.0",
-          "InterruptCooldown": "14.0",
-          "PostAbilityPadding": "1.0",
-          "CastTime": "2.0",
-          "MaxRange": "400.0",
-          "MinRadius": "0.0",
-          "MaxRadius": "850.0",
-          "Angle": "90.0",
-          "Height": "500.0",
-          "Damage.IntCoefficient": "3.21"
-        },
-        "Big Oogha Flame": {
-          "DevName": "LobProjectile",
-          "InitialMinCooldown": "13.0",
-          "InitialMaxCooldown": "20.0",
-          "Cooldown": "15.0",
-          "InterruptCooldownCooldown": "12.0",
-          "PostAbilityPadding": "1.0",
-          "CastTime": "3.0",
-          "MaxRange": "4000.0",
-          "Damage.IntCoefficient": "8.21"
-        },
         "MeleeAutoAttack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "0.97",
-          "MaxRange": "400.0",
-          "Cooldown": "1.6"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {},
       "Defensive": {},
-      "Mechanic": {}
+      "Mechanic": {
+        "Flame Blast": {
+          "DevName": "Cone"
+        },
+        "Big Oogha Flame": {
+          "DevName": "LobProjectile"
+        }
+      }
     }
   },
   "11": {
@@ -79,19 +54,13 @@
     "CreatureType": null,
     "DevName": "VV_IcebiteReaver",
     "DevKey": "VV_IcebiteReaver",
-    "DevZoneName": "VikingVillage",
-    "FoundInZones": [
-      "Ransack of Drakheim"
-    ],
+    "DevZoneName": "VikingVillageAttack",
+    "FoundInZones": [],
     "PlacedInZones": [
       "VikingVillage"
     ],
-    "FoundInZoneGameIDs": [
-      23
-    ],
-    "FoundInZoneFSLIDs": [
-      50023
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
@@ -102,51 +71,18 @@
     "Abilities": {
       "Offensive": {
         "MeleeAutoAttack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "5.35",
-          "Spread": "0.2",
-          "MaxRange": "500.0",
-          "MinCooldown": "3.0",
-          "MaxCooldown": "3.0"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {},
       "Defensive": {
         "Frostbitten Strength": {
-          "DevName": "HasteBuff",
-          "InitialMinCooldown": "15.0",
-          "InitialMaxCooldown": "20.0",
-          "MinCooldown": "30.0",
-          "MaxCooldown": "30.0",
-          "InterruptCooldown": "12.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "CastTime": "2.5",
-          "AttackSpeedMultiplier": "1.25",
-          "DamageMultiplier": "1.25",
-          "IncomingDamageMultiplier": "1.25",
-          "Duration": "8.0",
-          "Radius": "1200.0"
+          "DevName": "HasteBuff"
         }
       },
       "Mechanic": {
         "Glacial Sunder": {
-          "DevName": "Slam",
-          "InitialMinCooldown": "7.0",
-          "InitialMaxCooldown": "14.0",
-          "MinCooldown": "16.0",
-          "MaxCooldown": "16.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MaxRange": "850.0",
-          "CastTime": "2.5",
-          "Duration": "0.5",
-          "SpikeRadius": "200.0",
-          "StrengthCoefficient": "4.95",
-          "Spread": "0.2",
-          "Concurrent.MaxInstances": "1.0",
-          "Concurrent.ConsiderRange": "3000.0",
-          "Concurrent.PostAbilityPadding": "1.0"
+          "DevName": "Slam"
         }
       }
     }
@@ -157,11 +93,10 @@
     "CreatureType": null,
     "DevName": "VV_IcebitePillager",
     "DevKey": "VV_IcebitePillager",
-    "DevZoneName": "VikingVillage",
+    "DevZoneName": "VikingVillageAttack",
     "FoundInZones": [
       "The Heart of Tuzari",
-      "Stormwatch",
-      "Ransack of Drakheim"
+      "Stormwatch"
     ],
     "PlacedInZones": [
       "DemonicRitual",
@@ -170,13 +105,11 @@
     ],
     "FoundInZoneGameIDs": [
       5,
-      12,
-      23
+      12
     ],
     "FoundInZoneFSLIDs": [
       50005,
-      50012,
-      50023
+      50012
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
@@ -188,23 +121,14 @@
     "Abilities": {
       "Offensive": {
         "MeleeAutoAttack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "1.06",
-          "MaxRange": "500.0",
-          "Cooldown": "1.7"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {},
       "Defensive": {},
       "Mechanic": {
         "Enrage": {
-          "DevName": "Enrage",
-          "DeathSenseRadius": "3000.0",
-          "HasteIncrease": "1.10",
-          "DamageScaler": "1.10",
-          "IncomingDamageMultiplier": "1.03",
-          "SizeIncrease": "1.10",
-          "DifficultyUnlocked": "0.0"
+          "DevName": "Enrage"
         }
       }
     }
@@ -215,11 +139,9 @@
     "CreatureType": "Goblin",
     "DevName": "VV_FrenziedLooter",
     "DevKey": "VV_FrenziedLooter",
-    "DevZoneName": "VikingVillage",
+    "DevZoneName": "VikingVillageAttack",
     "FoundInZones": [
-      "Urrak Markets",
-      "Ransack of Drakheim",
-      "Silken Hollow"
+      "Urrak Markets"
     ],
     "PlacedInZones": [
       "SilkenHollow",
@@ -227,14 +149,10 @@
       "VikingVillage"
     ],
     "FoundInZoneGameIDs": [
-      21,
-      23,
-      24
+      21
     ],
     "FoundInZoneFSLIDs": [
-      50021,
-      50023,
-      50024
+      50021
     ],
     "HasAIBC": true,
     "KillScore": 1.0,
@@ -246,26 +164,14 @@
     "Abilities": {
       "Offensive": {
         "MeleeAutoAttack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "1.42",
-          "MaxRange": "500.0",
-          "MinCooldown": "2.4",
-          "MaxCooldown": "2.4"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {},
       "Defensive": {},
       "Mechanic": {
         "DropTreasure": {
-          "DevName": "DropTreasure",
-          "HealthFractionLostPerPile": "0.24",
-          "PickupRadius": "100.0",
-          "MinSpawnDistance": "200.0",
-          "MaxSpawnDistance": "650.0",
-          "Duration": "60.0",
-          "Buff.Duration": "20.0",
-          "Buff.DamageScale": "1.02",
-          "Buff.MoveSpeedMultiplier": "0.95"
+          "DevName": "DropTreasure"
         }
       }
     }
@@ -276,19 +182,13 @@
     "CreatureType": "Undead",
     "DevName": "VV_CravenHiisi",
     "DevKey": "VV_CravenHiisi",
-    "DevZoneName": "VikingVillage",
-    "FoundInZones": [
-      "Ransack of Drakheim"
-    ],
+    "DevZoneName": "VikingVillageAttack",
+    "FoundInZones": [],
     "PlacedInZones": [
       "VikingVillage"
     ],
-    "FoundInZoneGameIDs": [
-      23
-    ],
-    "FoundInZoneFSLIDs": [
-      50023
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
@@ -302,12 +202,7 @@
           "DevName": "Bleed"
         },
         "MeleeAutoAttack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "1.02",
-          "Spread": "0.2",
-          "MaxRange": "500.0",
-          "MinCooldown": "2.1",
-          "MaxCooldown": "2.1"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {
@@ -318,21 +213,10 @@
       "Defensive": {},
       "Mechanic": {
         "Bonk Noggin": {
-          "DevName": "AttachedAttack",
-          "StrengthCoefficient": "0.306",
-          "Spread": "0.2",
-          "MaxRange": "500.0",
-          "MinCooldown": "1.0",
-          "MaxCooldown": "1.0",
-          "Duration": "4.0",
-          "TickInterval": "0.5"
+          "DevName": "AttachedAttack"
         },
         "Jump 'n Bonk": {
-          "DevName": "JumpAttack",
-          "InitialMinCooldown": "7.0",
-          "InitialMaxCooldown": "13.0",
-          "MaxRange": "800.0",
-          "PerTargetCooldown": "30.0"
+          "DevName": "JumpAttack"
         }
       }
     }
@@ -343,9 +227,8 @@
     "CreatureType": "Undead",
     "DevName": "VV_ColdbrineFiend",
     "DevKey": "VV_ColdbrineFiend",
-    "DevZoneName": "VikingVillage",
+    "DevZoneName": "VikingVillageAttack",
     "FoundInZones": [
-      "Ransack of Drakheim",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
@@ -353,11 +236,9 @@
       "VikingVillage"
     ],
     "FoundInZoneGameIDs": [
-      23,
       31
     ],
     "FoundInZoneFSLIDs": [
-      50023,
       50031
     ],
     "HasAIBC": true,
@@ -370,44 +251,17 @@
     "Abilities": {
       "Offensive": {
         "MeleeAutoAttack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "0.87",
-          "Spread": "0.2",
-          "MaxRange": "500.0",
-          "MinCooldown": "2.5",
-          "MaxCooldown": "2.5"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {},
       "Defensive": {},
       "Mechanic": {
         "Icy Annihilation": {
-          "DevName": "CastBigProjectile",
-          "InitialMinCooldown": "7.0",
-          "InitialMaxCooldown": "12.0",
-          "MinCooldown": "24.0",
-          "MaxCooldown": "24.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MaxRange": "4000.0",
-          "CastTime": "5.0",
-          "InterruptCooldown": "18.0",
-          "IntCoefficient": "9.32",
-          "Spread": "0.2"
+          "DevName": "CastBigProjectile"
         },
         "Brine Bolt": {
-          "DevName": "CastProjectile",
-          "InitialMinCooldown": "0.0",
-          "InitialMaxCooldown": "0.0",
-          "MinCooldown": "0.0",
-          "MaxCooldown": "0.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MaxRange": "4000.0",
-          "CastTime": "2.0",
-          "InterruptCooldown": "6.0",
-          "IntCoefficient": "2.8",
-          "Spread": "0.2"
+          "DevName": "CastProjectile"
         }
       }
     }
@@ -418,19 +272,13 @@
     "CreatureType": null,
     "DevName": "VV_BossVikingMystic",
     "DevKey": "VV_BossVikingMystic",
-    "DevZoneName": "VikingVillage",
-    "FoundInZones": [
-      "Ransack of Drakheim"
-    ],
+    "DevZoneName": "VikingVillageAttack",
+    "FoundInZones": [],
     "PlacedInZones": [
       "VikingVillage"
     ],
-    "FoundInZoneGameIDs": [
-      23
-    ],
-    "FoundInZoneFSLIDs": [
-      50023
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
@@ -447,85 +295,29 @@
           "DevName": "ChanneledAoeDamageWithLines"
         },
         "MeleeAutoAttack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "7.61",
-          "Spread": "0.2",
-          "MaxRange": "650.0",
-          "MinCooldown": "3.2",
-          "MaxCooldown": "3.2"
-        },
-        "StartPhase2": {
-          "DevName": "StartPhase2",
-          "InitialMinCooldown": "36.0",
-          "InitialMaxCooldown": "36.0",
-          "CastTime": "4.0",
-          "FightRadius": "4300.0",
-          "FogDamage.IntCoefficient": "0.0",
-          "FogDamage.Spread": "0.2",
-          "FogDamage.TickInterval": "100.0"
+          "DevName": "MeleeAutoAttack"
         },
         "TankNuke": {
-          "DevName": "TankNuke",
-          "InitialMinCooldown": "32.0",
-          "InitialMaxCooldown": "32.0",
-          "MinCooldown": "32.0",
-          "MaxCooldown": "32.0",
-          "MinPostAbilityPadding": "0.5",
-          "MaxPostAbilityPadding": "0.5",
-          "MaxRange": "600.0",
-          "CastTime": "2.0",
-          "StrengthCoefficient": "9.744",
-          "Spread": "0.2"
+          "DevName": "TankNuke"
         }
       },
       "Control": {},
       "Defensive": {},
       "Mechanic": {
         "Shadow Conduit": {
-          "DevName": "CrossLines",
-          "InitialMinCooldown": "16.0",
-          "InitialMaxCooldown": "16.0",
-          "MinCooldown": "32.0",
-          "MaxCooldown": "32.0",
-          "MinPostAbilityPadding": "1.5",
-          "MaxPostAbilityPadding": "1.5",
-          "LineLength": "4500.0",
-          "LineWidth": "200.0",
-          "ExplosionDelay": "3.0",
-          "IntCoefficient": "4.035"
+          "DevName": "CrossLines"
         },
         "GoBackToPhase1": {
-          "DevName": "GoBackToPhase1",
-          "TriggerAfterHowManyRunePuzzles": "1.0"
+          "DevName": "GoBackToPhase1"
         },
         "RunePuzzle": {
-          "DevName": "RunePuzzle",
-          "NumberOfDifferentRunes": "6.0",
-          "InitialMinCooldown": "1.0",
-          "InitialMaxCooldown": "1.0",
-          "MinCooldown": "2.5",
-          "MaxCooldown": "2.5",
-          "PostKillDelay": "1.0",
-          "KillWrong.Duration": "5.0",
-          "TriggerAfterHowManyRunePuzzles": "1.0"
+          "DevName": "RunePuzzle"
+        },
+        "StartPhase2": {
+          "DevName": "StartPhase2"
         },
         "TeleportAttack": {
-          "DevName": "TeleportAttack",
-          "InitialMinCooldown": "8.0",
-          "InitialMaxCooldown": "8.0",
-          "MinCooldown": "16.0",
-          "MaxCooldown": "16.0",
-          "MaxRange": "5000.0",
-          "DisappearTime": "0.2",
-          "ReappearDelay": "0.5",
-          "ReappearDistanceFromTarget": "300.0",
-          "StunDuration": "3.5",
-          "StartCastDelay": "0.5",
-          "Soak.Radius": "300.0",
-          "Soak.CastTime": "3.0",
-          "Soak.IntCoefficient": "16.8",
-          "Soak.Spread": "0.0",
-          "Soak.KnockbackStrength": "850.0"
+          "DevName": "TeleportAttack"
         }
       }
     },
@@ -558,19 +350,13 @@
     "CreatureType": null,
     "DevName": "VV_BossKaldursonIce",
     "DevKey": "VV_BossKaldursonIce",
-    "DevZoneName": "VikingVillage",
-    "FoundInZones": [
-      "Ransack of Drakheim"
-    ],
+    "DevZoneName": "VikingVillageAttack",
+    "FoundInZones": [],
     "PlacedInZones": [
       "VikingVillage"
     ],
-    "FoundInZoneGameIDs": [
-      23
-    ],
-    "FoundInZoneFSLIDs": [
-      50023
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 15.0,
     "SpiritPointValue": 15.0,
@@ -581,43 +367,21 @@
     "Abilities": {
       "Offensive": {
         "Freezing Aura": {
-          "DevName": "StationaryDotPassive",
-          "CastTime": "1.5",
-          "MaxRadius": "5000.0",
-          "DebuffApplyCheckInterval": "1.5",
-          "MovingDurationToRemoveStack": "0.25",
-          "TickInterval": "1.5",
-          "IntCoefficient": "0.3996",
-          "Spread": "0.2"
+          "DevName": "StationaryDotPassive"
         },
         "Attack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "7.31",
-          "Spread": "0.2",
-          "MaxRange": "850.0",
-          "MinCooldown": "3.2",
-          "MaxCooldown": "3.2"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {
         "Freezing Aura": {
-          "DevName": "SlowAura",
-          "Radius": "5000.0",
-          "MoveSpeedMultiplier": "0.8"
+          "DevName": "SlowAura"
         }
       },
       "Defensive": {},
       "Mechanic": {
         "Ice Tomb": {
-          "DevName": "IceTomb",
-          "MinCooldown": "40.0",
-          "MaxCooldown": "40.0",
-          "InitialMinCooldown": "20.0",
-          "InitialMaxCooldown": "20.0",
-          "MinPostAbilityPadding": "0.5",
-          "MaxPostAbilityPadding": "0.5",
-          "MaxRange": "5000.0",
-          "CastTime": "3.0"
+          "DevName": "IceTomb"
         }
       }
     }
@@ -628,19 +392,13 @@
     "CreatureType": null,
     "DevName": "VV_BossKaldursonFire",
     "DevKey": "VV_BossKaldursonFire",
-    "DevZoneName": "VikingVillage",
-    "FoundInZones": [
-      "Ransack of Drakheim"
-    ],
+    "DevZoneName": "VikingVillageAttack",
+    "FoundInZones": [],
     "PlacedInZones": [
       "VikingVillage"
     ],
-    "FoundInZoneGameIDs": [
-      23
-    ],
-    "FoundInZoneFSLIDs": [
-      50023
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 15.0,
     "SpiritPointValue": 15.0,
@@ -651,64 +409,22 @@
     "Abilities": {
       "Offensive": {
         "Burning Aura": {
-          "DevName": "CastDotAura",
-          "CastDuration": "2.0",
-          "IntCoefficient": "0.3996",
-          "TickInterval": "1.5",
-          "Radius": "1200.0",
-          "MaxStackCount": "10.0",
-          "StandingStillToRemoveAStackDuration": "0.5",
-          "ApplicationPeriod": "0.5"
+          "DevName": "CastDotAura"
         },
         "DotAuraPassive": {
-          "DevName": "DotAuraPassive",
-          "CastDuration": "2.0",
-          "IntCoefficient": "0.3996",
-          "TickInterval": "1.5",
-          "Radius": "1200.0",
-          "MaxStackCount": "10.0",
-          "StandingStillToRemoveAStackDuration": "0.5",
-          "ApplicationPeriod": "0.5"
+          "DevName": "DotAuraPassive"
         },
         "Attack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "7.31",
-          "Spread": "0.2",
-          "MaxRange": "850.0",
-          "MinCooldown": "3.0",
-          "MaxCooldown": "3.0"
-        },
-        "Blazing Slam": {
-          "DevName": "Stomp",
-          "InitialMinCooldown": "10.0",
-          "InitialMaxCooldown": "10.0",
-          "MinCooldown": "12.0",
-          "MaxCooldown": "12.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "CastTime": "2.25",
-          "Radius": "600.0",
-          "StrengthCoefficient": "2.4",
-          "Spread": "0.2",
-          "GroundEffect.Duration": "300.0",
-          "GroundEffect.RadiusStart": "600.0",
-          "GroundEffect.RadiusEnd": "1200.0",
-          "GroundEffect.RadiusGrowthTime": "6.0",
-          "GroundEffect.TickInterval": "2.0",
-          "GroundEffect.StrengthCoefficient": "1.5",
-          "GroundEffectForIce.TickInterval": "0.5",
-          "GroundEffectForIce.MaxHealthDamageCoefficient": "0.2",
-          "Rock.MinDistanceFromStomp": "1000.0",
-          "Rock.MaxDistanceFromStomp": "2000.0",
-          "Rock.ImpactRadius": "200.0",
-          "Rock.StrengthCoefficient": "2.1",
-          "Rock.Count": "8.0",
-          "Rock.MinDistanceFromRocks": "500.0"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {},
       "Defensive": {},
-      "Mechanic": {}
+      "Mechanic": {
+        "Blazing Slam": {
+          "DevName": "Stomp"
+        }
+      }
     }
   },
   "25": {
@@ -717,19 +433,13 @@
     "CreatureType": null,
     "DevName": "VV_BossFrostTroll",
     "DevKey": "VV_BossFrostTroll",
-    "DevZoneName": "VikingVillage",
-    "FoundInZones": [
-      "Ransack of Drakheim"
-    ],
+    "DevZoneName": "VikingVillageAttack",
+    "FoundInZones": [],
     "PlacedInZones": [
       "VikingVillage"
     ],
-    "FoundInZoneGameIDs": [
-      23
-    ],
-    "FoundInZoneFSLIDs": [
-      50023
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
@@ -741,131 +451,42 @@
     "Abilities": {
       "Offensive": {
         "Burning Aura": {
-          "DevName": "CastDotAura",
-          "CastDuration": "2.0",
-          "HealthFractionLostPerStack": "0.2",
-          "IntCoefficient": "0.3996",
-          "TickInterval": "1.5",
-          "Radius": "1200.0",
-          "MaxStackCount": "10.0",
-          "StandingStillToRemoveAStackDuration": "0.5",
-          "ReducedDamageScaleIfFireSonIsDead": "0.8",
-          "ApplicationPeriod": "0.5"
+          "DevName": "CastDotAura"
         },
         "Freezing Aura": {
-          "DevName": "CastStationaryDot",
-          "CastTime": "1.5",
-          "MaxRadius": "5000.0",
-          "DebuffApplyCheckInterval": "1.5",
-          "MovingDurationToRemoveStack": "0.25",
-          "TickInterval": "1.5",
-          "IntCoefficient": "0.3996",
-          "Spread": "0.2"
+          "DevName": "CastStationaryDot"
         },
         "Burning": {
-          "DevName": "DotAuraPassive",
-          "CastDuration": "2.0",
-          "HealthFractionLostPerStack": "0.2",
-          "IntCoefficient": "0.3996",
-          "TickInterval": "1.5",
-          "Radius": "1200.0",
-          "MaxStackCount": "10.0",
-          "StandingStillToRemoveAStackDuration": "0.5",
-          "ReducedDamageScaleIfFireSonIsDead": "0.8",
-          "ApplicationPeriod": "0.5"
+          "DevName": "DotAuraPassive"
         },
         "Attack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "8.52",
-          "Spread": "0.2",
-          "MaxRange": "850.0",
-          "MinCooldown": "3.5",
-          "MaxCooldown": "3.5"
+          "DevName": "MeleeAutoAttack"
         },
         "Frost Bite": {
-          "DevName": "SingleTargetDot",
-          "InitialMinCooldown": "12.0",
-          "InitialMaxCooldown": "12.0",
-          "MinCooldown": "24.0",
-          "MaxCooldown": "24.0",
-          "CastTime": "1.5",
-          "MinPostAbilityPadding": "1.0",
-          "MaxPostAbilityPadding": "1.0",
-          "Dot.Duration": "3.995",
-          "Dot.TickInterval": "2.0",
-          "Dot.StrengthCoefficient": "5.52",
-          "Dot.Spread": "0.2",
-          "ExpireDamage.StrengthCoefficient": "5.52",
-          "MaxRange": "850.0",
-          "FireAbilityDamageMultiplier": "1.0"
+          "DevName": "SingleTargetDot"
         },
         "Freezing": {
-          "DevName": "StationaryDotPassive",
-          "CastTime": "1.5",
-          "MaxRadius": "5000.0",
-          "DebuffApplyCheckInterval": "1.5",
-          "MovingDurationToRemoveStack": "0.25",
-          "TickInterval": "1.5",
-          "IntCoefficient": "0.3996",
-          "Spread": "0.2"
-        },
-        "Blazing Slam": {
-          "DevName": "Stomp",
-          "InitialMinCooldown": "10.0",
-          "InitialMaxCooldown": "10.0",
-          "MinCooldown": "12.0",
-          "MaxCooldown": "12.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "CastTime": "2.25",
-          "Radius": "700.0",
-          "StrengthCoefficient": "3.6",
-          "Spread": "0.2",
-          "GroundEffect.Duration": "3600.0",
-          "GroundEffect.RadiusStart": "600.0",
-          "GroundEffect.RadiusEnd": "1200.0",
-          "GroundEffect.RadiusGrowthTime": "6.0",
-          "GroundEffect.TickInterval": "2.0",
-          "GroundEffect.StrengthCoefficient": "2.5",
-          "GroundEffectForIce.TickInterval": "0.5",
-          "GroundEffectForIce.MaxHealthDamageCoefficient": "0.2",
-          "Rock.MinDistanceFromStomp": "1000.0",
-          "Rock.MaxDistanceFromStomp": "2000.0",
-          "Rock.ImpactRadius": "300.0",
-          "Rock.StrengthCoefficient": "4.5",
-          "Rock.Count": "8.0",
-          "Rock.MinDistanceFromRocks": "500.0"
+          "DevName": "StationaryDotPassive"
         }
       },
       "Control": {
         "SlowAura": {
-          "DevName": "SlowAura",
-          "Radius": "4000.0",
-          "MoveSpeedMultiplier": "0.8"
+          "DevName": "SlowAura"
         }
       },
       "Defensive": {},
       "Mechanic": {
         "Elemental Shift": {
-          "DevName": "ChangeAura",
-          "Cooldown.FrostLong": "24.0",
-          "Cooldown.FrostShort": "24.0",
-          "Cooldown.FireLong": "24.0",
-          "Cooldown.FireShort": "24.0"
+          "DevName": "ChangeAura"
         },
         "Ice Tomb": {
-          "DevName": "IceTomb",
-          "MinCooldown": "45.0",
-          "MaxCooldown": "45.0",
-          "InitialMinCooldown": "30.0",
-          "InitialMaxCooldown": "30.0",
-          "MinPostAbilityPadding": "0.5",
-          "MaxPostAbilityPadding": "0.5",
-          "MaxRange": "5000.0",
-          "CastTime": "3.0"
+          "DevName": "IceTomb"
         },
         "Intro": {
           "DevName": "Intro"
+        },
+        "Blazing Slam": {
+          "DevName": "Stomp"
         }
       }
     },
@@ -902,19 +523,13 @@
     "CreatureType": null,
     "DevName": "VV_BossChilgar",
     "DevKey": "VV_BossChilgar",
-    "DevZoneName": "VikingVillage",
-    "FoundInZones": [
-      "Ransack of Drakheim"
-    ],
+    "DevZoneName": "VikingVillageAttack",
+    "FoundInZones": [],
     "PlacedInZones": [
       "VikingVillage"
     ],
-    "FoundInZoneGameIDs": [
-      23
-    ],
-    "FoundInZoneFSLIDs": [
-      50023
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
@@ -928,80 +543,23 @@
     "Abilities": {
       "Offensive": {
         "Attack": {
-          "DevName": "AutoAttack",
-          "StrengthCoefficient": "7.46",
-          "Spread": "0.2",
-          "MaxRange": "500.0",
-          "MinCooldown": "3.10",
-          "MaxCooldown": "3.10"
+          "DevName": "AutoAttack"
         }
       },
-      "Control": {
-        "Freezing Flood": {
-          "DevName": "LinearProjectiles",
-          "InitialMaxCooldown": "0.0",
-          "InitialMinCooldown": "0.0",
-          "MinCooldown": "3.0",
-          "MaxCooldown": "3.0",
-          "CastTime": "3.0",
-          "Projectile.ProjectileWidth": "500.0",
-          "Projectile.ProjectileLength": "75.0",
-          "Projectile.ProjectileHeight": "100.0",
-          "Projectile.Speed": "300.0",
-          "Projectile.KnockbackForce": "750.0",
-          "Projectile.ImmobilizeDuration": "2.5",
-          "Spawning.WavePattern1Health": "0.9",
-          "Spawning.DelayBetweenWave1Spawns": "9.0",
-          "Spawning.WavePattern2Health": "0.6",
-          "Spawning.DelayBetweenWave2Spawns": "12.0",
-          "Spawning.WavePattern3Health": "0.3",
-          "Spawning.DelayBetweenWave3Spawns": "16.0",
-          "Spawning.DelayBetweenWaves": "2.0",
-          "Spawning.NumWaves": "2.0",
-          "IntellectCoefficient": "3.0",
-          "Spread": "0.2"
-        }
-      },
+      "Control": {},
       "Defensive": {},
       "Mechanic": {
         "Grasping Pillar": {
-          "DevName": "IceSpike",
-          "InitialMaxCooldown": "16.0",
-          "InitialMinCooldown": "16.0",
-          "MinCooldown": "32.0",
-          "MaxCooldown": "32.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MaxRange": "4000.0",
-          "CastTime": "1.5"
+          "DevName": "IceSpike"
+        },
+        "Freezing Flood": {
+          "DevName": "LinearProjectiles"
         },
         "Arctic Winds": {
-          "DevName": "SwirlProjectile",
-          "InitialMaxCooldown": "12.0",
-          "InitialMinCooldown": "12.0",
-          "MinCooldown": "8.0",
-          "MaxCooldown": "8.0",
-          "IntellectCoefficient": "1.8",
-          "Spread": "0.2",
-          "Projectile.ActivationDelay": "2.5",
-          "Projectile.MaxSpawnDistanceFromPlayer": "500.0",
-          "Projectile.Radius": "200.0",
-          "Projectile.MoveSpeed": "400.0",
-          "Projectile.MaxPathRadius": "2000.0",
-          "Projectile.SpeedUpTime": "5.0",
-          "Projectile.Lifetime": "36",
-          "Projectile.Knockback": "1000"
+          "DevName": "SwirlProjectile"
         },
         "Glacial Slam": {
-          "DevName": "TankSoakAoe",
-          "InitialMaxCooldown": "10.0",
-          "InitialMinCooldown": "10.0",
-          "MinCooldown": "30.0",
-          "MaxCooldown": "30.0",
-          "Radius": "300.0",
-          "StrengthCoefficient": "14.52",
-          "ActivationDelay": "4.0",
-          "SpikeStrengthCoefficient": "10.0"
+          "DevName": "TankSoakAoe"
         }
       }
     },
@@ -1021,24 +579,17 @@
         "Resist": 0.0,
         "Abilities": {
           "Offensive": {},
-          "Control": {
-            "Tether": {
-              "DevName": "Tether",
-              "ApplyRadius": "700.0",
-              "LeashLength": "750.0",
-              "BreakLength": "3000.0",
-              "PullSpeed": "2500.0"
-            }
-          },
+          "Control": {},
           "Defensive": {},
           "Mechanic": {
             "Emerge": {
-              "DevName": "Emerge",
-              "CastTime": "3.0"
+              "DevName": "Emerge"
             },
             "SpawnAdd": {
-              "DevName": "SpawnAdd",
-              "Cooldown": "25.0"
+              "DevName": "SpawnAdd"
+            },
+            "Tether": {
+              "DevName": "Tether"
             }
           }
         }
@@ -1051,19 +602,13 @@
     "CreatureType": "Undead",
     "DevName": "VV_BlackmistWhisperer",
     "DevKey": "VV_BlackmistWhisperer",
-    "DevZoneName": "VikingVillage",
-    "FoundInZones": [
-      "Ransack of Drakheim"
-    ],
+    "DevZoneName": "VikingVillageAttack",
+    "FoundInZones": [],
     "PlacedInZones": [
       "VikingVillage"
     ],
-    "FoundInZoneGameIDs": [
-      23
-    ],
-    "FoundInZoneFSLIDs": [
-      50023
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
@@ -1074,44 +619,18 @@
     "Abilities": {
       "Offensive": {
         "MeleeAutoAttack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "1.91",
-          "Spread": "0.2",
-          "MaxRange": "500.0",
-          "MinCooldown": "2.0",
-          "MaxCooldown": "2.0"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {
         "Silence": {
-          "DevName": "Silence",
-          "InitialMinCooldown": "8.0",
-          "InitialMaxCooldown": "24.0",
-          "MinCooldown": "16.0",
-          "MaxCooldown": "16.0",
-          "InterruptCooldown": "12.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MinRange": "800.0",
-          "MaxRange": "4000.0",
-          "CastTime": "1.5",
-          "Duration": "2.5"
+          "DevName": "Silence"
         }
       },
       "Defensive": {},
       "Mechanic": {
         "Shadow Bolt": {
-          "DevName": "CastProjectile",
-          "InitialMinCooldown": "0.0",
-          "InitialMaxCooldown": "0.0",
-          "MinCooldown": "0.0",
-          "MaxCooldown": "0.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MaxRange": "4000.0",
-          "CastTime": "2.5",
-          "IntCoefficient": "2.44",
-          "Spread": "0.2"
+          "DevName": "CastProjectile"
         }
       }
     }
@@ -1122,19 +641,13 @@
     "CreatureType": null,
     "DevName": "VV_BlackmistShadow",
     "DevKey": "VV_BlackmistShadow",
-    "DevZoneName": "VikingVillage",
-    "FoundInZones": [
-      "Ransack of Drakheim"
-    ],
+    "DevZoneName": "VikingVillageAttack",
+    "FoundInZones": [],
     "PlacedInZones": [
       "VikingVillage"
     ],
-    "FoundInZoneGameIDs": [
-      23
-    ],
-    "FoundInZoneFSLIDs": [
-      50023
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
@@ -1145,37 +658,17 @@
     "Abilities": {
       "Offensive": {
         "MeleeAutoAttack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "2.92",
-          "Spread": "0.2",
-          "MaxRange": "500.0",
-          "MinCooldown": "2.0",
-          "MaxCooldown": "2.0"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {},
       "Defensive": {},
       "Mechanic": {
         "MagicSlam": {
-          "DevName": "MagicSlam",
-          "InitialMinCooldown": "12.0",
-          "InitialMaxCooldown": "18.0",
-          "MinCooldown": "16.0",
-          "MaxCooldown": "16.0",
-          "MinPostAbilityPadding": "1.0",
-          "MaxPostAbilityPadding": "1.0",
-          "MaxRange": "800.0",
-          "CastTime": "3.0",
-          "IntCoefficient": "10.48",
-          "Spread": "0.2"
+          "DevName": "MagicSlam"
         },
         "Dark Ritual": {
-          "DevName": "RunePuzzle",
-          "InitialMinCooldown": "0.25",
-          "InitialMaxCooldown": "0.25",
-          "CastTime": "3.0",
-          "MinPostAbilityPadding": "1.0",
-          "MaxPostAbilityPadding": "1.0"
+          "DevName": "RunePuzzle"
         }
       }
     },
@@ -1208,11 +701,10 @@
     "CreatureType": "Orc",
     "DevName": "VV_BlackmistCutthroat",
     "DevKey": "VV_BlackmistCutthroat",
-    "DevZoneName": "VikingVillage",
+    "DevZoneName": "VikingVillageAttack",
     "FoundInZones": [
       "The Heart of Tuzari",
-      "Stormwatch",
-      "Ransack of Drakheim"
+      "Stormwatch"
     ],
     "PlacedInZones": [
       "DemonicRitual",
@@ -1221,13 +713,11 @@
     ],
     "FoundInZoneGameIDs": [
       5,
-      12,
-      23
+      12
     ],
     "FoundInZoneFSLIDs": [
       50005,
-      50012,
-      50023
+      50012
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
@@ -1239,36 +729,17 @@
     "Abilities": {
       "Offensive": {
         "MeleeAutoAttack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "0.92",
-          "MaxRange": "500.0",
-          "Cooldown": "1.27"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {},
       "Defensive": {},
       "Mechanic": {
         "Backstab": {
-          "DevName": "ChannelCone",
-          "CastTime": "1.5",
-          "ChannelingDuration": "1.31",
-          "TickInterval": "0.65",
-          "MaxRange": "600.0",
-          "Radius": "600.0",
-          "Angle": "90.0",
-          "PrimaryAttributeCoefficient": "2.0"
+          "DevName": "ChannelCone"
         },
         "Mist Step": {
-          "DevName": "Teleport",
-          "InitialMinCooldown": "8.0",
-          "InitialMaxCooldown": "17.0",
-          "Cooldown": "21.0",
-          "PostAbilityPadding": "2.0",
-          "MaxRange": "4000.0",
-          "DisappearTime": "0.2",
-          "ReappearDelay": "0.8",
-          "ReappearDistanceFromTarget": "400.0",
-          "DifficultyUnlocked": "0.0"
+          "DevName": "Teleport"
         }
       }
     }
@@ -1279,20 +750,14 @@
     "CreatureType": "Undead",
     "DevName": "VV_BlackburnSlaver",
     "DevKey": "VV_BlackburnSlaver",
-    "DevZoneName": "VikingVillage",
-    "FoundInZones": [
-      "Ransack of Drakheim"
-    ],
+    "DevZoneName": "VikingVillageAttack",
+    "FoundInZones": [],
     "PlacedInZones": [
       "CrystalMines",
       "VikingVillage"
     ],
-    "FoundInZoneGameIDs": [
-      23
-    ],
-    "FoundInZoneFSLIDs": [
-      50023
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
@@ -1303,57 +768,21 @@
     "Abilities": {
       "Offensive": {
         "MeleeAutoAttack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "1.18",
-          "Spread": "0.2",
-          "MaxRange": "500.0",
-          "MinCooldown": "2.5",
-          "MaxCooldown": "2.5"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {
         "(CUT) Backhand": {
-          "DevName": "CastedMeleeKnockback",
-          "InitialMinCooldown": "60.0",
-          "InitialMaxCooldown": "60.0",
-          "MinCooldown": "36.0",
-          "MaxCooldown": "36.0",
-          "InterruptCooldown": "24.0",
-          "StrengthCoefficient": "1.5",
-          "CastTime": "1.5",
-          "MaxRange": "550.0",
-          "KnockbackForce": "800.0"
+          "DevName": "CastedMeleeKnockback"
         }
       },
       "Defensive": {},
       "Mechanic": {
         "Shackle Chuck": {
-          "DevName": "ChainShot",
-          "Cooldown": "30.0",
-          "InitialMinCooldown": "14.0",
-          "InitialMaxCooldown": "22.0",
-          "PostAbilityPadding": "1.0",
-          "CastTime": "3.0",
-          "MaxRange": "4000.0",
-          "ProjectileSpeed": "4000.0",
-          "InterruptCooldown": "24.0"
+          "DevName": "ChainShot"
         },
         "Barbed Chain": {
-          "DevName": "ProximityChain",
-          "MaximumEngageDistance": "750.0",
-          "CastTime": "2.0",
-          "InitialMinCooldown": "12.0",
-          "InitialMaxCooldown": "21.0",
-          "MinCooldown": "21.0",
-          "MaxCooldown": "21.0",
-          "InterruptCooldown": "16.0",
-          "StrengthCoefficient": "0.51",
-          "Spread": "0.2",
-          "TickInterval": "2.0",
-          "Duration": "12.0",
-          "DistancePerStack": "300.0",
-          "MaxRange": "4000.0",
-          "MaxStackCount": "5.0"
+          "DevName": "ProximityChain"
         }
       }
     }
@@ -1364,19 +793,13 @@
     "CreatureType": "Undead",
     "DevName": "VV_BlackburnMystic",
     "DevKey": "VV_BlackburnMystic",
-    "DevZoneName": "VikingVillage",
-    "FoundInZones": [
-      "Ransack of Drakheim"
-    ],
+    "DevZoneName": "VikingVillageAttack",
+    "FoundInZones": [],
     "PlacedInZones": [
       "VikingVillage"
     ],
-    "FoundInZoneGameIDs": [
-      23
-    ],
-    "FoundInZoneFSLIDs": [
-      50023
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
@@ -1387,70 +810,21 @@
     "Abilities": {
       "Offensive": {
         "MeleeAutoAttack": {
-          "DevName": "MeleeAutoAttack",
-          "StrengthCoefficient": "1.28",
-          "Spread": "0.2",
-          "MaxRange": "500.0",
-          "MinCooldown": "2.2",
-          "MaxCooldown": "2.2"
+          "DevName": "MeleeAutoAttack"
         }
       },
-      "Control": {
-        "Frost Bolt": {
-          "DevName": "CastProjectile",
-          "InitialMinCooldown": "0.0",
-          "InitialMaxCooldown": "0.0",
-          "MinCooldown": "0.0",
-          "MaxCooldown": "0.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MaxRange": "4000.0",
-          "CastTime": "2.5",
-          "InterruptCooldown": "12.0",
-          "IntCoefficient": "2.83",
-          "Spread": "0.2",
-          "SlowDuration": "3.5",
-          "MoveSpeedMultiplier": "0.7"
-        }
-      },
+      "Control": {},
       "Defensive": {
         "Invigorate": {
-          "DevName": "Heal",
-          "InitialMinCooldown": "12.0",
-          "InitialMaxCooldown": "16.0",
-          "MinCooldown": "24.0",
-          "MaxCooldown": "24.0",
-          "InterruptCooldown": "15.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "CheckRadius": "2000.0",
-          "MaxRange": "4000.0",
-          "CastTime": "3.0",
-          "MaxHealthPercentForHeal": "60.0",
-          "HealPercent": "50.0",
-          "Buff.Duration": "12.0",
-          "Buff.DamageMultiplier": "1.25",
-          "Buff.SizeScale": "1.15"
+          "DevName": "Heal"
         }
       },
       "Mechanic": {
+        "Frost Bolt": {
+          "DevName": "CastProjectile"
+        },
         "Eye of Ul'morgat": {
-          "DevName": "RotatingOrb",
-          "InitialMinCooldown": "6.0",
-          "InitialMaxCooldown": "9.0",
-          "MinCooldown": "16.0",
-          "MaxCooldown": "16.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MinSpawnDistance": "250.0",
-          "MaxSpawnDistance": "800.0",
-          "Duration": "45.0",
-          "Revolutions": "5.0",
-          "BeamLength": "1000.0",
-          "BeamWidth": "150.0",
-          "TickInterval": "1",
-          "IntCoefficient": "2.29",
-          "Spread": "0.2"
+          "DevName": "RotatingOrb"
         }
       }
     }
@@ -2412,19 +1786,13 @@
     "CreatureType": null,
     "DevName": "SH_Spiderling",
     "DevKey": "SH_Spiderling",
-    "DevZoneName": "SilkenHollow",
-    "FoundInZones": [
-      "Silken Hollow"
-    ],
+    "DevZoneName": "SpiderForest",
+    "FoundInZones": [],
     "PlacedInZones": [
       "SilkenHollow"
     ],
-    "FoundInZoneGameIDs": [
-      24
-    ],
-    "FoundInZoneFSLIDs": [
-      50024
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 0.0,
     "SpiritPointValue": 0.0,
@@ -2435,37 +1803,20 @@
     "Abilities": {
       "Offensive": {
         "Attack": {
-          "DevName": "MeleeAutoAttack",
-          "MinCooldown": "1.8",
-          "MaxCooldown": "1.8",
-          "MaxRange": "250.0",
-          "StrengthCoefficient": "0.42"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {},
       "Defensive": {},
       "Mechanic": {
         "Leap": {
-          "DevName": "Leap",
-          "InitialMinCooldown": "6.0",
-          "InitialMaxCooldown": "12.0",
-          "MinCooldown": "8.0",
-          "MaxCooldown": "8.0",
-          "LeapDuration": "0.5",
-          "PreLeapDelay": "0.2",
-          "MinRange": "600.0",
-          "MaxRange": "1200.0",
-          "StrengthCoefficient": "0.64"
+          "DevName": "Leap"
         },
         "NoNearbyTargetFound": {
-          "DevName": "NoNearbyTargetFound",
-          "MaxRange": "3500.0",
-          "ThreatToAdd": "\" 1.0"
+          "DevName": "NoNearbyTargetFound"
         },
         "PickRandomTarget": {
-          "DevName": "PickRandomTarget",
-          "MaxRange": "3500.0",
-          "ThreatToAdd": "\" 1.0"
+          "DevName": "PickRandomTarget"
         }
       }
     }
@@ -2476,19 +1827,13 @@
     "CreatureType": null,
     "DevName": "SH_RotheartRecluse",
     "DevKey": "SH_RotheartRecluse",
-    "DevZoneName": "SilkenHollow",
-    "FoundInZones": [
-      "Silken Hollow"
-    ],
+    "DevZoneName": "SpiderForest",
+    "FoundInZones": [],
     "PlacedInZones": [
       "SilkenHollow"
     ],
-    "FoundInZoneGameIDs": [
-      24
-    ],
-    "FoundInZoneFSLIDs": [
-      50024
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
@@ -2499,44 +1844,13 @@
     "Abilities": {
       "Offensive": {
         "Heartstopper": {
-          "DevName": "DotProjectile",
-          "InitialMinCooldown": "8.0",
-          "InitialMaxCooldown": "11.0",
-          "MinCooldown": "10.0",
-          "MaxCooldown": "10.0",
-          "InterruptCooldown": "16.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "CastTime": "0.0",
-          "MaxRange": "3000.0",
-          "AcquisitionMaxRange": "3000.0",
-          "Dot.Duration": "45.0",
-          "Dot.TickInterval": "3.0",
-          "Dot.StrengthCoefficient": "0.33",
-          "End.StrengthCoefficient": "18.0",
-          "Slow.MoveSpeedMultiplier": "0.80"
+          "DevName": "DotProjectile"
         },
         "Attack": {
-          "DevName": "MeleeAutoAttack",
-          "MinCooldown": "1.4",
-          "MaxCooldown": "1.4",
-          "MaxRange": "500.0",
-          "StrengthCoefficient": "1.2"
+          "DevName": "MeleeAutoAttack"
         },
         "Envenom": {
-          "DevName": "MeleeDot",
-          "InitialMinCooldown": "4.0",
-          "InitialMaxCooldown": "16.0",
-          "MinCooldown": "20.0",
-          "MaxCooldown": "20.0",
-          "InterruptCooldown": "16.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "CastTime": "1.5",
-          "MaxRange": "500.0",
-          "Duration": "6.0",
-          "TickInterval": "2.0",
-          "StrengthCoefficient": "3.325"
+          "DevName": "MeleeDot"
         }
       },
       "Control": {},
@@ -2550,19 +1864,13 @@
     "CreatureType": null,
     "DevName": "SH_GravesnareKidnapper",
     "DevKey": "SH_GravesnareKidnapper",
-    "DevZoneName": "SilkenHollow",
-    "FoundInZones": [
-      "Silken Hollow"
-    ],
+    "DevZoneName": "SpiderForest",
+    "FoundInZones": [],
     "PlacedInZones": [
       "SilkenHollow"
     ],
-    "FoundInZoneGameIDs": [
-      24
-    ],
-    "FoundInZoneFSLIDs": [
-      50024
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
@@ -2572,70 +1880,23 @@
     "Resist": null,
     "Abilities": {
       "Offensive": {
-        "Razorlace Web": {
-          "DevName": "ConeAoeProjectiles",
-          "InitialMinCooldown": "9.0",
-          "InitialMaxCooldown": "24.0",
-          "MinCooldown": "32.0",
-          "MaxCooldown": "32.0",
-          "MinPostAbilityPadding": "3.0",
-          "MaxPostAbilityPadding": "3.0",
-          "MaxRange": "3000.0",
-          "CastTime": "0.5",
-          "ChannelDuration": "2.5",
-          "ChannelTickInterval": "\" .0333325",
-          "NumTicksToIgnoreFirstCast": "30.0",
-          "PieMinRadius": "300.0",
-          "PieMaxRadius": "2500.0",
-          "Angle": "30.0",
-          "MinDistance": "450.0",
-          "DamageRadius": "225.0",
-          "PrimaryAttributeCoefficient": "3.0",
-          "Dot.PrimaryAttributeCoefficient": "1.68",
-          "Dot.TickInterval": "2.0",
-          "Dot.MoveSpeedMultiplier": "0.5",
-          "PoolLifetime": "30.0"
-        },
         "Attack": {
-          "DevName": "MeleeAutoAttack",
-          "MinCooldown": "1.8",
-          "MaxCooldown": "1.8",
-          "MaxRange": "500.0",
-          "StrengthCoefficient": "1.64"
+          "DevName": "MeleeAutoAttack"
         }
       },
-      "Control": {
+      "Control": {},
+      "Defensive": {},
+      "Mechanic": {
+        "Razorlace Web": {
+          "DevName": "ConeAoeProjectiles"
+        },
         "Kidnap": {
-          "DevName": "Kidnap",
-          "InitialMinCooldown": "16.0",
-          "InitialMaxCooldown": "24.0",
-          "MinCooldown": "32.0",
-          "MaxCooldown": "32.0",
-          "InterruptCooldown": "25.0",
-          "CCCooldown": "12.0",
-          "CastTime": "1.5",
-          "LeapDistance": "1000.0",
-          "LeapDuration": "0.5",
-          "Pull.Duration": "8.0",
-          "Pull.Speed": "800.0",
-          "Pull.MinDistance": "200.0",
-          "Pull.BreakDistance": "5000.0",
-          "MaxShootRange": "4500.0",
-          "MaxRange": "3000.0",
-          "StrengthCoefficient": "1.0",
-          "PostAbilityPadding": "2.0"
+          "DevName": "Kidnap"
         },
         "Fanged Bite": {
-          "DevName": "KidnapBite",
-          "MaxRange": "800.0",
-          "StrengthCoefficient": "12.0",
-          "StunDuration": "3.0",
-          "HealFraction": "0.2",
-          "PostAbilityPadding": "3.0"
+          "DevName": "KidnapBite"
         }
-      },
-      "Defensive": {},
-      "Mechanic": {}
+      }
     }
   },
   "92": {
@@ -2644,19 +1905,13 @@
     "CreatureType": null,
     "DevName": "SH_BossSpider",
     "DevKey": "SH_BossSpider",
-    "DevZoneName": "SilkenHollow",
-    "FoundInZones": [
-      "Silken Hollow"
-    ],
+    "DevZoneName": "SpiderForest",
+    "FoundInZones": [],
     "PlacedInZones": [
       "SilkenHollow"
     ],
-    "FoundInZoneGameIDs": [
-      24
-    ],
-    "FoundInZoneFSLIDs": [
-      50024
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
@@ -2667,99 +1922,14 @@
     "Abilities": {
       "Offensive": {
         "Mothers Milk": {
-          "DevName": "AOEDotAndBuff",
-          "InitialMinCooldown": "44.0",
-          "InitialMaxCooldown": "44.0",
-          "MinCooldown": "60.0",
-          "MaxCooldown": "60.0",
-          "CastTime": "2.0",
-          "Aoe.Duration": "10.0",
-          "Aoe.StackInterval": "2.0",
-          "Dot.StrengthCoefficient": "0.3",
-          "Dot.TickInterval": "2.0",
-          "Dot.Duration": "6.0",
-          "Dot.MoveSpeedMultiplier": "0.95",
-          "SpiderBuff.MaxHealthMultiplierPerStack": "1.1",
-          "SpiderBuff.DamageScalePerStack": "1.1",
-          "SpiderBuff.MaxStackCount": "1.0"
+          "DevName": "AOEDotAndBuff"
         },
         "Attack": {
-          "DevName": "MeleeAutoAttack",
-          "MinCooldown": "3.2",
-          "MaxCooldown": "3.2",
-          "MaxRange": "700.0",
-          "StrengthCoefficient": "8.30"
-        },
-        "Venom Spray": {
-          "DevName": "VenomSpray",
-          "InitialMinCooldown": "32.0",
-          "InitialMaxCooldown": "32.0",
-          "MinCooldown": "40.0",
-          "MaxCooldown": "40.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MaxRange": "2400.0",
-          "CastTime": "0.5",
-          "ChannelDuration": "2.25",
-          "ChannelTickInterval": "\" .0333325",
-          "NumTicksToIgnoreFirstCast": "30.0",
-          "PieMinRadius": "300.0",
-          "PieMaxRadius": "3500.0",
-          "Angle": "60.0",
-          "MinDistance": "450.0",
-          "DamageRadius": "225.0",
-          "StrengthCoefficient": "4.95",
-          "ActivationCount": "3.0",
-          "DelayBetweenActivations": "0.5"
+          "DevName": "MeleeAutoAttack"
         }
       },
-      "Control": {
-        "Tethering Webs": {
-          "DevName": "Tether",
-          "InitialMinCooldown": "60.0",
-          "InitialMaxCooldown": "60.0",
-          "MinCooldown": "60.0",
-          "MaxCooldown": "60.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MaxRange": "3500.0",
-          "MaxBounceRange": "2300.0",
-          "MaxBounceAcquisitionRange": "2200.0",
-          "PrePullDelay": "4.0",
-          "MaxPullDuration": "5.0",
-          "PullSpeed": "2000.0",
-          "BreakDistance": "2300.0",
-          "SnapTogetherDistance": "400.0",
-          "StunDuration": "4.0"
-        }
-      },
-      "Defensive": {
-        "Call Children": {
-          "DevName": "SpawnAdds",
-          "MaxHealthMultiplier": "0.6",
-          "ExtraSpawnDungeonDifficulty": "7.0",
-          "InitialMinCooldown": "15.0",
-          "InitialMaxCooldown": "15.0",
-          "MinCooldown": "63.0",
-          "MaxCooldown": "63.0",
-          "CastTime": "1.5",
-          "Shake.Duration": "2.5",
-          "Shake.SpiderlingSpawnInterval": "0.5",
-          "Shake.SpiderlingImpactMinRadius": "400.0",
-          "Shake.SpiderlingImpactMaxRadius": "800.0",
-          "SwarmCount": "1.0",
-          "SwarmSpawnDelay": "1.5",
-          "SwarmSpawnInterval": "0.2",
-          "SwarmImpactRadius": "750.0",
-          "Radius": "500.0",
-          "TrackingRadius": "1250.0",
-          "MoveSpeed": "350.0",
-          "StrengthCoefficient": "1.4",
-          "UpdateTargetInterval": "8.0",
-          "TickInterval": "1.0",
-          "LingerTime": "3.0"
-        }
-      },
+      "Control": {},
+      "Defensive": {},
       "Mechanic": {
         "InitialClimbDown": {
           "DevName": "InitialClimbDown"
@@ -2767,28 +1937,20 @@
         "ResetEncounter": {
           "DevName": "ResetEncounter"
         },
+        "Call Children": {
+          "DevName": "SpawnAdds"
+        },
         "Fang Strike": {
-          "DevName": "TankSlam",
-          "InitialMinCooldown": "9.0",
-          "InitialMaxCooldown": "9.0",
-          "MinCooldown": "40.0",
-          "MaxCooldown": "40.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MaxRange": "700.0",
-          "CastTime": "2.5",
-          "StrengthCoefficient": "13.42"
+          "DevName": "TankSlam"
+        },
+        "Tethering Webs": {
+          "DevName": "Tether"
         },
         "Devour": {
-          "DevName": "TetherAttack",
-          "MinCooldown": "8.0",
-          "MaxCooldown": "8.0",
-          "MinPostAbilityPadding": "0.7",
-          "MaxPostAbilityPadding": "0.7",
-          "LeapDuration": "0.5",
-          "PreLeapDelay": "0.2",
-          "MaxRange": "2000.0",
-          "StrengthCoefficient": "5.6"
+          "DevName": "TetherAttack"
+        },
+        "Venom Spray": {
+          "DevName": "VenomSpray"
         }
       }
     }
@@ -4670,20 +3832,17 @@
     "DevKey": "NP_Shinchopper",
     "DevZoneName": "NightPatrol",
     "FoundInZones": [
-      "Stormwatch",
-      "Silken Hollow"
+      "Stormwatch"
     ],
     "PlacedInZones": [
       "NightPatrol",
       "SilkenHollow"
     ],
     "FoundInZoneGameIDs": [
-      12,
-      24
+      12
     ],
     "FoundInZoneFSLIDs": [
-      50012,
-      50024
+      50012
     ],
     "HasAIBC": true,
     "KillScore": 1.0,
@@ -4715,20 +3874,17 @@
     "DevKey": "NP_Facestabber",
     "DevZoneName": "NightPatrol",
     "FoundInZones": [
-      "Stormwatch",
-      "Silken Hollow"
+      "Stormwatch"
     ],
     "PlacedInZones": [
       "NightPatrol",
       "SilkenHollow"
     ],
     "FoundInZoneGameIDs": [
-      12,
-      24
+      12
     ],
     "FoundInZoneFSLIDs": [
-      50012,
-      50024
+      50012
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
@@ -4787,20 +3943,17 @@
     "DevKey": "NP_BullyBasher",
     "DevZoneName": "NightPatrol",
     "FoundInZones": [
-      "Stormwatch",
-      "Silken Hollow"
+      "Stormwatch"
     ],
     "PlacedInZones": [
       "NightPatrol",
       "SilkenHollow"
     ],
     "FoundInZoneGameIDs": [
-      12,
-      24
+      12
     ],
     "FoundInZoneFSLIDs": [
-      50012,
-      50024
+      50012
     ],
     "HasAIBC": true,
     "KillScore": 4.0,
@@ -5995,7 +5148,6 @@
     "FoundInZones": [
       "Cithrel's Fall",
       "Wyrmheart",
-      "Ransack of Drakheim",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
@@ -6007,13 +5159,11 @@
     "FoundInZoneGameIDs": [
       7,
       8,
-      23,
       31
     ],
     "FoundInZoneFSLIDs": [
       50007,
       50008,
-      50023,
       50031
     ],
     "HasAIBC": true,
@@ -8925,19 +8075,13 @@
     "CreatureType": "Goblin",
     "DevName": "SH_Venomdrinker",
     "DevKey": "SH_Venomdrinker",
-    "DevZoneName": "SilkenHollow",
-    "FoundInZones": [
-      "Silken Hollow"
-    ],
+    "DevZoneName": "SpiderForest",
+    "FoundInZones": [],
     "PlacedInZones": [
       "SilkenHollow"
     ],
-    "FoundInZoneGameIDs": [
-      24
-    ],
-    "FoundInZoneFSLIDs": [
-      50024
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
@@ -8948,61 +8092,21 @@
     "Abilities": {
       "Offensive": {
         "Attack": {
-          "DevName": "MeleeAutoAttack",
-          "MinCooldown": "1.3",
-          "MaxCooldown": "1.3",
-          "MaxRange": "500.0",
-          "StrengthCoefficient": "0.63"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {
         "Poisonado": {
-          "DevName": "CastSlowHomingProjectile",
-          "InitialMinCooldown": "8.0",
-          "InitialMaxCooldown": "16.0",
-          "MinCooldown": "36.0",
-          "MaxCooldown": "36.0",
-          "CCCooldown": "21.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MaxRange": "3000.0",
-          "CastTime": "3.0",
-          "SpawnInFrontOffset": "250.0",
-          "Projectile.Lifetime": "16.0",
-          "Projectile.Radius": "200.0",
-          "Projectile.Velocity": "150.0",
-          "PrimaryAttributeCoefficient": "3.77",
-          "ApplyInterval": "1.0"
+          "DevName": "CastSlowHomingProjectile"
         }
       },
       "Defensive": {},
       "Mechanic": {
         "Venom Bolt": {
-          "DevName": "CastProjectile",
-          "MinCooldown": "0.0",
-          "MaxCooldown": "0.0",
-          "MaxRange": "3000.0",
-          "CastTime": "2.0",
-          "StrengthCoefficient": "2.55"
+          "DevName": "CastProjectile"
         },
         "Poisonado": {
-          "DevName": "Tornado",
-          "InitialMinCooldown": "8.0",
-          "InitialMaxCooldown": "16.0",
-          "MinCooldown": "30.0",
-          "MaxCooldown": "30.0",
-          "MinPostAbilityPadding": "0.0",
-          "MaxPostAbilityPadding": "0.0",
-          "MaxRange": "3000.0",
-          "CastTime": "3.0",
-          "SpawnInFrontOffset": "0.0",
-          "Projectile.Duration": "8.0",
-          "Projectile.Radius": "200.0",
-          "Projectile.Velocity": "200.0",
-          "Projectile.WobbleFrequency": "0.4",
-          "Projectile.WobbleAmplitude": "1000.0",
-          "StrengthCoefficient": "4.77",
-          "ApplyInterval": "0.5"
+          "DevName": "Tornado"
         }
       }
     }
@@ -9013,19 +8117,13 @@
     "CreatureType": "Goblin",
     "DevName": "SH_Eggbearer",
     "DevKey": "SH_Eggbearer",
-    "DevZoneName": "SilkenHollow",
-    "FoundInZones": [
-      "Silken Hollow"
-    ],
+    "DevZoneName": "SpiderForest",
+    "FoundInZones": [],
     "PlacedInZones": [
       "SilkenHollow"
     ],
-    "FoundInZoneGameIDs": [
-      24
-    ],
-    "FoundInZoneFSLIDs": [
-      50024
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
@@ -9036,23 +8134,14 @@
     "Abilities": {
       "Offensive": {
         "Attack": {
-          "DevName": "MeleeAutoAttack",
-          "MinCooldown": "1.7",
-          "MaxCooldown": "1.7",
-          "MaxRange": "500.0",
-          "StrengthCoefficient": "0.86"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {},
       "Defensive": {},
       "Mechanic": {
         "OnDeathExplosion": {
-          "DevName": "OnDeathExplosion",
-          "ExplosionDelay": "0.5",
-          "MinSpiderlingsToSpawn": "2.0",
-          "MaxSpiderlingsToSpawn": "3.0",
-          "SpiderlingImpactMinRadius": "250.0",
-          "SpiderlingImpactMaxRadius": "500.0"
+          "DevName": "OnDeathExplosion"
         }
       }
     }
@@ -9063,19 +8152,13 @@
     "CreatureType": null,
     "DevName": "SH_CarrionHorror",
     "DevKey": "SH_CarrionHorror",
-    "DevZoneName": "SilkenHollow",
-    "FoundInZones": [
-      "Silken Hollow"
-    ],
+    "DevZoneName": "SpiderForest",
+    "FoundInZones": [],
     "PlacedInZones": [
       "SilkenHollow"
     ],
-    "FoundInZoneGameIDs": [
-      24
-    ],
-    "FoundInZoneFSLIDs": [
-      50024
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
@@ -9085,39 +8168,18 @@
     "Resist": null,
     "Abilities": {
       "Offensive": {
-        "Bursting Brood": {
-          "DevName": "ExplodeCorpse",
-          "InitialMinCooldown": "12.0",
-          "InitialMaxCooldown": "24.0",
-          "MinCooldown": "12.0",
-          "MaxCooldown": "12.0",
-          "MaxRange": "1500.0",
-          "CastRange": "50.0",
-          "CastTime": "3.0",
-          "ExplosionDelay": "0.05",
-          "ExplosionHeight": "2000.0",
-          "ExplosionRadius": "6000.0",
-          "StrengthCoefficient": "4.03",
-          "Dot.StrengthCoefficient": "0.73"
-        },
         "Attack": {
-          "DevName": "MeleeAutoAttack",
-          "MinCooldown": "2.7",
-          "MaxCooldown": "2.7",
-          "MaxRange": "500.0",
-          "StrengthCoefficient": "3.2"
+          "DevName": "MeleeAutoAttack"
         }
       },
       "Control": {},
       "Defensive": {},
       "Mechanic": {
+        "Bursting Brood": {
+          "DevName": "ExplodeCorpse"
+        },
         "Deathrattle": {
-          "DevName": "OnDeathExplosion",
-          "ExplosionDelay": "2.0",
-          "MinSpiderlingsToSpawn": "0.0",
-          "MaxSpiderlingsToSpawn": "0.0",
-          "SpiderlingImpactMinRadius": "350.0",
-          "SpiderlingImpactMaxRadius": "600.0"
+          "DevName": "OnDeathExplosion"
         }
       }
     }
@@ -9223,8 +8285,6 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
-      "Ransack of Drakheim",
-      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9241,8 +8301,6 @@
       13,
       15,
       21,
-      23,
-      24,
       25,
       29,
       30,
@@ -9258,8 +8316,6 @@
       50013,
       50015,
       50021,
-      50023,
-      50024,
       50025,
       50029,
       50030,
@@ -9312,8 +8368,6 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
-      "Ransack of Drakheim",
-      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9330,8 +8384,6 @@
       13,
       15,
       21,
-      23,
-      24,
       25,
       29,
       30,
@@ -9347,8 +8399,6 @@
       50013,
       50015,
       50021,
-      50023,
-      50024,
       50025,
       50029,
       50030,
@@ -9387,8 +8437,6 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
-      "Ransack of Drakheim",
-      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9405,8 +8453,6 @@
       13,
       15,
       21,
-      23,
-      24,
       25,
       29,
       30,
@@ -9422,8 +8468,6 @@
       50013,
       50015,
       50021,
-      50023,
-      50024,
       50025,
       50029,
       50030,
@@ -9462,8 +8506,6 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
-      "Ransack of Drakheim",
-      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9480,8 +8522,6 @@
       13,
       15,
       21,
-      23,
-      24,
       25,
       29,
       30,
@@ -9497,8 +8537,6 @@
       50013,
       50015,
       50021,
-      50023,
-      50024,
       50025,
       50029,
       50030,
@@ -9537,8 +8575,6 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
-      "Ransack of Drakheim",
-      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9555,8 +8591,6 @@
       13,
       15,
       21,
-      23,
-      24,
       25,
       29,
       30,
@@ -9572,8 +8606,6 @@
       50013,
       50015,
       50021,
-      50023,
-      50024,
       50025,
       50029,
       50030,
@@ -9635,8 +8667,6 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
-      "Ransack of Drakheim",
-      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9653,8 +8683,6 @@
       13,
       15,
       21,
-      23,
-      24,
       25,
       29,
       30,
@@ -9670,8 +8698,6 @@
       50013,
       50015,
       50021,
-      50023,
-      50024,
       50025,
       50029,
       50030,
@@ -9732,8 +8758,6 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
-      "Ransack of Drakheim",
-      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9750,8 +8774,6 @@
       13,
       15,
       21,
-      23,
-      24,
       25,
       29,
       30,
@@ -9767,8 +8789,6 @@
       50013,
       50015,
       50021,
-      50023,
-      50024,
       50025,
       50029,
       50030,
@@ -9826,8 +8846,6 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
-      "Ransack of Drakheim",
-      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9844,8 +8862,6 @@
       13,
       15,
       21,
-      23,
-      24,
       25,
       29,
       30,
@@ -9861,8 +8877,6 @@
       50013,
       50015,
       50021,
-      50023,
-      50024,
       50025,
       50029,
       50030,
@@ -9904,8 +8918,6 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
-      "Ransack of Drakheim",
-      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9922,8 +8934,6 @@
       13,
       15,
       21,
-      23,
-      24,
       25,
       29,
       30,
@@ -9939,8 +8949,6 @@
       50013,
       50015,
       50021,
-      50023,
-      50024,
       50025,
       50029,
       50030,
@@ -9982,8 +8990,6 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
-      "Ransack of Drakheim",
-      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -10000,8 +9006,6 @@
       13,
       15,
       21,
-      23,
-      24,
       25,
       29,
       30,
@@ -10017,8 +9021,6 @@
       50013,
       50015,
       50021,
-      50023,
-      50024,
       50025,
       50029,
       50030,
@@ -10051,7 +9053,6 @@
     "DevKey": "SP_PolarBear",
     "DevZoneName": "SnowPeak",
     "FoundInZones": [
-      "Ransack of Drakheim",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
@@ -10059,11 +9060,9 @@
       "VikingVillage"
     ],
     "FoundInZoneGameIDs": [
-      23,
       31
     ],
     "FoundInZoneFSLIDs": [
-      50023,
       50031
     ],
     "HasAIBC": true,
@@ -10135,7 +9134,6 @@
     "DevZoneName": "SnowPeak",
     "FoundInZones": [
       "Stormwatch",
-      "Ransack of Drakheim",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
@@ -10145,12 +9143,10 @@
     ],
     "FoundInZoneGameIDs": [
       12,
-      23,
       31
     ],
     "FoundInZoneFSLIDs": [
       50012,
-      50023,
       50031
     ],
     "HasAIBC": true,
@@ -12054,19 +11050,13 @@
     "CreatureType": null,
     "DevName": "SH_QuiveringEggSac",
     "DevKey": "SH_QuiveringEggSac",
-    "DevZoneName": "SilkenHollow",
-    "FoundInZones": [
-      "Silken Hollow"
-    ],
+    "DevZoneName": "SpiderForest",
+    "FoundInZones": [],
     "PlacedInZones": [
       "SilkenHollow"
     ],
-    "FoundInZoneGameIDs": [
-      24
-    ],
-    "FoundInZoneFSLIDs": [
-      50024
-    ],
+    "FoundInZoneGameIDs": [],
+    "FoundInZoneFSLIDs": [],
     "HasAIBC": false,
     "KillScore": null,
     "SpiritPointValue": null,

@@ -711,84 +711,7 @@
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
       "IsSeasonalPinnacle": false,
-      "Mobs": [
-        {
-          "MobID": 10,
-          "MobName": "Ashen Arsonist"
-        },
-        {
-          "MobID": 11,
-          "MobName": "Icebite Reaver"
-        },
-        {
-          "MobID": 12,
-          "MobName": "Raging Pillager"
-        },
-        {
-          "MobID": 13,
-          "MobName": "Frenzied Looter"
-        },
-        {
-          "MobID": 14,
-          "MobName": "Craven Hiisi"
-        },
-        {
-          "MobID": 15,
-          "MobName": "Coldbrine Fiend"
-        },
-        {
-          "MobID": 18,
-          "MobName": "Auga Handhafi the Blind"
-        },
-        {
-          "MobID": 22,
-          "MobName": "Kaldurson Isilagður"
-        },
-        {
-          "MobID": 23,
-          "MobName": "Kaldurson Eldsupptok"
-        },
-        {
-          "MobID": 25,
-          "MobName": "Fodir Kaldur"
-        },
-        {
-          "MobID": 28,
-          "MobName": "Chilgar the Drowned"
-        },
-        {
-          "MobID": 29,
-          "MobName": "Nightmist Whisperer"
-        },
-        {
-          "MobID": 30,
-          "MobName": "Shadow of Ulmorgat"
-        },
-        {
-          "MobID": 32,
-          "MobName": "Nightmist Cutthroat"
-        },
-        {
-          "MobID": 33,
-          "MobName": "Bleakfrost Slaver"
-        },
-        {
-          "MobID": 34,
-          "MobName": "Bleakfrost Mystic"
-        },
-        {
-          "MobID": 155,
-          "MobName": "Frozen Remnant"
-        },
-        {
-          "MobID": 313,
-          "MobName": "Glacial Bear"
-        },
-        {
-          "MobID": 314,
-          "MobName": "Dire Wolf"
-        }
-      ]
+      "Mobs": []
     },
     "24": {
       "DisplayName": "Silken Hollow",
@@ -804,56 +727,7 @@
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
       "IsSeasonalPinnacle": false,
-      "Mobs": [
-        {
-          "MobID": "SH_QuiveringEggSac",
-          "MobName": "Quivering Egg Sac"
-        },
-        {
-          "MobID": 13,
-          "MobName": "Frenzied Looter"
-        },
-        {
-          "MobID": 89,
-          "MobName": "Spiderling"
-        },
-        {
-          "MobID": 90,
-          "MobName": "Rotheart Recluse"
-        },
-        {
-          "MobID": 91,
-          "MobName": "Gravesnare Kidnapper"
-        },
-        {
-          "MobID": 92,
-          "MobName": "Vexira, Mother of Nightmares"
-        },
-        {
-          "MobID": 130,
-          "MobName": "Shinchopper"
-        },
-        {
-          "MobID": 131,
-          "MobName": "Facestabber"
-        },
-        {
-          "MobID": 132,
-          "MobName": "Bully Basher"
-        },
-        {
-          "MobID": 266,
-          "MobName": "Venomdrinker"
-        },
-        {
-          "MobID": 267,
-          "MobName": "Eggbearer"
-        },
-        {
-          "MobID": 268,
-          "MobName": "Carrion Horror"
-        }
-      ]
+      "Mobs": []
     },
     "25": {
       "DisplayName": "Godfall Quarry",
