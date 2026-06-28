@@ -7198,7 +7198,8 @@
         "DevName": "CAA_Talent_Mosse_Talent8",
         "TalentRow": 5,
         "TalentColumn": 3,
-        "PointCost": 3
+        "PointCost": 3,
+        "FlipsSpellCDA": 1075
       },
       "196": {
         "Name": "Rowdy Rootsap",
@@ -8170,7 +8171,8 @@
         "DevName": "CAA_Talent_Ink_Trait5",
         "TalentRow": 5,
         "TalentColumn": 2,
-        "PointCost": 3
+        "PointCost": 3,
+        "FlipsSpellCDA": 1237
       },
       "85": {
         "Name": "Schism",

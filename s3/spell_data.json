@@ -528,32 +528,50 @@
     "107": {
       "Name": null,
       "FSLID": 107,
-      "DevName": "GA_Warmaster_Talent_Passive_MonitorAbilities"
+      "DevName": "GA_Warmaster_Talent_Passive_MonitorAbilities",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "108": {
       "Name": null,
       "FSLID": 108,
-      "DevName": "GA_Vigor_Passive_Talent_InstantAoeHeal_CritMonitor"
+      "DevName": "GA_Vigor_Passive_Talent_InstantAoeHeal_CritMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "109": {
       "Name": "Radiant Blast",
       "FSLID": 109,
-      "DevName": "GA_Vigor_InstantFrontalConeDamageHeal"
+      "DevName": "GA_Vigor_InstantFrontalConeDamageHeal",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "110": {
       "Name": "Circle of Light",
       "FSLID": 110,
-      "DevName": "GA_Vigor_InstantAoeHeal"
+      "DevName": "GA_Vigor_InstantAoeHeal",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "111": {
       "Name": "Lightshaper's Ward",
       "FSLID": 111,
-      "DevName": "GA_Vigor_DamageReductionAndImmunityBuff"
+      "DevName": "GA_Vigor_DamageReductionAndImmunityBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "112": {
       "Name": "Greater Heal",
       "FSLID": 112,
-      "DevName": "GA_Vigor_CastedSingleTargetHeal"
+      "DevName": "GA_Vigor_CastedSingleTargetHeal",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "113": {
       "Name": null,
@@ -563,67 +581,106 @@
     "114": {
       "Name": null,
       "FSLID": 114,
-      "DevName": "GA_Mosse_Passive_PartyHealthMonitoring"
+      "DevName": "GA_Mosse_Passive_PartyHealthMonitoring",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "115": {
       "Name": null,
       "FSLID": 115,
-      "DevName": "GA_Mosse_CastedSingleTargetHeal"
+      "DevName": "GA_Mosse_CastedSingleTargetHeal",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "116": {
       "Name": "Ironleaf Ward",
       "FSLID": 116,
-      "DevName": "GA_Mosse_SingleTargetCastedDamageReduction"
+      "DevName": "GA_Mosse_SingleTargetCastedDamageReduction",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "117": {
       "Name": null,
       "FSLID": 117,
-      "DevName": "GA_Meiko_Passive_ResourceExpertise"
+      "DevName": "GA_Meiko_Passive_ResourceExpertise",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "118": {
       "Name": null,
       "FSLID": 118,
-      "DevName": "GA_Meiko_Passive_MonitorLethalDamage"
+      "DevName": "GA_Meiko_Passive_MonitorLethalDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "119": {
       "Name": null,
       "FSLID": 119,
-      "DevName": "GA_Meiko_Passive_HealthMonitorBuff"
+      "DevName": "GA_Meiko_Passive_HealthMonitorBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "120": {
       "Name": null,
       "FSLID": 120,
-      "DevName": "GA_Meiko_Passive_Expertise_WaitForAbilityEnded"
+      "DevName": "GA_Meiko_Passive_Expertise_WaitForAbilityEnded",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "121": {
       "Name": null,
       "FSLID": 121,
-      "DevName": "GA_Mara_Passive_BloodJuiceMonitor"
+      "DevName": "GA_Mara_Passive_BloodJuiceMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "122": {
       "Name": null,
       "FSLID": 122,
-      "DevName": "GA_Mara_Passive_AoeAttackBuilder_Poison_Aoe"
+      "DevName": "GA_Mara_Passive_AoeAttackBuilder_Poison_Aoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "123": {
       "Name": null,
       "FSLID": 123,
-      "DevName": "GA_Ink_Passive_Talent_SelfDefenceBuff_IncreasedDurationAndTaunt_Replacer"
+      "DevName": "GA_Ink_Passive_Talent_SelfDefenceBuff_IncreasedDurationAndTaunt_Replacer",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "124": {
       "Name": null,
       "FSLID": 124,
-      "DevName": "GA_Ink_Passive_CleaveAttack_Monitor"
+      "DevName": "GA_Ink_Passive_CleaveAttack_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "125": {
       "Name": "Grappling Arrow",
       "FSLID": 125,
-      "DevName": "GA_Bowguy_TargetedAoePull"
+      "DevName": "GA_Bowguy_TargetedAoePull",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "126": {
       "Name": "Starfall Volley",
       "FSLID": 126,
-      "DevName": "GA_Bowguy_TargetedAoeDamage"
+      "DevName": "GA_Bowguy_TargetedAoeDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "127": {
       "Name": null,
@@ -4698,227 +4755,362 @@
     "960": {
       "Name": null,
       "FSLID": 960,
-      "DevName": "GA_Warmaster_Talent_Passive_ToughnessBuff"
+      "DevName": "GA_Warmaster_Talent_Passive_ToughnessBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "961": {
       "Name": null,
       "FSLID": 961,
-      "DevName": "GA_Warmaster_Talent_Passive_BlockMonitor"
+      "DevName": "GA_Warmaster_Talent_Passive_BlockMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "962": {
       "Name": null,
       "FSLID": 962,
-      "DevName": "GA_Warmaster_Talent_LightMelee_Tier3a_CritMonitor"
+      "DevName": "GA_Warmaster_Talent_LightMelee_Tier3a_CritMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "963": {
       "Name": null,
       "FSLID": 963,
-      "DevName": "GA_Warmaster_SingleInstantPullEnemy"
+      "DevName": "GA_Warmaster_SingleInstantPullEnemy",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "964": {
       "Name": null,
       "FSLID": 964,
-      "DevName": "GA_Warmaster_SharedToughnessAura"
+      "DevName": "GA_Warmaster_SharedToughnessAura",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "965": {
       "Name": null,
       "FSLID": 965,
-      "DevName": "GA_Warmaster_Passive_SharedToughnessAura_PartyControl"
+      "DevName": "GA_Warmaster_Passive_SharedToughnessAura_PartyControl",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "966": {
       "Name": "Taunt",
       "FSLID": 966,
-      "DevName": "GA_Warmaster_RangedTaunt"
+      "DevName": "GA_Warmaster_RangedTaunt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "967": {
       "Name": null,
       "FSLID": 967,
-      "DevName": "GA_Warmaster_Passive_SpiritProcHandler"
+      "DevName": "GA_Warmaster_Passive_SpiritProcHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "968": {
       "Name": null,
       "FSLID": 968,
-      "DevName": "GA_Warmaster_Passive_HeavyMeleeMonitor"
+      "DevName": "GA_Warmaster_Passive_HeavyMeleeMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "969": {
       "Name": null,
       "FSLID": 969,
-      "DevName": "GA_Warmaster_Passive_BlockProcMonitor"
+      "DevName": "GA_Warmaster_Passive_BlockProcMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "970": {
       "Name": null,
       "FSLID": 970,
-      "DevName": "GA_Warmaster_ToughnessMonitor"
+      "DevName": "GA_Warmaster_ToughnessMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "971": {
       "Name": null,
       "FSLID": 971,
-      "DevName": "GA_Warmaster_Passive_SaveAlly_AllyBuffMonitor"
+      "DevName": "GA_Warmaster_Passive_SaveAlly_AllyBuffMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "972": {
       "Name": null,
       "FSLID": 972,
-      "DevName": "GA_Warmaster_Passive_SaveAlly"
+      "DevName": "GA_Warmaster_Passive_SaveAlly",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "973": {
       "Name": "Iron Wall",
       "FSLID": 973,
-      "DevName": "GA_Warmaster_NoResourceLossSelfBuff"
+      "DevName": "GA_Warmaster_NoResourceLossSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "974": {
       "Name": "Charge",
       "FSLID": 974,
-      "DevName": "GA_Warmaster_MoveToTargetStun"
+      "DevName": "GA_Warmaster_MoveToTargetStun",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "975": {
       "Name": "Hold the Line",
       "FSLID": 975,
-      "DevName": "GA_Warmaster_MoveSpeedBuff"
+      "DevName": "GA_Warmaster_MoveSpeedBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "976": {
       "Name": "Bash",
       "FSLID": 976,
-      "DevName": "GA_Warmaster_MeleeInterrupt"
+      "DevName": "GA_Warmaster_MeleeInterrupt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "977": {
       "Name": "Shield Slam",
       "FSLID": 977,
-      "DevName": "GA_Warmaster_MeleeCleave"
+      "DevName": "GA_Warmaster_MeleeCleave",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "978": {
       "Name": "Attack",
       "FSLID": 978,
-      "DevName": "GA_Warmaster_MeleeAutoAttack"
+      "DevName": "GA_Warmaster_MeleeAutoAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "979": {
       "Name": "Shockwave",
       "FSLID": 979,
-      "DevName": "GA_Warmaster_MeleeAoeSlow"
+      "DevName": "GA_Warmaster_MeleeAoeSlow",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "980": {
       "Name": "Measured Strike",
       "FSLID": 980,
-      "DevName": "GA_Warmaster_LightMelee"
+      "DevName": "GA_Warmaster_LightMelee",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "981": {
       "Name": "Sweeping Strike",
       "FSLID": 981,
-      "DevName": "GA_Warmaster_InstantMeleeCleave"
+      "DevName": "GA_Warmaster_InstantMeleeCleave",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "982": {
       "Name": "Power Strike",
       "FSLID": 982,
-      "DevName": "GA_Warmaster_HeavyMelee"
+      "DevName": "GA_Warmaster_HeavyMelee",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "983": {
       "Name": null,
       "FSLID": 983,
-      "DevName": "GA_Warmaster_FullResourcesSelfBuff"
+      "DevName": "GA_Warmaster_FullResourcesSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "984": {
       "Name": "Shields Up",
       "FSLID": 984,
-      "DevName": "GA_Warmaster_DefenceBuff"
+      "DevName": "GA_Warmaster_DefenceBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "985": {
       "Name": "Shield Throw",
       "FSLID": 985,
-      "DevName": "GA_Warmaster_BouncyProjectile"
+      "DevName": "GA_Warmaster_BouncyProjectile",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "986": {
       "Name": null,
       "FSLID": 986,
-      "DevName": "GA_Warmaster_AoeHealthBuff"
+      "DevName": "GA_Warmaster_AoeHealthBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "987": {
       "Name": null,
       "FSLID": 987,
-      "DevName": "GA_Vigor_Passive_Talent_SingleTargetDot_DamageToAoe"
+      "DevName": "GA_Vigor_Passive_Talent_SingleTargetDot_DamageToAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "988": {
       "Name": null,
       "FSLID": 988,
-      "DevName": "GA_Vigor_Passive_Talent_Runes_ChargeUpMultiple_Manager"
+      "DevName": "GA_Vigor_Passive_Talent_Runes_ChargeUpMultiple_Manager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "989": {
       "Name": null,
       "FSLID": 989,
-      "DevName": "GA_Vigor_Passive_Talent_InstantFrontalConeDamageHeal_DotProc"
+      "DevName": "GA_Vigor_Passive_Talent_InstantFrontalConeDamageHeal_DotProc",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "990": {
       "Name": null,
       "FSLID": 990,
-      "DevName": "GA_Vigor_Passive_Talent_CastedSingleTargetHeal_ResourceGainFreeCast"
+      "DevName": "GA_Vigor_Passive_Talent_CastedSingleTargetHeal_ResourceGainFreeCast",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "991": {
       "Name": null,
       "FSLID": 991,
-      "DevName": "GA_Vigor_Passive_Talent_CastedSingleTargetHeal_CheaperInstantCast_Monitor"
+      "DevName": "GA_Vigor_Passive_Talent_CastedSingleTargetHeal_CheaperInstantCast_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "992": {
       "Name": "Dawnbreaker Orb",
       "FSLID": 992,
-      "DevName": "GA_Vigor_SkillshotAoeProjectile"
+      "DevName": "GA_Vigor_SkillshotAoeProjectile",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "993": {
       "Name": "Throw Book",
       "FSLID": 993,
-      "DevName": "GA_Vigor_SingleTargetProjectileStun"
+      "DevName": "GA_Vigor_SingleTargetProjectileStun",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "994": {
       "Name": "Soulbrand",
       "FSLID": 994,
-      "DevName": "GA_Vigor_SingleTargetDot"
+      "DevName": "GA_Vigor_SingleTargetDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "995": {
       "Name": "Rune of Renewal",
       "FSLID": 995,
-      "DevName": "GA_Vigor_SingleTargetChargedHot"
+      "DevName": "GA_Vigor_SingleTargetChargedHot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "996": {
       "Name": "Luminous Barrier",
       "FSLID": 996,
-      "DevName": "GA_Vigor_SingleTargetAbsorb"
+      "DevName": "GA_Vigor_SingleTargetAbsorb",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "997": {
       "Name": "Remove Magic",
       "FSLID": 997,
-      "DevName": "GA_Vigor_SingleAllyDispel"
+      "DevName": "GA_Vigor_SingleAllyDispel",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "998": {
       "Name": null,
       "FSLID": 998,
-      "DevName": "GA_Vigor_Passive_SpiritProcHandler"
+      "DevName": "GA_Vigor_Passive_SpiritProcHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "999": {
       "Name": "Rune of Renewal",
       "FSLID": 999,
-      "DevName": "GA_Vigor_Passive_Echo_Monitor"
+      "DevName": "GA_Vigor_Passive_Echo_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1000": {
       "Name": "Avatar of Light",
       "FSLID": 1000,
-      "DevName": "GA_Vigor_PartyHealAndSelfBuff"
+      "DevName": "GA_Vigor_PartyHealAndSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1001": {
       "Name": "Runic Proliferation",
       "FSLID": 1001,
-      "DevName": "GA_Vigor_InstantResourceGain"
+      "DevName": "GA_Vigor_InstantResourceGain",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1002": {
       "Name": null,
       "FSLID": 1002,
-      "DevName": "GA_Vigor_InstantAoeHeal_TargetAbility"
+      "DevName": "GA_Vigor_InstantAoeHeal_TargetAbility",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1003": {
       "Name": "Levitate",
       "FSLID": 1003,
-      "DevName": "GA_Vigor_ChargedMovementSpeedSelfBuff"
+      "DevName": "GA_Vigor_ChargedMovementSpeedSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1004": {
       "Name": "Dawnflare",
       "FSLID": 1004,
-      "DevName": "GA_Vigor_CastedSingleTargetDamage"
+      "DevName": "GA_Vigor_CastedSingleTargetDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1005": {
       "Name": null,
@@ -4943,127 +5135,202 @@
     "1009": {
       "Name": "Flight of the Navir",
       "FSLID": 1009,
-      "DevName": "GA_Rime_TargetedPeriodicProjectileAoe"
+      "DevName": "GA_Rime_TargetedPeriodicProjectileAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1010": {
       "Name": null,
       "FSLID": 1010,
-      "DevName": "GA_Rime_Passive_TargetedPeriodicProjectileAoe"
+      "DevName": "GA_Rime_Passive_TargetedPeriodicProjectileAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1011": {
       "Name": "Frost Ward (Tundra Guard)",
       "FSLID": 1011,
-      "DevName": "GA_Rime_Passive_Talent_SelfDefenceBuff_DurationBoostAndHealFromDamage_DamageMonitor"
+      "DevName": "GA_Rime_Passive_Talent_SelfDefenceBuff_DurationBoostAndHealFromDamage_DamageMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1012": {
       "Name": null,
       "FSLID": 1012,
-      "DevName": "GA_Rime_Passive_Talent_ResourceSpendingReducesCooldowns_CooldownReducer"
+      "DevName": "GA_Rime_Passive_Talent_ResourceSpendingReducesCooldowns_CooldownReducer",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1013": {
       "Name": null,
       "FSLID": 1013,
-      "DevName": "GA_Rime_Passive_Talent_ChanneledBeamSingleDamage_BoostByCritProc_CritMonitor"
+      "DevName": "GA_Rime_Passive_Talent_ChanneledBeamSingleDamage_BoostByCritProc_CritMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1014": {
       "Name": null,
       "FSLID": 1014,
-      "DevName": "GA_Rime_Passive_CastedProjectileDamageOrbSpender_Talent_InstantAndBonusDamage_Stacker"
+      "DevName": "GA_Rime_Passive_CastedProjectileDamageOrbSpender_Talent_InstantAndBonusDamage_Stacker",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1015": {
       "Name": "Frost Ward",
       "FSLID": 1015,
-      "DevName": "GA_Rime_SelfDefenceBuff"
+      "DevName": "GA_Rime_SelfDefenceBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1016": {
       "Name": null,
       "FSLID": 1016,
-      "DevName": "GA_Rime_Passive_SpiritProcHandler"
+      "DevName": "GA_Rime_Passive_SpiritProcHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1017": {
       "Name": null,
       "FSLID": 1017,
-      "DevName": "GA_Rime_Passive_ResourceMonitor"
+      "DevName": "GA_Rime_Passive_ResourceMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1018": {
       "Name": "Ice Comet",
       "FSLID": 1018,
-      "DevName": "GA_Rime_OnTargetPulsatingAoe"
+      "DevName": "GA_Rime_OnTargetPulsatingAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1019": {
       "Name": "Brain Freeze",
       "FSLID": 1019,
-      "DevName": "GA_Rime_InstantSingleInterrupt"
+      "DevName": "GA_Rime_InstantSingleInterrupt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1020": {
       "Name": "Cold Snap",
       "FSLID": 1020,
-      "DevName": "GA_Rime_InstantSingleDamage"
+      "DevName": "GA_Rime_InstantSingleDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "1021": {
       "Name": "Frigid Winds",
       "FSLID": 1021,
-      "DevName": "GA_Rime_InstantConeKnockback"
+      "DevName": "GA_Rime_InstantConeKnockback",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1022": {
       "Name": null,
       "FSLID": 1022,
-      "DevName": "GA_Rime_Passive_FullResourcesSelfBuff"
+      "DevName": "GA_Rime_Passive_FullResourcesSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1023": {
       "Name": "Wrath of Winter",
       "FSLID": 1023,
-      "DevName": "GA_Rime_FullResourcesSelfBuff"
+      "DevName": "GA_Rime_FullResourcesSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1024": {
       "Name": "Ice Dash",
       "FSLID": 1024,
-      "DevName": "GA_Rime_DashForward"
+      "DevName": "GA_Rime_DashForward",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1025": {
       "Name": null,
       "FSLID": 1025,
-      "DevName": "GA_Rime_Passive_DamageAsAoeHealingBuff_SelfBuff"
+      "DevName": "GA_Rime_Passive_DamageAsAoeHealingBuff_SelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1026": {
       "Name": "Winter's Blessing",
       "FSLID": 1026,
-      "DevName": "GA_Rime_DamageAsAoeHealingBuff"
+      "DevName": "GA_Rime_DamageAsAoeHealingBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1027": {
       "Name": "Freezing Torrent",
       "FSLID": 1027,
-      "DevName": "GA_Rime_ChanneledBeamSingleDamage"
+      "DevName": "GA_Rime_ChanneledBeamSingleDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1028": {
       "Name": "Glacial Blast",
       "FSLID": 1028,
-      "DevName": "GA_Rime_CastedProjectileDamageOrbSpender"
+      "DevName": "GA_Rime_CastedProjectileDamageOrbSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1029": {
       "Name": "Frost Bolt",
       "FSLID": 1029,
-      "DevName": "GA_Rime_CastedProjectileDamageFiller"
+      "DevName": "GA_Rime_CastedProjectileDamageFiller",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1030": {
       "Name": null,
       "FSLID": 1030,
-      "DevName": "GA_Rime_Passive_CastedDebuffAoeDamage_Aoe"
+      "DevName": "GA_Rime_Passive_CastedDebuffAoeDamage_Aoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1031": {
       "Name": "Bursting Ice",
       "FSLID": 1031,
-      "DevName": "GA_Rime_CastedDebuffAoeDamage"
+      "DevName": "GA_Rime_CastedDebuffAoeDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1032": {
       "Name": "Ice Blitz",
       "FSLID": 1032,
-      "DevName": "GA_Rime_AutoProjectileOnResourceGainBuff"
+      "DevName": "GA_Rime_AutoProjectileOnResourceGainBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1033": {
       "Name": "Frost Swallows",
       "FSLID": 1033,
-      "DevName": "GA_Rime_Helper_AutoDamageProjectile"
+      "DevName": "GA_Rime_Helper_AutoDamageProjectile",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1034": {
       "Name": null,
@@ -5133,187 +5400,298 @@
     "1047": {
       "Name": "Enfeebling Rootsap",
       "FSLID": 1047,
-      "DevName": "GA_Mosse_TurretChannelHeal"
+      "DevName": "GA_Mosse_TurretChannelHeal",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1048": {
       "Name": null,
       "FSLID": 1048,
-      "DevName": "GA_Mosse_Talent_Passive_DotMonitor"
+      "DevName": "GA_Mosse_Talent_Passive_DotMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1049": {
       "Name": null,
       "FSLID": 1049,
-      "DevName": "GA_Mosse_Talent_Passive_ButterflyHealMonitor"
+      "DevName": "GA_Mosse_Talent_Passive_ButterflyHealMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1050": {
       "Name": null,
       "FSLID": 1050,
-      "DevName": "GA_Mosse_Passive_Talent_PinkButterfly_Simple_IncreasedTickSpeed_Manager"
+      "DevName": "GA_Mosse_Passive_Talent_PinkButterfly_Simple_IncreasedTickSpeed_Manager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1051": {
       "Name": null,
       "FSLID": 1051,
-      "DevName": "GA_Mosse_Passive_Talent_PinkButterfly_Simple_IncreasedTickSpeed_Applier"
+      "DevName": "GA_Mosse_Passive_Talent_PinkButterfly_Simple_IncreasedTickSpeed_Applier",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1052": {
       "Name": null,
       "FSLID": 1052,
-      "DevName": "GA_Mosse_Passive_Talent_CastedSingleTargetProjectile_HealTotemCDRed"
+      "DevName": "GA_Mosse_Passive_Talent_CastedSingleTargetProjectile_HealTotemCDRed",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1053": {
       "Name": null,
       "FSLID": 1053,
-      "DevName": "GA_Mosse_SingleTargetDot"
+      "DevName": "GA_Mosse_SingleTargetDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1054": {
       "Name": "Cure Ailment",
       "FSLID": 1054,
-      "DevName": "GA_Mosse_SingleTargetDispel"
+      "DevName": "GA_Mosse_SingleTargetDispel",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1055": {
       "Name": "Fluttercall: Jubilee",
       "FSLID": 1055,
-      "DevName": "GA_Mosse_SharedHealthBuff"
+      "DevName": "GA_Mosse_SharedHealthBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1056": {
       "Name": null,
       "FSLID": 1056,
-      "DevName": "GA_Mosse_Passive_SharedHealthBuff_SyncHealth"
+      "DevName": "GA_Mosse_Passive_SharedHealthBuff_SyncHealth",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1057": {
       "Name": "Prickly Vine",
       "FSLID": 1057,
-      "DevName": "GA_Mosse_ProjectileTurrets"
+      "DevName": "GA_Mosse_ProjectileTurrets",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1058": {
       "Name": null,
       "FSLID": 1058,
-      "DevName": "GA_Mosse_PlacedAoeBuff_TargetAbility"
+      "DevName": "GA_Mosse_PlacedAoeBuff_TargetAbility",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1059": {
       "Name": "Safe Haven",
       "FSLID": 1059,
-      "DevName": "GA_Mosse_PlacedAoeBuff"
+      "DevName": "GA_Mosse_PlacedAoeBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1060": {
       "Name": "Fluttercall: Heal",
       "FSLID": 1060,
-      "DevName": "GA_Mosse_PinkButterfly_Simple"
+      "DevName": "GA_Mosse_PinkButterfly_Simple",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1061": {
       "Name": "Fluttercall: Restore Life",
       "FSLID": 1061,
-      "DevName": "GA_Mosse_PinkButterfly_Double"
+      "DevName": "GA_Mosse_PinkButterfly_Double",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1062": {
       "Name": null,
       "FSLID": 1062,
-      "DevName": "GA_Mosse_Passive_PinkButterfly_OnTarget"
+      "DevName": "GA_Mosse_Passive_PinkButterfly_OnTarget",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1063": {
       "Name": null,
       "FSLID": 1063,
-      "DevName": "GA_Mosse_Passive_SpiritProcHandler"
+      "DevName": "GA_Mosse_Passive_SpiritProcHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1064": {
       "Name": null,
       "FSLID": 1064,
-      "DevName": "GA_Mosse_Passive_PlantAbilityActivation_Monitor"
+      "DevName": "GA_Mosse_Passive_PlantAbilityActivation_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1065": {
       "Name": null,
       "FSLID": 1065,
-      "DevName": "GA_Mosse_Passive_HealingMushroomPlacement"
+      "DevName": "GA_Mosse_Passive_HealingMushroomPlacement",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1066": {
       "Name": null,
       "FSLID": 1066,
-      "DevName": "GA_Mosse_ChargeUpLeapAoeHealTrail"
+      "DevName": "GA_Mosse_ChargeUpLeapAoeHealTrail",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1067": {
       "Name": null,
       "FSLID": 1067,
-      "DevName": "GA_Mosse_ChargeUpFrontalCone"
+      "DevName": "GA_Mosse_ChargeUpFrontalCone",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1068": {
       "Name": null,
       "FSLID": 1068,
-      "DevName": "GA_Mosse_ChargeUpAoeHealAndHot"
+      "DevName": "GA_Mosse_ChargeUpAoeHealAndHot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1069": {
       "Name": null,
       "FSLID": 1069,
-      "DevName": "GA_Mosse_ChargeUpAoeDispel"
+      "DevName": "GA_Mosse_ChargeUpAoeDispel",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1070": {
       "Name": null,
       "FSLID": 1070,
-      "DevName": "GA_Mosse_InstantSelfEscapeBuff_Transparency"
+      "DevName": "GA_Mosse_InstantSelfEscapeBuff_Transparency",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1071": {
       "Name": "Hidden Trail",
       "FSLID": 1071,
-      "DevName": "GA_Mosse_InstantSelfEscapeBuff"
+      "DevName": "GA_Mosse_InstantSelfEscapeBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1072": {
       "Name": "Life Petal",
       "FSLID": 1072,
-      "DevName": "GA_Mosse_HealingAoeTotem"
+      "DevName": "GA_Mosse_HealingAoeTotem",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "1073": {
       "Name": "Shroomsplosion",
       "FSLID": 1073,
-      "DevName": "GA_Mosse_ExplosiveMinion"
+      "DevName": "GA_Mosse_ExplosiveMinion",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1074": {
       "Name": null,
       "FSLID": 1074,
-      "DevName": "GA_Mosse_DurationalAoeHealPlacement_PassiveHealingMonitor"
+      "DevName": "GA_Mosse_DurationalAoeHealPlacement_PassiveHealingMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1075": {
       "Name": "Heart Bloom",
       "FSLID": 1075,
-      "DevName": "GA_Mosse_DurationalAoeHealPlacement"
+      "DevName": "GA_Mosse_DurationalAoeHealPlacement",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1076": {
       "Name": "Nettlebolt",
       "FSLID": 1076,
-      "DevName": "GA_Mosse_CastedSingleTargetProjectile"
+      "DevName": "GA_Mosse_CastedSingleTargetProjectile",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1077": {
       "Name": null,
       "FSLID": 1077,
-      "DevName": "GA_Mosse_Passive_Butterfly_Monitor"
+      "DevName": "GA_Mosse_Passive_Butterfly_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1078": {
       "Name": null,
       "FSLID": 1078,
-      "DevName": "GA_Mosse_Passive_BlueButterfly_OnTarget"
+      "DevName": "GA_Mosse_Passive_BlueButterfly_OnTarget",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1079": {
       "Name": "Fluttercall: Protect",
       "FSLID": 1079,
-      "DevName": "GA_Mosse_BlueButterfly_SendOut"
+      "DevName": "GA_Mosse_BlueButterfly_SendOut",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1080": {
       "Name": "Fluttercall: Embrace",
       "FSLID": 1080,
-      "DevName": "GA_Mosse_BlueButterfly_Recall"
+      "DevName": "GA_Mosse_BlueButterfly_Recall",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1081": {
       "Name": null,
       "FSLID": 1081,
-      "DevName": "GA_Meiko_Finisher_BuffIconsManager"
+      "DevName": "GA_Meiko_Finisher_BuffIconsManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1082": {
       "Name": "Twin Souls: Bulwark",
       "FSLID": 1082,
-      "DevName": "GA_Meiko_TauntTotem"
+      "DevName": "GA_Meiko_TauntTotem",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1083": {
       "Name": null,
       "FSLID": 1083,
-      "DevName": "GA_Meiko_Passive_TauntTotem_Controller"
+      "DevName": "GA_Meiko_Passive_TauntTotem_Controller",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1084": {
       "Name": null,
@@ -5323,947 +5701,1514 @@
     "1085": {
       "Name": null,
       "FSLID": 1085,
-      "DevName": "GA_Meiko_Talent_Passive_MeleeDamageImmediateSelfBuff_StackMonitor"
+      "DevName": "GA_Meiko_Talent_Passive_MeleeDamageImmediateSelfBuff_StackMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1086": {
       "Name": "Shield of Pain",
       "FSLID": 1086,
-      "DevName": "GA_Meiko_Talent_Passive_MeleeDamageImmediateSelfBuff_DamageMonitor"
+      "DevName": "GA_Meiko_Talent_Passive_MeleeDamageImmediateSelfBuff_DamageMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1087": {
       "Name": null,
       "FSLID": 1087,
-      "DevName": "GA_Meiko_Passive_Talent_MoveToLocationAoeDamage_Charges"
+      "DevName": "GA_Meiko_Passive_Talent_MoveToLocationAoeDamage_Charges",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1088": {
       "Name": null,
       "FSLID": 1088,
-      "DevName": "GA_Meiko_Passive_Talent_MoveToLocationAoeDamage_ApplyBuffs"
+      "DevName": "GA_Meiko_Passive_Talent_MoveToLocationAoeDamage_ApplyBuffs",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1089": {
       "Name": null,
       "FSLID": 1089,
-      "DevName": "GA_Meiko_Passive_Talent_MeleeDamageImmediateSelfBuff_DamageBuilder_Active"
+      "DevName": "GA_Meiko_Passive_Talent_MeleeDamageImmediateSelfBuff_DamageBuilder_Active",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1090": {
       "Name": "Forbidden Technique",
       "FSLID": 1090,
-      "DevName": "GA_Meiko_Passive_Talent_MeleeDamageImmediateSelfBuff_DamageBuilder"
+      "DevName": "GA_Meiko_Passive_Talent_MeleeDamageImmediateSelfBuff_DamageBuilder",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1091": {
       "Name": null,
       "FSLID": 1091,
-      "DevName": "GA_Meiko_Passive_Talent_DurationalAoeDamageBuff_ReducedAttackSpeed"
+      "DevName": "GA_Meiko_Passive_Talent_DurationalAoeDamageBuff_ReducedAttackSpeed",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1092": {
       "Name": null,
       "FSLID": 1092,
-      "DevName": "GA_Meiko_Passive_Talent_DamageSoakBuff_IncreasedIncomingHealing"
+      "DevName": "GA_Meiko_Passive_Talent_DamageSoakBuff_IncreasedIncomingHealing",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1093": {
       "Name": null,
       "FSLID": 1093,
-      "DevName": "GA_Meiko_Passive_Talent_ChargedForwardDash_AoeSlow"
+      "DevName": "GA_Meiko_Passive_Talent_ChargedForwardDash_AoeSlow",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1094": {
       "Name": null,
       "FSLID": 1094,
-      "DevName": "GA_Meiko_Passive_Talent_ChanneledHeavyDamage_InstantSelfDefensiveCharge"
+      "DevName": "GA_Meiko_Passive_Talent_ChanneledHeavyDamage_InstantSelfDefensiveCharge",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1095": {
       "Name": "Taunt",
       "FSLID": 1095,
-      "DevName": "GA_Meiko_RangedTaunt"
+      "DevName": "GA_Meiko_RangedTaunt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1096": {
       "Name": null,
       "FSLID": 1096,
-      "DevName": "GA_Meiko_Passive_Tank_LifeSteal_Manager"
+      "DevName": "GA_Meiko_Passive_Tank_LifeSteal_Manager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1097": {
       "Name": null,
       "FSLID": 1097,
-      "DevName": "GA_Meiko_Passive_HealthMonitorGiver"
+      "DevName": "GA_Meiko_Passive_HealthMonitorGiver",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1098": {
       "Name": null,
       "FSLID": 1098,
-      "DevName": "GA_Meiko_Passive_DamageMonitor"
+      "DevName": "GA_Meiko_Passive_DamageMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1100": {
       "Name": "Earth Fist",
       "FSLID": 1100,
-      "DevName": "GA_Meiko_MeleeRight"
+      "DevName": "GA_Meiko_MeleeRight",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1101": {
       "Name": "Spirit Palm",
       "FSLID": 1101,
-      "DevName": "GA_Meiko_MeleeLeft"
+      "DevName": "GA_Meiko_MeleeLeft",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1102": {
       "Name": "Wind Kick",
       "FSLID": 1102,
-      "DevName": "GA_Meiko_MeleeDown"
+      "DevName": "GA_Meiko_MeleeDown",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1103": {
       "Name": "Rising Storm",
       "FSLID": 1103,
-      "DevName": "GA_Meiko_MeleeDamageSelfBuff"
+      "DevName": "GA_Meiko_MeleeDamageSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1104": {
       "Name": "Rising Earth",
       "FSLID": 1104,
-      "DevName": "GA_Meiko_MeleeDamageLowHealthSelfBuff"
+      "DevName": "GA_Meiko_MeleeDamageLowHealthSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1105": {
       "Name": "Double Palm Strike",
       "FSLID": 1105,
-      "DevName": "GA_Meiko_MeleeDamageImmediateSelfBuff"
+      "DevName": "GA_Meiko_MeleeDamageImmediateSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1106": {
       "Name": "Lashing Stormkick",
       "FSLID": 1106,
-      "DevName": "GA_Meiko_HighDamageCleave"
+      "DevName": "GA_Meiko_HighDamageCleave",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1107": {
       "Name": "Stone Stomp",
       "FSLID": 1107,
-      "DevName": "GA_Meiko_FrontalAoeDebuff"
+      "DevName": "GA_Meiko_FrontalAoeDebuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1108": {
       "Name": null,
       "FSLID": 1108,
-      "DevName": "GA_Meiko_Passive_Expertise_Tank"
+      "DevName": "GA_Meiko_Passive_Expertise_Tank",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1109": {
       "Name": null,
       "FSLID": 1109,
-      "DevName": "GA_Meiko_Passive_DurationalMultipleTeleportDamage_Controller"
+      "DevName": "GA_Meiko_Passive_DurationalMultipleTeleportDamage_Controller",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1110": {
       "Name": "Twin Souls: Army of One",
       "FSLID": 1110,
-      "DevName": "GA_Meiko_DurationalMultipleTeleportDamage_New"
+      "DevName": "GA_Meiko_DurationalMultipleTeleportDamage_New",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1111": {
       "Name": null,
       "FSLID": 1111,
-      "DevName": "GA_Meiko_DurationalMultipleTeleportDamage"
+      "DevName": "GA_Meiko_DurationalMultipleTeleportDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1112": {
       "Name": "Earthfist Barrage",
       "FSLID": 1112,
-      "DevName": "GA_Meiko_ChanneledHeavyDamage"
+      "DevName": "GA_Meiko_ChanneledHeavyDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1113": {
       "Name": null,
       "FSLID": 1113,
-      "DevName": "GA_Meiko_ChanneledHeavyAoeDamage"
+      "DevName": "GA_Meiko_ChanneledHeavyAoeDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1114": {
       "Name": null,
       "FSLID": 1114,
-      "DevName": "GA_Meiko_MoveToLocationAoeDamage_Targeting"
+      "DevName": "GA_Meiko_MoveToLocationAoeDamage_Targeting",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1115": {
       "Name": "Shatter Earth",
       "FSLID": 1115,
-      "DevName": "GA_Meiko_MoveToLocationAoeDamage"
+      "DevName": "GA_Meiko_MoveToLocationAoeDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1116": {
       "Name": "Stagger",
       "FSLID": 1116,
-      "DevName": "GA_Meiko_MeleeInterrupt"
+      "DevName": "GA_Meiko_MeleeInterrupt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1117": {
       "Name": null,
       "FSLID": 1117,
-      "DevName": "GA_Meiko_MeleeAutoAttack_MultiHit"
+      "DevName": "GA_Meiko_MeleeAutoAttack_MultiHit",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1118": {
       "Name": "Attack",
       "FSLID": 1118,
-      "DevName": "GA_Meiko_MeleeAutoAttack"
+      "DevName": "GA_Meiko_MeleeAutoAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1119": {
       "Name": "Serenity",
       "FSLID": 1119,
-      "DevName": "GA_Meiko_InstantSelfDefensive"
+      "DevName": "GA_Meiko_InstantSelfDefensive",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1120": {
       "Name": "Spirited Vortex",
       "FSLID": 1120,
-      "DevName": "GA_Meiko_DurationalAoeDamageBuff"
+      "DevName": "GA_Meiko_DurationalAoeDamageBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1121": {
       "Name": "Stone Shield",
       "FSLID": 1121,
-      "DevName": "GA_Meiko_Passive_DamageSoakBuff_Monitor"
+      "DevName": "GA_Meiko_Passive_DamageSoakBuff_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1122": {
       "Name": "Stone Shield",
       "FSLID": 1122,
-      "DevName": "GA_Meiko_DamageSoakBuff"
+      "DevName": "GA_Meiko_DamageSoakBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "1123": {
       "Name": "Gust",
       "FSLID": 1123,
-      "DevName": "GA_Meiko_ChargedForwardDash"
+      "DevName": "GA_Meiko_ChargedForwardDash",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1124": {
       "Name": null,
       "FSLID": 1124,
-      "DevName": "GA_Meiko_Passive_AoePull"
+      "DevName": "GA_Meiko_Passive_AoePull",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1125": {
       "Name": "Cyclone",
       "FSLID": 1125,
-      "DevName": "GA_Meiko_AoePull"
+      "DevName": "GA_Meiko_AoePull",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1126": {
       "Name": null,
       "FSLID": 1126,
-      "DevName": "GA_Meiko_AoeHeavyDamagePlacement"
+      "DevName": "GA_Meiko_AoeHeavyDamagePlacement",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1127": {
       "Name": null,
       "FSLID": 1127,
-      "DevName": "GA_Mara_TempSpiritAbility"
+      "DevName": "GA_Mara_TempSpiritAbility",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1128": {
       "Name": "Web Crack",
       "FSLID": 1128,
-      "DevName": "GA_Mara_StunSpender"
+      "DevName": "GA_Mara_StunSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1129": {
       "Name": "Backstab",
       "FSLID": 1129,
-      "DevName": "GA_Mara_StrongerBehindAttackBuilder"
+      "DevName": "GA_Mara_StrongerBehindAttackBuilder",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1130": {
       "Name": "Brooding Shadows",
       "FSLID": 1130,
-      "DevName": "GA_Mara_Stealth"
+      "DevName": "GA_Mara_Stealth",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "1131": {
       "Name": "Seeting Burst",
       "FSLID": 1131,
-      "DevName": "GA_Mara_Passive_Stealth_Poison_Manager"
+      "DevName": "GA_Mara_Passive_Stealth_Poison_Manager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1132": {
       "Name": null,
       "FSLID": 1132,
-      "DevName": "GA_Mara_Passive_StealthMonitor"
+      "DevName": "GA_Mara_Passive_StealthMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1133": {
       "Name": "Shadow Ward",
       "FSLID": 1133,
-      "DevName": "GA_Mara_SelfDefenceBuff"
+      "DevName": "GA_Mara_SelfDefenceBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1134": {
       "Name": null,
       "FSLID": 1134,
-      "DevName": "GA_Mara_Passive_EnergyManager"
+      "DevName": "GA_Mara_Passive_EnergyManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1135": {
       "Name": null,
       "FSLID": 1135,
-      "DevName": "GA_Mara_TeleportBehindTarget"
+      "DevName": "GA_Mara_TeleportBehindTarget",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1136": {
       "Name": null,
       "FSLID": 1136,
-      "DevName": "GA_Mara_TargetedMeleeCompanion"
+      "DevName": "GA_Mara_TargetedMeleeCompanion",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1137": {
       "Name": null,
       "FSLID": 1137,
-      "DevName": "GA_Mara_TargetedChanneledCone"
+      "DevName": "GA_Mara_TargetedChanneledCone",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1138": {
       "Name": null,
       "FSLID": 1138,
-      "DevName": "GA_Mara_Passive_Talent_SingleTargetDamageDotSpender_AgilityIncrease"
+      "DevName": "GA_Mara_Passive_Talent_SingleTargetDamageDotSpender_AgilityIncrease",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1139": {
       "Name": null,
       "FSLID": 1139,
-      "DevName": "GA_Mara_SuperCatform"
+      "DevName": "GA_Mara_SuperCatform",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1140": {
       "Name": null,
       "FSLID": 1140,
-      "DevName": "GA_Mara_Passive_SuperCatform_SpenderMonitor"
+      "DevName": "GA_Mara_Passive_SuperCatform_SpenderMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1141": {
       "Name": null,
       "FSLID": 1141,
-      "DevName": "GA_Mara_SkillshotAoeProjectile"
+      "DevName": "GA_Mara_SkillshotAoeProjectile",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1142": {
       "Name": null,
       "FSLID": 1142,
-      "DevName": "GA_Mara_SingleTargetStun"
+      "DevName": "GA_Mara_SingleTargetStun",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1143": {
       "Name": null,
       "FSLID": 1143,
-      "DevName": "GA_Mara_SingleTargetSpender"
+      "DevName": "GA_Mara_SingleTargetSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1144": {
       "Name": null,
       "FSLID": 1144,
-      "DevName": "GA_Mara_SingleTargetSleep"
+      "DevName": "GA_Mara_SingleTargetSleep",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1145": {
       "Name": null,
       "FSLID": 1145,
-      "DevName": "GA_Mara_SingleTargetBuilder"
+      "DevName": "GA_Mara_SingleTargetBuilder",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1146": {
       "Name": null,
       "FSLID": 1146,
-      "DevName": "GA_Mara_SingleProjectileCleave"
+      "DevName": "GA_Mara_SingleProjectileCleave",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1147": {
       "Name": null,
       "FSLID": 1147,
-      "DevName": "GA_Mara_SelfStateChange"
+      "DevName": "GA_Mara_SelfStateChange",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1148": {
       "Name": null,
       "FSLID": 1148,
-      "DevName": "GA_Mara_SelfReflectBuff"
+      "DevName": "GA_Mara_SelfReflectBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1149": {
       "Name": null,
       "FSLID": 1149,
-      "DevName": "GA_Mara_SelfDefensiveSuperBuff"
+      "DevName": "GA_Mara_SelfDefensiveSuperBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1150": {
       "Name": null,
       "FSLID": 1150,
-      "DevName": "GA_Mara_SelfCritProjectilesBuff"
+      "DevName": "GA_Mara_SelfCritProjectilesBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1151": {
       "Name": null,
       "FSLID": 1151,
-      "DevName": "GA_Mara_SelfCastDefenceBuff"
+      "DevName": "GA_Mara_SelfCastDefenceBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1152": {
       "Name": null,
       "FSLID": 1152,
-      "DevName": "GA_Mara_SelfBuffSpender"
+      "DevName": "GA_Mara_SelfBuffSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1153": {
       "Name": null,
       "FSLID": 1153,
-      "DevName": "GA_Mara_Passive_ThreatDecrease"
+      "DevName": "GA_Mara_Passive_ThreatDecrease",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1154": {
       "Name": null,
       "FSLID": 1154,
-      "DevName": "GA_Mara_Passive_StealthRemovalMonitor"
+      "DevName": "GA_Mara_Passive_StealthRemovalMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1155": {
       "Name": null,
       "FSLID": 1155,
-      "DevName": "GA_Mara_Passive_ShadowDamageResist"
+      "DevName": "GA_Mara_Passive_ShadowDamageResist",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1156": {
       "Name": null,
       "FSLID": 1156,
-      "DevName": "GA_Mara_Passive_SelfStateChange_Monitor"
+      "DevName": "GA_Mara_Passive_SelfStateChange_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1157": {
       "Name": null,
       "FSLID": 1157,
-      "DevName": "GA_Mara_Passive_SelfCritProjectilesBuff_Monitor"
+      "DevName": "GA_Mara_Passive_SelfCritProjectilesBuff_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1158": {
       "Name": null,
       "FSLID": 1158,
-      "DevName": "GA_Mara_Passive_OutgoingDamageProcHandler"
+      "DevName": "GA_Mara_Passive_OutgoingDamageProcHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1159": {
       "Name": null,
       "FSLID": 1159,
-      "DevName": "GA_Mara_Passive_InstantAoeDamage_ResourceMonitor"
+      "DevName": "GA_Mara_Passive_InstantAoeDamage_ResourceMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1160": {
       "Name": null,
       "FSLID": 1160,
-      "DevName": "GA_Mara_Passive_HandleBehindTarget"
+      "DevName": "GA_Mara_Passive_HandleBehindTarget",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1161": {
       "Name": null,
       "FSLID": 1161,
-      "DevName": "GA_Mara_Passive_EnergyRegen"
+      "DevName": "GA_Mara_Passive_EnergyRegen",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1162": {
       "Name": null,
       "FSLID": 1162,
-      "DevName": "GA_Mara_Passive_DotListener"
+      "DevName": "GA_Mara_Passive_DotListener",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1163": {
       "Name": null,
       "FSLID": 1163,
-      "DevName": "GA_Mara_Passive_DirectionalProjectilePull_PullBack"
+      "DevName": "GA_Mara_Passive_DirectionalProjectilePull_PullBack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1164": {
       "Name": null,
       "FSLID": 1164,
-      "DevName": "GA_Mara_Passive_DamageStackingDot"
+      "DevName": "GA_Mara_Passive_DamageStackingDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1165": {
       "Name": null,
       "FSLID": 1165,
-      "DevName": "GA_Mara_Passive_AutoAttackMonitor"
+      "DevName": "GA_Mara_Passive_AutoAttackMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1166": {
       "Name": null,
       "FSLID": 1166,
-      "DevName": "GA_Mara_PartyAoeDefenceBuff"
+      "DevName": "GA_Mara_PartyAoeDefenceBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1168": {
       "Name": null,
       "FSLID": 1168,
-      "DevName": "GA_Mara_LightMelee"
+      "DevName": "GA_Mara_LightMelee",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1169": {
       "Name": null,
       "FSLID": 1169,
-      "DevName": "GA_Mara_InstantFillerProjectile"
+      "DevName": "GA_Mara_InstantFillerProjectile",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1170": {
       "Name": null,
       "FSLID": 1170,
-      "DevName": "GA_Mara_InstantConeAoe"
+      "DevName": "GA_Mara_InstantConeAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1171": {
       "Name": null,
       "FSLID": 1171,
-      "DevName": "GA_Mara_InstantAoeDrain"
+      "DevName": "GA_Mara_InstantAoeDrain",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1172": {
       "Name": null,
       "FSLID": 1172,
-      "DevName": "GA_Mara_InstantAoeDamage"
+      "DevName": "GA_Mara_InstantAoeDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1173": {
       "Name": null,
       "FSLID": 1173,
-      "DevName": "GA_Mara_IncreasedMoveSpeedSelfBuff"
+      "DevName": "GA_Mara_IncreasedMoveSpeedSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1174": {
       "Name": null,
       "FSLID": 1174,
-      "DevName": "GA_Mara_Passive_HeavySingeTargetBuilder_IncreasedCritChance_InstigatorTagMonitor"
+      "DevName": "GA_Mara_Passive_HeavySingeTargetBuilder_IncreasedCritChance_InstigatorTagMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1175": {
       "Name": null,
       "FSLID": 1175,
-      "DevName": "GA_Mara_HeavySingleTargetBuilder"
+      "DevName": "GA_Mara_HeavySingleTargetBuilder",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1176": {
       "Name": null,
       "FSLID": 1176,
-      "DevName": "GA_Mara_HeavyMelee"
+      "DevName": "GA_Mara_HeavyMelee",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1177": {
       "Name": null,
       "FSLID": 1177,
-      "DevName": "GA_Mara_DirectionalProjectilePull"
+      "DevName": "GA_Mara_DirectionalProjectilePull",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1178": {
       "Name": null,
       "FSLID": 1178,
-      "DevName": "GA_Mara_ChanneledProjectiles"
+      "DevName": "GA_Mara_ChanneledProjectiles",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1179": {
       "Name": null,
       "FSLID": 1179,
-      "DevName": "GA_Mara_ChannelActiveDotsDamage"
+      "DevName": "GA_Mara_ChannelActiveDotsDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1180": {
       "Name": null,
       "FSLID": 1180,
-      "DevName": "GA_Mara_Passive_CatForm_Controller"
+      "DevName": "GA_Mara_Passive_CatForm_Controller",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1181": {
       "Name": null,
       "FSLID": 1181,
-      "DevName": "GA_Mara_HumanForm"
+      "DevName": "GA_Mara_HumanForm",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1182": {
       "Name": null,
       "FSLID": 1182,
-      "DevName": "GA_Mara_Catform"
+      "DevName": "GA_Mara_Catform",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1183": {
       "Name": null,
       "FSLID": 1183,
-      "DevName": "GA_Mara_Cat_SingleTargetDamageDotSpender"
+      "DevName": "GA_Mara_Cat_SingleTargetDamageDotSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1184": {
       "Name": null,
       "FSLID": 1184,
-      "DevName": "GA_Mara_Cat_SingleTargetBuilder"
+      "DevName": "GA_Mara_Cat_SingleTargetBuilder",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1185": {
       "Name": null,
       "FSLID": 1185,
-      "DevName": "GA_Mara_Cat_MeleeInterrupt"
+      "DevName": "GA_Mara_Cat_MeleeInterrupt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1186": {
       "Name": null,
       "FSLID": 1186,
-      "DevName": "GA_Mara_Cat_MeleeAutoAttack"
+      "DevName": "GA_Mara_Cat_MeleeAutoAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1187": {
       "Name": null,
       "FSLID": 1187,
-      "DevName": "GA_Mara_Cat_IncreasedMoveSpeedSelfBuff"
+      "DevName": "GA_Mara_Cat_IncreasedMoveSpeedSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1188": {
       "Name": null,
       "FSLID": 1188,
-      "DevName": "GA_Mara_Cat_HeavySingleTargetBuilder"
+      "DevName": "GA_Mara_Cat_HeavySingleTargetBuilder",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1189": {
       "Name": null,
       "FSLID": 1189,
-      "DevName": "GA_Mara_Cat_DamageCleaveDotSpender"
+      "DevName": "GA_Mara_Cat_DamageCleaveDotSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1190": {
       "Name": null,
       "FSLID": 1190,
-      "DevName": "GA_Mara_Cat_AoeStun"
+      "DevName": "GA_Mara_Cat_AoeStun",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1191": {
       "Name": null,
       "FSLID": 1191,
-      "DevName": "GA_Mara_Cat_AoeLeap"
+      "DevName": "GA_Mara_Cat_AoeLeap",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1192": {
       "Name": null,
       "FSLID": 1192,
-      "DevName": "GA_Mara_Cat_AoeBuilder"
+      "DevName": "GA_Mara_Cat_AoeBuilder",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1193": {
       "Name": null,
       "FSLID": 1193,
-      "DevName": "GA_Mara_BackwardsMovementAoe"
+      "DevName": "GA_Mara_BackwardsMovementAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1194": {
       "Name": null,
       "FSLID": 1194,
-      "DevName": "GA_Mara_AoeSpender"
+      "DevName": "GA_Mara_AoeSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1195": {
       "Name": null,
       "FSLID": 1195,
-      "DevName": "GA_Mara_AoeHeal"
+      "DevName": "GA_Mara_AoeHeal",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1196": {
       "Name": null,
       "FSLID": 1196,
-      "DevName": "GA_Mara_AoeConeProjectiles"
+      "DevName": "GA_Mara_AoeConeProjectiles",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1197": {
       "Name": null,
       "FSLID": 1197,
-      "DevName": "GA_Mara_AoeBuilder"
+      "DevName": "GA_Mara_AoeBuilder",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1198": {
       "Name": null,
       "FSLID": 1198,
-      "DevName": "GA_Mara_ActionCombat_LightMelee"
+      "DevName": "GA_Mara_ActionCombat_LightMelee",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1199": {
       "Name": null,
       "FSLID": 1199,
-      "DevName": "GA_Mara_ActionCombat_HeavyMelee"
+      "DevName": "GA_Mara_ActionCombat_HeavyMelee",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1200": {
       "Name": "Kick",
       "FSLID": 1200,
-      "DevName": "GA_Mara_MeleeInterrupt"
+      "DevName": "GA_Mara_MeleeInterrupt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1201": {
       "Name": "Queen's Fang",
       "FSLID": 1201,
-      "DevName": "GA_Mara_HeavyAttackSpender"
+      "DevName": "GA_Mara_HeavyAttackSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1202": {
       "Name": null,
       "FSLID": 1202,
-      "DevName": "GA_Mara_EnergyDamageSelfBuff"
+      "DevName": "GA_Mara_EnergyDamageSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1203": {
       "Name": null,
       "FSLID": 1203,
-      "DevName": "GA_Mara_EnergyAutoAttackSelfBuffSpender"
+      "DevName": "GA_Mara_EnergyAutoAttackSelfBuffSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1204": {
       "Name": null,
       "FSLID": 1204,
-      "DevName": "GA_Mara_Disorient"
+      "DevName": "GA_Mara_Disorient",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1205": {
       "Name": "Stalker Step",
       "FSLID": 1205,
-      "DevName": "GA_Mara_ChargedTeleportBehindTarget"
+      "DevName": "GA_Mara_ChargedTeleportBehindTarget",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1206": {
       "Name": "Maiden of Death",
       "FSLID": 1206,
-      "DevName": "GA_Mara_ChargedResourceRefillSelfBuff"
+      "DevName": "GA_Mara_ChargedResourceRefillSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "1207": {
       "Name": "Widow's Bite",
       "FSLID": 1207,
-      "DevName": "GA_Mara_ChargedDoubleAttackBuilder"
+      "DevName": "GA_Mara_ChargedDoubleAttackBuilder",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "1208": {
       "Name": "Hemorrhaging Strike",
       "FSLID": 1208,
-      "DevName": "GA_Mara_BleedAttackSpender"
+      "DevName": "GA_Mara_BleedAttackSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1209": {
       "Name": "Attack",
       "FSLID": 1209,
-      "DevName": "GA_Mara_AutoAttack"
+      "DevName": "GA_Mara_AutoAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1210": {
       "Name": null,
       "FSLID": 1210,
-      "DevName": "GA_Mara_Passive_ApplyPoisonSelfBuff"
+      "DevName": "GA_Mara_Passive_ApplyPoisonSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1211": {
       "Name": null,
       "FSLID": 1211,
-      "DevName": "GA_Mara_ApplyPoisonSelfBuff"
+      "DevName": "GA_Mara_ApplyPoisonSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1212": {
       "Name": "Arachnid Assault",
       "FSLID": 1212,
-      "DevName": "GA_Mara_AoeAttackSpender"
+      "DevName": "GA_Mara_AoeAttackSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1213": {
       "Name": "Skittering Blades",
       "FSLID": 1213,
-      "DevName": "GA_Mara_AoeAttackBuilder"
+      "DevName": "GA_Mara_AoeAttackBuilder",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1214": {
       "Name": "Taunt",
       "FSLID": 1214,
-      "DevName": "GA_Ink_Talent_SelfDefenceBuff_IncreasedDurationAndTaunt_Taunt"
+      "DevName": "GA_Ink_Talent_SelfDefenceBuff_IncreasedDurationAndTaunt_Taunt",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1215": {
       "Name": null,
       "FSLID": 1215,
-      "DevName": "GA_Ink_Passive_Talent_ChanceIncreasedSpenderDamage"
+      "DevName": "GA_Ink_Passive_Talent_ChanceIncreasedSpenderDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1216": {
       "Name": null,
       "FSLID": 1216,
-      "DevName": "GA_Ink_Passive_Talent_BouncyProjectile_FreeCastFromAttack"
+      "DevName": "GA_Ink_Passive_Talent_BouncyProjectile_FreeCastFromAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1217": {
       "Name": null,
       "FSLID": 1217,
-      "DevName": "GA_Ink_Passive_Talent_AutoAttackBuff_GainToIncreasedDamage"
+      "DevName": "GA_Ink_Passive_Talent_AutoAttackBuff_GainToIncreasedDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1218": {
       "Name": "Unbreakable Will",
       "FSLID": 1218,
-      "DevName": "GA_Ink_SelfDefenceBuff"
+      "DevName": "GA_Ink_SelfDefenceBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1220": {
       "Name": null,
       "FSLID": 1220,
-      "DevName": "GA_Ink_Passive_SecondChanceSingleTargetDamage_Monitor"
+      "DevName": "GA_Ink_Passive_SecondChanceSingleTargetDamage_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1221": {
       "Name": null,
       "FSLID": 1221,
-      "DevName": "GA_Ink_Passive_SwingTimerMonitor"
+      "DevName": "GA_Ink_Passive_SwingTimerMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1222": {
       "Name": null,
       "FSLID": 1222,
-      "DevName": "GA_Ink_Passive_SwingTimerManager_GlobalCooldown"
+      "DevName": "GA_Ink_Passive_SwingTimerManager_GlobalCooldown",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1223": {
       "Name": null,
       "FSLID": 1223,
-      "DevName": "GA_Ink_Passive_RageManager"
+      "DevName": "GA_Ink_Passive_RageManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1224": {
       "Name": null,
       "FSLID": 1224,
-      "DevName": "GA_Ink_MoveToLocationAoeDamage_Targeting"
+      "DevName": "GA_Ink_MoveToLocationAoeDamage_Targeting",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1225": {
       "Name": "Leap Smash",
       "FSLID": 1225,
-      "DevName": "GA_Ink_MoveToLocationAoeDamage"
+      "DevName": "GA_Ink_MoveToLocationAoeDamage",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1226": {
       "Name": "Pummel",
       "FSLID": 1226,
-      "DevName": "GA_Ink_MeleeInterrupt"
+      "DevName": "GA_Ink_MeleeInterrupt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1227": {
       "Name": "Attack",
       "FSLID": 1227,
-      "DevName": "GA_Ink_MeleeAutoAttack"
+      "DevName": "GA_Ink_MeleeAutoAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1228": {
       "Name": "Culling Strike",
       "FSLID": 1228,
-      "DevName": "GA_Ink_LowHealthSingleTargetResourceDamage"
+      "DevName": "GA_Ink_LowHealthSingleTargetResourceDamage",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1229": {
       "Name": "Skull Crusher",
       "FSLID": 1229,
-      "DevName": "GA_Ink_HeavySingleTargetAttack"
+      "DevName": "GA_Ink_HeavySingleTargetAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1230": {
       "Name": null,
       "FSLID": 1230,
-      "DevName": "GA_Ink_Passive_EnhancedChargedBuff_PulsatingSingleDamage"
+      "DevName": "GA_Ink_Passive_EnhancedChargedBuff_PulsatingSingleDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1231": {
       "Name": "Raging Tempest",
       "FSLID": 1231,
-      "DevName": "GA_Ink_EnhancedChargedBuff"
+      "DevName": "GA_Ink_EnhancedChargedBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1232": {
       "Name": null,
       "FSLID": 1232,
-      "DevName": "GA_Ink_Passive_CostReductionBuff_Manager"
+      "DevName": "GA_Ink_Passive_CostReductionBuff_Manager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1233": {
       "Name": "Focused Wrath",
       "FSLID": 1233,
-      "DevName": "GA_Ink_CostReductionBuff"
+      "DevName": "GA_Ink_CostReductionBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1234": {
       "Name": "Wild Swing",
       "FSLID": 1234,
-      "DevName": "GA_Ink_CleaveAttack"
+      "DevName": "GA_Ink_CleaveAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1235": {
       "Name": "Thunder Call",
       "FSLID": 1235,
-      "DevName": "GA_Ink_ChargedBuff"
+      "DevName": "GA_Ink_ChargedBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1236": {
       "Name": null,
       "FSLID": 1236,
-      "DevName": "GA_Ink_Passive_BouncyProjectile_ChainDamage"
+      "DevName": "GA_Ink_Passive_BouncyProjectile_ChainDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1237": {
       "Name": "Chain Lightning",
       "FSLID": 1237,
-      "DevName": "GA_Ink_BouncyProjectile"
+      "DevName": "GA_Ink_BouncyProjectile",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1238": {
       "Name": null,
       "FSLID": 1238,
-      "DevName": "GA_Ink_Passive_AutoAttackBuff_Monitor"
+      "DevName": "GA_Ink_Passive_AutoAttackBuff_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1239": {
       "Name": "Heavy Strike",
       "FSLID": 1239,
-      "DevName": "GA_Ink_AutoAttackBuff_Attack"
+      "DevName": "GA_Ink_AutoAttackBuff_Attack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1240": {
       "Name": "Heavy Strike",
       "FSLID": 1240,
-      "DevName": "GA_Ink_AutoAttackBuff"
+      "DevName": "GA_Ink_AutoAttackBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1241": {
       "Name": "Intimidate",
       "FSLID": 1241,
-      "DevName": "GA_Ink_AoeFear"
+      "DevName": "GA_Ink_AoeFear",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1242": {
       "Name": "Hammer Storm",
       "FSLID": 1242,
-      "DevName": "GA_Ink_AoeAttack"
+      "DevName": "GA_Ink_AoeAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1243": {
       "Name": null,
       "FSLID": 1243,
-      "DevName": "GA_Gunde_SingleTargetTaunt"
+      "DevName": "GA_Gunde_SingleTargetTaunt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1244": {
       "Name": "Jawbreaker",
       "FSLID": 1244,
-      "DevName": "GA_Gunde_SingleTargetInterrupt"
+      "DevName": "GA_Gunde_SingleTargetInterrupt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1245": {
       "Name": null,
       "FSLID": 1245,
-      "DevName": "GA_Gunde_SingleTargetCleaveBleed"
+      "DevName": "GA_Gunde_SingleTargetCleaveBleed",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1246": {
       "Name": null,
       "FSLID": 1246,
-      "DevName": "GA_Gunde_RecoverHealth"
+      "DevName": "GA_Gunde_RecoverHealth",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1247": {
       "Name": null,
       "FSLID": 1247,
-      "DevName": "GA_Gunde_Passive_PainMonitor"
+      "DevName": "GA_Gunde_Passive_PainMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1248": {
       "Name": null,
       "FSLID": 1248,
-      "DevName": "GA_Gunde_MoveSpeedSelfBuff"
+      "DevName": "GA_Gunde_MoveSpeedSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1249": {
       "Name": "Attack",
       "FSLID": 1249,
-      "DevName": "GA_Gunde_MeleeAutoAttack"
+      "DevName": "GA_Gunde_MeleeAutoAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1250": {
       "Name": null,
       "FSLID": 1250,
-      "DevName": "GA_Gunde_InstantSpinAoe"
+      "DevName": "GA_Gunde_InstantSpinAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1251": {
       "Name": null,
       "FSLID": 1251,
-      "DevName": "GA_Gunde_HeavySingleTargetMelee"
+      "DevName": "GA_Gunde_HeavySingleTargetMelee",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1252": {
       "Name": null,
       "FSLID": 1252,
-      "DevName": "GA_Gunde_BasicSingleTargetMelee"
+      "DevName": "GA_Gunde_BasicSingleTargetMelee",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1253": {
       "Name": null,
       "FSLID": 1253,
-      "DevName": "GA_Gunde_AoeDamageAndStun"
+      "DevName": "GA_Gunde_AoeDamageAndStun",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "1254": {
       "Name": "Frog Squad",
       "FSLID": 1254,
-      "DevName": "GA_Firemage_Passive_Talent_FireFrogOnDotCrit_Monitor"
+      "DevName": "GA_Firemage_Passive_Talent_FireFrogOnDotCrit_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1255": {
       "Name": "Spontaneous Combustion",
       "FSLID": 1255,
-      "DevName": "GA_Firemage_Passive_Talent_DotDoubleDamageAndHeal_DotTickMonitor"
+      "DevName": "GA_Firemage_Passive_Talent_DotDoubleDamageAndHeal_DotTickMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1256": {
       "Name": null,
       "FSLID": 1256,
-      "DevName": "GA_Firemage_Passive_InstantSingleTargetDot_Talent_StackingBoost"
+      "DevName": "GA_Firemage_Passive_InstantSingleTargetDot_Talent_StackingBoost",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1257": {
       "Name": "Flare Up",
       "FSLID": 1257,
-      "DevName": "GA_Firemage_Passive_CastedDotBoostProjectile_Talent_DamageSpreadToCastedSingleDot_Monitor"
+      "DevName": "GA_Firemage_Passive_CastedDotBoostProjectile_Talent_DamageSpreadToCastedSingleDot_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1258": {
       "Name": "Flame Ward",
       "FSLID": 1258,
-      "DevName": "GA_Firemage_SelfDefenceBuff"
+      "DevName": "GA_Firemage_SelfDefenceBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1259": {
       "Name": null,
       "FSLID": 1259,
-      "DevName": "GA_Firemage_PlacedProjectileAoe_TargetingAbility"
+      "DevName": "GA_Firemage_PlacedProjectileAoe_TargetingAbility",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1260": {
       "Name": "Fire Ball",
       "FSLID": 1260,
-      "DevName": "GA_Firemage_PlacedProjectileAoe"
+      "DevName": "GA_Firemage_PlacedProjectileAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "1261": {
       "Name": null,
       "FSLID": 1261,
-      "DevName": "GA_Firemage_Passive_SpiritProcHandler"
+      "DevName": "GA_Firemage_Passive_SpiritProcHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1262": {
       "Name": null,
       "FSLID": 1262,
-      "DevName": "GA_Firemage_InstantSingleTargetDot"
+      "DevName": "GA_Firemage_InstantSingleTargetDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1263": {
       "Name": "Scorch",
       "FSLID": 1263,
-      "DevName": "GA_Firemage_InstantSingleInterrupt"
+      "DevName": "GA_Firemage_InstantSingleInterrupt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1264": {
       "Name": null,
       "FSLID": 1264,
-      "DevName": "GA_Firemage_InstantSingleDotDuplication"
+      "DevName": "GA_Firemage_InstantSingleDotDuplication",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1265": {
       "Name": "Fireflash",
       "FSLID": 1265,
-      "DevName": "GA_Firemage_InstantSingleDisorient"
+      "DevName": "GA_Firemage_InstantSingleDisorient",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1266": {
       "Name": null,
       "FSLID": 1266,
-      "DevName": "GA_Firemage_Passive_InstantDotSpread_DotBonus"
+      "DevName": "GA_Firemage_Passive_InstantDotSpread_DotBonus",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1267": {
       "Name": "Wildfire",
       "FSLID": 1267,
-      "DevName": "GA_Firemage_InstantDotSpread"
+      "DevName": "GA_Firemage_InstantDotSpread",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1268": {
       "Name": "Fire Frogs",
       "FSLID": 1268,
-      "DevName": "GA_Firemage_FireFrogs"
+      "DevName": "GA_Firemage_FireFrogs",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1269": {
       "Name": "Flickerstep",
       "FSLID": 1269,
-      "DevName": "GA_Firemage_DashForward"
+      "DevName": "GA_Firemage_DashForward",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1270": {
       "Name": "Incinerate",
       "FSLID": 1270,
-      "DevName": "GA_Firemage_ChanneledForwardAoeDamage"
+      "DevName": "GA_Firemage_ChanneledForwardAoeDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1271": {
       "Name": null,
       "FSLID": 1271,
-      "DevName": "GA_Firemage_CastedSingleDot"
+      "DevName": "GA_Firemage_CastedSingleDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1272": {
       "Name": null,
       "FSLID": 1272,
-      "DevName": "GA_Firemage_CastedPlacedAoe_TargetingAbility"
+      "DevName": "GA_Firemage_CastedPlacedAoe_TargetingAbility",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1273": {
       "Name": "Apocalypse",
       "FSLID": 1273,
-      "DevName": "GA_Firemage_CastedPlacedAoe"
+      "DevName": "GA_Firemage_CastedPlacedAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1274": {
       "Name": null,
       "FSLID": 1274,
-      "DevName": "GA_Firemage_Passive_CastedDotDetonate_DetonationControl"
+      "DevName": "GA_Firemage_Passive_CastedDotDetonate_DetonationControl",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1275": {
       "Name": "Detonate",
       "FSLID": 1275,
-      "DevName": "GA_Firemage_CastedDotDetonate"
+      "DevName": "GA_Firemage_CastedDotDetonate",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1276": {
       "Name": "Infernal Wave",
       "FSLID": 1276,
-      "DevName": "GA_Firemage_CastedDotBoostProjectile"
+      "DevName": "GA_Firemage_CastedDotBoostProjectile",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1280": {
       "Name": null,
@@ -6358,102 +7303,162 @@
     "1298": {
       "Name": null,
       "FSLID": 1298,
-      "DevName": "GA_Bowguy_TargetedAoePull_TargetAbility"
+      "DevName": "GA_Bowguy_TargetedAoePull_TargetAbility",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1299": {
       "Name": null,
       "FSLID": 1299,
-      "DevName": "GA_Bowguy_Passive_TargetedAoePull"
+      "DevName": "GA_Bowguy_Passive_TargetedAoePull",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1300": {
       "Name": null,
       "FSLID": 1300,
-      "DevName": "GA_Bowguy_TargetedAoeDamage_TargetAbility"
+      "DevName": "GA_Bowguy_TargetedAoeDamage_TargetAbility",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1301": {
       "Name": "Celestial Shot",
       "FSLID": 1301,
-      "DevName": "GA_Bowguy_SingleProjectileDamage"
+      "DevName": "GA_Bowguy_SingleProjectileDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1302": {
       "Name": "Celestial Veil",
       "FSLID": 1302,
-      "DevName": "GA_Bowguy_SelfDefenceBuff"
+      "DevName": "GA_Bowguy_SelfDefenceBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1303": {
       "Name": "Shoot",
       "FSLID": 1303,
-      "DevName": "GA_Bowguy_RangedAutoAttack"
+      "DevName": "GA_Bowguy_RangedAutoAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1304": {
       "Name": "Skystrider's Grace",
       "FSLID": 1304,
-      "DevName": "GA_Bowguy_ProcHasteBuff"
+      "DevName": "GA_Bowguy_ProcHasteBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1305": {
       "Name": null,
       "FSLID": 1305,
-      "DevName": "GA_Bowguy_ProccedAoeProjectileDamage"
+      "DevName": "GA_Bowguy_ProccedAoeProjectileDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1306": {
       "Name": null,
       "FSLID": 1306,
-      "DevName": "GA_Bowguy_Passive_ProccedAoeProjectileDamage_Proc_Monitor"
+      "DevName": "GA_Bowguy_Passive_ProccedAoeProjectileDamage_Proc_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1307": {
       "Name": null,
       "FSLID": 1307,
-      "DevName": "GA_Bowguy_Passive_ResourceManager"
+      "DevName": "GA_Bowguy_Passive_ResourceManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1308": {
       "Name": "Disrupt",
       "FSLID": 1308,
-      "DevName": "GA_Bowguy_InstantSingleInterrupt"
+      "DevName": "GA_Bowguy_InstantSingleInterrupt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1309": {
       "Name": "Lunarlight Salvo",
       "FSLID": 1309,
-      "DevName": "GA_Bowguy_Passive_InstantMarkTarget_Monitor"
+      "DevName": "GA_Bowguy_Passive_InstantMarkTarget_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1310": {
       "Name": "Lunarlight Mark",
       "FSLID": 1310,
-      "DevName": "GA_Bowguy_InstantMarkTarget"
+      "DevName": "GA_Bowguy_InstantMarkTarget",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1311": {
       "Name": "Roll",
       "FSLID": 1311,
-      "DevName": "GA_Bowguy_ChargedMoveWithDirection"
+      "DevName": "GA_Bowguy_ChargedMoveWithDirection",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1312": {
       "Name": "Heartseeker Barrage",
       "FSLID": 1312,
-      "DevName": "GA_Bowguy_ChanneledMultiProjectileDebuff"
+      "DevName": "GA_Bowguy_ChanneledMultiProjectileDebuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1313": {
       "Name": "Highwind Arrow",
       "FSLID": 1313,
-      "DevName": "GA_Bowguy_CastedProjectileHeavyDamage"
+      "DevName": "GA_Bowguy_CastedProjectileHeavyDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "1314": {
       "Name": null,
       "FSLID": 1314,
-      "DevName": "GA_Bowguy_CastedProjectileDamageDebuff"
+      "DevName": "GA_Bowguy_CastedProjectileDamageDebuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1315": {
       "Name": "Focused Shot",
       "FSLID": 1315,
-      "DevName": "GA_Bowguy_CastedProjectileDamage"
+      "DevName": "GA_Bowguy_CastedProjectileDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1316": {
       "Name": null,
       "FSLID": 1316,
-      "DevName": "GA_Bowguy_CastedFrontalConeAoe"
+      "DevName": "GA_Bowguy_CastedFrontalConeAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1318": {
       "Name": "Multishot",
       "FSLID": 1318,
-      "DevName": "GA_Bowguy_AoeProjectileDamage"
+      "DevName": "GA_Bowguy_AoeProjectileDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1319": {
       "Name": null,
@@ -6553,12 +7558,18 @@
     "1398": {
       "Name": "Skystrider's Supremacy",
       "FSLID": 1398,
-      "DevName": "GA_Bowguy_SelfBuffForAoeProjectile"
+      "DevName": "GA_Bowguy_SelfBuffForAoeProjectile",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1400": {
       "Name": null,
       "FSLID": 1400,
-      "DevName": "GA_Bowguy_Passive_DurationalAoeDamage"
+      "DevName": "GA_Bowguy_Passive_DurationalAoeDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1401": {
       "Name": "Attack",
@@ -6598,42 +7609,66 @@
     "1408": {
       "Name": null,
       "FSLID": 1408,
-      "DevName": "GA_Gunde_DamageBlockHealthDrain"
+      "DevName": "GA_Gunde_DamageBlockHealthDrain",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1409": {
       "Name": "Sanguine Cleave",
       "FSLID": 1409,
-      "DevName": "GA_Gunde_InstantSpinAoe_InHealingStance"
+      "DevName": "GA_Gunde_InstantSpinAoe_InHealingStance",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1410": {
       "Name": null,
       "FSLID": 1410,
-      "DevName": "GA_Gunde_HeavySingleTargetMeleeWithHeal_InHealingStance"
+      "DevName": "GA_Gunde_HeavySingleTargetMeleeWithHeal_InHealingStance",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1411": {
       "Name": null,
       "FSLID": 1411,
-      "DevName": "GA_Gunde_HeavySingleTargetMeleeWithHeal"
+      "DevName": "GA_Gunde_HeavySingleTargetMeleeWithHeal",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1412": {
       "Name": null,
       "FSLID": 1412,
-      "DevName": "GA_Gunde_HeavySingleTargetMelee_InHealingStance"
+      "DevName": "GA_Gunde_HeavySingleTargetMelee_InHealingStance",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1413": {
       "Name": null,
       "FSLID": 1413,
-      "DevName": "GA_Gunde_Passive_HealingStanceAbilitySwapper"
+      "DevName": "GA_Gunde_Passive_HealingStanceAbilitySwapper",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1414": {
       "Name": null,
       "FSLID": 1414,
-      "DevName": "GA_Gunde_HealingStance_InHealingStance"
+      "DevName": "GA_Gunde_HealingStance_InHealingStance",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1415": {
       "Name": null,
       "FSLID": 1415,
-      "DevName": "GA_Gunde_HealingStance"
+      "DevName": "GA_Gunde_HealingStance",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1416": {
       "Name": "Poisonado",
@@ -6643,22 +7678,34 @@
     "1417": {
       "Name": null,
       "FSLID": 1417,
-      "DevName": "GA_Gunde_SingleInstantPullEnemy"
+      "DevName": "GA_Gunde_SingleInstantPullEnemy",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1418": {
       "Name": null,
       "FSLID": 1418,
-      "DevName": "GA_Gunde_HealthAndBleedSelfBuff"
+      "DevName": "GA_Gunde_HealthAndBleedSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "1419": {
       "Name": null,
       "FSLID": 1419,
-      "DevName": "GA_Mara_Passive_CopySpawner"
+      "DevName": "GA_Mara_Passive_CopySpawner",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1420": {
       "Name": "Matriarch Macabre",
       "FSLID": 1420,
-      "DevName": "GA_Mara_CopyCharacterDamage"
+      "DevName": "GA_Mara_CopyCharacterDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1421": {
       "Name": null,
@@ -6708,52 +7755,82 @@
     "1430": {
       "Name": null,
       "FSLID": 1430,
-      "DevName": "GA_Gunde_MoveToTargetBleed"
+      "DevName": "GA_Gunde_MoveToTargetBleed",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": true,
+      "SpellGrantsCDA": false
     },
     "1431": {
       "Name": "Wild Throw",
       "FSLID": 1431,
-      "DevName": "GA_Gunde_ForwardDualProjectile"
+      "DevName": "GA_Gunde_ForwardDualProjectile",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1432": {
       "Name": null,
       "FSLID": 1432,
-      "DevName": "GA_Gunde_Passive_ClampedHealthWithEruption_Monitor"
+      "DevName": "GA_Gunde_Passive_ClampedHealthWithEruption_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1433": {
       "Name": null,
       "FSLID": 1433,
-      "DevName": "GA_Gunde_ClampedHealthWithEruption"
+      "DevName": "GA_Gunde_ClampedHealthWithEruption",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1434": {
       "Name": null,
       "FSLID": 1434,
-      "DevName": "GA_Mara_Passive_Talent_BleedAttackSpender_HasteIncrease"
+      "DevName": "GA_Mara_Passive_Talent_BleedAttackSpender_HasteIncrease",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1435": {
       "Name": null,
       "FSLID": 1435,
-      "DevName": "GA_Mara_Passive_Talent_ResourceAttackSpenderCritChance"
+      "DevName": "GA_Mara_Passive_Talent_ResourceAttackSpenderCritChance",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1436": {
       "Name": null,
       "FSLID": 1436,
-      "DevName": "GA_Mara_Passive_Talent_ChargedDoubleAttackBuilder_ResourceIncreaseOT"
+      "DevName": "GA_Mara_Passive_Talent_ChargedDoubleAttackBuilder_ResourceIncreaseOT",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1437": {
       "Name": "Reign in Blood",
       "FSLID": 1437,
-      "DevName": "GA_Gunde_Passive_HealthAndBleedSelfBuff_Monitor"
+      "DevName": "GA_Gunde_Passive_HealthAndBleedSelfBuff_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1438": {
       "Name": null,
       "FSLID": 1438,
-      "DevName": "GA_Bowguy_Passive_Talent_SingleProjectileDamage_ChanceInstantMarkTarget"
+      "DevName": "GA_Bowguy_Passive_Talent_SingleProjectileDamage_ChanceInstantMarkTarget",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1439": {
       "Name": null,
       "FSLID": 1439,
-      "DevName": "GA_Bowguy_Passive_Talent_AoeProjectileDamage_CooldownReduction"
+      "DevName": "GA_Bowguy_Passive_Talent_AoeProjectileDamage_CooldownReduction",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1440": {
       "Name": "Wildroot Thorns",
@@ -6778,12 +7855,18 @@
     "1444": {
       "Name": null,
       "FSLID": 1444,
-      "DevName": "GA_Gunde_Passive_Talent_BleedProcForDoubleStance_Monitor"
+      "DevName": "GA_Gunde_Passive_Talent_BleedProcForDoubleStance_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1445": {
       "Name": null,
       "FSLID": 1445,
-      "DevName": "GA_Mosse_Passive_ExplosiveMinions_Activation"
+      "DevName": "GA_Mosse_Passive_ExplosiveMinions_Activation",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1446": {
       "Name": "Divine Mediation",
@@ -6793,12 +7876,18 @@
     "1447": {
       "Name": null,
       "FSLID": 1447,
-      "DevName": "GA_Mara_Passive_SpiritProcHandler"
+      "DevName": "GA_Mara_Passive_SpiritProcHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1448": {
       "Name": null,
       "FSLID": 1448,
-      "DevName": "GA_Bowguy_Passive_SpiritProcHandler"
+      "DevName": "GA_Bowguy_Passive_SpiritProcHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1449": {
       "Name": "Grasping Vines",
@@ -6878,17 +7967,26 @@
     "1464": {
       "Name": null,
       "FSLID": 1464,
-      "DevName": "GA_Mosse_Passive_ProjectileTurrets_Spawner"
+      "DevName": "GA_Mosse_Passive_ProjectileTurrets_Spawner",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1465": {
       "Name": "Grand Melee",
       "FSLID": 1465,
-      "DevName": "GA_Warmaster_AoeIncite"
+      "DevName": "GA_Warmaster_AoeIncite",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1466": {
       "Name": null,
       "FSLID": 1466,
-      "DevName": "GA_Ink_Passive_SpiritProcHandler"
+      "DevName": "GA_Ink_Passive_SpiritProcHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1467": {
       "Name": null,
@@ -6898,7 +7996,10 @@
     "1468": {
       "Name": "Final Stratagem",
       "FSLID": 1468,
-      "DevName": "GA_Mara_ResetCooldownRefillResources"
+      "DevName": "GA_Mara_ResetCooldownRefillResources",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1469": {
       "Name": "Attack",
@@ -6913,7 +8014,10 @@
     "1471": {
       "Name": null,
       "FSLID": 1471,
-      "DevName": "GA_Bowguy_Passive_Talent_CastedProjectileDamage_CooldownReduction"
+      "DevName": "GA_Bowguy_Passive_Talent_CastedProjectileDamage_CooldownReduction",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1472": {
       "Name": "Attack",
@@ -7028,7 +8132,10 @@
     "1494": {
       "Name": null,
       "FSLID": 1494,
-      "DevName": "GA_Meiko_DamageSoakBuff_PassiveCooldownMonitor"
+      "DevName": "GA_Meiko_DamageSoakBuff_PassiveCooldownMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1495": {
       "Name": null,
@@ -7058,12 +8165,18 @@
     "1500": {
       "Name": "Unyielding Bloom",
       "FSLID": 1500,
-      "DevName": "GA_Mosse_Talent_Passive_DurationalAoeHealPlacement_OverhealGivesAbsorb_Monitor"
+      "DevName": "GA_Mosse_Talent_Passive_DurationalAoeHealPlacement_OverhealGivesAbsorb_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1501": {
       "Name": null,
       "FSLID": 1501,
-      "DevName": "GA_Ink_EnhancedChargedBuff_Targeting"
+      "DevName": "GA_Ink_EnhancedChargedBuff_Targeting",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1502": {
       "Name": null,
@@ -7098,17 +8211,26 @@
     "1508": {
       "Name": null,
       "FSLID": 1508,
-      "DevName": "GA_Bowguy_Passive_Talent_SingleProjectileDamage_CooldownReduction"
+      "DevName": "GA_Bowguy_Passive_Talent_SingleProjectileDamage_CooldownReduction",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1509": {
       "Name": null,
       "FSLID": 1509,
-      "DevName": "GA_Bowguy_Passive_Talent_SelfDefenceBuff_IncreasedDurationAndDispel"
+      "DevName": "GA_Bowguy_Passive_Talent_SelfDefenceBuff_IncreasedDurationAndDispel",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1510": {
       "Name": null,
       "FSLID": 1510,
-      "DevName": "GA_Bowguy_Passive_SelfBuffForAoeProjectile_AoeProjectileMonitor"
+      "DevName": "GA_Bowguy_Passive_SelfBuffForAoeProjectile_AoeProjectileMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1511": {
       "Name": "Climb Up",
@@ -7123,32 +8245,50 @@
     "1513": {
       "Name": null,
       "FSLID": 1513,
-      "DevName": "GA_Mara_Passive_Talent_ChargedTeleportBehindTarget_IncreasedDamageOrMovementSpeed_DamageIncrease"
+      "DevName": "GA_Mara_Passive_Talent_ChargedTeleportBehindTarget_IncreasedDamageOrMovementSpeed_DamageIncrease",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1514": {
       "Name": null,
       "FSLID": 1514,
-      "DevName": "GA_Mara_Passive_Talent_ChargedTeleportBehindTarget_IncreasedDamageOrMovementSpeed"
+      "DevName": "GA_Mara_Passive_Talent_ChargedTeleportBehindTarget_IncreasedDamageOrMovementSpeed",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1515": {
       "Name": "Siegebreaker",
       "FSLID": 1515,
-      "DevName": "GA_Warmaster_ShieldSelfBuff"
+      "DevName": "GA_Warmaster_ShieldSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1516": {
       "Name": null,
       "FSLID": 1516,
-      "DevName": "GA_Warmaster_Passive_ShieldSelfBuff_MeleeCleave_Monitor"
+      "DevName": "GA_Warmaster_Passive_ShieldSelfBuff_MeleeCleave_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1517": {
       "Name": null,
       "FSLID": 1517,
-      "DevName": "GA_Mara_Passive_Talent_ChargedResourceRefillSelfBuff_BleedAttackSpenderBleedAoe"
+      "DevName": "GA_Mara_Passive_Talent_ChargedResourceRefillSelfBuff_BleedAttackSpenderBleedAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1518": {
       "Name": null,
       "FSLID": 1518,
-      "DevName": "GA_Mara_Passive_Talent_AoeAttackBuilder_HeavyAttackSpenderDamageIncrease"
+      "DevName": "GA_Mara_Passive_Talent_AoeAttackBuilder_HeavyAttackSpenderDamageIncrease",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1519": {
       "Name": "Furious Tantrum",
@@ -7163,22 +8303,34 @@
     "1521": {
       "Name": null,
       "FSLID": 1521,
-      "DevName": "GA_Mara_Passive_Talent_BleedAttackSpender_IncreasedTickRateWhileSingle"
+      "DevName": "GA_Mara_Passive_Talent_BleedAttackSpender_IncreasedTickRateWhileSingle",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1522": {
       "Name": null,
       "FSLID": 1522,
-      "DevName": "GA_Gunde_Passive_SpiritProcHandler"
+      "DevName": "GA_Gunde_Passive_SpiritProcHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1523": {
       "Name": null,
       "FSLID": 1523,
-      "DevName": "GA_Bowguy_Passive_Talent_ChanneledMultiProjectileDebuff_ResourceToDamageCooldownReset"
+      "DevName": "GA_Bowguy_Passive_Talent_ChanneledMultiProjectileDebuff_ResourceToDamageCooldownReset",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1524": {
       "Name": null,
       "FSLID": 1524,
-      "DevName": "GA_Bowguy_Passive_Talent_CastedProjectileDamage_AoeProjectileDamageEmpowered"
+      "DevName": "GA_Bowguy_Passive_Talent_CastedProjectileDamage_AoeProjectileDamageEmpowered",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1525": {
       "Name": "Taskmaster's Mark",
@@ -7188,7 +8340,10 @@
     "1526": {
       "Name": null,
       "FSLID": 1526,
-      "DevName": "GA_Gunde_Passive_DamageBlockHealthDrain_DamageMonitor"
+      "DevName": "GA_Gunde_Passive_DamageBlockHealthDrain_DamageMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1527": {
       "Name": null,
@@ -7218,12 +8373,18 @@
     "1532": {
       "Name": "Fire Frogs",
       "FSLID": 1532,
-      "DevName": "GA_Firemage_Passive_FrogDamageMonitor"
+      "DevName": "GA_Firemage_Passive_FrogDamageMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1533": {
       "Name": null,
       "FSLID": 1533,
-      "DevName": "GA_Bowguy_Passive_Talent_CastedProjectileHeavyDamage_StacksMoreDamageAndBounces"
+      "DevName": "GA_Bowguy_Passive_Talent_CastedProjectileHeavyDamage_StacksMoreDamageAndBounces",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1534": {
       "Name": null,
@@ -7238,17 +8399,26 @@
     "1536": {
       "Name": null,
       "FSLID": 1536,
-      "DevName": "GA_Mosse_Passive_Talent_TurretChannelHeal_FocusTargetIncreasedDamage"
+      "DevName": "GA_Mosse_Passive_Talent_TurretChannelHeal_FocusTargetIncreasedDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1537": {
       "Name": null,
       "FSLID": 1537,
-      "DevName": "GA_Warmaster_Passive_CooldownHandler"
+      "DevName": "GA_Warmaster_Passive_CooldownHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1538": {
       "Name": null,
       "FSLID": 1538,
-      "DevName": "GA_Meiko_Passive_Talent_MoveToLocationAoeDamage_CooldownReduction"
+      "DevName": "GA_Meiko_Passive_Talent_MoveToLocationAoeDamage_CooldownReduction",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1539": {
       "Name": null,
@@ -7263,17 +8433,26 @@
     "1541": {
       "Name": null,
       "FSLID": 1541,
-      "DevName": "GA_Warmaster_MeleeAoeSlow_Triggered"
+      "DevName": "GA_Warmaster_MeleeAoeSlow_Triggered",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1542": {
       "Name": null,
       "FSLID": 1542,
-      "DevName": "GA_Mara_Passive_Talent_Stealth_SpenderIncreasedDamage"
+      "DevName": "GA_Mara_Passive_Talent_Stealth_SpenderIncreasedDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1543": {
       "Name": "Splintered Bone",
       "FSLID": 1543,
-      "DevName": "GA_Ink_Passive_Talent_SecondChanceSingleTargetAttack_CritBleed_Monitor"
+      "DevName": "GA_Ink_Passive_Talent_SecondChanceSingleTargetAttack_CritBleed_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1544": {
       "Name": "Jungle Rot",
@@ -7293,7 +8472,10 @@
     "1547": {
       "Name": "Peacefield",
       "FSLID": 1547,
-      "DevName": "GA_Meiko_Passive_Talent_InstantSelfDefensive_ApplyHot"
+      "DevName": "GA_Meiko_Passive_Talent_InstantSelfDefensive_ApplyHot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1548": {
       "Name": null,
@@ -7313,32 +8495,50 @@
     "1551": {
       "Name": null,
       "FSLID": 1551,
-      "DevName": "GA_Meiko_Passive_Talent_IncomingDamageToDamage"
+      "DevName": "GA_Meiko_Passive_Talent_IncomingDamageToDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1552": {
       "Name": null,
       "FSLID": 1552,
-      "DevName": "GA_Mara_Passive_Talent_SpiritRefundToExpertise"
+      "DevName": "GA_Mara_Passive_Talent_SpiritRefundToExpertise",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1553": {
       "Name": null,
       "FSLID": 1553,
-      "DevName": "GA_Bowguy_Passive_Talent_SpiritProcToInstantNoCooldownProc"
+      "DevName": "GA_Bowguy_Passive_Talent_SpiritProcToInstantNoCooldownProc",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1554": {
       "Name": null,
       "FSLID": 1554,
-      "DevName": "GA_Ink_Passive_DodgeGameplayCueHandler"
+      "DevName": "GA_Ink_Passive_DodgeGameplayCueHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1555": {
       "Name": "Talon's Edict",
       "FSLID": 1555,
-      "DevName": "GA_Rime_Passive_Talent_AutoDamageProjectile_ExplodingCrits_CritMonitor"
+      "DevName": "GA_Rime_Passive_Talent_AutoDamageProjectile_ExplodingCrits_CritMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1556": {
       "Name": null,
       "FSLID": 1556,
-      "DevName": "GA_Ink_Passive_Talent_LowHealthSingleTargetResourceDamage_ChanceActiveOnCommit"
+      "DevName": "GA_Ink_Passive_Talent_LowHealthSingleTargetResourceDamage_ChanceActiveOnCommit",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1557": {
       "Name": null,
@@ -7368,132 +8568,210 @@
     "1562": {
       "Name": null,
       "FSLID": 1562,
-      "DevName": "GA_Vigor_Passive_Talent_SkillshotAoeProjectile_ResetCooldownFreecast_Monitor"
+      "DevName": "GA_Vigor_Passive_Talent_SkillshotAoeProjectile_ResetCooldownFreecast_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1563": {
       "Name": "Meticulous Runesmith",
       "FSLID": 1563,
-      "DevName": "GA_Vigor_Passive_Talent_SkillshotAoeProjectile_HealsApplyAbsorb_Monitor"
+      "DevName": "GA_Vigor_Passive_Talent_SkillshotAoeProjectile_HealsApplyAbsorb_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1564": {
       "Name": null,
       "FSLID": 1564,
-      "DevName": "GA_Mosse_Passive_Talent_PinkButterfly_Double_MaxHealthBonusOnCrit_Monitor"
+      "DevName": "GA_Mosse_Passive_Talent_PinkButterfly_Double_MaxHealthBonusOnCrit_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1565": {
       "Name": "Fire Ball",
       "FSLID": 1565,
-      "DevName": "GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor"
+      "DevName": "GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1566": {
       "Name": null,
       "FSLID": 1566,
-      "DevName": "GA_Firemage_Passive_Talent_InstantDoubleDot_CastedSingleDotReducesCooldown"
+      "DevName": "GA_Firemage_Passive_Talent_InstantDoubleDot_CastedSingleDotReducesCooldown",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1567": {
       "Name": null,
       "FSLID": 1567,
-      "DevName": "GA_Firemage_InstantDoubleDot"
+      "DevName": "GA_Firemage_InstantDoubleDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1568": {
       "Name": "Crackling Inferno",
       "FSLID": 1568,
-      "DevName": "GA_Firemage_Talent_Passive_CastedDotBoostProjectile_CritsApplyDot_DamageMonitor"
+      "DevName": "GA_Firemage_Talent_Passive_CastedDotBoostProjectile_CritsApplyDot_DamageMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1569": {
       "Name": null,
       "FSLID": 1569,
-      "DevName": "GA_Rime_Talent_Passive_InstantSingleDamage_Monitor"
+      "DevName": "GA_Rime_Talent_Passive_InstantSingleDamage_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1570": {
       "Name": null,
       "FSLID": 1570,
-      "DevName": "GA_Rime_Talent_Passive_ChanceOnOrbGain_NextSpenderCritIncrease__OrbGainMonitor"
+      "DevName": "GA_Rime_Talent_Passive_ChanceOnOrbGain_NextSpenderCritIncrease__OrbGainMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1571": {
       "Name": null,
       "FSLID": 1571,
-      "DevName": "GA_Rime_Talent_Passive_ChanceOnOrbGain_NextSpenderCritIncrease_SpenderDamageMonitor"
+      "DevName": "GA_Rime_Talent_Passive_ChanceOnOrbGain_NextSpenderCritIncrease_SpenderDamageMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1572": {
       "Name": null,
       "FSLID": 1572,
-      "DevName": "GA_Rime_Talent_Passive_CastedProjectileDamageOrbSpender_TertiaryResourceSpendMonitor"
+      "DevName": "GA_Rime_Talent_Passive_CastedProjectileDamageOrbSpender_TertiaryResourceSpendMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1573": {
       "Name": null,
       "FSLID": 1573,
-      "DevName": "GA_Rime_Passive_Talent_SpecifiedAbilityHitsReduceCooldown_HitMonitor"
+      "DevName": "GA_Rime_Passive_Talent_SpecifiedAbilityHitsReduceCooldown_HitMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1574": {
       "Name": "Soulfrost Torrent",
       "FSLID": 1574,
-      "DevName": "GA_Rime_Talent_Passive_ChanneledBeamSingleDamage_DelayedAoe_BuffMonitor"
+      "DevName": "GA_Rime_Talent_Passive_ChanneledBeamSingleDamage_DelayedAoe_BuffMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1575": {
       "Name": null,
       "FSLID": 1575,
-      "DevName": "GA_Rime_Passive_ChanneledBeamSingleDamageMonitor"
+      "DevName": "GA_Rime_Passive_ChanneledBeamSingleDamageMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1576": {
       "Name": "Burstbolter",
       "FSLID": 1576,
-      "DevName": "GA_Rime_Talent_Passive_CastedProjectileDamageFiller_TriggerPulse_DamageMonitor"
+      "DevName": "GA_Rime_Talent_Passive_CastedProjectileDamageFiller_TriggerPulse_DamageMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1577": {
       "Name": null,
       "FSLID": 1577,
-      "DevName": "GA_Rime_Passive_InstantSingleDamageMonitor"
+      "DevName": "GA_Rime_Passive_InstantSingleDamageMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1578": {
       "Name": null,
       "FSLID": 1578,
-      "DevName": "GA_Mosse_Passive_Talent_PlacedAoeBuff_ReducedCooldownDespawn"
+      "DevName": "GA_Mosse_Passive_Talent_PlacedAoeBuff_ReducedCooldownDespawn",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1579": {
       "Name": null,
       "FSLID": 1579,
-      "DevName": "GA_Mosse_Passive_Talent_HealingAoeTotem_CastedSingleTargetProjectileDamageToTick"
+      "DevName": "GA_Mosse_Passive_Talent_HealingAoeTotem_CastedSingleTargetProjectileDamageToTick",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1580": {
       "Name": null,
       "FSLID": 1580,
-      "DevName": "GA_Mosse_Passive_Talent_CastedSingleTargetProjectile_DamageToMana"
+      "DevName": "GA_Mosse_Passive_Talent_CastedSingleTargetProjectile_DamageToMana",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1581": {
       "Name": "Fire Ball",
       "FSLID": 1581,
-      "DevName": "GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor_Dot"
+      "DevName": "GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor_Dot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1582": {
       "Name": null,
       "FSLID": 1582,
-      "DevName": "GA_Mosse_ExplosiveMinion_TargetingAbility"
+      "DevName": "GA_Mosse_ExplosiveMinion_TargetingAbility",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1583": {
       "Name": "Corrosive Spill",
       "FSLID": 1583,
-      "DevName": "GA_Mara_Passive_Talent_ComboPointsChanceAoeDamage"
+      "DevName": "GA_Mara_Passive_Talent_ComboPointsChanceAoeDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1584": {
       "Name": "Event Horizon",
       "FSLID": 1584,
-      "DevName": "GA_Bowguy_ReducedCostCooldownRecoveryBuff"
+      "DevName": "GA_Bowguy_ReducedCostCooldownRecoveryBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": true
     },
     "1585": {
       "Name": null,
       "FSLID": 1585,
-      "DevName": "GA_Bowguy_Passive_ReducedCostCooldownRecoveryBuff_Manager"
+      "DevName": "GA_Bowguy_Passive_ReducedCostCooldownRecoveryBuff_Manager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1586": {
       "Name": "Engulfing Flames",
       "FSLID": 1586,
-      "DevName": "GA_Firemage_CastedSingleHeavyDot"
+      "DevName": "GA_Firemage_CastedSingleHeavyDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1587": {
       "Name": "Searing Blaze",
       "FSLID": 1587,
-      "DevName": "GA_Firemage_CastedSingleDot2"
+      "DevName": "GA_Firemage_CastedSingleDot2",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1588": {
       "Name": null,
@@ -7503,17 +8781,26 @@
     "1589": {
       "Name": "From the Shadows",
       "FSLID": 1589,
-      "DevName": "GA_Mara_Passive_Talent_AoeAttackSpender_CloneAttack"
+      "DevName": "GA_Mara_Passive_Talent_AoeAttackSpender_CloneAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1590": {
       "Name": "Hemotoxin",
       "FSLID": 1590,
-      "DevName": "GA_Mara_Passive_Talent_BleedAttackSpender_ExplosivePoison"
+      "DevName": "GA_Mara_Passive_Talent_BleedAttackSpender_ExplosivePoison",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1591": {
       "Name": "Unscarred Soul",
       "FSLID": 1591,
-      "DevName": "GA_Warmaster_Passive_Talent_MeleeCleaveAbsorbBuff_ReducedDamageReflectDamage"
+      "DevName": "GA_Warmaster_Passive_Talent_MeleeCleaveAbsorbBuff_ReducedDamageReflectDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1592": {
       "Name": "Freezing Aura",
@@ -7588,7 +8875,10 @@
     "1606": {
       "Name": null,
       "FSLID": 1606,
-      "DevName": "GA_Warmaster_Passive_Talent_DefenceBuff_MoveSpeedBuffCooldownReduction"
+      "DevName": "GA_Warmaster_Passive_Talent_DefenceBuff_MoveSpeedBuffCooldownReduction",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1607": {
       "Name": null,
@@ -7618,12 +8908,18 @@
     "1612": {
       "Name": null,
       "FSLID": 1612,
-      "DevName": "GA_Warmaster_Passive_Talent_MoveSpeedBuff_PartyAndIncreasedSpeed"
+      "DevName": "GA_Warmaster_Passive_Talent_MoveSpeedBuff_PartyAndIncreasedSpeed",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1613": {
       "Name": "Razor Shrapnel",
       "FSLID": 1613,
-      "DevName": "GA_Warmaster_Passive_Talent_BouncyProjectile_ChanceAoeDamage"
+      "DevName": "GA_Warmaster_Passive_Talent_BouncyProjectile_ChanceAoeDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1614": {
       "Name": "Retreat",
@@ -7633,12 +8929,18 @@
     "1615": {
       "Name": "Razor Crash",
       "FSLID": 1615,
-      "DevName": "GA_Warmaster_Passive_Talent_BouncyProjectile_FirstHitAoeDamageDebuff"
+      "DevName": "GA_Warmaster_Passive_Talent_BouncyProjectile_FirstHitAoeDamageDebuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1616": {
       "Name": "Vexira's Venom",
       "FSLID": 1616,
-      "DevName": "GA_Mara_Passive_Talent_AoeAttackSpender_DamageToPoisonDot"
+      "DevName": "GA_Mara_Passive_Talent_AoeAttackSpender_DamageToPoisonDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1617": {
       "Name": "Sinnari's Wrath",
@@ -7653,7 +8955,10 @@
     "1619": {
       "Name": null,
       "FSLID": 1619,
-      "DevName": "GA_Firemage_Passive_Talent_CastedSingleHeavyDot_InstantSingleDotReducesCooldown"
+      "DevName": "GA_Firemage_Passive_Talent_CastedSingleHeavyDot_InstantSingleDotReducesCooldown",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1620": {
       "Name": null,
@@ -7673,7 +8978,10 @@
     "1623": {
       "Name": "Pyromania",
       "FSLID": 1623,
-      "DevName": "GA_Firemage_InstantMultiTargetDot"
+      "DevName": "GA_Firemage_InstantMultiTargetDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1624": {
       "Name": null,
@@ -7828,17 +9136,26 @@
     "1654": {
       "Name": "Face Breaker",
       "FSLID": 1654,
-      "DevName": "GA_Ink_Passive_Talent_SecondChanceSingleTargetAttack_CritAoe_Monitor"
+      "DevName": "GA_Ink_Passive_Talent_SecondChanceSingleTargetAttack_CritAoe_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1655": {
       "Name": null,
       "FSLID": 1655,
-      "DevName": "GA_Ink_Passive_Talent_CostReductionBuff_MoveToLocationAoeDamage_ChanceToGrantBuff_Monitor"
+      "DevName": "GA_Ink_Passive_Talent_CostReductionBuff_MoveToLocationAoeDamage_ChanceToGrantBuff_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1656": {
       "Name": null,
       "FSLID": 1656,
-      "DevName": "GA_Mara_Passive_PosionDamage_Monitor"
+      "DevName": "GA_Mara_Passive_PosionDamage_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1657": {
       "Name": "Attack",
@@ -7863,7 +9180,10 @@
     "1661": {
       "Name": null,
       "FSLID": 1661,
-      "DevName": "GA_Ink_Passive_Talent_PassiveFuryGeneration_Applier"
+      "DevName": "GA_Ink_Passive_Talent_PassiveFuryGeneration_Applier",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1662": {
       "Name": null,
@@ -7933,22 +9253,34 @@
     "1675": {
       "Name": null,
       "FSLID": 1675,
-      "DevName": "GA_Rime_Passive_TargetedPeriodicProjectileAoe_Buff"
+      "DevName": "GA_Rime_Passive_TargetedPeriodicProjectileAoe_Buff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1676": {
       "Name": null,
       "FSLID": 1676,
-      "DevName": "GA_Meiko_Passive_Talent_ConsumedBuffsToDefensiveBuff"
+      "DevName": "GA_Meiko_Passive_Talent_ConsumedBuffsToDefensiveBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1677": {
       "Name": null,
       "FSLID": 1677,
-      "DevName": "GA_Meiko_Talent_Passive_InstantSelfDefensive_DamageReductionLessHeal_AoeDamage"
+      "DevName": "GA_Meiko_Talent_Passive_InstantSelfDefensive_DamageReductionLessHeal_AoeDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1678": {
       "Name": null,
       "FSLID": 1678,
-      "DevName": "GA_Vigor_Talent_Passive_InstantAoeHealToHot_Monitor"
+      "DevName": "GA_Vigor_Talent_Passive_InstantAoeHealToHot_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1679": {
       "Name": "Mount Magestalker",
@@ -8228,7 +9560,10 @@
     "1734": {
       "Name": null,
       "FSLID": 1734,
-      "DevName": "GA_Meiko_Talent_Passive_DurationalAoeDamageBuff_FinisherIncreasedDodgeChance_Manager"
+      "DevName": "GA_Meiko_Talent_Passive_DurationalAoeDamageBuff_FinisherIncreasedDodgeChance_Manager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1735": {
       "Name": null,
@@ -8383,7 +9718,10 @@
     "1765": {
       "Name": null,
       "FSLID": 1765,
-      "DevName": "GA_Meiko_Passive_Talent_SpiritProc_DamageSoakBuff_Manager"
+      "DevName": "GA_Meiko_Passive_Talent_SpiritProc_DamageSoakBuff_Manager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1766": {
       "Name": "No Quarters!",
@@ -8393,17 +9731,26 @@
     "1767": {
       "Name": null,
       "FSLID": 1767,
-      "DevName": "GA_Meiko_Passive_Talent_SelfHealToStoneHealth"
+      "DevName": "GA_Meiko_Passive_Talent_SelfHealToStoneHealth",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1768": {
       "Name": null,
       "FSLID": 1768,
-      "DevName": "GA_Meiko_Passive_LifeSteal_Manager"
+      "DevName": "GA_Meiko_Passive_LifeSteal_Manager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1769": {
       "Name": null,
       "FSLID": 1769,
-      "DevName": "GA_Meiko_Passive_Talent_DamageSoakBuff_FinisherToReducedCooldown"
+      "DevName": "GA_Meiko_Passive_Talent_DamageSoakBuff_FinisherToReducedCooldown",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1770": {
       "Name": null,
@@ -8418,12 +9765,18 @@
     "1772": {
       "Name": null,
       "FSLID": 1772,
-      "DevName": "GA_Mara_Passive_Talent_ResetCooldownRefillResouces_ComboPointToCooldownReduction"
+      "DevName": "GA_Mara_Passive_Talent_ResetCooldownRefillResouces_ComboPointToCooldownReduction",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1773": {
       "Name": null,
       "FSLID": 1773,
-      "DevName": "GA_Bowguy_Passive_Talent_TargetedAoeDamage_IncreasedDurationAndExtension"
+      "DevName": "GA_Bowguy_Passive_Talent_TargetedAoeDamage_IncreasedDurationAndExtension",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1774": {
       "Name": "Mount Cheesers",
@@ -8473,17 +9826,26 @@
     "1783": {
       "Name": null,
       "FSLID": 1783,
-      "DevName": "GA_Mosse_Passive_Talent_PlacedAoeBuff_SpawnHealingAoeTotem"
+      "DevName": "GA_Mosse_Passive_Talent_PlacedAoeBuff_SpawnHealingAoeTotem",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1784": {
       "Name": null,
       "FSLID": 1784,
-      "DevName": "GA_Mosse_HealingAoeTotem_Triggered"
+      "DevName": "GA_Mosse_HealingAoeTotem_Triggered",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1785": {
       "Name": null,
       "FSLID": 1785,
-      "DevName": "GA_Mara_Passive_Talent_ComboPointsRefundEnergy"
+      "DevName": "GA_Mara_Passive_Talent_ComboPointsRefundEnergy",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1786": {
       "Name": "High Tide",
@@ -8543,7 +9905,10 @@
     "1797": {
       "Name": null,
       "FSLID": 1797,
-      "DevName": "GA_Ink_Passive_Talent_ChargedBuff_LifeStealAndStatBoost_HealManager"
+      "DevName": "GA_Ink_Passive_Talent_ChargedBuff_LifeStealAndStatBoost_HealManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1798": {
       "Name": null,
@@ -8628,7 +9993,10 @@
     "1814": {
       "Name": "Intercession",
       "FSLID": 1814,
-      "DevName": "GA_Lisa_TargetedAoeSilence"
+      "DevName": "GA_Lisa_TargetedAoeSilence",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1815": {
       "Name": "Engage",
@@ -8758,267 +10126,426 @@
     "1840": {
       "Name": null,
       "FSLID": 1840,
-      "DevName": "GA_Sune_TargetedLeapAoe_Targeting"
+      "DevName": "GA_Sune_TargetedLeapAoe_Targeting",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1841": {
       "Name": "Sky Crash",
       "FSLID": 1841,
-      "DevName": "GA_Sune_TargetedLeapAoe"
+      "DevName": "GA_Sune_TargetedLeapAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1843": {
       "Name": "Taunt",
       "FSLID": 1843,
-      "DevName": "GA_Sune_SingleTargetTaunt"
+      "DevName": "GA_Sune_SingleTargetTaunt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1844": {
       "Name": "Interrupt",
       "FSLID": 1844,
-      "DevName": "GA_Sune_SingleTargetInterrupt"
+      "DevName": "GA_Sune_SingleTargetInterrupt",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1845": {
       "Name": "Sun Strike",
       "FSLID": 1845,
-      "DevName": "GA_Sune_SingleTargetFillerMelee"
+      "DevName": "GA_Sune_SingleTargetFillerMelee",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1847": {
       "Name": null,
       "FSLID": 1847,
-      "DevName": "GA_Sune_Passive_SingleTargetDamageTransfer_Monitor"
+      "DevName": "GA_Sune_Passive_SingleTargetDamageTransfer_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1848": {
       "Name": "Solar Shield",
       "FSLID": 1848,
-      "DevName": "GA_Sune_SingleTargetAbsorb"
+      "DevName": "GA_Sune_SingleTargetAbsorb",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1849": {
       "Name": null,
       "FSLID": 1849,
-      "DevName": "GA_Sune_Passive_SpiritProcHandler"
+      "DevName": "GA_Sune_Passive_SpiritProcHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1850": {
       "Name": null,
       "FSLID": 1850,
-      "DevName": "GA_Sune_Passive_Mechanics"
+      "DevName": "GA_Sune_Passive_Mechanics",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1851": {
       "Name": null,
       "FSLID": 1851,
-      "DevName": "GA_Sune_SelfImmunityAndAoeHeal_PeriodicHeal"
+      "DevName": "GA_Sune_SelfImmunityAndAoeHeal_PeriodicHeal",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1852": {
       "Name": null,
       "FSLID": 1852,
-      "DevName": "GA_Sune_SelfImmunityAndAoeHeal_OnEndDamage"
+      "DevName": "GA_Sune_SelfImmunityAndAoeHeal_OnEndDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1853": {
       "Name": "Decree of the Sun",
       "FSLID": 1853,
-      "DevName": "GA_Sune_SelfImmunityAndAoeHeal"
+      "DevName": "GA_Sune_SelfImmunityAndAoeHeal",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1854": {
       "Name": "Attack",
       "FSLID": 1854,
-      "DevName": "GA_Sune_MeleeAutoAttack"
+      "DevName": "GA_Sune_MeleeAutoAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1855": {
       "Name": "Brilliant Flash",
       "FSLID": 1855,
-      "DevName": "GA_Sune_InstantSingleTargetHealOrDamage"
+      "DevName": "GA_Sune_InstantSingleTargetHealOrDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1856": {
       "Name": null,
       "FSLID": 1856,
-      "DevName": "GA_Sune_InstantConeStunAndPull_ChargeUpTargeting"
+      "DevName": "GA_Sune_InstantConeStunAndPull_ChargeUpTargeting",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1857": {
       "Name": "Ruptured Dawn",
       "FSLID": 1857,
-      "DevName": "GA_Sune_InstantConeStunAndPull"
+      "DevName": "GA_Sune_InstantConeStunAndPull",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1858": {
       "Name": "Blinding Slash",
       "FSLID": 1858,
-      "DevName": "GA_Sune_InstantCleaveMelee"
+      "DevName": "GA_Sune_InstantCleaveMelee",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1859": {
       "Name": "Shining Halo",
       "FSLID": 1859,
-      "DevName": "GA_Sune_DroppedPulseAoe"
+      "DevName": "GA_Sune_DroppedPulseAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1860": {
       "Name": "Brilliant Flare",
       "FSLID": 1860,
-      "DevName": "GA_Sune_CastedSingleTargetHeal"
+      "DevName": "GA_Sune_CastedSingleTargetHeal",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1861": {
       "Name": "Omega Reprieval",
       "FSLID": 1861,
-      "DevName": "GA_Sune_BuffedTargetedCastedHealOrDamage"
+      "DevName": "GA_Sune_BuffedTargetedCastedHealOrDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1862": {
       "Name": "Solar Blades",
       "FSLID": 1862,
-      "DevName": "GA_Sune_AtTargetInstantAoe"
+      "DevName": "GA_Sune_AtTargetInstantAoe",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1863": {
       "Name": "Omnistrike",
       "FSLID": 1863,
-      "DevName": "GA_Sune_AoeMelee"
+      "DevName": "GA_Sune_AoeMelee",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1864": {
       "Name": "Time Skip",
       "FSLID": 1864,
-      "DevName": "GA_Lisa_TeleportForward"
+      "DevName": "GA_Lisa_TeleportForward",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1865": {
       "Name": null,
       "FSLID": 1865,
-      "DevName": "GA_Lisa_TargetedAoeSilence_TargetAbility"
+      "DevName": "GA_Lisa_TargetedAoeSilence_TargetAbility",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1866": {
       "Name": null,
       "FSLID": 1866,
-      "DevName": "GA_Lisa_Passive_Talent_TeleportForward_DamageReduction"
+      "DevName": "GA_Lisa_Passive_Talent_TeleportForward_DamageReduction",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1867": {
       "Name": null,
       "FSLID": 1867,
-      "DevName": "GA_Lisa_Passive_Talent_StaggerOverhealToStackingHeal"
+      "DevName": "GA_Lisa_Passive_Talent_StaggerOverhealToStackingHeal",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1868": {
       "Name": null,
       "FSLID": 1868,
-      "DevName": "GA_Lisa_Passive_Talent_StaggerOverhealHot"
+      "DevName": "GA_Lisa_Passive_Talent_StaggerOverhealHot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1869": {
       "Name": null,
       "FSLID": 1869,
-      "DevName": "GA_Lisa_Passive_Talent_SpendersToManaRegen"
+      "DevName": "GA_Lisa_Passive_Talent_SpendersToManaRegen",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1870": {
       "Name": null,
       "FSLID": 1870,
-      "DevName": "GA_Lisa_Passive_Talent_SingleTargetDotSpender_CastedHealFromPreviousDamageProc"
+      "DevName": "GA_Lisa_Passive_Talent_SingleTargetDotSpender_CastedHealFromPreviousDamageProc",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1871": {
       "Name": null,
       "FSLID": 1871,
-      "DevName": "GA_Lisa_Talent_Passive_ResourceToFreeSpender"
+      "DevName": "GA_Lisa_Talent_Passive_ResourceToFreeSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1872": {
       "Name": null,
       "FSLID": 1872,
-      "DevName": "GA_Lisa_Passive_Talent_ResourceThresholdBuffs"
+      "DevName": "GA_Lisa_Passive_Talent_ResourceThresholdBuffs",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1873": {
       "Name": null,
       "FSLID": 1873,
-      "DevName": "GA_Lisa_Passive_Talent_ResourceSelfBuff_BuffAoe"
+      "DevName": "GA_Lisa_Passive_Talent_ResourceSelfBuff_BuffAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1874": {
       "Name": null,
       "FSLID": 1874,
-      "DevName": "GA_Lisa_Passive_Talent_ChanneledHealOrDamageProjectilesSpender_OverhealAbsorb"
+      "DevName": "GA_Lisa_Passive_Talent_ChanneledHealOrDamageProjectilesSpender_OverhealAbsorb",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1875": {
       "Name": null,
       "FSLID": 1875,
-      "DevName": "GA_Lisa_Passive_Talent_CastedProjectileDamageIncreaseDebuff_SpendersBuff"
+      "DevName": "GA_Lisa_Passive_Talent_CastedProjectileDamageIncreaseDebuff_SpendersBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1876": {
       "Name": "Entropy's Claim",
       "FSLID": 1876,
-      "DevName": "GA_Lisa_SingleTargetDot"
+      "DevName": "GA_Lisa_SingleTargetDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1878": {
       "Name": null,
       "FSLID": 1878,
-      "DevName": "GA_Lisa_Passive_SingleTargetDamageImmunityBuff_VfxManager"
+      "DevName": "GA_Lisa_Passive_SingleTargetDamageImmunityBuff_VfxManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1879": {
       "Name": "Revert Magic",
       "FSLID": 1879,
-      "DevName": "GA_Lisa_SingleAllyDispel"
+      "DevName": "GA_Lisa_SingleAllyDispel",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1880": {
       "Name": null,
       "FSLID": 1880,
-      "DevName": "GA_Lisa_ResourceSelfBuff"
+      "DevName": "GA_Lisa_ResourceSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1881": {
       "Name": "Epoch Break",
       "FSLID": 1881,
-      "DevName": "GA_Lisa_PauseResourcesAndPartyHealth"
+      "DevName": "GA_Lisa_PauseResourcesAndPartyHealth",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1882": {
       "Name": null,
       "FSLID": 1882,
-      "DevName": "GA_Lisa_Passive_PauseResourcesAndPartyHealth_HealingManager"
+      "DevName": "GA_Lisa_Passive_PauseResourcesAndPartyHealth_HealingManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1883": {
       "Name": null,
       "FSLID": 1883,
-      "DevName": "GA_Lisa_Passive_SpiritProcHandler"
+      "DevName": "GA_Lisa_Passive_SpiritProcHandler",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1884": {
       "Name": null,
       "FSLID": 1884,
-      "DevName": "GA_Lisa_Passive_ResourceManager"
+      "DevName": "GA_Lisa_Passive_ResourceManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1885": {
       "Name": null,
       "FSLID": 1885,
-      "DevName": "GA_Lisa_Passive_OutgoingDamageToHealManager"
+      "DevName": "GA_Lisa_Passive_OutgoingDamageToHealManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1886": {
       "Name": null,
       "FSLID": 1886,
-      "DevName": "GA_Lisa_Passive_IncomingDamageMonitor"
+      "DevName": "GA_Lisa_Passive_IncomingDamageMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1887": {
       "Name": "Echoes of Ruin",
       "FSLID": 1887,
-      "DevName": "GA_Lisa_InstantSingleTargetDamageAndDot"
+      "DevName": "GA_Lisa_InstantSingleTargetDamageAndDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1888": {
       "Name": null,
       "FSLID": 1888,
-      "DevName": "GA_Lisa_ChanneledHealOrDamageProjectilesSpender"
+      "DevName": "GA_Lisa_ChanneledHealOrDamageProjectilesSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1889": {
       "Name": "Time Shard",
       "FSLID": 1889,
-      "DevName": "GA_Lisa_CastedSingleTargetProjectile"
+      "DevName": "GA_Lisa_CastedSingleTargetProjectile",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1890": {
       "Name": "Unfolding Doom",
       "FSLID": 1890,
-      "DevName": "GA_Lisa_CastedProjectileDamageIncreaseDebuff"
+      "DevName": "GA_Lisa_CastedProjectileDamageIncreaseDebuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1891": {
       "Name": null,
       "FSLID": 1891,
-      "DevName": "GA_Lisa_CastedHealFromPreviousDamage"
+      "DevName": "GA_Lisa_CastedHealFromPreviousDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1892": {
       "Name": null,
       "FSLID": 1892,
-      "DevName": "GA_Lisa_Passive_CastedDurationalAoeDebuff_DamageDealer"
+      "DevName": "GA_Lisa_Passive_CastedDurationalAoeDebuff_DamageDealer",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1893": {
       "Name": null,
       "FSLID": 1893,
-      "DevName": "GA_Lisa_CastedDurationalAoeDebuff"
+      "DevName": "GA_Lisa_CastedDurationalAoeDebuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1894": {
       "Name": null,
       "FSLID": 1894,
-      "DevName": "GA_Lisa_CastedAoeHotFromPreviousDamageSpender"
+      "DevName": "GA_Lisa_CastedAoeHotFromPreviousDamageSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1895": {
       "Name": null,
       "FSLID": 1895,
-      "DevName": "GA_Lisa_AoeAbsorbSpender"
+      "DevName": "GA_Lisa_AoeAbsorbSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1896": {
       "Name": null,
@@ -9068,127 +10595,202 @@
     "1905": {
       "Name": null,
       "FSLID": 1905,
-      "DevName": "GA_Vigor_Passive_Talent_AbsorbRefill_Monitor"
+      "DevName": "GA_Vigor_Passive_Talent_AbsorbRefill_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1906": {
       "Name": null,
       "FSLID": 1906,
-      "DevName": "GA_Vigor_Passive_AbsorbMonitor"
+      "DevName": "GA_Vigor_Passive_AbsorbMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1907": {
       "Name": null,
       "FSLID": 1907,
-      "DevName": "GA_Sune_Passive_Talent_SingleTargetFillerMelee_AoeProcBuff_Monitor"
+      "DevName": "GA_Sune_Passive_Talent_SingleTargetFillerMelee_AoeProcBuff_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1908": {
       "Name": null,
       "FSLID": 1908,
-      "DevName": "GA_Sune_Passive_Talent_SingleTargetAbsorb_ParryBoost_Monitor"
+      "DevName": "GA_Sune_Passive_Talent_SingleTargetAbsorb_ParryBoost_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1909": {
       "Name": null,
       "FSLID": 1909,
-      "DevName": "GA_Sune_Passive_Talent_ParryCounterAttack_Monitor"
+      "DevName": "GA_Sune_Passive_Talent_ParryCounterAttack_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1910": {
       "Name": null,
       "FSLID": 1910,
-      "DevName": "GA_Sune_Talent_LowHealthDamageReduction_HealthMonitor"
+      "DevName": "GA_Sune_Talent_LowHealthDamageReduction_HealthMonitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1911": {
       "Name": null,
       "FSLID": 1911,
-      "DevName": "GA_Sune_Passive_Talent_DroppedPulseAoe_StackingBoostBuff_Monitor"
+      "DevName": "GA_Sune_Passive_Talent_DroppedPulseAoe_StackingBoostBuff_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1912": {
       "Name": null,
       "FSLID": 1912,
-      "DevName": "GA_Sune_Passive_Talent_DeathPrevention_SideEffects"
+      "DevName": "GA_Sune_Passive_Talent_DeathPrevention_SideEffects",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1913": {
       "Name": null,
       "FSLID": 1913,
-      "DevName": "GA_Sune_Passive_Talent_AoeMelee_CooldownProc_Monitor"
+      "DevName": "GA_Sune_Passive_Talent_AoeMelee_CooldownProc_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1914": {
       "Name": null,
       "FSLID": 1914,
-      "DevName": "GA_Sune_Passive_InstantConeStunAndPull_Puller"
+      "DevName": "GA_Sune_Passive_InstantConeStunAndPull_Puller",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1915": {
       "Name": null,
       "FSLID": 1915,
-      "DevName": "GA_Sune_Passive_DamageTransferAura_Manager"
+      "DevName": "GA_Sune_Passive_DamageTransferAura_Manager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1916": {
       "Name": null,
       "FSLID": 1916,
-      "DevName": "GA_Sune_Passive_DamageTransferAura_AllyBuffManager"
+      "DevName": "GA_Sune_Passive_DamageTransferAura_AllyBuffManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1917": {
       "Name": "Aura of Solace",
       "FSLID": 1917,
-      "DevName": "GA_Sune_DamageTransferAura"
+      "DevName": "GA_Sune_DamageTransferAura",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1918": {
       "Name": null,
       "FSLID": 1918,
-      "DevName": "GA_Lisa_Passive_Talent_ChanneledHealOrDamageProjectilesSpender_ResourceToEmpower"
+      "DevName": "GA_Lisa_Passive_Talent_ChanneledHealOrDamageProjectilesSpender_ResourceToEmpower",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1919": {
       "Name": null,
       "FSLID": 1919,
-      "DevName": "GA_Lisa_Passive_Talent_CastedSingleTargetProjectile_CastedHealFromPreviousDamageProc"
+      "DevName": "GA_Lisa_Passive_Talent_CastedSingleTargetProjectile_CastedHealFromPreviousDamageProc",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1920": {
       "Name": null,
       "FSLID": 1920,
-      "DevName": "GA_Lisa_Passive_Talent_CastedProjectileDamageIncreaseDebuff_DamageToAoeDamage"
+      "DevName": "GA_Lisa_Passive_Talent_CastedProjectileDamageIncreaseDebuff_DamageToAoeDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1921": {
       "Name": null,
       "FSLID": 1921,
-      "DevName": "GA_Lisa_Passive_Talent_CastedProjectileDamageIncreaseDebuff_DamageAbilityBuff"
+      "DevName": "GA_Lisa_Passive_Talent_CastedProjectileDamageIncreaseDebuff_DamageAbilityBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1922": {
       "Name": null,
       "FSLID": 1922,
-      "DevName": "GA_Lisa_Stagger_IconManager"
+      "DevName": "GA_Lisa_Stagger_IconManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1923": {
       "Name": null,
       "FSLID": 1923,
-      "DevName": "GA_Lisa_SingleTargetAbsorb"
+      "DevName": "GA_Lisa_SingleTargetAbsorb",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1924": {
       "Name": null,
       "FSLID": 1924,
-      "DevName": "GA_Lisa_Passive_PauseResourcesAndPartyHealth_DamageManager"
+      "DevName": "GA_Lisa_Passive_PauseResourcesAndPartyHealth_DamageManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1925": {
       "Name": null,
       "FSLID": 1925,
-      "DevName": "GA_Lisa_HotFromPreviousDamageSpender"
+      "DevName": "GA_Lisa_HotFromPreviousDamageSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1926": {
       "Name": "Temporal Barrage",
       "FSLID": 1926,
-      "DevName": "GA_Lisa_ChanneledHealOrDamageProjectiles"
+      "DevName": "GA_Lisa_ChanneledHealOrDamageProjectiles",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1927": {
       "Name": "Flash Revision",
       "FSLID": 1927,
-      "DevName": "GA_Lisa_CastedHeal"
+      "DevName": "GA_Lisa_CastedHeal",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1928": {
       "Name": null,
       "FSLID": 1928,
-      "DevName": "GA_Lisa_AoeHealFromPrevDamageSPender"
+      "DevName": "GA_Lisa_AoeHealFromPrevDamageSPender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1929": {
       "Name": "Heavy Strike",
       "FSLID": 1929,
-      "DevName": "GA_Ink_AutoAttackBuff_InstantAttack"
+      "DevName": "GA_Ink_AutoAttackBuff_InstantAttack",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1930": {
       "Name": null,
@@ -9238,12 +10840,18 @@
     "1939": {
       "Name": null,
       "FSLID": 1939,
-      "DevName": "GA_Sune_Talent_SingleTargetAbsorb_AoeDamageOnCommit_Monitor"
+      "DevName": "GA_Sune_Talent_SingleTargetAbsorb_AoeDamageOnCommit_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1940": {
       "Name": null,
       "FSLID": 1940,
-      "DevName": "GA_Sune_Passive_Talent_ResourceConsumed_StackingBuffToProc"
+      "DevName": "GA_Sune_Passive_Talent_ResourceConsumed_StackingBuffToProc",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1941": {
       "Name": null,
@@ -9318,107 +10926,170 @@
     "1955": {
       "Name": null,
       "FSLID": 1955,
-      "DevName": "GA_Sune_Passive_Talent_DroppedPulseAoe_ActiveDurationExtension_Monitor"
+      "DevName": "GA_Sune_Passive_Talent_DroppedPulseAoe_ActiveDurationExtension_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1956": {
       "Name": null,
       "FSLID": 1956,
-      "DevName": "GA_Mosse_Passive_PartyStaminaBuff"
+      "DevName": "GA_Mosse_Passive_PartyStaminaBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1957": {
       "Name": null,
       "FSLID": 1957,
-      "DevName": "GA_Lisa_Passive_Talent_SingleTargetDot_DotAoe"
+      "DevName": "GA_Lisa_Passive_Talent_SingleTargetDot_DotAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1958": {
       "Name": null,
       "FSLID": 1958,
-      "DevName": "GA_Lisa_Passive_Talent_InstantToDamageSpender_DamageToDot"
+      "DevName": "GA_Lisa_Passive_Talent_InstantToDamageSpender_DamageToDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1959": {
       "Name": null,
       "FSLID": 1959,
-      "DevName": "GA_Lisa_Passive_Talent_InstantDamageSpender_Absorb"
+      "DevName": "GA_Lisa_Passive_Talent_InstantDamageSpender_Absorb",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1960": {
       "Name": null,
       "FSLID": 1960,
-      "DevName": "GA_Lisa_Passive_Talent_IncreasedHealingToSelf"
+      "DevName": "GA_Lisa_Passive_Talent_IncreasedHealingToSelf",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1961": {
       "Name": null,
       "FSLID": 1961,
-      "DevName": "GA_Lisa_Passive_Talent_CastedSingleTargetDamage_CooldownReduction"
+      "DevName": "GA_Lisa_Passive_Talent_CastedSingleTargetDamage_CooldownReduction",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1962": {
       "Name": null,
       "FSLID": 1962,
-      "DevName": "GA_Lisa_StaggerRemoveToAbsorb"
+      "DevName": "GA_Lisa_StaggerRemoveToAbsorb",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1963": {
       "Name": null,
       "FSLID": 1963,
-      "DevName": "GA_Lisa_Passive_PartyStagger_Manager"
+      "DevName": "GA_Lisa_Passive_PartyStagger_Manager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1964": {
       "Name": "Amend Fate",
       "FSLID": 1964,
-      "DevName": "GA_Lisa_SingleTargetStaggerRemovalSpender"
+      "DevName": "GA_Lisa_SingleTargetStaggerRemovalSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1965": {
       "Name": null,
       "FSLID": 1965,
-      "DevName": "GA_Lisa_SelfBuffSpender"
+      "DevName": "GA_Lisa_SelfBuffSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1966": {
       "Name": null,
       "FSLID": 1966,
-      "DevName": "GA_Lisa_Passive_SelfBuffSpender_ResourceManager"
+      "DevName": "GA_Lisa_Passive_SelfBuffSpender_ResourceManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1967": {
       "Name": null,
       "FSLID": 1967,
-      "DevName": "GA_Lisa_Passive_PauseResourcesAndPartyHealth_HealthBuff_GCManager"
+      "DevName": "GA_Lisa_Passive_PauseResourcesAndPartyHealth_HealthBuff_GCManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1968": {
       "Name": null,
       "FSLID": 1968,
-      "DevName": "GA_Lisa_Passive_InstantSelfBuff_CooldownApplier"
+      "DevName": "GA_Lisa_Passive_InstantSelfBuff_CooldownApplier",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1969": {
       "Name": "Fleeting Hour",
       "FSLID": 1969,
-      "DevName": "GA_Lisa_InstantSelfBuff"
+      "DevName": "GA_Lisa_InstantSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1970": {
       "Name": "Oblivion",
       "FSLID": 1970,
-      "DevName": "GA_Lisa_InstantDamageSpender"
+      "DevName": "GA_Lisa_InstantDamageSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1971": {
       "Name": null,
       "FSLID": 1971,
-      "DevName": "GA_Lisa_Passive_CastedProjectileDamageIncreaseDebuff_DamageToAoeDamage"
+      "DevName": "GA_Lisa_Passive_CastedProjectileDamageIncreaseDebuff_DamageToAoeDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1972": {
       "Name": null,
       "FSLID": 1972,
-      "DevName": "GA_Lisa_Passive_CastedHeal_HealToStagger"
+      "DevName": "GA_Lisa_Passive_CastedHeal_HealToStagger",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1973": {
       "Name": "Restore Continuity",
       "FSLID": 1973,
-      "DevName": "GA_Lisa_AoeStaggerRemovalSpender"
+      "DevName": "GA_Lisa_AoeStaggerRemovalSpender",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1974": {
       "Name": null,
       "FSLID": 1974,
-      "DevName": "GA_Lisa_AoeHeal"
+      "DevName": "GA_Lisa_AoeHeal",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1975": {
       "Name": null,
       "FSLID": 1975,
-      "DevName": "GA_Firemage_Passive_Talent_CastedSingleHeavyDot_CastedDotBoostProjectileReducesCooldown"
+      "DevName": "GA_Firemage_Passive_Talent_CastedSingleHeavyDot_CastedDotBoostProjectileReducesCooldown",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "1976": {
       "Name": null,
@@ -9633,37 +11304,58 @@
     "2018": {
       "Name": null,
       "FSLID": 2018,
-      "DevName": "GA_Lisa_Passive_Talent_InstantDamageSpender_SelfBuff"
+      "DevName": "GA_Lisa_Passive_Talent_InstantDamageSpender_SelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2019": {
       "Name": null,
       "FSLID": 2019,
-      "DevName": "GA_Lisa_Passive_Talent_CastedProjectileDamageIncreaseDebuff_InstigatorBuff"
+      "DevName": "GA_Lisa_Passive_Talent_CastedProjectileDamageIncreaseDebuff_InstigatorBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2020": {
       "Name": null,
       "FSLID": 2020,
-      "DevName": "GA_Lisa_Passive_Talent_CastedProjectileDamageIncreaseDebuff_AbilityDamageIncrease"
+      "DevName": "GA_Lisa_Passive_Talent_CastedProjectileDamageIncreaseDebuff_AbilityDamageIncrease",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2021": {
       "Name": null,
       "FSLID": 2021,
-      "DevName": "GA_Meiko_Passive_SpiritProc_DamageSoakBuff_Manager"
+      "DevName": "GA_Meiko_Passive_SpiritProc_DamageSoakBuff_Manager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2022": {
       "Name": null,
       "FSLID": 2022,
-      "DevName": "GA_Lisa_Passive_Talent_SpendersToManaRegen_Regen"
+      "DevName": "GA_Lisa_Passive_Talent_SpendersToManaRegen_Regen",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2023": {
       "Name": "Glacial Assault",
       "FSLID": 2023,
-      "DevName": "GA_Rime_Talent_Passive_CastedProjectileDamageOrbSpender_DamageToAoe_Monitor"
+      "DevName": "GA_Rime_Talent_Passive_CastedProjectileDamageOrbSpender_DamageToAoe_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2024": {
       "Name": null,
       "FSLID": 2024,
-      "DevName": "GA_Rime_Passive_Talent_AutoDamageProjectile_TriggerCastedDebuffAoeDamage_Monitor"
+      "DevName": "GA_Rime_Passive_Talent_AutoDamageProjectile_TriggerCastedDebuffAoeDamage_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2025": {
       "Name": null,
@@ -9818,62 +11510,98 @@
     "2055": {
       "Name": null,
       "FSLID": 2055,
-      "DevName": "GA_Sune_Talent_Passive_SingleTargetAbsorb_ReducedMagicDamageTaken_Monitor"
+      "DevName": "GA_Sune_Talent_Passive_SingleTargetAbsorb_ReducedMagicDamageTaken_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2056": {
       "Name": null,
       "FSLID": 2056,
-      "DevName": "GA_Mosse_Talent_Passive_TurrentChannelHeal_ReducedSpeedAoeDebuff_Monitor"
+      "DevName": "GA_Mosse_Talent_Passive_TurrentChannelHeal_ReducedSpeedAoeDebuff_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2057": {
       "Name": null,
       "FSLID": 2057,
-      "DevName": "GA_Mosse_Talent_Passive_ManaCostReduceBuffOnOtherAbilityCommit_Monitor"
+      "DevName": "GA_Mosse_Talent_Passive_ManaCostReduceBuffOnOtherAbilityCommit_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2058": {
       "Name": null,
       "FSLID": 2058,
-      "DevName": "GA_Mosse_Talent_passive_SingleTargetDamageReduction_Monitor"
+      "DevName": "GA_Mosse_Talent_passive_SingleTargetDamageReduction_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2059": {
       "Name": null,
       "FSLID": 2059,
-      "DevName": "GA_Mosse_Talent_Passive_ButterflyHealLowHealth_Buff_Monitor"
+      "DevName": "GA_Mosse_Talent_Passive_ButterflyHealLowHealth_Buff_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2060": {
       "Name": "Edge of Ruin",
       "FSLID": 2060,
-      "DevName": "GA_Lisa_Talent_Passive_InstantSelfBuff_DetonateAllActiveDots_Monitor"
+      "DevName": "GA_Lisa_Talent_Passive_InstantSelfBuff_DetonateAllActiveDots_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2061": {
       "Name": "Sledgehammer",
       "FSLID": 2061,
-      "DevName": "GA_Ink_Talent_Passive_HeavySingleTargetAttack_AoE_Monitor"
+      "DevName": "GA_Ink_Talent_Passive_HeavySingleTargetAttack_AoE_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2062": {
       "Name": null,
       "FSLID": 2062,
-      "DevName": "GA_Ink_Talent_Passive_AutoAttackBuff_StackingBuffConsumedBySpender_Monitor"
+      "DevName": "GA_Ink_Talent_Passive_AutoAttackBuff_StackingBuffConsumedBySpender_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2063": {
       "Name": null,
       "FSLID": 2063,
-      "DevName": "GA_Ink_Talent_Passive_AutoAttackBuff_AlwaysHitWindowBuff_Monitor"
+      "DevName": "GA_Ink_Talent_Passive_AutoAttackBuff_AlwaysHitWindowBuff_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2064": {
       "Name": "Apocalypse: Explosivo",
       "FSLID": 2064,
-      "DevName": "GA_Firemage_Talent_Passive_CastedPlacedAoe_DamageBasedDot_Monitor"
+      "DevName": "GA_Firemage_Talent_Passive_CastedPlacedAoe_DamageBasedDot_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2065": {
       "Name": null,
       "FSLID": 2065,
-      "DevName": "GA_Bowguy_Passive_Talent_InstantMarkTarget_CooldownReducedOnHeavyProjectileCast"
+      "DevName": "GA_Bowguy_Passive_Talent_InstantMarkTarget_CooldownReducedOnHeavyProjectileCast",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2066": {
       "Name": null,
       "FSLID": 2066,
-      "DevName": "GA_Bowguy_Talent_CastedProjectileHeavyDamage_InstantNoCooldownProc_Monitor"
+      "DevName": "GA_Bowguy_Talent_CastedProjectileHeavyDamage_InstantNoCooldownProc_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2067": {
       "Name": null,
@@ -10603,47 +12331,74 @@
     "2213": {
       "Name": null,
       "FSLID": 2213,
-      "DevName": "GA_Warmaster_Passive_Talent_MeleeCleave_MeleeAoeSlow_IncreasedDamageStun"
+      "DevName": "GA_Warmaster_Passive_Talent_MeleeCleave_MeleeAoeSlow_IncreasedDamageStun",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2214": {
       "Name": null,
       "FSLID": 2214,
-      "DevName": "GA_Warmaster_Passive_Talent_LowHealthBuff"
+      "DevName": "GA_Warmaster_Passive_Talent_LowHealthBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2215": {
       "Name": null,
       "FSLID": 2215,
-      "DevName": "GA_Warmaster_Passive_Talent_LightMelee_BlockToIncreasedPower"
+      "DevName": "GA_Warmaster_Passive_Talent_LightMelee_BlockToIncreasedPower",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2216": {
       "Name": null,
       "FSLID": 2216,
-      "DevName": "GA_Warmaster_Passive_Talent_IncreasedArmorFromAbilities"
+      "DevName": "GA_Warmaster_Passive_Talent_IncreasedArmorFromAbilities",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2217": {
       "Name": null,
       "FSLID": 2217,
-      "DevName": "GA_Warmaster_Passive_Talent_AoeIncite_ReducedCooldownPerBlock"
+      "DevName": "GA_Warmaster_Passive_Talent_AoeIncite_ReducedCooldownPerBlock",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2218": {
       "Name": null,
       "FSLID": 2218,
-      "DevName": "GA_Vigor_Passive_Talent_SkillshotAoeProjectile_ResourceToFreeCast"
+      "DevName": "GA_Vigor_Passive_Talent_SkillshotAoeProjectile_ResourceToFreeCast",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2219": {
       "Name": null,
       "FSLID": 2219,
-      "DevName": "GA_Vigor_Passive_Talent_InstantFrontalConeDamageHeal_InstantAoeHeal_FreePowerProc"
+      "DevName": "GA_Vigor_Passive_Talent_InstantFrontalConeDamageHeal_InstantAoeHeal_FreePowerProc",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2220": {
       "Name": null,
       "FSLID": 2220,
-      "DevName": "GA_Vigor_Passive_AbilityRank_SingleTargetChargedHot_Echo_IncreasedHealing"
+      "DevName": "GA_Vigor_Passive_AbilityRank_SingleTargetChargedHot_Echo_IncreasedHealing",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2221": {
       "Name": null,
       "FSLID": 2221,
-      "DevName": "GA_Vigor_Passive_AbilityRank_SingleTargetAbsorb_IncreasedAbsorb"
+      "DevName": "GA_Vigor_Passive_AbilityRank_SingleTargetAbsorb_IncreasedAbsorb",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2222": {
       "Name": null,
@@ -10653,122 +12408,194 @@
     "2223": {
       "Name": "Talon Strike",
       "FSLID": 2223,
-      "DevName": "GA_Rime_Talent_SpendersSwap_SingleTarget"
+      "DevName": "GA_Rime_Talent_SpendersSwap_SingleTarget",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2224": {
       "Name": "Rising Talons",
       "FSLID": 2224,
-      "DevName": "GA_Rime_Talent_SpendersSwap_MultiTargets"
+      "DevName": "GA_Rime_Talent_SpendersSwap_MultiTargets",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2225": {
       "Name": null,
       "FSLID": 2225,
-      "DevName": "GA_Rime_Passive_Talent_SpendersSwap_SwapSpenderAbilities"
+      "DevName": "GA_Rime_Passive_Talent_SpendersSwap_SwapSpenderAbilities",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2226": {
       "Name": null,
       "FSLID": 2226,
-      "DevName": "GA_Rime_Passive_Talent_DamageAsAoeHealingBuff_GuaranteedSpiritProcBuff"
+      "DevName": "GA_Rime_Passive_Talent_DamageAsAoeHealingBuff_GuaranteedSpiritProcBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2227": {
       "Name": null,
       "FSLID": 2227,
-      "DevName": "GA_Rime_Util_OnTargetPulsatingAoe"
+      "DevName": "GA_Rime_Util_OnTargetPulsatingAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2228": {
       "Name": null,
       "FSLID": 2228,
-      "DevName": "GA_Rime_Passive_AbilityRank_DamageAsAoeHealingBuff_IncreasedHealing"
+      "DevName": "GA_Rime_Passive_AbilityRank_DamageAsAoeHealingBuff_IncreasedHealing",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2229": {
       "Name": null,
       "FSLID": 2229,
-      "DevName": "GA_Mosse_Passive_Talent_HealingAoeTotem_ProjectileTurretDamageToTick"
+      "DevName": "GA_Mosse_Passive_Talent_HealingAoeTotem_ProjectileTurretDamageToTick",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2230": {
       "Name": null,
       "FSLID": 2230,
-      "DevName": "GA_Meiko_Talent_ExtraResourcesAtStart"
+      "DevName": "GA_Meiko_Talent_ExtraResourcesAtStart",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2231": {
       "Name": null,
       "FSLID": 2231,
-      "DevName": "GA_Mara_Passive_Talent_StrongerBehindAttackBuilder_PoisonChance"
+      "DevName": "GA_Mara_Passive_Talent_StrongerBehindAttackBuilder_PoisonChance",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2232": {
       "Name": null,
       "FSLID": 2232,
-      "DevName": "GA_Mara_Passive_Talent_Spender_IncreasedDamageOnPoisonAndBleed"
+      "DevName": "GA_Mara_Passive_Talent_Spender_IncreasedDamageOnPoisonAndBleed",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2233": {
       "Name": "Macabre Strategem",
       "FSLID": 2233,
-      "DevName": "GA_Mara_Talent_ResetCooldownRefillResources_AbilityReplacer_NewAbility"
+      "DevName": "GA_Mara_Talent_ResetCooldownRefillResources_AbilityReplacer_NewAbility",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2234": {
       "Name": null,
       "FSLID": 2234,
-      "DevName": "GA_Mara_Passive_AbilityRank_HeavyAttackSpender_IncreasedDamage"
+      "DevName": "GA_Mara_Passive_AbilityRank_HeavyAttackSpender_IncreasedDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2235": {
       "Name": null,
       "FSLID": 2235,
-      "DevName": "GA_Mara_Passive_AbilityRank_BleedAttackSpender_IncreasedDamage"
+      "DevName": "GA_Mara_Passive_AbilityRank_BleedAttackSpender_IncreasedDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2236": {
       "Name": null,
       "FSLID": 2236,
-      "DevName": "GA_Mara_Passive_AbilityRank_AoeAttackSpender_IncreasedDamage"
+      "DevName": "GA_Mara_Passive_AbilityRank_AoeAttackSpender_IncreasedDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2237": {
       "Name": null,
       "FSLID": 2237,
-      "DevName": "GA_Ink_Talent_ExtraResourcesAtStart"
+      "DevName": "GA_Ink_Talent_ExtraResourcesAtStart",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2238": {
       "Name": null,
       "FSLID": 2238,
-      "DevName": "GA_Ink_Passive_Talent_BouncyProjectile_FreeCastFromAoeAttack"
+      "DevName": "GA_Ink_Passive_Talent_BouncyProjectile_FreeCastFromAoeAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2239": {
       "Name": "Face Breaker",
       "FSLID": 2239,
-      "DevName": "GA_Ink_SingleTargetHeavyNonSpender"
+      "DevName": "GA_Ink_SingleTargetHeavyNonSpender",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2240": {
       "Name": null,
       "FSLID": 2240,
-      "DevName": "GA_Ink_Passive_SingleTargetHeavyNonSpender_Monitor"
+      "DevName": "GA_Ink_Passive_SingleTargetHeavyNonSpender_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2241": {
       "Name": "Face Breaker",
       "FSLID": 2241,
-      "DevName": "GA_Ink_Passive_SingleTargetHeavyNonSpender_CritAoe_Monitor"
+      "DevName": "GA_Ink_Passive_SingleTargetHeavyNonSpender_CritAoe_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2243": {
       "Name": null,
       "FSLID": 2243,
-      "DevName": "GA_Gunde_InstantSpinAoe_Old"
+      "DevName": "GA_Gunde_InstantSpinAoe_Old",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2244": {
       "Name": null,
       "FSLID": 2244,
-      "DevName": "GA_Firemage_Talent_ExtraResourcesAtStart"
+      "DevName": "GA_Firemage_Talent_ExtraResourcesAtStart",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2245": {
       "Name": null,
       "FSLID": 2245,
-      "DevName": "GA_Firemage_Passive_Talent_CastedDotDetonate_FreeProc"
+      "DevName": "GA_Firemage_Passive_Talent_CastedDotDetonate_FreeProc",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2246": {
       "Name": null,
       "FSLID": 2246,
-      "DevName": "GA_Firemage_Passive_Talent_CastedDotBoostProjectile_IncreasedCritChance"
+      "DevName": "GA_Firemage_Passive_Talent_CastedDotBoostProjectile_IncreasedCritChance",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2247": {
       "Name": null,
       "FSLID": 2247,
-      "DevName": "GA_Firemage_Passive_CastedSingleHeavyDot_CooldownRecovery"
+      "DevName": "GA_Firemage_Passive_CastedSingleHeavyDot_CooldownRecovery",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2248": {
       "Name": null,
@@ -10838,202 +12665,322 @@
     "2261": {
       "Name": null,
       "FSLID": 2261,
-      "DevName": "GA_Gunde_Util_ApplyAccumulatedDotToTarget"
+      "DevName": "GA_Gunde_Util_ApplyAccumulatedDotToTarget",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2262": {
       "Name": "Grim Carve",
       "FSLID": 2262,
-      "DevName": "GA_Gunde_TargetedAoeProjectile"
+      "DevName": "GA_Gunde_TargetedAoeProjectile",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2263": {
       "Name": null,
       "FSLID": 2263,
-      "DevName": "GA_Gunde_Passive_Talent_TargetedAoeProjectile_Empowered"
+      "DevName": "GA_Gunde_Passive_Talent_TargetedAoeProjectile_Empowered",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2264": {
       "Name": null,
       "FSLID": 2264,
-      "DevName": "GA_Gunde_Passive_Talent_TargetedAoeProjectile_DamageCooldownReduction_CooldownReduction"
+      "DevName": "GA_Gunde_Passive_Talent_TargetedAoeProjectile_DamageCooldownReduction_CooldownReduction",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2265": {
       "Name": null,
       "FSLID": 2265,
-      "DevName": "GA_Gunde_Passive_Talent_InstantWhirlwindAoe_GatherOrbs"
+      "DevName": "GA_Gunde_Passive_Talent_InstantWhirlwindAoe_GatherOrbs",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2266": {
       "Name": null,
       "FSLID": 2266,
-      "DevName": "GA_Gunde_Passive_Talent_InstantWhirlwindAoe_ChanceCooldownReset"
+      "DevName": "GA_Gunde_Passive_Talent_InstantWhirlwindAoe_ChanceCooldownReset",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2267": {
       "Name": null,
       "FSLID": 2267,
-      "DevName": "GA_Gunde_Passive_Talent_InstantDeathFromDot"
+      "DevName": "GA_Gunde_Passive_Talent_InstantDeathFromDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2268": {
       "Name": null,
       "FSLID": 2268,
-      "DevName": "GA_Gunde_Passive_Talent_InstantAoeDot_StacksToHaste"
+      "DevName": "GA_Gunde_Passive_Talent_InstantAoeDot_StacksToHaste",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2269": {
       "Name": null,
       "FSLID": 2269,
-      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBoost_ReducedCooldownPerOrb"
+      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBoost_ReducedCooldownPerOrb",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2270": {
       "Name": null,
       "FSLID": 2270,
-      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBoost_ReducedCooldown"
+      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBoost_ReducedCooldown",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2271": {
       "Name": null,
       "FSLID": 2271,
-      "DevName": "GA_Gunde_Passive_Talent_HeayMeleeDotBoost_OrbDropper"
+      "DevName": "GA_Gunde_Passive_Talent_HeayMeleeDotBoost_OrbDropper",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2272": {
       "Name": null,
       "FSLID": 2272,
-      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBoost_IncreasedDotDamage"
+      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBoost_IncreasedDotDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2273": {
       "Name": null,
       "FSLID": 2273,
-      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBoost_IncreasedCritAndNoneCritDamage"
+      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBoost_IncreasedCritAndNoneCritDamage",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2274": {
       "Name": null,
       "FSLID": 2274,
-      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBased_CritToAoe_Old"
+      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBased_CritToAoe_Old",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2275": {
       "Name": null,
       "FSLID": 2275,
-      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBased_CritToAoe"
+      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBased_CritToAoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2276": {
       "Name": null,
       "FSLID": 2276,
-      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBased_CooldownAcceleration"
+      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBased_CooldownAcceleration",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2277": {
       "Name": null,
       "FSLID": 2277,
-      "DevName": "GA_Gunde_Passive_Talent_DotTransfer_IncreasedDamageOnSelf"
+      "DevName": "GA_Gunde_Passive_Talent_DotTransfer_IncreasedDamageOnSelf",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2278": {
       "Name": null,
       "FSLID": 2278,
-      "DevName": "GA_Gunde_Passive_Talent_DotTransfer_ExplosionOnPickup"
+      "DevName": "GA_Gunde_Passive_Talent_DotTransfer_ExplosionOnPickup",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2279": {
       "Name": null,
       "FSLID": 2279,
-      "DevName": "GA_Gunde_Passive_Talent_DotTransfer_AoeBasedOnStacks"
+      "DevName": "GA_Gunde_Passive_Talent_DotTransfer_AoeBasedOnStacks",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2280": {
       "Name": "Owed in Blood",
       "FSLID": 2280,
-      "DevName": "GA_Gunde_Talent_DotTransfer_Aoe"
+      "DevName": "GA_Gunde_Talent_DotTransfer_Aoe",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2281": {
       "Name": null,
       "FSLID": 2281,
-      "DevName": "GA_Gunde_Passive_Talent_DashAttack_EmpoweredAbilities"
+      "DevName": "GA_Gunde_Passive_Talent_DashAttack_EmpoweredAbilities",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2282": {
       "Name": null,
       "FSLID": 2282,
-      "DevName": "GA_Gunde_Passive_Talent_AbilityToBuffChance"
+      "DevName": "GA_Gunde_Passive_Talent_AbilityToBuffChance",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2283": {
       "Name": null,
       "FSLID": 2283,
-      "DevName": "GA_Gunde_SingleTargetPull_Passive"
+      "DevName": "GA_Gunde_SingleTargetPull_Passive",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2284": {
       "Name": "Butcher's Hook",
       "FSLID": 2284,
-      "DevName": "GA_Gunde_SingleTargetPull"
+      "DevName": "GA_Gunde_SingleTargetPull",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2285": {
       "Name": null,
       "FSLID": 2285,
-      "DevName": "GA_Gunde_Passive_PerTargetAccumulatedBleed_Monitor"
+      "DevName": "GA_Gunde_Passive_PerTargetAccumulatedBleed_Monitor",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2286": {
       "Name": "Rend",
       "FSLID": 2286,
-      "DevName": "GA_Gunde_Passive_PerTargetAccumulatedBleed_DotManager"
+      "DevName": "GA_Gunde_Passive_PerTargetAccumulatedBleed_DotManager",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2287": {
       "Name": null,
       "FSLID": 2287,
-      "DevName": "GA_Gunde_Passive_ExtraDotDamageGain"
+      "DevName": "GA_Gunde_Passive_ExtraDotDamageGain",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2288": {
       "Name": null,
       "FSLID": 2288,
-      "DevName": "GA_Gunde_JumpToLocation_TargetingAbility"
+      "DevName": "GA_Gunde_JumpToLocation_TargetingAbility",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2290": {
       "Name": "Reaver's Edge",
       "FSLID": 2290,
-      "DevName": "GA_Gunde_InstantWhirlwindAoe"
+      "DevName": "GA_Gunde_InstantWhirlwindAoe",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2291": {
       "Name": "Blood Arc",
       "FSLID": 2291,
-      "DevName": "GA_Gunde_InstantAoeWithBuff"
+      "DevName": "GA_Gunde_InstantAoeWithBuff",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2292": {
       "Name": "Slaughter",
       "FSLID": 2292,
-      "DevName": "GA_Gunde_InstantAoeDot"
+      "DevName": "GA_Gunde_InstantAoeDot",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2293": {
       "Name": "Rupture",
       "FSLID": 2293,
-      "DevName": "GA_Gunde_HeavyMeleeDotBoost"
+      "DevName": "GA_Gunde_HeavyMeleeDotBoost",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2294": {
       "Name": "Heart Splitter",
       "FSLID": 2294,
-      "DevName": "GA_Gunde_HeavyMeleeDotBased"
+      "DevName": "GA_Gunde_HeavyMeleeDotBased",
+      "SpellCDHasted": true,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2295": {
       "Name": "Reign in Blood",
       "FSLID": 2295,
-      "DevName": "GA_Gunde_ExtraDotDamageBuff"
+      "DevName": "GA_Gunde_ExtraDotDamageBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2296": {
       "Name": "Bloodbound Spirit",
       "FSLID": 2296,
-      "DevName": "GA_Gunde_DurationalAoeDotAndBuff"
+      "DevName": "GA_Gunde_DurationalAoeDotAndBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2297": {
       "Name": null,
       "FSLID": 2297,
-      "DevName": "GA_Gunde_Passive_DotTransfer_OrbDropper"
+      "DevName": "GA_Gunde_Passive_DotTransfer_OrbDropper",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2298": {
       "Name": "Owed in Blood",
       "FSLID": 2298,
-      "DevName": "GA_Gunde_DotTransfer"
+      "DevName": "GA_Gunde_DotTransfer",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2299": {
       "Name": "Warbound",
       "FSLID": 2299,
-      "DevName": "GA_Gunde_DashAttack"
+      "DevName": "GA_Gunde_DashAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2300": {
       "Name": "Reckless Abandon",
       "FSLID": 2300,
-      "DevName": "GA_Gunde_DamageReductionSelfBuff"
+      "DevName": "GA_Gunde_DamageReductionSelfBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2301": {
       "Name": "Double Strike",
       "FSLID": 2301,
-      "DevName": "GA_Gunde_BasicSingleTargetAttack"
+      "DevName": "GA_Gunde_BasicSingleTargetAttack",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     },
     "2302": {
       "Name": null,
@@ -11043,7 +12990,10 @@
     "2303": {
       "Name": null,
       "FSLID": 2303,
-      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBoost_GuaranteedSpiritProcBuff"
+      "DevName": "GA_Gunde_Passive_Talent_HeavyMeleeDotBoost_GuaranteedSpiritProcBuff",
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     }
   },
   "Effects": {
