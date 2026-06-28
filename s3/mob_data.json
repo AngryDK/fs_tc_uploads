@@ -384,6 +384,32 @@
           "DevName": "IceTomb"
         }
       }
+    },
+    "Summons": {
+      "VV_BossFrostTroll_IceBlock": {
+        "GameID": 24,
+        "FSLName": "Ice Tomb",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "VV_BossFrostTroll_IceBlock",
+        "DevKey": "VV_BossFrostTroll_IceBlock",
+        "KillScore": 0.0,
+        "SpiritPointValue": 0.0,
+        "KsSpEqual": true,
+        "DefaultBaseHealthMultiplier": 0.25,
+        "Armor": 0.0,
+        "Resist": 0.0,
+        "Abilities": {
+          "Offensive": {},
+          "Control": {},
+          "Defensive": {},
+          "Mechanic": {
+            "Freeze": {
+              "DevName": "Freeze"
+            }
+          }
+        }
+      }
     }
   },
   "23": {
@@ -2201,6 +2227,38 @@
           "CastTime": "2.0"
         }
       }
+    },
+    "Summons": {
+      "UB_FerventSoldier": {
+        "GameID": 67,
+        "FSLName": "Fervent Soldier",
+        "MobType": "NPC",
+        "CreatureType": "Undead",
+        "DevName": "UB_FerventSoldier",
+        "DevKey": "UB_FerventSoldier",
+        "KillScore": 2.0,
+        "SpiritPointValue": 2.0,
+        "KsSpEqual": true,
+        "DefaultBaseHealthMultiplier": 2.5552,
+        "Armor": 0.0,
+        "Resist": 0.0,
+        "Abilities": {
+          "Offensive": {
+            "MeleeAutoAttack": {
+              "DevName": "MeleeAutoAttack",
+              "StrengthCoefficient": "1.18",
+              "MaxRange": "400.0",
+              "Cooldown": "2.25",
+              "Buff.HasteGainPerStack": "0.02",
+              "Buff.Duration": "3.0",
+              "Buff.MaxStackCount": "15.0"
+            }
+          },
+          "Control": {},
+          "Defensive": {},
+          "Mechanic": {}
+        }
+      }
     }
   },
   "100": {
@@ -3313,7 +3371,7 @@
             },
             "Roll": {
               "DevName": "Roll",
-              "SquaredSpeedPerDamage": "800.0",
+              "SquaredSpeedPerDamage": "3600.0",
               "SpeedMultiplierPerSecond": "0.6",
               "SpeedMultiplierPerCoin": "0.95",
               "MaxRollSpeed": "500.0"
@@ -3469,6 +3527,47 @@
           "PostAbilityPadding": "1.0"
         }
       }
+    },
+    "Summons": {
+      "PR_SpectralSwab": {
+        "GameID": 111,
+        "FSLName": "Spectral Swab",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "PR_SpectralSwab",
+        "DevKey": "PR_SpectralSwab",
+        "KillScore": 0.0,
+        "SpiritPointValue": 0.0,
+        "KsSpEqual": true,
+        "DefaultBaseHealthMultiplier": 1.0,
+        "Armor": 0.0,
+        "Resist": 0.0,
+        "PassiveMoveSpeed": 0.3,
+        "Abilities": {
+          "Offensive": {},
+          "Control": {
+            "Explode": {
+              "DevName": "Explode",
+              "StunDuration": "1.0",
+              "RespawnDelay": "10.0",
+              "Radius": "75.0",
+              "StrengthCoefficient": "1.57"
+            }
+          },
+          "Defensive": {},
+          "Mechanic": {
+            "Wander": {
+              "DevName": "Wander",
+              "InitialMinCooldown": "0.0",
+              "InitialMaxCooldown": "1.0",
+              "MinCooldown": "1.0",
+              "MaxCooldown": "2.5",
+              "WalkDistanceMin": "400.0",
+              "WalkDistanceMax": "800.0"
+            }
+          }
+        }
+      }
     }
   },
   "125": {
@@ -3542,6 +3641,18 @@
         }
       },
       "Mechanic": {
+        "CannonBarrage": {
+          "DevName": "CannonBarrage",
+          "InitialCooldown": "6.0",
+          "Cooldown": "6.0",
+          "PostAbilityPadding": "2.0",
+          "MaxSpawnDistanceFromTargetPlayer": "250.0",
+          "SpawnDelay": "2.5",
+          "CannonFireDelay": "0.3",
+          "Damage.Radius": "350.0",
+          "Damage.StrengthCoefficient": "3.32",
+          "Damage.KnockbackStrength": "1000.0"
+        },
         "High Tide": {
           "DevName": "HighTideSwitchPhase"
         },
@@ -3560,6 +3671,54 @@
           "Damage.Radius": "350.0",
           "Damage.StrengthCoefficient": "7.32",
           "Damage.KnockbackStrength": "1000.0"
+        }
+      }
+    },
+    "Summons": {
+      "PR_Shark": {
+        "GameID": 113,
+        "FSLName": "Shark",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "PR_Shark",
+        "DevKey": "PR_Shark",
+        "KillScore": 0.0,
+        "SpiritPointValue": 1.0,
+        "KsSpEqual": false,
+        "DefaultBaseHealthMultiplier": 0.613,
+        "Armor": 0.0,
+        "Resist": 0.0,
+        "PassiveMoveSpeed": 0.8,
+        "Abilities": {
+          "Offensive": {},
+          "Control": {},
+          "Defensive": {},
+          "Mechanic": {
+            "Bite": {
+              "DevName": "BiteAttached",
+              "InitialMinCooldown": "0.5",
+              "InitialMaxCooldown": "0.5",
+              "MinCooldown": "1.0",
+              "MaxCooldown": "1.0",
+              "MinPostAbilityPadding": "2.0",
+              "MaxPostAbilityPadding": "2.0",
+              "StrengthCoefficient": "0.33",
+              "Spread": "0.2"
+            },
+            "Leap": {
+              "DevName": "JumpAttack",
+              "MaxRange": "300.0"
+            },
+            "Torpedo": {
+              "DevName": "Projectile",
+              "InitialMinCooldown": "0.5",
+              "InitialMaxCooldown": "0.5",
+              "SwimDirMaxHalfAngle": "5.0",
+              "JumpDistance": "120.0",
+              "MinDistanceAlongLine": "25.0",
+              "MaxDistanceAlongLine": "1800.0"
+            }
+          }
         }
       }
     }
@@ -3674,6 +3833,36 @@
           "InitialMaxCooldown": "9.0",
           "Cooldown": "20.0",
           "InterruptCooldown": "14.0"
+        }
+      }
+    },
+    "Summons": {
+      "PR_ShipRat": {
+        "GameID": 112,
+        "FSLName": "Gunpowder Rat",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "PR_ShipRat",
+        "DevKey": "PR_ShipRat",
+        "KillScore": 0.0,
+        "SpiritPointValue": 0.0,
+        "KsSpEqual": true,
+        "DefaultBaseHealthMultiplier": 0.3,
+        "Armor": 0.0,
+        "Resist": 0.0,
+        "PassiveMoveSpeed": 0.8,
+        "Abilities": {
+          "Offensive": {},
+          "Control": {},
+          "Defensive": {},
+          "Mechanic": {
+            "MoveToTarget": {
+              "DevName": "MoveToTarget",
+              "MaxRange": "5000.0",
+              "SpeedMultiplier": "1.20",
+              "SelfDetonateTimeoutDuration": "6.0"
+            }
+          }
         }
       }
     }
@@ -5928,6 +6117,32 @@
           "MaxSpawnDistance": "1200.0"
         }
       }
+    },
+    "Summons": {
+      "FK_MirroredRangerCaptain": {
+        "GameID": 158,
+        "FSLName": "Mirrored Ranger Captain",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "FK_MirroredRangerCaptain",
+        "DevKey": "FK_MirroredRangerCaptain",
+        "KillScore": null,
+        "SpiritPointValue": null,
+        "KsSpEqual": false,
+        "DefaultBaseHealthMultiplier": null,
+        "Armor": null,
+        "Resist": null,
+        "Abilities": {
+          "Offensive": {},
+          "Control": {},
+          "Defensive": {},
+          "Mechanic": {
+            "BattleCry": {
+              "DevName": "BattleCry"
+            }
+          }
+        }
+      }
     }
   },
   "169": {
@@ -6399,6 +6614,9 @@
           "Height": "350.0",
           "Debuff.Duration": "30.0",
           "Debuff.IncomingMagicDamageScaler": "1.5"
+        },
+        "ChanneledFriendlyBuff": {
+          "DevName": "ChanneledFriendlyBuff"
         }
       },
       "Mechanic": {
@@ -6932,6 +7150,32 @@
         },
         "Summon Portal": {
           "DevName": "SummonPortal"
+        }
+      }
+    },
+    "Summons": {
+      "DR_WaveSummoner": {
+        "GameID": 180,
+        "FSLName": "Demonic Portal",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "DR_WaveSummoner",
+        "DevKey": "DR_WaveSummoner",
+        "KillScore": null,
+        "SpiritPointValue": null,
+        "KsSpEqual": false,
+        "DefaultBaseHealthMultiplier": null,
+        "Armor": null,
+        "Resist": null,
+        "Abilities": {
+          "Offensive": {},
+          "Control": {},
+          "Defensive": {},
+          "Mechanic": {
+            "Summoning": {
+              "DevName": "Summoning"
+            }
+          }
         }
       }
     }
@@ -10532,7 +10776,7 @@
           "MaxRange": "2000.0",
           "Channel.Duration": "10.0",
           "Channel.TickInterval": "1.0",
-          "Channel.PrimaryAttributeCoefficient": "3.0",
+          "Channel.PrimaryAttributeCoefficient": "2.27",
           "AnimateBloodMaxHealthMultiplierPerTick": "1.05",
           "SpawnDelay": "2.0"
         }
@@ -10575,7 +10819,7 @@
         "KillScore": 0.0,
         "SpiritPointValue": 0.0,
         "KsSpEqual": true,
-        "DefaultBaseHealthMultiplier": 1.034,
+        "DefaultBaseHealthMultiplier": 0.7238,
         "Armor": 0.0,
         "Resist": 0.0,
         "PassiveMoveSpeed": 0.25,
@@ -10596,7 +10840,7 @@
               "DevName": "PassiveAoeDamageSelf",
               "TickRate": "1.0",
               "Aoe.Radius": "700.0",
-              "DamageMaxHealthCoefficient": "0.1"
+              "DamageMaxHealthCoefficient": "0.05"
             }
           },
           "Control": {},
@@ -11006,6 +11250,35 @@
           "MaxSpawnDistance": "1100.0",
           "MinPostAbilityPadding": "0.5",
           "MaxPostAbilityPadding": "0.5"
+        }
+      }
+    },
+    "Summons": {
+      "MC_BloodCrystal": {
+        "GameID": 335,
+        "FSLName": "Blood Crystal",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "MC_BloodCrystal",
+        "DevKey": "MC_BloodCrystal",
+        "KillScore": 0.0,
+        "SpiritPointValue": 0.0,
+        "KsSpEqual": true,
+        "DefaultBaseHealthMultiplier": 3.653,
+        "Armor": 0.0,
+        "Resist": 0.0,
+        "Abilities": {
+          "Offensive": {},
+          "Control": {},
+          "Defensive": {},
+          "Mechanic": {
+            "Bloodwell Barrier": {
+              "DevName": "ChanneledDammageReduction",
+              "AoERadius": "400.0",
+              "IncomingDamageMultiplier": "0.2",
+              "OnOwnerDeath.PreDeathChanelDuration": "5.0"
+            }
+          }
         }
       }
     }

@@ -24498,7 +24498,7 @@
       "DevName": "GE_Sune_Talent_AtTargetInstantAoe_DamageReduction_SelfBuff"
     },
     "2727": {
-      "Name": null,
+      "Name": "Blinding Horizon",
       "FSLID": 1002727,
       "DevName": "GE_Sune_Talent_AtTargetInstantAoe_DamageReduction_Debuff"
     },

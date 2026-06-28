@@ -2388,7 +2388,7 @@
       "Description": "Absorbs incoming damage",
       "DevName": "GA_Perk_Passive_MaxHealthBasedAbsorb",
       "Constants": {
-        "Tanks.MaxHealthPercentage": 0.4,
+        "Tanks.MaxHealthPercentage": 0.25,
         "DPS.MaxHealthPercentage": 0.4,
         "VigorMosse.MaxHealthPercentage": 0.4,
         "Lisa.MaxHealthPercentage": 0.25,
