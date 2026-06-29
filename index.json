@@ -27,13 +27,13 @@
       "status": "complete",
       "files": {
         "mob_data.json": {
-          "bytes": 294452
+          "bytes": 295625
         },
         "dungeon_data.json": {
-          "bytes": 487381
+          "bytes": 487783
         },
         "hero_data.json": {
-          "bytes": 313763
+          "bytes": 313855
         },
         "spell_data.json": {
           "bytes": 753059
@@ -43,8 +43,8 @@
         }
       },
       "notes": "S3 launched 2026-06-22. Includes the GameFeature plugin layer: 3 new keyed zones (MoorCastle/SandTomb/SnowPeak) + rosters, the Gunde hero, Blessings (Finesse) and Perks.",
-      "updated": "06-28-2026",
-      "version": "111384"
+      "updated": "06-29-2026",
+      "version": "111558"
     }
   }
 }

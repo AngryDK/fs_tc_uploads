@@ -10281,6 +10281,50 @@
           "Buff.AttackSpeedMultiplier": "1.5",
           "Buff.AutoAttackDamageMultiplier": "3.0",
           "Buff.AddedCritChance": "1.0"
+        },
+        "Blood Orbs": {
+          "DevName": "SpawnOrbs",
+          "InitialCooldown": "15.0",
+          "Cooldown": "27.0"
+        }
+      }
+    },
+    "Summons": {
+      "ST_BloodOrb": {
+        "GameID": 322,
+        "FSLName": "Blood Orb",
+        "MobType": "NPC",
+        "CreatureType": null,
+        "DevName": "ST_BloodOrb",
+        "DevKey": "ST_BloodOrb",
+        "KillScore": 0.0,
+        "SpiritPointValue": null,
+        "KsSpEqual": false,
+        "DefaultBaseHealthMultiplier": 1.0,
+        "Armor": null,
+        "Resist": null,
+        "Agility": 100.0,
+        "Intellect": 100.0,
+        "PassiveMoveSpeed": 0.2,
+        "Strength": 100.0,
+        "Abilities": {
+          "Offensive": {
+            "SharedHealth": {
+              "DevName": "SharedHealth",
+              "DamageConversionFraction": "0.25"
+            }
+          },
+          "Control": {},
+          "Defensive": {
+            "BuffBoss": {
+              "DevName": "BuffBoss",
+              "MaxRange": "250.0",
+              "Duration": "60.0",
+              "HealFraction": "0.05",
+              "DamageScale": "1.1"
+            }
+          },
+          "Mechanic": {}
         }
       }
     }

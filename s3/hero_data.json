@@ -671,7 +671,7 @@
       },
       "Time Skip": {
         "DevName": "GA_Lisa_TeleportForward",
-        "Distance": 1500.0,
+        "Distance": 1000.0,
         "CooldownDuration": 15.0,
         "Buff": {
           "Duration": 4.0,
@@ -2887,8 +2887,8 @@
           "FlatSpiritPointGain": 2.0
         }
       },
-      "Owed in Blood": {
-        "DevName": "GA_Gunde_Talent_DotTransfer_Aoe",
+      "Heart Splitter": {
+        "DevName": "GA_Gunde_HeavyMeleeDotBased",
         "DamageToDotScaler": 0.5,
         "Dot": {
           "Duration": 30.0,
@@ -3038,7 +3038,7 @@
           }
         }
       },
-      "Heart Splitter": {
+      "HeavyMeleeDotBased": {
         "DevName": "GA_Gunde_HeavyMeleeDotBased",
         "Cooldown": 12.0,
         "Damage": {
@@ -3060,12 +3060,12 @@
             "AddedCriticalStrikeChance": 1.0
           },
           "IncreasedDirectDamage": {
-            "DamageScale": 1.1
+            "DamageScale": 1.3
           },
           "Charges": {
             "NumOfCharges": 2.0,
             "DoubleStrike": {
-              "Chance": 0.2,
+              "Chance": 0.25,
               "DelayBetweenStrikes": 0.4
             }
           }
@@ -3095,7 +3095,7 @@
           }
         }
       },
-      "DotTransfer": {
+      "Owed in Blood": {
         "DevName": "GA_Gunde_DotTransfer",
         "MaxRange": 2000.0,
         "SelfBuff": {
@@ -10826,11 +10826,11 @@
         "DevName": "GA_Sune_MeleeAutoAttack",
         "SwingTimer": 3.0,
         "HitVisualDelay": 0.5,
-        "StrengthCoefficient": 0.85
+        "StrengthCoefficient": 0.98
       },
       "Sun Strike": {
         "DevName": "GA_Sune_SingleTargetFillerMelee",
-        "DamageStrengthCoefficient": 1.28,
+        "DamageStrengthCoefficient": 1.47,
         "ResourceProcChance": 0.15,
         "HitVisualDelay": 0.15,
         "Cleave": {
@@ -10856,7 +10856,7 @@
               "MaxRange": 700.0,
               "MaxHeight": 400.0,
               "VisualDelay": 0.5,
-              "DamageStrengthCoefficient": 1.15,
+              "DamageStrengthCoefficient": 1.24,
               "DamageScalingTargetCountThreshold": 8.0,
               "MaxNumTargets": 20.0
             }
@@ -10865,7 +10865,7 @@
       },
       "Blinding Slash": {
         "DevName": "GA_Sune_InstantCleaveMelee",
-        "DamageStrengthCoefficient": 1.14,
+        "DamageStrengthCoefficient": 1.23,
         "DamageScalingTargetCountThreshold": 8.0,
         "CleaveRadius": 500.0,
         "Cooldown": 6.0,
@@ -10883,7 +10883,7 @@
       },
       "AoeMelee": {
         "DevName": "GA_Sune_AoeMelee",
-        "DamageStrengthCoefficient": 2.26,
+        "DamageStrengthCoefficient": 2.45,
         "DamageScalingTargetCountThreshold": 8.0,
         "Cooldown": 18.0,
         "ResourceProcChance": 0.3,
@@ -10912,7 +10912,7 @@
         "MaxRange": 3000.0,
         "AoeRadius": 800.0,
         "AoeHeight": 200.0,
-        "DamageStrengthCoefficient": 1.49,
+        "DamageStrengthCoefficient": 1.61,
         "DamageScalingTargetCountThreshold": 5.0,
         "MaxNumTargets": 20.0,
         "MainTargetDamageScaler": 2.0,
@@ -10940,7 +10940,7 @@
       },
       "Shining Halo": {
         "DevName": "GA_Sune_DroppedPulseAoe",
-        "DamageStrengthCoefficient": 0.25,
+        "DamageStrengthCoefficient": 0.27,
         "DamageScalingTargetCountThreshold": 12.0,
         "AoeRadius": 800.0,
         "AoeHalfHeight": 200.0,
@@ -10969,7 +10969,7 @@
             "DamageScaler": 2.0
           },
           "HealsAlly": {
-            "DamageToHealingScaler": 0.2
+            "DamageToHealingScaler": 0.3
           },
           "AdditionalMaxDuration": {
             "AddedSeconds": 6.0
@@ -10985,15 +10985,15 @@
       "Brilliant Flare": {
         "DevName": "GA_Sune_CastedSingleTargetHeal",
         "MaxRange": 3000.0,
-        "HealStrengthCoefficient": 6.95,
+        "HealStrengthCoefficient": 7.52,
         "CastingDuration": 1.5,
         "ManaCost": 132.0
       },
       "Brilliant Flash": {
         "DevName": "GA_Sune_InstantSingleTargetHealOrDamage",
         "MaxRange": 3000.0,
-        "HealStrengthCoefficient": 6.95,
-        "DamageStrengthCoefficient": 2.22,
+        "HealStrengthCoefficient": 7.52,
+        "DamageStrengthCoefficient": 2.55,
         "ResourceCost": 1.0,
         "VisualDelay": 0.2,
         "SelfTargetHealScaler": 1.2,
@@ -11008,7 +11008,7 @@
       },
       "Ruptured Dawn": {
         "DevName": "GA_Sune_InstantConeStunAndPull",
-        "DamageStrengthCoefficient": 0.78,
+        "DamageStrengthCoefficient": 0.9,
         "DamageScalingTargetCountThreshold": 8.0,
         "ConeAngle": 90.0,
         "ChargedUpConeRange": 2000.0,
@@ -11028,7 +11028,7 @@
         "Aoe": {
           "Radius": 700.0,
           "Height": 300.0,
-          "DamageStrengthCoefficient": 0.62,
+          "DamageStrengthCoefficient": 0.71,
           "DamageScalingTargetCountThreshold": 8.0,
           "MaxNumTargets": 20.0
         },
@@ -11042,7 +11042,7 @@
           "MoveSpeedAndArmorBuff": {
             "MoveSpeedScaler": 1.2,
             "ArmorScaler": 1.4,
-            "ProcDuration": 8.0
+            "ProcDuration": 18.0
           },
           "ParryBuff": {
             "Buff": {
@@ -11086,7 +11086,10 @@
           },
           "SecondaryStatBoosts": {
             "CritChance": {
-              "CritChanceToDamageOnCommit": 1.0
+              "CritChanceToDamageOnCommit": {
+                "Value": 1.0,
+                "TargetCountThreshold": 1.0
+              }
             },
             "Haste": {
               "HasteToCooldownRecoveryScaler": 0.33334
@@ -11141,9 +11144,9 @@
         "Dot": {
           "Radius": 1500.0,
           "Height": 400.0,
-          "DamageStrengthCoefficient": 0.31,
+          "DamageStrengthCoefficient": 0.34,
           "Period": 1.5,
-          "DamageScalingTargetCountThreshold": 5.0,
+          "DamageScalingTargetCountThreshold": 8.0,
           "MaxNumTargets": 20.0
         },
         "DamageTransfer": {
@@ -11164,14 +11167,14 @@
           }
         },
         "AoeHeal": {
-          "HealStrengthCoefficient": 1.42,
+          "HealStrengthCoefficient": 1.54,
           "PulsePeriod": 1.0,
           "MaxRange": 3000.0
         },
         "AoeDamage": {
           "Radius": 1500.0,
           "Height": 300.0,
-          "DamageStrengthCoefficient": 5.12,
+          "DamageStrengthCoefficient": 5.53,
           "DamageScalingTargetCountThreshold": 8.0,
           "MaxNumTargets": 20.0
         },

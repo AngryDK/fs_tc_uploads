@@ -8293,7 +8293,23 @@
           "ZoneID": 5,
           "DisplayName": "The Heart of Tuzari",
           "IsCapstone": true,
-          "DungeonModifiers": []
+          "DungeonModifiers": [
+            {
+              "GUID": 4,
+              "DevName": "Ascension3",
+              "Name": "Vayr's Legacy"
+            },
+            {
+              "GUID": 6,
+              "DevName": "Ascension5",
+              "Name": "Asha's Regret"
+            },
+            {
+              "GUID": 14,
+              "DevName": "MeteorRain",
+              "Name": "Meteor Rain"
+            }
+          ]
         }
       ]
     },
