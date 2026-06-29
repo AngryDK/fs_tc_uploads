@@ -1,6 +1,6 @@
 {
   "name": "Ângry's Fellowship API-ish Dump",
-  "updated": "06-28-2026",
+  "updated": "06-29-2026",
   "live_season": "s3",
   "seasons": {
     "s2": {
@@ -33,7 +33,7 @@
           "bytes": 487381
         },
         "hero_data.json": {
-          "bytes": 307590
+          "bytes": 313763
         },
         "spell_data.json": {
           "bytes": 753059

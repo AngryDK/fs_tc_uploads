@@ -105,6 +105,7 @@
         "Name": "Intercession",
         "FSLID": 1814,
         "DevName": "GA_Lisa_TargetedAoeSilence",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -113,6 +114,7 @@
         "Name": "Time Skip",
         "FSLID": 1864,
         "DevName": "GA_Lisa_TeleportForward",
+        "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -121,6 +123,7 @@
         "Name": "Entropy's Claim",
         "FSLID": 1876,
         "DevName": "GA_Lisa_SingleTargetDot",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -129,6 +132,7 @@
         "Name": "Revert Magic",
         "FSLID": 1879,
         "DevName": "GA_Lisa_SingleAllyDispel",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -137,6 +141,7 @@
         "Name": "Epoch Break",
         "FSLID": 1881,
         "DevName": "GA_Lisa_PauseResourcesAndPartyHealth",
+        "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -161,6 +166,7 @@
         "Name": "Echoes of Ruin",
         "FSLID": 1887,
         "DevName": "GA_Lisa_InstantSingleTargetDamageAndDot",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -169,6 +175,7 @@
         "Name": "Time Shard",
         "FSLID": 1889,
         "DevName": "GA_Lisa_CastedSingleTargetProjectile",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -177,6 +184,7 @@
         "Name": "Unfolding Doom",
         "FSLID": 1890,
         "DevName": "GA_Lisa_CastedProjectileDamageIncreaseDebuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -185,6 +193,7 @@
         "Name": "Temporal Barrage",
         "FSLID": 1926,
         "DevName": "GA_Lisa_ChanneledHealOrDamageProjectiles",
+        "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -193,6 +202,7 @@
         "Name": "Flash Revision",
         "FSLID": 1927,
         "DevName": "GA_Lisa_CastedHeal",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -209,6 +219,7 @@
         "Name": "Amend Fate",
         "FSLID": 1964,
         "DevName": "GA_Lisa_SingleTargetStaggerRemovalSpender",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -217,6 +228,7 @@
         "Name": "Fleeting Hour",
         "FSLID": 1969,
         "DevName": "GA_Lisa_InstantSelfBuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -225,6 +237,7 @@
         "Name": "Oblivion",
         "FSLID": 1970,
         "DevName": "GA_Lisa_InstantDamageSpender",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -241,6 +254,7 @@
         "Name": "Restore Continuity",
         "FSLID": 1973,
         "DevName": "GA_Lisa_AoeStaggerRemovalSpender",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -891,6 +905,7 @@
         "Name": "Flame Ward",
         "FSLID": 1258,
         "DevName": "GA_Firemage_SelfDefenceBuff",
+        "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -899,6 +914,7 @@
         "Name": "Fire Ball",
         "FSLID": 1260,
         "DevName": "GA_Firemage_PlacedProjectileAoe",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
         "SpellGrantsCDA": false
@@ -915,6 +931,7 @@
         "Name": "Scorch",
         "FSLID": 1263,
         "DevName": "GA_Firemage_InstantSingleInterrupt",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -923,6 +940,7 @@
         "Name": "Fireflash",
         "FSLID": 1265,
         "DevName": "GA_Firemage_InstantSingleDisorient",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -931,6 +949,7 @@
         "Name": "Wildfire",
         "FSLID": 1267,
         "DevName": "GA_Firemage_InstantDotSpread",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -939,6 +958,7 @@
         "Name": "Fire Frogs",
         "FSLID": 1268,
         "DevName": "GA_Firemage_FireFrogs",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -947,6 +967,7 @@
         "Name": "Flickerstep",
         "FSLID": 1269,
         "DevName": "GA_Firemage_DashForward",
+        "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -955,6 +976,7 @@
         "Name": "Incinerate",
         "FSLID": 1270,
         "DevName": "GA_Firemage_ChanneledForwardAoeDamage",
+        "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -963,6 +985,7 @@
         "Name": "Apocalypse",
         "FSLID": 1273,
         "DevName": "GA_Firemage_CastedPlacedAoe",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -971,6 +994,7 @@
         "Name": "Detonate",
         "FSLID": 1275,
         "DevName": "GA_Firemage_CastedDotDetonate",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -979,6 +1003,7 @@
         "Name": "Infernal Wave",
         "FSLID": 1276,
         "DevName": "GA_Firemage_CastedDotBoostProjectile",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1003,6 +1028,7 @@
         "Name": "Engulfing Flames",
         "FSLID": 1586,
         "DevName": "GA_Firemage_CastedSingleHeavyDot",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1011,6 +1037,7 @@
         "Name": "Searing Blaze",
         "FSLID": 1587,
         "DevName": "GA_Firemage_CastedSingleDot2",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1019,6 +1046,7 @@
         "Name": "Pyromania",
         "FSLID": 1623,
         "DevName": "GA_Firemage_InstantMultiTargetDot",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1718,6 +1746,7 @@
         "Name": "Grappling Arrow",
         "FSLID": 125,
         "DevName": "GA_Bowguy_TargetedAoePull",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1726,6 +1755,7 @@
         "Name": "Starfall Volley",
         "FSLID": 126,
         "DevName": "GA_Bowguy_TargetedAoeDamage",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1739,6 +1769,7 @@
         "Name": "Celestial Shot",
         "FSLID": 1301,
         "DevName": "GA_Bowguy_SingleProjectileDamage",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1747,6 +1778,7 @@
         "Name": "Celestial Veil",
         "FSLID": 1302,
         "DevName": "GA_Bowguy_SelfDefenceBuff",
+        "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1763,6 +1795,7 @@
         "Name": "Skystrider's Grace",
         "FSLID": 1304,
         "DevName": "GA_Bowguy_ProcHasteBuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1779,6 +1812,7 @@
         "Name": "Disrupt",
         "FSLID": 1308,
         "DevName": "GA_Bowguy_InstantSingleInterrupt",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1795,6 +1829,7 @@
         "Name": "Lunarlight Mark",
         "FSLID": 1310,
         "DevName": "GA_Bowguy_InstantMarkTarget",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1803,6 +1838,7 @@
         "Name": "Roll",
         "FSLID": 1311,
         "DevName": "GA_Bowguy_ChargedMoveWithDirection",
+        "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1811,6 +1847,7 @@
         "Name": "Heartseeker Barrage",
         "FSLID": 1312,
         "DevName": "GA_Bowguy_ChanneledMultiProjectileDebuff",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1819,6 +1856,7 @@
         "Name": "Highwind Arrow",
         "FSLID": 1313,
         "DevName": "GA_Bowguy_CastedProjectileHeavyDamage",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
         "SpellGrantsCDA": false
@@ -1827,6 +1865,7 @@
         "Name": "Focused Shot",
         "FSLID": 1315,
         "DevName": "GA_Bowguy_CastedProjectileDamage",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1835,6 +1874,7 @@
         "Name": "Multishot",
         "FSLID": 1318,
         "DevName": "GA_Bowguy_AoeProjectileDamage",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1843,6 +1883,7 @@
         "Name": "Skystrider's Supremacy",
         "FSLID": 1398,
         "DevName": "GA_Bowguy_SelfBuffForAoeProjectile",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1859,6 +1900,7 @@
         "Name": "Event Horizon",
         "FSLID": 1584,
         "DevName": "GA_Bowguy_ReducedCostCooldownRecoveryBuff",
+        "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": true
@@ -2515,6 +2557,7 @@
         "Name": "Jawbreaker",
         "FSLID": 1244,
         "DevName": "GA_Gunde_SingleTargetInterrupt",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2547,6 +2590,7 @@
         "Name": "Grim Carve",
         "FSLID": 2262,
         "DevName": "GA_Gunde_TargetedAoeProjectile",
+        "AbilityCategory": "Power",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2555,6 +2599,7 @@
         "Name": "Butcher's Hook",
         "FSLID": 2284,
         "DevName": "GA_Gunde_SingleTargetPull",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2571,6 +2616,7 @@
         "Name": "Reaver's Edge",
         "FSLID": 2290,
         "DevName": "GA_Gunde_InstantWhirlwindAoe",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2579,6 +2625,7 @@
         "Name": "Blood Arc",
         "FSLID": 2291,
         "DevName": "GA_Gunde_InstantAoeWithBuff",
+        "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2587,6 +2634,7 @@
         "Name": "Slaughter",
         "FSLID": 2292,
         "DevName": "GA_Gunde_InstantAoeDot",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2595,6 +2643,7 @@
         "Name": "Rupture",
         "FSLID": 2293,
         "DevName": "GA_Gunde_HeavyMeleeDotBoost",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2603,6 +2652,7 @@
         "Name": "Heart Splitter",
         "FSLID": 2294,
         "DevName": "GA_Gunde_HeavyMeleeDotBased",
+        "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2611,6 +2661,7 @@
         "Name": "Reign in Blood",
         "FSLID": 2295,
         "DevName": "GA_Gunde_ExtraDotDamageBuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2619,6 +2670,7 @@
         "Name": "Bloodbound Spirit",
         "FSLID": 2296,
         "DevName": "GA_Gunde_DurationalAoeDotAndBuff",
+        "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2635,6 +2687,7 @@
         "Name": "Owed in Blood",
         "FSLID": 2298,
         "DevName": "GA_Gunde_DotTransfer",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2643,6 +2696,7 @@
         "Name": "Warbound",
         "FSLID": 2299,
         "DevName": "GA_Gunde_DashAttack",
+        "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2651,6 +2705,7 @@
         "Name": "Reckless Abandon",
         "FSLID": 2300,
         "DevName": "GA_Gunde_DamageReductionSelfBuff",
+        "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2659,6 +2714,7 @@
         "Name": "Double Strike",
         "FSLID": 2301,
         "DevName": "GA_Gunde_BasicSingleTargetAttack",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3530,6 +3586,7 @@
         "Name": "Taunt",
         "FSLID": 966,
         "DevName": "GA_Warmaster_RangedTaunt",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3554,6 +3611,7 @@
         "Name": "Iron Wall",
         "FSLID": 973,
         "DevName": "GA_Warmaster_NoResourceLossSelfBuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3562,6 +3620,7 @@
         "Name": "Charge",
         "FSLID": 974,
         "DevName": "GA_Warmaster_MoveToTargetStun",
+        "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3570,6 +3629,7 @@
         "Name": "Hold the Line",
         "FSLID": 975,
         "DevName": "GA_Warmaster_MoveSpeedBuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
         "SpellGrantsCDA": false
@@ -3578,6 +3638,7 @@
         "Name": "Bash",
         "FSLID": 976,
         "DevName": "GA_Warmaster_MeleeInterrupt",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3586,6 +3647,7 @@
         "Name": "Shield Slam",
         "FSLID": 977,
         "DevName": "GA_Warmaster_MeleeCleave",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
         "SpellGrantsCDA": false
@@ -3602,6 +3664,7 @@
         "Name": "Shockwave",
         "FSLID": 979,
         "DevName": "GA_Warmaster_MeleeAoeSlow",
+        "AbilityCategory": "Power",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3610,6 +3673,7 @@
         "Name": "Measured Strike",
         "FSLID": 980,
         "DevName": "GA_Warmaster_LightMelee",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3618,6 +3682,7 @@
         "Name": "Sweeping Strike",
         "FSLID": 981,
         "DevName": "GA_Warmaster_InstantMeleeCleave",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3626,6 +3691,7 @@
         "Name": "Power Strike",
         "FSLID": 982,
         "DevName": "GA_Warmaster_HeavyMelee",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3634,6 +3700,7 @@
         "Name": "Shields Up",
         "FSLID": 984,
         "DevName": "GA_Warmaster_DefenceBuff",
+        "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
         "SpellGrantsCDA": false
@@ -3642,6 +3709,7 @@
         "Name": "Shield Throw",
         "FSLID": 985,
         "DevName": "GA_Warmaster_BouncyProjectile",
+        "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3655,6 +3723,7 @@
         "Name": "Grand Melee",
         "FSLID": 1465,
         "DevName": "GA_Warmaster_AoeIncite",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3663,6 +3732,7 @@
         "Name": "Siegebreaker",
         "FSLID": 1515,
         "DevName": "GA_Warmaster_ShieldSelfBuff",
+        "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4619,6 +4689,7 @@
         "Name": "Web Crack",
         "FSLID": 1128,
         "DevName": "GA_Mara_StunSpender",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4627,6 +4698,7 @@
         "Name": "Backstab",
         "FSLID": 1129,
         "DevName": "GA_Mara_StrongerBehindAttackBuilder",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4635,6 +4707,7 @@
         "Name": "Brooding Shadows",
         "FSLID": 1130,
         "DevName": "GA_Mara_Stealth",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
         "SpellGrantsCDA": false
@@ -4651,6 +4724,7 @@
         "Name": "Shadow Ward",
         "FSLID": 1133,
         "DevName": "GA_Mara_SelfDefenceBuff",
+        "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4667,6 +4741,7 @@
         "Name": "Kick",
         "FSLID": 1200,
         "DevName": "GA_Mara_MeleeInterrupt",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4675,6 +4750,7 @@
         "Name": "Queen's Fang",
         "FSLID": 1201,
         "DevName": "GA_Mara_HeavyAttackSpender",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4683,6 +4759,7 @@
         "Name": "Stalker Step",
         "FSLID": 1205,
         "DevName": "GA_Mara_ChargedTeleportBehindTarget",
+        "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4691,6 +4768,7 @@
         "Name": "Maiden of Death",
         "FSLID": 1206,
         "DevName": "GA_Mara_ChargedResourceRefillSelfBuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
         "SpellGrantsCDA": false
@@ -4699,6 +4777,7 @@
         "Name": "Widow's Bite",
         "FSLID": 1207,
         "DevName": "GA_Mara_ChargedDoubleAttackBuilder",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
         "SpellGrantsCDA": false
@@ -4707,6 +4786,7 @@
         "Name": "Hemorrhaging Strike",
         "FSLID": 1208,
         "DevName": "GA_Mara_BleedAttackSpender",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4723,6 +4803,7 @@
         "Name": "Arachnid Assault",
         "FSLID": 1212,
         "DevName": "GA_Mara_AoeAttackSpender",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4731,6 +4812,7 @@
         "Name": "Skittering Blades",
         "FSLID": 1213,
         "DevName": "GA_Mara_AoeAttackBuilder",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4747,6 +4829,7 @@
         "Name": "Matriarch Macabre",
         "FSLID": 1420,
         "DevName": "GA_Mara_CopyCharacterDamage",
+        "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4763,6 +4846,7 @@
         "Name": "Final Stratagem",
         "FSLID": 1468,
         "DevName": "GA_Mara_ResetCooldownRefillResources",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5393,6 +5477,7 @@
         "Name": "Twin Souls: Bulwark",
         "FSLID": 1082,
         "DevName": "GA_Meiko_TauntTotem",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5401,6 +5486,7 @@
         "Name": "Taunt",
         "FSLID": 1095,
         "DevName": "GA_Meiko_RangedTaunt",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5417,6 +5503,7 @@
         "Name": "Earth Fist",
         "FSLID": 1100,
         "DevName": "GA_Meiko_MeleeRight",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5425,6 +5512,7 @@
         "Name": "Spirit Palm",
         "FSLID": 1101,
         "DevName": "GA_Meiko_MeleeLeft",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5433,6 +5521,7 @@
         "Name": "Wind Kick",
         "FSLID": 1102,
         "DevName": "GA_Meiko_MeleeDown",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5441,6 +5530,7 @@
         "Name": "Stone Stomp",
         "FSLID": 1107,
         "DevName": "GA_Meiko_FrontalAoeDebuff",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5457,6 +5547,7 @@
         "Name": "Twin Souls: Army of One",
         "FSLID": 1110,
         "DevName": "GA_Meiko_DurationalMultipleTeleportDamage_New",
+        "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5465,6 +5556,7 @@
         "Name": "Shatter Earth",
         "FSLID": 1115,
         "DevName": "GA_Meiko_MoveToLocationAoeDamage",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5473,6 +5565,7 @@
         "Name": "Stagger",
         "FSLID": 1116,
         "DevName": "GA_Meiko_MeleeInterrupt",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5489,6 +5582,7 @@
         "Name": "Serenity",
         "FSLID": 1119,
         "DevName": "GA_Meiko_InstantSelfDefensive",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5505,6 +5599,7 @@
         "Name": "Stone Shield",
         "FSLID": 1122,
         "DevName": "GA_Meiko_DamageSoakBuff",
+        "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
         "SpellGrantsCDA": false
@@ -5513,6 +5608,7 @@
         "Name": "Gust",
         "FSLID": 1123,
         "DevName": "GA_Meiko_ChargedForwardDash",
+        "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5521,6 +5617,7 @@
         "Name": "Cyclone",
         "FSLID": 1125,
         "DevName": "GA_Meiko_AoePull",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6392,6 +6489,7 @@
         "Name": "Flight of the Navir",
         "FSLID": 1009,
         "DevName": "GA_Rime_TargetedPeriodicProjectileAoe",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6400,6 +6498,7 @@
         "Name": "Frost Ward",
         "FSLID": 1015,
         "DevName": "GA_Rime_SelfDefenceBuff",
+        "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6424,6 +6523,7 @@
         "Name": "Ice Comet",
         "FSLID": 1018,
         "DevName": "GA_Rime_OnTargetPulsatingAoe",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6432,6 +6532,7 @@
         "Name": "Brain Freeze",
         "FSLID": 1019,
         "DevName": "GA_Rime_InstantSingleInterrupt",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6440,6 +6541,7 @@
         "Name": "Cold Snap",
         "FSLID": 1020,
         "DevName": "GA_Rime_InstantSingleDamage",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
         "SpellGrantsCDA": false
@@ -6448,6 +6550,7 @@
         "Name": "Frigid Winds",
         "FSLID": 1021,
         "DevName": "GA_Rime_InstantConeKnockback",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6456,6 +6559,7 @@
         "Name": "Wrath of Winter",
         "FSLID": 1023,
         "DevName": "GA_Rime_FullResourcesSelfBuff",
+        "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6464,6 +6568,7 @@
         "Name": "Ice Dash",
         "FSLID": 1024,
         "DevName": "GA_Rime_DashForward",
+        "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6472,6 +6577,7 @@
         "Name": "Winter's Blessing",
         "FSLID": 1026,
         "DevName": "GA_Rime_DamageAsAoeHealingBuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6480,6 +6586,7 @@
         "Name": "Freezing Torrent",
         "FSLID": 1027,
         "DevName": "GA_Rime_ChanneledBeamSingleDamage",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6488,6 +6595,7 @@
         "Name": "Glacial Blast",
         "FSLID": 1028,
         "DevName": "GA_Rime_CastedProjectileDamageOrbSpender",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6496,6 +6604,7 @@
         "Name": "Frost Bolt",
         "FSLID": 1029,
         "DevName": "GA_Rime_CastedProjectileDamageFiller",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6504,6 +6613,7 @@
         "Name": "Bursting Ice",
         "FSLID": 1031,
         "DevName": "GA_Rime_CastedDebuffAoeDamage",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6512,6 +6622,7 @@
         "Name": "Ice Blitz",
         "FSLID": 1032,
         "DevName": "GA_Rime_AutoProjectileOnResourceGainBuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6544,6 +6655,7 @@
         "Name": null,
         "FSLID": 2227,
         "DevName": "GA_Rime_Util_OnTargetPulsatingAoe",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7433,6 +7545,7 @@
         "Name": "Ironleaf Ward",
         "FSLID": 116,
         "DevName": "GA_Mosse_SingleTargetCastedDamageReduction",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7446,6 +7559,7 @@
         "Name": "Enfeebling Rootsap",
         "FSLID": 1047,
         "DevName": "GA_Mosse_TurretChannelHeal",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7462,6 +7576,7 @@
         "Name": "Cure Ailment",
         "FSLID": 1054,
         "DevName": "GA_Mosse_SingleTargetDispel",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7470,6 +7585,7 @@
         "Name": "Fluttercall: Jubilee",
         "FSLID": 1055,
         "DevName": "GA_Mosse_SharedHealthBuff",
+        "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7478,6 +7594,7 @@
         "Name": "Prickly Vine",
         "FSLID": 1057,
         "DevName": "GA_Mosse_ProjectileTurrets",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7486,6 +7603,7 @@
         "Name": "Safe Haven",
         "FSLID": 1059,
         "DevName": "GA_Mosse_PlacedAoeBuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7494,6 +7612,7 @@
         "Name": "Fluttercall: Heal",
         "FSLID": 1060,
         "DevName": "GA_Mosse_PinkButterfly_Simple",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7502,6 +7621,7 @@
         "Name": "Fluttercall: Restore Life",
         "FSLID": 1061,
         "DevName": "GA_Mosse_PinkButterfly_Double",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7518,6 +7638,7 @@
         "Name": "Hidden Trail",
         "FSLID": 1071,
         "DevName": "GA_Mosse_InstantSelfEscapeBuff",
+        "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7526,6 +7647,7 @@
         "Name": "Life Petal",
         "FSLID": 1072,
         "DevName": "GA_Mosse_HealingAoeTotem",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
         "SpellGrantsCDA": false
@@ -7534,6 +7656,7 @@
         "Name": "Shroomsplosion",
         "FSLID": 1073,
         "DevName": "GA_Mosse_ExplosiveMinion",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7550,6 +7673,7 @@
         "Name": "Heart Bloom",
         "FSLID": 1075,
         "DevName": "GA_Mosse_DurationalAoeHealPlacement",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7558,6 +7682,7 @@
         "Name": "Nettlebolt",
         "FSLID": 1076,
         "DevName": "GA_Mosse_CastedSingleTargetProjectile",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7566,6 +7691,7 @@
         "Name": "Fluttercall: Protect",
         "FSLID": 1079,
         "DevName": "GA_Mosse_BlueButterfly_SendOut",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8472,6 +8598,7 @@
         "Name": "Unbreakable Will",
         "FSLID": 1218,
         "DevName": "GA_Ink_SelfDefenceBuff",
+        "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8496,6 +8623,7 @@
         "Name": "Leap Smash",
         "FSLID": 1225,
         "DevName": "GA_Ink_MoveToLocationAoeDamage",
+        "AbilityCategory": "Movement",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8504,6 +8632,7 @@
         "Name": "Pummel",
         "FSLID": 1226,
         "DevName": "GA_Ink_MeleeInterrupt",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8520,6 +8649,7 @@
         "Name": "Culling Strike",
         "FSLID": 1228,
         "DevName": "GA_Ink_LowHealthSingleTargetResourceDamage",
+        "AbilityCategory": "Power",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8528,6 +8658,7 @@
         "Name": "Skull Crusher",
         "FSLID": 1229,
         "DevName": "GA_Ink_HeavySingleTargetAttack",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8536,6 +8667,7 @@
         "Name": "Raging Tempest",
         "FSLID": 1231,
         "DevName": "GA_Ink_EnhancedChargedBuff",
+        "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8544,6 +8676,7 @@
         "Name": "Focused Wrath",
         "FSLID": 1233,
         "DevName": "GA_Ink_CostReductionBuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8552,6 +8685,7 @@
         "Name": "Wild Swing",
         "FSLID": 1234,
         "DevName": "GA_Ink_CleaveAttack",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8560,6 +8694,7 @@
         "Name": "Thunder Call",
         "FSLID": 1235,
         "DevName": "GA_Ink_ChargedBuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8576,6 +8711,7 @@
         "Name": "Chain Lightning",
         "FSLID": 1237,
         "DevName": "GA_Ink_BouncyProjectile",
+        "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8592,6 +8728,7 @@
         "Name": "Intimidate",
         "FSLID": 1241,
         "DevName": "GA_Ink_AoeFear",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8600,6 +8737,7 @@
         "Name": "Hammer Storm",
         "FSLID": 1242,
         "DevName": "GA_Ink_AoeAttack",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8616,6 +8754,7 @@
         "Name": "Heavy Strike",
         "FSLID": 1929,
         "DevName": "GA_Ink_AutoAttackBuff_InstantAttack",
+        "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8624,6 +8763,7 @@
         "Name": "Face Breaker",
         "FSLID": 2239,
         "DevName": "GA_Ink_SingleTargetHeavyNonSpender",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9311,6 +9451,7 @@
         "Name": "Radiant Blast",
         "FSLID": 109,
         "DevName": "GA_Vigor_InstantFrontalConeDamageHeal",
+        "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9319,6 +9460,7 @@
         "Name": "Circle of Light",
         "FSLID": 110,
         "DevName": "GA_Vigor_InstantAoeHeal",
+        "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9327,6 +9469,7 @@
         "Name": "Lightshaper's Ward",
         "FSLID": 111,
         "DevName": "GA_Vigor_DamageReductionAndImmunityBuff",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9335,6 +9478,7 @@
         "Name": "Greater Heal",
         "FSLID": 112,
         "DevName": "GA_Vigor_CastedSingleTargetHeal",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9343,6 +9487,7 @@
         "Name": "Dawnbreaker Orb",
         "FSLID": 992,
         "DevName": "GA_Vigor_SkillshotAoeProjectile",
+        "AbilityCategory": "Power",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9351,6 +9496,7 @@
         "Name": "Throw Book",
         "FSLID": 993,
         "DevName": "GA_Vigor_SingleTargetProjectileStun",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9359,6 +9505,7 @@
         "Name": "Soulbrand",
         "FSLID": 994,
         "DevName": "GA_Vigor_SingleTargetDot",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9367,6 +9514,7 @@
         "Name": "Rune of Renewal",
         "FSLID": 995,
         "DevName": "GA_Vigor_SingleTargetChargedHot",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9375,6 +9523,7 @@
         "Name": "Luminous Barrier",
         "FSLID": 996,
         "DevName": "GA_Vigor_SingleTargetAbsorb",
+        "AbilityCategory": "Power",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9383,6 +9532,7 @@
         "Name": "Remove Magic",
         "FSLID": 997,
         "DevName": "GA_Vigor_SingleAllyDispel",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9407,6 +9557,7 @@
         "Name": "Avatar of Light",
         "FSLID": 1000,
         "DevName": "GA_Vigor_PartyHealAndSelfBuff",
+        "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9415,6 +9566,7 @@
         "Name": "Runic Proliferation",
         "FSLID": 1001,
         "DevName": "GA_Vigor_InstantResourceGain",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9423,6 +9575,7 @@
         "Name": "Levitate",
         "FSLID": 1003,
         "DevName": "GA_Vigor_ChargedMovementSpeedSelfBuff",
+        "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9431,6 +9584,7 @@
         "Name": "Dawnflare",
         "FSLID": 1004,
         "DevName": "GA_Vigor_CastedSingleTargetDamage",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10305,6 +10459,7 @@
         "Name": "Sky Crash",
         "FSLID": 1841,
         "DevName": "GA_Sune_TargetedLeapAoe",
+        "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10313,6 +10468,7 @@
         "Name": "Taunt",
         "FSLID": 1843,
         "DevName": "GA_Sune_SingleTargetTaunt",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10321,6 +10477,7 @@
         "Name": "Interrupt",
         "FSLID": 1844,
         "DevName": "GA_Sune_SingleTargetInterrupt",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10329,6 +10486,7 @@
         "Name": "Sun Strike",
         "FSLID": 1845,
         "DevName": "GA_Sune_SingleTargetFillerMelee",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10337,6 +10495,7 @@
         "Name": "Solar Shield",
         "FSLID": 1848,
         "DevName": "GA_Sune_SingleTargetAbsorb",
+        "AbilityCategory": "Defensive",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10361,6 +10520,7 @@
         "Name": "Decree of the Sun",
         "FSLID": 1853,
         "DevName": "GA_Sune_SelfImmunityAndAoeHeal",
+        "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10377,6 +10537,7 @@
         "Name": "Ruptured Dawn",
         "FSLID": 1857,
         "DevName": "GA_Sune_InstantConeStunAndPull",
+        "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10385,6 +10546,7 @@
         "Name": "Blinding Slash",
         "FSLID": 1858,
         "DevName": "GA_Sune_InstantCleaveMelee",
+        "AbilityCategory": "Basic",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10393,6 +10555,7 @@
         "Name": "Shining Halo",
         "FSLID": 1859,
         "DevName": "GA_Sune_DroppedPulseAoe",
+        "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10401,6 +10564,7 @@
         "Name": "Brilliant Flare",
         "FSLID": 1860,
         "DevName": "GA_Sune_CastedSingleTargetHeal",
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10409,6 +10573,7 @@
         "Name": "Omega Reprieval",
         "FSLID": 1861,
         "DevName": "GA_Sune_BuffedTargetedCastedHealOrDamage",
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10417,6 +10582,7 @@
         "Name": "Solar Blades",
         "FSLID": 1862,
         "DevName": "GA_Sune_AtTargetInstantAoe",
+        "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10425,6 +10591,7 @@
         "Name": "Omnistrike",
         "FSLID": 1863,
         "DevName": "GA_Sune_AoeMelee",
+        "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10433,6 +10600,7 @@
         "Name": "Aura of Solace",
         "FSLID": 1917,
         "DevName": "GA_Sune_DamageTransferAura",
+        "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
