@@ -1344,6 +1344,12 @@
           8.0,
           8.0
         ],
+        "KnockbackImmunity.Duration": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
         "DamageIncreasePerGemPower": [
           0.0,
           0.0,

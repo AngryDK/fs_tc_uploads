@@ -9892,7 +9892,7 @@
           "Hard.IncreasingStacks.Debuff.Damage.PrimaryAttributeCoefficient": "0.25",
           "ChannelingDuration": "4.0",
           "TickInterval": "3.0",
-          "PrimaryAttributeCoefficient": "2.5",
+          "PrimaryAttributeCoefficient": "2.0",
           "PlayerDamageMultAddedPerTick": "0.02",
           "SelfRemainingHealthReductionPerTick": "0.05",
           "Spread": "0.0",
@@ -10207,12 +10207,12 @@
         }
       },
       "Mechanic": {
-        "Discovered True Sight": {
+        "Tormenting Visions": {
           "DevName": "ChannelTruesighter",
-          "InitialMinCooldown": "20.0",
-          "InitialMaxCooldown": "20.0",
-          "MinCooldown": "20.0",
-          "MaxCooldown": "20.0",
+          "InitialMinCooldown": "25.0",
+          "InitialMaxCooldown": "25.0",
+          "MinCooldown": "30.0",
+          "MaxCooldown": "30.0",
           "MinPostAbilityPadding": "0.5",
           "MaxPostAbilityPadding": "0.5",
           "Duration": "5.0",
@@ -10300,7 +10300,7 @@
         "KillScore": 0.0,
         "SpiritPointValue": null,
         "KsSpEqual": false,
-        "DefaultBaseHealthMultiplier": 1.0,
+        "DefaultBaseHealthMultiplier": 0.8,
         "Armor": null,
         "Resist": null,
         "Agility": 100.0,
@@ -10311,7 +10311,7 @@
           "Offensive": {
             "SharedHealth": {
               "DevName": "SharedHealth",
-              "DamageConversionFraction": "0.25"
+              "DamageConversionFraction": "0.35"
             }
           },
           "Control": {},

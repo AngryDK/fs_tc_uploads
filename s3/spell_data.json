@@ -14029,7 +14029,7 @@
       "EnabledInGame": true
     },
     "2142": {
-      "Name": "Discovered True Sight",
+      "Name": "Tormenting Visions",
       "FSLID": 2142,
       "DevName": "GA_ST_BossArbiter_ChannelTruesighter",
       "EnabledInGame": true
@@ -15203,6 +15203,18 @@
       "SpellCDHasted": false,
       "SpellCDAEffect": false,
       "SpellGrantsCDA": false
+    },
+    "2304": {
+      "Name": "Blood Orbs",
+      "FSLID": 2304,
+      "DevName": "GA_ST_BossArbiter_SpawnOrbs",
+      "EnabledInGame": true
+    },
+    "2305": {
+      "Name": "Shared Health",
+      "FSLID": 2305,
+      "DevName": "GA_ST_BloodOrb_SharedHealth",
+      "EnabledInGame": true
     }
   },
   "Effects": {
@@ -29947,7 +29959,7 @@
       "DevName": "GE_ST_BossArbiter_GiveTruesight_Buff"
     },
     "2985": {
-      "Name": null,
+      "Name": "Tormenting Visions",
       "FSLID": 1002985,
       "DevName": "GE_ST_BossArbiter_ChannelTruesighter_Damage"
     },
@@ -31280,6 +31292,11 @@
       "Name": "Vein Seed",
       "FSLID": 1003251,
       "DevName": "GE_ST_BossDefenseEye_ApplyDelayedAoePlacementDebuffToAll_ExplosionDamage"
+    },
+    "3252": {
+      "Name": null,
+      "FSLID": 1003252,
+      "DevName": "GE_ST_BloodOrb_SharedHealth_Damage"
     }
   }
 }

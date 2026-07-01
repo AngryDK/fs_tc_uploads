@@ -1,6 +1,6 @@
 {
   "name": "Ângry's Fellowship API-ish Dump",
-  "updated": "06-30-2026",
+  "updated": "07-01-2026",
   "live_season": "s3",
   "seasons": {
     "s2": {
@@ -27,7 +27,7 @@
       "status": "complete",
       "files": {
         "mob_data.json": {
-          "bytes": 295625
+          "bytes": 295622
         },
         "dungeon_data.json": {
           "bytes": 487783
@@ -36,15 +36,15 @@
           "bytes": 329378
         },
         "spell_data.json": {
-          "bytes": 817120
+          "bytes": 817547
         },
         "gear_data.json": {
-          "bytes": 69110
+          "bytes": 69220
         }
       },
       "notes": "S3 launched 2026-06-22. Includes the GameFeature plugin layer: 3 new keyed zones (MoorCastle/SandTomb/SnowPeak) + rosters, the Gunde hero, Blessings (Finesse) and Perks.",
-      "updated": "06-30-2026",
-      "version": "0.4.0.6"
+      "updated": "07-01-2026",
+      "version": "0.4.0.7"
     }
   }
 }
