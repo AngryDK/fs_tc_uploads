@@ -99,12 +99,14 @@
       "1007": {
         "Name": null,
         "FSLID": 1007,
-        "DevName": "GA_Shared_Passive_SpiritMechanic"
+        "DevName": "GA_Shared_Passive_SpiritMechanic",
+        "EnabledInGame": null
       },
       "1814": {
         "Name": "Intercession",
         "FSLID": 1814,
         "DevName": "GA_Lisa_TargetedAoeSilence",
+        "EnabledInGame": true,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -114,6 +116,7 @@
         "Name": "Time Skip",
         "FSLID": 1864,
         "DevName": "GA_Lisa_TeleportForward",
+        "EnabledInGame": true,
         "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -123,6 +126,7 @@
         "Name": "Entropy's Claim",
         "FSLID": 1876,
         "DevName": "GA_Lisa_SingleTargetDot",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -132,6 +136,7 @@
         "Name": "Revert Magic",
         "FSLID": 1879,
         "DevName": "GA_Lisa_SingleAllyDispel",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -141,6 +146,7 @@
         "Name": "Epoch Break",
         "FSLID": 1881,
         "DevName": "GA_Lisa_PauseResourcesAndPartyHealth",
+        "EnabledInGame": true,
         "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -150,6 +156,7 @@
         "Name": null,
         "FSLID": 1883,
         "DevName": "GA_Lisa_Passive_SpiritProcHandler",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -158,6 +165,7 @@
         "Name": null,
         "FSLID": 1885,
         "DevName": "GA_Lisa_Passive_OutgoingDamageToHealManager",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -166,6 +174,7 @@
         "Name": "Echoes of Ruin",
         "FSLID": 1887,
         "DevName": "GA_Lisa_InstantSingleTargetDamageAndDot",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -175,6 +184,7 @@
         "Name": "Time Shard",
         "FSLID": 1889,
         "DevName": "GA_Lisa_CastedSingleTargetProjectile",
+        "EnabledInGame": null,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -184,6 +194,7 @@
         "Name": "Unfolding Doom",
         "FSLID": 1890,
         "DevName": "GA_Lisa_CastedProjectileDamageIncreaseDebuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -193,6 +204,7 @@
         "Name": "Temporal Barrage",
         "FSLID": 1926,
         "DevName": "GA_Lisa_ChanneledHealOrDamageProjectiles",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -202,6 +214,7 @@
         "Name": "Flash Revision",
         "FSLID": 1927,
         "DevName": "GA_Lisa_CastedHeal",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -211,6 +224,7 @@
         "Name": null,
         "FSLID": 1963,
         "DevName": "GA_Lisa_Passive_PartyStagger_Manager",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -219,6 +233,7 @@
         "Name": "Amend Fate",
         "FSLID": 1964,
         "DevName": "GA_Lisa_SingleTargetStaggerRemovalSpender",
+        "EnabledInGame": null,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -228,6 +243,7 @@
         "Name": "Fleeting Hour",
         "FSLID": 1969,
         "DevName": "GA_Lisa_InstantSelfBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -237,6 +253,7 @@
         "Name": "Oblivion",
         "FSLID": 1970,
         "DevName": "GA_Lisa_InstantDamageSpender",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -246,6 +263,7 @@
         "Name": null,
         "FSLID": 1972,
         "DevName": "GA_Lisa_Passive_CastedHeal_HealToStagger",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -254,6 +272,7 @@
         "Name": "Restore Continuity",
         "FSLID": 1973,
         "DevName": "GA_Lisa_AoeStaggerRemovalSpender",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -263,6 +282,7 @@
         "Name": null,
         "FSLID": 2018,
         "DevName": "GA_Lisa_Passive_Talent_InstantDamageSpender_SelfBuff",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -275,7 +295,8 @@
         "DevName": "CAA_Talent_Lisa_Talent14",
         "TalentRow": 1,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "614": {
         "Name": "Erasure",
@@ -283,7 +304,8 @@
         "DevName": "CAA_Talent_Lisa_Talent20",
         "TalentRow": 1,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "554": {
         "Name": "Uchronia",
@@ -291,7 +313,8 @@
         "DevName": "CAA_Talent_Lisa_Talent16",
         "TalentRow": 1,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "539": {
         "Name": "Chrona Tap",
@@ -299,7 +322,8 @@
         "DevName": "CAA_Talent_Lisa_Talent4",
         "TalentRow": 2,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "540": {
         "Name": "Quickening",
@@ -307,7 +331,8 @@
         "DevName": "CAA_Talent_Lisa_Talent5",
         "TalentRow": 2,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "613": {
         "Name": "Kind Rewind",
@@ -315,7 +340,8 @@
         "DevName": "CAA_Talent_Lisa_Talent21",
         "TalentRow": 2,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "624": {
         "Name": "Hastening Doom",
@@ -323,7 +349,8 @@
         "DevName": "CAA_Talent_Lisa_Talent25",
         "TalentRow": 3,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "537": {
         "Name": "Synchronicity",
@@ -331,7 +358,8 @@
         "DevName": "CAA_Talent_Lisa_Talent2",
         "TalentRow": 3,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "555": {
         "Name": "Edge of Ruin",
@@ -339,7 +367,8 @@
         "DevName": "CAA_Talent_Lisa_Talent13",
         "TalentRow": 3,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "612": {
         "Name": "Surging Chrona",
@@ -347,7 +376,8 @@
         "DevName": "CAA_Talent_Lisa_Talent22",
         "TalentRow": 4,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "590": {
         "Name": "Temporal Shift",
@@ -355,7 +385,8 @@
         "DevName": "CAA_Talent_Lisa_Talent17",
         "TalentRow": 4,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "536": {
         "Name": "Resonant Fate",
@@ -363,7 +394,8 @@
         "DevName": "CAA_Talent_Lisa_Talent3",
         "TalentRow": 4,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "622": {
         "Name": "Paradoxical Twist",
@@ -371,7 +403,8 @@
         "DevName": "CAA_Talent_Lisa_Talent27",
         "TalentRow": 5,
         "TalentColumn": 1,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "611": {
         "Name": "Oblivion's Embrace",
@@ -379,7 +412,8 @@
         "DevName": "CAA_Talent_Lisa_Talent23",
         "TalentRow": 5,
         "TalentColumn": 2,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "621": {
         "Name": "Continuum Shift",
@@ -387,7 +421,8 @@
         "DevName": "CAA_Talent_Lisa_Talent28",
         "TalentRow": 5,
         "TalentColumn": 3,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "669": {
         "Name": "Karmic Dispersion",
@@ -395,7 +430,8 @@
         "DevName": "CAA_Talent_Lisa_Talent30",
         "TalentRow": 6,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "623": {
         "Name": "Echoes of Divinity",
@@ -403,7 +439,8 @@
         "DevName": "CAA_Talent_Lisa_Talent26",
         "TalentRow": 6,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "670": {
         "Name": "Vestige of Eternity",
@@ -411,7 +448,8 @@
         "DevName": "CAA_Talent_Lisa_Talent29",
         "TalentRow": 6,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       }
     },
     "Constants": {
@@ -899,12 +937,14 @@
       "1007": {
         "Name": null,
         "FSLID": 1007,
-        "DevName": "GA_Shared_Passive_SpiritMechanic"
+        "DevName": "GA_Shared_Passive_SpiritMechanic",
+        "EnabledInGame": null
       },
       "1258": {
         "Name": "Flame Ward",
         "FSLID": 1258,
         "DevName": "GA_Firemage_SelfDefenceBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -914,6 +954,7 @@
         "Name": "Fire Ball",
         "FSLID": 1260,
         "DevName": "GA_Firemage_PlacedProjectileAoe",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
@@ -923,6 +964,7 @@
         "Name": null,
         "FSLID": 1261,
         "DevName": "GA_Firemage_Passive_SpiritProcHandler",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -931,6 +973,7 @@
         "Name": "Scorch",
         "FSLID": 1263,
         "DevName": "GA_Firemage_InstantSingleInterrupt",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -940,6 +983,7 @@
         "Name": "Fireflash",
         "FSLID": 1265,
         "DevName": "GA_Firemage_InstantSingleDisorient",
+        "EnabledInGame": true,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -949,6 +993,7 @@
         "Name": "Wildfire",
         "FSLID": 1267,
         "DevName": "GA_Firemage_InstantDotSpread",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -958,6 +1003,7 @@
         "Name": "Fire Frogs",
         "FSLID": 1268,
         "DevName": "GA_Firemage_FireFrogs",
+        "EnabledInGame": null,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -967,6 +1013,7 @@
         "Name": "Flickerstep",
         "FSLID": 1269,
         "DevName": "GA_Firemage_DashForward",
+        "EnabledInGame": true,
         "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -976,6 +1023,7 @@
         "Name": "Incinerate",
         "FSLID": 1270,
         "DevName": "GA_Firemage_ChanneledForwardAoeDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -985,6 +1033,7 @@
         "Name": "Apocalypse",
         "FSLID": 1273,
         "DevName": "GA_Firemage_CastedPlacedAoe",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -994,6 +1043,7 @@
         "Name": "Detonate",
         "FSLID": 1275,
         "DevName": "GA_Firemage_CastedDotDetonate",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1003,6 +1053,7 @@
         "Name": "Infernal Wave",
         "FSLID": 1276,
         "DevName": "GA_Firemage_CastedDotBoostProjectile",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1012,6 +1063,7 @@
         "Name": "Fire Frogs",
         "FSLID": 1532,
         "DevName": "GA_Firemage_Passive_FrogDamageMonitor",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1020,6 +1072,7 @@
         "Name": "Fire Ball",
         "FSLID": 1565,
         "DevName": "GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1028,6 +1081,7 @@
         "Name": "Engulfing Flames",
         "FSLID": 1586,
         "DevName": "GA_Firemage_CastedSingleHeavyDot",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1037,6 +1091,7 @@
         "Name": "Searing Blaze",
         "FSLID": 1587,
         "DevName": "GA_Firemage_CastedSingleDot2",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1046,6 +1101,7 @@
         "Name": "Pyromania",
         "FSLID": 1623,
         "DevName": "GA_Firemage_InstantMultiTargetDot",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1059,7 +1115,8 @@
         "DevName": "CAA_Talent_Firemage_PassiveTalent9",
         "TalentRow": 1,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "158": {
         "Name": "Frog Squad",
@@ -1067,7 +1124,8 @@
         "DevName": "CAA_Talent_Firemage_FrogSquad",
         "TalentRow": 1,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "160": {
         "Name": "Great Balls of Fire",
@@ -1075,7 +1133,8 @@
         "DevName": "CAA_Talent_Firemage_PassiveTalent7",
         "TalentRow": 1,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "617": {
         "Name": "Backdraft",
@@ -1083,7 +1142,8 @@
         "DevName": "CAA_Talent_Firemage_PassiveTalent10",
         "TalentRow": 2,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "159": {
         "Name": "Flare up",
@@ -1091,7 +1151,8 @@
         "DevName": "CAA_Talent_Firemage_BurstingFlames",
         "TalentRow": 2,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "678": {
         "Name": "Apocalyptic Surge",
@@ -1099,7 +1160,8 @@
         "DevName": "CAA_Firemage_Trait1",
         "TalentRow": 2,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "145": {
         "Name": "Agonizing Blaze",
@@ -1107,7 +1169,8 @@
         "DevName": "CAA_Talent_Firemage_AgonizingBlaze",
         "TalentRow": 3,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "149": {
         "Name": "Firestarter",
@@ -1115,7 +1178,8 @@
         "DevName": "CAA_Talent_Firemage_PassiveTalent2",
         "TalentRow": 3,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "150": {
         "Name": "Undying Flame",
@@ -1123,7 +1187,8 @@
         "DevName": "CAA_Talent_Firemage_PassiveTalent3",
         "TalentRow": 3,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "676": {
         "Name": "Cascading Inferno",
@@ -1131,7 +1196,8 @@
         "DevName": "CAA_Firemage_Trait3",
         "TalentRow": 4,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "184": {
         "Name": "Crash and Burn",
@@ -1139,7 +1205,8 @@
         "DevName": "CAA_Talent_Firemage_Ouroboros",
         "TalentRow": 4,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "183": {
         "Name": "Crackling Inferno",
@@ -1147,7 +1214,8 @@
         "DevName": "CAA_Talent_Firemage_PassiveTalent11",
         "TalentRow": 4,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "226": {
         "Name": "Rolling Flames",
@@ -1155,7 +1223,8 @@
         "DevName": "CAA_Talent_Firemage_RollingFlames_New",
         "TalentRow": 5,
         "TalentColumn": 1,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "146": {
         "Name": "Pyrophibian Frenzy",
@@ -1163,7 +1232,8 @@
         "DevName": "CAA_Talent_Firemage_PyrophibianFrenzy",
         "TalentRow": 5,
         "TalentColumn": 2,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "157": {
         "Name": "Reign of Fire",
@@ -1171,7 +1241,8 @@
         "DevName": "CAA_Talent_Firemage_ReignOfFire",
         "TalentRow": 5,
         "TalentColumn": 3,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "677": {
         "Name": "Burning Initiative",
@@ -1179,7 +1250,8 @@
         "DevName": "CAA_Firemage_Trait2",
         "TalentRow": 6,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "151": {
         "Name": "Intensifying Inferno",
@@ -1187,7 +1259,8 @@
         "DevName": "CAA_Talent_Firemage_IntensifyingInferno",
         "TalentRow": 6,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "153": {
         "Name": "Spontaneous Combustion",
@@ -1195,7 +1268,8 @@
         "DevName": "CAA_Talent_Firemage_Warmth",
         "TalentRow": 6,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       }
     },
     "Constants": {
@@ -1746,6 +1820,7 @@
         "Name": "Grappling Arrow",
         "FSLID": 125,
         "DevName": "GA_Bowguy_TargetedAoePull",
+        "EnabledInGame": true,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1755,6 +1830,7 @@
         "Name": "Starfall Volley",
         "FSLID": 126,
         "DevName": "GA_Bowguy_TargetedAoeDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1763,12 +1839,14 @@
       "1007": {
         "Name": null,
         "FSLID": 1007,
-        "DevName": "GA_Shared_Passive_SpiritMechanic"
+        "DevName": "GA_Shared_Passive_SpiritMechanic",
+        "EnabledInGame": null
       },
       "1301": {
         "Name": "Celestial Shot",
         "FSLID": 1301,
         "DevName": "GA_Bowguy_SingleProjectileDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1778,6 +1856,7 @@
         "Name": "Celestial Veil",
         "FSLID": 1302,
         "DevName": "GA_Bowguy_SelfDefenceBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1787,6 +1866,7 @@
         "Name": "Shoot",
         "FSLID": 1303,
         "DevName": "GA_Bowguy_RangedAutoAttack",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1795,6 +1875,7 @@
         "Name": "Skystrider's Grace",
         "FSLID": 1304,
         "DevName": "GA_Bowguy_ProcHasteBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1804,6 +1885,7 @@
         "Name": null,
         "FSLID": 1307,
         "DevName": "GA_Bowguy_Passive_ResourceManager",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1812,6 +1894,7 @@
         "Name": "Disrupt",
         "FSLID": 1308,
         "DevName": "GA_Bowguy_InstantSingleInterrupt",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1821,6 +1904,7 @@
         "Name": "Lunarlight Salvo",
         "FSLID": 1309,
         "DevName": "GA_Bowguy_Passive_InstantMarkTarget_Monitor",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1829,6 +1913,7 @@
         "Name": "Lunarlight Mark",
         "FSLID": 1310,
         "DevName": "GA_Bowguy_InstantMarkTarget",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1838,6 +1923,7 @@
         "Name": "Roll",
         "FSLID": 1311,
         "DevName": "GA_Bowguy_ChargedMoveWithDirection",
+        "EnabledInGame": true,
         "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1847,6 +1933,7 @@
         "Name": "Heartseeker Barrage",
         "FSLID": 1312,
         "DevName": "GA_Bowguy_ChanneledMultiProjectileDebuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1856,6 +1943,7 @@
         "Name": "Highwind Arrow",
         "FSLID": 1313,
         "DevName": "GA_Bowguy_CastedProjectileHeavyDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
@@ -1865,6 +1953,7 @@
         "Name": "Focused Shot",
         "FSLID": 1315,
         "DevName": "GA_Bowguy_CastedProjectileDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1874,6 +1963,7 @@
         "Name": "Multishot",
         "FSLID": 1318,
         "DevName": "GA_Bowguy_AoeProjectileDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1883,6 +1973,7 @@
         "Name": "Skystrider's Supremacy",
         "FSLID": 1398,
         "DevName": "GA_Bowguy_SelfBuffForAoeProjectile",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1892,6 +1983,7 @@
         "Name": null,
         "FSLID": 1448,
         "DevName": "GA_Bowguy_Passive_SpiritProcHandler",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1900,6 +1992,7 @@
         "Name": "Event Horizon",
         "FSLID": 1584,
         "DevName": "GA_Bowguy_ReducedCostCooldownRecoveryBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -1913,7 +2006,8 @@
         "DevName": "CAA_Talent_Bowguy_Talent10",
         "TalentRow": 1,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "201": {
         "Name": "Piercing Seekers",
@@ -1921,7 +2015,8 @@
         "DevName": "CAA_Talent_Bowguy_Trait3",
         "TalentRow": 1,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "126": {
         "Name": "Resurgent Winds",
@@ -1929,7 +2024,8 @@
         "DevName": "CAA_Talent_Bowguy_Talent3",
         "TalentRow": 1,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "679": {
         "Name": "Deadly Focus",
@@ -1937,7 +2033,8 @@
         "DevName": "CAA_Talent_Bowguy_Talent15",
         "TalentRow": 2,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "128": {
         "Name": "Fusillade",
@@ -1945,7 +2042,8 @@
         "DevName": "CAA_Talent_Bowguy_PassiveTalent2",
         "TalentRow": 2,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "132": {
         "Name": "Skyward Munitions",
@@ -1953,7 +2051,8 @@
         "DevName": "CAA_Talent_Bowguy_Talent5",
         "TalentRow": 2,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "124": {
         "Name": "Repeating Stars",
@@ -1961,7 +2060,8 @@
         "DevName": "CAA_Talent_Bowguy_Talent1",
         "TalentRow": 3,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "130": {
         "Name": "Lunar Fury",
@@ -1969,7 +2069,8 @@
         "DevName": "CAA_Talent_Bowguy_Talent4",
         "TalentRow": 3,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "202": {
         "Name": "Lethal Shots",
@@ -1977,7 +2078,8 @@
         "DevName": "CAA_Talent_Bowguy_PassiveTalent9",
         "TalentRow": 3,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "681": {
         "Name": "Rising Moon",
@@ -1985,7 +2087,8 @@
         "DevName": "CAA_Talent_Bowguy_Talent13",
         "TalentRow": 4,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "203": {
         "Name": "Lunarlight Affinity",
@@ -1993,7 +2096,8 @@
         "DevName": "CAA_Talent_Bowguy_PassiveTalent7",
         "TalentRow": 4,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "680": {
         "Name": "Striker's Aim",
@@ -2001,7 +2105,8 @@
         "DevName": "CAA_Talent_Bowguy_Talent14",
         "TalentRow": 4,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "136": {
         "Name": "Fervent Supremacy",
@@ -2009,7 +2114,8 @@
         "DevName": "CAA_Talent_Bowguy_Talent7",
         "TalentRow": 5,
         "TalentColumn": 1,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "168": {
         "Name": "Impending Heartseeker",
@@ -2017,7 +2123,8 @@
         "DevName": "CAA_Talent_Bowguy_Talent11",
         "TalentRow": 5,
         "TalentColumn": 2,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "169": {
         "Name": "Final Crescendo",
@@ -2025,7 +2132,8 @@
         "DevName": "CAA_Talent_Bowguy_Talent12",
         "TalentRow": 5,
         "TalentColumn": 3,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "164": {
         "Name": "Last Lights",
@@ -2033,7 +2141,8 @@
         "DevName": "CAA_Talent_Bowguy_Talent8",
         "TalentRow": 6,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "682": {
         "Name": "Swift Reload",
@@ -2041,7 +2150,8 @@
         "DevName": "CAA_Talent_Bowguy_PassiveTalent10",
         "TalentRow": 6,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "200": {
         "Name": "Skylit Grace",
@@ -2049,7 +2159,8 @@
         "DevName": "CAA_Talent_Bowguy_PassiveTalent8",
         "TalentRow": 6,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       }
     },
     "Constants": {
@@ -2541,22 +2652,26 @@
       "2": {
         "Name": null,
         "FSLID": 2,
-        "DevName": "GA_Interact"
+        "DevName": "GA_Interact",
+        "EnabledInGame": null
       },
       "21": {
         "Name": null,
         "FSLID": 21,
-        "DevName": "GA_Dance"
+        "DevName": "GA_Dance",
+        "EnabledInGame": null
       },
       "1007": {
         "Name": null,
         "FSLID": 1007,
-        "DevName": "GA_Shared_Passive_SpiritMechanic"
+        "DevName": "GA_Shared_Passive_SpiritMechanic",
+        "EnabledInGame": null
       },
       "1244": {
         "Name": "Jawbreaker",
         "FSLID": 1244,
         "DevName": "GA_Gunde_SingleTargetInterrupt",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -2566,6 +2681,7 @@
         "Name": "Attack",
         "FSLID": 1249,
         "DevName": "GA_Gunde_MeleeAutoAttack",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2574,6 +2690,7 @@
         "Name": null,
         "FSLID": 1522,
         "DevName": "GA_Gunde_Passive_SpiritProcHandler",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2582,6 +2699,7 @@
         "Name": null,
         "FSLID": 2261,
         "DevName": "GA_Gunde_Util_ApplyAccumulatedDotToTarget",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2590,6 +2708,7 @@
         "Name": "Grim Carve",
         "FSLID": 2262,
         "DevName": "GA_Gunde_TargetedAoeProjectile",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -2599,6 +2718,7 @@
         "Name": "Butcher's Hook",
         "FSLID": 2284,
         "DevName": "GA_Gunde_SingleTargetPull",
+        "EnabledInGame": true,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -2608,6 +2728,7 @@
         "Name": null,
         "FSLID": 2285,
         "DevName": "GA_Gunde_Passive_PerTargetAccumulatedBleed_Monitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2616,6 +2737,7 @@
         "Name": "Reaver's Edge",
         "FSLID": 2290,
         "DevName": "GA_Gunde_InstantWhirlwindAoe",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -2625,6 +2747,7 @@
         "Name": "Blood Arc",
         "FSLID": 2291,
         "DevName": "GA_Gunde_InstantAoeWithBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -2634,6 +2757,7 @@
         "Name": "Slaughter",
         "FSLID": 2292,
         "DevName": "GA_Gunde_InstantAoeDot",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -2643,6 +2767,7 @@
         "Name": "Rupture",
         "FSLID": 2293,
         "DevName": "GA_Gunde_HeavyMeleeDotBoost",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -2652,6 +2777,7 @@
         "Name": "Heart Splitter",
         "FSLID": 2294,
         "DevName": "GA_Gunde_HeavyMeleeDotBased",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -2661,6 +2787,7 @@
         "Name": "Reign in Blood",
         "FSLID": 2295,
         "DevName": "GA_Gunde_ExtraDotDamageBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -2670,6 +2797,7 @@
         "Name": "Bloodbound Spirit",
         "FSLID": 2296,
         "DevName": "GA_Gunde_DurationalAoeDotAndBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -2679,6 +2807,7 @@
         "Name": null,
         "FSLID": 2297,
         "DevName": "GA_Gunde_Passive_DotTransfer_OrbDropper",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -2687,6 +2816,7 @@
         "Name": "Owed in Blood",
         "FSLID": 2298,
         "DevName": "GA_Gunde_DotTransfer",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -2696,6 +2826,7 @@
         "Name": "Warbound",
         "FSLID": 2299,
         "DevName": "GA_Gunde_DashAttack",
+        "EnabledInGame": true,
         "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -2705,6 +2836,7 @@
         "Name": "Reckless Abandon",
         "FSLID": 2300,
         "DevName": "GA_Gunde_DamageReductionSelfBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -2714,6 +2846,7 @@
         "Name": "Double Strike",
         "FSLID": 2301,
         "DevName": "GA_Gunde_BasicSingleTargetAttack",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -2727,7 +2860,8 @@
         "DevName": "CAA_Gunde_Trait1",
         "TalentRow": 1,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "760": {
         "Name": "Raven's Precision",
@@ -2735,7 +2869,8 @@
         "DevName": "CAA_Gunde_Trait20",
         "TalentRow": 1,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "766": {
         "Name": "Grim Harvest",
@@ -2743,7 +2878,8 @@
         "DevName": "CAA_Gunde_Trait3",
         "TalentRow": 1,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "765": {
         "Name": "Sundered Flesh",
@@ -2751,7 +2887,8 @@
         "DevName": "CAA_Gunde_Trait27",
         "TalentRow": 2,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "768": {
         "Name": "Crimson strikes",
@@ -2759,7 +2896,8 @@
         "DevName": "CAA_Gunde_Trait5",
         "TalentRow": 2,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "751": {
         "Name": "Deep Rend",
@@ -2767,7 +2905,8 @@
         "DevName": "CAA_Gunde_Trait12",
         "TalentRow": 2,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "757": {
         "Name": "Darkening Hearts",
@@ -2775,7 +2914,8 @@
         "DevName": "CAA_Gunde_Trait18",
         "TalentRow": 3,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "758": {
         "Name": "Murder of Crows",
@@ -2783,7 +2923,8 @@
         "DevName": "CAA_Gunde_Trait19",
         "TalentRow": 3,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "772": {
         "Name": "Massacre",
@@ -2791,7 +2932,8 @@
         "DevName": "CAA_Gunde_Trait9",
         "TalentRow": 3,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "763": {
         "Name": "Slayer's Grin",
@@ -2799,7 +2941,8 @@
         "DevName": "CAA_Gunde_Trait23",
         "TalentRow": 4,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "750": {
         "Name": "Frenzied Reign",
@@ -2807,7 +2950,8 @@
         "DevName": "CAA_Gunde_Trait11",
         "TalentRow": 4,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "764": {
         "Name": "Bloodbath",
@@ -2815,7 +2959,8 @@
         "DevName": "CAA_Gunde_Trait24",
         "TalentRow": 4,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "761": {
         "Name": "Bloodcraze",
@@ -2823,7 +2968,8 @@
         "DevName": "CAA_Gunde_Trait21",
         "TalentRow": 5,
         "TalentColumn": 1,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "762": {
         "Name": "Oathshatter",
@@ -2831,7 +2977,8 @@
         "DevName": "CAA_Gunde_Trait22",
         "TalentRow": 5,
         "TalentColumn": 2,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "754": {
         "Name": "Carnage",
@@ -2839,7 +2986,8 @@
         "DevName": "CAA_Gunde_Trait15",
         "TalentRow": 5,
         "TalentColumn": 3,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "749": {
         "Name": "Superior Serration",
@@ -2847,7 +2995,8 @@
         "DevName": "CAA_Gunde_Trait10",
         "TalentRow": 6,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "756": {
         "Name": "Ancestral Instinct",
@@ -2855,7 +3004,8 @@
         "DevName": "CAA_Gunde_Trait17",
         "TalentRow": 6,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "767": {
         "Name": "Harvester's Toll",
@@ -2863,7 +3013,8 @@
         "DevName": "CAA_Gunde_Trait4",
         "TalentRow": 6,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "771": {
         "Name": null,
@@ -2871,7 +3022,8 @@
         "DevName": "CAA_Gunde_Trait8",
         "TalentRow": 3,
         "TalentColumn": 4,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       }
     },
     "Constants": {
@@ -3578,6 +3730,7 @@
         "Name": null,
         "FSLID": 107,
         "DevName": "GA_Warmaster_Talent_Passive_MonitorAbilities",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3586,6 +3739,7 @@
         "Name": "Taunt",
         "FSLID": 966,
         "DevName": "GA_Warmaster_RangedTaunt",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -3595,6 +3749,7 @@
         "Name": null,
         "FSLID": 969,
         "DevName": "GA_Warmaster_Passive_BlockProcMonitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3603,6 +3758,7 @@
         "Name": null,
         "FSLID": 970,
         "DevName": "GA_Warmaster_ToughnessMonitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3611,6 +3767,7 @@
         "Name": "Iron Wall",
         "FSLID": 973,
         "DevName": "GA_Warmaster_NoResourceLossSelfBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -3620,6 +3777,7 @@
         "Name": "Charge",
         "FSLID": 974,
         "DevName": "GA_Warmaster_MoveToTargetStun",
+        "EnabledInGame": true,
         "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -3629,6 +3787,7 @@
         "Name": "Hold the Line",
         "FSLID": 975,
         "DevName": "GA_Warmaster_MoveSpeedBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
@@ -3638,6 +3797,7 @@
         "Name": "Bash",
         "FSLID": 976,
         "DevName": "GA_Warmaster_MeleeInterrupt",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -3647,6 +3807,7 @@
         "Name": "Shield Slam",
         "FSLID": 977,
         "DevName": "GA_Warmaster_MeleeCleave",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
@@ -3656,6 +3817,7 @@
         "Name": "Attack",
         "FSLID": 978,
         "DevName": "GA_Warmaster_MeleeAutoAttack",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3664,6 +3826,7 @@
         "Name": "Shockwave",
         "FSLID": 979,
         "DevName": "GA_Warmaster_MeleeAoeSlow",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -3673,6 +3836,7 @@
         "Name": "Measured Strike",
         "FSLID": 980,
         "DevName": "GA_Warmaster_LightMelee",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -3682,6 +3846,7 @@
         "Name": "Sweeping Strike",
         "FSLID": 981,
         "DevName": "GA_Warmaster_InstantMeleeCleave",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -3691,6 +3856,7 @@
         "Name": "Power Strike",
         "FSLID": 982,
         "DevName": "GA_Warmaster_HeavyMelee",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -3700,6 +3866,7 @@
         "Name": "Shields Up",
         "FSLID": 984,
         "DevName": "GA_Warmaster_DefenceBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
@@ -3709,6 +3876,7 @@
         "Name": "Shield Throw",
         "FSLID": 985,
         "DevName": "GA_Warmaster_BouncyProjectile",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -3717,12 +3885,14 @@
       "1007": {
         "Name": null,
         "FSLID": 1007,
-        "DevName": "GA_Shared_Passive_SpiritMechanic"
+        "DevName": "GA_Shared_Passive_SpiritMechanic",
+        "EnabledInGame": null
       },
       "1465": {
         "Name": "Grand Melee",
         "FSLID": 1465,
         "DevName": "GA_Warmaster_AoeIncite",
+        "EnabledInGame": true,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -3732,6 +3902,7 @@
         "Name": "Siegebreaker",
         "FSLID": 1515,
         "DevName": "GA_Warmaster_ShieldSelfBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -3741,6 +3912,7 @@
         "Name": null,
         "FSLID": 1537,
         "DevName": "GA_Warmaster_Passive_CooldownHandler",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3749,6 +3921,7 @@
         "Name": null,
         "FSLID": 1541,
         "DevName": "GA_Warmaster_MeleeAoeSlow_Triggered",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -3761,7 +3934,8 @@
         "DevName": "CAA_Talent_Warmaster_Talent2",
         "TalentRow": 1,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "208": {
         "Name": "Shield Mastery",
@@ -3769,7 +3943,8 @@
         "DevName": "CAA_Talent_Warmaster_Talent3",
         "TalentRow": 1,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "209": {
         "Name": "Sword & Board",
@@ -3777,7 +3952,8 @@
         "DevName": "CAA_Talent_Warmaster_Talent4",
         "TalentRow": 1,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "649": {
         "Name": "Lingering Rush",
@@ -3785,7 +3961,8 @@
         "DevName": "CAA_Talent_Warmaster_Talent23",
         "TalentRow": 2,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "645": {
         "Name": "Guarded Veteran",
@@ -3793,7 +3970,8 @@
         "DevName": "CAA_Warmaster_Trait4",
         "TalentRow": 2,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "644": {
         "Name": "Punishing Strikes",
@@ -3801,7 +3979,8 @@
         "DevName": "CAA_Warmaster_Trait5",
         "TalentRow": 2,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "213": {
         "Name": "Aftershock",
@@ -3809,7 +3988,8 @@
         "DevName": "CAA_Talent_Warmaster_Talent8",
         "TalentRow": 3,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "215": {
         "Name": "Sharpened Blade",
@@ -3817,7 +3997,8 @@
         "DevName": "CAA_Talent_Warmaster_Talent10",
         "TalentRow": 3,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "390": {
         "Name": "Unscarred Soul",
@@ -3825,7 +4006,8 @@
         "DevName": "CAA_Talent_Warmaster_Trait3",
         "TalentRow": 3,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "210": {
         "Name": "High Command",
@@ -3833,7 +4015,8 @@
         "DevName": "CAA_Talent_Warmaster_Talent19",
         "TalentRow": 4,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "648": {
         "Name": "Defiance",
@@ -3841,7 +4024,8 @@
         "DevName": "CAA_Warmaster_Trait1",
         "TalentRow": 4,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "214": {
         "Name": "Skull Cracker",
@@ -3849,7 +4033,8 @@
         "DevName": "CAA_Talent_Warmaster_Talent9",
         "TalentRow": 4,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "219": {
         "Name": "Second Wind",
@@ -3857,7 +4042,8 @@
         "DevName": "CAA_Talent_Warmaster_Talent14",
         "TalentRow": 5,
         "TalentColumn": 1,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "14": {
         "Name": "Martial Command",
@@ -3865,7 +4051,8 @@
         "DevName": "CAA_Talent_Warmaster_Talent1",
         "TalentRow": 5,
         "TalentColumn": 2,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "641": {
         "Name": "Gleaming Shield",
@@ -3873,7 +4060,8 @@
         "DevName": "CAA_Warmaster_Trait8",
         "TalentRow": 5,
         "TalentColumn": 3,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "646": {
         "Name": "Front Line Defender",
@@ -3881,7 +4069,8 @@
         "DevName": "CAA_Warmaster_Trait3",
         "TalentRow": 6,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "647": {
         "Name": "Master of War",
@@ -3889,7 +4078,8 @@
         "DevName": "CAA_Warmaster_Trait2",
         "TalentRow": 6,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "643": {
         "Name": "Greater Shockwave",
@@ -3897,7 +4087,8 @@
         "DevName": "CAA_Warmaster_Trait6",
         "TalentRow": 6,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       }
     },
     "Constants": {
@@ -4683,12 +4874,14 @@
       "1007": {
         "Name": null,
         "FSLID": 1007,
-        "DevName": "GA_Shared_Passive_SpiritMechanic"
+        "DevName": "GA_Shared_Passive_SpiritMechanic",
+        "EnabledInGame": null
       },
       "1128": {
         "Name": "Web Crack",
         "FSLID": 1128,
         "DevName": "GA_Mara_StunSpender",
+        "EnabledInGame": true,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -4698,6 +4891,7 @@
         "Name": "Backstab",
         "FSLID": 1129,
         "DevName": "GA_Mara_StrongerBehindAttackBuilder",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -4707,6 +4901,7 @@
         "Name": "Brooding Shadows",
         "FSLID": 1130,
         "DevName": "GA_Mara_Stealth",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
@@ -4716,6 +4911,7 @@
         "Name": null,
         "FSLID": 1132,
         "DevName": "GA_Mara_Passive_StealthMonitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4724,6 +4920,7 @@
         "Name": "Shadow Ward",
         "FSLID": 1133,
         "DevName": "GA_Mara_SelfDefenceBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -4733,6 +4930,7 @@
         "Name": null,
         "FSLID": 1134,
         "DevName": "GA_Mara_Passive_EnergyManager",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4741,6 +4939,7 @@
         "Name": "Kick",
         "FSLID": 1200,
         "DevName": "GA_Mara_MeleeInterrupt",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -4750,6 +4949,7 @@
         "Name": "Queen's Fang",
         "FSLID": 1201,
         "DevName": "GA_Mara_HeavyAttackSpender",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -4759,6 +4959,7 @@
         "Name": "Stalker Step",
         "FSLID": 1205,
         "DevName": "GA_Mara_ChargedTeleportBehindTarget",
+        "EnabledInGame": true,
         "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -4768,6 +4969,7 @@
         "Name": "Maiden of Death",
         "FSLID": 1206,
         "DevName": "GA_Mara_ChargedResourceRefillSelfBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
@@ -4777,6 +4979,7 @@
         "Name": "Widow's Bite",
         "FSLID": 1207,
         "DevName": "GA_Mara_ChargedDoubleAttackBuilder",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
@@ -4786,6 +4989,7 @@
         "Name": "Hemorrhaging Strike",
         "FSLID": 1208,
         "DevName": "GA_Mara_BleedAttackSpender",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -4795,6 +4999,7 @@
         "Name": "Attack",
         "FSLID": 1209,
         "DevName": "GA_Mara_AutoAttack",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4803,6 +5008,7 @@
         "Name": "Arachnid Assault",
         "FSLID": 1212,
         "DevName": "GA_Mara_AoeAttackSpender",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -4812,6 +5018,7 @@
         "Name": "Skittering Blades",
         "FSLID": 1213,
         "DevName": "GA_Mara_AoeAttackBuilder",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -4821,6 +5028,7 @@
         "Name": null,
         "FSLID": 1419,
         "DevName": "GA_Mara_Passive_CopySpawner",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4829,6 +5037,7 @@
         "Name": "Matriarch Macabre",
         "FSLID": 1420,
         "DevName": "GA_Mara_CopyCharacterDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -4838,6 +5047,7 @@
         "Name": null,
         "FSLID": 1447,
         "DevName": "GA_Mara_Passive_SpiritProcHandler",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -4846,10 +5056,21 @@
         "Name": "Final Stratagem",
         "FSLID": 1468,
         "DevName": "GA_Mara_ResetCooldownRefillResources",
+        "EnabledInGame": null,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
+      },
+      "2233": {
+        "Name": "Macabre Strategem",
+        "FSLID": 2233,
+        "DevName": "GA_Mara_Talent_ResetCooldownRefillResources_AbilityReplacer_NewAbility",
+        "EnabledInGame": null,
+        "SpellCDHasted": false,
+        "SpellCDAEffect": false,
+        "SpellGrantsCDA": false,
+        "GrantedByTalent": 2010000
       }
     },
     "Talents": {
@@ -4859,7 +5080,8 @@
         "DevName": "CAA_Talent_Mara_Talent1",
         "TalentRow": 1,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "206": {
         "Name": "Corrosive Spill",
@@ -4867,7 +5089,8 @@
         "DevName": "CAA_Talent_Mara_Trait3",
         "TalentRow": 1,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "422": {
         "Name": "Assassin's Guile",
@@ -4875,7 +5098,8 @@
         "DevName": "CAA_Talent_Mara_Trait1",
         "TalentRow": 1,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "163": {
         "Name": "Bloodrush",
@@ -4883,7 +5107,8 @@
         "DevName": "CAA_Talent_Mara_Talent10",
         "TalentRow": 2,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "112": {
         "Name": "Venomous Delight",
@@ -4891,7 +5116,8 @@
         "DevName": "CAA_Talent_Mara_PassiveTalent2",
         "TalentRow": 2,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "113": {
         "Name": "Efficient Killer",
@@ -4899,7 +5125,8 @@
         "DevName": "CAA_Talent_Mara_PassiveTalent3",
         "TalentRow": 2,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "122": {
         "Name": "Gushing Blood",
@@ -4907,7 +5134,8 @@
         "DevName": "CAA_Talent_Mara_Talent9",
         "TalentRow": 3,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "121": {
         "Name": "Feed the Queen",
@@ -4915,7 +5143,8 @@
         "DevName": "CAA_Talent_Mara_Talent8",
         "TalentRow": 3,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "110": {
         "Name": "Deadly Scheme",
@@ -4923,23 +5152,35 @@
         "DevName": "CAA_Talent_Mara_Talent3",
         "TalentRow": 3,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
+      },
+      "10000": {
+        "Name": "Macabre Stratagem",
+        "FSLID": 2010000,
+        "DevName": "Talent.ID.Talent8",
+        "TalentRow": 4,
+        "TalentColumn": 1,
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "442": {
         "Name": "Maiden's Doom",
         "FSLID": 2000442,
         "DevName": "CAA_Talent_Mara_Talent14",
         "TalentRow": 4,
-        "TalentColumn": 1,
-        "PointCost": 1
+        "TalentColumn": 2,
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "668": {
         "Name": "Seething Burst",
         "FSLID": 2000668,
         "DevName": "CAA_Mara_Trait1",
         "TalentRow": 4,
-        "TalentColumn": 2,
-        "PointCost": 1
+        "TalentColumn": 3,
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "666": {
         "Name": "Hemotoxin",
@@ -4947,7 +5188,8 @@
         "DevName": "CAA_Mara_Trait3",
         "TalentRow": 5,
         "TalentColumn": 1,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "586": {
         "Name": "Sinner's Pride",
@@ -4955,7 +5197,8 @@
         "DevName": "CAA_Talent_Mara_Talent16",
         "TalentRow": 5,
         "TalentColumn": 2,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "443": {
         "Name": "Malevolence",
@@ -4963,7 +5206,8 @@
         "DevName": "CAA_Talent_Mara_Talent15",
         "TalentRow": 5,
         "TalentColumn": 3,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "166": {
         "Name": "Arachnid Onslaught",
@@ -4971,7 +5215,8 @@
         "DevName": "CAA_Talent_Mara_Talent11",
         "TalentRow": 6,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "667": {
         "Name": "Caustic Wounds",
@@ -4979,7 +5224,8 @@
         "DevName": "CAA_Mara_Trait2",
         "TalentRow": 6,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "123": {
         "Name": "Puncture",
@@ -4987,7 +5233,8 @@
         "DevName": "CAA_Talent_Mara_PassiveTalent4",
         "TalentRow": 6,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       }
     },
     "Constants": {
@@ -5464,6 +5711,7 @@
         "Name": null,
         "FSLID": 117,
         "DevName": "GA_Meiko_Passive_ResourceExpertise",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5471,12 +5719,14 @@
       "1007": {
         "Name": null,
         "FSLID": 1007,
-        "DevName": "GA_Shared_Passive_SpiritMechanic"
+        "DevName": "GA_Shared_Passive_SpiritMechanic",
+        "EnabledInGame": null
       },
       "1082": {
         "Name": "Twin Souls: Bulwark",
         "FSLID": 1082,
         "DevName": "GA_Meiko_TauntTotem",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -5486,6 +5736,7 @@
         "Name": "Taunt",
         "FSLID": 1095,
         "DevName": "GA_Meiko_RangedTaunt",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -5495,6 +5746,7 @@
         "Name": "Fighting Techniques",
         "FSLID": 1099,
         "DevName": "GA_Meiko_PlaceHolderFinisher",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5503,6 +5755,7 @@
         "Name": "Earth Fist",
         "FSLID": 1100,
         "DevName": "GA_Meiko_MeleeRight",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -5512,6 +5765,7 @@
         "Name": "Spirit Palm",
         "FSLID": 1101,
         "DevName": "GA_Meiko_MeleeLeft",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -5521,6 +5775,7 @@
         "Name": "Wind Kick",
         "FSLID": 1102,
         "DevName": "GA_Meiko_MeleeDown",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -5530,6 +5785,7 @@
         "Name": "Stone Stomp",
         "FSLID": 1107,
         "DevName": "GA_Meiko_FrontalAoeDebuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -5539,6 +5795,7 @@
         "Name": null,
         "FSLID": 1108,
         "DevName": "GA_Meiko_Passive_Expertise_Tank",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5547,6 +5804,7 @@
         "Name": "Twin Souls: Army of One",
         "FSLID": 1110,
         "DevName": "GA_Meiko_DurationalMultipleTeleportDamage_New",
+        "EnabledInGame": true,
         "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -5556,6 +5814,7 @@
         "Name": "Shatter Earth",
         "FSLID": 1115,
         "DevName": "GA_Meiko_MoveToLocationAoeDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -5565,6 +5824,7 @@
         "Name": "Stagger",
         "FSLID": 1116,
         "DevName": "GA_Meiko_MeleeInterrupt",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -5574,6 +5834,7 @@
         "Name": "Attack",
         "FSLID": 1118,
         "DevName": "GA_Meiko_MeleeAutoAttack",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5582,6 +5843,7 @@
         "Name": "Serenity",
         "FSLID": 1119,
         "DevName": "GA_Meiko_InstantSelfDefensive",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -5591,6 +5853,7 @@
         "Name": "Stone Shield",
         "FSLID": 1121,
         "DevName": "GA_Meiko_Passive_DamageSoakBuff_Monitor",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5599,6 +5862,7 @@
         "Name": "Stone Shield",
         "FSLID": 1122,
         "DevName": "GA_Meiko_DamageSoakBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
@@ -5608,6 +5872,7 @@
         "Name": "Gust",
         "FSLID": 1123,
         "DevName": "GA_Meiko_ChargedForwardDash",
+        "EnabledInGame": true,
         "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -5617,6 +5882,7 @@
         "Name": "Cyclone",
         "FSLID": 1125,
         "DevName": "GA_Meiko_AoePull",
+        "EnabledInGame": true,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -5626,6 +5892,7 @@
         "Name": null,
         "FSLID": 1768,
         "DevName": "GA_Meiko_Passive_LifeSteal_Manager",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5634,6 +5901,7 @@
         "Name": null,
         "FSLID": 2021,
         "DevName": "GA_Meiko_Passive_SpiritProc_DamageSoakBuff_Manager",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -5646,7 +5914,8 @@
         "DevName": "CAA_Talent_Meiko_Talent2",
         "TalentRow": 1,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "446": {
         "Name": "Stone Guard",
@@ -5654,7 +5923,8 @@
         "DevName": "CAA_Talent_Meiko_Talent11",
         "TalentRow": 1,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "96": {
         "Name": "Earthwell",
@@ -5662,7 +5932,8 @@
         "DevName": "CAA_Talent_Meiko_Talent1",
         "TalentRow": 1,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "91": {
         "Name": "Perfect Storm",
@@ -5670,7 +5941,8 @@
         "DevName": "CAA_Talent_Meiko_Talent3",
         "TalentRow": 2,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "92": {
         "Name": "Will of Stone",
@@ -5678,7 +5950,8 @@
         "DevName": "CAA_Talent_Meiko_Talent5",
         "TalentRow": 2,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "626": {
         "Name": "Whipping Apex",
@@ -5686,7 +5959,8 @@
         "DevName": "CAA_Talent_Meiko_Talent13",
         "TalentRow": 2,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "97": {
         "Name": "Debilitating Vortex",
@@ -5694,7 +5968,8 @@
         "DevName": "CAA_Talent_Meiko_Talent6",
         "TalentRow": 3,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "514": {
         "Name": "Guardian's Fluidity",
@@ -5702,7 +5977,8 @@
         "DevName": "CAA_Talent_Meiko_Talent12",
         "TalentRow": 3,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "98": {
         "Name": "Harsh Winds",
@@ -5710,7 +5986,8 @@
         "DevName": "CAA_Talent_Meiko_PassiveTalent6",
         "TalentRow": 3,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "99": {
         "Name": "Slipstream",
@@ -5718,7 +5995,8 @@
         "DevName": "CAA_Talent_Meiko_Talent4",
         "TalentRow": 4,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "103": {
         "Name": "Earthbourne",
@@ -5726,7 +6004,8 @@
         "DevName": "CAA_Talent_Meiko_Talent8",
         "TalentRow": 4,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "106": {
         "Name": "Harmonic Residual",
@@ -5734,7 +6013,8 @@
         "DevName": "CAA_Talent_Meiko_PassiveTalent8",
         "TalentRow": 4,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "102": {
         "Name": "Warden of the Temple",
@@ -5742,7 +6022,8 @@
         "DevName": "CAA_Talent_Meiko_Talent7",
         "TalentRow": 5,
         "TalentColumn": 1,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "415": {
         "Name": "Shattering Obelisk",
@@ -5750,7 +6031,8 @@
         "DevName": "CAA_Talent_Meiko_Trait2",
         "TalentRow": 5,
         "TalentColumn": 2,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "104": {
         "Name": "Forbidden Technique",
@@ -5758,7 +6040,8 @@
         "DevName": "CAA_Talent_Meiko_Talent9",
         "TalentRow": 5,
         "TalentColumn": 3,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "174": {
         "Name": "Peacefield",
@@ -5766,7 +6049,8 @@
         "DevName": "CAA_Talent_Meiko_Talent10",
         "TalentRow": 6,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "95": {
         "Name": "Rumbling Stone",
@@ -5774,7 +6058,8 @@
         "DevName": "CAA_Talent_Meiko_PassiveTalent5",
         "TalentRow": 6,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "107": {
         "Name": "Conclusive Strikes",
@@ -5782,7 +6067,8 @@
         "DevName": "CAA_Talent_Meiko_PassiveTalent9",
         "TalentRow": 6,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       }
     },
     "Constants": {
@@ -6483,12 +6769,14 @@
       "1007": {
         "Name": null,
         "FSLID": 1007,
-        "DevName": "GA_Shared_Passive_SpiritMechanic"
+        "DevName": "GA_Shared_Passive_SpiritMechanic",
+        "EnabledInGame": null
       },
       "1009": {
         "Name": "Flight of the Navir",
         "FSLID": 1009,
         "DevName": "GA_Rime_TargetedPeriodicProjectileAoe",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6498,6 +6786,7 @@
         "Name": "Frost Ward",
         "FSLID": 1015,
         "DevName": "GA_Rime_SelfDefenceBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6507,6 +6796,7 @@
         "Name": null,
         "FSLID": 1016,
         "DevName": "GA_Rime_Passive_SpiritProcHandler",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6515,6 +6805,7 @@
         "Name": null,
         "FSLID": 1017,
         "DevName": "GA_Rime_Passive_ResourceMonitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6523,6 +6814,7 @@
         "Name": "Ice Comet",
         "FSLID": 1018,
         "DevName": "GA_Rime_OnTargetPulsatingAoe",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6532,6 +6824,7 @@
         "Name": "Brain Freeze",
         "FSLID": 1019,
         "DevName": "GA_Rime_InstantSingleInterrupt",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6541,6 +6834,7 @@
         "Name": "Cold Snap",
         "FSLID": 1020,
         "DevName": "GA_Rime_InstantSingleDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
@@ -6550,6 +6844,7 @@
         "Name": "Frigid Winds",
         "FSLID": 1021,
         "DevName": "GA_Rime_InstantConeKnockback",
+        "EnabledInGame": true,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6559,6 +6854,7 @@
         "Name": "Wrath of Winter",
         "FSLID": 1023,
         "DevName": "GA_Rime_FullResourcesSelfBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6568,6 +6864,7 @@
         "Name": "Ice Dash",
         "FSLID": 1024,
         "DevName": "GA_Rime_DashForward",
+        "EnabledInGame": true,
         "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6577,6 +6874,7 @@
         "Name": "Winter's Blessing",
         "FSLID": 1026,
         "DevName": "GA_Rime_DamageAsAoeHealingBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6586,6 +6884,7 @@
         "Name": "Freezing Torrent",
         "FSLID": 1027,
         "DevName": "GA_Rime_ChanneledBeamSingleDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6595,6 +6894,7 @@
         "Name": "Glacial Blast",
         "FSLID": 1028,
         "DevName": "GA_Rime_CastedProjectileDamageOrbSpender",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6604,6 +6904,7 @@
         "Name": "Frost Bolt",
         "FSLID": 1029,
         "DevName": "GA_Rime_CastedProjectileDamageFiller",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6613,6 +6914,7 @@
         "Name": "Bursting Ice",
         "FSLID": 1031,
         "DevName": "GA_Rime_CastedDebuffAoeDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6622,6 +6924,7 @@
         "Name": "Ice Blitz",
         "FSLID": 1032,
         "DevName": "GA_Rime_AutoProjectileOnResourceGainBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6631,6 +6934,7 @@
         "Name": "Frost Swallows",
         "FSLID": 1033,
         "DevName": "GA_Rime_Helper_AutoDamageProjectile",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6639,6 +6943,7 @@
         "Name": "Talon's Edict",
         "FSLID": 1555,
         "DevName": "GA_Rime_Passive_Talent_AutoDamageProjectile_ExplodingCrits_CritMonitor",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -6647,14 +6952,38 @@
         "Name": null,
         "FSLID": 1573,
         "DevName": "GA_Rime_Passive_Talent_SpecifiedAbilityHitsReduceCooldown_HitMonitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
+      },
+      "2223": {
+        "Name": "Talon Strike",
+        "FSLID": 2223,
+        "DevName": "GA_Rime_Talent_SpendersSwap_SingleTarget",
+        "EnabledInGame": true,
+        "AbilityCategory": "Power",
+        "SpellCDHasted": false,
+        "SpellCDAEffect": false,
+        "SpellGrantsCDA": false,
+        "GrantedByTalent": 2000658
+      },
+      "2224": {
+        "Name": "Rising Talons",
+        "FSLID": 2224,
+        "DevName": "GA_Rime_Talent_SpendersSwap_MultiTargets",
+        "EnabledInGame": true,
+        "AbilityCategory": "Power",
+        "SpellCDHasted": false,
+        "SpellCDAEffect": false,
+        "SpellGrantsCDA": false,
+        "GrantedByTalent": 2000658
       },
       "2227": {
         "Name": null,
         "FSLID": 2227,
         "DevName": "GA_Rime_Util_OnTargetPulsatingAoe",
+        "EnabledInGame": null,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -6668,7 +6997,8 @@
         "DevName": "CAA_Talent_Rime_Avalanche",
         "TalentRow": 1,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "36": {
         "Name": "Coalescing Frost",
@@ -6676,7 +7006,8 @@
         "DevName": "CAA_Talent_Rime_Chillblain",
         "TalentRow": 1,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "38": {
         "Name": "Glacial Assault",
@@ -6684,7 +7015,8 @@
         "DevName": "CAA_Talent_Rime_GlacialAssault",
         "TalentRow": 1,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "657": {
         "Name": "Cold Shower",
@@ -6692,7 +7024,8 @@
         "DevName": "CAA_Talent_Rime_Talent",
         "TalentRow": 2,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "43": {
         "Name": "Chilling Finesse",
@@ -6700,7 +7033,8 @@
         "DevName": "CAA_Talent_Rime_UnrelentingIce",
         "TalentRow": 2,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "193": {
         "Name": "Burstbolter",
@@ -6708,7 +7042,8 @@
         "DevName": "CAA_Talent_Rime_PassiveTalent17",
         "TalentRow": 2,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "192": {
         "Name": "Cascading Blitz",
@@ -6716,7 +7051,8 @@
         "DevName": "CAA_Talent_Rime_PassiveTalent16",
         "TalentRow": 3,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "627": {
         "Name": "Harrowing Ice",
@@ -6724,7 +7060,8 @@
         "DevName": "CAA_Talent_Rime_PassiveTalent22",
         "TalentRow": 3,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "44": {
         "Name": "Icy Flow",
@@ -6732,7 +7069,8 @@
         "DevName": "CAA_Talent_Rime_IcyFlow",
         "TalentRow": 3,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "628": {
         "Name": "Bursting Swallows",
@@ -6740,7 +7078,8 @@
         "DevName": "CAA_Talent_Rime_PassiveTalent21",
         "TalentRow": 4,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "190": {
         "Name": "Greater Glacial Blast",
@@ -6748,7 +7087,8 @@
         "DevName": "CAA_Talent_Rime_PassiveTalent13",
         "TalentRow": 4,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "189": {
         "Name": "Navir's Keeper",
@@ -6756,7 +7096,8 @@
         "DevName": "CAA_Talent_Rime_PassiveTalent12",
         "TalentRow": 4,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "658": {
         "Name": "Icy Talons",
@@ -6764,7 +7105,8 @@
         "DevName": "CAA_Rime_Trait1",
         "TalentRow": 5,
         "TalentColumn": 1,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "191": {
         "Name": "Frostweaver's Wrath",
@@ -6772,7 +7114,8 @@
         "DevName": "CAA_Talent_Rime_ChanceOnOrbGain_NextSpenderCritIncrease",
         "TalentRow": 5,
         "TalentColumn": 2,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "195": {
         "Name": "Soulfrost Torrent",
@@ -6780,7 +7123,8 @@
         "DevName": "CAA_Talent_Rime_PassiveTalent19",
         "TalentRow": 5,
         "TalentColumn": 3,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "51": {
         "Name": "Biting Cold",
@@ -6788,7 +7132,8 @@
         "DevName": "CAA_Talent_Rime_PassiveTalent7",
         "TalentRow": 6,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "527": {
         "Name": "Supreme Torrent",
@@ -6796,7 +7141,8 @@
         "DevName": "CAA_Talent_Rime_PassiveTalent20",
         "TalentRow": 6,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "49": {
         "Name": "Wisdom of the North",
@@ -6804,7 +7150,8 @@
         "DevName": "CAA_Talent_Rime_WisdomOfTheNorth",
         "TalentRow": 6,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       }
     },
     "Constants": {
@@ -7545,6 +7892,7 @@
         "Name": "Ironleaf Ward",
         "FSLID": 116,
         "DevName": "GA_Mosse_SingleTargetCastedDamageReduction",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7553,12 +7901,14 @@
       "1007": {
         "Name": null,
         "FSLID": 1007,
-        "DevName": "GA_Shared_Passive_SpiritMechanic"
+        "DevName": "GA_Shared_Passive_SpiritMechanic",
+        "EnabledInGame": null
       },
       "1047": {
         "Name": "Enfeebling Rootsap",
         "FSLID": 1047,
         "DevName": "GA_Mosse_TurretChannelHeal",
+        "EnabledInGame": true,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7568,6 +7918,7 @@
         "Name": null,
         "FSLID": 1052,
         "DevName": "GA_Mosse_Passive_Talent_CastedSingleTargetProjectile_HealTotemCDRed",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7576,6 +7927,7 @@
         "Name": "Cure Ailment",
         "FSLID": 1054,
         "DevName": "GA_Mosse_SingleTargetDispel",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7585,6 +7937,7 @@
         "Name": "Fluttercall: Jubilee",
         "FSLID": 1055,
         "DevName": "GA_Mosse_SharedHealthBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7594,6 +7947,7 @@
         "Name": "Prickly Vine",
         "FSLID": 1057,
         "DevName": "GA_Mosse_ProjectileTurrets",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7603,6 +7957,7 @@
         "Name": "Safe Haven",
         "FSLID": 1059,
         "DevName": "GA_Mosse_PlacedAoeBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7612,6 +7967,7 @@
         "Name": "Fluttercall: Heal",
         "FSLID": 1060,
         "DevName": "GA_Mosse_PinkButterfly_Simple",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7621,6 +7977,7 @@
         "Name": "Fluttercall: Restore Life",
         "FSLID": 1061,
         "DevName": "GA_Mosse_PinkButterfly_Double",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7630,6 +7987,7 @@
         "Name": null,
         "FSLID": 1063,
         "DevName": "GA_Mosse_Passive_SpiritProcHandler",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7638,6 +7996,7 @@
         "Name": "Hidden Trail",
         "FSLID": 1071,
         "DevName": "GA_Mosse_InstantSelfEscapeBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7647,6 +8006,7 @@
         "Name": "Life Petal",
         "FSLID": 1072,
         "DevName": "GA_Mosse_HealingAoeTotem",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": true,
@@ -7656,6 +8016,7 @@
         "Name": "Shroomsplosion",
         "FSLID": 1073,
         "DevName": "GA_Mosse_ExplosiveMinion",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7665,6 +8026,7 @@
         "Name": null,
         "FSLID": 1074,
         "DevName": "GA_Mosse_DurationalAoeHealPlacement_PassiveHealingMonitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7673,6 +8035,7 @@
         "Name": "Heart Bloom",
         "FSLID": 1075,
         "DevName": "GA_Mosse_DurationalAoeHealPlacement",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7682,6 +8045,7 @@
         "Name": "Nettlebolt",
         "FSLID": 1076,
         "DevName": "GA_Mosse_CastedSingleTargetProjectile",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7691,6 +8055,7 @@
         "Name": "Fluttercall: Protect",
         "FSLID": 1079,
         "DevName": "GA_Mosse_BlueButterfly_SendOut",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -7700,6 +8065,7 @@
         "Name": null,
         "FSLID": 1445,
         "DevName": "GA_Mosse_Passive_ExplosiveMinions_Activation",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7708,6 +8074,7 @@
         "Name": null,
         "FSLID": 1464,
         "DevName": "GA_Mosse_Passive_ProjectileTurrets_Spawner",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7716,6 +8083,7 @@
         "Name": null,
         "FSLID": 1956,
         "DevName": "GA_Mosse_Passive_PartyStaminaBuff",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -7728,7 +8096,8 @@
         "DevName": "CAA_Talent_Mosse_Talent14",
         "TalentRow": 1,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "20": {
         "Name": "Synchronized Fluttering",
@@ -7736,7 +8105,8 @@
         "DevName": "CAA_Talent_Mosse_Talent2",
         "TalentRow": 1,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "170": {
         "Name": "Verdant Restoration",
@@ -7744,7 +8114,8 @@
         "DevName": "CAA_Talent_Mosse_Talent10",
         "TalentRow": 1,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "32": {
         "Name": "Bloomin' Boomshrooms",
@@ -7752,7 +8123,8 @@
         "DevName": "CAA_Talent_Mosse_Talent9",
         "TalentRow": 2,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "198": {
         "Name": "Natural Knowledge",
@@ -7760,7 +8132,8 @@
         "DevName": "CAA_Talent_Mosse_Talent17",
         "TalentRow": 2,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "662": {
         "Name": "Every Other Flutter",
@@ -7768,7 +8141,8 @@
         "DevName": "CAA_Mosse_Trait3",
         "TalentRow": 2,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "661": {
         "Name": "Symbiosis",
@@ -7776,7 +8150,8 @@
         "DevName": "CAA_Talent_Mosse_Talent18",
         "TalentRow": 3,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "664": {
         "Name": "Saving Grace",
@@ -7784,7 +8159,8 @@
         "DevName": "CAA_Mosse_Trait1",
         "TalentRow": 3,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "660": {
         "Name": "Shimmering Wings",
@@ -7792,7 +8168,8 @@
         "DevName": "CAA_Talent_Mosse_Talent19",
         "TalentRow": 3,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "659": {
         "Name": "Sprouting Nettles",
@@ -7800,7 +8177,8 @@
         "DevName": "CAA_Talent_Mosse_Talent20",
         "TalentRow": 4,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "197": {
         "Name": "Nurtured Haven",
@@ -7808,7 +8186,8 @@
         "DevName": "CAA_Talent_Mosse_Talent15",
         "TalentRow": 4,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "26": {
         "Name": "Bluey's Gambit",
@@ -7816,7 +8195,8 @@
         "DevName": "CAA_Talent_Mosse_Talent6",
         "TalentRow": 4,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "173": {
         "Name": "Natural Protector",
@@ -7824,7 +8204,8 @@
         "DevName": "CAA_Talent_Mosse_Talent12",
         "TalentRow": 5,
         "TalentColumn": 1,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "23": {
         "Name": "Flutterswift",
@@ -7832,7 +8213,8 @@
         "DevName": "CAA_Talent_Mosse_PassiveTalent2",
         "TalentRow": 5,
         "TalentColumn": 2,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "31": {
         "Name": "Flower Power",
@@ -7841,6 +8223,7 @@
         "TalentRow": 5,
         "TalentColumn": 3,
         "PointCost": 3,
+        "EnabledInGame": true,
         "FlipsSpellCDA": 1075
       },
       "196": {
@@ -7849,7 +8232,8 @@
         "DevName": "CAA_Talent_Mosse_Talent16",
         "TalentRow": 6,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "172": {
         "Name": "Trailing Restoration",
@@ -7857,7 +8241,8 @@
         "DevName": "CAA_Talent_Mosse_Talent13",
         "TalentRow": 6,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "663": {
         "Name": "In Bloom",
@@ -7865,7 +8250,8 @@
         "DevName": "CAA_Mosse_Trait2",
         "TalentRow": 6,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       }
     },
     "Constants": {
@@ -8585,6 +8971,7 @@
         "Name": null,
         "FSLID": 124,
         "DevName": "GA_Ink_Passive_CleaveAttack_Monitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8592,12 +8979,14 @@
       "1007": {
         "Name": null,
         "FSLID": 1007,
-        "DevName": "GA_Shared_Passive_SpiritMechanic"
+        "DevName": "GA_Shared_Passive_SpiritMechanic",
+        "EnabledInGame": null
       },
       "1218": {
         "Name": "Unbreakable Will",
         "FSLID": 1218,
         "DevName": "GA_Ink_SelfDefenceBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -8607,6 +8996,7 @@
         "Name": null,
         "FSLID": 1221,
         "DevName": "GA_Ink_Passive_SwingTimerMonitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8615,6 +9005,7 @@
         "Name": null,
         "FSLID": 1223,
         "DevName": "GA_Ink_Passive_RageManager",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8623,6 +9014,7 @@
         "Name": "Leap Smash",
         "FSLID": 1225,
         "DevName": "GA_Ink_MoveToLocationAoeDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Movement",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -8632,6 +9024,7 @@
         "Name": "Pummel",
         "FSLID": 1226,
         "DevName": "GA_Ink_MeleeInterrupt",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -8641,6 +9034,7 @@
         "Name": "Attack",
         "FSLID": 1227,
         "DevName": "GA_Ink_MeleeAutoAttack",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8649,6 +9043,7 @@
         "Name": "Culling Strike",
         "FSLID": 1228,
         "DevName": "GA_Ink_LowHealthSingleTargetResourceDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -8658,6 +9053,7 @@
         "Name": "Skull Crusher",
         "FSLID": 1229,
         "DevName": "GA_Ink_HeavySingleTargetAttack",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -8667,6 +9063,7 @@
         "Name": "Raging Tempest",
         "FSLID": 1231,
         "DevName": "GA_Ink_EnhancedChargedBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -8676,6 +9073,7 @@
         "Name": "Focused Wrath",
         "FSLID": 1233,
         "DevName": "GA_Ink_CostReductionBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -8685,6 +9083,7 @@
         "Name": "Wild Swing",
         "FSLID": 1234,
         "DevName": "GA_Ink_CleaveAttack",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -8694,6 +9093,7 @@
         "Name": "Thunder Call",
         "FSLID": 1235,
         "DevName": "GA_Ink_ChargedBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -8703,6 +9103,7 @@
         "Name": null,
         "FSLID": 1236,
         "DevName": "GA_Ink_Passive_BouncyProjectile_ChainDamage",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8711,6 +9112,7 @@
         "Name": "Chain Lightning",
         "FSLID": 1237,
         "DevName": "GA_Ink_BouncyProjectile",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -8720,6 +9122,7 @@
         "Name": null,
         "FSLID": 1238,
         "DevName": "GA_Ink_Passive_AutoAttackBuff_Monitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8728,6 +9131,7 @@
         "Name": "Intimidate",
         "FSLID": 1241,
         "DevName": "GA_Ink_AoeFear",
+        "EnabledInGame": true,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -8737,6 +9141,7 @@
         "Name": "Hammer Storm",
         "FSLID": 1242,
         "DevName": "GA_Ink_AoeAttack",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -8746,6 +9151,7 @@
         "Name": null,
         "FSLID": 1466,
         "DevName": "GA_Ink_Passive_SpiritProcHandler",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8754,6 +9160,7 @@
         "Name": "Heavy Strike",
         "FSLID": 1929,
         "DevName": "GA_Ink_AutoAttackBuff_InstantAttack",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -8763,6 +9170,7 @@
         "Name": "Face Breaker",
         "FSLID": 2239,
         "DevName": "GA_Ink_SingleTargetHeavyNonSpender",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -8772,6 +9180,7 @@
         "Name": null,
         "FSLID": 2240,
         "DevName": "GA_Ink_Passive_SingleTargetHeavyNonSpender_Monitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8780,6 +9189,7 @@
         "Name": "Face Breaker",
         "FSLID": 2241,
         "DevName": "GA_Ink_Passive_SingleTargetHeavyNonSpender_CritAoe_Monitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8792,7 +9202,8 @@
         "DevName": "CAA_Talent_Ink_Talent2",
         "TalentRow": 1,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "87": {
         "Name": "Ride the Lightning",
@@ -8800,7 +9211,8 @@
         "DevName": "CAA_Talent_Ink_Talent7",
         "TalentRow": 1,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "673": {
         "Name": "Square Hammer",
@@ -8808,7 +9220,8 @@
         "DevName": "CAA_Talent_Ink_Trait7",
         "TalentRow": 1,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "441": {
         "Name": "High Road",
@@ -8816,7 +9229,8 @@
         "DevName": "CAA_Talent_Ink_Talent10",
         "TalentRow": 2,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "74": {
         "Name": "Blood & Thunder",
@@ -8824,7 +9238,8 @@
         "DevName": "CAA_Talent_Ink_Talent3",
         "TalentRow": 2,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "76": {
         "Name": "Bloodline",
@@ -8832,7 +9247,8 @@
         "DevName": "CAA_Talent_Ink_Talent6",
         "TalentRow": 2,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "672": {
         "Name": "The Motherload",
@@ -8840,7 +9256,8 @@
         "DevName": "CAA_Talent_Ink_Trait8",
         "TalentRow": 3,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "80": {
         "Name": "Mouth for War",
@@ -8848,7 +9265,8 @@
         "DevName": "CAA_Talent_Ink_Talent5",
         "TalentRow": 3,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "89": {
         "Name": "Thunderstruck",
@@ -8856,7 +9274,8 @@
         "DevName": "CAA_Talent_Ink_PassiveTalent8",
         "TalentRow": 3,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "81": {
         "Name": "Pneuma",
@@ -8864,7 +9283,8 @@
         "DevName": "CAA_Talent_Ink_PassiveTalent4",
         "TalentRow": 4,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "78": {
         "Name": "Sledgehammer",
@@ -8872,7 +9292,8 @@
         "DevName": "CAA_Talent_Ink_Talent4",
         "TalentRow": 4,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "79": {
         "Name": "Far Beyond Driven",
@@ -8880,7 +9301,8 @@
         "DevName": "CAA_Talent_Ink_Talent8",
         "TalentRow": 4,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "671": {
         "Name": "Kill Em All",
@@ -8888,7 +9310,8 @@
         "DevName": "CAA_Talent_Ink_Trait9",
         "TalentRow": 5,
         "TalentColumn": 1,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "675": {
         "Name": "Ace of Spades",
@@ -8897,6 +9320,7 @@
         "TalentRow": 5,
         "TalentColumn": 2,
         "PointCost": 3,
+        "EnabledInGame": true,
         "FlipsSpellCDA": 1237
       },
       "85": {
@@ -8905,7 +9329,8 @@
         "DevName": "CAA_Talent_Ink_Talent9",
         "TalentRow": 5,
         "TalentColumn": 3,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "75": {
         "Name": "Them Bones",
@@ -8913,7 +9338,8 @@
         "DevName": "CAA_Talent_Ink_PassiveTalent1",
         "TalentRow": 6,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "77": {
         "Name": "Crack the Sky",
@@ -8921,7 +9347,8 @@
         "DevName": "CAA_Talent_Ink_PassiveTalent7",
         "TalentRow": 6,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "82": {
         "Name": "Killing in the Name",
@@ -8929,7 +9356,8 @@
         "DevName": "CAA_Talent_Ink_PassiveTalent6",
         "TalentRow": 6,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       }
     },
     "Constants": {
@@ -9451,6 +9879,7 @@
         "Name": "Radiant Blast",
         "FSLID": 109,
         "DevName": "GA_Vigor_InstantFrontalConeDamageHeal",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -9460,6 +9889,7 @@
         "Name": "Circle of Light",
         "FSLID": 110,
         "DevName": "GA_Vigor_InstantAoeHeal",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -9469,6 +9899,7 @@
         "Name": "Lightshaper's Ward",
         "FSLID": 111,
         "DevName": "GA_Vigor_DamageReductionAndImmunityBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -9478,6 +9909,7 @@
         "Name": "Greater Heal",
         "FSLID": 112,
         "DevName": "GA_Vigor_CastedSingleTargetHeal",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -9487,6 +9919,7 @@
         "Name": "Dawnbreaker Orb",
         "FSLID": 992,
         "DevName": "GA_Vigor_SkillshotAoeProjectile",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -9496,6 +9929,7 @@
         "Name": "Throw Book",
         "FSLID": 993,
         "DevName": "GA_Vigor_SingleTargetProjectileStun",
+        "EnabledInGame": null,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -9505,6 +9939,7 @@
         "Name": "Soulbrand",
         "FSLID": 994,
         "DevName": "GA_Vigor_SingleTargetDot",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -9514,6 +9949,7 @@
         "Name": "Rune of Renewal",
         "FSLID": 995,
         "DevName": "GA_Vigor_SingleTargetChargedHot",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -9523,6 +9959,7 @@
         "Name": "Luminous Barrier",
         "FSLID": 996,
         "DevName": "GA_Vigor_SingleTargetAbsorb",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -9532,6 +9969,7 @@
         "Name": "Remove Magic",
         "FSLID": 997,
         "DevName": "GA_Vigor_SingleAllyDispel",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -9541,6 +9979,7 @@
         "Name": null,
         "FSLID": 998,
         "DevName": "GA_Vigor_Passive_SpiritProcHandler",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9549,6 +9988,7 @@
         "Name": "Rune of Renewal",
         "FSLID": 999,
         "DevName": "GA_Vigor_Passive_Echo_Monitor",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9557,6 +9997,7 @@
         "Name": "Avatar of Light",
         "FSLID": 1000,
         "DevName": "GA_Vigor_PartyHealAndSelfBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -9566,6 +10007,7 @@
         "Name": "Runic Proliferation",
         "FSLID": 1001,
         "DevName": "GA_Vigor_InstantResourceGain",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -9575,6 +10017,7 @@
         "Name": "Levitate",
         "FSLID": 1003,
         "DevName": "GA_Vigor_ChargedMovementSpeedSelfBuff",
+        "EnabledInGame": true,
         "AbilityCategory": "Defensive",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -9584,6 +10027,7 @@
         "Name": "Dawnflare",
         "FSLID": 1004,
         "DevName": "GA_Vigor_CastedSingleTargetDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -9592,12 +10036,14 @@
       "1007": {
         "Name": null,
         "FSLID": 1007,
-        "DevName": "GA_Shared_Passive_SpiritMechanic"
+        "DevName": "GA_Shared_Passive_SpiritMechanic",
+        "EnabledInGame": null
       },
       "1906": {
         "Name": null,
         "FSLID": 1906,
         "DevName": "GA_Vigor_Passive_AbsorbMonitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -9610,7 +10056,8 @@
         "DevName": "CAA_Talent_Vigor_Talent7",
         "TalentRow": 1,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "448": {
         "Name": "Enduring Light",
@@ -9618,7 +10065,8 @@
         "DevName": "CAA_Talent_Vigor_Talent14",
         "TalentRow": 1,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "654": {
         "Name": "Radiant Soul",
@@ -9626,7 +10074,8 @@
         "DevName": "CAA_Talent_Vigor_Talent18",
         "TalentRow": 1,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "59": {
         "Name": "Alacritous Healing",
@@ -9634,7 +10083,8 @@
         "DevName": "CAA_Talent_Vigor_PassiveTalent9",
         "TalentRow": 2,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "62": {
         "Name": "Ruptured Soul",
@@ -9642,7 +10092,8 @@
         "DevName": "CAA_Talent_Vigor_Talent3",
         "TalentRow": 2,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "61": {
         "Name": "Expansive Mind",
@@ -9650,7 +10101,8 @@
         "DevName": "CAA_Talent_Vigor_Talent6",
         "TalentRow": 2,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "566": {
         "Name": "Sacred Barrier",
@@ -9658,7 +10110,8 @@
         "DevName": "CAA_Talent_Vigor_Talent16",
         "TalentRow": 3,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "393": {
         "Name": "Ceremony of Light",
@@ -9666,7 +10119,8 @@
         "DevName": "CAA_Talent_Vigor_Trait3",
         "TalentRow": 3,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "655": {
         "Name": "Dawn Strider",
@@ -9674,7 +10128,8 @@
         "DevName": "CAA_Talent_Vigor_Talent17",
         "TalentRow": 3,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "56": {
         "Name": "Enlightened Soul",
@@ -9682,7 +10137,8 @@
         "DevName": "CAA_Talent_Vigor_PassiveTalent7",
         "TalentRow": 4,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "651": {
         "Name": "Shining Blast",
@@ -9690,7 +10146,8 @@
         "DevName": "CAA_Vigor_Trait1",
         "TalentRow": 4,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "656": {
         "Name": "Greater Renewal",
@@ -9698,7 +10155,8 @@
         "DevName": "CAA_Talent_Vigor_PassiveTalent11",
         "TalentRow": 4,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "653": {
         "Name": "Grand Proliferation",
@@ -9706,7 +10164,8 @@
         "DevName": "CAA_Talent_Vigor_Talent19",
         "TalentRow": 5,
         "TalentColumn": 1,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "181": {
         "Name": "Ascending Avatar",
@@ -9714,7 +10173,8 @@
         "DevName": "CAA_Talent_Vigor_Talent10",
         "TalentRow": 5,
         "TalentColumn": 2,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "179": {
         "Name": "Meticulous Runesmith",
@@ -9722,7 +10182,8 @@
         "DevName": "CAA_Talent_Vigor_Talent12",
         "TalentRow": 5,
         "TalentColumn": 3,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "650": {
         "Name": "Divine Light",
@@ -9730,7 +10191,8 @@
         "DevName": "CAA_Vigor_Trait2",
         "TalentRow": 6,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "71": {
         "Name": "Runic Revelations",
@@ -9738,7 +10200,8 @@
         "DevName": "CAA_Talent_Vigor_PassiveTalent4",
         "TalentRow": 6,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "65": {
         "Name": "Beacon in the Dark",
@@ -9746,7 +10209,8 @@
         "DevName": "CAA_Talent_Vigor_Talent4",
         "TalentRow": 6,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       }
     },
     "Constants": {
@@ -10453,12 +10917,14 @@
       "1007": {
         "Name": null,
         "FSLID": 1007,
-        "DevName": "GA_Shared_Passive_SpiritMechanic"
+        "DevName": "GA_Shared_Passive_SpiritMechanic",
+        "EnabledInGame": null
       },
       "1841": {
         "Name": "Sky Crash",
         "FSLID": 1841,
         "DevName": "GA_Sune_TargetedLeapAoe",
+        "EnabledInGame": true,
         "AbilityCategory": "Movement",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -10468,6 +10934,7 @@
         "Name": "Taunt",
         "FSLID": 1843,
         "DevName": "GA_Sune_SingleTargetTaunt",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -10477,6 +10944,7 @@
         "Name": "Interrupt",
         "FSLID": 1844,
         "DevName": "GA_Sune_SingleTargetInterrupt",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -10486,6 +10954,7 @@
         "Name": "Sun Strike",
         "FSLID": 1845,
         "DevName": "GA_Sune_SingleTargetFillerMelee",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -10495,6 +10964,7 @@
         "Name": "Solar Shield",
         "FSLID": 1848,
         "DevName": "GA_Sune_SingleTargetAbsorb",
+        "EnabledInGame": true,
         "AbilityCategory": "Defensive",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -10504,6 +10974,7 @@
         "Name": null,
         "FSLID": 1849,
         "DevName": "GA_Sune_Passive_SpiritProcHandler",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10512,6 +10983,7 @@
         "Name": null,
         "FSLID": 1850,
         "DevName": "GA_Sune_Passive_Mechanics",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10520,6 +10992,7 @@
         "Name": "Decree of the Sun",
         "FSLID": 1853,
         "DevName": "GA_Sune_SelfImmunityAndAoeHeal",
+        "EnabledInGame": true,
         "AbilityCategory": "Spirit",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -10529,6 +11002,7 @@
         "Name": "Attack",
         "FSLID": 1854,
         "DevName": "GA_Sune_MeleeAutoAttack",
+        "EnabledInGame": true,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10537,6 +11011,7 @@
         "Name": "Ruptured Dawn",
         "FSLID": 1857,
         "DevName": "GA_Sune_InstantConeStunAndPull",
+        "EnabledInGame": true,
         "AbilityCategory": "Control",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -10546,6 +11021,7 @@
         "Name": "Blinding Slash",
         "FSLID": 1858,
         "DevName": "GA_Sune_InstantCleaveMelee",
+        "EnabledInGame": true,
         "AbilityCategory": "Basic",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -10555,6 +11031,7 @@
         "Name": "Shining Halo",
         "FSLID": 1859,
         "DevName": "GA_Sune_DroppedPulseAoe",
+        "EnabledInGame": true,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -10564,6 +11041,7 @@
         "Name": "Brilliant Flare",
         "FSLID": 1860,
         "DevName": "GA_Sune_CastedSingleTargetHeal",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -10573,6 +11051,7 @@
         "Name": "Omega Reprieval",
         "FSLID": 1861,
         "DevName": "GA_Sune_BuffedTargetedCastedHealOrDamage",
+        "EnabledInGame": true,
         "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -10582,6 +11061,7 @@
         "Name": "Solar Blades",
         "FSLID": 1862,
         "DevName": "GA_Sune_AtTargetInstantAoe",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -10591,6 +11071,7 @@
         "Name": "Omnistrike",
         "FSLID": 1863,
         "DevName": "GA_Sune_AoeMelee",
+        "EnabledInGame": true,
         "AbilityCategory": "Core",
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
@@ -10600,6 +11081,7 @@
         "Name": "Aura of Solace",
         "FSLID": 1917,
         "DevName": "GA_Sune_DamageTransferAura",
+        "EnabledInGame": true,
         "AbilityCategory": "Utility",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
@@ -10609,6 +11091,7 @@
         "Name": null,
         "FSLID": 1955,
         "DevName": "GA_Sune_Passive_Talent_DroppedPulseAoe_ActiveDurationExtension_Monitor",
+        "EnabledInGame": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -10621,7 +11104,8 @@
         "DevName": "CAA_Talent_Sune_Talent20",
         "TalentRow": 1,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "571": {
         "Name": "Grand Halo",
@@ -10629,7 +11113,8 @@
         "DevName": "CAA_Talent_Sune_Talent5",
         "TalentRow": 1,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "570": {
         "Name": "Solar Burn",
@@ -10637,7 +11122,8 @@
         "DevName": "CAA_Talent_Sune_Talent6",
         "TalentRow": 1,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "572": {
         "Name": "Tempered Descent",
@@ -10645,7 +11131,8 @@
         "DevName": "CAA_Talent_Sune_Talent4",
         "TalentRow": 2,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "568": {
         "Name": "Light's Oath",
@@ -10653,7 +11140,8 @@
         "DevName": "CAA_Talent_Sune_Talent8",
         "TalentRow": 2,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "573": {
         "Name": "Rising Sun",
@@ -10661,7 +11149,8 @@
         "DevName": "CAA_Talent_Sune_Talent3",
         "TalentRow": 2,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "569": {
         "Name": "Imposing Presence",
@@ -10669,7 +11158,8 @@
         "DevName": "CAA_Talent_Sune_Talent7",
         "TalentRow": 3,
         "TalentColumn": 1,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "575": {
         "Name": "Celestial Favor",
@@ -10677,7 +11167,8 @@
         "DevName": "CAA_Talent_Sune_Talent18",
         "TalentRow": 3,
         "TalentColumn": 2,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "581": {
         "Name": "Gleaming Strikes",
@@ -10685,7 +11176,8 @@
         "DevName": "CAA_Talent_Sune_Talent12",
         "TalentRow": 3,
         "TalentColumn": 3,
-        "PointCost": 2
+        "PointCost": 2,
+        "EnabledInGame": true
       },
       "583": {
         "Name": "Sun's Verdict",
@@ -10693,7 +11185,8 @@
         "DevName": "CAA_Talent_Sune_Talent1",
         "TalentRow": 4,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "584": {
         "Name": "Magic Ward",
@@ -10701,7 +11194,8 @@
         "DevName": "CAA_Talent_Sune_PassiveTalent1",
         "TalentRow": 4,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "567": {
         "Name": "Hallowed Shield",
@@ -10709,7 +11203,8 @@
         "DevName": "CAA_Talent_Sune_Talent9",
         "TalentRow": 4,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "580": {
         "Name": "Vanguard of Vengeance",
@@ -10717,7 +11212,8 @@
         "DevName": "CAA_Talent_Sune_Talent13",
         "TalentRow": 5,
         "TalentColumn": 1,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "604": {
         "Name": "Invictus",
@@ -10725,7 +11221,8 @@
         "DevName": "CAA_Talent_Sune_Trait3",
         "TalentRow": 5,
         "TalentColumn": 2,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "578": {
         "Name": "Golden Hour",
@@ -10733,7 +11230,8 @@
         "DevName": "CAA_Talent_Sune_Talent15",
         "TalentRow": 5,
         "TalentColumn": 3,
-        "PointCost": 3
+        "PointCost": 3,
+        "EnabledInGame": true
       },
       "608": {
         "Name": "Zenith Technique",
@@ -10741,7 +11239,8 @@
         "DevName": "CAA_Talent_Sune_Talent19",
         "TalentRow": 6,
         "TalentColumn": 1,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "574": {
         "Name": "Healing Halo",
@@ -10749,7 +11248,8 @@
         "DevName": "CAA_Talent_Sune_Talent2",
         "TalentRow": 6,
         "TalentColumn": 2,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       },
       "576": {
         "Name": "Shifting Spectrum",
@@ -10757,7 +11257,8 @@
         "DevName": "CAA_Talent_Sune_Talent17",
         "TalentRow": 6,
         "TalentColumn": 3,
-        "PointCost": 1
+        "PointCost": 1,
+        "EnabledInGame": true
       }
     },
     "Constants": {
