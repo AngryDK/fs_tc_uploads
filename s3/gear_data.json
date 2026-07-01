@@ -2005,7 +2005,7 @@
       "Name": "The Vehement",
       "BuffName": "The Vehement's Disdain",
       "Description": null,
-      "DevName": "GA_Finesse_Passive_BasicToAoe",
+      "DevName": "CAA_Finesse_BasicToAoe",
       "Constants": {
         "Radius": [
           800.0,
@@ -2043,7 +2043,7 @@
       "Name": "The Intrepid",
       "BuffName": null,
       "Description": "The power of your next [POWER] ability is increased by X%, stacking up to 5 times.",
-      "DevName": "GA_Finesse_Passive_BasicToIncreasedPower",
+      "DevName": "CAA_Finesse_BasicToIncreasedPower",
       "Constants": {
         "PowerMultiplier": [
           0.015,
@@ -2063,7 +2063,7 @@
       "Name": "The Usurper",
       "BuffName": "The Usurper's Verdict",
       "Description": null,
-      "DevName": "GA_Finesse_Passive_CritChanceToHealOrDamage",
+      "DevName": "CAA_Finesse_CritChanceToHealOrDamage",
       "Constants": {
         "DamageCoefficient": [
           1.43,
@@ -2113,7 +2113,7 @@
       "Name": "The Philosopher",
       "BuffName": null,
       "Description": "Your Haste, Expertise and Critical Strike chance are increased by {increase}.",
-      "DevName": "GA_Finesse_Passive_CurrentSpiritToBuff",
+      "DevName": "CAA_Finesse_CurrentSpiritToBuff",
       "Constants": {
         "Duration": [
           8.0,
@@ -2142,10 +2142,10 @@
       }
     },
     "DrainHealthBasedOnPrimaryStat": {
-      "Name": null,
+      "Name": "The Heretic",
       "BuffName": null,
       "Description": null,
-      "DevName": "GA_Finesse_Passive_DrainHealthBasedOnPrimaryStat",
+      "DevName": "CAA_Finesse_DrainHealthBasedOnPrimaryStat",
       "Constants": {
         "Chance": [
           0.2,
@@ -2171,7 +2171,7 @@
       "Name": "The Vainglorious",
       "BuffName": null,
       "Description": null,
-      "DevName": "GA_Finesse_Passive_IncreasedBasicDamage",
+      "DevName": "CAA_Finesse_IncreasedBasicDamage",
       "Constants": {
         "AdditionalPrimaryStatCoefficient": [
           0.25,
@@ -2188,10 +2188,10 @@
       }
     },
     "IncreasedPowerPerCurrentSpirit": {
-      "Name": null,
+      "Name": "The Mystic",
       "BuffName": null,
       "Description": null,
-      "DevName": "GA_Finesse_Passive_IncreasedPowerPerCurrentSpirit",
+      "DevName": "CAA_Finesse_IncreasedPowerPerCurrentSpirit",
       "Constants": {
         "PowerValuesPerSpiritAmountInPercentage": [
           0.3,
@@ -2213,11 +2213,37 @@
         ]
       }
     },
-    "MajorToReducedControlCooldown": {
-      "Name": null,
+    "MajorIncreasedCooldownRecoveryPerHaste": {
+      "Name": "The Monarch",
       "BuffName": null,
       "Description": null,
-      "DevName": "GA_Finesse_Passive_MajorToReducedControlCooldown",
+      "DevName": "CAA_Finesse_MajorIncreasedCooldownRecoveryPerHaste",
+      "Constants": {
+        "HasteThreshold": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "CooldownAcceleration": [
+          0.03,
+          0.05,
+          0.08,
+          0.12
+        ],
+        "BonusIncreasePerHasteInPercentage": [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      }
+    },
+    "MajorToReducedControlCooldown": {
+      "Name": "The Subduer",
+      "BuffName": null,
+      "Description": null,
+      "DevName": "CAA_Finesse_MajorToReducedControlCooldown",
       "Constants": {
         "CooldownValueReduction": [
           1.0,
@@ -2233,11 +2259,11 @@
         ]
       }
     },
-    "PeriodicHasteBuff_Manager": {
-      "Name": null,
+    "PeriodicHasteBuff": {
+      "Name": "The Wayfarer",
       "BuffName": null,
       "Description": null,
-      "DevName": "GA_Finesse_Passive_PeriodicHasteBuff_Manager",
+      "DevName": "CAA_Finesse_PeriodicHasteBuff",
       "Constants": {
         "Cooldown": [
           60.0,
@@ -2275,7 +2301,7 @@
       "Name": "The Celestial",
       "BuffName": null,
       "Description": null,
-      "DevName": "GA_Finesse_Passive_PowerChanceSpirit",
+      "DevName": "CAA_Finesse_PowerChanceSpirit",
       "Constants": {
         "Chance": [
           0.05,
@@ -2291,11 +2317,31 @@
         ]
       }
     },
+    "PowerIncreasedCritChanceAndPower": {
+      "Name": "The Sinister",
+      "BuffName": "Finesse E",
+      "Description": "Your [CORE] abilities have {CritStrike} Critical Strike Power and {CritChance} increased Critical Chance.",
+      "DevName": "CAA_Finesse_PowerIncreasedCritChanceAndPower",
+      "Constants": {
+        "AdditionalCritChance": [
+          0.01,
+          0.02,
+          0.03,
+          0.04
+        ],
+        "CritPowerMultiplier": [
+          1.05,
+          1.1,
+          1.15,
+          1.2
+        ]
+      }
+    },
     "PowerToIncreasedCritChance": {
-      "Name": null,
+      "Name": "The Trickster",
       "BuffName": null,
       "Description": null,
-      "DevName": "GA_Finesse_Passive_PowerToIncreasedCritChance",
+      "DevName": "CAA_Finesse_PowerToIncreasedCritChance",
       "Constants": {
         "AdditionalCritChance": [
           0.025,
@@ -2315,7 +2361,7 @@
       "Name": "The Herald",
       "BuffName": null,
       "Description": null,
-      "DevName": "GA_Finesse_Passive_StartWithSpiritPoints",
+      "DevName": "CAA_Finesse_StartWithSpiritPoints",
       "Constants": {
         "SpiritPoints": [
           12.0,
@@ -2331,7 +2377,7 @@
       "Name": "The Stag",
       "BuffName": "The Stag's Instinct",
       "Description": "Your Movement Speed is increased by {increase} and your Damage Reduction is increased by {increase2}.",
-      "DevName": "GA_Perk_Passive_DamageReductionOrMoveSpeed",
+      "DevName": "CAA_Perk_DamageReductionOrMoveSpeed",
       "Constants": {
         "MoveSpeedMultiplier": 1.3,
         "Healer.MoveSpeedMultiplier": 1.3,
@@ -2344,7 +2390,7 @@
       "Name": "The Viper",
       "BuffName": "The Viper's Strike",
       "Description": "{percentage} of your damage heals you.",
-      "DevName": "GA_Perk_Passive_DamageToHeal",
+      "DevName": "CAA_Perk_DamageToHeal",
       "Constants": {
         "Duration": 8.0,
         "PercentageOfDamageToHeal": 0.3,
@@ -2355,7 +2401,7 @@
       "Name": "The River",
       "BuffName": null,
       "Description": "{uniqueHeroDescription}",
-      "DevName": "GA_Perk_Passive_IncreasedDurationOrReducedCooldown",
+      "DevName": "CAA_Perk_IncreasedDurationOrReducedCooldown",
       "Constants": {
         "IncreasedDurationInSeconds": 4.0,
         "ReducedCooldownInSeconds": 3.0,
@@ -2368,17 +2414,17 @@
       }
     },
     "InstantHealDamageReductionBuff": {
-      "Name": null,
+      "Name": "The Wolf",
       "BuffName": null,
       "Description": null,
-      "DevName": "GA_Perk_Passive_InstantHealDamageReductionBuff",
+      "DevName": "CAA_Perk_InstantHealDamageReductionBuff",
       "Constants": {}
     },
     "MagicDamageReductionBuff": {
       "Name": "The Dune",
       "BuffName": "The Dune's Grace",
       "Description": "Your Magic Damage Reduction is increased by {increase}.",
-      "DevName": "GA_Perk_Passive_MagicDamageReductionBuff",
+      "DevName": "CAA_Perk_MagicDamageReductionBuff",
       "Constants": {
         "AddditionalMagicReduction": 0.6,
         "Meiko.AddditionalMagicReduction": 0.85,
@@ -2392,7 +2438,7 @@
       "Name": "The Dragon",
       "BuffName": "The Dragon's Embrace",
       "Description": "Absorbs incoming damage",
-      "DevName": "GA_Perk_Passive_MaxHealthBasedAbsorb",
+      "DevName": "CAA_Perk_MaxHealthBasedAbsorb",
       "Constants": {
         "Tanks.MaxHealthPercentage": 0.25,
         "DPS.MaxHealthPercentage": 0.4,
@@ -2400,6 +2446,39 @@
         "Lisa.MaxHealthPercentage": 0.25,
         "Duration": 12.0,
         "Lisa.Duration": 8.0
+      }
+    },
+    "Passive_IncomingAoeDamageReduction": {
+      "Name": "The Lake",
+      "BuffName": null,
+      "Description": "{percentage} reduced aoe damage taken.",
+      "DevName": "CAA_Perk_Passive_IncomingAoeDamageReduction",
+      "Constants": {
+        "IncomingAoeDamageReduction.AdditionalReduction": 0.2,
+        "IncreasedArmor.ArmorMultiplier": 1.35,
+        "IncreasedIncomingMagicDamage.AdditionalReduction": 0.1
+      }
+    },
+    "Passive_IncreasedArmor": {
+      "Name": "The Oak",
+      "BuffName": null,
+      "Description": "Armor increased by {percentage}.",
+      "DevName": "CAA_Perk_Passive_IncreasedArmor",
+      "Constants": {
+        "IncomingAoeDamageReduction.AdditionalReduction": 0.2,
+        "IncreasedArmor.ArmorMultiplier": 1.35,
+        "IncreasedIncomingMagicDamage.AdditionalReduction": 0.1
+      }
+    },
+    "Passive_ReducedIncomingMagicDamage": {
+      "Name": "The Gryphon",
+      "BuffName": null,
+      "Description": "{percentage} reduced magic damage taken.",
+      "DevName": "CAA_Perk_Passive_ReducedIncomingMagicDamage",
+      "Constants": {
+        "IncomingAoeDamageReduction.AdditionalReduction": 0.2,
+        "IncreasedArmor.ArmorMultiplier": 1.35,
+        "IncreasedIncomingMagicDamage.AdditionalReduction": 0.1
       }
     }
   }
