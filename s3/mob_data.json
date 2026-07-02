@@ -779,7 +779,6 @@
     "DevZoneName": "VikingVillageAttack",
     "FoundInZones": [],
     "PlacedInZones": [
-      "CrystalMines",
       "VikingVillage"
     ],
     "FoundInZoneGameIDs": [],
@@ -8005,7 +8004,6 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
-      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -8059,7 +8057,6 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
-      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -8093,7 +8090,6 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
-      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -8127,7 +8123,6 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
-      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -8162,7 +8157,6 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
-      "CrystalMines",
       "ElfMines",
       "UrrakMarkets"
     ],
@@ -8199,7 +8193,6 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
-      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -8235,7 +8228,6 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
-      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -8269,7 +8261,6 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
-      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -9839,7 +9830,15 @@
         }
       },
       "Defensive": {},
-      "Mechanic": {}
+      "Mechanic": {
+        "Enrage": {
+          "DevName": "Enrage",
+          "InitialDelay": "3.0",
+          "DamageScalePerStack.Ultimate": "1.75",
+          "DamageScalePerStack.Hard": "1.5",
+          "DamageScalePerStack.Normal": "1.25"
+        }
+      }
     }
   },
   "319": {
@@ -11338,7 +11337,6 @@
       "Everdawn Grove"
     ],
     "PlacedInZones": [
-      "CrystalMines",
       "MythicForest"
     ],
     "FoundInZoneGameIDs": [
