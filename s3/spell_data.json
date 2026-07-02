@@ -14626,7 +14626,7 @@
       "SpellGrantsCDA": false
     },
     "2233": {
-      "Name": "Macabre Strategem",
+      "Name": "Macabre Stratagem",
       "FSLID": 2233,
       "DevName": "GA_Mara_Talent_ResetCooldownRefillResources_AbilityReplacer_NewAbility",
       "EnabledInGame": null,
@@ -15215,6 +15215,21 @@
       "FSLID": 2305,
       "DevName": "GA_ST_BloodOrb_SharedHealth",
       "EnabledInGame": true
+    },
+    "2306": {
+      "Name": null,
+      "FSLID": 2306,
+      "DevName": "GA_Gunde_Passive_Talent_DotTransfer_InstantAoeWithBuff_DamageAndOrbs_OrbDropper",
+      "EnabledInGame": null,
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
+    },
+    "2307": {
+      "Name": null,
+      "FSLID": 2307,
+      "DevName": "GA_ST_BossGatekeeper_Enrage",
+      "EnabledInGame": null
     }
   },
   "Effects": {
@@ -23049,7 +23064,7 @@
       "DevName": "GE_Mara_TempSpiritAbility_Buff"
     },
     "1583": {
-      "Name": "Cheap Shot",
+      "Name": "Web Crack",
       "FSLID": 1001583,
       "DevName": "GE_Mara_StunSpender_Stun"
     },
@@ -30159,7 +30174,7 @@
       "DevName": "GE_MC_BossGuardian_TankSlam_Damage"
     },
     "3025": {
-      "Name": "Soak Dot",
+      "Name": "Searing Fissure",
       "FSLID": 1003025,
       "DevName": "GE_MC_BossGuardian_Soaks_Dot"
     },
@@ -31297,6 +31312,31 @@
       "Name": null,
       "FSLID": 1003252,
       "DevName": "GE_ST_BloodOrb_SharedHealth_Damage"
+    },
+    "3253": {
+      "Name": null,
+      "FSLID": 1003253,
+      "DevName": "GE_Trait_GemTargetedSpikeProc_KnockBackImmunity"
+    },
+    "3254": {
+      "Name": "Enrage",
+      "FSLID": 1003254,
+      "DevName": "GE_ST_BossGatekeeper_Enrage_Buff"
+    },
+    "3255": {
+      "Name": null,
+      "FSLID": 1003255,
+      "DevName": "GE_Vigor_Talent_SingleTargetChargedHot_BuffIncreasesMaxHealth_Buff"
+    },
+    "3256": {
+      "Name": "Carrion Onslaught",
+      "FSLID": 1003256,
+      "DevName": "GE_Gunde_Talent_DotTransfer_InstantAoeWithBuff_DamageAndOrbs_Proc"
+    },
+    "3257": {
+      "Name": "Carrion Onslaught",
+      "FSLID": 1003257,
+      "DevName": "GE_Gunde_Talent_DotTransfer_InstantAoeWithBuff_DamageAndOrbs_OrbDropper"
     }
   }
 }

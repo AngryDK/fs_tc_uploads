@@ -14,80 +14,7 @@
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
       "IsSeasonalPinnacle": false,
-      "Mobs": [
-        {
-          "MobID": 10,
-          "MobName": "Ashen Arsonist"
-        },
-        {
-          "MobID": 12,
-          "MobName": "Raging Pillager"
-        },
-        {
-          "MobID": 32,
-          "MobName": "Nightmist Cutthroat"
-        },
-        {
-          "MobID": 128,
-          "MobName": "Barbarous Lasher"
-        },
-        {
-          "MobID": 134,
-          "MobName": "Mancatcher"
-        },
-        {
-          "MobID": 182,
-          "MobName": "Slaughtervine"
-        },
-        {
-          "MobID": 183,
-          "MobName": "Ruins Lasher"
-        },
-        {
-          "MobID": 185,
-          "MobName": "Bloodfang Raider"
-        },
-        {
-          "MobID": 186,
-          "MobName": "Hulking Bulgore"
-        },
-        {
-          "MobID": 189,
-          "MobName": "Executioner"
-        },
-        {
-          "MobID": 190,
-          "MobName": "Sickle"
-        },
-        {
-          "MobID": 191,
-          "MobName": "Hellcaller"
-        },
-        {
-          "MobID": 192,
-          "MobName": "Initiate"
-        },
-        {
-          "MobID": 193,
-          "MobName": "Profane Invoker"
-        },
-        {
-          "MobID": 198,
-          "MobName": "Moar'gore, Master of Sacrifice"
-        },
-        {
-          "MobID": 199,
-          "MobName": "Vun’Kahr, the Thorned Maw"
-        },
-        {
-          "MobID": 200,
-          "MobName": "Prophet Ez'rath"
-        },
-        {
-          "MobID": 201,
-          "MobName": "Bloodfang"
-        }
-      ]
+      "Mobs": []
     },
     "6": {
       "DisplayName": "Empyrean Sands",
@@ -103,64 +30,7 @@
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
       "IsSeasonalPinnacle": false,
-      "Mobs": [
-        {
-          "MobID": 87,
-          "MobName": "Sin-Magir"
-        },
-        {
-          "MobID": 94,
-          "MobName": "Water Elemental"
-        },
-        {
-          "MobID": 100,
-          "MobName": "Lost Soul"
-        },
-        {
-          "MobID": 115,
-          "MobName": "Greedspawn Sentinel"
-        },
-        {
-          "MobID": 116,
-          "MobName": "Gravescythe"
-        },
-        {
-          "MobID": 118,
-          "MobName": "Greedbound Prism"
-        },
-        {
-          "MobID": 128,
-          "MobName": "Barbarous Lasher"
-        },
-        {
-          "MobID": 173,
-          "MobName": "Acolyte of Sinnari"
-        },
-        {
-          "MobID": 174,
-          "MobName": "Nightbound Magi"
-        },
-        {
-          "MobID": 175,
-          "MobName": "Tombguard Reaver"
-        },
-        {
-          "MobID": 176,
-          "MobName": "Sandsworn Husk"
-        },
-        {
-          "MobID": 177,
-          "MobName": "Gravebreaker Brute"
-        },
-        {
-          "MobID": 179,
-          "MobName": "Dunesnare Hunter"
-        },
-        {
-          "MobID": 183,
-          "MobName": "Ruins Lasher"
-        }
-      ]
+      "Mobs": []
     },
     "7": {
       "DisplayName": "Cithrel's Fall",
@@ -176,68 +46,7 @@
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
       "IsSeasonalPinnacle": false,
-      "Mobs": [
-        {
-          "MobID": 153,
-          "MobName": "Eldrin Chronomancer"
-        },
-        {
-          "MobID": 154,
-          "MobName": "Greater Ice Elemental"
-        },
-        {
-          "MobID": 155,
-          "MobName": "Frozen Remnant"
-        },
-        {
-          "MobID": 157,
-          "MobName": "Coldheart Assassin"
-        },
-        {
-          "MobID": 160,
-          "MobName": "Spellbound Golem"
-        },
-        {
-          "MobID": 161,
-          "MobName": "Ice Shardling"
-        },
-        {
-          "MobID": 162,
-          "MobName": "Tundra Stalker"
-        },
-        {
-          "MobID": 163,
-          "MobName": "Deceitful Scholar"
-        },
-        {
-          "MobID": 164,
-          "MobName": "Eldrin Sentinel"
-        },
-        {
-          "MobID": 165,
-          "MobName": "Eldrin Recruit"
-        },
-        {
-          "MobID": 166,
-          "MobName": "Blade of Cithrel"
-        },
-        {
-          "MobID": 167,
-          "MobName": "Corrupter"
-        },
-        {
-          "MobID": 168,
-          "MobName": "Noor, The Betrayer"
-        },
-        {
-          "MobID": 169,
-          "MobName": "Ancient Koros"
-        },
-        {
-          "MobID": 170,
-          "MobName": "Cithrel"
-        }
-      ]
+      "Mobs": []
     },
     "8": {
       "DisplayName": "Wyrmheart",
@@ -253,60 +62,7 @@
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
       "IsSeasonalPinnacle": false,
-      "Mobs": [
-        {
-          "MobID": 151,
-          "MobName": "Expedition Lookout"
-        },
-        {
-          "MobID": 152,
-          "MobName": "Ice Shardling"
-        },
-        {
-          "MobID": 153,
-          "MobName": "Eldrin Chronomancer"
-        },
-        {
-          "MobID": 154,
-          "MobName": "Greater Ice Elemental"
-        },
-        {
-          "MobID": 155,
-          "MobName": "Frozen Remnant"
-        },
-        {
-          "MobID": 156,
-          "MobName": "Apostate Veras"
-        },
-        {
-          "MobID": 157,
-          "MobName": "Coldheart Assassin"
-        },
-        {
-          "MobID": 160,
-          "MobName": "Spellbound Golem"
-        },
-        {
-          "MobID": 162,
-          "MobName": "Tundra Stalker"
-        },
-        {
-          "MobID": 163,
-          "MobName": "Deceitful Scholar"
-        },
-        {
-          "MobID": 164,
-          "MobName": "Eldrin Sentinel"
-        },
-        {
-          "MobID": 165,
-          "MobName": "Eldrin Recruit"
-        },
-        {
-          "MobID": 166,
-          "MobName": "Blade of Cithrel"
-        }
-      ]
+      "Mobs": []
     },
     "11": {
       "DisplayName": "Everdawn Grove",
@@ -322,56 +78,7 @@
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
       "IsSeasonalPinnacle": false,
-      "Mobs": [
-        {
-          "MobID": "CM_RubiliteTriggerstone",
-          "MobName": "Rubilite Triggerstone"
-        },
-        {
-          "MobID": 39,
-          "MobName": "Outrunner"
-        },
-        {
-          "MobID": 40,
-          "MobName": "Horned Seer"
-        },
-        {
-          "MobID": 41,
-          "MobName": "Gorestained Butcher"
-        },
-        {
-          "MobID": 42,
-          "MobName": "Desecrator"
-        },
-        {
-          "MobID": 136,
-          "MobName": "Skittershard"
-        },
-        {
-          "MobID": 137,
-          "MobName": "Mangy Brute"
-        },
-        {
-          "MobID": 138,
-          "MobName": "Corrupted Totemic"
-        },
-        {
-          "MobID": 139,
-          "MobName": "Bloodstone Goliath"
-        },
-        {
-          "MobID": 140,
-          "MobName": "Akari the Everdawn Lord"
-        },
-        {
-          "MobID": 141,
-          "MobName": "Malgut the Fetid"
-        },
-        {
-          "MobID": 142,
-          "MobName": "Blighted Dawnbloom"
-        }
-      ]
+      "Mobs": []
     },
     "12": {
       "DisplayName": "Stormwatch",
@@ -387,60 +94,7 @@
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
       "IsSeasonalPinnacle": false,
-      "Mobs": [
-        {
-          "MobID": 10,
-          "MobName": "Ashen Arsonist"
-        },
-        {
-          "MobID": 12,
-          "MobName": "Raging Pillager"
-        },
-        {
-          "MobID": 32,
-          "MobName": "Nightmist Cutthroat"
-        },
-        {
-          "MobID": 48,
-          "MobName": "Dire Rat"
-        },
-        {
-          "MobID": 129,
-          "MobName": "Stormscreamer"
-        },
-        {
-          "MobID": 130,
-          "MobName": "Shinchopper"
-        },
-        {
-          "MobID": 131,
-          "MobName": "Facestabber"
-        },
-        {
-          "MobID": 132,
-          "MobName": "Bully Basher"
-        },
-        {
-          "MobID": 133,
-          "MobName": "Warlord Brogg"
-        },
-        {
-          "MobID": 134,
-          "MobName": "Mancatcher"
-        },
-        {
-          "MobID": 189,
-          "MobName": "Executioner"
-        },
-        {
-          "MobID": 193,
-          "MobName": "Profane Invoker"
-        },
-        {
-          "MobID": 314,
-          "MobName": "Dire Wolf"
-        }
-      ]
+      "Mobs": []
     },
     "13": {
       "DisplayName": "Wraithtide Vault",
@@ -456,76 +110,7 @@
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 6,
       "IsSeasonalPinnacle": false,
-      "Mobs": [
-        {
-          "MobID": 48,
-          "MobName": "Dire Rat"
-        },
-        {
-          "MobID": 100,
-          "MobName": "Lost Soul"
-        },
-        {
-          "MobID": 107,
-          "MobName": "Tide Witch"
-        },
-        {
-          "MobID": 109,
-          "MobName": "Jungle Stalker"
-        },
-        {
-          "MobID": 110,
-          "MobName": "Bleachbone Brute"
-        },
-        {
-          "MobID": 114,
-          "MobName": "Saltsworn Scallywag"
-        },
-        {
-          "MobID": 115,
-          "MobName": "Greedspawn Sentinel"
-        },
-        {
-          "MobID": 116,
-          "MobName": "Gravescythe"
-        },
-        {
-          "MobID": 118,
-          "MobName": "Greedbound Prism"
-        },
-        {
-          "MobID": 119,
-          "MobName": "Scuttlejack Cannoneer"
-        },
-        {
-          "MobID": 121,
-          "MobName": "Bael'Aurum"
-        },
-        {
-          "MobID": 124,
-          "MobName": "Deathless Katrine"
-        },
-        {
-          "MobID": 125,
-          "MobName": "First Mate Marrow"
-        },
-        {
-          "MobID": 126,
-          "MobName": "Soulpowder Buccaneer"
-        },
-        {
-          "MobID": 127,
-          "MobName": "Bilgerat"
-        },
-        {
-          "MobID": 128,
-          "MobName": "Barbarous Lasher"
-        },
-        {
-          "MobID": 183,
-          "MobName": "Ruins Lasher"
-        }
-      ]
+      "Mobs": []
     },
     "15": {
       "DisplayName": "Sailor's Abyss",
@@ -541,48 +126,7 @@
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
       "IsSeasonalPinnacle": false,
-      "Mobs": [
-        {
-          "MobID": 48,
-          "MobName": "Dire Rat"
-        },
-        {
-          "MobID": 94,
-          "MobName": "Water Elemental"
-        },
-        {
-          "MobID": 97,
-          "MobName": "Hollowed Corsair"
-        },
-        {
-          "MobID": 98,
-          "MobName": "Fading Raider"
-        },
-        {
-          "MobID": 99,
-          "MobName": "Deepbound Magi"
-        },
-        {
-          "MobID": 100,
-          "MobName": "Lost Soul"
-        },
-        {
-          "MobID": 102,
-          "MobName": "Tormented Spectre"
-        },
-        {
-          "MobID": 103,
-          "MobName": "Vengeful Shade"
-        },
-        {
-          "MobID": 104,
-          "MobName": "Witchreef Lasher"
-        },
-        {
-          "MobID": 105,
-          "MobName": "Sinthara"
-        }
-      ]
+      "Mobs": []
     },
     "17": {
       "DisplayName": "The Stronghold",
@@ -614,88 +158,7 @@
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
       "IsSeasonalPinnacle": false,
-      "Mobs": [
-        {
-          "MobID": 13,
-          "MobName": "Frenzied Looter"
-        },
-        {
-          "MobID": 36,
-          "MobName": "Urrak Witch"
-        },
-        {
-          "MobID": 37,
-          "MobName": "Urrak Slaver"
-        },
-        {
-          "MobID": 38,
-          "MobName": "Slavebind Totem"
-        },
-        {
-          "MobID": 39,
-          "MobName": "Outrunner"
-        },
-        {
-          "MobID": 40,
-          "MobName": "Horned Seer"
-        },
-        {
-          "MobID": 41,
-          "MobName": "Gorestained Butcher"
-        },
-        {
-          "MobID": 42,
-          "MobName": "Desecrator"
-        },
-        {
-          "MobID": 43,
-          "MobName": "Slavetrader Brull"
-        },
-        {
-          "MobID": 44,
-          "MobName": "Drazhul the Fleshbroker"
-        },
-        {
-          "MobID": 128,
-          "MobName": "Barbarous Lasher"
-        },
-        {
-          "MobID": 134,
-          "MobName": "Mancatcher"
-        },
-        {
-          "MobID": 137,
-          "MobName": "Mangy Brute"
-        },
-        {
-          "MobID": 182,
-          "MobName": "Slaughtervine"
-        },
-        {
-          "MobID": 183,
-          "MobName": "Ruins Lasher"
-        },
-        {
-          "MobID": 185,
-          "MobName": "Bloodfang Raider"
-        },
-        {
-          "MobID": 191,
-          "MobName": "Hellcaller"
-        },
-        {
-          "MobID": 192,
-          "MobName": "Initiate"
-        },
-        {
-          "MobID": 201,
-          "MobName": "Bloodfang"
-        },
-        {
-          "MobID": 246,
-          "MobName": "Dredge"
-        }
-      ]
+      "Mobs": []
     },
     "23": {
       "DisplayName": "Ransack of Drakheim",
@@ -743,52 +206,7 @@
       "MaxPlayers": 4,
       "MinimumHeroRankRequired": 0,
       "IsSeasonalPinnacle": false,
-      "Mobs": [
-        {
-          "MobID": 136,
-          "MobName": "Skittershard"
-        },
-        {
-          "MobID": 172,
-          "MobName": "Godfall Titan"
-        },
-        {
-          "MobID": 241,
-          "MobName": "Godfall Wardstone"
-        },
-        {
-          "MobID": 243,
-          "MobName": "Task Master"
-        },
-        {
-          "MobID": 244,
-          "MobName": "Nezari Bolter"
-        },
-        {
-          "MobID": 245,
-          "MobName": "Quarry Stalker"
-        },
-        {
-          "MobID": 246,
-          "MobName": "Dredge"
-        },
-        {
-          "MobID": 247,
-          "MobName": "Enforcer"
-        },
-        {
-          "MobID": 248,
-          "MobName": "Arcane Warden"
-        },
-        {
-          "MobID": 249,
-          "MobName": "Enraged Earth Elemental"
-        },
-        {
-          "MobID": 270,
-          "MobName": "Vaerith Vorn"
-        }
-      ]
+      "Mobs": []
     },
     "29": {
       "DisplayName": "Ruins of Regath",
