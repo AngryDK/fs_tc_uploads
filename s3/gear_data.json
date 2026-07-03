@@ -933,25 +933,6 @@
         ]
       }
     },
-    "3": {
-      "Name": "Inspired Arms",
-      "FSLID": 3000003,
-      "DevName": "ItemTrait.ID.CooldownRecoveryOnWeaponAbility",
-      "Constants": {
-        "Buff.CooldownRecoveryBonus": [
-          1.2,
-          1.2,
-          1.2,
-          1.2
-        ],
-        "Buff.DurationWeaponAbilityCoefficient": [
-          0.1,
-          0.12,
-          0.14,
-          0.16
-        ]
-      }
-    },
     "4": {
       "Name": "Seized Opportunity",
       "FSLID": 3000004,
@@ -1122,37 +1103,6 @@
           0.948,
           0.926,
           0.904
-        ]
-      }
-    },
-    "30": {
-      "Name": "Topaz Winds",
-      "FSLID": 3000030,
-      "DevName": "ItemTrait.ID.GemCooldownRecoveryOnAbilityProc",
-      "Constants": {
-        "Cooldown": [
-          15.0,
-          15.0,
-          15.0,
-          15.0
-        ],
-        "PPM": [
-          1.0,
-          1.0,
-          1.0,
-          1.0
-        ],
-        "CooldownRecovery": [
-          1.3,
-          1.36,
-          1.42,
-          1.48
-        ],
-        "OverCapPerGemPower": [
-          0.0,
-          0.0,
-          0.0,
-          0.0
         ]
       }
     },
