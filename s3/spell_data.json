@@ -6888,6 +6888,15 @@
       "SpellCDAEffect": false,
       "SpellGrantsCDA": false
     },
+    "1099": {
+      "Name": "Fighting Techniques",
+      "FSLID": 1099,
+      "DevName": "GA_Meiko_PlaceHolderFinisher",
+      "EnabledInGame": true,
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
+    },
     "1100": {
       "Name": "Earth Fist",
       "FSLID": 1100,
@@ -31337,6 +31346,11 @@
       "Name": "Carrion Onslaught",
       "FSLID": 1003257,
       "DevName": "GE_Gunde_Talent_DotTransfer_InstantAoeWithBuff_DamageAndOrbs_OrbDropper"
+    },
+    "3258": {
+      "Name": null,
+      "FSLID": 1003258,
+      "DevName": "GE_Finnese_StartWithSpiritPoints_HasBeenApplied"
     }
   }
 }
