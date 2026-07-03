@@ -1,6 +1,6 @@
 {
   "name": "Ângry's Fellowship API-ish Dump",
-  "updated": "07-02-2026",
+  "updated": "07-03-2026",
   "live_season": "s3",
   "seasons": {
     "s2": {
@@ -39,7 +39,7 @@
           "bytes": 818713
         },
         "gear_data.json": {
-          "bytes": 71504
+          "bytes": 72653
         }
       },
       "notes": "S3 launched 2026-06-22. Includes the GameFeature plugin layer: 3 new keyed zones (MoorCastle/SandTomb/SnowPeak) + rosters, the Gunde hero, Blessings (Finesse) and Perks.",
