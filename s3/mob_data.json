@@ -8,20 +8,23 @@
     "DevZoneName": "VikingVillageAttack",
     "FoundInZones": [
       "The Heart of Tuzari",
-      "Stormwatch"
+      "Stormwatch",
+      "Ransack of Drakheim"
     ],
     "PlacedInZones": [
       "DemonicRitual",
       "NightPatrol",
-      "VikingVillage"
+      "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
       5,
-      12
+      12,
+      23
     ],
     "FoundInZoneFSLIDs": [
       50005,
-      50012
+      50012,
+      50023
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
@@ -55,12 +58,18 @@
     "DevName": "VV_IcebiteReaver",
     "DevKey": "VV_IcebiteReaver",
     "DevZoneName": "VikingVillageAttack",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "VikingVillage"
+    "FoundInZones": [
+      "Ransack of Drakheim"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "VikingVillageAttack"
+    ],
+    "FoundInZoneGameIDs": [
+      23
+    ],
+    "FoundInZoneFSLIDs": [
+      50023
+    ],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
@@ -96,20 +105,23 @@
     "DevZoneName": "VikingVillageAttack",
     "FoundInZones": [
       "The Heart of Tuzari",
-      "Stormwatch"
+      "Stormwatch",
+      "Ransack of Drakheim"
     ],
     "PlacedInZones": [
       "DemonicRitual",
       "NightPatrol",
-      "VikingVillage"
+      "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
       5,
-      12
+      12,
+      23
     ],
     "FoundInZoneFSLIDs": [
       50005,
-      50012
+      50012,
+      50023
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
@@ -141,18 +153,24 @@
     "DevKey": "VV_FrenziedLooter",
     "DevZoneName": "VikingVillageAttack",
     "FoundInZones": [
-      "Urrak Markets"
+      "Urrak Markets",
+      "Ransack of Drakheim",
+      "Silken Hollow"
     ],
     "PlacedInZones": [
-      "SilkenHollow",
+      "SpiderForest",
       "UrrakMarkets",
-      "VikingVillage"
+      "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
-      21
+      21,
+      23,
+      24
     ],
     "FoundInZoneFSLIDs": [
-      50021
+      50021,
+      50023,
+      50024
     ],
     "HasAIBC": true,
     "KillScore": 1.0,
@@ -183,12 +201,18 @@
     "DevName": "VV_CravenHiisi",
     "DevKey": "VV_CravenHiisi",
     "DevZoneName": "VikingVillageAttack",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "VikingVillage"
+    "FoundInZones": [
+      "Ransack of Drakheim"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "VikingVillageAttack"
+    ],
+    "FoundInZoneGameIDs": [
+      23
+    ],
+    "FoundInZoneFSLIDs": [
+      50023
+    ],
     "HasAIBC": true,
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
@@ -229,16 +253,19 @@
     "DevKey": "VV_ColdbrineFiend",
     "DevZoneName": "VikingVillageAttack",
     "FoundInZones": [
+      "Ransack of Drakheim",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
       "SnowPeak",
-      "VikingVillage"
+      "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
+      23,
       31
     ],
     "FoundInZoneFSLIDs": [
+      50023,
       50031
     ],
     "HasAIBC": true,
@@ -273,12 +300,18 @@
     "DevName": "VV_BossVikingMystic",
     "DevKey": "VV_BossVikingMystic",
     "DevZoneName": "VikingVillageAttack",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "VikingVillage"
+    "FoundInZones": [
+      "Ransack of Drakheim"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "VikingVillageAttack"
+    ],
+    "FoundInZoneGameIDs": [
+      23
+    ],
+    "FoundInZoneFSLIDs": [
+      50023
+    ],
     "HasAIBC": true,
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
@@ -351,12 +384,18 @@
     "DevName": "VV_BossKaldursonIce",
     "DevKey": "VV_BossKaldursonIce",
     "DevZoneName": "VikingVillageAttack",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "VikingVillage"
+    "FoundInZones": [
+      "Ransack of Drakheim"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "VikingVillageAttack"
+    ],
+    "FoundInZoneGameIDs": [
+      23
+    ],
+    "FoundInZoneFSLIDs": [
+      50023
+    ],
     "HasAIBC": true,
     "KillScore": 15.0,
     "SpiritPointValue": 15.0,
@@ -419,12 +458,18 @@
     "DevName": "VV_BossKaldursonFire",
     "DevKey": "VV_BossKaldursonFire",
     "DevZoneName": "VikingVillageAttack",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "VikingVillage"
+    "FoundInZones": [
+      "Ransack of Drakheim"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "VikingVillageAttack"
+    ],
+    "FoundInZoneGameIDs": [
+      23
+    ],
+    "FoundInZoneFSLIDs": [
+      50023
+    ],
     "HasAIBC": true,
     "KillScore": 15.0,
     "SpiritPointValue": 15.0,
@@ -460,12 +505,18 @@
     "DevName": "VV_BossFrostTroll",
     "DevKey": "VV_BossFrostTroll",
     "DevZoneName": "VikingVillageAttack",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "VikingVillage"
+    "FoundInZones": [
+      "Ransack of Drakheim"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "VikingVillageAttack"
+    ],
+    "FoundInZoneGameIDs": [
+      23
+    ],
+    "FoundInZoneFSLIDs": [
+      50023
+    ],
     "HasAIBC": true,
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
@@ -550,12 +601,18 @@
     "DevName": "VV_BossChilgar",
     "DevKey": "VV_BossChilgar",
     "DevZoneName": "VikingVillageAttack",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "VikingVillage"
+    "FoundInZones": [
+      "Ransack of Drakheim"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "VikingVillageAttack"
+    ],
+    "FoundInZoneGameIDs": [
+      23
+    ],
+    "FoundInZoneFSLIDs": [
+      50023
+    ],
     "HasAIBC": true,
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
@@ -629,12 +686,18 @@
     "DevName": "VV_BlackmistWhisperer",
     "DevKey": "VV_BlackmistWhisperer",
     "DevZoneName": "VikingVillageAttack",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "VikingVillage"
+    "FoundInZones": [
+      "Ransack of Drakheim"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "VikingVillageAttack"
+    ],
+    "FoundInZoneGameIDs": [
+      23
+    ],
+    "FoundInZoneFSLIDs": [
+      50023
+    ],
     "HasAIBC": true,
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
@@ -668,12 +731,18 @@
     "DevName": "VV_BlackmistShadow",
     "DevKey": "VV_BlackmistShadow",
     "DevZoneName": "VikingVillageAttack",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "VikingVillage"
+    "FoundInZones": [
+      "Ransack of Drakheim"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "VikingVillageAttack"
+    ],
+    "FoundInZoneGameIDs": [
+      23
+    ],
+    "FoundInZoneFSLIDs": [
+      50023
+    ],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
@@ -730,20 +799,23 @@
     "DevZoneName": "VikingVillageAttack",
     "FoundInZones": [
       "The Heart of Tuzari",
-      "Stormwatch"
+      "Stormwatch",
+      "Ransack of Drakheim"
     ],
     "PlacedInZones": [
       "DemonicRitual",
       "NightPatrol",
-      "VikingVillage"
+      "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
       5,
-      12
+      12,
+      23
     ],
     "FoundInZoneFSLIDs": [
       50005,
-      50012
+      50012,
+      50023
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
@@ -777,12 +849,18 @@
     "DevName": "VV_BlackburnSlaver",
     "DevKey": "VV_BlackburnSlaver",
     "DevZoneName": "VikingVillageAttack",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "VikingVillage"
+    "FoundInZones": [
+      "Ransack of Drakheim"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "VikingVillageAttack"
+    ],
+    "FoundInZoneGameIDs": [
+      23
+    ],
+    "FoundInZoneFSLIDs": [
+      50023
+    ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
@@ -819,12 +897,18 @@
     "DevName": "VV_BlackburnMystic",
     "DevKey": "VV_BlackburnMystic",
     "DevZoneName": "VikingVillageAttack",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "VikingVillage"
+    "FoundInZones": [
+      "Ransack of Drakheim"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "VikingVillageAttack"
+    ],
+    "FoundInZoneGameIDs": [
+      23
+    ],
+    "FoundInZoneFSLIDs": [
+      50023
+    ],
     "HasAIBC": true,
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
@@ -1812,12 +1896,18 @@
     "DevName": "SH_Spiderling",
     "DevKey": "SH_Spiderling",
     "DevZoneName": "SpiderForest",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "SilkenHollow"
+    "FoundInZones": [
+      "Silken Hollow"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "SpiderForest"
+    ],
+    "FoundInZoneGameIDs": [
+      24
+    ],
+    "FoundInZoneFSLIDs": [
+      50024
+    ],
     "HasAIBC": true,
     "KillScore": 0.0,
     "SpiritPointValue": 0.0,
@@ -1853,12 +1943,18 @@
     "DevName": "SH_RotheartRecluse",
     "DevKey": "SH_RotheartRecluse",
     "DevZoneName": "SpiderForest",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "SilkenHollow"
+    "FoundInZones": [
+      "Silken Hollow"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "SpiderForest"
+    ],
+    "FoundInZoneGameIDs": [
+      24
+    ],
+    "FoundInZoneFSLIDs": [
+      50024
+    ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
@@ -1890,12 +1986,18 @@
     "DevName": "SH_GravesnareKidnapper",
     "DevKey": "SH_GravesnareKidnapper",
     "DevZoneName": "SpiderForest",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "SilkenHollow"
+    "FoundInZones": [
+      "Silken Hollow"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "SpiderForest"
+    ],
+    "FoundInZoneGameIDs": [
+      24
+    ],
+    "FoundInZoneFSLIDs": [
+      50024
+    ],
     "HasAIBC": true,
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
@@ -1931,12 +2033,18 @@
     "DevName": "SH_BossSpider",
     "DevKey": "SH_BossSpider",
     "DevZoneName": "SpiderForest",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "SilkenHollow"
+    "FoundInZones": [
+      "Silken Hollow"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "SpiderForest"
+    ],
+    "FoundInZoneGameIDs": [
+      24
+    ],
+    "FoundInZoneFSLIDs": [
+      50024
+    ],
     "HasAIBC": true,
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
@@ -4020,17 +4128,20 @@
     "DevKey": "NP_Shinchopper",
     "DevZoneName": "NightPatrol",
     "FoundInZones": [
-      "Stormwatch"
+      "Stormwatch",
+      "Silken Hollow"
     ],
     "PlacedInZones": [
       "NightPatrol",
-      "SilkenHollow"
+      "SpiderForest"
     ],
     "FoundInZoneGameIDs": [
-      12
+      12,
+      24
     ],
     "FoundInZoneFSLIDs": [
-      50012
+      50012,
+      50024
     ],
     "HasAIBC": true,
     "KillScore": 1.0,
@@ -4062,17 +4173,20 @@
     "DevKey": "NP_Facestabber",
     "DevZoneName": "NightPatrol",
     "FoundInZones": [
-      "Stormwatch"
+      "Stormwatch",
+      "Silken Hollow"
     ],
     "PlacedInZones": [
       "NightPatrol",
-      "SilkenHollow"
+      "SpiderForest"
     ],
     "FoundInZoneGameIDs": [
-      12
+      12,
+      24
     ],
     "FoundInZoneFSLIDs": [
-      50012
+      50012,
+      50024
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
@@ -4131,17 +4245,20 @@
     "DevKey": "NP_BullyBasher",
     "DevZoneName": "NightPatrol",
     "FoundInZones": [
-      "Stormwatch"
+      "Stormwatch",
+      "Silken Hollow"
     ],
     "PlacedInZones": [
       "NightPatrol",
-      "SilkenHollow"
+      "SpiderForest"
     ],
     "FoundInZoneGameIDs": [
-      12
+      12,
+      24
     ],
     "FoundInZoneFSLIDs": [
-      50012
+      50012,
+      50024
     ],
     "HasAIBC": true,
     "KillScore": 4.0,
@@ -5336,22 +5453,25 @@
     "FoundInZones": [
       "Cithrel's Fall",
       "Wyrmheart",
+      "Ransack of Drakheim",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
       "FrozenKingdom",
       "IceCave",
       "SnowPeak",
-      "VikingVillage"
+      "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
       7,
       8,
+      23,
       31
     ],
     "FoundInZoneFSLIDs": [
       50007,
       50008,
+      50023,
       50031
     ],
     "HasAIBC": true,
@@ -8311,12 +8431,18 @@
     "DevName": "SH_Venomdrinker",
     "DevKey": "SH_Venomdrinker",
     "DevZoneName": "SpiderForest",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "SilkenHollow"
+    "FoundInZones": [
+      "Silken Hollow"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "SpiderForest"
+    ],
+    "FoundInZoneGameIDs": [
+      24
+    ],
+    "FoundInZoneFSLIDs": [
+      50024
+    ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
@@ -8353,12 +8479,18 @@
     "DevName": "SH_Eggbearer",
     "DevKey": "SH_Eggbearer",
     "DevZoneName": "SpiderForest",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "SilkenHollow"
+    "FoundInZones": [
+      "Silken Hollow"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "SpiderForest"
+    ],
+    "FoundInZoneGameIDs": [
+      24
+    ],
+    "FoundInZoneFSLIDs": [
+      50024
+    ],
     "HasAIBC": true,
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
@@ -8388,12 +8520,18 @@
     "DevName": "SH_CarrionHorror",
     "DevKey": "SH_CarrionHorror",
     "DevZoneName": "SpiderForest",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "SilkenHollow"
+    "FoundInZones": [
+      "Silken Hollow"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "SpiderForest"
+    ],
+    "FoundInZoneGameIDs": [
+      24
+    ],
+    "FoundInZoneFSLIDs": [
+      50024
+    ],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
@@ -8520,6 +8658,8 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
+      "Ransack of Drakheim",
+      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -8536,6 +8676,8 @@
       13,
       15,
       21,
+      23,
+      24,
       25,
       29,
       30,
@@ -8551,6 +8693,8 @@
       50013,
       50015,
       50021,
+      50023,
+      50024,
       50025,
       50029,
       50030,
@@ -8603,6 +8747,8 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
+      "Ransack of Drakheim",
+      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -8619,6 +8765,8 @@
       13,
       15,
       21,
+      23,
+      24,
       25,
       29,
       30,
@@ -8634,6 +8782,8 @@
       50013,
       50015,
       50021,
+      50023,
+      50024,
       50025,
       50029,
       50030,
@@ -8672,6 +8822,8 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
+      "Ransack of Drakheim",
+      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -8688,6 +8840,8 @@
       13,
       15,
       21,
+      23,
+      24,
       25,
       29,
       30,
@@ -8703,6 +8857,8 @@
       50013,
       50015,
       50021,
+      50023,
+      50024,
       50025,
       50029,
       50030,
@@ -8741,6 +8897,8 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
+      "Ransack of Drakheim",
+      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -8757,6 +8915,8 @@
       13,
       15,
       21,
+      23,
+      24,
       25,
       29,
       30,
@@ -8772,6 +8932,8 @@
       50013,
       50015,
       50021,
+      50023,
+      50024,
       50025,
       50029,
       50030,
@@ -8810,6 +8972,8 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
+      "Ransack of Drakheim",
+      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -8826,6 +8990,8 @@
       13,
       15,
       21,
+      23,
+      24,
       25,
       29,
       30,
@@ -8841,6 +9007,8 @@
       50013,
       50015,
       50021,
+      50023,
+      50024,
       50025,
       50029,
       50030,
@@ -8902,6 +9070,8 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
+      "Ransack of Drakheim",
+      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -8918,6 +9088,8 @@
       13,
       15,
       21,
+      23,
+      24,
       25,
       29,
       30,
@@ -8933,6 +9105,8 @@
       50013,
       50015,
       50021,
+      50023,
+      50024,
       50025,
       50029,
       50030,
@@ -8993,6 +9167,8 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
+      "Ransack of Drakheim",
+      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9009,6 +9185,8 @@
       13,
       15,
       21,
+      23,
+      24,
       25,
       29,
       30,
@@ -9024,6 +9202,8 @@
       50013,
       50015,
       50021,
+      50023,
+      50024,
       50025,
       50029,
       50030,
@@ -9081,6 +9261,8 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
+      "Ransack of Drakheim",
+      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9097,6 +9279,8 @@
       13,
       15,
       21,
+      23,
+      24,
       25,
       29,
       30,
@@ -9112,6 +9296,8 @@
       50013,
       50015,
       50021,
+      50023,
+      50024,
       50025,
       50029,
       50030,
@@ -9153,6 +9339,8 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
+      "Ransack of Drakheim",
+      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9169,6 +9357,8 @@
       13,
       15,
       21,
+      23,
+      24,
       25,
       29,
       30,
@@ -9184,6 +9374,8 @@
       50013,
       50015,
       50021,
+      50023,
+      50024,
       50025,
       50029,
       50030,
@@ -9225,6 +9417,8 @@
       "Wraithtide Vault",
       "Sailor's Abyss",
       "Urrak Markets",
+      "Ransack of Drakheim",
+      "Silken Hollow",
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
@@ -9241,6 +9435,8 @@
       13,
       15,
       21,
+      23,
+      24,
       25,
       29,
       30,
@@ -9256,6 +9452,8 @@
       50013,
       50015,
       50021,
+      50023,
+      50024,
       50025,
       50029,
       50030,
@@ -9288,16 +9486,19 @@
     "DevKey": "SP_PolarBear",
     "DevZoneName": "SnowPeak",
     "FoundInZones": [
+      "Ransack of Drakheim",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
       "SnowPeak",
-      "VikingVillage"
+      "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
+      23,
       31
     ],
     "FoundInZoneFSLIDs": [
+      50023,
       50031
     ],
     "HasAIBC": true,
@@ -9369,19 +9570,22 @@
     "DevZoneName": "SnowPeak",
     "FoundInZones": [
       "Stormwatch",
+      "Ransack of Drakheim",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
       "NightPatrol",
       "SnowPeak",
-      "VikingVillage"
+      "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
       12,
+      23,
       31
     ],
     "FoundInZoneFSLIDs": [
       50012,
+      50023,
       50031
     ],
     "HasAIBC": true,
@@ -11366,12 +11570,18 @@
     "DevName": "SH_QuiveringEggSac",
     "DevKey": "SH_QuiveringEggSac",
     "DevZoneName": "SpiderForest",
-    "FoundInZones": [],
-    "PlacedInZones": [
-      "SilkenHollow"
+    "FoundInZones": [
+      "Silken Hollow"
     ],
-    "FoundInZoneGameIDs": [],
-    "FoundInZoneFSLIDs": [],
+    "PlacedInZones": [
+      "SpiderForest"
+    ],
+    "FoundInZoneGameIDs": [
+      24
+    ],
+    "FoundInZoneFSLIDs": [
+      50024
+    ],
     "HasAIBC": false,
     "KillScore": null,
     "SpiritPointValue": null,
