@@ -353,9 +353,10 @@
           "GrantedAugmentation": "CA_GemBonus_ApplyPeriodicAbsorbSmall",
           "Magnitude": {
             "Base.Duration": 60.0,
-            "AbsorbMaxHealthFraction": 0.1
+            "AbsorbMaxHealthFraction": 0.05,
+            "AbsorbConsumptionScaler": 0.5
           },
-          "Description": "Every <rt.effect>{Cooldown} seconds</>, you gain a shield that absorbs damage equal to <rt.warning>{ShieldPercent}</> of your <rt.meikoability2>Maximum Health</>. The shield lasts for <rt.effect>{ShieldDuration} seconds</>."
+          "Description": "Every <rt.effect>{Cooldown} seconds</>, you gain a shield that absorbs damage equal to <rt.warning>{ShieldPercent}</> of your <rt.meikoability2>Maximum Health</>. The shield lasts for <rt.effect>{ShieldDuration} seconds</>. Damage dealt to the shield is <rt.heal>reduced by 50%</>."
         },
         {
           "Rank": 4,
@@ -399,9 +400,10 @@
           "GrantedAugmentation": "CA_GemBonus_ApplyPeriodicAbsorbMedium",
           "Magnitude": {
             "Base.Duration": 60.0,
-            "AbsorbMaxHealthFraction": 0.3
+            "AbsorbConsumptionScaler": 0.5,
+            "AbsorbMaxHealthFraction": 0.15
           },
-          "Description": "Every <rt.effect>{Cooldown} seconds</>, you gain a shield that absorbs damage equal to <rt.warning>{ShieldPercent}</> of your <rt.meikoability2>Maximum Health</>. The shield lasts for <rt.effect>{ShieldDuration} seconds</>\n\n(Replaces <rt.absorb>Sentinel's Bastion</>)"
+          "Description": "Every <rt.effect>{Cooldown} seconds</>, you gain a shield that absorbs damage equal to <rt.warning>{ShieldPercent}</> of your <rt.meikoability2>Maximum Health</>. The shield lasts for <rt.effect>{ShieldDuration} seconds</>. Damage dealt to the shield is <rt.heal>reduced by 50%</>.\n\n(Replaces <rt.absorb>Sentinel's Bastion</>)"
         },
         {
           "Rank": 9,
@@ -1381,10 +1383,10 @@
           10.0
         ],
         "PPM": [
-          1.4,
-          1.4,
-          1.4,
-          1.4
+          1.5,
+          1.5,
+          1.5,
+          1.5
         ],
         "FlatArmorValue": [
           1.01,
@@ -1406,10 +1408,10 @@
       "DevName": "ItemTrait.ID.IncomingDamageToHotAndAbsorb",
       "Constants": {
         "ChancePPM": [
-          0.8,
-          0.8,
-          0.8,
-          0.8
+          1.0,
+          1.0,
+          1.0,
+          1.0
         ],
         "Hot.FlatHealValue": [
           0.83,
@@ -1441,6 +1443,12 @@
           5.92,
           7.68
         ],
+        "Absorb.AbsorbConsumptionScaler": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
         "Absorb.MaxRange": [
           4000.0,
           4000.0,
@@ -1461,10 +1469,10 @@
           3.48
         ],
         "PPM": [
-          2.6,
-          2.6,
-          2.6,
-          2.6
+          3.3,
+          3.3,
+          3.3,
+          3.3
         ],
         "MaxHealthThreshold": [
           0.5,
@@ -1505,10 +1513,10 @@
       "DevName": "ItemTrait.ID.IncreasedStaminaToHealthConversion",
       "Constants": {
         "Multiplier": [
-          1.02,
-          1.038,
-          1.056,
-          1.074
+          1.025,
+          1.047,
+          1.07,
+          1.093
         ]
       }
     },
@@ -1519,21 +1527,21 @@
       "Constants": {
         "MaxStacks": [
           3.0,
-          5.0,
-          7.0,
-          9.0
+          3.0,
+          3.0,
+          3.0
         ],
         "AdditionalDamageReductionPerStack": [
           0.98,
-          0.98,
-          0.98,
-          0.98
+          0.97,
+          0.955,
+          0.94
         ],
         "SecondsBetweenStackIncrease": [
-          8.0,
-          8.0,
-          8.0,
-          8.0
+          4.0,
+          4.0,
+          4.0,
+          4.0
         ]
       }
     },
@@ -1636,10 +1644,10 @@
           1.0
         ],
         "StackToHealMultiplier": [
-          0.3,
-          0.58,
-          0.86,
-          1.14
+          0.6,
+          1.16,
+          1.72,
+          2.28
         ],
         "MaxDistanceToLowestHealthTarget": [
           3000.0,
@@ -1775,7 +1783,7 @@
       }
     },
     "52": {
-      "Name": "The Boar",
+      "Name": "The Beetle",
       "FSLID": 3000052,
       "DevName": "ItemTrait.ID.BigBlowMitigation",
       "Constants": {
@@ -1819,12 +1827,12 @@
       }
     },
     "54": {
-      "Name": "The Gryphon",
+      "Name": "The Shadow",
       "FSLID": 3000054,
       "DevName": "ItemTrait.ID.Basilisk"
     },
     "55": {
-      "Name": "The Bat",
+      "Name": "The Dune",
       "FSLID": 3000055,
       "DevName": "ItemTrait.ID.Bat"
     },
@@ -1844,7 +1852,7 @@
       "DevName": "ItemTrait.ID.Fox"
     },
     "59": {
-      "Name": "The River",
+      "Name": "The Tower",
       "FSLID": 3000059,
       "DevName": "ItemTrait.ID.Gorilla"
     },
@@ -1977,7 +1985,7 @@
       "GameID": 240,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_PowerBonusAndAutoHeal",
-      "Description": "+4% Main Stat\n\nWhen dipping below 20% Health, you are instantly healed for 35% of your maximum health. This can occur once every 180 seconds."
+      "Description": "+5% Main Stat\n\nWhen dipping below 20% Health, you are instantly healed for 40% of your maximum health. This can occur once every 180 seconds."
     },
     "245": {
       "Name": "Drakheim's Absolution",
@@ -2078,16 +2086,16 @@
       "DevName": "CAA_Finesse_CritChanceToHealOrDamage",
       "Constants": {
         "DamageCoefficient": [
-          1.43,
-          2.28,
-          3.65,
-          5.84
+          1.72,
+          2.74,
+          4.38,
+          7.0
         ],
         "HealCoefficient": [
-          1.22,
-          1.95,
-          3.12,
-          5.0
+          1.46,
+          2.34,
+          3.74,
+          6.0
         ],
         "MaxRadius": [
           3000.0,
@@ -2410,7 +2418,7 @@
       }
     },
     "IncreasedDurationOrReducedCooldown": {
-      "Name": "The River",
+      "Name": "The Tower",
       "BuffName": null,
       "Description": "{uniqueHeroDescription}",
       "DevName": "CAA_Perk_IncreasedDurationOrReducedCooldown",
@@ -2452,10 +2460,11 @@
       "Description": "Absorbs incoming damage",
       "DevName": "CAA_Perk_MaxHealthBasedAbsorb",
       "Constants": {
-        "Tanks.MaxHealthPercentage": 0.25,
-        "DPS.MaxHealthPercentage": 0.4,
-        "VigorMosse.MaxHealthPercentage": 0.4,
-        "Lisa.MaxHealthPercentage": 0.25,
+        "Tanks.MaxHealthPercentage": 0.12,
+        "DPS.MaxHealthPercentage": 0.2,
+        "VigorMosse.MaxHealthPercentage": 0.2,
+        "Lisa.MaxHealthPercentage": 0.12,
+        "ConsumptionScaler": 0.5,
         "Duration": 12.0,
         "Lisa.Duration": 8.0
       }

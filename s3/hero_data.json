@@ -496,7 +496,7 @@
         "Cost": 1.0,
         "Talent": {
           "CastedHealFromPreviousDamageProc": {
-            "ProcChance": 0.2,
+            "ProcChance": 0.25,
             "MaxProcs": 2.0,
             "ProcsPerHit": 1.0
           },
@@ -589,11 +589,11 @@
       "Flash Revision": {
         "DevName": "GA_Lisa_CastedHeal",
         "CastTime": 1.5,
-        "IntellectCoefficient": 12.12,
-        "Cost": 88.0,
+        "IntellectCoefficient": 14.54,
+        "Cost": 67.0,
         "ResourceGain": 6.0,
         "ResourceGainCrit": 9.0,
-        "HealToStaggerMultiplier": 0.35,
+        "HealToStaggerMultiplier": 0.3,
         "Talent": {
           "AdditionalTarget": {
             "Radius": 1500.0,
@@ -660,23 +660,29 @@
           "MaxHealthMultiplier": 0.3
         },
         "StaggerRemovalPercentageToManaGained": {
-          "ManaFactor": 0.08
+          "ManaFactor": 0.32
         }
       },
       "Amend Fate": {
         "DevName": "GA_Lisa_SingleTargetStaggerRemovalSpender",
         "StaggerRemovalPercentage": 0.08,
-        "StaggerRemovalIntCoefficient": 5.727,
+        "StaggerRemovalIntCoefficient": 7.875,
         "StaggerRemovalSpreadMin": 0.9,
         "StaggerRemovalSpreadMax": 1.1,
-        "StaggerToHealMultiplier": 2.75,
+        "StaggerToHealMultiplier": 2.0,
         "ResourceCostInPercentage": 0.3,
         "Cost": 0.0,
         "StaggerThreshold": {
           "MaxHealthMultiplier": 0.3
         },
         "StaggerRemovalPercentageToManaGained": {
-          "ManaFactor": 0.08
+          "ManaFactor": 0.32
+        },
+        "Talent": {
+          "OverhealToDamageReduction": {
+            "IncomingDamageMultiplier": 0.88,
+            "Duration": 15.0
+          }
         }
       },
       "Oblivion": {
@@ -696,7 +702,9 @@
           },
           "Absorb": {
             "Duration": 8.0,
-            "OverhealToAbsorbMultiplier": 0.5
+            "OverhealToAbsorbMultiplier": 0.25,
+            "MaxHealthBasedAbsorbLimit": 0.15,
+            "AbsorbConsumptionScaler": 0.5
           },
           "CritPowerBonus": {
             "AdditiveMultiplier": 1.2
@@ -731,7 +739,7 @@
         "DevName": "GA_Lisa_PauseResourcesAndPartyHealth",
         "Duration": 6.0,
         "Cost": 100.0,
-        "CooldownRecoveryMultiplier": 6.0,
+        "CooldownRecoveryMultiplier": 1.0,
         "CooldownReductionMultiplier": 6.0,
         "GatheredHealingToOutgoingHealingMultiplier": 1.0,
         "OutgoingHealingRadius": 1500.0,
@@ -819,14 +827,14 @@
         },
         "SpendersToManaRegen": {
           "Duration": 9.0,
-          "ManaRegenMultiplier": 0.015,
-          "MaxStacks": 5.0
+          "ManaRegenMultiplier": 0.013,
+          "MaxStacks": 10.0
         },
         "DecreasedIncomingMagicDamage": {
           "DamageMultiplier": 0.9
         },
         "ResourceToFreeSpender": {
-          "ResourceThreshold": 4.0
+          "ResourceThreshold": 3.0
         },
         "IncomingAoeDamageReduction": {
           "AdditionalAvoidance": 0.1
@@ -838,9 +846,9 @@
           "HealMultiplier": 1.1
         },
         "StaggerRemovalOverTime": {
-          "Duration": 5.0,
+          "Duration": 4.0,
           "TickInterval": 1.0,
-          "PercentageOfMaxHealth": 0.015
+          "PercentageOfMaxHealth": 0.025
         }
       }
     }
@@ -1304,8 +1312,8 @@
         "DevName": "GA_Firemage_CastedDotDetonate",
         "ResourcePerOrb": 100.0
       },
-      "Frog Squad": {
-        "DevName": "GA_Firemage_Passive_Talent_FireFrogOnDotCrit_Monitor",
+      "Spontaneous Combustion": {
+        "DevName": "GA_Firemage_Passive_Talent_DotDoubleDamageAndHeal_DotTickMonitor",
         "FireFrogOnDotCrit": {
           "ProcChanceOnCrit": 0.05,
           "ProcChanceNotCrit": 0.025,
@@ -1332,8 +1340,8 @@
           "AdditionalOrbResources": 2.0
         }
       },
-      "Apocalypse": {
-        "DevName": "GA_Firemage_CastedPlacedAoe",
+      "Pyromania": {
+        "DevName": "GA_Firemage_InstantMultiTargetDot",
         "Talent": {
           "AdditionalResourceGenerationChance": {
             "Increase": 1.25
@@ -1484,8 +1492,8 @@
           "AdditionalHitDamageIncreased": 1.4
         }
       },
-      "Searing Blaze": {
-        "DevName": "GA_Firemage_CastedSingleDot2",
+      "Engulfing Flames": {
+        "DevName": "GA_Firemage_CastedSingleHeavyDot",
         "MaxRange": 3000.0,
         "CastTime": 1.5,
         "Duration": 18.0,
@@ -1508,8 +1516,8 @@
           }
         }
       },
-      "InstantSingleTargetDot": {
-        "DevName": "GA_Firemage_CastedPlacedAoe",
+      "Searing Blaze": {
+        "DevName": "GA_Firemage_CastedSingleDot2",
         "MaxRange": 3000.0,
         "DotDuration": 30.0,
         "DotPeriod": 2.0,
@@ -1523,7 +1531,7 @@
           }
         }
       },
-      "Engulfing Flames": {
+      "CastedSingleHeavyDot": {
         "DevName": "GA_Firemage_CastedSingleHeavyDot",
         "MaxRange": 3000.0,
         "CastTime": 1.5,
@@ -1583,7 +1591,7 @@
         "Cooldown": 45.0,
         "DotBonus": {
           "MaxRange": 5000.0,
-          "TickPeriodScaler": 1.2,
+          "TickPeriodScaler": 1.3,
           "Duration": 9.0
         },
         "Talent": {
@@ -1681,7 +1689,7 @@
         "DotTickResourceRewardFractionOfBomb": 0.0,
         "DamageScalePerStack": 0.3
       },
-      "CastedPlacedAoe": {
+      "Apocalypse": {
         "DevName": "GA_Firemage_CastedPlacedAoe",
         "Radius": 1000.0,
         "MaxRangeHorizontal": 3000.0,
@@ -1718,7 +1726,7 @@
           }
         }
       },
-      "Pyromania": {
+      "InstantMultiTargetDot": {
         "DevName": "GA_Firemage_InstantMultiTargetDot",
         "MaxRange": 3000.0,
         "Cooldown": 90.0,
@@ -2183,8 +2191,8 @@
         "DevName": "SpiritProc",
         "TargetMaxRange": 3000.0,
         "NumOfStacks": {
-          "MainTarget": 3.0,
-          "AdditionalTargets": 1.0
+          "MainTarget": 5.0,
+          "AdditionalTargets": 2.0
         },
         "ResourceRefund": {
           "FlatSpiritPointGain": 1.0
@@ -2295,8 +2303,11 @@
         },
         "Talent": {
           "CooldownReduction": {
-            "CooldownReductionInSeconds": 0.3,
+            "CooldownReductionInSeconds": 1.5,
             "MaxCooldownReductionPerActivation": 3.0
+          },
+          "CooldownReductionEmpowered": {
+            "CooldownReductionInSeconds": 3.0
           }
         }
       },
@@ -2346,7 +2357,7 @@
         "TickInterval": 0.2,
         "CastDuration": 0.0,
         "ChannelDuration": 2.0,
-        "AgilityCoefficient": 1.374,
+        "AgilityCoefficient": 1.305,
         "SearchMaxAngle": 320.0,
         "MaxRadiusFromTarget": 1000.0,
         "Cooldown": 20.0,
@@ -2403,12 +2414,12 @@
       },
       "Highwind Arrow": {
         "DevName": "GA_Bowguy_CastedProjectileHeavyDamage",
-        "AgilityCoefficient": 9.7185,
+        "AgilityCoefficient": 13.6673,
         "CastDuration": 2.0,
         "Cost": 30.0,
         "MaxCharges": 3.0,
         "Cooldown": 15.0,
-        "BounceDamageMultiplierAfterFirstHit": 0.7,
+        "BounceDamageMultiplierAfterFirstHit": 0.5,
         "Talent": {
           "IncreasedCooldown": {
             "AdditionalCooldownInSeconds": 0.0
@@ -2432,7 +2443,7 @@
           },
           "IncreasedIncomingDamageDebuff": {
             "Duration": 9.0,
-            "IncomingDamageMultiplier": 1.1,
+            "IncomingDamageMultiplier": 1.08,
             "MaxStacks": 3.0
           },
           "NoBounceBuff": {
@@ -2465,10 +2476,11 @@
         "MaxStacks": 20.0,
         "Duration": 15.0,
         "AdditionalHit": {
-          "AgilityCoefficient": 2.2597,
+          "AgilityCoefficient": 2.19,
           "Aoe": {
-            "ChanceToProc": 0.2,
-            "AgilityCoefficient": 2.2597,
+            "ChanceToProc": 0.25,
+            "AgilityCoefficient": 2.19,
+            "TargetCountThreshold": 12.0,
             "Radius": 800.0,
             "Height": 500.0
           },
@@ -2510,17 +2522,20 @@
         "Duration": 8.0,
         "TickInterval": 1.0,
         "Cooldown": 40.0,
-        "AgilityCoefficient": 1.249,
-        "TargetCountThreshold": 10.0,
+        "AgilityCoefficient": 1.0,
+        "TargetCountThreshold": 12.0,
         "Cost": 30.0,
         "Talent": {
           "IncreasedInstantMarkTriggerChance": {
             "AddedCritChance": 0.2
           },
           "IncreasedDurationAndExtension": {
-            "DurationIncreaseInSeconds": 2.0,
+            "DurationIncreaseInSeconds": 3.0,
             "AoeProjectileDamage": {
-              "DurationExtensionPerUse": 0.5
+              "DurationExtensionPerUse": 0.25
+            },
+            "MainTargetDamageBonus": {
+              "DamageScaler": 2.0
             }
           },
           "IncreasedDamage": 1.0
@@ -3033,375 +3048,22 @@
       },
       "SpiritProc": {
         "DevName": "SpiritProc",
-        "SpiritPointsGain": 1.0,
-        "AmountOfOrbs": 5.0,
         "ResourceRefund": {
           "FlatSpiritPointGain": 2.0
-        }
-      },
-      "Heart Splitter": {
-        "DevName": "GA_Gunde_HeavyMeleeDotBased",
-        "DamageToDotScaler": 0.5,
-        "Dot": {
-          "Duration": 30.0,
-          "Period": 3.0
         },
-        "Talent": {
-          "ReducedTickSpeed": {
-            "PeriodFrequencyIncrease": 1.1
-          },
-          "IncreasedDropAmount": {
-            "DropChance": 0.1,
-            "NewAmount": 3.0
-          }
-        },
-        "TotalDamageToStackCountScaler": 0.0025
+        "SpiritPointsGain": 1.0,
+        "AmountOfOrbs": 5.0
       },
-      "Slaughter": {
-        "DevName": "GA_Gunde_InstantAoeDot",
-        "Debuff": {
-          "BleedDamageScaler": 1.2,
-          "Duration": 18.0
-        }
+      "IncomingDamageToPainScaler": {
+        "DevName": "IncomingDamageToPainScaler",
+        "Value": 2.0
       },
-      "ExtraDotDamageGain": {
-        "DevName": "ExtraDotDamageGain",
-        "BonusAmount": 0.2,
-        "MaxStacks": 1.0,
-        "Duration": 8.0
-      },
-      "AutoAttack": {
-        "DevName": "AutoAttack",
-        "SwingTimer": 1.5
-      },
-      "Attack": {
-        "DevName": "GA_Gunde_MeleeAutoAttack",
-        "HitVisualDelay": 0.51,
-        "StrengthCoefficient": 0.3
-      },
-      "Double Strike": {
-        "DevName": "GA_Gunde_BasicSingleTargetAttack",
-        "DamageStrengthCoefficientPerHit": 0.825,
-        "FirstVisualHitDelay": 0.1,
-        "SecondVisualHitDelay": 0.45,
-        "MaxRange": 3000.0
-      },
-      "Reaver's Edge": {
-        "DevName": "GA_Gunde_InstantWhirlwindAoe",
-        "VisualHitDelay": 0.45,
-        "AoeRadius": 700.0,
-        "DamageStrengthCoefficient": 2.0317,
-        "DamageScalingTargetCountThreshold": 8.0,
-        "Cooldown": 5.0,
-        "Talent": {
-          "GatherOrbs": {
-            "MaxRange": 1000.0
-          }
-        }
-      },
-      "Rupture": {
-        "DevName": "GA_Gunde_HeavyMeleeDotBoost",
-        "VisualHitDelay": 0.3,
-        "DamageStrengthCoefficient": 21.26,
-        "Cooldown": 60.0,
-        "Talent": {
-          "IncreasedDotDamage": {
-            "Duration": 10.0,
-            "DamageMultiplier": 1.12
-          },
-          "IncreasedCritAndNoneCritDamage": {
-            "CritDamageMultiplier": 1.5,
-            "NoneCritDamageMultiplier": 1.1
-          },
-          "ReducedCooldown": {
-            "ReductionInSeconds": 1.0
-          },
-          "OrbDropper": {
-            "NumOfOrbs": 8.0
-          },
-          "ReducedCooldownPerOrb": {
-            "ReductionInSeconds": 0.4
-          },
-          "IncreasedDamageOnSelf": {
-            "DamageScale": 0.075,
-            "MaxStacks": 1.0,
-            "Duration": 10.0
-          }
-        }
-      },
-      "Grim Carve": {
-        "DevName": "GA_Gunde_TargetedAoeProjectile",
-        "ProjectileSpawnDelay": 0.14,
-        "DamageStrengthCoefficientPerHit": 2.076,
-        "DamageScalingTargetCountThreshold": 5.0,
-        "Speed": 5000.0,
-        "Cooldown": 15.0,
-        "MaxRange": 3000.0,
-        "Aoe": {
-          "Radius": 700.0,
-          "Duration": 1.15,
-          "Period": 0.5
-        },
-        "Talent": {
-          "Empowered": {
-            "ProcChance": 0.06,
-            "AddedCritChance": 1.0,
-            "Duration": 8.0
-          },
-          "DamageCooldownReduction": {
-            "DamageMultiplier": 1.25,
-            "CooldownReductionInSecondsPerHit": 1.0
-          },
-          "AdditionalTicks": {
-            "Amount": 2.0
-          },
-          "CooldownAcceleration": {
-            "AdditionalCooldownRecovery": 2.0,
-            "Duration": 3.0
-          }
-        }
-      },
-      "Reckless Abandon": {
-        "DevName": "GA_Gunde_DamageReductionSelfBuff",
-        "IncomingDamageMultiplier": 0.6,
-        "Duration": 4.0,
-        "Cooldown": 30.0,
-        "VisualDelay": 0.24
-      },
-      "Jawbreaker": {
-        "DevName": "GA_Gunde_SingleTargetInterrupt",
-        "MaxRange": 500.0,
-        "Duration": 4.0,
-        "Cooldown": 12.0,
-        "VisualDelay": 0.21
-      },
-      "Reign in Blood": {
-        "DevName": "GA_Gunde_ExtraDotDamageBuff",
-        "BonusDotDamage": 0.3,
-        "Duration": 12.0,
-        "Cooldown": 90.0,
-        "VisualDelay": 0.2,
-        "Talent": {
-          "Haste": {
-            "AdditionalHaste": 0.25
-          },
-          "AddedBonus": {
-            "AddedTransfer": 0.25
-          }
-        }
-      },
-      "HeavyMeleeDotBased": {
-        "DevName": "GA_Gunde_HeavyMeleeDotBased",
-        "Cooldown": 12.0,
-        "Damage": {
-          "StrengthCoefficient": 4.7,
-          "DotCoefficient": 0.3
-        },
-        "VisualDelay": 0.35,
-        "Talent": {
-          "IncreasedCritChance": {
-            "AdditionalCritChance": 0.3
-          },
-          "CritToAoe": {
-            "Radius": 500.0,
-            "AdditionalTargets": 4.0,
-            "TargetThresholdScaling": 5.0,
-            "AoeDamageScaler": 0.5
-          },
-          "LowHealthTarget": {
-            "AddedCriticalStrikeChance": 1.0
-          },
-          "IncreasedDirectDamage": {
-            "DamageScale": 1.3
-          },
-          "Charges": {
-            "NumOfCharges": 2.0,
-            "DoubleStrike": {
-              "Chance": 0.25,
-              "DelayBetweenStrikes": 0.4
-            }
-          }
-        }
-      },
-      "InstantAoeDot": {
-        "DevName": "GA_Gunde_InstantAoeDot",
-        "Aoe": {
-          "Radius": 700.0
-        },
-        "Dot": {
-          "AccDotToNewDotScaler": 1.6,
-          "Duration": 3.0,
-          "Period": 0.3
-        },
-        "VisualDelay": 0.5,
-        "Cooldown": 30.0,
-        "Talent": {
-          "IncreasedCritChance": {
-            "AdditionalCritChance": 0.1
-          },
-          "StacksToHaste": {
-            "Duration": 8.0,
-            "AdditionalHastePerStack": 0.0025,
-            "MaxStacks": 100.0
-          }
-        }
-      },
-      "Owed in Blood": {
-        "DevName": "GA_Gunde_DotTransfer",
-        "MaxRange": 2000.0,
-        "SelfBuff": {
-          "Duration": 45.0
-        },
-        "VisualDelay": 0.25,
-        "Target": {
-          "Cooldown": 3.0
-        },
-        "Talent": {
-          "IncreasedDamageOnSelf": {
-            "DamageScalePerStack": 0.0025,
-            "MaxStacks": 30.0,
-            "Duration": 10.0
-          },
-          "Aoe": {
-            "Cooldown": 20.0,
-            "Radius": 1000.0,
-            "MaxStacks": 80.0,
-            "StackDuration": 10.0
-          },
-          "ExplosionOnPickup": {
-            "StrengthCoefficient": 0.374,
-            "Radius": 700.0,
-            "TargetThresholdScaling": 5.0
-          },
-          "AoeBasedOnStacks": {
-            "Radius": 700.0,
-            "BaseStrengthCoefficient": 0.2,
-            "DamageIncreasePerStack": 1.7,
-            "TargetThresholdScaling": 1.0,
-            "Period": 3.0,
-            "Duration": 6.15
-          },
-          "InstantAoeWithBuff": {
-            "DamageAndOrbs": {
-              "Duration": 12.0,
-              "DamageMultiplier": 1.2,
-              "AdditionalDamagePerStack": 0.02,
-              "StacksPerOrb": 3.0,
-              "OrbsPerPeriod": 10.0,
-              "Period": 2.0
-            }
-          }
-        },
-        "Orb": {
-          "Lifespan": 30.0,
-          "MaxActiveOrbPickups": 20.0,
-          "ActivationDelay": 0.5,
-          "Scale": 1.5,
-          "PickUpRadius": 360.0,
-          "NumOfStacksPerOrb": 1.0,
-          "RelevantDropRadius": 5000.0,
-          "SpawnChanceAtDeath": 0.25,
-          "SpawnChanceAtTick": {
-            "A": 1.0,
-            "B": 0.5,
-            "C": 0.33,
-            "D": 0.25,
-            "E": 0.2,
-            "F": 0.1667,
-            "G": 0.15
-          },
-          "SpawnInnerRadius": 100.0,
-          "SpawnOuterRadius": 300.0
-        },
-        "MaxStacks": 150.0
-      },
-      "Butcher's Hook": {
-        "DevName": "GA_Gunde_SingleTargetPull",
-        "Cooldown": 30.0,
-        "MaxRange": 3000.0,
-        "MaxPullHeight": 1000.0,
-        "PullDelay": 0.25,
-        "PullDuration": 0.2,
-        "StopDistance": 150.0,
-        "Damage": {
-          "StrengthCoefficient": 0.37
-        },
-        "Talent": {
-          "MultiTargets": {
-            "Radius": 800.0,
-            "AdditionalTargets": 3.0,
-            "AdditionalCooldown": 15.0
-          }
-        }
-      },
-      "JumpToLocation": {
-        "DevName": "GA_Gunde_JumpToLocation",
-        "Cooldown": 20.0,
-        "NumCharges": 2.0,
-        "MaxRangeHorizontal": 2000.0,
-        "MaxRangeUp": 1000.0,
-        "MaxRangeDown": 5000.0,
-        "TargetingRadius": 50.0,
-        "JumpDuration": 0.3
-      },
-      "Blood Arc": {
-        "DevName": "GA_Gunde_InstantAoeWithBuff",
-        "VisualHitDelay": 0.2,
-        "AoeRadius": 700.0,
-        "ConePieMinRadius": 0.0,
-        "ConePieAngleWidth": 120.0,
-        "DamageStrengthCoefficient": 2.7092,
-        "DamageScalingTargetCountThreshold": 8.0,
-        "Cooldown": 9.0,
-        "Talent": {
-          "AdditionalStack": {
-            "MaxStacks": 2.0
-          },
-          "ChanceCooldownReset": {
-            "Chance": 0.3
-          },
-          "Empowered": {
-            "AddedCriticalStrikeChance": 1.0,
-            "Duration": 12.0
-          },
-          "AddedTransfer": {
-            "DotTransferBonus": 0.1
-          }
-        }
-      },
-      "Bloodbound Spirit": {
-        "DevName": "GA_Gunde_DurationalAoeDotAndBuff",
-        "Radius": 1000.0,
-        "Duration": 6.15,
-        "Period": 1.5,
-        "StrengthCoefficient": 4.653,
-        "DamageScalingTargetCountThreshold": 1.0,
-        "CastTime": 1.0,
-        "SelfBuff": {
-          "Duration": 20.0,
-          "DamageMultiplier": 1.15
-        }
-      },
-      "Warbound": {
-        "DevName": "GA_Gunde_DashAttack",
-        "StrengthCoefficient": 0.2,
-        "DamageRadius": 250.0,
-        "MaxCharges": 2.0,
-        "MaxDistance": 1000.0,
-        "InAirExitSpeed": 1000.0,
-        "Speed": 2500.0,
-        "CooldownDuration": 8.0,
-        "Talent": {
-          "DamageMultiplier": 1.15
-        }
+      "HasteAndMoveSpeedBuff": {
+        "DevName": "HasteAndMoveSpeedBuff",
+        "PercentIncreasePerHealthPercentage": 0.3
       },
       "Talent": {
         "DevName": "Talent",
-        "AbilityToBuffChance": {
-          "ProcChance": 0.4,
-          "StrengthMultiplier": 1.06,
-          "Duration": 6.0
-        },
         "IncreasedMaxResources": {
           "MaxResourcesScaler": 1.3
         },
@@ -3439,15 +3101,28 @@
               "HealthTheshold": 0.5
             }
           }
+        },
+        "AbilityToBuffChance": {
+          "ProcChance": 0.4,
+          "StrengthMultiplier": 1.06,
+          "Duration": 6.0
         }
       },
-      "IncomingDamageToPainScaler": {
-        "DevName": "IncomingDamageToPainScaler",
-        "Value": 2.0
+      "AutoAttack": {
+        "DevName": "AutoAttack",
+        "SwingTimer": 1.5
       },
-      "HasteAndMoveSpeedBuff": {
-        "DevName": "HasteAndMoveSpeedBuff",
-        "PercentIncreasePerHealthPercentage": 0.3
+      "Attack": {
+        "DevName": "GA_Gunde_MeleeAutoAttack",
+        "HitVisualDelay": 0.51,
+        "StrengthCoefficient": 0.3
+      },
+      "Jawbreaker": {
+        "DevName": "GA_Gunde_SingleTargetInterrupt",
+        "MaxRange": 500.0,
+        "Duration": 4.0,
+        "Cooldown": 16.0,
+        "VisualDelay": 0.2
       },
       "SingleTargetTaunt": {
         "DevName": "GA_Gunde_SingleTargetTaunt",
@@ -3535,7 +3210,7 @@
         "IncomingDamageScaler": 0.7,
         "VisualDelay": 0.2
       },
-      "HealthAndBleedSelfBuff": {
+      "Reign in Blood": {
         "DevName": "GA_Gunde_Passive_HealthAndBleedSelfBuff_Monitor",
         "BleedDamageScaler": 1.3,
         "Duration": 12.0,
@@ -3643,6 +3318,346 @@
         },
         "EffectVisualDelay": 0.25,
         "NumCharges": 3.0
+      },
+      "Bloodbound Spirit": {
+        "DevName": "GA_Gunde_DurationalAoeDotAndBuff",
+        "DamageToDotScaler": 0.5,
+        "Dot": {
+          "Duration": 30.0,
+          "Period": 3.0
+        },
+        "Talent": {
+          "ReducedTickSpeed": {
+            "PeriodFrequencyIncrease": 1.1
+          },
+          "IncreasedDropAmount": {
+            "DropChance": 0.1,
+            "NewAmount": 3.0
+          }
+        },
+        "TotalDamageToStackCountScaler": 0.0025
+      },
+      "Slaughter": {
+        "DevName": "GA_Gunde_InstantAoeDot",
+        "Debuff": {
+          "BleedDamageScaler": 1.2,
+          "Duration": 18.0
+        }
+      },
+      "ExtraDotDamageGain": {
+        "DevName": "ExtraDotDamageGain",
+        "BonusAmount": 0.2,
+        "MaxStacks": 1.0,
+        "Duration": 8.0
+      },
+      "Double Strike": {
+        "DevName": "GA_Gunde_BasicSingleTargetAttack",
+        "DamageStrengthCoefficientPerHit": 0.825,
+        "FirstVisualHitDelay": 0.1,
+        "SecondVisualHitDelay": 0.45,
+        "MaxRange": 3000.0
+      },
+      "Reaver's Edge": {
+        "DevName": "GA_Gunde_InstantWhirlwindAoe",
+        "VisualHitDelay": 0.45,
+        "AoeRadius": 700.0,
+        "DamageStrengthCoefficient": 2.0317,
+        "DamageScalingTargetCountThreshold": 8.0,
+        "Cooldown": 5.0,
+        "Talent": {
+          "GatherOrbs": {
+            "MaxRange": 1000.0
+          }
+        }
+      },
+      "Rupture": {
+        "DevName": "GA_Gunde_HeavyMeleeDotBoost",
+        "VisualHitDelay": 0.3,
+        "DamageStrengthCoefficient": 21.26,
+        "Cooldown": 60.0,
+        "Talent": {
+          "IncreasedDotDamage": {
+            "Duration": 10.0,
+            "DamageMultiplier": 1.12
+          },
+          "IncreasedCritAndNoneCritDamage": {
+            "CritDamageMultiplier": 1.5,
+            "NoneCritDamageMultiplier": 1.1
+          },
+          "ReducedCooldown": {
+            "ReductionInSeconds": 1.0
+          },
+          "OrbDropper": {
+            "NumOfOrbs": 8.0
+          },
+          "ReducedCooldownPerOrb": {
+            "ReductionInSeconds": 0.4
+          },
+          "IncreasedDamageOnSelf": {
+            "DamageScale": 0.075,
+            "MaxStacks": 1.0,
+            "Duration": 10.0
+          }
+        }
+      },
+      "Grim Carve": {
+        "DevName": "GA_Gunde_TargetedAoeProjectile",
+        "ProjectileSpawnDelay": 0.14,
+        "DamageStrengthCoefficientPerHit": 2.076,
+        "DamageScalingTargetCountThreshold": 5.0,
+        "Speed": 5000.0,
+        "Cooldown": 15.0,
+        "MaxRange": 3000.0,
+        "Aoe": {
+          "Radius": 700.0,
+          "Duration": 1.15,
+          "Period": 0.5
+        },
+        "Talent": {
+          "Empowered": {
+            "ProcChance": 0.06,
+            "AddedCritChance": 1.0,
+            "Duration": 8.0
+          },
+          "DamageCooldownReduction": {
+            "DamageMultiplier": 1.25,
+            "CooldownReductionInSecondsPerHit": 1.0
+          },
+          "AdditionalTicks": {
+            "Amount": 2.0
+          },
+          "CooldownAcceleration": {
+            "AdditionalCooldownRecovery": 2.0,
+            "Duration": 3.0
+          }
+        }
+      },
+      "Reckless Abandon": {
+        "DevName": "GA_Gunde_DamageReductionSelfBuff",
+        "IncomingDamageMultiplier": 0.6,
+        "Duration": 4.0,
+        "Cooldown": 30.0,
+        "VisualDelay": 0.24
+      },
+      "ExtraDotDamageBuff": {
+        "DevName": "GA_Gunde_ExtraDotDamageBuff",
+        "BonusDotDamage": 0.3,
+        "Duration": 12.0,
+        "Cooldown": 90.0,
+        "VisualDelay": 0.2,
+        "Talent": {
+          "Haste": {
+            "AdditionalHaste": 0.25
+          },
+          "AddedBonus": {
+            "AddedTransfer": 0.25
+          }
+        }
+      },
+      "Heart Splitter": {
+        "DevName": "GA_Gunde_HeavyMeleeDotBased",
+        "Cooldown": 12.0,
+        "Damage": {
+          "StrengthCoefficient": 4.7,
+          "DotCoefficient": 0.3
+        },
+        "VisualDelay": 0.35,
+        "Talent": {
+          "IncreasedCritChance": {
+            "AdditionalCritChance": 0.3
+          },
+          "CritToAoe": {
+            "Radius": 700.0,
+            "AdditionalTargets": 4.0,
+            "TargetThresholdScaling": 8.0,
+            "AoeDamageScaler": 0.5
+          },
+          "LowHealthTarget": {
+            "AddedCriticalStrikeChance": 1.0
+          },
+          "IncreasedDirectDamage": {
+            "DamageScale": 1.1
+          },
+          "Charges": {
+            "NumOfCharges": 2.0,
+            "DoubleStrike": {
+              "Chance": 0.25,
+              "DelayBetweenStrikes": 0.4
+            }
+          }
+        }
+      },
+      "InstantAoeDot": {
+        "DevName": "GA_Gunde_InstantAoeDot",
+        "Aoe": {
+          "Radius": 700.0
+        },
+        "Dot": {
+          "AccDotToNewDotScaler": 1.6,
+          "Duration": 3.0,
+          "Period": 0.3
+        },
+        "VisualDelay": 0.5,
+        "Cooldown": 30.0,
+        "Talent": {
+          "IncreasedCritChance": {
+            "AdditionalCritChance": 0.1
+          },
+          "StacksToHaste": {
+            "Duration": 8.0,
+            "AdditionalHastePerStack": 0.0025,
+            "MaxStacks": 100.0
+          }
+        }
+      },
+      "Owed in Blood": {
+        "DevName": "GA_Gunde_DotTransfer",
+        "MaxRange": 2000.0,
+        "SelfBuff": {
+          "Duration": 45.0
+        },
+        "VisualDelay": 0.25,
+        "Target": {
+          "Cooldown": 3.0
+        },
+        "Talent": {
+          "IncreasedDamageOnSelf": {
+            "DamageScalePerStack": 0.0025,
+            "MaxStacks": 30.0,
+            "Duration": 10.0
+          },
+          "Aoe": {
+            "Cooldown": 20.0,
+            "Radius": 1000.0,
+            "MaxStacks": 80.0,
+            "StackDuration": 10.0
+          },
+          "ExplosionOnPickup": {
+            "StrengthCoefficient": 0.374,
+            "Radius": 700.0,
+            "TargetThresholdScaling": 5.0
+          },
+          "AoeBasedOnStacks": {
+            "Radius": 700.0,
+            "BaseStrengthCoefficient": 0.25,
+            "DamageIncreasePerStack": 1.5,
+            "TargetThresholdScaling": 1.0,
+            "Period": 3.0,
+            "Duration": 6.15
+          },
+          "InstantAoeWithBuff": {
+            "DamageAndOrbs": {
+              "Duration": 12.0,
+              "DamageMultiplier": 1.2,
+              "AdditionalDamagePerStack": 0.02,
+              "StacksPerOrb": 3.0,
+              "OrbsPerPeriod": 10.0,
+              "Period": 2.0
+            }
+          }
+        },
+        "Orb": {
+          "Lifespan": 30.0,
+          "MaxActiveOrbPickups": 20.0,
+          "ActivationDelay": 0.5,
+          "Scale": 1.5,
+          "PickUpRadius": 360.0,
+          "NumOfStacksPerOrb": 1.0,
+          "RelevantDropRadius": 5000.0,
+          "SpawnChanceAtDeath": 0.25,
+          "SpawnChanceAtTick": {
+            "A": 1.0,
+            "B": 0.5,
+            "C": 0.33,
+            "D": 0.25,
+            "E": 0.2,
+            "F": 0.1667,
+            "G": 0.15
+          },
+          "SpawnInnerRadius": 100.0,
+          "SpawnOuterRadius": 300.0
+        },
+        "MaxStacks": 150.0
+      },
+      "Butcher's Hook": {
+        "DevName": "GA_Gunde_SingleTargetPull",
+        "Cooldown": 30.0,
+        "MaxRange": 3000.0,
+        "MaxPullHeight": 1000.0,
+        "PullDelay": 0.25,
+        "PullDuration": 0.2,
+        "StopDistance": 150.0,
+        "Damage": {
+          "StrengthCoefficient": 0.37
+        },
+        "Talent": {
+          "MultiTargets": {
+            "Radius": 800.0,
+            "AdditionalTargets": 3.0,
+            "AdditionalCooldown": 15.0
+          }
+        }
+      },
+      "JumpToLocation": {
+        "DevName": "GA_Gunde_JumpToLocation",
+        "Cooldown": 20.0,
+        "NumCharges": 2.0,
+        "MaxRangeHorizontal": 2000.0,
+        "MaxRangeUp": 1000.0,
+        "MaxRangeDown": 5000.0,
+        "TargetingRadius": 50.0,
+        "JumpDuration": 0.3
+      },
+      "Blood Arc": {
+        "DevName": "GA_Gunde_InstantAoeWithBuff",
+        "VisualHitDelay": 0.2,
+        "AoeRadius": 700.0,
+        "ConePieMinRadius": 0.0,
+        "ConePieAngleWidth": 120.0,
+        "DamageStrengthCoefficient": 2.7092,
+        "DamageScalingTargetCountThreshold": 8.0,
+        "Cooldown": 9.0,
+        "Talent": {
+          "AdditionalStack": {
+            "MaxStacks": 2.0
+          },
+          "ChanceCooldownReset": {
+            "Chance": 0.3
+          },
+          "Empowered": {
+            "AddedCriticalStrikeChance": 1.0,
+            "Duration": 12.0
+          },
+          "AddedTransfer": {
+            "DotTransferBonus": 0.1
+          }
+        }
+      },
+      "DurationalAoeDotAndBuff": {
+        "DevName": "GA_Gunde_DurationalAoeDotAndBuff",
+        "Radius": 1000.0,
+        "Duration": 6.15,
+        "Period": 1.5,
+        "StrengthCoefficient": 4.653,
+        "DamageScalingTargetCountThreshold": 1.0,
+        "CastTime": 1.0,
+        "SelfBuff": {
+          "Duration": 20.0,
+          "DamageMultiplier": 1.15
+        }
+      },
+      "Warbound": {
+        "DevName": "GA_Gunde_DashAttack",
+        "StrengthCoefficient": 0.2,
+        "DamageRadius": 250.0,
+        "MaxCharges": 2.0,
+        "MaxDistance": 1000.0,
+        "InAirExitSpeed": 1000.0,
+        "Speed": 2500.0,
+        "CooldownDuration": 8.0,
+        "Talent": {
+          "DamageMultiplier": 1.15
+        }
       }
     }
   },
@@ -3715,7 +3730,7 @@
       "ManaRegenTickTime": 0.0,
       "DamageThreatMultiplier": 9.0,
       "HealThreatMultiplier": 0.75,
-      "StaminaToMaxHealthMultiplier": 85.485,
+      "StaminaToMaxHealthMultiplier": 76.9365,
       "Resources": 0.0,
       "MaxResources": 5.0,
       "OutOfCombatHealthRegenRate": 0.01,
@@ -4161,8 +4176,8 @@
           "SpiritProc": 2.0
         }
       },
-      "Unscarred Soul": {
-        "DevName": "GA_Warmaster_Passive_Talent_MeleeCleaveAbsorbBuff_ReducedDamageReflectDamage",
+      "Shield Slam": {
+        "DevName": "GA_Warmaster_MeleeCleave",
         "IncreasedArmor": {
           "ArmorMultiplier": 1.2
         },
@@ -4427,7 +4442,7 @@
           }
         }
       },
-      "Shield Slam": {
+      "MeleeCleave": {
         "DevName": "GA_Warmaster_MeleeCleave",
         "StrengthCoefficient": 4.2964,
         "CleaveDamageStrengthCoefficient": 0.758,
@@ -5450,7 +5465,7 @@
         "BaseDuration": 12.0,
         "DurationIncreasePerComboPoint": 3.0,
         "TickInterval": 3.0,
-        "AgilityCoefficient": 0.757,
+        "AgilityCoefficient": 0.9841,
         "Cost": 20.0,
         "EnergyGainPerTick": 2.0,
         "Talent": {
@@ -5629,6 +5644,10 @@
           "Chance": 0.1,
           "EnergyAdded": 10.0
         }
+      },
+      "HasteToPoisonAndBleedDamageBonus": {
+        "DevName": "GA_Mara_BleedAttackSpender",
+        "Scaler": 0.5
       }
     }
   },
@@ -5695,7 +5714,7 @@
       "ManaRegenTickTime": 1.0,
       "DamageThreatMultiplier": 9.0,
       "HealThreatMultiplier": 0.75,
-      "StaminaToMaxHealthMultiplier": 90.214,
+      "StaminaToMaxHealthMultiplier": 81.1926,
       "Expertise": 0.0,
       "Resources": 100.0,
       "MaxResources": 100.0,
@@ -6084,8 +6103,8 @@
         "DevName": "MeleeRange",
         "Value": 500.0
       },
-      "Earthfist Barrage": {
-        "DevName": "GA_Meiko_ChanneledHeavyDamage",
+      "Lashing Stormkick": {
+        "DevName": "GA_Meiko_HighDamageCleave",
         "ResourceRefund": {
           "FlatSpiritPointGain": 2.0
         }
@@ -6160,7 +6179,7 @@
       "Attack": {
         "DevName": "GA_Meiko_MeleeAutoAttack",
         "SwingTimer": 1.9,
-        "AgilityCoefficient": 0.35,
+        "AgilityCoefficient": 0.46,
         "Spread": 0.1,
         "DamageSoakBuff": {
           "CooldownReductionPerHit": {
@@ -6238,7 +6257,7 @@
           "Duration": 5.0
         }
       },
-      "ChanneledHeavyDamage": {
+      "Earthfist Barrage": {
         "DevName": "GA_Meiko_ChanneledHeavyDamage",
         "AgilityCoefficient": 0.736,
         "FinalHit": {
@@ -6247,8 +6266,8 @@
         "Spread": 0.0,
         "YellowEnergyCost": 3.0,
         "GreenEnergyCost": 0.0,
-        "TickInterval": 0.3,
-        "Duration": 1.5,
+        "TickInterval": 0.25,
+        "Duration": 1.0,
         "ResourceIncrease": {
           "Duration": 8.0,
           "ResourceMultiplier": 5.0
@@ -6300,13 +6319,13 @@
       },
       "Spirit Palm": {
         "DevName": "GA_Meiko_MeleeLeft",
-        "AgilityCoefficient": 0.83,
+        "AgilityCoefficient": 1.08,
         "Spread": 0.1,
         "EnergyCost": 30.0
       },
       "Wind Kick": {
         "DevName": "GA_Meiko_MeleeDown",
-        "AgilityCoefficient": 0.519,
+        "AgilityCoefficient": 0.675,
         "Spread": 0.1,
         "CleaveRadius": 500.0,
         "NumOfTargetsToCleave": 19.0,
@@ -6315,7 +6334,7 @@
       },
       "Earth Fist": {
         "DevName": "GA_Meiko_MeleeRight",
-        "AgilityCoefficient": 0.83,
+        "AgilityCoefficient": 1.08,
         "Spread": 0.1,
         "EnergyCost": 30.0
       },
@@ -6340,7 +6359,7 @@
       },
       "Rising Storm": {
         "DevName": "GA_Meiko_MeleeDamageSelfBuff",
-        "AgilityCoefficient": 1.166,
+        "AgilityCoefficient": 1.516,
         "Spread": 0.1,
         "CleaveRadius": 500.0,
         "NumOfTargetsToCleave": 19.0,
@@ -6350,9 +6369,9 @@
           "DamageIncrease": 2.0
         }
       },
-      "Lashing Stormkick": {
+      "HighDamageCleave": {
         "DevName": "GA_Meiko_HighDamageCleave",
-        "AgilityCoefficient": 1.19,
+        "AgilityCoefficient": 1.547,
         "Spread": 0.1,
         "CleaveRadius": 500.0,
         "NumOfTargetsToCleave": 19.0,
@@ -6360,8 +6379,8 @@
         "Talent": {
           "DoubleStrike": {
             "DelayBetweenStrikes": 0.4,
-            "DamageMultiplier": 0.6,
-            "Chance": 0.5
+            "DamageMultiplier": 1.0,
+            "Chance": 0.25
           },
           "IncreasedCriticalChance": {
             "ChanceMultiplier": 0.2
@@ -6376,7 +6395,7 @@
       },
       "Rising Earth": {
         "DevName": "GA_Meiko_MeleeDamageLowHealthSelfBuff",
-        "AgilityCoefficient": 2.334,
+        "AgilityCoefficient": 3.034,
         "Spread": 0.1,
         "Buff": {
           "DamageIncrease": 2.0,
@@ -6385,7 +6404,7 @@
       },
       "Double Palm Strike": {
         "DevName": "GA_Meiko_MeleeDamageImmediateSelfBuff",
-        "AgilityCoefficient": 2.41,
+        "AgilityCoefficient": 3.133,
         "Spread": 0.1,
         "Buff": {
           "Duration": 30.0,
@@ -6414,7 +6433,7 @@
       },
       "DurationalMultipleTeleportDamage": {
         "DevName": "GA_Meiko_DurationalMultipleTeleportDamage",
-        "AgilityCoefficient": 0.506,
+        "AgilityCoefficient": 0.658,
         "CameraOption": 2.0,
         "Spread": 0.1,
         "Radius": 1000.0,
@@ -6545,7 +6564,7 @@
         "TotalSecondaryStatModifier": 2.0,
         "NumOfCharges": 2.0,
         "ChargeCooldown": 30.0,
-        "DamageAgilityCoefficient": 1.04,
+        "DamageAgilityCoefficient": 1.352,
         "DamageSpread": 0.1,
         "DamageRadius": 800.0,
         "TargetCountThreshold": 5.0,
@@ -6574,11 +6593,11 @@
       },
       "Spirited Vortex": {
         "DevName": "GA_Meiko_DurationalAoeDamageBuff",
-        "AgilityCoefficient": 0.56,
+        "AgilityCoefficient": 0.728,
         "TargetCountDamageScalingThreshold": 8.0,
         "Spread": 0.1,
         "Radius": 800.0,
-        "MaxTargets": 19.0,
+        "MaxTargets": 40.0,
         "TickInterval": 2.0,
         "Duration": 30.0,
         "Enfeeble": {
@@ -6609,11 +6628,11 @@
         "MaxRangeHorizontal": 3000.0,
         "MaxRangeUp": 1000.0,
         "MaxRangeDown": 5000.0,
-        "AgilityCoefficient": 5.74,
+        "AgilityCoefficient": 7.46,
         "Spread": 0.1,
         "TargetCountDamageScalingThreshold": 1.0,
         "Dot": {
-          "AgilityCoefficient": 1.09,
+          "AgilityCoefficient": 1.42,
           "Spread": 0.1
         },
         "DamageRadius": 500.0,
@@ -7197,8 +7216,8 @@
           "MagicIncomingDamageMultiplier": 0.9
         }
       },
-      "Talon Strike": {
-        "DevName": "GA_Rime_Talent_SpendersSwap_SingleTarget",
+      "Rising Talons": {
+        "DevName": "GA_Rime_Talent_SpendersSwap_MultiTargets",
         "IncreasedMovementSpeed": {
           "SpeedScaler": 1.2
         },
@@ -7251,8 +7270,8 @@
         "SpikeVollyPeriod": 4.0,
         "DamageBonus": 1.2
       },
-      "Cold Snap": {
-        "DevName": "GA_Rime_InstantSingleDamage",
+      "Talon's Edict": {
+        "DevName": "GA_Rime_Passive_Talent_AutoDamageProjectile_ExplodingCrits_CritMonitor",
         "ProcChance": 0.5,
         "OrbReward": 1.0,
         "NumProjectiles": 3.0,
@@ -7365,7 +7384,7 @@
           }
         }
       },
-      "InstantSingleDamage": {
+      "Cold Snap": {
         "DevName": "GA_Rime_InstantSingleDamage",
         "DamageIntellectCoefficient": 3.145,
         "DamageSpread": 0.2,
@@ -8276,7 +8295,7 @@
       "Passive": {
         "DevName": "Passive",
         "PartyStaminaBuff": {
-          "StaminaMultiplier": 1.3,
+          "StaminaMultiplier": 1.25,
           "Radius": 8000.0
         },
         "HealingMushroomPlacement": {
@@ -8384,10 +8403,10 @@
         "Talent": {
           "ReducedManaCost": 0.75,
           "OverhealGivesAbsorb": {
-            "OverhealScaler": 0.75,
-            "MaxAbsorbMainStatFraction": 16.02,
+            "OverhealScaler": 0.5,
+            "MaxAbsorbMainStatFraction": 10.0,
             "AbsorbBuffDuration": 15.0,
-            "DamageScaler": 0.8
+            "DamageScaler": 0.5
           },
           "Charges": {
             "MaxCharges": 2.0,
@@ -8499,8 +8518,8 @@
           }
         }
       },
-      "Fluttercall: Restore Life": {
-        "DevName": "GA_Mosse_PinkButterfly_Double",
+      "Fluttercall: Heal": {
+        "DevName": "GA_Mosse_PinkButterfly_Simple",
         "IncreasedHealPerVine": {
           "HealMultiplierPerVine": 0.03
         },
@@ -8685,8 +8704,8 @@
         },
         "TargetAbsorb": {
           "Duration": 18.0,
-          "IntellectCoefficient": 24.55,
-          "AbsorbDamageMitigation": 0.7
+          "IntellectCoefficient": 17.55,
+          "AbsorbDamageMitigation": 0.5
         },
         "ButterflyHealLowHealth": {
           "Buff": {
@@ -9392,8 +9411,8 @@
         "DevName": "HitWindowDuration",
         "Value": 29.4
       },
-      "Talent": {
-        "DevName": "Talent",
+      "Hammer Storm": {
+        "DevName": "GA_Ink_AoeAttack",
         "IncreasedAttackSpeed": {
           "SpeedIncrease": 1.85
         },
@@ -9565,7 +9584,7 @@
         },
         "SwingTimerPauseDuration": 1.0
       },
-      "Hammer Storm": {
+      "AoeAttack": {
         "DevName": "GA_Ink_AoeAttack",
         "StrengthCoefficient": 2.23,
         "Spread": 0.1,
@@ -10270,14 +10289,14 @@
       "Luminous Barrier": {
         "DevName": "GA_Vigor_SingleTargetAbsorb",
         "DamageReduction": {
-          "BaseValue": 0.65,
+          "BaseValue": 0.5,
           "ReferenceIntellectValue": 3000.0,
           "ReferenceDamageReductionValue": 0.0,
-          "TotalIncomingDamageMultiplierLimit": 0.35
+          "TotalIncomingDamageMultiplierLimit": 0.5
         },
         "UponRemovalBuff": {
           "Duration": 15.0,
-          "IncomingDamageScaler": 0.9
+          "IncomingDamageScaler": 0.85
         },
         "Talent": {
           "AbsorbRefill": {
@@ -10293,10 +10312,11 @@
       "SingleTargetAbsorb": {
         "DevName": "GA_Vigor_SingleTargetAbsorb",
         "Duration": 12.0,
-        "AbsorbIntellectCoefficient": 9.702,
+        "AbsorbIntellectCoefficient": 12.128,
         "ResourceFractionCost": 1.0,
         "Range": 3000.0,
         "Cooldown": 20.0,
+        "BaselineChargeCount": 1.0,
         "Talent": {
           "SingleTargetAbsorbCharges": {
             "MaxCharges": 2.0
@@ -10461,7 +10481,7 @@
         "RuneResourceGeneration": 0.3,
         "MaxRadius": 3000.0,
         "ConeAngleWidth": 70.0,
-        "DamageIntellectCoefficient": 2.54,
+        "DamageIntellectCoefficient": 2.931,
         "TargetCountThreshold": 5.0,
         "HealIntellectCoefficient": 2.931,
         "BonusProc": {
@@ -10583,7 +10603,7 @@
       },
       "CastedSingleTargetDamage": {
         "DevName": "GA_Vigor_CastedSingleTargetDamage",
-        "IntellectDamageCoefficient": 3.3,
+        "IntellectDamageCoefficient": 3.795,
         "Spread": 0.1,
         "HotDurationExtension": 2.0,
         "MaxRange": 3000.0,
@@ -10636,7 +10656,7 @@
         "DevName": "GA_Vigor_SingleTargetDot",
         "Range": 3000.0,
         "Duration": 24.0,
-        "IntellectDamageCoefficient": 2.625,
+        "IntellectDamageCoefficient": 3.019,
         "BuffActiveAdditionalDirectDamage": {
           "NumberOfTicks": 3.0
         },
@@ -10650,7 +10670,7 @@
             "DamageMultiplier": 1.2
           },
           "DamageToAoe": {
-            "RemainingDamageMultiplier": 0.12,
+            "RemainingDamageMultiplier": 0.16,
             "Radius": 1500.0,
             "RadiusForTargetsOutOfCombat": 250.0,
             "ResourceGainMultiplier": 0.5
@@ -10731,7 +10751,7 @@
           "Spread": 0.1
         },
         "Damage": {
-          "IntellectCoefficient": 4.633,
+          "IntellectCoefficient": 5.328,
           "Spread": 0.1
         },
         "ResourceFractionGainPerHit": 0.08,
@@ -10811,7 +10831,7 @@
         "Cost": 18.0
       },
       "Runes": {
-        "DevName": "GA_Vigor_SingleTargetAbsorb",
+        "DevName": "GA_Vigor_SingleTargetChargedHot",
         "Talent": {
           "IncreasedDuration": {
             "DurationMultiplier": 1.25
@@ -10825,11 +10845,11 @@
         }
       },
       "Talent": {
-        "DevName": "GA_Vigor_SingleTargetAbsorb",
+        "DevName": "GA_Vigor_SingleTargetChargedHot",
         "SpiritProcBuff": {
           "NextRuneSpenderIncreasedPower": {
             "Multiplier": 1.5,
-            "Duration": 12.0
+            "Duration": 18.0
           }
         },
         "ReducedIncomingMagicDamage": {
@@ -10913,7 +10933,7 @@
       "ManaRegenTickTime": 0.1,
       "DamageThreatMultiplier": 9.0,
       "HealThreatMultiplier": 0.75,
-      "StaminaToMaxHealthMultiplier": 81.303,
+      "StaminaToMaxHealthMultiplier": 73.173,
       "Resources": 0.0,
       "MaxResources": 3.0,
       "OutOfCombatHealthRegenRate": 0.01,

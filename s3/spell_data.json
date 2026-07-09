@@ -28738,7 +28738,7 @@
       "DevName": "GE_Lisa_Talent_InstantDamageSpender_DamageToDot_Dot"
     },
     "2736": {
-      "Name": "Chrono Barrier",
+      "Name": "Oblivion's Embrace",
       "FSLID": 1002736,
       "DevName": "GE_Lisa_InstantDamageSpender_Absorb_Absorb"
     },
@@ -31351,6 +31351,21 @@
       "Name": null,
       "FSLID": 1003258,
       "DevName": "GE_Finnese_StartWithSpiritPoints_HasBeenApplied"
+    },
+    "3259": {
+      "Name": "Resonant Fate",
+      "FSLID": 1003259,
+      "DevName": "GE_Lisa_Talent_Passive_OverhealToStackingDamageReduction_DamageReductionBuff"
+    },
+    "3260": {
+      "Name": null,
+      "FSLID": 1003260,
+      "DevName": "GE_Bowguy_TargetedAoeDamage_MainTargetBuff"
+    },
+    "3261": {
+      "Name": "Clairvoyance",
+      "FSLID": 1003261,
+      "DevName": "GE_Lisa_SpiritRefund_GuaranteedSpiritProcBuff__Proc"
     }
   }
 }

@@ -853,6 +853,7 @@
       "Ransack of Drakheim"
     ],
     "PlacedInZones": [
+      "CrystalMines",
       "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
@@ -8124,6 +8125,7 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
+      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -8177,6 +8179,7 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
+      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -8210,6 +8213,7 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
+      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -8243,6 +8247,7 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
+      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -8277,6 +8282,7 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
+      "CrystalMines",
       "ElfMines",
       "UrrakMarkets"
     ],
@@ -8313,6 +8319,7 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
+      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -8348,6 +8355,7 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
+      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -8381,6 +8389,7 @@
       "Godfall Quarry"
     ],
     "PlacedInZones": [
+      "CrystalMines",
       "ElfMines"
     ],
     "FoundInZoneGameIDs": [
@@ -11541,6 +11550,7 @@
       "Everdawn Grove"
     ],
     "PlacedInZones": [
+      "CrystalMines",
       "MythicForest"
     ],
     "FoundInZoneGameIDs": [

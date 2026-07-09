@@ -1711,7 +1711,7 @@
       "GUID": 22,
       "DevName": "WinterWitch",
       "Name": "Eira the White Witch",
-      "Description": "Eira the White Witch is waiting for you somewhere in the dungeon. If you challenge her in combat and defeat her, she will assist you.\n\nBONUS\nDefeat Eira to gain The White Witch's Boon and gain back 90 seconds to the Dungeon Timer.\n\nThe White Witch's Boon\nEira will appear near you every 120 seconds and spawn a Winter Rune on the ground that persists for up to 30 seconds. When a player steps on the rune, they gain an absorb shield equal to 50% of their maximum health. While the shield is active, they take 50% reduced damage and are slowly healed.",
+      "Description": "Eira the White Witch is waiting for you somewhere in the dungeon. If you challenge her in combat and defeat her, she will assist you.\n\nBONUS\nDefeat Eira to gain The White Witch's Boon and gain back 90 seconds to the Dungeon Timer.\n\nThe White Witch's Boon\nEira will appear near you every 120 seconds and spawn a Winter Rune on the ground that persists for up to 30 seconds. When a player steps on the rune, they gain an absorb shield equal to 25% of their maximum health. While the shield is active, they take 50% reduced damage and are slowly healed.\n\nDamage taken by the shield is reduced by 50%.",
       "Type": "Dungeon",
       "Tag": "Modifiers.Dungeon.WinterWitch",
       "Constants": {
@@ -1811,7 +1811,8 @@
           "Buff": {
             "Duration": 60.0,
             "Absorb": {
-              "MaxHealthPercentage": 0.5
+              "MaxHealthPercentage": 0.25,
+              "AbsorbConsumptionScaler": 0.5
             },
             "MaxHealthHealPerTick": 0.05,
             "TickInterval": 3.0,
