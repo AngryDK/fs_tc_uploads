@@ -1218,12 +1218,12 @@
       "GUID": 8,
       "DevName": "BloodShardVolley",
       "Name": "Blood Shards",
-      "Description": "Blood Shards erupt from dying enemies, dealing 1.5% of their maximum health in damage to all heroes.\n\nBONUS\nHeroes hit by Blood Shards gain 1% Expertise for 30 seconds, stacking up to 15 times.",
+      "Description": "Blood Shards erupt from dying enemies, dealing 0.7% of their maximum health in damage to all heroes.\n\nBONUS\nHeroes hit by Blood Shards gain 1% Expertise for 30 seconds, stacking up to 15 times.",
       "Type": "Dungeon",
       "Tag": "Modifiers.Dungeon.BloodShardVolley",
       "Constants": {
         "TargetingRange": 6000.0,
-        "DamageMaxHealthFactor": 0.012,
+        "DamageMaxHealthFactor": 0.007,
         "HeroBuff": {
           "CooldownReductionIncrease": 0.0
         }
