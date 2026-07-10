@@ -5743,8 +5743,8 @@
             "Explosion": {
               "Radius": 700.0,
               "TargetScalingThreshold": 1.0,
-              "BleedToPoisonDamageMultiplier": 1.0,
-              "AreaDamageMultiplier": 0.67
+              "BleedToPoisonDamageMultiplier": 0.75,
+              "AreaDamageMultiplier": 0.5
             }
           }
         },
@@ -6543,9 +6543,9 @@
       },
       "Earthfist Barrage": {
         "DevName": "GA_Meiko_ChanneledHeavyDamage",
-        "AgilityCoefficient": 0.736,
+        "AgilityCoefficient": 0.8464,
         "FinalHit": {
-          "AgilityCoefficient": 2.555
+          "AgilityCoefficient": 2.9383
         },
         "Spread": 0.0,
         "YellowEnergyCost": 3.0,
