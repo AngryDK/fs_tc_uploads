@@ -3188,15 +3188,6 @@
         "TalentColumn": 3,
         "PointCost": 1,
         "EnabledInGame": true
-      },
-      "771": {
-        "Name": null,
-        "FSLID": 2000771,
-        "DevName": "CAA_Gunde_Trait8",
-        "TalentRow": 3,
-        "TalentColumn": 4,
-        "PointCost": 2,
-        "EnabledInGame": true
       }
     },
     "Constants": {
