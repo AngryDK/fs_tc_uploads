@@ -3197,276 +3197,8 @@
       },
       "SpiritProc": {
         "DevName": "SpiritProc",
-        "ResourceRefund": {
-          "FlatSpiritPointGain": 2.0
-        },
         "SpiritPointsGain": 1.0,
         "AmountOfOrbs": 5.0
-      },
-      "IncomingDamageToPainScaler": {
-        "DevName": "IncomingDamageToPainScaler",
-        "Value": 2.0
-      },
-      "HasteAndMoveSpeedBuff": {
-        "DevName": "HasteAndMoveSpeedBuff",
-        "PercentIncreasePerHealthPercentage": 0.3
-      },
-      "Talent": {
-        "DevName": "Talent",
-        "IncreasedMaxResources": {
-          "MaxResourcesScaler": 1.3
-        },
-        "BleedTickProcForDoubleStance": {
-          "Ppm": 2.0
-        },
-        "IncreasedThreatGeneration": {
-          "ThreatGenerationScaler": 1.1
-        },
-        "MagicDamageResistance": {
-          "IncomingMagicDamageScaler": 0.9
-        },
-        "IncreasedMoveSpeed": {
-          "MoveSpeedScale": 1.2
-        },
-        "BasicSingleTargetMelee": {
-          "BleedProc": {
-            "Cooldown": 15.0,
-            "Bleed": {
-              "DamageStrengthCoefficient": 1.03,
-              "Duration": 6.0,
-              "TickPeriod": 1.0
-            }
-          }
-        },
-        "DamageBlockHealthDrain": {
-          "IncreasedIncomingHeal": {
-            "HealingScaler": 1.2
-          }
-        },
-        "InstantSpinAoe": {
-          "InHealingStance": {
-            "ExtraCritWhenHasLowHealth": {
-              "CritChanceScaler": 1.3,
-              "HealthTheshold": 0.5
-            }
-          }
-        },
-        "AbilityToBuffChance": {
-          "ProcChance": 0.4,
-          "StrengthMultiplier": 1.06,
-          "Duration": 6.0
-        }
-      },
-      "AutoAttack": {
-        "DevName": "AutoAttack",
-        "SwingTimer": 1.5
-      },
-      "Attack": {
-        "DevName": "GA_Gunde_MeleeAutoAttack",
-        "HitVisualDelay": 0.51,
-        "StrengthCoefficient": 0.3
-      },
-      "Jawbreaker": {
-        "DevName": "GA_Gunde_SingleTargetInterrupt",
-        "MaxRange": 500.0,
-        "Duration": 4.0,
-        "Cooldown": 16.0,
-        "VisualDelay": 0.2
-      },
-      "SingleTargetTaunt": {
-        "DevName": "GA_Gunde_SingleTargetTaunt",
-        "MaxRange": 3000.0,
-        "Duration": 6.0,
-        "Cooldown": 8.0
-      },
-      "BasicSingleTargetMelee": {
-        "DevName": "GA_Gunde_BasicSingleTargetMelee",
-        "DamageStrengthCoefficientPerHit": 0.46,
-        "FirstVisualHitDelay": 0.1,
-        "SecondVisualHitDelay": 0.45,
-        "MaxRange": 3000.0,
-        "Bleed": {
-          "Duration": 18.0,
-          "DamageStrengthCoefficient": 0.0578,
-          "Period": 2.0,
-          "StackCap": 1.0
-        },
-        "SelfBuff": {
-          "StackCap": 10.0,
-          "Duration": 18.0,
-          "MaxHealthScaler": 1.01,
-          "HasteScaler": 1.01
-        }
-      },
-      "AoeDamageAndStun": {
-        "DevName": "GA_Gunde_AoeDamageAndStun",
-        "AoeRadius": 1000.0,
-        "DamageStrengthCoefficient": 0.56,
-        "DamageScalingTargetCountThreshold": 8.0,
-        "StunDuration": 1.5,
-        "Cooldown": 45.0,
-        "VisualHitDelay": 0.21,
-        "NumCharges": 2.0
-      },
-      "DamageBlockHealthDrain": {
-        "DevName": "GA_Gunde_DamageBlockHealthDrain",
-        "Cooldown": 60.0,
-        "Duration": 10.0,
-        "VisualDelay": 0.3,
-        "IncomingDamageNotBecomingDotScaler": 0.0,
-        "Bleed": {
-          "Duration": 12.0,
-          "TickPeriod": 1.0
-        }
-      },
-      "HeavySingleTargetMelee": {
-        "DevName": "GA_Gunde_HeavySingleTargetMelee",
-        "Cooldown": 4.0,
-        "HealthCostMaxHealthFraction": 0.1,
-        "VisualHitDelay": 0.24,
-        "DamageStrengthCoefficient": 2.28,
-        "InHealingStance": {
-          "DamageToHealFactor": 2.0,
-          "ResourceCost": 30.0
-        }
-      },
-      "InstantSpinAoe": {
-        "DevName": "GA_Gunde_InstantSpinAoe",
-        "Cooldown": 8.0,
-        "HealthCostMaxHealthFraction": 0.1,
-        "VisualHitDelay": 0.44,
-        "AoeRadius": 1000.0,
-        "DamageStrengthCoefficient": 0.95,
-        "DamageScalingTargetCountThreshold": 5.0,
-        "InHealingStance": {
-          "DamageToHealFactor": 2.0,
-          "ResourceCost": 40.0
-        }
-      },
-      "HeavySingleTargetMeleeWithHeal": {
-        "DevName": "GA_Gunde_HeavySingleTargetMeleeWithHeal",
-        "Cooldown": 12.0,
-        "VisualHitDelay": 0.35,
-        "DamageStrengthCoefficient": 3.15,
-        "DamageToHealFactor": 4.0,
-        "InHealingStance": {
-          "PainGain": 50.0
-        }
-      },
-      "HealingStance": {
-        "DevName": "GA_Gunde_HealingStance",
-        "Cooldown": 1.5,
-        "IncomingDamageScaler": 0.7,
-        "VisualDelay": 0.2
-      },
-      "Reign in Blood": {
-        "DevName": "GA_Gunde_Passive_HealthAndBleedSelfBuff_Monitor",
-        "BleedDamageScaler": 1.3,
-        "Duration": 12.0,
-        "Cooldown": 30.0,
-        "VisualDelay": 0.3,
-        "NumCharges": 2.0,
-        "BleedDamageToHeal": {
-          "DamageHealScaler": 0.5,
-          "Period": 2.0
-        }
-      },
-      "SingleInstantPullEnemy": {
-        "DevName": "GA_Gunde_SingleInstantPullEnemy",
-        "Cooldown": 20.0,
-        "MaxRange": 3000.0,
-        "PullDelay": 0.2,
-        "PullDuration": 0.4,
-        "Damage": {
-          "StrengthCoefficient": 100.0
-        }
-      },
-      "MoveToTargetBleed": {
-        "DevName": "GA_Gunde_MoveToTargetBleed",
-        "MaxRange": 3000.0,
-        "CastDuration": 0.5,
-        "ChargeSpeed": 5000.0,
-        "ChargeDistance": 1000.0,
-        "ChargeAirExitSpeed": 1000.0,
-        "ChargeAoeRadius": 300.0,
-        "ChargeArrivalRadius": 50.0,
-        "NumCharges": 2.0,
-        "Cooldown": 30.0,
-        "Bleed": {
-          "Duration": 12.0,
-          "DamageStrengthCoefficient": 0.32,
-          "Period": 3.0
-        }
-      },
-      "Wild Throw": {
-        "DevName": "GA_Gunde_ForwardDualProjectile",
-        "Projectile": {
-          "Radius": 200.0,
-          "Speed": 3000.0,
-          "SpawnOffsetForward": 100.0,
-          "SpawnOffsetSideways": 100.0,
-          "Lifetime": 1.5,
-          "MaxDistance": 1500.0
-        },
-        "DamageStrengthCoefficient": 0.37,
-        "Bleed": {
-          "Duration": 12.0,
-          "DamageStrengthCoefficient": 0.167,
-          "Period": 2.0
-        },
-        "Cooldown": 15.0
-      },
-      "ClampedHealthWithEruption": {
-        "DevName": "GA_Gunde_ClampedHealthWithEruption",
-        "SpiritPointCost": 100.0,
-        "Duration": 10.0,
-        "VisualDelay": 0.7,
-        "Eruption": {
-          "Radius": 1500.0,
-          "VisualDelay": 0.2,
-          "DirectDamageScaler": 0.05,
-          "DamageScalingTargetCountThreshold": 5.0,
-          "Bleed": {
-            "DamageScaler": 0.02,
-            "Duration": 8.0,
-            "TickPeriod": 2.0,
-            "DamageScalingTargetCountThreshold": 5.0
-          }
-        }
-      },
-      "SingleTargetCleaveBleed": {
-        "DevName": "GA_Gunde_SingleTargetCleaveBleed",
-        "MaxNumCharges": 2.0,
-        "VisualHitDelay": 0.31,
-        "CleaveRadius": 700.0,
-        "DamageStrengthCoefficient": 0.73,
-        "DamageScalingTargetCountThreshold": 3.0,
-        "Bleed": {
-          "Duration": 16.0,
-          "DamageStrengthCoefficient": 0.05,
-          "Period": 2.0
-        },
-        "Cooldown": 8.0
-      },
-      "MoveSpeedSelfBuff": {
-        "DevName": "GA_Gunde_MoveSpeedSelfBuff",
-        "BuffDuration": 3.0,
-        "Cooldown": 12.0,
-        "MoveSpeedScaler": 1.7,
-        "EffectVisualDelay": 0.11,
-        "NumCharges": 3.0
-      },
-      "RecoverHealth": {
-        "DevName": "GA_Gunde_RecoverHealth",
-        "DamageToHealthFactor": 0.5,
-        "DamageAccumulationPeriod": 15.0,
-        "Cooldown": 20.0,
-        "Buff": {
-          "Duration": 8.0,
-          "IncomingDamageMultiplier": 1.0
-        },
-        "EffectVisualDelay": 0.25,
-        "NumCharges": 3.0
       },
       "Bloodbound Spirit": {
         "DevName": "GA_Gunde_DurationalAoeDotAndBuff",
@@ -3498,6 +3230,15 @@
         "BonusAmount": 0.2,
         "MaxStacks": 1.0,
         "Duration": 8.0
+      },
+      "AutoAttack": {
+        "DevName": "AutoAttack",
+        "SwingTimer": 1.5
+      },
+      "Attack": {
+        "DevName": "GA_Gunde_MeleeAutoAttack",
+        "HitVisualDelay": 0.51,
+        "StrengthCoefficient": 0.3
       },
       "Double Strike": {
         "DevName": "GA_Gunde_BasicSingleTargetAttack",
@@ -3588,7 +3329,14 @@
         "Cooldown": 30.0,
         "VisualDelay": 0.24
       },
-      "ExtraDotDamageBuff": {
+      "Jawbreaker": {
+        "DevName": "GA_Gunde_SingleTargetInterrupt",
+        "MaxRange": 500.0,
+        "Duration": 4.0,
+        "Cooldown": 16.0,
+        "VisualDelay": 0.2
+      },
+      "Reign in Blood": {
         "DevName": "GA_Gunde_ExtraDotDamageBuff",
         "BonusDotDamage": 0.3,
         "Duration": 12.0,
@@ -3806,6 +3554,14 @@
         "CooldownDuration": 8.0,
         "Talent": {
           "DamageMultiplier": 1.15
+        }
+      },
+      "Talent": {
+        "DevName": "Talent",
+        "AbilityToBuffChance": {
+          "ProcChance": 0.4,
+          "StrengthMultiplier": 1.06,
+          "Duration": 6.0
         }
       }
     }
