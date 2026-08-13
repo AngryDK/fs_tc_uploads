@@ -2062,7 +2062,7 @@
     "BasicToIncreasedPower": {
       "Name": "The Intrepid",
       "BuffName": null,
-      "Description": "The power of your next [POWER] ability is increased by X%, stacking up to 5 times.",
+      "Description": "The power of your next <rt.absorb>[POWER]</> ability is increased by <rt.bold>{increase}</>",
       "DevName": "CAA_Finesse_BasicToIncreasedPower",
       "Constants": {
         "PowerMultiplier": [

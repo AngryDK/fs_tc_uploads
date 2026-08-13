@@ -1477,7 +1477,8 @@
           "Talent": {
             "FireToad": {
               "Aoe": {
-                "Radius": 700.0
+                "Radius": 700.0,
+                "DamageMultiplier": 5.0
               },
               "SpawnChance": 0.2,
               "DamageScaler": 9.0,
@@ -2600,6 +2601,11 @@
           },
           "ChanceToProc": 0.25,
           "ChanceToProcIfCrit": 0.5,
+          "ChanneledMultiProjectileDebuff": {
+            "TriggerAoeHit": {
+              "ChanceToProc": 0.25
+            }
+          },
           "MaxRadius": 3000.0,
           "DamageScale": 1.0
         },
@@ -4391,7 +4397,7 @@
       },
       "MeleeCleave": {
         "DevName": "GA_Warmaster_MeleeCleave",
-        "StrengthCoefficient": 4.2964,
+        "StrengthCoefficient": 6.01496,
         "CleaveDamageStrengthCoefficient": 0.758,
         "CleaveAdditionalTargets": 19.0,
         "CleaveRadius": 500.0,
@@ -5079,6 +5085,7 @@
         "EnabledInGame": null,
         "School": null,
         "SubSchool": null,
+        "AbilityCategory": "Major",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false,
@@ -8209,6 +8216,7 @@
         "EnabledInGame": null,
         "School": null,
         "SubSchool": null,
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8220,6 +8228,7 @@
         "EnabledInGame": null,
         "School": null,
         "SubSchool": null,
+        "AbilityCategory": "Core",
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -8503,8 +8512,8 @@
             "DamageMultiplier": 2.5
           },
           "ReducedSpeedAoeDebuff": {
-            "MovementSpeedDivider": 1.5,
-            "AttackSpeedDivider": 1.5,
+            "MovementSpeedDivider": 2.0,
+            "AttackSpeedDivider": 2.0,
             "Radius": 700.0
           }
         }
