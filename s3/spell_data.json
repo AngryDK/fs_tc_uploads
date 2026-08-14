@@ -19667,6 +19667,28 @@
       "School": null,
       "SubSchool": null,
       "EnabledInGame": null
+    },
+    "2308": {
+      "Name": null,
+      "FSLID": 2308,
+      "DevName": "GA_Mara_StrongerBehindAttackBuilder_Core",
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
+    },
+    "2309": {
+      "Name": null,
+      "FSLID": 2309,
+      "DevName": "GA_Mara_AoeAttackBuilder_Core",
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     }
   },
   "Effects": {
@@ -42242,6 +42264,34 @@
       "Name": "Clairvoyance",
       "FSLID": 1003261,
       "DevName": "GE_Lisa_SpiritRefund_GuaranteedSpiritProcBuff__Proc",
+      "School": null,
+      "SubSchool": null
+    },
+    "3262": {
+      "Name": null,
+      "FSLID": 1003262,
+      "DevName": "GE_Rime_Passive_Talent_DamageAsAoeHealingBuff_GuaranteedSpiritProcBuff_HasBeenApplied",
+      "School": null,
+      "SubSchool": null
+    },
+    "3263": {
+      "Name": null,
+      "FSLID": 1003263,
+      "DevName": "GE_Meiko_Talent_ExtraResourcesAtStart_HasBeenApplied",
+      "School": null,
+      "SubSchool": null
+    },
+    "3264": {
+      "Name": null,
+      "FSLID": 1003264,
+      "DevName": "GE_Ink_Talent_ExtraResourcesAtStart_HasBeenApplied",
+      "School": null,
+      "SubSchool": null
+    },
+    "3265": {
+      "Name": null,
+      "FSLID": 1003265,
+      "DevName": "GE_Firemage_Talent_ExtraResourcesAtStart_HasBeenApplied",
       "School": null,
       "SubSchool": null
     }
