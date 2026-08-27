@@ -8791,7 +8791,7 @@
       "SubSchool": null,
       "EnabledInGame": true,
       "SpellCDHasted": false,
-      "SpellCDAEffect": false,
+      "SpellCDAEffect": true,
       "SpellGrantsCDA": false
     },
     "1076": {
@@ -18415,7 +18415,7 @@
       "Name": "Searing Fissure",
       "FSLID": 2176,
       "DevName": "GA_MC_BossGuardian_Soaks",
-      "School": "Magic",
+      "School": "Magic/Physical",
       "SubSchool": "Blood",
       "EnabledInGame": true
     },
@@ -19689,6 +19689,47 @@
       "SpellCDHasted": false,
       "SpellCDAEffect": false,
       "SpellGrantsCDA": false
+    },
+    "2310": {
+      "Name": null,
+      "FSLID": 2310,
+      "DevName": "GA_Meiko_Passive_Talent_HighDamageCleave_DoubleStrike",
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
+    },
+    "2311": {
+      "Name": null,
+      "FSLID": 2311,
+      "DevName": "GA_Lisa_Passive_Spender_CooldownAcceleration_SelfBuff",
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
+    },
+    "2312": {
+      "Name": null,
+      "FSLID": 2312,
+      "DevName": "GA_MC_BossGuardian_Soaks_Manager",
+      "School": "Magic/Physical",
+      "SubSchool": "Blood",
+      "EnabledInGame": null
+    },
+    "2313": {
+      "Name": null,
+      "FSLID": 2313,
+      "DevName": "GA_Firemage_Passive_CastedDotDetonate_SelfStackManager",
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "SpellCDHasted": false,
+      "SpellCDAEffect": false,
+      "SpellGrantsCDA": false
     }
   },
   "Effects": {
@@ -20421,7 +20462,7 @@
       "SubSchool": "Fire"
     },
     "105": {
-      "Name": "Heart of Stone",
+      "Name": "King of the Hill",
       "FSLID": 1000105,
       "DevName": "GE_Trait_DamageReductionWhenHealthy",
       "School": null,
@@ -34214,7 +34255,7 @@
       "Name": "Iron Spikes",
       "FSLID": 1002109,
       "DevName": "GE_Trait_IncomingDamageToDefenceAndDamage_Damage",
-      "School": "Magic",
+      "School": "Physical",
       "SubSchool": null
     },
     "2110": {
@@ -36843,7 +36884,7 @@
       "SubSchool": null
     },
     "2487": {
-      "Name": null,
+      "Name": "Enfeebled",
       "FSLID": 1002487,
       "DevName": "GE_Meiko_DurationalAoeBuff_EnfeeblingEffect",
       "School": "Magic",
@@ -41505,11 +41546,11 @@
       "SubSchool": "Arcane"
     },
     "3153": {
-      "Name": "Converging Timelines",
+      "Name": null,
       "FSLID": 1003153,
       "DevName": "GE_Lisa_InstantDamageSpender_SelfBuff_Buff",
-      "School": "Magic",
-      "SubSchool": "Arcane"
+      "School": null,
+      "SubSchool": null
     },
     "3154": {
       "Name": "Chronomatic Shell",
@@ -42292,6 +42333,20 @@
       "Name": null,
       "FSLID": 1003265,
       "DevName": "GE_Firemage_Talent_ExtraResourcesAtStart_HasBeenApplied",
+      "School": null,
+      "SubSchool": null
+    },
+    "3266": {
+      "Name": "Converging Timelines",
+      "FSLID": 1003266,
+      "DevName": "GE_Lisa_Spender_CooldownAcceleration_SelfBuff",
+      "School": "Magic",
+      "SubSchool": "Arcane"
+    },
+    "3267": {
+      "Name": null,
+      "FSLID": 1003267,
+      "DevName": "GE_Firemage_CastedDotDetonate_StackingEffect",
       "School": null,
       "SubSchool": null
     }

@@ -4,6 +4,13 @@
     "HeroID": 24,
     "MainStat": "Intellect",
     "IsLive": true,
+    "ClassColor": {
+      "Hex": "BC00FF",
+      "R": 188,
+      "G": 0,
+      "B": 255,
+      "A": 255
+    },
     "HeroRole": {
       "Role": "Healer",
       "AttackRange": "Ranged",
@@ -46,6 +53,10 @@
         "DT_CharacterInfoTable.LoggedHeroResources",
         "DA_LisaMetaData"
       ]
+    },
+    "SpiritRefund": {
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that costs Mana, causing you to instantly refund the Mana cost of that ability.\n\nYou also gain \"Rising Spirit\" for 10 seconds, increasing your Intellect by 5%.\n\nEach time you trigger the \"Spirit Refund\" you gain 1 stack of 'Clairvoyance', causing your next Chrona Spender to have no cost. 'Clairvoyance' stacks up to 3 times.",
+      "Source": "metadata:SpiritDescription"
     },
     "Attributes": {
       "Armor": 0.0,
@@ -93,6 +104,8 @@
       "SpiritGenerationHeal": 0.08,
       "CooldownRecovery": 1.0,
       "SpiritRefundChanceScale": 1.0,
+      "BalancingDamageAura": 1.1,
+      "BalancingHealAura": 1.0,
       "MainStat": 100.0
     },
     "Kit": {
@@ -316,10 +329,10 @@
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
       },
-      "2018": {
+      "2311": {
         "Name": null,
-        "FSLID": 2018,
-        "DevName": "GA_Lisa_Passive_Talent_InstantDamageSpender_SelfBuff",
+        "FSLID": 2311,
+        "DevName": "GA_Lisa_Passive_Spender_CooldownAcceleration_SelfBuff",
         "EnabledInGame": null,
         "School": null,
         "SubSchool": null,
@@ -527,6 +540,12 @@
         "DevName": "PassiveIncomingDamageReduction",
         "DamageScale": 0.9
       },
+      "Spender": {
+        "DevName": "Spender",
+        "CooldownAcceleration": {
+          "CooldownRecoveryMultiplier": 2.0
+        }
+      },
       "Time Shard": {
         "DevName": "GA_Lisa_CastedSingleTargetProjectile",
         "CastTime": 1.5,
@@ -731,9 +750,6 @@
         "DamageToHealModifier": 0.5,
         "ResourceCostInPercentage": 0.3,
         "Cost": 0.0,
-        "SelfBuff": {
-          "CooldownRecoveryMultiplier": 2.0
-        },
         "Talent": {
           "DamageToDot": {
             "Duration": 8.0,
@@ -898,6 +914,13 @@
     "HeroID": 7,
     "MainStat": "Intellect",
     "IsLive": true,
+    "ClassColor": {
+      "Hex": "EB6328",
+      "R": 235,
+      "G": 99,
+      "B": 40,
+      "A": 255
+    },
     "HeroRole": {
       "Role": "DPS",
       "AttackRange": "Ranged",
@@ -934,6 +957,10 @@
         "DT_CharacterInfoTable.LoggedHeroResources",
         "DA_Firemage_MetaData"
       ]
+    },
+    "SpiritRefund": {
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that costs Burning Embers, causing you to refund any Burning Embers spent when using that ability.\n\nYou also gain \"Rising Spirit\" for 10 seconds, increasing your Intellect by 5%.\n\nEach time you trigger the \"Spirit Refund\" you gain 1 Spirit Point toward your Spirit Ability charge.",
+      "Source": "metadata:SpiritDescription"
     },
     "Attributes": {
       "Armor": 0.0,
@@ -979,6 +1006,8 @@
       "SpiritGenerationHeal": 0.06,
       "CooldownRecovery": 1.0,
       "SpiritRefundChanceScale": 1.0,
+      "BalancingDamageAura": 1.1,
+      "BalancingHealAura": 1.0,
       "MainStat": 100.0
     },
     "Kit": {
@@ -1187,6 +1216,17 @@
         "School": "Magic",
         "SubSchool": "Fire",
         "AbilityCategory": "Major",
+        "SpellCDHasted": false,
+        "SpellCDAEffect": false,
+        "SpellGrantsCDA": false
+      },
+      "2313": {
+        "Name": null,
+        "FSLID": 2313,
+        "DevName": "GA_Firemage_Passive_CastedDotDetonate_SelfStackManager",
+        "EnabledInGame": null,
+        "School": null,
+        "SubSchool": null,
         "SpellCDHasted": false,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false
@@ -1817,6 +1857,13 @@
     "HeroID": 2,
     "MainStat": "Agility",
     "IsLive": true,
+    "ClassColor": {
+      "Hex": "7F49F5",
+      "R": 127,
+      "G": 73,
+      "B": 245,
+      "A": 255
+    },
     "HeroRole": {
       "Role": "DPS",
       "AttackRange": "Ranged",
@@ -1853,6 +1900,10 @@
         "DT_CharacterInfoTable.LoggedHeroResources",
         "DA_BowguyMetaData"
       ]
+    },
+    "SpiritRefund": {
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that costs Focus, causing you to refund any Focus spent when using that ability.\n\nYou also gain \"Rising Spirit\" for 10 seconds, increasing your Agility by 5%.\n\nEach time you trigger the \"Spirit Refund\" you gain 1 Spirit Point toward your Spirit Ability charge and apply 5 stacks of Lunarlight Mark to the target, plus 2 stacks to up to two additional nearby enemies.",
+      "Source": "metadata:SpiritDescription"
     },
     "Attributes": {
       "Armor": 0.0,
@@ -1898,6 +1949,8 @@
       "SpiritGenerationHeal": 0.3,
       "CooldownRecovery": 1.0,
       "SpiritRefundChanceScale": 1.0,
+      "BalancingDamageAura": 1.08,
+      "BalancingHealAura": 1.0,
       "MainStat": 100.0
     },
     "Kit": {
@@ -2698,6 +2751,13 @@
     "HeroID": null,
     "MainStat": "Strength",
     "IsLive": true,
+    "ClassColor": {
+      "Hex": "5A1F20",
+      "R": 90,
+      "G": 31,
+      "B": 32,
+      "A": 255
+    },
     "HeroRole": {
       "Role": "DPS",
       "AttackRange": "Melee",
@@ -2735,6 +2795,10 @@
         "supplemental (GE_*_MaxOrbResource + CBA csv dev-comment, user-confirmed)",
         "DA_CharacterMetaData_Gunde"
       ]
+    },
+    "SpiritRefund": {
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that applies Rend, causing 5 Blood Feathers to be created on the ground near you.\n\nYou also gain \"Rising Spirit\" for 10 seconds, increasing your Strength by 5%.\n\nEach time you trigger the \"Spirit Refund\" you gain 1 Spirit Point toward your Spirit Ability charge.",
+      "Source": "metadata:SpiritDescription"
     },
     "Attributes": {
       "Armor": 0.0,
@@ -2781,6 +2845,8 @@
       "SpiritGenerationHeal": 0.08,
       "CooldownRecovery": 1.0,
       "SpiritRefundChanceScale": 1.0,
+      "BalancingDamageAura": 1.0,
+      "BalancingHealAura": 1.0,
       "MainStat": 100.0
     },
     "Kit": {
@@ -3577,6 +3643,13 @@
     "HeroID": 22,
     "MainStat": "Strength",
     "IsLive": true,
+    "ClassColor": {
+      "Hex": "B46831",
+      "R": 180,
+      "G": 104,
+      "B": 49,
+      "A": 255
+    },
     "HeroRole": {
       "Role": "Tank",
       "AttackRange": "Melee",
@@ -3613,6 +3686,10 @@
         "DT_CharacterInfoTable.LoggedHeroResources",
         "DA_WarmasterMetaData"
       ]
+    },
+    "SpiritRefund": {
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that interacts with your \"Veteran of War\", causing the cooldown reduction to be doubled.\n\nYou also gain \"Rising Spirit\" for 10 seconds, increasing your Strength by 5%.\n\nEach time you trigger the \"Spirit Refund\" you gain 1.2 Spirit Points toward your Spirit Ability charge.",
+      "Source": "metadata:SpiritDescription"
     },
     "Attributes": {
       "Armor": 0.0,
@@ -3657,6 +3734,8 @@
       "MaxResourcesSecond": 0.0,
       "CooldownRecovery": 1.0,
       "SpiritRefundChanceScale": 1.0,
+      "BalancingDamageAura": 1.0,
+      "BalancingHealAura": 1.0,
       "MainStat": 100.0
     },
     "Kit": {
@@ -4757,6 +4836,13 @@
     "HeroID": 11,
     "MainStat": "Agility",
     "IsLive": true,
+    "ClassColor": {
+      "Hex": "6F2EF1",
+      "R": 111,
+      "G": 46,
+      "B": 241,
+      "A": 255
+    },
     "HeroRole": {
       "Role": "DPS",
       "AttackRange": "Melee",
@@ -4799,6 +4885,10 @@
         "DT_CharacterInfoTable.LoggedHeroResources",
         "DA_MaraMetaData"
       ]
+    },
+    "SpiritRefund": {
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that costs Combo Points, causing you to refund any Energy and Combo Points spent when using that ability.\n\nYou also gain \"Rising Spirit\" for 10 seconds, increasing your Agility by 5%.\n\nEach time you trigger the \"Spirit Refund\" you gain 1 Spirit Point toward your Spirit Ability charge.",
+      "Source": "metadata:SpiritDescription"
     },
     "Attributes": {
       "Armor": 0.0,
@@ -4844,6 +4934,8 @@
       "SpiritGenerationHeal": 0.08,
       "CooldownRecovery": 1.0,
       "SpiritRefundChanceScale": 1.0,
+      "BalancingDamageAura": 1.04,
+      "BalancingHealAura": 1.0,
       "MainStat": 100.0
     },
     "Kit": {
@@ -5652,6 +5744,13 @@
     "HeroID": 13,
     "MainStat": "Agility",
     "IsLive": true,
+    "ClassColor": {
+      "Hex": "28E05C",
+      "R": 40,
+      "G": 224,
+      "B": 92,
+      "A": 255
+    },
     "HeroRole": {
       "Role": "Tank",
       "AttackRange": "Melee",
@@ -5682,6 +5781,10 @@
         "DT_CharacterInfoTable.LoggedHeroResources",
         "DA_MeikoMetaData"
       ]
+    },
+    "SpiritRefund": {
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you consume a charge of Earthfall or Stormfall, causing you to regain that charge and gain \"Spirit Armor\" for 12 seconds, increasing your Armor by 20%.\n\nYour \"Spirit Refunds\" also grant 1 Stone to your Stone Shield and \"Rising Spirit\" for 10 seconds, increasing your Agility by 5%.\n\nEach time you trigger the \"Spirit Refund\" you gain 2 Spirit Points toward your Spirit Ability charge.",
+      "Source": "metadata:SpiritDescription"
     },
     "Attributes": {
       "Armor": 0.0,
@@ -5727,6 +5830,8 @@
       "SpiritGenerationHeal": 0.02,
       "CooldownRecovery": 1.0,
       "SpiritRefundChanceScale": 1.0,
+      "BalancingDamageAura": 1.0,
+      "BalancingHealAura": 1.0,
       "MainStat": 100.0
     },
     "Kit": {
@@ -6297,7 +6402,7 @@
       },
       "Earthfist Barrage": {
         "DevName": "GA_Meiko_ChanneledHeavyDamage",
-        "AgilityCoefficient": 0.8464,
+        "AgilityCoefficient": 1.2696,
         "FinalHit": {
           "AgilityCoefficient": 2.9383
         },
@@ -6357,13 +6462,13 @@
       },
       "Spirit Palm": {
         "DevName": "GA_Meiko_MeleeLeft",
-        "AgilityCoefficient": 1.08,
+        "AgilityCoefficient": 1.404,
         "Spread": 0.1,
         "EnergyCost": 30.0
       },
       "Wind Kick": {
         "DevName": "GA_Meiko_MeleeDown",
-        "AgilityCoefficient": 0.675,
+        "AgilityCoefficient": 0.8775,
         "Spread": 0.1,
         "CleaveRadius": 500.0,
         "NumOfTargetsToCleave": 19.0,
@@ -6372,7 +6477,7 @@
       },
       "Earth Fist": {
         "DevName": "GA_Meiko_MeleeRight",
-        "AgilityCoefficient": 1.08,
+        "AgilityCoefficient": 1.404,
         "Spread": 0.1,
         "EnergyCost": 30.0
       },
@@ -6397,7 +6502,7 @@
       },
       "Rising Storm": {
         "DevName": "GA_Meiko_MeleeDamageSelfBuff",
-        "AgilityCoefficient": 1.516,
+        "AgilityCoefficient": 2.4256,
         "Spread": 0.1,
         "CleaveRadius": 500.0,
         "NumOfTargetsToCleave": 19.0,
@@ -6409,7 +6514,7 @@
       },
       "HighDamageCleave": {
         "DevName": "GA_Meiko_HighDamageCleave",
-        "AgilityCoefficient": 1.547,
+        "AgilityCoefficient": 2.3205,
         "Spread": 0.1,
         "CleaveRadius": 500.0,
         "NumOfTargetsToCleave": 19.0,
@@ -6433,7 +6538,7 @@
       },
       "Rising Earth": {
         "DevName": "GA_Meiko_MeleeDamageLowHealthSelfBuff",
-        "AgilityCoefficient": 3.034,
+        "AgilityCoefficient": 4.8544,
         "Spread": 0.1,
         "Buff": {
           "DamageIncrease": 2.0,
@@ -6442,11 +6547,11 @@
       },
       "Double Palm Strike": {
         "DevName": "GA_Meiko_MeleeDamageImmediateSelfBuff",
-        "AgilityCoefficient": 3.133,
+        "AgilityCoefficient": 12.532,
         "Spread": 0.1,
         "Buff": {
           "Duration": 30.0,
-          "IncomingMagicDamageMultiplier": 0.8,
+          "IncomingMagicDamageMultiplier": 0.75,
           "CritChanceIncrease": 0.2
         },
         "ParryChanceIncrease": 0.05,
@@ -6471,7 +6576,7 @@
       },
       "DurationalMultipleTeleportDamage": {
         "DevName": "GA_Meiko_DurationalMultipleTeleportDamage",
-        "AgilityCoefficient": 0.658,
+        "AgilityCoefficient": 1.316,
         "CameraOption": 2.0,
         "Spread": 0.1,
         "Radius": 1000.0,
@@ -6631,7 +6736,7 @@
       },
       "Spirited Vortex": {
         "DevName": "GA_Meiko_DurationalAoeDamageBuff",
-        "AgilityCoefficient": 0.728,
+        "AgilityCoefficient": 1.0556,
         "TargetCountDamageScalingThreshold": 8.0,
         "Spread": 0.1,
         "Radius": 800.0,
@@ -6740,6 +6845,13 @@
     "HeroID": 17,
     "MainStat": "Intellect",
     "IsLive": true,
+    "ClassColor": {
+      "Hex": "1EA3EE",
+      "R": 30,
+      "G": 163,
+      "B": 238,
+      "A": 255
+    },
     "HeroRole": {
       "Role": "DPS",
       "AttackRange": "Ranged",
@@ -6782,6 +6894,10 @@
         "DT_CharacterInfoTable.LoggedHeroResources",
         "DA_RimeMetaData"
       ]
+    },
+    "SpiritRefund": {
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that costs Winter Orbs, causing you to refund any Winter Orbs spent when using that ability.\n\nYou also gain \"Rising Spirit\" for 10 seconds, increasing your Intellect by 5%.\n\nEach time you trigger the \"Spirit Refund\" you gain 2 Spirit Points toward your Spirit Ability charge.",
+      "Source": "metadata:SpiritDescription"
     },
     "Attributes": {
       "Armor": 0.0,
@@ -6829,6 +6945,8 @@
       "SpiritGenerationHeal": 0.08,
       "CooldownRecovery": 1.0,
       "SpiritRefundChanceScale": 1.0,
+      "BalancingDamageAura": 1.04,
+      "BalancingHealAura": 1.0,
       "MainStat": 100.0
     },
     "Kit": {
@@ -7910,6 +8028,13 @@
     "HeroID": 14,
     "MainStat": "Intellect",
     "IsLive": true,
+    "ClassColor": {
+      "Hex": "EA4F84",
+      "R": 234,
+      "G": 79,
+      "B": 132,
+      "A": 255
+    },
     "HeroRole": {
       "Role": "Healer",
       "AttackRange": "Ranged",
@@ -7952,6 +8077,10 @@
         "DT_CharacterInfoTable.LoggedHeroResources",
         "DA_MosseMetaData"
       ]
+    },
+    "SpiritRefund": {
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that costs Mana, causing you to instantly refund the Mana cost of that ability.\n\nYou also gain \"Rising Spirit\" for 10 seconds, increasing your Intellect by 5%.\n\nEach time you trigger the \"Spirit Refund\" you gain 1 Spirit Point toward your Spirit Ability charge and spawn a Prickly Vine next to you.",
+      "Source": "metadata:SpiritDescription"
     },
     "Attributes": {
       "Armor": 0.0,
@@ -7997,6 +8126,8 @@
       "SpiritGenerationHeal": 0.04,
       "CooldownRecovery": 1.0,
       "SpiritRefundChanceScale": 1.0,
+      "BalancingDamageAura": 1.0,
+      "BalancingHealAura": 1.0,
       "MainStat": 100.0
     },
     "Kit": {
@@ -8182,7 +8313,7 @@
         "SubSchool": null,
         "AbilityCategory": "Power",
         "SpellCDHasted": false,
-        "SpellCDAEffect": false,
+        "SpellCDAEffect": true,
         "SpellGrantsCDA": false
       },
       "1076": {
@@ -8475,7 +8606,7 @@
         "MaxNumAdditionalTargets": 2.0,
         "AdditionalTargetMaxDistance": 700.0,
         "SpawnDuration": 1.0,
-        "DamageIntellectCoefficient": 0.69,
+        "DamageIntellectCoefficient": 0.759,
         "DamageSpread": 0.1,
         "TurretRadius": 30.0,
         "Talent": {
@@ -8528,6 +8659,7 @@
         "AccumulatedHealScalar": 0.12,
         "ManaCost": 118.0,
         "Cooldown": 45.0,
+        "AmountOfBoomshrooms": 4.0,
         "Talent": {
           "ReducedManaCost": 0.75,
           "OverhealGivesAbsorb": {
@@ -8582,7 +8714,7 @@
       },
       "Nettlebolt": {
         "DevName": "GA_Mosse_CastedSingleTargetProjectile",
-        "IntellectCoefficient": 2.04,
+        "IntellectCoefficient": 2.244,
         "Spread": 0.1,
         "Range": 3000.0,
         "CastTime": 1.5,
@@ -8595,6 +8727,7 @@
           "ButterflyHealProc": {
             "PPM": 2.0,
             "CritChanceAdder": 4.0,
+            "AdditionalCrit": 0.2,
             "AdditionalProjectiles": 2.0,
             "DelayBetweenProjectiles": 0.03
           },
@@ -8681,7 +8814,7 @@
           },
           "Hot": {
             "Duration": 15.0,
-            "IntellectCoefficientPerTick": 0.7178,
+            "IntellectCoefficientPerTick": 0.91,
             "TickPeriod": 1.5,
             "Spread": 0.2
           },
@@ -8798,7 +8931,7 @@
         "DevName": "GA_Mosse_ExplosiveMinion",
         "AbilityMaxRange": 3000.0,
         "GrowthDuration": 3.0,
-        "IntellectCoefficient": 2.3925,
+        "IntellectCoefficient": 3.9477,
         "Radius": 700.0,
         "TargetCountDamageScalingThreshold": 8.0,
         "LifeTime": 60.0,
@@ -9040,6 +9173,13 @@
     "HeroID": 10,
     "MainStat": "Strength",
     "IsLive": true,
+    "ClassColor": {
+      "Hex": "163EB9",
+      "R": 22,
+      "G": 62,
+      "B": 185,
+      "A": 255
+    },
     "HeroRole": {
       "Role": "DPS",
       "AttackRange": "Melee",
@@ -9076,6 +9216,10 @@
         "DT_CharacterInfoTable.LoggedHeroResources",
         "DA_Ink_MetaData"
       ]
+    },
+    "SpiritRefund": {
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that costs Fury, causing you to refund any Fury spent when using that ability.\n\nYou also gain \"Rising Spirit\" for 10 seconds, increasing your Strength by 5%.\n\nEach time you trigger the \"Spirit Refund\" you gain 1 Spirit Point toward your Spirit Ability charge.",
+      "Source": "metadata:SpiritDescription"
     },
     "Attributes": {
       "Armor": 0.0,
@@ -9120,6 +9264,8 @@
       "SpiritGenerationHeal": 0.08,
       "CooldownRecovery": 1.0,
       "SpiritRefundChanceScale": 1.0,
+      "BalancingDamageAura": 1.0,
+      "BalancingHealAura": 1.0,
       "MainStat": 100.0
     },
     "Kit": {
@@ -10000,6 +10146,13 @@
     "HeroID": 20,
     "MainStat": "Intellect",
     "IsLive": true,
+    "ClassColor": {
+      "Hex": "DDDBC5",
+      "R": 221,
+      "G": 219,
+      "B": 197,
+      "A": 255
+    },
     "HeroRole": {
       "Role": "Healer",
       "AttackRange": "Ranged",
@@ -10043,6 +10196,10 @@
         "DA_VigorMetaData"
       ]
     },
+    "SpiritRefund": {
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that costs Mana, causing you to instantly refund the Mana cost of that ability.\n\nYou also gain \"Rising Spirit\" for 10 seconds, increasing your Intellect by 5%.\n\nEach time you trigger the \"Spirit Refund\" you gain 1 Spirit Point toward your Spirit Ability charge and generate 1 Radiant Rune.",
+      "Source": "metadata:SpiritDescription"
+    },
     "Attributes": {
       "Armor": 0.0,
       "Power": 0.0,
@@ -10084,6 +10241,8 @@
       "SpiritGenerationHeal": 0.08,
       "CooldownRecovery": 1.0,
       "SpiritRefundChanceScale": 1.0,
+      "BalancingDamageAura": 1.0,
+      "BalancingHealAura": 1.0,
       "MainStat": 100.0
     },
     "Kit": {
@@ -11084,6 +11243,13 @@
     "HeroID": 25,
     "MainStat": "Strength",
     "IsLive": true,
+    "ClassColor": {
+      "Hex": "077365",
+      "R": 7,
+      "G": 115,
+      "B": 101,
+      "A": 255
+    },
     "HeroRole": {
       "Role": "Tank",
       "AttackRange": "Melee",
@@ -11120,6 +11286,10 @@
         "DT_CharacterInfoTable.LoggedHeroResources",
         "DA_MetaData_Sune"
       ]
+    },
+    "SpiritRefund": {
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that costs Mana, causing you to instantly refund the Mana cost of that ability.\n\nXavian's Brilliant Flash ability has a chance equal to your Spirit to trigger a 'Spirit Refund' even though it does not have a Mana cost. When it does, you instantly gain 50 Mana.\n\nXavian's passive Mana Generation is increased by an amount equal to your Spirit.\n\nEach time you trigger the \"Spirit Refund\" you gain 1 Spirit Point toward your Spirit Ability charge.",
+      "Source": "metadata:SpiritDescription"
     },
     "Attributes": {
       "Armor": 0.0,
@@ -11164,6 +11334,8 @@
       "MaxResourcesSecond": 0.0,
       "CooldownRecovery": 1.0,
       "SpiritRefundChanceScale": 1.0,
+      "BalancingDamageAura": 1.0,
+      "BalancingHealAura": 1.0,
       "MainStat": 100.0
     },
     "Kit": {

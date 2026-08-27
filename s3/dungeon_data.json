@@ -19090,6 +19090,8 @@
       "Default.CRHeroAttributeSet.CritChanceAgainstLowHealthTarget": 0.0,
       "Default.CRHeroAttributeSet.CritChanceAgainstHealthyTarget": 0.0,
       "Default.CRHeroAttributeSet.CooldownRecovery": 1.0,
+      "Default.CRHeroAttributeSet.BalancingDamageAura": 1.0,
+      "Default.CRHeroAttributeSet.BalancingHealAura": 1.0,
       "Default.CRNpcAttributeSet.KillScore": 0.0
     }
   }
