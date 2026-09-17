@@ -1168,7 +1168,7 @@
     }
   },
   "39": {
-    "FSLName": "Outrunner",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "UM_Outrunner",
@@ -1243,7 +1243,7 @@
     }
   },
   "40": {
-    "FSLName": "Horned Seer",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "UM_HornedSeer",
@@ -2685,7 +2685,7 @@
           "StrengthCoefficient": "0.93",
           "MoveSpeedMultiplier": "0.65"
         },
-        "Attack": {
+        "MeleeAutoAttack": {
           "DevName": "MeleeAutoAttack",
           "Cooldown": "2.1",
           "StrengthCoefficient": "5.68",
@@ -4310,7 +4310,7 @@
     }
   },
   "133": {
-    "FSLName": "Warlord Brogg",
+    "FSLName": "",
     "MobType": "BOSS",
     "CreatureType": null,
     "DevName": "NP_BossHellcaller",
@@ -7628,7 +7628,7 @@
     "PassiveMoveSpeed": 1.2,
     "Abilities": {
       "Offensive": {
-        "Attack": {
+        "MeleeAutoAttack": {
           "DevName": "MeleeAutoAttack",
           "StrengthCoefficient": "6.66",
           "MaxRange": "500.0",
@@ -9488,7 +9488,7 @@
     }
   },
   "313": {
-    "FSLName": "Glacial Bear",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": "Beast",
     "DevName": "SP_PolarBear",
@@ -9571,7 +9571,7 @@
     }
   },
   "314": {
-    "FSLName": "Dire Wolf",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": "Beast",
     "DevName": "SP_FrostWolf",
@@ -9656,7 +9656,7 @@
     }
   },
   "315": {
-    "FSLName": "Overlord Varux",
+    "FSLName": "",
     "MobType": "BOSS",
     "CreatureType": null,
     "DevName": "SP_BossMarcass",
@@ -9704,7 +9704,7 @@
           "LeapHeight": "400.0",
           "MinLeapDistance": "500.0"
         },
-        "Attack": {
+        "MeleeAutoAttack": {
           "DevName": "MeleeAutoAttack",
           "StrengthCoefficient": "3.5",
           "MinCooldown": "3.0",
@@ -9770,7 +9770,7 @@
         }
       },
       "Mechanic": {
-        "Rain of Blood": {
+        "BloodRain": {
           "DevName": "BloodRain",
           "InitialCooldown": "10.0",
           "Cooldown": "15.0",
@@ -9808,7 +9808,7 @@
     }
   },
   "316": {
-    "FSLName": "Sanguine Echo",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "ST_SmallBloodElemental",
@@ -9887,7 +9887,7 @@
     }
   },
   "317": {
-    "FSLName": "Sanguine Crusher",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "ST_SanguineCrusher",
@@ -9961,7 +9961,7 @@
     }
   },
   "318": {
-    "FSLName": "Xul’vorith, Sentinel of the Bloodbound Gate",
+    "FSLName": "",
     "MobType": "BOSS",
     "CreatureType": null,
     "DevName": "ST_BossGatekeeper",
@@ -10055,7 +10055,7 @@
     }
   },
   "319": {
-    "FSLName": "Han-Eth, Sentry of Xul",
+    "FSLName": "",
     "MobType": "BOSS",
     "CreatureType": null,
     "DevName": "ST_BossDefenseEye",
@@ -10185,7 +10185,7 @@
     "Summons": {
       "ST_BloodBrute": {
         "GameID": 325,
-        "FSLName": "Crimson Abomination",
+        "FSLName": "",
         "MobType": "NPC",
         "CreatureType": null,
         "DevName": "ST_BloodBrute",
@@ -10247,7 +10247,7 @@
       },
       "ST_BloodCreation": {
         "GameID": 324,
-        "FSLName": "Clot Spawn",
+        "FSLName": "",
         "MobType": "NPC",
         "CreatureType": null,
         "DevName": "ST_BloodCreation",
@@ -10274,7 +10274,7 @@
       },
       "ST_BloodCreationBig": {
         "GameID": 323,
-        "FSLName": "Greater Clot Spawn",
+        "FSLName": "",
         "MobType": "NPC",
         "CreatureType": null,
         "DevName": "ST_BloodCreationBig",
@@ -10302,7 +10302,7 @@
     }
   },
   "321": {
-    "FSLName": "Vel’korath the Sanctified, Vision of the Covenant",
+    "FSLName": "",
     "MobType": "BOSS",
     "CreatureType": null,
     "DevName": "ST_BossArbiter",
@@ -10504,7 +10504,7 @@
     "Summons": {
       "ST_BloodOrb": {
         "GameID": 322,
-        "FSLName": "Blood Orb",
+        "FSLName": "",
         "MobType": "NPC",
         "CreatureType": null,
         "DevName": "ST_BloodOrb",
@@ -10542,7 +10542,7 @@
     }
   },
   "326": {
-    "FSLName": "Heart of Rot",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "ST_BigBloodElemental",
@@ -10625,7 +10625,7 @@
     }
   },
   "327": {
-    "FSLName": "Undying Champion",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "MC_WanderingGhostWarrior",
@@ -10682,7 +10682,7 @@
     }
   },
   "328": {
-    "FSLName": "Meandering Acolyte",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "MC_WanderingGhostPriest",
@@ -10779,7 +10779,7 @@
     }
   },
   "329": {
-    "FSLName": "Restless Protector",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "MC_WanderingGhostGuard",
@@ -10835,7 +10835,7 @@
     }
   },
   "330": {
-    "FSLName": "Xurath, Fist of the Warden",
+    "FSLName": "",
     "MobType": "BOSS",
     "CreatureType": null,
     "DevName": "MC_BossGuardian",
@@ -10974,7 +10974,7 @@
     }
   },
   "331": {
-    "FSLName": "Sanguine Disciple",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "MC_BloodSummoner",
@@ -11068,7 +11068,7 @@
     "Summons": {
       "MC_BloodAnimation": {
         "GameID": 337,
-        "FSLName": "Sanguine Sybling",
+        "FSLName": "",
         "MobType": "NPC",
         "CreatureType": null,
         "DevName": "MC_BloodAnimation",
@@ -11114,7 +11114,7 @@
       },
       "ST_BloodCreation": {
         "GameID": 324,
-        "FSLName": "Clot Spawn",
+        "FSLName": "",
         "MobType": "NPC",
         "CreatureType": null,
         "DevName": "ST_BloodCreation",
@@ -11142,7 +11142,7 @@
     }
   },
   "332": {
-    "FSLName": "Stalking Grim",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "MC_BloodHound",
@@ -11236,7 +11236,7 @@
     }
   },
   "333": {
-    "FSLName": "Heskyr Zealot",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "MC_BloodGuard",
@@ -11323,7 +11323,7 @@
     }
   },
   "334": {
-    "FSLName": "Heskyr Brood",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "MC_BloodGrunt",
@@ -11400,7 +11400,7 @@
     }
   },
   "336": {
-    "FSLName": "Heskyr Magus",
+    "FSLName": "",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "MC_BloodCaster",
@@ -11513,7 +11513,7 @@
     "Summons": {
       "MC_BloodCrystal": {
         "GameID": 335,
-        "FSLName": "Blood Crystal",
+        "FSLName": "",
         "MobType": "NPC",
         "CreatureType": null,
         "DevName": "MC_BloodCrystal",

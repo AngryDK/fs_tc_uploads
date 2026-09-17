@@ -409,7 +409,7 @@
       "EnabledInGame": true
     },
     "53": {
-      "Name": "Attack",
+      "Name": null,
       "FSLID": 53,
       "DevName": "GA_SG_BossSiren_MeleeAutoAttack",
       "School": "Physical",
@@ -885,7 +885,7 @@
       "SpellGrantsCDA": false
     },
     "111": {
-      "Name": "Lightshaper's Ward",
+      "Name": null,
       "FSLID": 111,
       "DevName": "GA_Vigor_DamageReductionAndImmunityBuff",
       "School": "Magic",
@@ -1047,7 +1047,7 @@
       "SpellGrantsCDA": false
     },
     "126": {
-      "Name": "Starfall Volley",
+      "Name": null,
       "FSLID": 126,
       "DevName": "GA_Bowguy_TargetedAoeDamage",
       "School": "Magic",
@@ -4122,7 +4122,7 @@
       "EnabledInGame": true
     },
     "511": {
-      "Name": "Tether to Mast",
+      "Name": null,
       "FSLID": 511,
       "DevName": "GA_SG_BossSiren_MastTether",
       "School": null,
@@ -5986,7 +5986,7 @@
       "EnabledInGame": true
     },
     "760": {
-      "Name": "Encroaching Frost",
+      "Name": null,
       "FSLID": 760,
       "DevName": "GA_FK_BossElfDragon_PassiveShrinkArena",
       "School": null,
@@ -6034,7 +6034,7 @@
       "EnabledInGame": true
     },
     "766": {
-      "Name": "Attack",
+      "Name": null,
       "FSLID": 766,
       "DevName": "GA_FK_BossElfDragon_AutoAttack",
       "School": "Physical",
@@ -6098,7 +6098,7 @@
       "EnabledInGame": null
     },
     "774": {
-      "Name": "Attack",
+      "Name": null,
       "FSLID": 774,
       "DevName": "GA_DD_NightboundMagi_MeleeAutoAttack",
       "School": "Physical",
@@ -6114,7 +6114,7 @@
       "EnabledInGame": null
     },
     "776": {
-      "Name": "Shadow Bolt",
+      "Name": null,
       "FSLID": 776,
       "DevName": "GA_DD_NightboundMagi_CastedRangedProjectile",
       "School": "Magic",
@@ -6138,7 +6138,7 @@
       "EnabledInGame": null
     },
     "779": {
-      "Name": "Harrowing Solitude",
+      "Name": null,
       "FSLID": 779,
       "DevName": "GA_DD_NightboundMagi_SoakDebuff",
       "School": "Magic",
@@ -6770,7 +6770,7 @@
       "EnabledInGame": null
     },
     "858": {
-      "Name": "Pentagram",
+      "Name": null,
       "FSLID": 858,
       "DevName": "GA_DR_BossGateWizard_SafeDangerZones",
       "School": null,
@@ -6794,7 +6794,7 @@
       "EnabledInGame": null
     },
     "861": {
-      "Name": "Attack",
+      "Name": null,
       "FSLID": 861,
       "DevName": "GA_DR_BossGateWizard_MeleeAutoAttack",
       "School": "Physical",
@@ -7735,7 +7735,7 @@
       "SpellGrantsCDA": false
     },
     "975": {
-      "Name": "Hold the Line",
+      "Name": null,
       "FSLID": 975,
       "DevName": "GA_Warmaster_MoveSpeedBuff",
       "School": "Physical",
@@ -7757,7 +7757,7 @@
       "SpellGrantsCDA": false
     },
     "977": {
-      "Name": "Shield Slam",
+      "Name": null,
       "FSLID": 977,
       "DevName": "GA_Warmaster_MeleeCleave",
       "School": "Physical",
@@ -7779,7 +7779,7 @@
       "SpellGrantsCDA": false
     },
     "979": {
-      "Name": "Shockwave",
+      "Name": null,
       "FSLID": 979,
       "DevName": "GA_Warmaster_MeleeAoeSlow",
       "School": "Physical",
@@ -8010,7 +8010,7 @@
       "SpellGrantsCDA": false
     },
     "1000": {
-      "Name": "Avatar of Light",
+      "Name": null,
       "FSLID": 1000,
       "DevName": "GA_Vigor_PartyHealAndSelfBuff",
       "School": "Magic",
@@ -8163,7 +8163,7 @@
       "SpellGrantsCDA": false
     },
     "1015": {
-      "Name": "Frost Ward",
+      "Name": null,
       "FSLID": 1015,
       "DevName": "GA_Rime_SelfDefenceBuff",
       "School": "Magic",
@@ -8207,7 +8207,7 @@
       "SpellGrantsCDA": false
     },
     "1019": {
-      "Name": "Brain Freeze",
+      "Name": null,
       "FSLID": 1019,
       "DevName": "GA_Rime_InstantSingleInterrupt",
       "School": "Magic",
@@ -8251,7 +8251,7 @@
       "SpellGrantsCDA": false
     },
     "1023": {
-      "Name": "Wrath of Winter",
+      "Name": null,
       "FSLID": 1023,
       "DevName": "GA_Rime_FullResourcesSelfBuff",
       "School": null,
@@ -8619,7 +8619,7 @@
       "SpellGrantsCDA": false
     },
     "1060": {
-      "Name": "Fluttercall: Heal",
+      "Name": null,
       "FSLID": 1060,
       "DevName": "GA_Mosse_PinkButterfly_Simple",
       "School": "Magic",
@@ -8740,7 +8740,7 @@
       "SpellGrantsCDA": false
     },
     "1071": {
-      "Name": "Hidden Trail",
+      "Name": null,
       "FSLID": 1071,
       "DevName": "GA_Mosse_InstantSelfEscapeBuff",
       "School": "Magic",
@@ -8762,7 +8762,7 @@
       "SpellGrantsCDA": false
     },
     "1073": {
-      "Name": "Shroomsplosion",
+      "Name": null,
       "FSLID": 1073,
       "DevName": "GA_Mosse_ExplosiveMinion",
       "School": "Magic",
@@ -8784,7 +8784,7 @@
       "SpellGrantsCDA": false
     },
     "1075": {
-      "Name": "Heart Bloom",
+      "Name": null,
       "FSLID": 1075,
       "DevName": "GA_Mosse_DurationalAoeHealPlacement",
       "School": null,
@@ -9133,7 +9133,7 @@
       "SpellGrantsCDA": false
     },
     "1107": {
-      "Name": "Stone Stomp",
+      "Name": null,
       "FSLID": 1107,
       "DevName": "GA_Meiko_FrontalAoeDebuff",
       "School": "Physical",
@@ -9276,7 +9276,7 @@
       "SpellGrantsCDA": false
     },
     "1120": {
-      "Name": "Spirited Vortex",
+      "Name": null,
       "FSLID": 1120,
       "DevName": "GA_Meiko_DurationalAoeDamageBuff",
       "School": "Physical",
@@ -10211,7 +10211,7 @@
       "SpellGrantsCDA": false
     },
     "1206": {
-      "Name": "Maiden of Death",
+      "Name": null,
       "FSLID": 1206,
       "DevName": "GA_Mara_ChargedResourceRefillSelfBuff",
       "School": null,
@@ -10277,7 +10277,7 @@
       "SpellGrantsCDA": false
     },
     "1212": {
-      "Name": "Arachnid Assault",
+      "Name": null,
       "FSLID": 1212,
       "DevName": "GA_Mara_AoeAttackSpender",
       "School": "Physical",
@@ -10299,7 +10299,7 @@
       "SpellGrantsCDA": false
     },
     "1214": {
-      "Name": "Taunt",
+      "Name": null,
       "FSLID": 1214,
       "DevName": "GA_Ink_Talent_SelfDefenceBuff_IncreasedDurationAndTaunt_Taunt",
       "School": "Physical",
@@ -10453,7 +10453,7 @@
       "SpellGrantsCDA": false
     },
     "1229": {
-      "Name": "Skull Crusher",
+      "Name": null,
       "FSLID": 1229,
       "DevName": "GA_Ink_HeavySingleTargetAttack",
       "School": "Physical",
@@ -10475,7 +10475,7 @@
       "SpellGrantsCDA": false
     },
     "1231": {
-      "Name": "Raging Tempest",
+      "Name": null,
       "FSLID": 1231,
       "DevName": "GA_Ink_EnhancedChargedBuff",
       "School": "Magic",
@@ -10519,7 +10519,7 @@
       "SpellGrantsCDA": false
     },
     "1235": {
-      "Name": "Thunder Call",
+      "Name": null,
       "FSLID": 1235,
       "DevName": "GA_Ink_ChargedBuff",
       "School": "Magic",
@@ -10618,7 +10618,7 @@
       "SpellGrantsCDA": false
     },
     "1244": {
-      "Name": "Jawbreaker",
+      "Name": null,
       "FSLID": 1244,
       "DevName": "GA_Gunde_SingleTargetInterrupt",
       "School": "Physical",
@@ -10673,7 +10673,7 @@
       "SpellGrantsCDA": false
     },
     "1249": {
-      "Name": "Attack",
+      "Name": null,
       "FSLID": 1249,
       "DevName": "GA_Gunde_MeleeAutoAttack",
       "School": "Physical",
@@ -10882,7 +10882,7 @@
       "SpellGrantsCDA": false
     },
     "1268": {
-      "Name": "Fire Frogs",
+      "Name": null,
       "FSLID": 1268,
       "DevName": "GA_Firemage_FireFrogs",
       "School": "Magic",
@@ -10904,7 +10904,7 @@
       "SpellGrantsCDA": false
     },
     "1270": {
-      "Name": "Incinerate",
+      "Name": null,
       "FSLID": 1270,
       "DevName": "GA_Firemage_ChanneledForwardAoeDamage",
       "School": "Magic",
@@ -10959,7 +10959,7 @@
       "SpellGrantsCDA": false
     },
     "1275": {
-      "Name": "Detonate",
+      "Name": null,
       "FSLID": 1275,
       "DevName": "GA_Firemage_CastedDotDetonate",
       "School": "Magic",
@@ -11257,7 +11257,7 @@
       "SpellGrantsCDA": false
     },
     "1310": {
-      "Name": "Lunarlight Mark",
+      "Name": null,
       "FSLID": 1310,
       "DevName": "GA_Bowguy_InstantMarkTarget",
       "School": "Magic",
@@ -11334,7 +11334,7 @@
       "SpellGrantsCDA": false
     },
     "1318": {
-      "Name": "Multishot",
+      "Name": null,
       "FSLID": 1318,
       "DevName": "GA_Bowguy_AoeProjectileDamage",
       "School": "Physical",
@@ -11704,7 +11704,7 @@
       "SpellGrantsCDA": false
     },
     "1420": {
-      "Name": "Matriarch Macabre",
+      "Name": null,
       "FSLID": 1420,
       "DevName": "GA_Mara_CopyCharacterDamage",
       "School": null,
@@ -12548,7 +12548,7 @@
       "SpellGrantsCDA": false
     },
     "1515": {
-      "Name": "Siegebreaker",
+      "Name": null,
       "FSLID": 1515,
       "DevName": "GA_Warmaster_ShieldSelfBuff",
       "School": null,
@@ -12711,7 +12711,7 @@
       "EnabledInGame": null
     },
     "1532": {
-      "Name": "Fire Frogs",
+      "Name": null,
       "FSLID": 1532,
       "DevName": "GA_Firemage_Passive_FrogDamageMonitor",
       "School": null,
@@ -13238,7 +13238,7 @@
       "SpellGrantsCDA": false
     },
     "1584": {
-      "Name": "Event Horizon",
+      "Name": null,
       "FSLID": 1584,
       "DevName": "GA_Bowguy_ReducedCostCooldownRecoveryBuff",
       "School": "Magic",
@@ -13395,7 +13395,7 @@
       "EnabledInGame": true
     },
     "1601": {
-      "Name": "Constellation of Ruin",
+      "Name": null,
       "FSLID": 1601,
       "DevName": "GA_DD_NightboundMagi_MultiAoeSoak",
       "School": "Magic",
@@ -15432,7 +15432,7 @@
       "SpellGrantsCDA": false
     },
     "1845": {
-      "Name": "Sun Strike",
+      "Name": null,
       "FSLID": 1845,
       "DevName": "GA_Sune_SingleTargetFillerMelee",
       "School": "Physical",
@@ -15509,7 +15509,7 @@
       "SpellGrantsCDA": false
     },
     "1853": {
-      "Name": "Decree of the Sun",
+      "Name": null,
       "FSLID": 1853,
       "DevName": "GA_Sune_SelfImmunityAndAoeHeal",
       "School": "Physical",
@@ -15531,7 +15531,7 @@
       "SpellGrantsCDA": false
     },
     "1855": {
-      "Name": "Brilliant Flash",
+      "Name": null,
       "FSLID": 1855,
       "DevName": "GA_Sune_InstantSingleTargetHealOrDamage",
       "School": "Magic",
@@ -15806,7 +15806,7 @@
       "SpellGrantsCDA": false
     },
     "1881": {
-      "Name": "Epoch Break",
+      "Name": null,
       "FSLID": 1881,
       "DevName": "GA_Lisa_PauseResourcesAndPartyHealth",
       "School": "Magic",
@@ -16175,7 +16175,7 @@
       "SpellGrantsCDA": false
     },
     "1917": {
-      "Name": "Aura of Solace",
+      "Name": null,
       "FSLID": 1917,
       "DevName": "GA_Sune_DamageTransferAura",
       "School": "Physical",
@@ -16678,7 +16678,7 @@
       "SpellGrantsCDA": false
     },
     "1969": {
-      "Name": "Fleeting Hour",
+      "Name": null,
       "FSLID": 1969,
       "DevName": "GA_Lisa_InstantSelfBuff",
       "School": "Magic",
@@ -17596,7 +17596,7 @@
       "EnabledInGame": null
     },
     "2074": {
-      "Name": "The Dragon's Embrace",
+      "Name": null,
       "FSLID": 2074,
       "DevName": "GA_Perk_Passive_MaxHealthBasedAbsorb",
       "School": null,
@@ -17764,7 +17764,7 @@
       "EnabledInGame": true
     },
     "2095": {
-      "Name": "Attack",
+      "Name": null,
       "FSLID": 2095,
       "DevName": "GA_SP_BossMarcass_MeleeAutoAttack",
       "School": null,
@@ -17780,7 +17780,7 @@
       "EnabledInGame": true
     },
     "2097": {
-      "Name": "Rain of Blood",
+      "Name": null,
       "FSLID": 2097,
       "DevName": "GA_SP_BossMarcass_BloodRain",
       "School": "Magic",
@@ -19186,7 +19186,7 @@
       "SpellGrantsCDA": false
     },
     "2262": {
-      "Name": "Grim Carve",
+      "Name": null,
       "FSLID": 2262,
       "DevName": "GA_Gunde_TargetedAoeProjectile",
       "School": "Physical",
@@ -19384,7 +19384,7 @@
       "SpellGrantsCDA": false
     },
     "2280": {
-      "Name": "Owed in Blood",
+      "Name": null,
       "FSLID": 2280,
       "DevName": "GA_Gunde_Talent_DotTransfer_Aoe",
       "School": "Physical",
@@ -19428,7 +19428,7 @@
       "SpellGrantsCDA": false
     },
     "2284": {
-      "Name": "Butcher's Hook",
+      "Name": null,
       "FSLID": 2284,
       "DevName": "GA_Gunde_SingleTargetPull",
       "School": "Physical",
@@ -19450,7 +19450,7 @@
       "SpellGrantsCDA": false
     },
     "2286": {
-      "Name": "Rend",
+      "Name": null,
       "FSLID": 2286,
       "DevName": "GA_Gunde_Passive_PerTargetAccumulatedBleed_DotManager",
       "School": null,
@@ -19483,7 +19483,7 @@
       "SpellGrantsCDA": false
     },
     "2290": {
-      "Name": "Reaver's Edge",
+      "Name": null,
       "FSLID": 2290,
       "DevName": "GA_Gunde_InstantWhirlwindAoe",
       "School": "Physical",
@@ -19494,7 +19494,7 @@
       "SpellGrantsCDA": false
     },
     "2291": {
-      "Name": "Blood Arc",
+      "Name": null,
       "FSLID": 2291,
       "DevName": "GA_Gunde_InstantAoeWithBuff",
       "School": "Physical",
@@ -19505,7 +19505,7 @@
       "SpellGrantsCDA": false
     },
     "2292": {
-      "Name": "Slaughter",
+      "Name": null,
       "FSLID": 2292,
       "DevName": "GA_Gunde_InstantAoeDot",
       "School": "Physical",
@@ -19516,7 +19516,7 @@
       "SpellGrantsCDA": false
     },
     "2293": {
-      "Name": "Rupture",
+      "Name": null,
       "FSLID": 2293,
       "DevName": "GA_Gunde_HeavyMeleeDotBoost",
       "School": "Physical",
@@ -19527,7 +19527,7 @@
       "SpellGrantsCDA": false
     },
     "2294": {
-      "Name": "Heart Splitter",
+      "Name": null,
       "FSLID": 2294,
       "DevName": "GA_Gunde_HeavyMeleeDotBased",
       "School": "Physical",
@@ -19538,7 +19538,7 @@
       "SpellGrantsCDA": false
     },
     "2295": {
-      "Name": "Reign in Blood",
+      "Name": null,
       "FSLID": 2295,
       "DevName": "GA_Gunde_ExtraDotDamageBuff",
       "School": "Physical",
@@ -19549,7 +19549,7 @@
       "SpellGrantsCDA": false
     },
     "2296": {
-      "Name": "Bloodbound Spirit",
+      "Name": null,
       "FSLID": 2296,
       "DevName": "GA_Gunde_DurationalAoeDotAndBuff",
       "School": null,
@@ -19571,7 +19571,7 @@
       "SpellGrantsCDA": false
     },
     "2298": {
-      "Name": "Owed in Blood",
+      "Name": null,
       "FSLID": 2298,
       "DevName": "GA_Gunde_DotTransfer",
       "School": "Physical",
@@ -19582,7 +19582,7 @@
       "SpellGrantsCDA": false
     },
     "2299": {
-      "Name": "Warbound",
+      "Name": null,
       "FSLID": 2299,
       "DevName": "GA_Gunde_DashAttack",
       "School": null,
@@ -19593,7 +19593,7 @@
       "SpellGrantsCDA": false
     },
     "2300": {
-      "Name": "Reckless Abandon",
+      "Name": null,
       "FSLID": 2300,
       "DevName": "GA_Gunde_DamageReductionSelfBuff",
       "School": "Physical",
@@ -19604,7 +19604,7 @@
       "SpellGrantsCDA": false
     },
     "2301": {
-      "Name": "Double Strike",
+      "Name": null,
       "FSLID": 2301,
       "DevName": "GA_Gunde_BasicSingleTargetAttack",
       "School": "Physical",
@@ -21967,7 +21967,7 @@
       "SubSchool": null
     },
     "320": {
-      "Name": "Enraged",
+      "Name": null,
       "FSLID": 1000320,
       "DevName": "GE_UM_BossSlavetraderBrull_Aina_Shared_Enrage_FinalBuff",
       "School": null,
@@ -27066,7 +27066,7 @@
       "Name": null,
       "FSLID": 1001063,
       "DevName": "GE_DR_BossDemonPlant_SharedHealth_Damage",
-      "School": null,
+      "School": "Physical",
       "SubSchool": null
     },
     "1064": {
@@ -34245,7 +34245,7 @@
       "SubSchool": null
     },
     "2108": {
-      "Name": "Iron Spikes",
+      "Name": null,
       "FSLID": 1002108,
       "DevName": "GE_Trait_IncomingDamageToDefenceAndDamage_DefenceBuff",
       "School": null,
@@ -34945,7 +34945,7 @@
       "SubSchool": "Shadow"
     },
     "2208": {
-      "Name": "Taskmaster's Mark",
+      "Name": null,
       "FSLID": 1002208,
       "DevName": "GE_CM_ElfTaskmaster_MarkForPull_Mark",
       "School": "Physical",
@@ -39453,28 +39453,28 @@
       "SubSchool": null
     },
     "2854": {
-      "Name": "The Dragon's Embrace",
+      "Name": null,
       "FSLID": 1002854,
       "DevName": "GE_Perk_MaxHealthBasedAbsorb_Absorb",
       "School": null,
       "SubSchool": null
     },
     "2855": {
-      "Name": "The Dune's Grace",
+      "Name": null,
       "FSLID": 1002855,
       "DevName": "GE_Perk_MagicDamageReductionBuff_Buff",
       "School": null,
       "SubSchool": null
     },
     "2856": {
-      "Name": "The Wolf's Guile",
+      "Name": null,
       "FSLID": 1002856,
       "DevName": "GE_Perk_InstantHealDamageReductionBuff_Heal",
       "School": "Magic",
       "SubSchool": null
     },
     "2857": {
-      "Name": "The Wolf's Guile",
+      "Name": null,
       "FSLID": 1002857,
       "DevName": "GE_Perk_InstantHealDamageReductionBuff_Buff",
       "School": null,
@@ -39495,28 +39495,28 @@
       "SubSchool": null
     },
     "2860": {
-      "Name": "The Viper's Strike",
+      "Name": null,
       "FSLID": 1002860,
       "DevName": "GE_Perk_DamageToHeal_Heal",
       "School": "Magic",
       "SubSchool": null
     },
     "2861": {
-      "Name": "The Viper's Strike",
+      "Name": null,
       "FSLID": 1002861,
       "DevName": "GE_Perk_DamageToHeal_Buff",
       "School": null,
       "SubSchool": null
     },
     "2862": {
-      "Name": "The Stag's Instinct",
+      "Name": null,
       "FSLID": 1002862,
       "DevName": "GE_Perk_DamageReductionOrMoveSpeed_BuffDurational",
       "School": null,
       "SubSchool": null
     },
     "2863": {
-      "Name": "The Stag's Instinct",
+      "Name": null,
       "FSLID": 1002863,
       "DevName": "GE_Perk_DamageReductionOrMoveSpeed_Buff",
       "School": null,
@@ -41742,28 +41742,28 @@
       "SubSchool": null
     },
     "3181": {
-      "Name": "The Trickster",
+      "Name": null,
       "FSLID": 1003181,
       "DevName": "GE_Finesse_PowerToIncreasedCritChance",
       "School": null,
       "SubSchool": null
     },
     "3182": {
-      "Name": "Finesse E",
+      "Name": null,
       "FSLID": 1003182,
       "DevName": "GE_Finesse_Passive_PowerIncreasedCritChanceAndPower",
       "School": null,
       "SubSchool": null
     },
     "3183": {
-      "Name": "The Wayfarer: On Cooldown",
+      "Name": null,
       "FSLID": 1003183,
       "DevName": "GE_Finesse_PeriodicHasteBuff_Cooldown",
       "School": null,
       "SubSchool": null
     },
     "3184": {
-      "Name": "The Wayfarer",
+      "Name": null,
       "FSLID": 1003184,
       "DevName": "GE_Finesse_PeriodicHasteBuff_Buff",
       "School": null,
@@ -41784,49 +41784,49 @@
       "SubSchool": null
     },
     "3187": {
-      "Name": "Heretic's Feast",
+      "Name": null,
       "FSLID": 1003187,
       "DevName": "GE_Finesse_DrainHealthBasedOnPrimaryStat_Heal",
       "School": "Magic",
       "SubSchool": null
     },
     "3188": {
-      "Name": "Heretic's Feast",
+      "Name": null,
       "FSLID": 1003188,
       "DevName": "GE_Finesse_DrainHealthBasedOnPrimaryStat_Damage",
       "School": "Physical",
       "SubSchool": null
     },
     "3189": {
-      "Name": "The Philosopher",
+      "Name": null,
       "FSLID": 1003189,
       "DevName": "GE_Finesse_CurrentSpiritToBuff_Buff",
       "School": null,
       "SubSchool": null
     },
     "3190": {
-      "Name": "The Usurper's Verdict",
+      "Name": null,
       "FSLID": 1003190,
       "DevName": "GE_Finesse_CritChanceToHealOrDamage_Heal",
       "School": "Magic",
       "SubSchool": null
     },
     "3191": {
-      "Name": "The Usurper's Verdict",
+      "Name": null,
       "FSLID": 1003191,
       "DevName": "GE_Finesse_CritChanceToHealOrDamage_Damage",
       "School": "Physical",
       "SubSchool": null
     },
     "3192": {
-      "Name": "The Intrepid",
+      "Name": null,
       "FSLID": 1003192,
       "DevName": "GE_Finesse_BasicToIncreasedPower",
       "School": null,
       "SubSchool": null
     },
     "3193": {
-      "Name": "The Vehement's Disdain",
+      "Name": null,
       "FSLID": 1003193,
       "DevName": "GE_Finesse_BasicToAoe_Damage",
       "School": "Magic",
@@ -42092,21 +42092,21 @@
       "SubSchool": null
     },
     "3231": {
-      "Name": "Rend",
+      "Name": null,
       "FSLID": 1003231,
       "DevName": "GE_Gunde_PerTargetAccumulatedBleed",
       "School": "Physical",
       "SubSchool": "Bleed"
     },
     "3232": {
-      "Name": "Serrated Edge",
+      "Name": null,
       "FSLID": 1003232,
       "DevName": "GE_Gunde_ExtraDotDamageGain_SelfBuff",
       "School": "Physical",
       "SubSchool": null
     },
     "3233": {
-      "Name": "Open Wounds",
+      "Name": null,
       "FSLID": 1003233,
       "DevName": "GE_Gunde_BoostedDotDamage_TargetDebuff",
       "School": "Physical",
@@ -42134,7 +42134,7 @@
       "SubSchool": null
     },
     "3237": {
-      "Name": "Slaughter",
+      "Name": null,
       "FSLID": 1003237,
       "DevName": "GE_Gunde_InstantAoeDot_Dot",
       "School": "Physical",
@@ -42162,14 +42162,14 @@
       "SubSchool": null
     },
     "3241": {
-      "Name": "Reign in Blood",
+      "Name": null,
       "FSLID": 1003241,
       "DevName": "GE_Gunde_ExtraDotDamageBuff_SelfBuff",
       "School": "Physical",
       "SubSchool": null
     },
     "3242": {
-      "Name": "Bloodbound Spirit",
+      "Name": null,
       "FSLID": 1003242,
       "DevName": "GE_Gunde_DurationalAoeDotAndBuff_SelfBuff",
       "School": null,
@@ -42190,7 +42190,7 @@
       "SubSchool": null
     },
     "3245": {
-      "Name": "Owed in Blood",
+      "Name": null,
       "FSLID": 1003245,
       "DevName": "GE_Gunde_DotTransfer_SelfBuff",
       "School": "Physical",
@@ -42204,7 +42204,7 @@
       "SubSchool": null
     },
     "3247": {
-      "Name": "Reckless Abandon",
+      "Name": null,
       "FSLID": 1003247,
       "DevName": "GE_Gunde_DamageReductionSelfBuff_SelfBuff",
       "School": "Physical",
