@@ -166,7 +166,7 @@
         "SpellGrantsCDA": false
       },
       "1881": {
-        "Name": null,
+        "Name": "Epoch Break",
         "FSLID": 1881,
         "DevName": "GA_Lisa_PauseResourcesAndPartyHealth",
         "EnabledInGame": true,
@@ -283,7 +283,7 @@
         "SpellGrantsCDA": false
       },
       "1969": {
-        "Name": null,
+        "Name": "Fleeting Hour",
         "FSLID": 1969,
         "DevName": "GA_Lisa_InstantSelfBuff",
         "EnabledInGame": true,
@@ -791,7 +791,7 @@
         "CooldownDuration": 6.0,
         "ManaCost": 82.0
       },
-      "PauseResourcesAndPartyHealth": {
+      "Epoch Break": {
         "DevName": "GA_Lisa_PauseResourcesAndPartyHealth",
         "Duration": 6.0,
         "Cost": 100.0,
@@ -851,7 +851,7 @@
           }
         }
       },
-      "InstantSelfBuff": {
+      "Fleeting Hour": {
         "DevName": "GA_Lisa_InstantSelfBuff",
         "Duration": 15.0,
         "AdditionalCooldownRecovery": 1.5,
@@ -1091,7 +1091,7 @@
         "SpellGrantsCDA": false
       },
       "1268": {
-        "Name": null,
+        "Name": "Fire Frogs",
         "FSLID": 1268,
         "DevName": "GA_Firemage_FireFrogs",
         "EnabledInGame": null,
@@ -1115,7 +1115,7 @@
         "SpellGrantsCDA": false
       },
       "1270": {
-        "Name": null,
+        "Name": "Incinerate",
         "FSLID": 1270,
         "DevName": "GA_Firemage_ChanneledForwardAoeDamage",
         "EnabledInGame": true,
@@ -1139,7 +1139,7 @@
         "SpellGrantsCDA": false
       },
       "1275": {
-        "Name": null,
+        "Name": "Detonate",
         "FSLID": 1275,
         "DevName": "GA_Firemage_CastedDotDetonate",
         "EnabledInGame": true,
@@ -1163,7 +1163,7 @@
         "SpellGrantsCDA": false
       },
       "1532": {
-        "Name": null,
+        "Name": "Fire Frogs",
         "FSLID": 1532,
         "DevName": "GA_Firemage_Passive_FrogDamageMonitor",
         "EnabledInGame": true,
@@ -1424,8 +1424,8 @@
           "DamageScaleExpertiseFactor": 1.0
         }
       },
-      "FireBombs": {
-        "DevName": "FireBombs",
+      "Detonate": {
+        "DevName": "GA_Firemage_CastedDotDetonate",
         "ResourcePerOrb": 100.0
       },
       "Spontaneous Combustion": {
@@ -1464,8 +1464,8 @@
           }
         }
       },
-      "FireFrog": {
-        "DevName": "FireFrog",
+      "Fire Frogs": {
+        "DevName": "GA_Firemage_FireFrogs",
         "Ability": {
           "MaxRange": 3000.0,
           "NumFrogs": 5.0,
@@ -1787,7 +1787,7 @@
           }
         }
       },
-      "ChanneledForwardAoeDamage": {
+      "Incinerate": {
         "DevName": "GA_Firemage_ChanneledForwardAoeDamage",
         "CastTime": 1.5,
         "Duration": 2.5,
@@ -1967,7 +1967,7 @@
         "SpellGrantsCDA": false
       },
       "126": {
-        "Name": null,
+        "Name": "Starfall Volley",
         "FSLID": 126,
         "DevName": "GA_Bowguy_TargetedAoeDamage",
         "EnabledInGame": true,
@@ -2068,7 +2068,7 @@
         "SpellGrantsCDA": false
       },
       "1310": {
-        "Name": null,
+        "Name": "Lunarlight Mark",
         "FSLID": 1310,
         "DevName": "GA_Bowguy_InstantMarkTarget",
         "EnabledInGame": true,
@@ -2128,7 +2128,7 @@
         "SpellGrantsCDA": false
       },
       "1318": {
-        "Name": null,
+        "Name": "Multishot",
         "FSLID": 1318,
         "DevName": "GA_Bowguy_AoeProjectileDamage",
         "EnabledInGame": true,
@@ -2163,7 +2163,7 @@
         "SpellGrantsCDA": false
       },
       "1584": {
-        "Name": null,
+        "Name": "Event Horizon",
         "FSLID": 1584,
         "DevName": "GA_Bowguy_ReducedCostCooldownRecoveryBuff",
         "EnabledInGame": true,
@@ -2455,7 +2455,7 @@
           }
         }
       },
-      "AoeProjectileDamage": {
+      "Multishot": {
         "DevName": "GA_Bowguy_AoeProjectileDamage",
         "AgilityCoefficient": 3.7191,
         "CleaveAngel": 100.0,
@@ -2624,8 +2624,8 @@
           }
         }
       },
-      "DamageBounceSelfBuff": {
-        "DevName": "GA_Bowguy_CastedProjectileHeavyDamage",
+      "Lunarlight Mark": {
+        "DevName": "GA_Bowguy_InstantMarkTarget",
         "DamageMultiplier": 1.0,
         "Bounce": {
           "MaxTargets": 3.0,
@@ -2636,7 +2636,7 @@
         "Cooldown": 40.0
       },
       "InstantMarkTarget": {
-        "DevName": "GA_Bowguy_SingleProjectileDamage",
+        "DevName": "GA_Bowguy_InstantMarkTarget",
         "MaxRange": 3000.0,
         "AdditionalTargetsRadius": 850.0,
         "MaxTargets": 12.0,
@@ -2689,8 +2689,8 @@
           }
         }
       },
-      "Lunarlight Salvo": {
-        "DevName": "GA_Bowguy_Passive_InstantMarkTarget_Monitor",
+      "Starfall Volley": {
+        "DevName": "GA_Bowguy_TargetedAoeDamage",
         "Radius": 700.0,
         "Duration": 8.0,
         "TickInterval": 1.0,
@@ -2714,7 +2714,7 @@
           "IncreasedDamage": 1.0
         }
       },
-      "ReducedCostCooldownRecoveryBuff": {
+      "Event Horizon": {
         "DevName": "GA_Bowguy_ReducedCostCooldownRecoveryBuff",
         "CastTime": 0.7,
         "Duration": 20.0,
@@ -2797,8 +2797,8 @@
       ]
     },
     "SpiritRefund": {
-      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that applies Rend, causing 5 Blood Feathers to be created on the ground near you.\r\n\r\nYou also gain \"Rising Spirit\" for 10 seconds, increasing your Strength by 5%.\r\n\r\nEach time you trigger the \"Spirit Refund\" you gain 1 Spirit Point toward your Spirit Ability charge.",
-      "Source": "locres:ST_Main/Hero_Gunde_SpiritAbilityDescription"
+      "Text": "Increases the chance to trigger a \"Spirit Refund\" whenever you use an ability that applies Rend, causing 5 Blood Feathers to be created on the ground near you.\n\nYou also gain \"Rising Spirit\" for 10 seconds, increasing your Strength by 5%.\n\nEach time you trigger the \"Spirit Refund\" you gain 1 Spirit Point toward your Spirit Ability charge.",
+      "Source": "metadata:SpiritDescription"
     },
     "Attributes": {
       "Armor": 0.0,
@@ -2875,7 +2875,7 @@
         "SubSchool": null
       },
       "1244": {
-        "Name": null,
+        "Name": "Jawbreaker",
         "FSLID": 1244,
         "DevName": "GA_Gunde_SingleTargetInterrupt",
         "EnabledInGame": true,
@@ -2887,7 +2887,7 @@
         "SpellGrantsCDA": false
       },
       "1249": {
-        "Name": null,
+        "Name": "Attack",
         "FSLID": 1249,
         "DevName": "GA_Gunde_MeleeAutoAttack",
         "EnabledInGame": true,
@@ -2920,7 +2920,7 @@
         "SpellGrantsCDA": false
       },
       "2262": {
-        "Name": null,
+        "Name": "Grim Carve",
         "FSLID": 2262,
         "DevName": "GA_Gunde_TargetedAoeProjectile",
         "EnabledInGame": true,
@@ -2932,7 +2932,7 @@
         "SpellGrantsCDA": false
       },
       "2284": {
-        "Name": null,
+        "Name": "Butcher's Hook",
         "FSLID": 2284,
         "DevName": "GA_Gunde_SingleTargetPull",
         "EnabledInGame": true,
@@ -2955,7 +2955,7 @@
         "SpellGrantsCDA": false
       },
       "2290": {
-        "Name": null,
+        "Name": "Reaver's Edge",
         "FSLID": 2290,
         "DevName": "GA_Gunde_InstantWhirlwindAoe",
         "EnabledInGame": true,
@@ -2967,7 +2967,7 @@
         "SpellGrantsCDA": false
       },
       "2291": {
-        "Name": null,
+        "Name": "Blood Arc",
         "FSLID": 2291,
         "DevName": "GA_Gunde_InstantAoeWithBuff",
         "EnabledInGame": true,
@@ -2979,7 +2979,7 @@
         "SpellGrantsCDA": false
       },
       "2292": {
-        "Name": null,
+        "Name": "Slaughter",
         "FSLID": 2292,
         "DevName": "GA_Gunde_InstantAoeDot",
         "EnabledInGame": true,
@@ -2991,7 +2991,7 @@
         "SpellGrantsCDA": false
       },
       "2293": {
-        "Name": null,
+        "Name": "Rupture",
         "FSLID": 2293,
         "DevName": "GA_Gunde_HeavyMeleeDotBoost",
         "EnabledInGame": true,
@@ -3003,7 +3003,7 @@
         "SpellGrantsCDA": false
       },
       "2294": {
-        "Name": null,
+        "Name": "Heart Splitter",
         "FSLID": 2294,
         "DevName": "GA_Gunde_HeavyMeleeDotBased",
         "EnabledInGame": true,
@@ -3015,7 +3015,7 @@
         "SpellGrantsCDA": false
       },
       "2295": {
-        "Name": null,
+        "Name": "Reign in Blood",
         "FSLID": 2295,
         "DevName": "GA_Gunde_ExtraDotDamageBuff",
         "EnabledInGame": true,
@@ -3027,7 +3027,7 @@
         "SpellGrantsCDA": false
       },
       "2296": {
-        "Name": null,
+        "Name": "Bloodbound Spirit",
         "FSLID": 2296,
         "DevName": "GA_Gunde_DurationalAoeDotAndBuff",
         "EnabledInGame": true,
@@ -3050,7 +3050,7 @@
         "SpellGrantsCDA": false
       },
       "2298": {
-        "Name": null,
+        "Name": "Owed in Blood",
         "FSLID": 2298,
         "DevName": "GA_Gunde_DotTransfer",
         "EnabledInGame": true,
@@ -3062,7 +3062,7 @@
         "SpellGrantsCDA": false
       },
       "2299": {
-        "Name": null,
+        "Name": "Warbound",
         "FSLID": 2299,
         "DevName": "GA_Gunde_DashAttack",
         "EnabledInGame": true,
@@ -3074,7 +3074,7 @@
         "SpellGrantsCDA": false
       },
       "2300": {
-        "Name": null,
+        "Name": "Reckless Abandon",
         "FSLID": 2300,
         "DevName": "GA_Gunde_DamageReductionSelfBuff",
         "EnabledInGame": true,
@@ -3086,7 +3086,7 @@
         "SpellGrantsCDA": false
       },
       "2301": {
-        "Name": null,
+        "Name": "Double Strike",
         "FSLID": 2301,
         "DevName": "GA_Gunde_BasicSingleTargetAttack",
         "EnabledInGame": true,
@@ -3098,7 +3098,170 @@
         "SpellGrantsCDA": false
       }
     },
-    "Talents": {},
+    "Talents": {
+      "748": {
+        "Name": "Death's Arc",
+        "FSLID": 2000748,
+        "DevName": "CAA_Gunde_Trait1",
+        "TalentRow": 1,
+        "TalentColumn": 1,
+        "PointCost": 2,
+        "EnabledInGame": true
+      },
+      "760": {
+        "Name": "Raven's Precision",
+        "FSLID": 2000760,
+        "DevName": "CAA_Gunde_Trait20",
+        "TalentRow": 1,
+        "TalentColumn": 2,
+        "PointCost": 2,
+        "EnabledInGame": true
+      },
+      "766": {
+        "Name": "Grim Harvest",
+        "FSLID": 2000766,
+        "DevName": "CAA_Gunde_Trait3",
+        "TalentRow": 1,
+        "TalentColumn": 3,
+        "PointCost": 2,
+        "EnabledInGame": true
+      },
+      "765": {
+        "Name": "Sundered Flesh",
+        "FSLID": 2000765,
+        "DevName": "CAA_Gunde_Trait27",
+        "TalentRow": 2,
+        "TalentColumn": 1,
+        "PointCost": 1,
+        "EnabledInGame": true
+      },
+      "768": {
+        "Name": "Crimson strikes",
+        "FSLID": 2000768,
+        "DevName": "CAA_Gunde_Trait5",
+        "TalentRow": 2,
+        "TalentColumn": 2,
+        "PointCost": 1,
+        "EnabledInGame": true
+      },
+      "751": {
+        "Name": "Deep Rend",
+        "FSLID": 2000751,
+        "DevName": "CAA_Gunde_Trait12",
+        "TalentRow": 2,
+        "TalentColumn": 3,
+        "PointCost": 1,
+        "EnabledInGame": true
+      },
+      "757": {
+        "Name": "Darkening Hearts",
+        "FSLID": 2000757,
+        "DevName": "CAA_Gunde_Trait18",
+        "TalentRow": 3,
+        "TalentColumn": 1,
+        "PointCost": 2,
+        "EnabledInGame": true
+      },
+      "758": {
+        "Name": "Murder of Crows",
+        "FSLID": 2000758,
+        "DevName": "CAA_Gunde_Trait19",
+        "TalentRow": 3,
+        "TalentColumn": 2,
+        "PointCost": 2,
+        "EnabledInGame": true
+      },
+      "772": {
+        "Name": "Massacre",
+        "FSLID": 2000772,
+        "DevName": "CAA_Gunde_Trait9",
+        "TalentRow": 3,
+        "TalentColumn": 3,
+        "PointCost": 2,
+        "EnabledInGame": true
+      },
+      "763": {
+        "Name": "Slayer's Grin",
+        "FSLID": 2000763,
+        "DevName": "CAA_Gunde_Trait23",
+        "TalentRow": 4,
+        "TalentColumn": 1,
+        "PointCost": 1,
+        "EnabledInGame": true
+      },
+      "750": {
+        "Name": "Frenzied Reign",
+        "FSLID": 2000750,
+        "DevName": "CAA_Gunde_Trait11",
+        "TalentRow": 4,
+        "TalentColumn": 2,
+        "PointCost": 1,
+        "EnabledInGame": true
+      },
+      "764": {
+        "Name": "Bloodbath",
+        "FSLID": 2000764,
+        "DevName": "CAA_Gunde_Trait24",
+        "TalentRow": 4,
+        "TalentColumn": 3,
+        "PointCost": 1,
+        "EnabledInGame": true
+      },
+      "761": {
+        "Name": "Bloodcraze",
+        "FSLID": 2000761,
+        "DevName": "CAA_Gunde_Trait21",
+        "TalentRow": 5,
+        "TalentColumn": 1,
+        "PointCost": 3,
+        "EnabledInGame": true
+      },
+      "762": {
+        "Name": "Oathshatter",
+        "FSLID": 2000762,
+        "DevName": "CAA_Gunde_Trait22",
+        "TalentRow": 5,
+        "TalentColumn": 2,
+        "PointCost": 3,
+        "EnabledInGame": true
+      },
+      "754": {
+        "Name": "Carnage",
+        "FSLID": 2000754,
+        "DevName": "CAA_Gunde_Trait15",
+        "TalentRow": 5,
+        "TalentColumn": 3,
+        "PointCost": 3,
+        "EnabledInGame": true
+      },
+      "749": {
+        "Name": "Superior Serration",
+        "FSLID": 2000749,
+        "DevName": "CAA_Gunde_Trait10",
+        "TalentRow": 6,
+        "TalentColumn": 1,
+        "PointCost": 1,
+        "EnabledInGame": true
+      },
+      "756": {
+        "Name": "Ancestral Instinct",
+        "FSLID": 2000756,
+        "DevName": "CAA_Gunde_Trait17",
+        "TalentRow": 6,
+        "TalentColumn": 2,
+        "PointCost": 1,
+        "EnabledInGame": true
+      },
+      "767": {
+        "Name": "Harvester's Toll",
+        "FSLID": 2000767,
+        "DevName": "CAA_Gunde_Trait4",
+        "TalentRow": 6,
+        "TalentColumn": 3,
+        "PointCost": 1,
+        "EnabledInGame": true
+      }
+    },
     "Constants": {
       "MeleeRange": {
         "DevName": "MeleeRange",
@@ -3109,8 +3272,8 @@
         "SpiritPointsGain": 1.0,
         "AmountOfOrbs": 5.0
       },
-      "PerTargetAccumulatedBleed": {
-        "DevName": "PerTargetAccumulatedBleed",
+      "Bloodbound Spirit": {
+        "DevName": "GA_Gunde_DurationalAoeDotAndBuff",
         "DamageToDotScaler": 0.5,
         "Dot": {
           "Duration": 30.0,
@@ -3127,8 +3290,8 @@
         },
         "TotalDamageToStackCountScaler": 0.0025
       },
-      "BoostedDotDamage": {
-        "DevName": "BoostedDotDamage",
+      "Slaughter": {
+        "DevName": "GA_Gunde_InstantAoeDot",
         "Debuff": {
           "BleedDamageScaler": 1.2,
           "Duration": 18.0
@@ -3144,19 +3307,19 @@
         "DevName": "AutoAttack",
         "SwingTimer": 1.5
       },
-      "MeleeAutoAttack": {
+      "Attack": {
         "DevName": "GA_Gunde_MeleeAutoAttack",
         "HitVisualDelay": 0.51,
         "StrengthCoefficient": 0.3
       },
-      "BasicSingleTargetAttack": {
+      "Double Strike": {
         "DevName": "GA_Gunde_BasicSingleTargetAttack",
         "DamageStrengthCoefficientPerHit": 0.825,
         "FirstVisualHitDelay": 0.1,
         "SecondVisualHitDelay": 0.45,
         "MaxRange": 3000.0
       },
-      "InstantWhirlwindAoe": {
+      "Reaver's Edge": {
         "DevName": "GA_Gunde_InstantWhirlwindAoe",
         "VisualHitDelay": 0.45,
         "AoeRadius": 700.0,
@@ -3169,7 +3332,7 @@
           }
         }
       },
-      "HeavyMeleeDotBoost": {
+      "Rupture": {
         "DevName": "GA_Gunde_HeavyMeleeDotBoost",
         "VisualHitDelay": 0.3,
         "DamageStrengthCoefficient": 21.26,
@@ -3199,7 +3362,7 @@
           }
         }
       },
-      "TargetedAoeProjectile": {
+      "Grim Carve": {
         "DevName": "GA_Gunde_TargetedAoeProjectile",
         "ProjectileSpawnDelay": 0.14,
         "DamageStrengthCoefficientPerHit": 2.076,
@@ -3231,21 +3394,21 @@
           }
         }
       },
-      "DamageReductionSelfBuff": {
+      "Reckless Abandon": {
         "DevName": "GA_Gunde_DamageReductionSelfBuff",
         "IncomingDamageMultiplier": 0.6,
         "Duration": 4.0,
         "Cooldown": 30.0,
         "VisualDelay": 0.24
       },
-      "SingleTargetInterrupt": {
+      "Jawbreaker": {
         "DevName": "GA_Gunde_SingleTargetInterrupt",
         "MaxRange": 500.0,
         "Duration": 4.0,
         "Cooldown": 16.0,
         "VisualDelay": 0.2
       },
-      "ExtraDotDamageBuff": {
+      "Reign in Blood": {
         "DevName": "GA_Gunde_ExtraDotDamageBuff",
         "BonusDotDamage": 0.3,
         "Duration": 12.0,
@@ -3260,7 +3423,7 @@
           }
         }
       },
-      "HeavyMeleeDotBased": {
+      "Heart Splitter": {
         "DevName": "GA_Gunde_HeavyMeleeDotBased",
         "Cooldown": 12.0,
         "Damage": {
@@ -3316,7 +3479,7 @@
           }
         }
       },
-      "DotTransfer": {
+      "Owed in Blood": {
         "DevName": "GA_Gunde_DotTransfer",
         "MaxRange": 2000.0,
         "SelfBuff": {
@@ -3385,7 +3548,7 @@
         },
         "MaxStacks": 150.0
       },
-      "SingleTargetPull": {
+      "Butcher's Hook": {
         "DevName": "GA_Gunde_SingleTargetPull",
         "Cooldown": 30.0,
         "MaxRange": 3000.0,
@@ -3414,7 +3577,7 @@
         "TargetingRadius": 50.0,
         "JumpDuration": 0.3
       },
-      "InstantAoeWithBuff": {
+      "Blood Arc": {
         "DevName": "GA_Gunde_InstantAoeWithBuff",
         "VisualHitDelay": 0.2,
         "AoeRadius": 700.0,
@@ -3453,7 +3616,7 @@
           "DamageMultiplier": 1.25
         }
       },
-      "DashAttack": {
+      "Warbound": {
         "DevName": "GA_Gunde_DashAttack",
         "StrengthCoefficient": 0.2,
         "DamageRadius": 250.0,
@@ -3647,7 +3810,7 @@
         "SpellGrantsCDA": false
       },
       "975": {
-        "Name": null,
+        "Name": "Hold the Line",
         "FSLID": 975,
         "DevName": "GA_Warmaster_MoveSpeedBuff",
         "EnabledInGame": true,
@@ -3671,7 +3834,7 @@
         "SpellGrantsCDA": false
       },
       "977": {
-        "Name": null,
+        "Name": "Shield Slam",
         "FSLID": 977,
         "DevName": "GA_Warmaster_MeleeCleave",
         "EnabledInGame": true,
@@ -3694,7 +3857,7 @@
         "SpellGrantsCDA": false
       },
       "979": {
-        "Name": null,
+        "Name": "Shockwave",
         "FSLID": 979,
         "DevName": "GA_Warmaster_MeleeAoeSlow",
         "EnabledInGame": true,
@@ -3786,7 +3949,7 @@
         "SpellGrantsCDA": false
       },
       "1515": {
-        "Name": null,
+        "Name": "Siegebreaker",
         "FSLID": 1515,
         "DevName": "GA_Warmaster_ShieldSelfBuff",
         "EnabledInGame": true,
@@ -4046,8 +4209,8 @@
           "SpiritProc": 2.0
         }
       },
-      "Unscarred Soul": {
-        "DevName": "GA_Warmaster_Passive_Talent_MeleeCleaveAbsorbBuff_ReducedDamageReflectDamage",
+      "Shield Slam": {
+        "DevName": "GA_Warmaster_MeleeCleave",
         "IncreasedArmor": {
           "ArmorMultiplier": 1.2
         },
@@ -4313,7 +4476,7 @@
         }
       },
       "MeleeCleave": {
-        "DevName": "GA_Warmaster_LightMelee",
+        "DevName": "GA_Warmaster_MeleeCleave",
         "StrengthCoefficient": 6.01496,
         "CleaveDamageStrengthCoefficient": 0.758,
         "CleaveAdditionalTargets": 19.0,
@@ -4392,7 +4555,7 @@
           }
         }
       },
-      "MeleeAoeSlow": {
+      "Shockwave": {
         "DevName": "GA_Warmaster_MeleeAoeSlow",
         "Cooldown": 30.0,
         "StrengthCoefficient": 3.833,
@@ -4576,7 +4739,7 @@
         "ComboPointReward": 0.0,
         "AllyProtectionMultiplier": 0.4
       },
-      "MoveSpeedBuff": {
+      "Hold the Line": {
         "DevName": "GA_Warmaster_MoveSpeedBuff",
         "Cooldown": 30.0,
         "MaxRange": 4000.0,
@@ -4657,7 +4820,7 @@
           }
         }
       },
-      "ShieldSelfBuff": {
+      "Siegebreaker": {
         "DevName": "GA_Warmaster_ShieldSelfBuff",
         "Duration": 20.0,
         "MeleeCleave": {
@@ -4892,7 +5055,7 @@
         "SpellGrantsCDA": false
       },
       "1206": {
-        "Name": null,
+        "Name": "Maiden of Death",
         "FSLID": 1206,
         "DevName": "GA_Mara_ChargedResourceRefillSelfBuff",
         "EnabledInGame": true,
@@ -4939,7 +5102,7 @@
         "SpellGrantsCDA": false
       },
       "1212": {
-        "Name": null,
+        "Name": "Arachnid Assault",
         "FSLID": 1212,
         "DevName": "GA_Mara_AoeAttackSpender",
         "EnabledInGame": true,
@@ -4974,7 +5137,7 @@
         "SpellGrantsCDA": false
       },
       "1420": {
-        "Name": null,
+        "Name": "Matriarch Macabre",
         "FSLID": 1420,
         "DevName": "GA_Mara_CopyCharacterDamage",
         "EnabledInGame": true,
@@ -5323,7 +5486,7 @@
         "Cooldown": 16.0,
         "LockoutDuration": 4.0
       },
-      "ChargedResourceRefillSelfBuff": {
+      "Maiden of Death": {
         "DevName": "GA_Mara_ChargedResourceRefillSelfBuff",
         "Duration": 10.0,
         "MaxCharges": 1.0,
@@ -5347,8 +5510,8 @@
         "DamageMultiplierPerComboPoint": 0.2,
         "Cost": 40.0
       },
-      "From the Shadows": {
-        "DevName": "GA_Mara_Passive_Talent_AoeAttackSpender_CloneAttack",
+      "Arachnid Assault": {
+        "DevName": "GA_Mara_AoeAttackSpender",
         "AgilityCoefficient": 1.1722,
         "MaxRange": 800.0,
         "NumTargetsDamageFalloffThreshold": 8.0,
@@ -5488,7 +5651,7 @@
           }
         }
       },
-      "CopyCharacterDamage": {
+      "Matriarch Macabre": {
         "DevName": "GA_Mara_CopyCharacterDamage",
         "Duration": 20.0,
         "DamageIncreaseBuff": {
@@ -5764,7 +5927,7 @@
         "SpellGrantsCDA": false
       },
       "1107": {
-        "Name": null,
+        "Name": "Stone Stomp",
         "FSLID": 1107,
         "DevName": "GA_Meiko_FrontalAoeDebuff",
         "EnabledInGame": true,
@@ -6191,7 +6354,7 @@
           "HasteIncrease": 0.25
         }
       },
-      "FrontalAoeDebuff": {
+      "Stone Stomp": {
         "DevName": "GA_Meiko_FrontalAoeDebuff",
         "AgilityCoefficient": 1.064,
         "Spread": 0.1,
@@ -6572,7 +6735,7 @@
           }
         }
       },
-      "DurationalAoeDamageBuff": {
+      "Spirited Vortex": {
         "DevName": "GA_Meiko_DurationalAoeDamageBuff",
         "AgilityCoefficient": 1.0556,
         "TargetCountDamageScalingThreshold": 8.0,
@@ -6649,7 +6812,7 @@
         }
       },
       "Talent": {
-        "DevName": "Talent",
+        "DevName": "GA_Meiko_DurationalAoeDamageBuff",
         "IncreasedMovementSpeed": {
           "SpeedMultiplier": 1.2
         },
@@ -6809,7 +6972,7 @@
         "SpellGrantsCDA": false
       },
       "1015": {
-        "Name": null,
+        "Name": "Frost Ward",
         "FSLID": 1015,
         "DevName": "GA_Rime_SelfDefenceBuff",
         "EnabledInGame": true,
@@ -6855,7 +7018,7 @@
         "SpellGrantsCDA": false
       },
       "1019": {
-        "Name": null,
+        "Name": "Brain Freeze",
         "FSLID": 1019,
         "DevName": "GA_Rime_InstantSingleInterrupt",
         "EnabledInGame": true,
@@ -6891,7 +7054,7 @@
         "SpellGrantsCDA": false
       },
       "1023": {
-        "Name": null,
+        "Name": "Wrath of Winter",
         "FSLID": 1023,
         "DevName": "GA_Rime_FullResourcesSelfBuff",
         "EnabledInGame": true,
@@ -7605,7 +7768,7 @@
         "DebuffDuration": 12.0,
         "ConeRange": 1200.0
       },
-      "InstantSingleInterrupt": {
+      "Brain Freeze": {
         "DevName": "GA_Rime_InstantSingleInterrupt",
         "MaxRange": 3000.0,
         "Cooldown": 20.0,
@@ -7619,8 +7782,8 @@
         "DashAirExitSpeed": 1000.0,
         "NumCharges": 2.0
       },
-      "Frost Ward (Tundra Guard)": {
-        "DevName": "GA_Rime_Passive_Talent_SelfDefenceBuff_DurationBoostAndHealFromDamage_DamageMonitor",
+      "Frost Ward": {
+        "DevName": "GA_Rime_SelfDefenceBuff",
         "Duration": 4.0,
         "Cooldown": 30.0,
         "IncomingDamageScaler": 0.6,
@@ -8061,7 +8224,7 @@
         "SpellGrantsCDA": false
       },
       "1060": {
-        "Name": null,
+        "Name": "Fluttercall: Heal",
         "FSLID": 1060,
         "DevName": "GA_Mosse_PinkButterfly_Simple",
         "EnabledInGame": true,
@@ -8096,7 +8259,7 @@
         "SpellGrantsCDA": false
       },
       "1071": {
-        "Name": null,
+        "Name": "Hidden Trail",
         "FSLID": 1071,
         "DevName": "GA_Mosse_InstantSelfEscapeBuff",
         "EnabledInGame": true,
@@ -8120,7 +8283,7 @@
         "SpellGrantsCDA": false
       },
       "1073": {
-        "Name": null,
+        "Name": "Shroomsplosion",
         "FSLID": 1073,
         "DevName": "GA_Mosse_ExplosiveMinion",
         "EnabledInGame": true,
@@ -8143,7 +8306,7 @@
         "SpellGrantsCDA": false
       },
       "1075": {
-        "Name": null,
+        "Name": "Heart Bloom",
         "FSLID": 1075,
         "DevName": "GA_Mosse_DurationalAoeHealPlacement",
         "EnabledInGame": true,
@@ -8487,8 +8650,8 @@
           }
         }
       },
-      "Unyielding Bloom": {
-        "DevName": "GA_Mosse_Talent_Passive_DurationalAoeHealPlacement_OverhealGivesAbsorb_Monitor",
+      "Heart Bloom": {
+        "DevName": "GA_Mosse_DurationalAoeHealPlacement",
         "LeftDistance": 150.0,
         "ForwardDistance": 150.0,
         "Radius": 4000.0,
@@ -8617,8 +8780,8 @@
           }
         }
       },
-      "Fluttercall: Restore Life": {
-        "DevName": "GA_Mosse_PinkButterfly_Double",
+      "Fluttercall: Heal": {
+        "DevName": "GA_Mosse_PinkButterfly_Simple",
         "IncreasedHealPerVine": {
           "HealMultiplierPerVine": 0.03
         },
@@ -8727,7 +8890,7 @@
           }
         }
       },
-      "InstantSelfEscapeBuff": {
+      "Hidden Trail": {
         "DevName": "GA_Mosse_InstantSelfEscapeBuff",
         "ExistingThreatMultiplier": 0.5,
         "Buff": {
@@ -8765,7 +8928,7 @@
           }
         }
       },
-      "ExplosiveMinion": {
+      "Shroomsplosion": {
         "DevName": "GA_Mosse_ExplosiveMinion",
         "AbilityMaxRange": 3000.0,
         "GrowthDuration": 3.0,
@@ -9208,7 +9371,7 @@
         "SpellGrantsCDA": false
       },
       "1229": {
-        "Name": null,
+        "Name": "Skull Crusher",
         "FSLID": 1229,
         "DevName": "GA_Ink_HeavySingleTargetAttack",
         "EnabledInGame": true,
@@ -9220,7 +9383,7 @@
         "SpellGrantsCDA": false
       },
       "1231": {
-        "Name": null,
+        "Name": "Raging Tempest",
         "FSLID": 1231,
         "DevName": "GA_Ink_EnhancedChargedBuff",
         "EnabledInGame": true,
@@ -9256,7 +9419,7 @@
         "SpellGrantsCDA": false
       },
       "1235": {
-        "Name": null,
+        "Name": "Thunder Call",
         "FSLID": 1235,
         "DevName": "GA_Ink_ChargedBuff",
         "EnabledInGame": true,
@@ -9721,8 +9884,8 @@
           }
         }
       },
-      "Sledgehammer": {
-        "DevName": "GA_Ink_Talent_Passive_HeavySingleTargetAttack_AoE_Monitor",
+      "Skull Crusher": {
+        "DevName": "GA_Ink_HeavySingleTargetAttack",
         "StrengthCoefficient": 11.6,
         "Spread": 0.1,
         "VisualHitDelay": 0.52,
@@ -9806,7 +9969,7 @@
           "MaxDodgeChanceIncrease": 0.16
         }
       },
-      "ChargedBuff": {
+      "Thunder Call": {
         "DevName": "GA_Ink_ChargedBuff",
         "VisualDelay": 0.27,
         "Duration": 21.0,
@@ -9885,7 +10048,7 @@
         "Duration": 4.0,
         "Cooldown": 16.0
       },
-      "EnhancedChargedBuff": {
+      "Raging Tempest": {
         "DevName": "GA_Ink_EnhancedChargedBuff",
         "SpiritPointCost": 100.0,
         "ResourceGain": 0.0,
@@ -10109,7 +10272,7 @@
         "SpellGrantsCDA": false
       },
       "111": {
-        "Name": null,
+        "Name": "Lightshaper's Ward",
         "FSLID": 111,
         "DevName": "GA_Vigor_DamageReductionAndImmunityBuff",
         "EnabledInGame": true,
@@ -10227,7 +10390,7 @@
         "SpellGrantsCDA": false
       },
       "1000": {
-        "Name": null,
+        "Name": "Avatar of Light",
         "FSLID": 1000,
         "DevName": "GA_Vigor_PartyHealAndSelfBuff",
         "EnabledInGame": true,
@@ -10555,7 +10718,7 @@
         "DevName": "StackForDoubleHitBuff",
         "MaxStacks": 2.0
       },
-      "DamageReductionAndImmunityBuff": {
+      "Lightshaper's Ward": {
         "DevName": "GA_Vigor_DamageReductionAndImmunityBuff",
         "Cooldown": 60.0,
         "Duration": 12.0,
@@ -10608,7 +10771,7 @@
         "NumOfAllies": 1.0,
         "ManaCost": 89.0
       },
-      "PartyHealAndSelfBuff": {
+      "Avatar of Light": {
         "DevName": "GA_Vigor_PartyHealAndSelfBuff",
         "Cooldown": 0.0,
         "Range": 6000.0,
@@ -11222,7 +11385,7 @@
         "SpellGrantsCDA": false
       },
       "1845": {
-        "Name": null,
+        "Name": "Sun Strike",
         "FSLID": 1845,
         "DevName": "GA_Sune_SingleTargetFillerMelee",
         "EnabledInGame": true,
@@ -11268,7 +11431,7 @@
         "SpellGrantsCDA": false
       },
       "1853": {
-        "Name": null,
+        "Name": "Decree of the Sun",
         "FSLID": 1853,
         "DevName": "GA_Sune_SelfImmunityAndAoeHeal",
         "EnabledInGame": true,
@@ -11375,7 +11538,7 @@
         "SpellGrantsCDA": false
       },
       "1917": {
-        "Name": null,
+        "Name": "Aura of Solace",
         "FSLID": 1917,
         "DevName": "GA_Sune_DamageTransferAura",
         "EnabledInGame": true,
@@ -11630,7 +11793,7 @@
         "HitVisualDelay": 0.5,
         "StrengthCoefficient": 0.98
       },
-      "SingleTargetFillerMelee": {
+      "Sun Strike": {
         "DevName": "GA_Sune_SingleTargetFillerMelee",
         "DamageStrengthCoefficient": 1.47,
         "ResourceProcChance": 0.15,
@@ -11789,7 +11952,7 @@
         "CastingDuration": 1.5,
         "ManaCost": 132.0
       },
-      "InstantSingleTargetHealOrDamage": {
+      "Brilliant Flash": {
         "DevName": "GA_Sune_InstantSingleTargetHealOrDamage",
         "MaxRange": 3000.0,
         "HealStrengthCoefficient": 7.52,
@@ -11931,7 +12094,7 @@
           }
         }
       },
-      "DamageTransferAura": {
+      "Aura of Solace": {
         "DevName": "GA_Sune_DamageTransferAura",
         "Cooldown": 3.0,
         "SelfBuffVisualDelay": 0.41,
@@ -11951,7 +12114,7 @@
           "DamageTransferFactor": 0.1
         }
       },
-      "SelfImmunityAndAoeHeal": {
+      "Decree of the Sun": {
         "DevName": "GA_Sune_SelfImmunityAndAoeHeal",
         "SelfBuff": {
           "VisualDelay": 0.4,

@@ -21,7 +21,7 @@
           "RequiredGemPower": 80,
           "GrantedAugmentation": "CA_GemBonus_PrimaryAttributeBonusWhenHealthySmall",
           "Magnitude": 1.02,
-          "Description": null
+          "Description": "<rt.warning>{PrimaryStatIncrease}</> <rt.primarystat>Strength</> / <rt.primarystat>Intellect</> / <rt.primarystat>Agility</> while you are above <rt.heal>{HealthThreshold} health</>."
         },
         {
           "Rank": 2,
@@ -32,7 +32,7 @@
             "StaminaIncrease": 12.0,
             "PrimaryAttributeIncrease": 2.0
           },
-          "Description": null
+          "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{SecondaryBonus}</> <rt.primarystat>Strength</> / <rt.primarystat>Intellect</> / <rt.primarystat>Agility</>"
         },
         {
           "Rank": 3,
@@ -43,7 +43,7 @@
             "HealthRegenFactor": 0.007,
             "HealthRegenPeriod": 2.0
           },
-          "Description": null
+          "Description": "You heal for <rt.combat-heal>{HealPercent}</> of your <rt.meikoability2>Maximum Health</> every <rt.meikoability1>{Seconds} seconds</> while in combat."
         },
         {
           "Rank": 4,
@@ -51,7 +51,7 @@
           "RequiredGemPower": 300,
           "GrantedAugmentation": "CA_GemBonus_MaxHealthPercentageBonusSmall",
           "Magnitude": 1.03,
-          "Description": null
+          "Description": " <rt.warning>{PercentIncrease}</> <rt.primarystat>Stamina</>"
         },
         {
           "Rank": 5,
@@ -59,7 +59,7 @@
           "RequiredGemPower": 450,
           "GrantedAugmentation": "CA_GemBonus_DamageHealAbsorbBonusInBossBattleSmall",
           "Magnitude": 1.05,
-          "Description": null
+          "Description": "While <rt.greyitalic>in combat with a boss</> your <rt.primarystat>Damage</>, <rt.primarystat>Healing</>, and <rt.primarystat>Absorption</> is increased by <rt.warning>{DamageIncrease}</>."
         },
         {
           "Rank": 6,
@@ -67,7 +67,7 @@
           "RequiredGemPower": 600,
           "GrantedAugmentation": "CA_GemBonus_PrimaryAttributeBonusWhenHealthyMedium",
           "Magnitude": 1.06,
-          "Description": null
+          "Description": "<rt.warning>{PrimaryStatIncrease}</> <rt.primarystat>Strength</> / <rt.primarystat>Intellect</> / <rt.primarystat>Agility</> while you are above <rt.heal>{HealthThreshold} health</>.\n\n(Replaces <rt.absorb>Might of the Minotaur</>)"
         },
         {
           "Rank": 7,
@@ -78,7 +78,7 @@
             "StaminaIncrease": 36.0,
             "PrimaryAttributeIncrease": 6.0
           },
-          "Description": null
+          "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{SecondaryBonus}</> <rt.primarystat>Strength</> / <rt.primarystat>Intellect</> / <rt.primarystat>Agility</>\n\n(Replaces <rt.absorb>Champion's Heart</>)"
         },
         {
           "Rank": 8,
@@ -89,7 +89,7 @@
             "HealthRegenFactor": 0.021,
             "HealthRegenPeriod": 2.0
           },
-          "Description": null
+          "Description": "You heal for <rt.combat-heal>{HealPercent}</> of your <rt.meikoability2>Maximum Health</> every <rt.meikoability1>{Seconds} seconds</> while in combat.\n\n(Replaces <rt.absorb>Unyielding Vitality</>)"
         },
         {
           "Rank": 9,
@@ -97,7 +97,7 @@
           "RequiredGemPower": 1250,
           "GrantedAugmentation": "CA_GemBonus_MaxHealthPercentageBonusMedium",
           "Magnitude": 1.09,
-          "Description": null
+          "Description": " <rt.warning>{PercentIncrease}</> <rt.primarystat>Stamina</>\n\n(Replaces <rt.absorb>Titan's Blood</>)"
         },
         {
           "Rank": 10,
@@ -105,7 +105,7 @@
           "RequiredGemPower": 1500,
           "GrantedAugmentation": "CA_GemBonus_DamageHealAbsorbBonusInBossBattleMedium",
           "Magnitude": 1.15,
-          "Description": null
+          "Description": "While <rt.greyitalic>in combat with a boss</> your <rt.primarystat>Damage</>, <rt.primarystat>Healing</>, and <rt.primarystat>Absorption</> is increased by <rt.warning>{DamageIncrease}</>.\n\n(Replaces <rt.absorb>Blessing of the Conqueror</>)"
         }
       ]
     },
@@ -119,7 +119,7 @@
           "RequiredGemPower": 80,
           "GrantedAugmentation": "CA_GemBonus_CritChanceBonusAgainstHalfHealthTargetSmall",
           "Magnitude": 0.05,
-          "Description": null
+          "Description": "Your <rt.primarystat>Damage</> and <rt.primarystat>Healing</> effects on characters with more than <rt.heal>{HealthThreshold} health</> have <rt.warning>{CritChanceBonus}</> <rt.tertiarystat>Critical Strike</> chance."
         },
         {
           "Rank": 2,
@@ -130,7 +130,7 @@
             "StaminaIncrease": 8.0,
             "CritRatingIncrease": 8.0
           },
-          "Description": null
+          "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{CritBonus}</> <rt.tertiarystat>Critical Strike</>"
         },
         {
           "Rank": 3,
@@ -142,7 +142,7 @@
             "Period": 1.5,
             "HealPercentagePerTick": 0.01
           },
-          "Description": null
+          "Description": "Each time <rt.greyitalic>an enemy that you dealt damage to dies</>, you gain <rt.absorb>Reaper's Reprieve</>, healing you for <rt.combat-heal>{HealPercent}</> of your <rt.meikoability2>Maximum Health</> over <rt.effect>{Duration} seconds</>."
         },
         {
           "Rank": 4,
@@ -150,7 +150,7 @@
           "RequiredGemPower": 300,
           "GrantedAugmentation": "CA_GemBonus_CriticalStrikePercentageBonusSmall",
           "Magnitude": 0.02,
-          "Description": null
+          "Description": "<rt.warning>{CritChanceBonus}</> <rt.tertiarystat>Critical Strike</> chance."
         },
         {
           "Rank": 5,
@@ -158,7 +158,7 @@
           "RequiredGemPower": 450,
           "GrantedAugmentation": "CA_GemBonus_CriticalPowerBonusSmall",
           "Magnitude": 1.02,
-          "Description": null
+          "Description": "Your Critical Strikes do <rt.warning>{CritPowerBonus}</> more <rt.primarystat>Damage</> and <rt.primarystat>Healing</>."
         },
         {
           "Rank": 6,
@@ -166,7 +166,7 @@
           "RequiredGemPower": 600,
           "GrantedAugmentation": "CA_GemBonus_CritChanceBonusAgainstHalfHealthTargetMedium",
           "Magnitude": 0.15,
-          "Description": null
+          "Description": "Your <rt.primarystat>Damage</> and <rt.primarystat>Healing</> effects on characters with more than <rt.heal>{HealthThreshold} health</> have <rt.warning>{CritChanceBonus}</> <rt.tertiarystat>Critical Strike</> chance.\n\n(Replaces <rt.absorb>Sealed Fate</>)"
         },
         {
           "Rank": 7,
@@ -177,7 +177,7 @@
             "StaminaIncrease": 24.0,
             "CritRatingIncrease": 24.0
           },
-          "Description": null
+          "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{CritBonus}</> <rt.tertiarystat>Critical Strike</>\n\n(Replaces <rt.absorb>Berserker's Zeal</>)"
         },
         {
           "Rank": 8,
@@ -189,7 +189,7 @@
             "Period": 1.5,
             "HealPercentagePerTick": 0.03
           },
-          "Description": null
+          "Description": "Each time <rt.greyitalic>an enemy that you dealt damage to dies</>, you gain <rt.absorb>Reaper's Reprieve - II</>, healing you for <rt.combat-heal>{HealPercent}</> of your <rt.meikoability2>Maximum Health</> over <rt.effect>{Duration} seconds</>.\n\n(Replaces <rt.absorb>Reaper's Reprieve</>)"
         },
         {
           "Rank": 9,
@@ -197,7 +197,7 @@
           "RequiredGemPower": 1250,
           "GrantedAugmentation": "CA_GemBonus_CriticalStrikePercentageBonusMedium",
           "Magnitude": 0.06,
-          "Description": null
+          "Description": "<rt.warning>{CritChanceBonus}</> <rt.tertiarystat>Critical Strike</> chance.\n\n(Replaces <rt.absorb>Killer Instinct</>)"
         },
         {
           "Rank": 10,
@@ -205,7 +205,7 @@
           "RequiredGemPower": 1500,
           "GrantedAugmentation": "CA_GemBonus_CriticalPowerBonusMedium",
           "Magnitude": 1.06,
-          "Description": null
+          "Description": "Your Critical Strikes do <rt.warning>{CritPowerBonus}</> more <rt.primarystat>Damage</> and <rt.primarystat>Healing</>.\n\n(Replaces <rt.absorb>Blessing of the Deathdealer</>)"
         }
       ]
     },
@@ -222,7 +222,7 @@
             "HastePercentageIncrease": 0.03,
             "Duration": 10.0
           },
-          "Description": null
+          "Description": "<rt.warning>{HasteBonus}</> <rt.tertiarystat>Haste</> for <rt.effect>{Duration} seconds</> each time you deal damage to or heal a character that has <rt.debuff>{HealthThreshold} or less health</>."
         },
         {
           "Rank": 2,
@@ -233,7 +233,7 @@
             "StaminaIncrease": 8.0,
             "HasteRatingIncrease": 8.0
           },
-          "Description": null
+          "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{HasteBonus}</> <rt.tertiarystat>Haste</>"
         },
         {
           "Rank": 3,
@@ -245,7 +245,7 @@
             "Cooldown": 20.0,
             "HealthPercentageHeal": 0.08
           },
-          "Description": null
+          "Description": "When you are <rt.debuff>below {HealthThreshold} health</> you are instantly healed for <rt.combat-heal>{HealPercent}</> of your <rt.meikoability2>Maximum Health</>. \n\n<rt.greyitalic>This effect can only occur once every {Cooldown} seconds</>."
         },
         {
           "Rank": 4,
@@ -253,7 +253,7 @@
           "RequiredGemPower": 300,
           "GrantedAugmentation": "CA_GemBonus_HastePercentageBonusSmall",
           "Magnitude": 0.02,
-          "Description": null
+          "Description": "<rt.warning>{HasteBonus}</> <rt.tertiarystat>Haste</>"
         },
         {
           "Rank": 5,
@@ -261,7 +261,7 @@
           "RequiredGemPower": 450,
           "GrantedAugmentation": "CA_GemBonus_HastePercentageBonusWhileNotHeroismSmall",
           "Magnitude": 0.02,
-          "Description": null
+          "Description": "You retain <rt.warning>{HasteBonus}</> <rt.tertiarystat>Haste</> from <rt.absorb>Spirit of Heroism</> while it is not active."
         },
         {
           "Rank": 6,
@@ -272,7 +272,7 @@
             "HastePercentageIncrease": 0.09,
             "Duration": 10.0
           },
-          "Description": null
+          "Description": "<rt.warning>{HasteBonus}</> <rt.tertiarystat>Haste</> for <rt.effect>{Duration} seconds</> each time you deal damage to or heal a character that has <rt.debuff>{HealthThreshold} or less health</>.\n\n(Replaces <rt.absorb>Adrenaline Rush</>)"
         },
         {
           "Rank": 7,
@@ -283,7 +283,7 @@
             "StaminaIncrease": 24.0,
             "HasteRatingIncrease": 24.0
           },
-          "Description": null
+          "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{HasteBonus}</> <rt.tertiarystat>Haste</>\n\n(Replaces <rt.absorb>Thief's Alacrity</>)"
         },
         {
           "Rank": 8,
@@ -295,7 +295,7 @@
             "Cooldown": 20.0,
             "HealthPercentageHeal": 0.24
           },
-          "Description": null
+          "Description": "When you are <rt.debuff>below {HealthThreshold} health</> you are instantly healed for <rt.combat-heal>{HealPercent}</> of your <rt.meikoability2>Maximum Health</>.\n\n<rt.greyitalic>This effect can only occur once every {Cooldown} seconds</>.\n\n(Replaces <rt.absorb>Rogue's Resurgence</>)"
         },
         {
           "Rank": 9,
@@ -303,7 +303,7 @@
           "RequiredGemPower": 1250,
           "GrantedAugmentation": "CA_GemBonus_HastePercentageBonusMedium",
           "Magnitude": 0.06,
-          "Description": null
+          "Description": "<rt.warning>{HasteBonus}</> <rt.tertiarystat>Haste</>\n\n(Replaces <rt.absorb>Feline Grace</>)"
         },
         {
           "Rank": 10,
@@ -311,7 +311,7 @@
           "RequiredGemPower": 1500,
           "GrantedAugmentation": "CA_GemBonus_HastePercentageBonusWhileNotHeroismMedium",
           "Magnitude": 0.06,
-          "Description": null
+          "Description": "You retain <rt.warning>{HasteBonus}</> <rt.tertiarystat>Haste</> from <rt.absorb>Spirit of Heroism</> while it is not active.\n\n(Replaces <rt.absorb>Blessing of the Virtuoso</>)"
         }
       ]
     },
@@ -328,7 +328,7 @@
             "Base.Duration": 15.0,
             "ExpertiseBonusPerStack": 0.05
           },
-          "Description": null
+          "Description": "<rt.warning>{ExpertiseBonus}</> <rt.tertiarystat>Expertise</> for <rt.effect>{Duration} seconds</> when <rt.greyitalic>dealing damage to any enemy for the first time</>."
         },
         {
           "Rank": 2,
@@ -339,7 +339,7 @@
             "StaminaIncrease": 8.0,
             "ExpertiseRatingIncrease": 8.0
           },
-          "Description": null
+          "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{ExpertiseBonus}</> <rt.tertiarystat>Expertise</>"
         },
         {
           "Rank": 3,
@@ -351,7 +351,7 @@
             "AbsorbMaxHealthFraction": 0.05,
             "AbsorbConsumptionScaler": 0.5
           },
-          "Description": null
+          "Description": "Every <rt.effect>{Cooldown} seconds</>, you gain a shield that absorbs damage equal to <rt.warning>{ShieldPercent}</> of your <rt.meikoability2>Maximum Health</>. The shield lasts for <rt.effect>{ShieldDuration} seconds</>. Damage dealt to the shield is <rt.heal>reduced by 50%</>."
         },
         {
           "Rank": 4,
@@ -359,7 +359,7 @@
           "RequiredGemPower": 300,
           "GrantedAugmentation": "CA_GemBonus_ExpertisePercentageBonusSmall",
           "Magnitude": 0.02,
-          "Description": null
+          "Description": "<rt.warning>{ExpertiseBonus}</> <rt.tertiarystat>Expertise</>"
         },
         {
           "Rank": 5,
@@ -367,7 +367,7 @@
           "RequiredGemPower": 450,
           "GrantedAugmentation": "CA_GemBonus_CooldownReductionSmall",
           "Magnitude": 0.04,
-          "Description": null
+          "Description": "<rt.warning>{CooldownReduction}</> <rt.bold>Ability Cooldown</> reduction"
         },
         {
           "Rank": 6,
@@ -375,7 +375,7 @@
           "RequiredGemPower": 600,
           "GrantedAugmentation": "CA_GemBonus_ExpertiseStacksOnFirstDamageMedium",
           "Magnitude": 0.15,
-          "Description": null
+          "Description": "<rt.warning>{ExpertiseBonus}</> <rt.tertiarystat>Expertise</> for <rt.effect>{Duration} seconds</> when <rt.greyitalic>dealing damage to any enemy for the first time</>.\n\n(Replaces <rt.absorb>First Strike</>)"
         },
         {
           "Rank": 7,
@@ -386,7 +386,7 @@
             "StaminaIncrease": 24.0,
             "ExpertiseRatingIncrease": 24.0
           },
-          "Description": null
+          "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{ExpertiseBonus}</> <rt.tertiarystat>Expertise</>\n\n(Replaces <rt.absorb>Vanguard's Resolve</>)"
         },
         {
           "Rank": 8,
@@ -398,7 +398,7 @@
             "AbsorbConsumptionScaler": 0.5,
             "AbsorbMaxHealthFraction": 0.15
           },
-          "Description": null
+          "Description": "Every <rt.effect>{Cooldown} seconds</>, you gain a shield that absorbs damage equal to <rt.warning>{ShieldPercent}</> of your <rt.meikoability2>Maximum Health</>. The shield lasts for <rt.effect>{ShieldDuration} seconds</>. Damage dealt to the shield is <rt.heal>reduced by 50%</>.\n\n(Replaces <rt.absorb>Sentinel's Bastion</>)"
         },
         {
           "Rank": 9,
@@ -406,7 +406,7 @@
           "RequiredGemPower": 1250,
           "GrantedAugmentation": "CA_GemBonus_ExpertisePercentageBonusMedium",
           "Magnitude": 0.06,
-          "Description": null
+          "Description": "<rt.warning>{ExpertiseBonus}</> <rt.tertiarystat>Expertise</>\n\n(Replaces <rt.absorb>Tactician's Accumen</>)"
         },
         {
           "Rank": 10,
@@ -414,7 +414,7 @@
           "RequiredGemPower": 1500,
           "GrantedAugmentation": "CA_GemBonus_CooldownReductionMedium",
           "Magnitude": 0.12,
-          "Description": null
+          "Description": "<rt.warning>{CooldownReduction}</> <rt.bold>Ability Cooldown</> reduction\n\n(Replaces <rt.absorb>Blessing of the Commander</>)"
         }
       ]
     },
@@ -428,7 +428,7 @@
           "RequiredGemPower": 80,
           "GrantedAugmentation": "CA_GemBonus_PrimaryAttributeBonusWhileHeroismSmall",
           "Magnitude": 1.08,
-          "Description": null
+          "Description": "Your maximum <rt.bold>Spirit Points</> is increased by <rt.mana>{SpiritPointsBonus}</>.\n\nWhile <rt.absorb>Spirit of Heroism</> is active, your <rt.primarystat>Strength</> / <rt.primarystat>Intellect</> / <rt.primarystat>Agility</> is increased by <rt.warning>{PrimaryStatBonus}</>."
         },
         {
           "Rank": 2,
@@ -439,7 +439,7 @@
             "StaminaIncrease": 8.0,
             "SpiritRatingIncrease": 8.0
           },
-          "Description": null
+          "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{SpiritBonus}</> <rt.tertiarystat>Spirit</>"
         },
         {
           "Rank": 3,
@@ -447,7 +447,7 @@
           "RequiredGemPower": 220,
           "GrantedAugmentation": "CA_GemBonus_IncomingHealMultiplierForMissingHealth_Small",
           "Magnitude": 0.001,
-          "Description": null
+          "Description": "For every <rt.meikoability2>{HealthInterval} Health</> you are missing, all Damage you take is reduced by <rt.warning>{DamageReduction}</>."
         },
         {
           "Rank": 4,
@@ -455,7 +455,7 @@
           "RequiredGemPower": 300,
           "GrantedAugmentation": "CA_GemBonus_SpiritPercentageBonusSmall",
           "Magnitude": 0.02,
-          "Description": null
+          "Description": "<rt.warning>{SpiritBonus}</> <rt.tertiarystat>Spirit</>"
         },
         {
           "Rank": 5,
@@ -463,7 +463,7 @@
           "RequiredGemPower": 450,
           "GrantedAugmentation": "CA_GemBonus_HeroismDurationBonusSmall",
           "Magnitude": 6.0,
-          "Description": null
+          "Description": "The cost of your <rt.bold>Spirit Ability</> is reduced by <rt.warning>{CostReduction}</>.\n\nThe duration of <rt.absorb>Spirit of Heroism</> is increased by <rt.effect>{DurationBonus} seconds</>."
         },
         {
           "Rank": 6,
@@ -471,7 +471,7 @@
           "RequiredGemPower": 600,
           "GrantedAugmentation": "CA_GemBonus_PrimaryAttributeBonusWhileHeroismMedium",
           "Magnitude": 1.24,
-          "Description": null
+          "Description": "Your maximum <rt.bold>Spirit Points</> is increased by <rt.mana>{SpiritPointsBonus}</>.\n\nWhile <rt.absorb>Spirit of Heroism</> is active, your <rt.primarystat>Strength</> / <rt.primarystat>Intellect</> / <rt.primarystat>Agility</> is increased by <rt.warning>{PrimaryStatBonus}</>.\n\n(Replaces <rt.absorb>Ancestral Surge</>)"
         },
         {
           "Rank": 7,
@@ -482,7 +482,7 @@
             "StaminaIncrease": 24.0,
             "SpiritRatingIncrease": 24.0
           },
-          "Description": null
+          "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{SpiritBonus}</> <rt.tertiarystat>Spirit</>\n\n(Replaces <rt.absorb>Mystic's Intuition</>)"
         },
         {
           "Rank": 8,
@@ -490,7 +490,7 @@
           "RequiredGemPower": 1000,
           "GrantedAugmentation": "CA_GemBonus_IncomingHealMultiplierForMissingHealth_Medium",
           "Magnitude": 0.003,
-          "Description": null
+          "Description": "For every <rt.meikoability2>{HealthInterval} Health</> you are missing, all Damage you take is reduced by <rt.warning>{DamageReduction}</>.\n\n(Replaces <rt.absorb>Resonating Soul</>)"
         },
         {
           "Rank": 9,
@@ -498,7 +498,7 @@
           "RequiredGemPower": 1250,
           "GrantedAugmentation": "CA_GemBonus_SpiritPercentageBonusMedium",
           "Magnitude": 0.06,
-          "Description": null
+          "Description": "<rt.warning>{SpiritBonus}</> <rt.tertiarystat>Spirit</>\n\n(Replaces <rt.absorb>Oracle's Foresight</>)"
         },
         {
           "Rank": 10,
@@ -506,7 +506,7 @@
           "RequiredGemPower": 1500,
           "GrantedAugmentation": "CA_GemBonus_HeroismDurationBonusMedium",
           "Magnitude": 18.0,
-          "Description": null
+          "Description": "The cost of your <rt.bold>Spirit Ability</> is reduced by <rt.warning>{CostReduction}</>.\n\nThe duration of <rt.absorb>Spirit of Heroism</> is increased by <rt.effect>{DurationBonus} seconds</>.\n\n(Replaces <rt.absorb>Blessing of the Prophet</>)"
         }
       ]
     },
@@ -528,7 +528,7 @@
             "MaxStacks": 4.0,
             "Duration": 5.0
           },
-          "Description": null
+          "Description": "Each time <rt.greyitalic>an enemy you are in combat with is defeated</>, you gain <rt.warning>{StatBonus}</> <rt.tertiarystat>Critical Strike</>, <rt.tertiarystat>Haste</>, <rt.tertiarystat>Expertise</>, and <rt.tertiarystat>Spirit</> for <rt.effect>{Duration} seconds</>, stacking up to <rt.bold>{MaxStacks} times</>.\n\nWhen the duration of <rt.absorb>Harmonious Soul</> expires, you lose <rt.bold>{StackLoss}</> stack."
         },
         {
           "Rank": 2,
@@ -539,7 +539,7 @@
             "ArmorIncrease": 40.0,
             "PrimaryAttributeIncrease": 4.0
           },
-          "Description": null
+          "Description": "<rt.warning>+{ArmorBonus}</> <rt.primarystat>Armor</>\n<rt.warning>+{PrimaryStatBonus}</> <rt.primarystat>Strength</> / <rt.primarystat>Intellect</> / <rt.primarystat>Agility</>"
         },
         {
           "Rank": 3,
@@ -551,7 +551,7 @@
             "IncomingMagicDamageScale.Duration": 6.0,
             "IncomingMagicDamageScale": 0.92
           },
-          "Description": null
+          "Description": "When <rt.greyitalic>you take Magic Damage</> you gain <rt.absorb>Tranquil Resolve</>, reducing all Magic Damage you take by <rt.warning>{DamageReduction}</> for <rt.effect>{Duration} seconds</>.\n\n<rt.greyitalic>This effect cannot occur more than once every {Cooldown} seconds</>."
         },
         {
           "Rank": 4,
@@ -559,7 +559,7 @@
           "RequiredGemPower": 300,
           "GrantedAugmentation": "CA_GemBonus_PrimaryBonusSmall",
           "Magnitude": 1.02,
-          "Description": null
+          "Description": "<rt.warning>{PrimaryStatBonus}</> <rt.primarystat>Strength</> / <rt.primarystat>Intellect</> / <rt.primarystat>Agility</>"
         },
         {
           "Rank": 5,
@@ -567,7 +567,7 @@
           "RequiredGemPower": 450,
           "GrantedAugmentation": "CA_GemBonus_RelicCooldownReductionBonusSmall",
           "Magnitude": 0.08,
-          "Description": null
+          "Description": "Your <rt.bold>Relic cooldowns</> are reduced by <rt.warning>{CooldownReduction}</>."
         },
         {
           "Rank": 6,
@@ -583,7 +583,7 @@
             "MaxStacks": 12.0,
             "Duration": 5.0
           },
-          "Description": null
+          "Description": "Each time <rt.greyitalic>an enemy you are in combat with is defeated</>, you gain <rt.warning>{StatBonus}</> <rt.tertiarystat>Critical Strike</>, <rt.tertiarystat>Haste</>, <rt.tertiarystat>Expertise</>, and <rt.tertiarystat>Spirit</> for <rt.effect>{Duration} seconds</>, stacking up to <rt.bold>{MaxStacks} times</>.\n\nWhen the duration of <rt.absorb>Harmonious Soul - II</> expires, you lose <rt.bold>{StackLoss}</> stack.\n\n(Replaces <rt.absorb>Harmonious Soul</>)"
         },
         {
           "Rank": 7,
@@ -594,7 +594,7 @@
             "ArmorIncrease": 120.0,
             "PrimaryAttributeIncrease": 12.0
           },
-          "Description": null
+          "Description": "<rt.warning>+{ArmorBonus}</> <rt.primarystat>Armor</>\n<rt.warning>+{PrimaryStatBonus}</> <rt.primarystat>Strength</> / <rt.primarystat>Intellect</> / <rt.primarystat>Agility</>\n\n(Replaces <rt.absorb>Stoic's Teachings</>)"
         },
         {
           "Rank": 8,
@@ -606,7 +606,7 @@
             "IncomingMagicDamageScale.Duration": 6.0,
             "IncomingMagicDamageScale": 0.76
           },
-          "Description": null
+          "Description": "When <rt.greyitalic>you take Magic Damage</> you gain <rt.absorb>Tranquil Resolve - II</>, reducing all Magic Damage you take by <rt.warning>{DamageReduction}</> for <rt.effect>{Duration} seconds</>.\n\n<rt.greyitalic>This effect cannot occur more than once every {Cooldown} seconds</>.\n\n(Replaces <rt.absorb>Tranquil Resolve</>)"
         },
         {
           "Rank": 9,
@@ -614,7 +614,7 @@
           "RequiredGemPower": 1250,
           "GrantedAugmentation": "CA_GemBonus_PrimaryBonusMedium",
           "Magnitude": 1.06,
-          "Description": null
+          "Description": "<rt.warning>{PrimaryStatBonus}</> <rt.primarystat>Strength</> / <rt.primarystat>Intellect</> / <rt.primarystat>Agility</>\n\n(Replaces <rt.absorb>Ancient's Wisdom</>)"
         },
         {
           "Rank": 10,
@@ -622,7 +622,7 @@
           "RequiredGemPower": 1500,
           "GrantedAugmentation": "CA_GemBonus_RelicCooldownReductionBonusMedium",
           "Magnitude": 0.24,
-          "Description": null
+          "Description": "Your <rt.bold>Relic cooldowns</> are reduced by <rt.warning>{CooldownReduction}</>.\n\n(Replaces <rt.absorb>Blessing of the Artisan</>)"
         }
       ]
     }
