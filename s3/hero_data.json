@@ -2833,7 +2833,7 @@
       "ResourcesSecond": 0.0,
       "MaxResourcesSecond": 0.0,
       "ResourcesTertiary": 0.0,
-      "MaxResourcesTertiary": 0.0,
+      "MaxResourcesTertiary": 150.0,
       "OutOfCombatHealthRegenRate": 0.01,
       "OutOfCombatHealthRegenTickTime": 0.5,
       "OutOfCombatManaRegenRate": 0.0,
