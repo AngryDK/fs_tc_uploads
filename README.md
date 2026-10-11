@@ -8,6 +8,11 @@ Season 3 is live. Full progression reset. New hero Gunde, Loot 2.0, stat squish,
 
 **Data repo restructured** — season-first layout: `/s2/<resource>.json`, `/s3/<resource>.json`
 
+**S3 loot tools (2026-10-11)** — `/s3/loot_tools/`: the season 3 item stat and armor formula as a small Python
+module and command-line tool, with the game's `items.json` and `heroes.json` from build 0.4.7.0 (CL-115701) beside
+it. Build any template at any item level and temper; see its README for the formula, a worked example and what is
+still open. Not part of the feed's `index.json` yet.
+
 
 It seems both Health and Dmg scaling follow the same rules.
 
