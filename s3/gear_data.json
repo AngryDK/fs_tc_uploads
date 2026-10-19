@@ -641,7 +641,12 @@
         "PrimaryAttributeCoefficient": 22.41,
         "Radius": 1000.0,
         "DamageFalloffTargetCountThreshold": 1.0
-      }
+      },
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "Spread": null
     },
     "Twilight Skybolt": {
       "FSLID": 156,
@@ -658,7 +663,12 @@
       "PowerCharge": {
         "BonusPerStack": 0.3,
         "MaxCharges": 2.0
-      }
+      },
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "Spread": 0.2
     },
     "Sahril's Wrath": {
       "FSLID": 157,
@@ -673,7 +683,12 @@
         "Duration": 20.0,
         "CriticalStrikeBonusPerStack": 0.06,
         "MaxStacks": 5.0
-      }
+      },
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "Spread": 0.2
     },
     "Nature's Fury": {
       "FSLID": 161,
@@ -695,7 +710,12 @@
         "JumpDelay": 0.15,
         "MaxJumpRangeInCombat": 2000.0,
         "MaxJumpRangeOutOfCombat": 500.0
-      }
+      },
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "Spread": null
     },
     "Voidbringer's Touch": {
       "FSLID": 155,
@@ -704,7 +724,12 @@
       "Cooldown": 90.0,
       "Duration": 15.0,
       "MaxDamageCoefficient": 42.5,
-      "AccumulativeDamageFactor": 0.1
+      "AccumulativeDamageFactor": 0.1,
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "Spread": null
     },
     "Zeraleth's Hunger": {
       "FSLID": 162,
@@ -721,7 +746,12 @@
       "DamageFalloffTargetCountThreshold": 3.0,
       "Cooldown": 60.0,
       "FirstOverhealDelay": 0.2,
-      "SecondOverhealDelay": 0.0
+      "SecondOverhealDelay": 0.0,
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "Spread": null
     },
     "Repository of Frozen Light": {
       "FSLID": 164,
@@ -733,7 +763,12 @@
       "StacksCapPerTarget": 20.0,
       "MaxStacks": 60.0,
       "PrimaryAttributeCoefficient": 4.19,
-      "CooldownReductionInSecondsPerStack": 0.3
+      "CooldownReductionInSecondsPerStack": 0.3,
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "Spread": null
     },
     "Fated Strike": {
       "FSLID": 160,
@@ -760,7 +795,12 @@
         "MaxRange": 2000.0,
         "Speed": 5000.0
       },
-      "PostChargeDelay": 0.5
+      "PostChargeDelay": 0.5,
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "Spread": 0.2
     },
     "Al'zerac's Shackle": {
       "FSLID": 152,
@@ -787,7 +827,12 @@
           "PrimaryAttributeCoefficient": 0.252,
           "TickInterval": 2.0
         }
-      }
+      },
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "Spread": 0.2
     },
     "Chronoshift": {
       "FSLID": 1558,
@@ -807,7 +852,12 @@
       },
       "Buff": {
         "IncomingDamageMultiplier": 0.5
-      }
+      },
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "Spread": 0.2
     },
     "Earthbreaker": {
       "FSLID": 1559,
@@ -829,7 +879,12 @@
       "FinalHit": {
         "PrimaryAttributeCoefficient": 12.66
       },
-      "TargetCountThreshold": 3.0
+      "TargetCountThreshold": 3.0,
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "Spread": 0.2
     },
     "Icicles of An'zhyr": {
       "FSLID": 1561,
@@ -852,7 +907,12 @@
       "Debuff": {
         "PrimaryAttributeCoefficient": 0.384,
         "TickInterval": 3.0
-      }
+      },
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "Spread": 0.2
     }
   },
   "WeaponTraits": {
@@ -1876,7 +1936,8 @@
       "GameID": 230,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_SetD_Percentage_T",
-      "Description": "+4% Spirit\n+10% magic damage reduction"
+      "Description": "+4% Spirit\n+10% magic damage reduction",
+      "GrantedAbilities": []
     },
     "231": {
       "Name": "Haunting Lament",
@@ -1886,7 +1947,8 @@
       "GameID": 231,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_SetD_Percentage_H",
-      "Description": "+4% Spirit\n+15% Max Mana"
+      "Description": "+4% Spirit\n+15% Max Mana",
+      "GrantedAbilities": []
     },
     "232": {
       "Name": "Death's Grasp",
@@ -1896,7 +1958,8 @@
       "GameID": 232,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_SetD_Percentage_D",
-      "Description": "+4% Spirit\n+10% damage to Low Health enemies."
+      "Description": "+4% Spirit\n+10% damage to Low Health enemies.",
+      "GrantedAbilities": []
     },
     "233": {
       "Name": "Sin Warding",
@@ -1906,7 +1969,8 @@
       "GameID": 233,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_SetC_Percentage_T",
-      "Description": "+4% Expertise\n+5% Max Health"
+      "Description": "+4% Expertise\n+5% Max Health",
+      "GrantedAbilities": []
     },
     "234": {
       "Name": "Sin Warding",
@@ -1916,7 +1980,8 @@
       "GameID": 234,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_SetC_Percentage_H",
-      "Description": "+4% Expertise\n+5% Max Health"
+      "Description": "+4% Expertise\n+5% Max Health",
+      "GrantedAbilities": []
     },
     "235": {
       "Name": "Sin Warding",
@@ -1926,7 +1991,8 @@
       "GameID": 235,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_SetC_Percentage_D",
-      "Description": "+4% Expertise\n+5% Max Health"
+      "Description": "+4% Expertise\n+5% Max Health",
+      "GrantedAbilities": []
     },
     "236": {
       "Name": "Tuzari Grace",
@@ -1936,7 +2002,8 @@
       "GameID": 236,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_SetB_Percentage",
-      "Description": "+4% Haste\n+20% Movement Speed"
+      "Description": "+4% Haste\n+20% Movement Speed",
+      "GrantedAbilities": []
     },
     "237": {
       "Name": "Draconic Fury",
@@ -1946,7 +2013,8 @@
       "GameID": 237,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_SetA_Percentage_T",
-      "Description": "+4% Critical Strike Chance\n+15% Threat Generation"
+      "Description": "+4% Critical Strike Chance\n+15% Threat Generation",
+      "GrantedAbilities": []
     },
     "238": {
       "Name": "Draconic Deceit",
@@ -1956,7 +2024,8 @@
       "GameID": 238,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_SetA_Percentage_DH",
-      "Description": "+4% Critical Strike Chance\n-15% Threat Generation"
+      "Description": "+4% Critical Strike Chance\n-15% Threat Generation",
+      "GrantedAbilities": []
     },
     "239": {
       "Name": "Draconic Might",
@@ -1968,7 +2037,18 @@
       "GameID": 239,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_PowerBonusOnCrit",
-      "Description": "Your critical strikes have a chance (0.9 PPM) to increase your Main Stat by 18% for 14 seconds."
+      "Description": "Your critical strikes have a chance (0.9 PPM) to increase your Main Stat by 18% for 14 seconds.",
+      "GrantedAbilities": [
+        {
+          "FSLID": 1387,
+          "DevName": "GA_ArmorSetBonus_PowerBonusOnCrit",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "240": {
       "Name": "Torment of Bael'Aurum",
@@ -1980,7 +2060,18 @@
       "GameID": 240,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_PowerBonusAndAutoHeal",
-      "Description": "+5% Main Stat\n\nWhen dipping below 20% Health, you are instantly healed for 40% of your maximum health. This can occur once every 180 seconds."
+      "Description": "+5% Main Stat\n\nWhen dipping below 20% Health, you are instantly healed for 40% of your maximum health. This can occur once every 180 seconds.",
+      "GrantedAbilities": [
+        {
+          "FSLID": 1388,
+          "DevName": "GA_ArmorSetBonus_PowerBonusAndAutoHeal",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "245": {
       "Name": "Drakheim's Absolution",
@@ -1992,7 +2083,18 @@
       "GameID": 245,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_HeroismPowerAndDamageReductionBonus",
-      "Description": "Your Spirit Ability grants you Drakheim's Absolution, increasing your Main Stat by 20% for 20 seconds."
+      "Description": "Your Spirit Ability grants you Drakheim's Absolution, increasing your Main Stat by 20% for 20 seconds.",
+      "GrantedAbilities": [
+        {
+          "FSLID": 137,
+          "DevName": "GA_ArmorSetBonus_HeroismPowerAndDamageReductionBonus",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "246": {
       "Name": "Dark Prophecy",
@@ -2002,7 +2104,18 @@
       "GameID": 246,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_HasteOnAbilityUse",
-      "Description": "Your abilities have a chance (0.8 PPM) to increase your Haste by 25% for 20 seconds."
+      "Description": "Your abilities have a chance (0.8 PPM) to increase your Haste by 25% for 20 seconds.",
+      "GrantedAbilities": [
+        {
+          "FSLID": 1389,
+          "DevName": "GA_ArmorSetBonus_HasteBuffOnAbilityUse",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "629": {
       "Name": "Seal of the Heskyr",
@@ -2012,7 +2125,8 @@
       "GameID": 629,
       "Pieces": 2,
       "GrantedAbility": "CA_ArmorSetBonus_SetE_Percentage",
-      "Description": "Your Gem Power is increased by 25%."
+      "Description": "Your Gem Power is increased by 25%.",
+      "GrantedAbilities": []
     }
   },
   "Blessings": {
@@ -2052,7 +2166,18 @@
           5.0,
           5.0
         ]
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2259,
+          "DevName": "GA_Finesse_Passive_BasicToAoe",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": 0.0
+        }
+      ]
     },
     "BasicToIncreasedPower": {
       "Name": "The Intrepid",
@@ -2072,7 +2197,18 @@
           5.0,
           5.0
         ]
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2258,
+          "DevName": "GA_Finesse_Passive_BasicToIncreasedPower",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "CritChanceToHealOrDamage": {
       "Name": "The Usurper",
@@ -2122,7 +2258,18 @@
           0.8,
           0.8
         ]
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2257,
+          "DevName": "GA_Finesse_Passive_CritChanceToHealOrDamage",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": 0.2
+        }
+      ]
     },
     "CurrentSpiritToBuff": {
       "Name": "The Philosopher",
@@ -2154,7 +2301,18 @@
           1.6,
           1.0
         ]
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2256,
+          "DevName": "GA_Finesse_Passive_CurrentSpiritToBuff",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "DrainHealthBasedOnPrimaryStat": {
       "Name": "The Heretic",
@@ -2180,7 +2338,18 @@
           3000.0,
           3000.0
         ]
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2255,
+          "DevName": "GA_Finesse_Passive_DrainHealthBasedOnPrimaryStat",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": 0.0
+        }
+      ]
     },
     "IncreasedBasicDamage": {
       "Name": "The Vainglorious",
@@ -2200,7 +2369,18 @@
           0.13,
           0.2
         ]
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2254,
+          "DevName": "GA_Finesse_Passive_IncreasedBasicDamage",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "IncreasedPowerPerCurrentSpirit": {
       "Name": "The Mystic",
@@ -2226,7 +2406,18 @@
           0.5,
           0.5
         ]
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2253,
+          "DevName": "GA_Finesse_Passive_IncreasedPowerPerCurrentSpirit",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "MajorIncreasedCooldownRecoveryPerHaste": {
       "Name": "The Monarch",
@@ -2252,7 +2443,8 @@
           0.1,
           0.1
         ]
-      }
+      },
+      "GrantedAbilities": []
     },
     "MajorToReducedControlCooldown": {
       "Name": "The Subduer",
@@ -2272,7 +2464,18 @@
           1.15,
           1.2
         ]
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2252,
+          "DevName": "GA_Finesse_Passive_MajorToReducedControlCooldown",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "PeriodicHasteBuff": {
       "Name": "The Wayfarer",
@@ -2310,7 +2513,18 @@
           4.0,
           4.0
         ]
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2251,
+          "DevName": "GA_Finesse_Passive_PeriodicHasteBuff_Manager",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "PowerChanceSpirit": {
       "Name": "The Celestial",
@@ -2330,7 +2544,18 @@
           1.0,
           1.0
         ]
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2250,
+          "DevName": "GA_Finesse_Passive_PowerChanceSpirit",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "PowerIncreasedCritChanceAndPower": {
       "Name": "The Sinister",
@@ -2350,7 +2575,8 @@
           1.15,
           1.2
         ]
-      }
+      },
+      "GrantedAbilities": []
     },
     "PowerToIncreasedCritChance": {
       "Name": "The Trickster",
@@ -2370,7 +2596,18 @@
           4.0,
           4.0
         ]
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2249,
+          "DevName": "GA_Finesse_Passive_PowerToIncreasedCritChance",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "StartWithSpiritPoints": {
       "Name": "The Herald",
@@ -2384,7 +2621,18 @@
           30.0,
           50.0
         ]
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2248,
+          "DevName": "GA_Finesse_Passive_StartWithSpiritPoints",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     }
   },
   "Perks": {
@@ -2399,7 +2647,18 @@
         "Healer.IncomingDamageReduction": 0.8,
         "Tank.IncomingDamageReduction": 0.88,
         "Durational.Duration": 8.0
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2081,
+          "DevName": "GA_Perk_Passive_DamageReductionOrMoveSpeed",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "DamageToHeal": {
       "Name": "The Viper",
@@ -2410,7 +2669,18 @@
         "Duration": 8.0,
         "PercentageOfDamageToHeal": 0.3,
         "Lisa.PercentageOfDamageToHeal": 0.3
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2080,
+          "DevName": "GA_Perk_Passive_DamageToHeal",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "IncreasedDurationOrReducedCooldown": {
       "Name": "The Tower",
@@ -2426,14 +2696,36 @@
         "Vigor.Dispel.ReducedCooldownInSeconds": 1.0,
         "Lisa.ReducedCooldownInSeconds": 5.0,
         "Lisa.Dispel.ReducedCooldownInSeconds": 1.0
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2077,
+          "DevName": "GA_Perk_Passive_IncreasedDurationOrReducedCooldown",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "InstantHealDamageReductionBuff": {
       "Name": "The Wolf",
       "BuffName": null,
       "Description": null,
       "DevName": "CAA_Perk_InstantHealDamageReductionBuff",
-      "Constants": {}
+      "Constants": {},
+      "GrantedAbilities": [
+        {
+          "FSLID": 2076,
+          "DevName": "GA_Perk_Passive_InstantHealDamageReductionBuff",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "MagicDamageReductionBuff": {
       "Name": "The Dune",
@@ -2447,7 +2739,18 @@
         "Sune.AddditionalMagicReduction": 0.85,
         "Lisa.AddditionalMagicReduction": 0.8,
         "VigorMosse.AdditionalMagicReduction": 0.5
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2075,
+          "DevName": "GA_Perk_Passive_MagicDamageReductionBuff",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "MaxHealthBasedAbsorb": {
       "Name": "The Dragon",
@@ -2462,7 +2765,18 @@
         "ConsumptionScaler": 0.5,
         "Duration": 12.0,
         "Lisa.Duration": 8.0
-      }
+      },
+      "GrantedAbilities": [
+        {
+          "FSLID": 2074,
+          "DevName": "GA_Perk_Passive_MaxHealthBasedAbsorb",
+          "Live": true,
+          "LiveBy": [
+            "item"
+          ],
+          "Spread": null
+        }
+      ]
     },
     "Passive_IncomingAoeDamageReduction": {
       "Name": "The Lake",
@@ -2473,7 +2787,8 @@
         "IncomingAoeDamageReduction.AdditionalReduction": 0.2,
         "IncreasedArmor.ArmorMultiplier": 1.35,
         "IncreasedIncomingMagicDamage.AdditionalReduction": 0.1
-      }
+      },
+      "GrantedAbilities": []
     },
     "Passive_IncreasedArmor": {
       "Name": "The Oak",
@@ -2484,7 +2799,8 @@
         "IncomingAoeDamageReduction.AdditionalReduction": 0.2,
         "IncreasedArmor.ArmorMultiplier": 1.35,
         "IncreasedIncomingMagicDamage.AdditionalReduction": 0.1
-      }
+      },
+      "GrantedAbilities": []
     },
     "Passive_ReducedIncomingMagicDamage": {
       "Name": "The Gryphon",
@@ -2495,7 +2811,8 @@
         "IncomingAoeDamageReduction.AdditionalReduction": 0.2,
         "IncreasedArmor.ArmorMultiplier": 1.35,
         "IncreasedIncomingMagicDamage.AdditionalReduction": 0.1
-      }
+      },
+      "GrantedAbilities": []
     }
   }
 }

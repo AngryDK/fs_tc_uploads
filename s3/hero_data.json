@@ -118,7 +118,13 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item"
+        ],
+        "Spread": null
       },
       "1814": {
         "Name": "Intercession",
@@ -140,7 +146,12 @@
             "Stat": null,
             "Text": "40"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1864": {
         "Name": "Time Skip",
@@ -168,7 +179,12 @@
             "Stat": null,
             "Text": "4 seconds"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1876": {
         "Name": "Entropy's Claim",
@@ -202,7 +218,12 @@
             "Stat": null,
             "Text": "6"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1879": {
         "Name": "Revert Magic",
@@ -217,7 +238,12 @@
         "SpellGrantsCDA": false,
         "Description": "Remove all <rt.debuff>Harmful</> <rt.bold>Magic Effects</> from target ally. ",
         "DescriptionText": "Remove all Harmful Magic Effects from target ally. ",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1881": {
         "Name": "Epoch Break",
@@ -232,7 +258,12 @@
         "SpellGrantsCDA": false,
         "Description": "Invoke the strands of time to reshape a pivotal moment. Time stops for the next <rt.bold>6 seconds</>, pausing all allies' health bars.\n\nAny <rt.heal>Damage and Healing dealt during</> <rt.absorb>Epoch Break</> is <rt.heal>stored</> to be dealt all at once when <rt.absorb>Epoch Break</> expires.\n\nDuring <rt.absorb>Epoch Break</>, your abilities have no <rt.mana>Mana</> or <rt.mana>Chrona</> costs.\n\n<rt.absorb>SPIRIT ABILITY</>\n<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste and +600% Mana Recovery for 20 sec.</>",
         "DescriptionText": "Invoke the strands of time to reshape a pivotal moment. Time stops for the next 6 seconds, pausing all allies' health bars.\n\nAny Damage and Healing dealt during Epoch Break is stored to be dealt all at once when Epoch Break expires.\n\nDuring Epoch Break, your abilities have no Mana or Chrona costs.\n\nSPIRIT ABILITY\nWhen you activate your Spirit ability you gain  Spirit of Heroism, granting +30% Haste and +600% Mana Recovery for 20 sec.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1883": {
         "Name": null,
@@ -246,7 +277,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1885": {
         "Name": null,
@@ -260,7 +296,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1887": {
         "Name": "Echoes of Ruin",
@@ -294,7 +335,12 @@
             "Stat": null,
             "Text": "21"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1889": {
         "Name": "Time Shard",
@@ -316,7 +362,12 @@
             "Stat": "Intellect",
             "Text": "228% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1890": {
         "Name": "Unfolding Doom",
@@ -338,7 +389,12 @@
             "Stat": "Intellect",
             "Text": "360% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1926": {
         "Name": "Temporal Barrage",
@@ -356,7 +412,12 @@
         "DescriptionTokens": {
           "TemporBarrDmg": null,
           "TemporBarrHeal": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1927": {
         "Name": "Flash Revision",
@@ -384,7 +445,12 @@
             "Stat": null,
             "Text": "30%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1963": {
         "Name": null,
@@ -398,7 +464,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1964": {
         "Name": "Amend Fate",
@@ -421,7 +492,12 @@
             "Stat": null,
             "Text": "200%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1969": {
         "Name": "Fleeting Hour",
@@ -443,7 +519,12 @@
             "Stat": null,
             "Text": "15"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1970": {
         "Name": "Oblivion",
@@ -465,7 +546,12 @@
             "Stat": "Intellect",
             "Text": "789.6% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1972": {
         "Name": null,
@@ -479,7 +565,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1973": {
         "Name": "Restore Continuity",
@@ -502,7 +593,12 @@
             "Stat": null,
             "Text": "275%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "2311": {
         "Name": null,
@@ -516,7 +612,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       }
     },
     "Talents": {
@@ -1234,7 +1335,13 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item"
+        ],
+        "Spread": null
       },
       "1258": {
         "Name": "Flame Ward",
@@ -1249,7 +1356,12 @@
         "SpellGrantsCDA": false,
         "Description": "You take <rt.absorb>40% reduced damage</> for 4 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "You take 40% reduced damage for 4 seconds.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1260": {
         "Name": "Fire Ball",
@@ -1266,7 +1378,12 @@
         "DescriptionText": "Throw a ball of fiery devestation at the targeted area, dealing {FireBallDirect} fire damage to all enemies in the radius and setting them on fire, dealing an additional 20% of the initial damage dealt over 12 seconds.\n\nFire Ball's damage over time can not critically strike.\n\nYour Haste is also applied as Cooldown Acceleration on Fire Ball.\n\nEach tick of Fireball has a 50% chance to generate 2 Cinders.\n\nCINDERS\nFor every 100 Cinder you generate, you gain 1 Burning Ember, shown in the UI below your character as four orbs. Your Burning Embers are used to cast your powerful Detonate ability.",
         "DescriptionTokens": {
           "FireBallDirect": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1261": {
         "Name": null,
@@ -1280,7 +1397,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1263": {
         "Name": "Scorch",
@@ -1295,7 +1417,12 @@
         "SpellGrantsCDA": false,
         "Description": "<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. \nMust interrupt a spell, or it will have no effect.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Interrupt the target's spellcasting and prevent it from casting for 4 sec. \nMust interrupt a spell, or it will have no effect.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1265": {
         "Name": "Fireflash",
@@ -1310,7 +1437,12 @@
         "SpellGrantsCDA": false,
         "Description": "Conjure a bright flash of fire in front of the target's eyes, causing them to become <rt.effect>Disoriented</> for 30 seconds.\n\n<rt.effect>Disorient</>\nDisoriented enemies are incapacitated, left to wander around aimlessly for the duration. Any damage dealt to a disoriented enemy will break the effect.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Conjure a bright flash of fire in front of the target's eyes, causing them to become Disoriented for 30 seconds.\n\nDisorient\nDisoriented enemies are incapacitated, left to wander around aimlessly for the duration. Any damage dealt to a disoriented enemy will break the effect.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1267": {
         "Name": "Wildfire",
@@ -1325,7 +1457,12 @@
         "SpellGrantsCDA": false,
         "Description": "All damage over time effects from your hero abilities <rt.warning>tick 30% faster</> for <rt.bold>9 sec</>.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "All damage over time effects from your hero abilities tick 30% faster for 9 sec.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1268": {
         "Name": "Fire Frogs",
@@ -1347,7 +1484,12 @@
             "Stat": "Intellect",
             "Text": "86.3052% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1269": {
         "Name": "Flickerstep",
@@ -1362,7 +1504,12 @@
         "SpellGrantsCDA": false,
         "Description": "Instantly teleport forward a short distance.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Instantly teleport forward a short distance.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1270": {
         "Name": "Incinerate",
@@ -1397,7 +1544,12 @@
             "Text": "3"
           },
           "IncinerateChannelInterval": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1273": {
         "Name": "Apocalypse",
@@ -1419,7 +1571,12 @@
             "Stat": "Intellect",
             "Text": "2407% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1275": {
         "Name": "Detonate",
@@ -1434,7 +1591,12 @@
         "SpellGrantsCDA": false,
         "Description": "Instantly <rt.absorb>Detonate</> all active fire damage over time effects from Ardeos abilities on enemies, dealing damage equal to <rt.warning>3.0 seconds of average ticking damage</> to each enemy.",
         "DescriptionText": "Instantly Detonate all active fire damage over time effects from Ardeos abilities on enemies, dealing damage equal to 3.0 seconds of average ticking damage to each enemy.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1276": {
         "Name": "Infernal Wave",
@@ -1456,7 +1618,12 @@
             "Stat": "Intellect",
             "Text": "200% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1532": {
         "Name": "Fire Frogs",
@@ -1477,7 +1644,12 @@
             "Stat": "Intellect",
             "Text": "86.3052% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1565": {
         "Name": "Fire Ball",
@@ -1491,7 +1663,12 @@
         "SpellGrantsCDA": false,
         "Description": "Inflicting fire damage every 2 seconds.",
         "DescriptionText": "Inflicting fire damage every 2 seconds.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1586": {
         "Name": "Engulfing Flames",
@@ -1519,7 +1696,12 @@
             "Stat": null,
             "Text": "1.5"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1587": {
         "Name": "Searing Blaze",
@@ -1542,7 +1724,12 @@
             "Stat": null,
             "Text": "2"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1623": {
         "Name": "Pyromania",
@@ -1557,7 +1744,12 @@
         "SpellGrantsCDA": false,
         "Description": "Instantly adds an <rt.absorb>Engulfing Flames</> effect on the target, and apply it to up to 2 other nearby enemies. Enemies without an already active <rt.absorb>Engulfing Flames</> and with the highest amount of health will be highest priority.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Instantly adds an Engulfing Flames effect on the target, and apply it to up to 2 other nearby enemies. Enemies without an already active Engulfing Flames and with the highest amount of health will be highest priority.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "2313": {
         "Name": null,
@@ -1571,7 +1763,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       }
     },
     "Talents": {
@@ -2345,7 +2542,12 @@
         "SpellGrantsCDA": false,
         "Description": "Fire a <rt.absorb>Grappling Arrow</> at the targeted area. Once the arrow lands, it grapples and <rt.meikoability1>pulls all enemies within 800 radius</> to the arrow's location and reduces their movement speed by 65% for 8 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Fire a Grappling Arrow at the targeted area. Once the arrow lands, it grapples and pulls all enemies within 800 radius to the arrow's location and reduces their movement speed by 65% for 8 seconds.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "126": {
         "Name": "Starfall Volley",
@@ -2368,7 +2570,12 @@
             "Text": "100% Agility"
           },
           "StarfallPeriod": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1007": {
         "Name": null,
@@ -2379,7 +2586,13 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item"
+        ],
+        "Spread": null
       },
       "1301": {
         "Name": "Celestial Shot",
@@ -2401,7 +2614,12 @@
             "Stat": "Agility",
             "Text": "345.48% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1302": {
         "Name": "Celestial Veil",
@@ -2416,7 +2634,12 @@
         "SpellGrantsCDA": false,
         "Description": "You take <rt.absorb>40% reduced damage</> for 4 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "You take 40% reduced damage for 4 seconds.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1303": {
         "Name": "Shoot",
@@ -2430,7 +2653,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1304": {
         "Name": "Skystrider's Grace",
@@ -2445,7 +2673,12 @@
         "SpellGrantsCDA": false,
         "Description": "You are granted <rt.warning>+30% Haste</> for <rt.bold>20 seconds</>.\n\n<rt.meikoability2>Can be used during Global Cooldown and while Casting or Channeling</>",
         "DescriptionText": "You are granted +30% Haste for 20 seconds.\n\nCan be used during Global Cooldown and while Casting or Channeling",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1307": {
         "Name": null,
@@ -2459,7 +2692,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1308": {
         "Name": "Disrupt",
@@ -2474,7 +2712,12 @@
         "SpellGrantsCDA": false,
         "Description": "Instantly <rt.absorb>Interrupt</> target casting enemy and prevent them from casting for 4 seconds. Must interrupt a spell, or it will have no effect.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Instantly Interrupt target casting enemy and prevent them from casting for 4 seconds. Must interrupt a spell, or it will have no effect.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1309": {
         "Name": "Lunarlight Salvo",
@@ -2488,7 +2731,12 @@
         "SpellGrantsCDA": false,
         "Description": "Lunarlight Mark triggered.",
         "DescriptionText": "Lunarlight Mark triggered.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1310": {
         "Name": "Lunarlight Mark",
@@ -2510,7 +2758,12 @@
             "Stat": "Agility",
             "Text": "219% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1311": {
         "Name": "Roll",
@@ -2525,7 +2778,12 @@
         "SpellGrantsCDA": false,
         "Description": "Swiftly <rt.absorb>Roll</> in the direction you are moving. <rt.absorb>Roll</> does not cancel casting or channeling abilities.\n\n<rt.meikoability2>Can be used during Global Cooldown and while Casting</>",
         "DescriptionText": "Swiftly Roll in the direction you are moving. Roll does not cancel casting or channeling abilities.\n\nCan be used during Global Cooldown and while Casting",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1312": {
         "Name": "Heartseeker Barrage",
@@ -2554,7 +2812,12 @@
             "Stat": "Agility",
             "Text": "219% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1313": {
         "Name": "Highwind Arrow",
@@ -2577,7 +2840,12 @@
             "Text": "1366.73% Agility"
           },
           "HighwindBounceDmg": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1315": {
         "Name": "Focused Shot",
@@ -2599,7 +2867,12 @@
             "Stat": "Agility",
             "Text": "161.64% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1318": {
         "Name": "Multishot",
@@ -2621,7 +2894,12 @@
             "Stat": "Agility",
             "Text": "371.91% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1398": {
         "Name": "Skystrider's Supremacy",
@@ -2636,7 +2914,12 @@
         "SpellGrantsCDA": false,
         "Description": "For the next <rt.bold>4 seconds</> you are enraptured in celestial energy, causing your <rt.absorb>Multishot</> ability to shoot <rt.effect>Empowered Multishots</>.\n\n<rt.meikoability2>Can be used during Global Cooldown.</>\n\n<rt.effect>EMPOWERED MULTISHOT</>\n<rt.effect>Empowered Multishots</> always fire at least <rt.bold>3 arrows</> regardless of how many targets are in range, costs <rt.mana>50% less Focus</>, and deals magic damage.",
         "DescriptionText": "For the next 4 seconds you are enraptured in celestial energy, causing your Multishot ability to shoot Empowered Multishots.\n\nCan be used during Global Cooldown.\n\nEMPOWERED MULTISHOT\nEmpowered Multishots always fire at least 3 arrows regardless of how many targets are in range, costs 50% less Focus, and deals magic damage.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1448": {
         "Name": null,
@@ -2650,7 +2933,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1584": {
         "Name": "Event Horizon",
@@ -2665,7 +2953,12 @@
         "SpellGrantsCDA": true,
         "Description": "The power of the stars flow through you as you prepare to decimate your foes. For the next <rt.bold>20 seconds</>, you deal <rt.warning>20% more damage</>, gain <rt.meikoability2>Cooldown Acceleration</> equal to your Haste and all <rt.mana>Focus costs are reduced by 50%</>.\n\nWhile <rt.absorb>Event Horizon</> is active, your <rt.absorb>Highwind Arrow</> reduces the cooldown of <rt.absorb>Heartseeker Barrage</> by <rt.bold>0.5 seconds</>, and every hit from your <rt.absorb>Heartseeker Barrage</> reduces the cooldown of <rt.absorb>Starfall Volley</> by <rt.bold>1.5 seconds</>.\n\n<rt.absorb>SPIRIT ABILITY</>\n<rt.greyitalic>When you activate your Spirit ability you gain </><rt.effect> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",
         "DescriptionText": "The power of the stars flow through you as you prepare to decimate your foes. For the next 20 seconds, you deal 20% more damage, gain Cooldown Acceleration equal to your Haste and all Focus costs are reduced by 50%.\n\nWhile Event Horizon is active, your Highwind Arrow reduces the cooldown of Heartseeker Barrage by 0.5 seconds, and every hit from your Heartseeker Barrage reduces the cooldown of Starfall Volley by 1.5 seconds.\n\nSPIRIT ABILITY\nWhen you activate your Spirit ability you gain  Spirit of Heroism, granting +30% Haste for 20 sec.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       }
     },
     "Talents": {
@@ -3388,7 +3681,14 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item",
+          "system"
+        ],
+        "Spread": null
       },
       "21": {
         "Name": null,
@@ -3399,7 +3699,12 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1007": {
         "Name": null,
@@ -3410,7 +3715,13 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item"
+        ],
+        "Spread": null
       },
       "1244": {
         "Name": "Jawbreaker",
@@ -3425,7 +3736,12 @@
         "SpellGrantsCDA": false,
         "Description": "<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. \nMust interrupt a spell, or it will have no effect.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Interrupt the target's spellcasting and prevent it from casting for 4 sec. \nMust interrupt a spell, or it will have no effect.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1249": {
         "Name": "Attack",
@@ -3439,7 +3755,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1522": {
         "Name": null,
@@ -3453,7 +3774,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2261": {
         "Name": null,
@@ -3467,7 +3793,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2262": {
         "Name": "Grim Carve",
@@ -3495,7 +3826,12 @@
             "Stat": null,
             "Text": "50%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "2284": {
         "Name": "Butcher's Hook",
@@ -3523,7 +3859,12 @@
             "Stat": null,
             "Text": "50%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "2285": {
         "Name": null,
@@ -3537,7 +3878,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2290": {
         "Name": "Reaver's Edge",
@@ -3571,7 +3917,12 @@
             "Stat": null,
             "Text": "50%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "2291": {
         "Name": "Blood Arc",
@@ -3605,7 +3956,12 @@
             "Stat": null,
             "Text": "700"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "2292": {
         "Name": "Slaughter",
@@ -3627,7 +3983,12 @@
             "Stat": null,
             "Text": "160%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.0
       },
       "2293": {
         "Name": "Rupture",
@@ -3655,7 +4016,12 @@
             "Stat": null,
             "Text": "50%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "2294": {
         "Name": "Heart Splitter",
@@ -3683,7 +4049,12 @@
             "Stat": null,
             "Text": "30%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2295": {
         "Name": "Reign in Blood",
@@ -3706,7 +4077,12 @@
             "Text": "12 seconds"
           },
           "AddedTransfer": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2296": {
         "Name": "Bloodbound Spirit",
@@ -3730,7 +4106,12 @@
           },
           "BloodboundBuff": null,
           "Rend": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "2297": {
         "Name": null,
@@ -3744,7 +4125,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2298": {
         "Name": "Owed in Blood",
@@ -3759,7 +4145,12 @@
         "SpellGrantsCDA": false,
         "Description": "Each time <rt.warning>Rend</> deals damage there is a chance a <rt.effect>Blood Feather</> is spawned near the enemy on the ground that you can pick up to gain 1 stack of <rt.effect>Owed in Blood</> for 30 seconds, up to maximum of 150 stacks.\n\nEnemies that die with your <rt.warning>Rend</> active on them have a 25% chance to create a <rt.effect>Blood Feather</>.\n\nWhen you use your <rt.absorb>Owed in Blood</> ability, all stacks of <rt.effect>Owed in Blood</> you have accumulated from <rt.effect>Blood Feathers</> are applied to the targeted enemy as <rt.warning>Rend</> stacks.",
         "DescriptionText": "Each time Rend deals damage there is a chance a Blood Feather is spawned near the enemy on the ground that you can pick up to gain 1 stack of Owed in Blood for 30 seconds, up to maximum of 150 stacks.\n\nEnemies that die with your Rend active on them have a 25% chance to create a Blood Feather.\n\nWhen you use your Owed in Blood ability, all stacks of Owed in Blood you have accumulated from Blood Feathers are applied to the targeted enemy as Rend stacks.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2299": {
         "Name": "Warbound",
@@ -3787,7 +4178,12 @@
             "Stat": null,
             "Text": "50%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "2300": {
         "Name": "Reckless Abandon",
@@ -3802,7 +4198,12 @@
         "SpellGrantsCDA": false,
         "Description": "You take <rt.absorb>40% reduced damage</> for 4 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "You take 40% reduced damage for 4 seconds.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2301": {
         "Name": "Double Strike",
@@ -3830,7 +4231,12 @@
             "Stat": null,
             "Text": "50%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       }
     },
     "Talents": {
@@ -4523,7 +4929,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "966": {
         "Name": "Taunt",
@@ -4538,7 +4949,12 @@
         "SpellGrantsCDA": false,
         "Description": "<rt.absorb>Taunt</> the target, forcing it to attack you for 6 sec.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Taunt the target, forcing it to attack you for 6 sec.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "969": {
         "Name": null,
@@ -4552,7 +4968,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "970": {
         "Name": null,
@@ -4566,7 +4987,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "973": {
         "Name": "Iron Wall",
@@ -4581,7 +5007,12 @@
         "SpellGrantsCDA": false,
         "Description": "Your <rt.mana>Toughness</> can not be reduced for 12 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Your Toughness can not be reduced for 12 seconds.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "974": {
         "Name": "Charge",
@@ -4603,7 +5034,12 @@
             "Stat": "Strength",
             "Text": "361.7% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.1
       },
       "975": {
         "Name": "Hold the Line",
@@ -4620,7 +5056,12 @@
         "DescriptionText": "Instantly resets the cooldown of your Shield Slam ability and causes your next Shield Slam within 12 seconds to be Empowered.\n\nEmpowered Shield Slam\nYour next Shield Slam applies a barrier on you, absorbing up to {ShieldSlamAbsrb} damage taken for 8 seconds. Your Toughness is not reduced while the barrier is active.\n\nCan be used during Global Cooldown\n\nVETERAN OF WAR\nHold the Line reduces the cooldown of your Shield Slam, Shield Throw, Shields Up, and Shockwave abilities by 10 seconds.",
         "DescriptionTokens": {
           "ShieldSlamAbsrb": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "976": {
         "Name": "Bash",
@@ -4635,7 +5076,12 @@
         "SpellGrantsCDA": false,
         "Description": "<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. \nMust interrupt a spell, or it will have no effect.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Interrupt the target's spellcasting and prevent it from casting for 4 sec. \nMust interrupt a spell, or it will have no effect.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "977": {
         "Name": "Shield Slam",
@@ -4665,7 +5111,12 @@
             "Stat": null,
             "Text": "770%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "978": {
         "Name": "Attack",
@@ -4679,7 +5130,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.1
       },
       "979": {
         "Name": "Shockwave",
@@ -4701,7 +5157,12 @@
             "Stat": "Strength",
             "Text": "383.3% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "980": {
         "Name": "Measured Strike",
@@ -4723,7 +5184,12 @@
             "Stat": "Strength",
             "Text": "71% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "981": {
         "Name": "Sweeping Strike",
@@ -4775,7 +5241,12 @@
             "Stat": null,
             "Text": "1 second"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "982": {
         "Name": "Power Strike",
@@ -4797,7 +5268,12 @@
             "Stat": "Strength",
             "Text": "403.4% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "984": {
         "Name": "Shields Up",
@@ -4820,7 +5296,12 @@
             "Stat": null,
             "Text": "770%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "985": {
         "Name": "Shield Throw",
@@ -4842,7 +5323,12 @@
             "Stat": "Strength",
             "Text": "341.6% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1007": {
         "Name": null,
@@ -4853,7 +5339,13 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item"
+        ],
+        "Spread": null
       },
       "1465": {
         "Name": "Grand Melee",
@@ -4868,7 +5360,12 @@
         "SpellGrantsCDA": false,
         "Description": "For the next 10 seconds, <rt.effect>Incite</> all enemies in a large radius around you, forcing them to only use <bold>Auto Attacks</> and only attack you.\n\nAll allies within the radius of <rt.absorb>Grand Melee</> take <rt.effect>20% reduced magic damage</> while it is active.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "For the next 10 seconds, Incite all enemies in a large radius around you, forcing them to only use Auto Attacks and only attack you.\n\nAll allies within the radius of Grand Melee take 20% reduced magic damage while it is active.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1515": {
         "Name": "Siegebreaker",
@@ -4883,7 +5380,12 @@
         "SpellGrantsCDA": false,
         "Description": "For the next 20 seconds, the cooldown reduction granted by your <rt.effect>Veteran of War</> is doubled.\n\nWhile <rt.absorb>Siegebreaker</>is active, you take 25% reduced damage and your <rt.absorb>Shield Slam</>, <rt.absorb>Shield Throw</> and <rt.absorb>Shockwave</> abilities deal 25% increased damage.\n\n<rt.absorb>SPIRIT ABILITY</>\n<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",
         "DescriptionText": "For the next 20 seconds, the cooldown reduction granted by your Veteran of War is doubled.\n\nWhile Siegebreakeris active, you take 25% reduced damage and your Shield Slam, Shield Throw and Shockwave abilities deal 25% increased damage.\n\nSPIRIT ABILITY\nWhen you activate your Spirit ability you gain  Spirit of Heroism, granting +30% Haste for 20 sec.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1537": {
         "Name": null,
@@ -4897,7 +5399,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1541": {
         "Name": null,
@@ -4911,7 +5418,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       }
     },
     "Talents": {
@@ -5916,7 +6428,13 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item"
+        ],
+        "Spread": null
       },
       "1128": {
         "Name": "Web Crack",
@@ -5931,7 +6449,12 @@
         "SpellGrantsCDA": false,
         "Description": "Instantly <rt.effect>Stun</> target enemy for 4 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown.</>",
         "DescriptionText": "Instantly Stun target enemy for 4 seconds.\n\nCan be used during Global Cooldown.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1129": {
         "Name": "Backstab",
@@ -5953,7 +6476,12 @@
             "Stat": "Agility",
             "Text": "99.6% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1130": {
         "Name": "Brooding Shadows",
@@ -5994,7 +6522,12 @@
             "Stat": "Agility",
             "Text": "124.8% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1132": {
         "Name": null,
@@ -6008,7 +6541,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1133": {
         "Name": "Shadow Ward",
@@ -6023,7 +6561,12 @@
         "SpellGrantsCDA": false,
         "Description": "You take <rt.absorb>40% reduced damage</> for 4 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "You take 40% reduced damage for 4 seconds.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1134": {
         "Name": null,
@@ -6037,7 +6580,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1200": {
         "Name": "Kick",
@@ -6052,7 +6600,12 @@
         "SpellGrantsCDA": false,
         "Description": "<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. \nMust interrupt a spell, or it will have no effect.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Interrupt the target's spellcasting and prevent it from casting for 4 sec. \nMust interrupt a spell, or it will have no effect.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1201": {
         "Name": "Queen's Fang",
@@ -6074,7 +6627,12 @@
             "Stat": "Agility",
             "Text": "357.2% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1205": {
         "Name": "Stalker Step",
@@ -6089,7 +6647,12 @@
         "SpellGrantsCDA": false,
         "Description": "Instantly teleport behind target enemy or player and increase your movement speed by <rt.bold>50%</> for 4 seconds.\n\n<rt.absorb>Stalker Step</> does not break <rt.effect>Stealth</>.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Instantly teleport behind target enemy or player and increase your movement speed by 50% for 4 seconds.\n\nStalker Step does not break Stealth.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1206": {
         "Name": "Maiden of Death",
@@ -6104,7 +6667,12 @@
         "SpellGrantsCDA": false,
         "Description": "For the next 10 seconds, you deal <rt.warning>20% more damage</> and all combo point generating abilities generate <rt.meikoability1>6 Combo Points</>.\n\nAdditionally, your <rt.mana>Energy Generation is increased by 20%</> while <rt.absorb>Maiden of Death</> is active.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "For the next 10 seconds, you deal 20% more damage and all combo point generating abilities generate 6 Combo Points.\n\nAdditionally, your Energy Generation is increased by 20% while Maiden of Death is active.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1207": {
         "Name": "Widow's Bite",
@@ -6132,7 +6700,12 @@
             "Stat": "Agility",
             "Text": "108% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1208": {
         "Name": "Hemorrhaging Strike",
@@ -6166,7 +6739,12 @@
             "Stat": "Agility",
             "Text": "98.41% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1209": {
         "Name": "Attack",
@@ -6180,7 +6758,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1212": {
         "Name": "Arachnid Assault",
@@ -6202,7 +6785,12 @@
             "Stat": "Agility",
             "Text": "117.22% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1213": {
         "Name": "Skittering Blades",
@@ -6224,7 +6812,12 @@
             "Stat": "Agility",
             "Text": "80.6% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1419": {
         "Name": null,
@@ -6238,7 +6831,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1420": {
         "Name": "Matriarch Macabre",
@@ -6253,7 +6851,12 @@
         "SpellGrantsCDA": false,
         "Description": "For the next 20 seconds, you deal <rt.warning>20% more damage</> and your <rt.absorb>Queen's Fang</> and <rt.absorb>Arachnid Assault</> abilities summon two shadowy clones that both imitate the attack for 50% of your power.\n\n<rt.absorb>SPIRIT ABILITY</>\n<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",
         "DescriptionText": "For the next 20 seconds, you deal 20% more damage and your Queen's Fang and Arachnid Assault abilities summon two shadowy clones that both imitate the attack for 50% of your power.\n\nSPIRIT ABILITY\nWhen you activate your Spirit ability you gain  Spirit of Heroism, granting +30% Haste for 20 sec.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1447": {
         "Name": null,
@@ -6267,7 +6870,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1468": {
         "Name": "Final Stratagem",
@@ -6282,7 +6890,12 @@
         "SpellGrantsCDA": false,
         "Description": "Your <rt.mana>Energy</> and <rt.mana>Combo Points</> are instantly refilled and all your <rt.absorb>Hero Ability</> cooldowns are reset.\n\n<rt.meikoability2>Can be used during Global Cooldown.</>",
         "DescriptionText": "Your Energy and Combo Points are instantly refilled and all your Hero Ability cooldowns are reset.\n\nCan be used during Global Cooldown.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2233": {
         "Name": "Macabre Stratagem",
@@ -6298,7 +6911,12 @@
         "Description": "You gain <rt.effect>Matriarch Macabre</> for <rt.bold>10 seconds</>.\n\nIf used while <rt.absorb>Matriarch Macabre</> is already active, its duration is extended by <rt.bold>10 seconds</>.",
         "DescriptionText": "You gain Matriarch Macabre for 10 seconds.\n\nIf used while Matriarch Macabre is already active, its duration is extended by 10 seconds.",
         "DescriptionTokens": {},
-        "GrantedByTalent": 2010000
+        "GrantedByTalent": 2010000,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       }
     },
     "Talents": {
@@ -7000,7 +7618,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1007": {
         "Name": null,
@@ -7011,7 +7634,13 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item"
+        ],
+        "Spread": null
       },
       "1082": {
         "Name": "Twin Souls: Bulwark",
@@ -7028,7 +7657,12 @@
         "DescriptionText": "Split your soul into the Sibling of Wind and the Sibling of Earth for up to 20 seconds. You are in control of the Sibling of Wind.\n\nSIBLING OF EARTH\nWhile active, the Sibling of Earth forces all enemies within a 1000 radius to attack it. The Sibling of Earth's Health ({TotemMaxHealth}) is equal to your maximum health, increased by 2% for every 1% Critical Strike, Haste, Expertise, and Spirit you have.",
         "DescriptionTokens": {
           "TotemMaxHealth": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1095": {
         "Name": "Taunt",
@@ -7043,7 +7677,12 @@
         "SpellGrantsCDA": false,
         "Description": "<rt.absorb>Taunt</> the target, forcing it to attack you for 6 sec.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Taunt the target, forcing it to attack you for 6 sec.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1099": {
         "Name": "Fighting Techniques",
@@ -7057,7 +7696,12 @@
         "SpellGrantsCDA": false,
         "Description": "Grants access to <rt.mana>Finishing Moves</>  based on <rt.mana>Combo Builders</> used:\n\n<rt.meikoability2>Finisher Techniques can be used during Global Cooldown</>\n\n<rt.meikoability1>PALM TECHNIQUES</> \n<rt.meikoability1>Double Palm Strike</> (CORE ABILITY)\n• Grants <rt.bold>+20% Magic Damage reduction</> & <rt.bold>+5% Parry</> for 30 sec.\n<rt.meikoability1>Spirited Vortex</>  (CORE ABILITY)\n• Conjures a Vortex around you that provides <rt.bold>+15% Dodge</>, deals damage to nearby enemies over 30 seconds, reduces their movement speed by 35% for 5 seconds and reduces their damage by 10% for 5 seconds.\n\n<rt.meikoability2>KICK TECHNIQUES</> \n<rt.meikoability2>Rising Storm</> (CORE ABILITY)\n• Deals damage to the target and grants <rt.bold>2 Stormfall</> charges, increasing the damage of your next 2 Lashing Stormkicks by 100%.\n<rt.meikoability2>Lashing Stormkick</> (POWER ABILITY)\n• Deals damage to target and nearby enemies nearby. Heals you for 50% of the damage it deals.\n\n<rt.meikoability3>FIST TECHNIQUES</> \n<rt.meikoability3>Rising Earth</> (CORE ABILITY)\n• Deals damage to the target and grants <rt.bold>2 Earthfall</> charges, increasing the damage of your next 2 Earthfist Barrages by 100%.\n<rt.meikoability3>Earthfist Barrage</> (POWER ABILITY)\n• Pummels target enemy over 1 second and heals you for 50% of the damage it deals.",
         "DescriptionText": "Grants access to Finishing Moves  based on Combo Builders used:\n\nFinisher Techniques can be used during Global Cooldown\n\nPALM TECHNIQUES \nDouble Palm Strike (CORE ABILITY)\n• Grants +20% Magic Damage reduction & +5% Parry for 30 sec.\nSpirited Vortex  (CORE ABILITY)\n• Conjures a Vortex around you that provides +15% Dodge, deals damage to nearby enemies over 30 seconds, reduces their movement speed by 35% for 5 seconds and reduces their damage by 10% for 5 seconds.\n\nKICK TECHNIQUES \nRising Storm (CORE ABILITY)\n• Deals damage to the target and grants 2 Stormfall charges, increasing the damage of your next 2 Lashing Stormkicks by 100%.\nLashing Stormkick (POWER ABILITY)\n• Deals damage to target and nearby enemies nearby. Heals you for 50% of the damage it deals.\n\nFIST TECHNIQUES \nRising Earth (CORE ABILITY)\n• Deals damage to the target and grants 2 Earthfall charges, increasing the damage of your next 2 Earthfist Barrages by 100%.\nEarthfist Barrage (POWER ABILITY)\n• Pummels target enemy over 1 second and heals you for 50% of the damage it deals.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1100": {
         "Name": "Earth Fist",
@@ -7079,7 +7723,12 @@
             "Stat": "Agility",
             "Text": "140.4% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.1
       },
       "1101": {
         "Name": "Spirit Palm",
@@ -7101,7 +7750,12 @@
             "Stat": "Agility",
             "Text": "140.4% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.1
       },
       "1102": {
         "Name": "Wind Kick",
@@ -7123,7 +7777,12 @@
             "Stat": "Agility",
             "Text": "87.75% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.1
       },
       "1107": {
         "Name": "Stone Stomp",
@@ -7145,7 +7804,12 @@
             "Stat": "Agility",
             "Text": "106.4% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.1
       },
       "1108": {
         "Name": null,
@@ -7159,7 +7823,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1110": {
         "Name": "Twin Souls: Army of One",
@@ -7181,7 +7850,12 @@
             "Stat": "Agility",
             "Text": "131.6% Agility"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1115": {
         "Name": "Shatter Earth",
@@ -7215,7 +7889,12 @@
             "Stat": null,
             "Text": "1"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1116": {
         "Name": "Stagger",
@@ -7230,7 +7909,12 @@
         "SpellGrantsCDA": false,
         "Description": "<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. \nMust interrupt a spell, or it will have no effect.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Interrupt the target's spellcasting and prevent it from casting for 4 sec. \nMust interrupt a spell, or it will have no effect.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1118": {
         "Name": "Attack",
@@ -7244,7 +7928,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.1
       },
       "1119": {
         "Name": "Serenity",
@@ -7261,7 +7950,12 @@
         "DescriptionText": "Instantly heal yourself for {SerenityHeal}.\n\nEach time you Auto Attack an enemy, your Serenity gains +40% increased healing, stacking up to 50 times.\n\nCan be used during Global Cooldown",
         "DescriptionTokens": {
           "SerenityHeal": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1121": {
         "Name": "Stone Shield",
@@ -7275,7 +7969,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.1
       },
       "1122": {
         "Name": "Stone Shield",
@@ -7304,7 +8003,12 @@
             "Stat": null,
             "Text": "862.4%"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1123": {
         "Name": "Gust",
@@ -7319,7 +8023,12 @@
         "SpellGrantsCDA": false,
         "Description": "Quickly travel forward a short distance.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Quickly travel forward a short distance.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1125": {
         "Name": "Cyclone",
@@ -7334,7 +8043,12 @@
         "SpellGrantsCDA": false,
         "Description": "Create a <rt.absorb>Cyclone</> of strong winds that instantly pulls in all enemies within the radius to you.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Create a Cyclone of strong winds that instantly pulls in all enemies within the radius to you.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1768": {
         "Name": null,
@@ -7348,7 +8062,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2021": {
         "Name": null,
@@ -7362,7 +8081,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       }
     },
     "Talents": {
@@ -8283,7 +9007,13 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item"
+        ],
+        "Spread": null
       },
       "1009": {
         "Name": "Flight of the Navir",
@@ -8305,7 +9035,12 @@
             "Stat": "Intellect",
             "Text": "46.9% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1015": {
         "Name": "Frost Ward",
@@ -8320,7 +9055,12 @@
         "SpellGrantsCDA": false,
         "Description": "You take <rt.absorb>40% reduced damage</> for 4 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "You take 40% reduced damage for 4 seconds.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1016": {
         "Name": null,
@@ -8334,7 +9074,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1017": {
         "Name": null,
@@ -8348,7 +9093,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1018": {
         "Name": "Ice Comet",
@@ -8370,7 +9120,12 @@
             "Stat": "Intellect",
             "Text": "528.5% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1019": {
         "Name": "Brain Freeze",
@@ -8385,7 +9140,12 @@
         "SpellGrantsCDA": false,
         "Description": "<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. \nMust interrupt a spell, or it will have no effect.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Interrupt the target's spellcasting and prevent it from casting for 4 sec. \nMust interrupt a spell, or it will have no effect.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1020": {
         "Name": "Cold Snap",
@@ -8407,7 +9167,12 @@
             "Stat": "Intellect",
             "Text": "314.5% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1021": {
         "Name": "Frigid Winds",
@@ -8422,7 +9187,12 @@
         "SpellGrantsCDA": false,
         "Description": "Blast enemies in front of you with arctic winds, <rt.absorb>Knocking Back</> enemies and <rt.absorb>Slowing</> them by 50% for 12 sec.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Blast enemies in front of you with arctic winds, Knocking Back enemies and Slowing them by 50% for 12 sec.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1023": {
         "Name": "Wrath of Winter",
@@ -8437,7 +9207,12 @@
         "SpellGrantsCDA": false,
         "Description": "Invoke the spirits of the frozen tundra for 20 seconds, granting you <rt.mana>1 Winter Orb</> every 4 seconds. You deal <rt.warning>+20% increased damage</> and your <rt.absorb>Glacial Blast</> ability is instant cast while <rt.absorb>Wrath of Winter</> is active.\n\n<rt.mana>WINTER ORBS</>\n<rt.mana>Winter Orbs</> are required to cast your powerful spender abilities; <rt.absorb>Glacial Blast</> and <rt.absorb>Ice Comet</>.\n\n<rt.effect>SPIRIT ABILITY</>\n<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",
         "DescriptionText": "Invoke the spirits of the frozen tundra for 20 seconds, granting you 1 Winter Orb every 4 seconds. You deal +20% increased damage and your Glacial Blast ability is instant cast while Wrath of Winter is active.\n\nWINTER ORBS\nWinter Orbs are required to cast your powerful spender abilities; Glacial Blast and Ice Comet.\n\nSPIRIT ABILITY\nWhen you activate your Spirit ability you gain  Spirit of Heroism, granting +30% Haste for 20 sec.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1024": {
         "Name": "Ice Dash",
@@ -8452,7 +9227,12 @@
         "SpellGrantsCDA": false,
         "Description": "Quickly travel forward a short distance.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Quickly travel forward a short distance.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1026": {
         "Name": "Winter's Blessing",
@@ -8467,7 +9247,12 @@
         "SpellGrantsCDA": false,
         "Description": "Your <rt.absorb>Spirit is increased by 20%</> for 20 seconds and <rt.heal>30% of all damage you deal is replicated as healing</> divided equally between all allies.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Your Spirit is increased by 20% for 20 seconds and 30% of all damage you deal is replicated as healing divided equally between all allies.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1027": {
         "Name": "Freezing Torrent",
@@ -8490,7 +9275,12 @@
             "Text": "148.06% Intellect"
           },
           "FreezeTorrPeriod": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1028": {
         "Name": "Glacial Blast",
@@ -8507,7 +9297,12 @@
         "DescriptionText": "Hurl a mass of ice at target enemy, dealing {GlacialBlast} damage.",
         "DescriptionTokens": {
           "GlacialBlast": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1029": {
         "Name": "Frost Bolt",
@@ -8529,7 +9324,12 @@
             "Stat": "Intellect",
             "Text": "201.7% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1031": {
         "Name": "Bursting Ice",
@@ -8557,7 +9357,12 @@
             "Stat": null,
             "Text": "0.5"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1032": {
         "Name": "Ice Blitz",
@@ -8572,7 +9377,12 @@
         "SpellGrantsCDA": false,
         "Description": "You enter a state of focused casting for 20 seconds, causing you to deal <rt.warning>20% more damage</> for the duration.\n\nThe duration of <rt.absorb>Ice Blitz</> is extended by 0.1 seconds each time a <rt.absorb>Frost Swallow</> hits an enemy.\n\n<rt.meikoability2>Can be used during Global Cooldown and while casting</>",
         "DescriptionText": "You enter a state of focused casting for 20 seconds, causing you to deal 20% more damage for the duration.\n\nThe duration of Ice Blitz is extended by 0.1 seconds each time a Frost Swallow hits an enemy.\n\nCan be used during Global Cooldown and while casting",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1033": {
         "Name": "Frost Swallows",
@@ -8586,7 +9396,12 @@
         "SpellGrantsCDA": false,
         "Description": "Rime commands Frost Swallows to attack her target.",
         "DescriptionText": "Rime commands Frost Swallows to attack her target.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1555": {
         "Name": "Talon's Edict",
@@ -8600,7 +9415,12 @@
         "SpellGrantsCDA": false,
         "Description": "Your <rt.absorb>Cold Snap</> critical strikes conjure <bold>3 Frost Swalllows</> to instantly attack your enemies.\n\nAdditionally, your <rt.absorb>Cold Snap</> and <rt.absorb>Freezing Torrent</> damage has a 15% chance to conjure <bold>1 Frost Swalllow</>.",
         "DescriptionText": "Your Cold Snap critical strikes conjure 3 Frost Swalllows to instantly attack your enemies.\n\nAdditionally, your Cold Snap and Freezing Torrent damage has a 15% chance to conjure 1 Frost Swalllow.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1573": {
         "Name": null,
@@ -8614,7 +9434,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2223": {
         "Name": "Talon Strike",
@@ -8632,7 +9457,12 @@
         "DescriptionTokens": {
           "Talons": null
         },
-        "GrantedByTalent": 2000658
+        "GrantedByTalent": 2000658,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2224": {
         "Name": "Rising Talons",
@@ -8650,7 +9480,12 @@
         "DescriptionTokens": {
           "Talons": null
         },
-        "GrantedByTalent": 2000658
+        "GrantedByTalent": 2000658,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2227": {
         "Name": null,
@@ -8665,7 +9500,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       }
     },
     "Talents": {
@@ -9628,7 +10468,12 @@
         "SpellGrantsCDA": false,
         "Description": "Target ally takes <rt.absorb>20% reduced damage</> for 12 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Target ally takes 20% reduced damage for 12 seconds.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1007": {
         "Name": null,
@@ -9639,7 +10484,13 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item"
+        ],
+        "Spread": null
       },
       "1047": {
         "Name": "Enfeebling Rootsap",
@@ -9654,7 +10505,12 @@
         "SpellGrantsCDA": false,
         "Description": "Command one of your <rt.absorb>Prickly Vines</> to <rt.effect>Enfeeble</> target enemy, reducing all damage that enemy deals by 20% for 10 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown.</>\n\nThe <rt.absorb>Prickly Vine</> withers upon completing it's cast of <rt.absorb>Enfeebling Rootsap</>.",
         "DescriptionText": "Command one of your Prickly Vines to Enfeeble target enemy, reducing all damage that enemy deals by 20% for 10 seconds.\n\nCan be used during Global Cooldown.\n\nThe Prickly Vine withers upon completing it's cast of Enfeebling Rootsap.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1052": {
         "Name": null,
@@ -9668,7 +10524,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1054": {
         "Name": "Cure Ailment",
@@ -9683,7 +10544,12 @@
         "SpellGrantsCDA": false,
         "Description": "Remove all <rt.debuff>Harmful</> <rt.bold>Magic Effects</> from target ally. ",
         "DescriptionText": "Remove all Harmful Magic Effects from target ally. ",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1055": {
         "Name": "Fluttercall: Jubilee",
@@ -9698,7 +10564,12 @@
         "SpellGrantsCDA": false,
         "Description": "Call upon <rt.bold>Dream Flutterflies</> to protect up to 4 players by evenly distributing all health between them every 1.5 seconds over 12 sec.\n\nUpon arriving, the <rt.bold>Dream Flutterflies</> cause <rt.absorb>6 Prickly Vines</> to spontaneously  spawn near you.\n\n<rt.absorb>SPIRIT ABILITY</>\n<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste and +600% Mana Recovery for 20 sec.</>",
         "DescriptionText": "Call upon Dream Flutterflies to protect up to 4 players by evenly distributing all health between them every 1.5 seconds over 12 sec.\n\nUpon arriving, the Dream Flutterflies cause 6 Prickly Vines to spontaneously  spawn near you.\n\nSPIRIT ABILITY\nWhen you activate your Spirit ability you gain  Spirit of Heroism, granting +30% Haste and +600% Mana Recovery for 20 sec.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1057": {
         "Name": "Prickly Vine",
@@ -9726,7 +10597,12 @@
             "Stat": null,
             "Text": "3"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1059": {
         "Name": "Safe Haven",
@@ -9741,7 +10617,12 @@
         "SpellGrantsCDA": false,
         "Description": "Place a <rt.absorb>Safe Haven</> in target location. For the next 15 seconds, all allies standing within the radius have <rt.absorb>40% increased healing taken</>.",
         "DescriptionText": "Place a Safe Haven in target location. For the next 15 seconds, all allies standing within the radius have 40% increased healing taken.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1060": {
         "Name": "Fluttercall: Heal",
@@ -9769,7 +10650,12 @@
             "Stat": null,
             "Text": "3"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1061": {
         "Name": "Fluttercall: Restore Life",
@@ -9804,7 +10690,12 @@
             "Stat": null,
             "Text": "1.5"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1063": {
         "Name": null,
@@ -9818,7 +10709,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1071": {
         "Name": "Hidden Trail",
@@ -9833,7 +10729,12 @@
         "SpellGrantsCDA": false,
         "Description": "Your Movement Speed is increased by 50% for 6 seconds.\n\n<rt.absorb>Demure</>\nUpon activating <rt.absorb>Hidden Trail</> your threat is reduced by 50% with all enemies.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Your Movement Speed is increased by 50% for 6 seconds.\n\nDemure\nUpon activating Hidden Trail your threat is reduced by 50% with all enemies.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1072": {
         "Name": "Life Petal",
@@ -9856,7 +10757,12 @@
             "Text": "589.9% Intellect"
           },
           "LifePetalPeriod": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1073": {
         "Name": "Shroomsplosion",
@@ -9878,7 +10784,12 @@
             "Stat": "Intellect",
             "Text": "394.77% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1074": {
         "Name": null,
@@ -9892,7 +10803,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1075": {
         "Name": "Heart Bloom",
@@ -9933,7 +10849,12 @@
             "Stat": null,
             "Text": "4"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1076": {
         "Name": "Nettlebolt",
@@ -9955,7 +10876,12 @@
             "Stat": "Intellect",
             "Text": "224.4% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1079": {
         "Name": "Fluttercall: Protect",
@@ -9970,7 +10896,12 @@
         "SpellGrantsCDA": false,
         "Description": "Send your <rt.mana>Blue Flutterfly</> to protect target ally.\n\nWhile your <rt.bold>Blue Flutterfly</> is attached to an ally, that player receives <rt.heal>100% increased healing</> from your <rt.meikoability1>Flutterfly Healing</> effects.\n\nWhile the <rt.bold>Blue Flutterfly</> is on you, Your <rt.meikoability1>Flutterfly Healing</> on all allies is <rt.heal>increased by 50%</> and all your abilities have <rt.mana>20% reduced mana cost</>.",
         "DescriptionText": "Send your Blue Flutterfly to protect target ally.\n\nWhile your Blue Flutterfly is attached to an ally, that player receives 100% increased healing from your Flutterfly Healing effects.\n\nWhile the Blue Flutterfly is on you, Your Flutterfly Healing on all allies is increased by 50% and all your abilities have 20% reduced mana cost.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1445": {
         "Name": null,
@@ -9985,7 +10916,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1464": {
         "Name": null,
@@ -10000,7 +10936,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1956": {
         "Name": null,
@@ -10014,7 +10955,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       }
     },
     "Talents": {
@@ -10958,7 +11904,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1007": {
         "Name": null,
@@ -10969,7 +11920,13 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item"
+        ],
+        "Spread": null
       },
       "1218": {
         "Name": "Unbreakable Will",
@@ -10984,7 +11941,12 @@
         "SpellGrantsCDA": false,
         "Description": "You take <rt.absorb>40% reduced damage</> for 4 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "You take 40% reduced damage for 4 seconds.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1221": {
         "Name": null,
@@ -10998,7 +11960,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1223": {
         "Name": null,
@@ -11012,7 +11979,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1225": {
         "Name": "Leap Smash",
@@ -11034,7 +12006,12 @@
             "Stat": "Strength",
             "Text": "69% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.1
       },
       "1226": {
         "Name": "Pummel",
@@ -11049,7 +12026,12 @@
         "SpellGrantsCDA": false,
         "Description": "Instantly interrupt target enemy's spell cast, and silence them for 4 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Instantly interrupt target enemy's spell cast, and silence them for 4 seconds.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1227": {
         "Name": "Attack",
@@ -11063,7 +12045,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.1
       },
       "1228": {
         "Name": "Culling Strike",
@@ -11085,7 +12072,12 @@
             "Stat": "Strength",
             "Text": "318.2025% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.1
       },
       "1229": {
         "Name": "Skull Crusher",
@@ -11113,7 +12105,12 @@
             "Stat": "Strength",
             "Text": "406% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1231": {
         "Name": "Raging Tempest",
@@ -11142,7 +12139,12 @@
             "Stat": "Strength",
             "Text": "154% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1233": {
         "Name": "Focused Wrath",
@@ -11157,7 +12159,12 @@
         "SpellGrantsCDA": false,
         "Description": "Your next two casts of <rt.absorb>Skull Crusher</> or <rt.absorb>Hammer Storm</> cost <rt.mana>52% less Fury</> and deal <rt.warning>10% more damage</>.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Your next two casts of Skull Crusher or Hammer Storm cost 52% less Fury and deal 10% more damage.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1234": {
         "Name": "Wild Swing",
@@ -11174,7 +12181,12 @@
         "DescriptionText": "Swing your hammer in a wide arc toward target enemy dealing {WildSwingDmg} physical damage to it and any nearby enemies.\n\nRecklessness\n- Enemies have an increased chance to Dodge Wild Swing.\n- Wild Swing cannot critically strike.\n- The damage of Wild Swing is increased by an amount equal to your critical strike chance percentage.\n\nGenerates 3 Fury",
         "DescriptionTokens": {
           "WildSwingDmg": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.1
       },
       "1235": {
         "Name": "Thunder Call",
@@ -11189,7 +12201,12 @@
         "SpellGrantsCDA": false,
         "Description": "Call on thunder to charge your hammer with immense power, <rt.effect>enhancing your abilities for 21 seconds</>.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Call on thunder to charge your hammer with immense power, enhancing your abilities for 21 seconds.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1236": {
         "Name": null,
@@ -11203,7 +12220,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1237": {
         "Name": "Chain Lightning",
@@ -11225,7 +12247,12 @@
             "Stat": "Strength",
             "Text": "149.98% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1238": {
         "Name": null,
@@ -11239,7 +12266,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1241": {
         "Name": "Intimidate",
@@ -11256,7 +12288,12 @@
         "DescriptionText": "Instantly Intimidate up to 40 nearby enemies, causing them to cower in place for 12 seconds.\n\nIf an enemy afflicted by Intimidate takes damage equal to {IntimidateDmgBreak}, they will break out of the effect. (Strength scaled)\n\nCan be used during Global Cooldown",
         "DescriptionTokens": {
           "IntimidateDmgBreak": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1242": {
         "Name": "Hammer Storm",
@@ -11285,7 +12322,12 @@
             "Text": "78% Strength"
           },
           "HamrStormPeriod": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1466": {
         "Name": null,
@@ -11299,7 +12341,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1929": {
         "Name": "Heavy Strike",
@@ -11318,7 +12365,12 @@
           "HeavyStrikeDmg": null,
           "HeavyStrikeClvDmg": null,
           "HeavyStrikeLightnDmg": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "2239": {
         "Name": "Face Breaker",
@@ -11340,7 +12392,12 @@
             "Stat": "Strength",
             "Text": "618.426% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "2240": {
         "Name": null,
@@ -11354,7 +12411,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "2241": {
         "Name": "Face Breaker",
@@ -11368,7 +12430,12 @@
         "SpellGrantsCDA": false,
         "Description": "When <rt.absorb>Face Breaker</> deals critical strike damage, <rt.warning>25%</> of the damage dealt is also dealt to enemies near your target.",
         "DescriptionText": "When Face Breaker deals critical strike damage, 25% of the damage dealt is also dealt to enemies near your target.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.0
       }
     },
     "Talents": {
@@ -12134,7 +13201,12 @@
             "Stat": "Intellect",
             "Text": "293.1% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "110": {
         "Name": "Circle of Light",
@@ -12156,7 +13228,12 @@
             "Stat": "Intellect",
             "Text": "1146.6% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "111": {
         "Name": "Lightshaper's Ward",
@@ -12171,7 +13248,12 @@
         "SpellGrantsCDA": false,
         "Description": "Target ally takes <rt.absorb>20% reduced damage</> for 12 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Target ally takes 20% reduced damage for 12 seconds.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "112": {
         "Name": "Greater Heal",
@@ -12193,7 +13275,12 @@
             "Stat": "Intellect",
             "Text": "1652.4% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "992": {
         "Name": "Dawnbreaker Orb",
@@ -12221,7 +13308,12 @@
             "Stat": "Intellect",
             "Text": "532.8% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "993": {
         "Name": "Throw Book",
@@ -12236,7 +13328,12 @@
         "SpellGrantsCDA": false,
         "Description": "Educate a target, <rt.absorb>Stunning</> them for 2 sec.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Educate a target, Stunning them for 2 sec.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "994": {
         "Name": "Soulbrand",
@@ -12265,7 +13362,12 @@
             "Text": "3"
           },
           "RemnantDamage": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "995": {
         "Name": "Rune of Renewal",
@@ -12287,7 +13389,12 @@
             "Stat": "Intellect",
             "Text": "897.1% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "996": {
         "Name": "Luminous Barrier",
@@ -12305,7 +13412,12 @@
         "DescriptionTokens": {
           "LuminousAbsorb": null,
           "LuminousDmgRed": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "997": {
         "Name": "Remove Magic",
@@ -12320,7 +13432,12 @@
         "SpellGrantsCDA": false,
         "Description": "Remove all <rt.debuff>Harmful</> <rt.bold>Magic Effects</> from target ally. ",
         "DescriptionText": "Remove all Harmful Magic Effects from target ally. ",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "998": {
         "Name": null,
@@ -12334,7 +13451,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "999": {
         "Name": "Rune of Renewal",
@@ -12348,7 +13470,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1000": {
         "Name": "Avatar of Light",
@@ -12370,7 +13497,12 @@
             "Stat": "Intellect",
             "Text": "422% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1001": {
         "Name": "Runic Proliferation",
@@ -12385,7 +13517,12 @@
         "SpellGrantsCDA": false,
         "Description": "Instantly generate <rt.mana>3 Radiant Runes</>. For the next 8 seconds, any <rt.absorb>Rune Abilities</> you cast are empowered, increasing their effectiveness by 20%.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Instantly generate 3 Radiant Runes. For the next 8 seconds, any Rune Abilities you cast are empowered, increasing their effectiveness by 20%.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1003": {
         "Name": "Levitate",
@@ -12400,7 +13537,12 @@
         "SpellGrantsCDA": false,
         "Description": "Your movement speed is increased by 70% for 5 seconds and you take <rt.bold>40% reduced Area of Effect damage</> for the duration.\n\n<rt.meikoability2>Can be used during Global Cooldown and while Casting or Channeling</>",
         "DescriptionText": "Your movement speed is increased by 70% for 5 seconds and you take 40% reduced Area of Effect damage for the duration.\n\nCan be used during Global Cooldown and while Casting or Channeling",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1004": {
         "Name": "Dawnflare",
@@ -12422,7 +13564,12 @@
             "Stat": "Intellect",
             "Text": "379.5% Intellect"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1007": {
         "Name": null,
@@ -12433,7 +13580,13 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item"
+        ],
+        "Spread": null
       },
       "1906": {
         "Name": null,
@@ -12447,7 +13600,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       }
     },
     "Talents": {
@@ -13378,7 +14536,13 @@
         "SubSchool": null,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero",
+          "item"
+        ],
+        "Spread": null
       },
       "1841": {
         "Name": "Sky Crash",
@@ -13400,7 +14564,12 @@
             "Stat": "Strength",
             "Text": "71% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1843": {
         "Name": "Taunt",
@@ -13415,7 +14584,12 @@
         "SpellGrantsCDA": false,
         "Description": "<rt.absorb>Taunt</> the target, forcing it to attack you for 6 sec.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Taunt the target, forcing it to attack you for 6 sec.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1844": {
         "Name": "Interrupt",
@@ -13430,7 +14604,12 @@
         "SpellGrantsCDA": false,
         "Description": "<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. \n\nMust interrupt a spell, or it will have no effect.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
         "DescriptionText": "Interrupt the target's spellcasting and prevent it from casting for 4 sec. \n\nMust interrupt a spell, or it will have no effect.\n\nCan be used during Global Cooldown",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1845": {
         "Name": "Sun Strike",
@@ -13452,7 +14631,12 @@
             "Stat": "Strength",
             "Text": "147% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1848": {
         "Name": "Solar Shield",
@@ -13469,7 +14653,12 @@
         "DescriptionText": "Instantly shield the target, absorbing up to {SolarShldAbsrb} damage. The shield lasts for up to 8 seconds.\n\nAll damage dealt to Solar Shield is reduced by 50%.\n\nCan be used during Global Cooldown",
         "DescriptionTokens": {
           "SolarShldAbsrb": null
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.0
       },
       "1849": {
         "Name": null,
@@ -13483,7 +14672,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1850": {
         "Name": null,
@@ -13497,7 +14691,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1853": {
         "Name": "Decree of the Sun",
@@ -13525,7 +14724,12 @@
             "Stat": "Strength",
             "Text": "154% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1854": {
         "Name": "Attack",
@@ -13539,7 +14743,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1857": {
         "Name": "Ruptured Dawn",
@@ -13561,7 +14770,12 @@
             "Stat": "Strength",
             "Text": "90% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1858": {
         "Name": "Blinding Slash",
@@ -13583,7 +14797,12 @@
             "Stat": "Strength",
             "Text": "123% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1859": {
         "Name": "Shining Halo",
@@ -13605,7 +14824,12 @@
             "Stat": "Strength",
             "Text": "27% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1860": {
         "Name": "Brilliant Flare",
@@ -13627,7 +14851,12 @@
             "Stat": "Strength",
             "Text": "752% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1861": {
         "Name": "Omega Reprieval",
@@ -13642,7 +14871,12 @@
         "SpellGrantsCDA": false,
         "Description": "Instantly gain 2 stacks of <rt.effect>Omega Reprieval</>, causing your <rt.absorb>Brilliant Flare</> to turn into <rt.absorb>Brilliant Flash</> with <rt.bold>added enhancements</> when used to consume the 2 stacks.\n\n<rt.meikoability2>Can be used during Global Cooldown</>\n\n<rt.effect>Brilliant Flash: Enhanced</>\nYour <rt.absorb>Brilliant Flash</> has <rt.warning>50% increased power</> on your <rt.bold>Main Target</> and <rt.mana>generates 12% maximum Mana</> for you.\n\nWhen cast on a friendly target, <rt.absorb>Brilliant Flash</> is also casted on <rt.bold>all party members</> within a large range of that ally.\n\nWhen cast on an enemy, <rt.absorb>Brilliant Flash</> is also casted on <rt.bold>all enemies</> within a large range of that enemy.\n\n<rt.absorb>Brilliant Flash</> consumes 1 stack of <rt.effect>Omega Reprieval</>.",
         "DescriptionText": "Instantly gain 2 stacks of Omega Reprieval, causing your Brilliant Flare to turn into Brilliant Flash with added enhancements when used to consume the 2 stacks.\n\nCan be used during Global Cooldown\n\nBrilliant Flash: Enhanced\nYour Brilliant Flash has 50% increased power on your Main Target and generates 12% maximum Mana for you.\n\nWhen cast on a friendly target, Brilliant Flash is also casted on all party members within a large range of that ally.\n\nWhen cast on an enemy, Brilliant Flash is also casted on all enemies within a large range of that enemy.\n\nBrilliant Flash consumes 1 stack of Omega Reprieval.",
-        "DescriptionTokens": {}
+        "DescriptionTokens": {},
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1862": {
         "Name": "Solar Blades",
@@ -13664,7 +14898,12 @@
             "Stat": "Strength",
             "Text": "161% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1863": {
         "Name": "Omnistrike",
@@ -13686,7 +14925,12 @@
             "Stat": "Strength",
             "Text": "245% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": 0.2
       },
       "1917": {
         "Name": "Aura of Solace",
@@ -13708,7 +14952,12 @@
             "Stat": "Strength",
             "Text": "34% Strength"
           }
-        }
+        },
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       },
       "1955": {
         "Name": null,
@@ -13722,7 +14971,12 @@
         "SpellGrantsCDA": false,
         "Description": null,
         "DescriptionText": null,
-        "DescriptionTokens": null
+        "DescriptionTokens": null,
+        "Live": true,
+        "LiveBy": [
+          "hero"
+        ],
+        "Spread": null
       }
     },
     "Talents": {
