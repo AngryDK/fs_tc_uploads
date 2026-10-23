@@ -29,7 +29,7 @@
           "RequiredGemPower": 150,
           "GrantedAugmentation": "CA_GemBonus_StaminaAndPrimaryAttributeBonusSmall",
           "Magnitude": {
-            "StaminaIncrease": 12.0,
+            "StaminaIncrease": 6.0,
             "PrimaryAttributeIncrease": 2.0
           },
           "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{SecondaryBonus}</> <rt.primarystat>Strength</> / <rt.primarystat>Intellect</> / <rt.primarystat>Agility</>"
@@ -75,7 +75,7 @@
           "RequiredGemPower": 800,
           "GrantedAugmentation": "CA_GemBonus_StaminaAndPrimaryAttributeBonusMedium",
           "Magnitude": {
-            "StaminaIncrease": 36.0,
+            "StaminaIncrease": 18.0,
             "PrimaryAttributeIncrease": 6.0
           },
           "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{SecondaryBonus}</> <rt.primarystat>Strength</> / <rt.primarystat>Intellect</> / <rt.primarystat>Agility</>\n\n(Replaces <rt.absorb>Champion's Heart</>)"
@@ -127,7 +127,7 @@
           "RequiredGemPower": 150,
           "GrantedAugmentation": "CA_GemBonus_StaminaAndCritRatingBonusSmall",
           "Magnitude": {
-            "StaminaIncrease": 8.0,
+            "StaminaIncrease": 4.0,
             "CritRatingIncrease": 8.0
           },
           "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{CritBonus}</> <rt.tertiarystat>Critical Strike</>"
@@ -174,7 +174,7 @@
           "RequiredGemPower": 800,
           "GrantedAugmentation": "CA_GemBonus_StaminaAndCritRatingBonusMedium",
           "Magnitude": {
-            "StaminaIncrease": 24.0,
+            "StaminaIncrease": 12.0,
             "CritRatingIncrease": 24.0
           },
           "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{CritBonus}</> <rt.tertiarystat>Critical Strike</>\n\n(Replaces <rt.absorb>Berserker's Zeal</>)"
@@ -230,7 +230,7 @@
           "RequiredGemPower": 150,
           "GrantedAugmentation": "CA_GemBonus_StaminaAndHasteRatingBonusSmall",
           "Magnitude": {
-            "StaminaIncrease": 8.0,
+            "StaminaIncrease": 4.0,
             "HasteRatingIncrease": 8.0
           },
           "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{HasteBonus}</> <rt.tertiarystat>Haste</>"
@@ -280,7 +280,7 @@
           "RequiredGemPower": 800,
           "GrantedAugmentation": "CA_GemBonus_StaminaAndHasteRatingBonusMedium",
           "Magnitude": {
-            "StaminaIncrease": 24.0,
+            "StaminaIncrease": 12.0,
             "HasteRatingIncrease": 24.0
           },
           "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{HasteBonus}</> <rt.tertiarystat>Haste</>\n\n(Replaces <rt.absorb>Thief's Alacrity</>)"
@@ -336,7 +336,7 @@
           "RequiredGemPower": 150,
           "GrantedAugmentation": "CA_GemBonus_StaminaAndExpertiseRatingBonusSmall",
           "Magnitude": {
-            "StaminaIncrease": 8.0,
+            "StaminaIncrease": 4.0,
             "ExpertiseRatingIncrease": 8.0
           },
           "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{ExpertiseBonus}</> <rt.tertiarystat>Expertise</>"
@@ -383,7 +383,7 @@
           "RequiredGemPower": 800,
           "GrantedAugmentation": "CA_GemBonus_StaminaAndExpertiseRatingBonusMedium",
           "Magnitude": {
-            "StaminaIncrease": 24.0,
+            "StaminaIncrease": 12.0,
             "ExpertiseRatingIncrease": 24.0
           },
           "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{ExpertiseBonus}</> <rt.tertiarystat>Expertise</>\n\n(Replaces <rt.absorb>Vanguard's Resolve</>)"
@@ -436,7 +436,7 @@
           "RequiredGemPower": 150,
           "GrantedAugmentation": "CA_GemBonus_StaminaAndSpiritRatingBonusSmall",
           "Magnitude": {
-            "StaminaIncrease": 8.0,
+            "StaminaIncrease": 4.0,
             "SpiritRatingIncrease": 8.0
           },
           "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{SpiritBonus}</> <rt.tertiarystat>Spirit</>"
@@ -479,7 +479,7 @@
           "RequiredGemPower": 800,
           "GrantedAugmentation": "CA_GemBonus_StaminaAndSpiritRatingBonusMedium",
           "Magnitude": {
-            "StaminaIncrease": 24.0,
+            "StaminaIncrease": 12.0,
             "SpiritRatingIncrease": 24.0
           },
           "Description": "<rt.warning>+{StaminaBonus}</> <rt.primarystat>Stamina</>\n<rt.warning>+{SpiritBonus}</> <rt.tertiarystat>Spirit</>\n\n(Replaces <rt.absorb>Mystic's Intuition</>)"
@@ -1925,6 +1925,96 @@
       "Name": "The Wolf",
       "FSLID": 3000063,
       "DevName": "ItemTrait.ID.Wolf"
+    },
+    "65": {
+      "Name": "Jotunn's Might / Wyvern's Guile / Chimera's Cunning",
+      "FSLID": 3000065,
+      "DevName": "ItemTrait.ID.StatEnchant.Type1",
+      "NamesByPrimaryStat": {
+        "Strength": "Jotunn's Might",
+        "Agility": "Wyvern's Guile",
+        "Intellect": "Chimera's Cunning"
+      },
+      "NameFromAugmentation": true,
+      "Constants": {
+        "CritRating": 1.0,
+        "ExpertiseRating": 1.0
+      }
+    },
+    "66": {
+      "Name": "Griffin's Might / Strix's Guile / Salamander's Cunning",
+      "FSLID": 3000066,
+      "DevName": "ItemTrait.ID.StatEnchant.Type2",
+      "NamesByPrimaryStat": {
+        "Strength": "Griffin's Might",
+        "Agility": "Strix's Guile",
+        "Intellect": "Salamander's Cunning"
+      },
+      "NameFromAugmentation": true,
+      "Constants": {
+        "CritRating": 1.0,
+        "HasteRating": 1.0
+      }
+    },
+    "67": {
+      "Name": "Revenant's Might / Wraith's Guile / Banshee's Cunning",
+      "FSLID": 3000067,
+      "DevName": "ItemTrait.ID.StatEnchant.Type3",
+      "NamesByPrimaryStat": {
+        "Strength": "Revenant's Might",
+        "Agility": "Wraith's Guile",
+        "Intellect": "Banshee's Cunning"
+      },
+      "NameFromAugmentation": true,
+      "Constants": {
+        "CritRating": 1.0,
+        "SpiritRating": 1.0
+      }
+    },
+    "68": {
+      "Name": "Behemoth's Might / Huldra's Guile / Undine's Cunning",
+      "FSLID": 3000068,
+      "DevName": "ItemTrait.ID.StatEnchant.Type4",
+      "NamesByPrimaryStat": {
+        "Strength": "Behemoth's Might",
+        "Agility": "Huldra's Guile",
+        "Intellect": "Undine's Cunning"
+      },
+      "NameFromAugmentation": true,
+      "Constants": {
+        "ExpertiseRating": 1.0,
+        "HasteRating": 1.0
+      }
+    },
+    "69": {
+      "Name": "Ogre's Might / Vampire's Guile / Sphinx's Cunning",
+      "FSLID": 3000069,
+      "DevName": "ItemTrait.ID.StatEnchant.Type5",
+      "NamesByPrimaryStat": {
+        "Strength": "Ogre's Might",
+        "Agility": "Vampire's Guile",
+        "Intellect": "Sphinx's Cunning"
+      },
+      "NameFromAugmentation": true,
+      "Constants": {
+        "ExpertiseRating": 1.0,
+        "SpiritRating": 1.0
+      }
+    },
+    "70": {
+      "Name": "Valkyrie's Might / Centaur's Guile / Unicorn's Cunning",
+      "FSLID": 3000070,
+      "DevName": "ItemTrait.ID.StatEnchant.Type6",
+      "NamesByPrimaryStat": {
+        "Strength": "Valkyrie's Might",
+        "Agility": "Centaur's Guile",
+        "Intellect": "Unicorn's Cunning"
+      },
+      "NameFromAugmentation": true,
+      "Constants": {
+        "HasteRating": 1.0,
+        "SpiritRating": 1.0
+      }
     }
   },
   "SetBonuses": {
@@ -2179,98 +2269,6 @@
         }
       ]
     },
-    "BasicToIncreasedPower": {
-      "Name": "The Intrepid",
-      "BuffName": null,
-      "Description": "The power of your next <rt.absorb>[POWER]</> ability is increased by <rt.bold>{increase}</>",
-      "DevName": "CAA_Finesse_BasicToIncreasedPower",
-      "Constants": {
-        "PowerMultiplier": [
-          0.015,
-          0.025,
-          0.04,
-          0.06
-        ],
-        "MaxStacks": [
-          5.0,
-          5.0,
-          5.0,
-          5.0
-        ]
-      },
-      "GrantedAbilities": [
-        {
-          "FSLID": 2258,
-          "DevName": "GA_Finesse_Passive_BasicToIncreasedPower",
-          "Live": true,
-          "LiveBy": [
-            "item"
-          ],
-          "Spread": null
-        }
-      ]
-    },
-    "CritChanceToHealOrDamage": {
-      "Name": "The Usurper",
-      "BuffName": "The Usurper's Verdict",
-      "Description": null,
-      "DevName": "CAA_Finesse_CritChanceToHealOrDamage",
-      "Constants": {
-        "DamageCoefficient": [
-          1.72,
-          2.74,
-          4.38,
-          7.0
-        ],
-        "HealCoefficient": [
-          1.46,
-          2.34,
-          3.74,
-          6.0
-        ],
-        "MaxRadius": [
-          3000.0,
-          3000.0,
-          3000.0,
-          3000.0
-        ],
-        "MaxTargets": [
-          4.0,
-          4.0,
-          4.0,
-          4.0
-        ],
-        "Chances.Healer.DamageChance": [
-          0.4,
-          0.4,
-          0.4,
-          0.4
-        ],
-        "Chances.Healer.HealChance": [
-          0.4,
-          0.4,
-          0.4,
-          0.4
-        ],
-        "Chances.DpsTank.DamageChance": [
-          0.8,
-          0.8,
-          0.8,
-          0.8
-        ]
-      },
-      "GrantedAbilities": [
-        {
-          "FSLID": 2257,
-          "DevName": "GA_Finesse_Passive_CritChanceToHealOrDamage",
-          "Live": true,
-          "LiveBy": [
-            "item"
-          ],
-          "Spread": 0.2
-        }
-      ]
-    },
     "CurrentSpiritToBuff": {
       "Name": "The Philosopher",
       "BuffName": null,
@@ -2306,74 +2304,6 @@
         {
           "FSLID": 2256,
           "DevName": "GA_Finesse_Passive_CurrentSpiritToBuff",
-          "Live": true,
-          "LiveBy": [
-            "item"
-          ],
-          "Spread": null
-        }
-      ]
-    },
-    "DrainHealthBasedOnPrimaryStat": {
-      "Name": "The Heretic",
-      "BuffName": null,
-      "Description": null,
-      "DevName": "CAA_Finesse_DrainHealthBasedOnPrimaryStat",
-      "Constants": {
-        "Chance": [
-          0.2,
-          0.2,
-          0.2,
-          0.2
-        ],
-        "PrimaryStatMultiplier": [
-          3.25,
-          5.2,
-          8.32,
-          13.31
-        ],
-        "Radius": [
-          3000.0,
-          3000.0,
-          3000.0,
-          3000.0
-        ]
-      },
-      "GrantedAbilities": [
-        {
-          "FSLID": 2255,
-          "DevName": "GA_Finesse_Passive_DrainHealthBasedOnPrimaryStat",
-          "Live": true,
-          "LiveBy": [
-            "item"
-          ],
-          "Spread": 0.0
-        }
-      ]
-    },
-    "IncreasedBasicDamage": {
-      "Name": "The Vainglorious",
-      "BuffName": null,
-      "Description": null,
-      "DevName": "CAA_Finesse_IncreasedBasicDamage",
-      "Constants": {
-        "AdditionalPrimaryStatCoefficient": [
-          0.25,
-          0.4,
-          0.65,
-          1.0
-        ],
-        "Periodic.AdditionalPrimaryStatCoefficient": [
-          0.05,
-          0.08,
-          0.13,
-          0.2
-        ]
-      },
-      "GrantedAbilities": [
-        {
-          "FSLID": 2254,
-          "DevName": "GA_Finesse_Passive_IncreasedBasicDamage",
           "Live": true,
           "LiveBy": [
             "item"
@@ -2526,37 +2456,6 @@
         }
       ]
     },
-    "PowerChanceSpirit": {
-      "Name": "The Celestial",
-      "BuffName": null,
-      "Description": null,
-      "DevName": "CAA_Finesse_PowerChanceSpirit",
-      "Constants": {
-        "Chance": [
-          0.05,
-          0.08,
-          0.13,
-          0.2
-        ],
-        "SpiritPoints": [
-          1.0,
-          1.0,
-          1.0,
-          1.0
-        ]
-      },
-      "GrantedAbilities": [
-        {
-          "FSLID": 2250,
-          "DevName": "GA_Finesse_Passive_PowerChanceSpirit",
-          "Live": true,
-          "LiveBy": [
-            "item"
-          ],
-          "Spread": null
-        }
-      ]
-    },
     "PowerIncreasedCritChanceAndPower": {
       "Name": "The Sinister",
       "BuffName": "Finesse E",
@@ -2601,31 +2500,6 @@
         {
           "FSLID": 2249,
           "DevName": "GA_Finesse_Passive_PowerToIncreasedCritChance",
-          "Live": true,
-          "LiveBy": [
-            "item"
-          ],
-          "Spread": null
-        }
-      ]
-    },
-    "StartWithSpiritPoints": {
-      "Name": "The Herald",
-      "BuffName": null,
-      "Description": null,
-      "DevName": "CAA_Finesse_StartWithSpiritPoints",
-      "Constants": {
-        "SpiritPoints": [
-          12.0,
-          20.0,
-          30.0,
-          50.0
-        ]
-      },
-      "GrantedAbilities": [
-        {
-          "FSLID": 2248,
-          "DevName": "GA_Finesse_Passive_StartWithSpiritPoints",
           "Live": true,
           "LiveBy": [
             "item"
@@ -2758,10 +2632,10 @@
       "Description": "Absorbs incoming damage",
       "DevName": "CAA_Perk_MaxHealthBasedAbsorb",
       "Constants": {
-        "Tanks.MaxHealthPercentage": 0.12,
-        "DPS.MaxHealthPercentage": 0.2,
-        "VigorMosse.MaxHealthPercentage": 0.2,
-        "Lisa.MaxHealthPercentage": 0.12,
+        "Tanks.MaxHealthPercentage": 0.06,
+        "DPS.MaxHealthPercentage": 0.1,
+        "VigorMosse.MaxHealthPercentage": 0.1,
+        "Lisa.MaxHealthPercentage": 0.06,
         "ConsumptionScaler": 0.5,
         "Duration": 12.0,
         "Lisa.Duration": 8.0
@@ -2785,7 +2659,7 @@
       "DevName": "CAA_Perk_Passive_IncomingAoeDamageReduction",
       "Constants": {
         "IncomingAoeDamageReduction.AdditionalReduction": 0.2,
-        "IncreasedArmor.ArmorMultiplier": 1.35,
+        "IncreasedArmor.ArmorMultiplier": 1.25,
         "IncreasedIncomingMagicDamage.AdditionalReduction": 0.1
       },
       "GrantedAbilities": []
@@ -2797,7 +2671,7 @@
       "DevName": "CAA_Perk_Passive_IncreasedArmor",
       "Constants": {
         "IncomingAoeDamageReduction.AdditionalReduction": 0.2,
-        "IncreasedArmor.ArmorMultiplier": 1.35,
+        "IncreasedArmor.ArmorMultiplier": 1.25,
         "IncreasedIncomingMagicDamage.AdditionalReduction": 0.1
       },
       "GrantedAbilities": []
@@ -2809,7 +2683,7 @@
       "DevName": "CAA_Perk_Passive_ReducedIncomingMagicDamage",
       "Constants": {
         "IncomingAoeDamageReduction.AdditionalReduction": 0.2,
-        "IncreasedArmor.ArmorMultiplier": 1.35,
+        "IncreasedArmor.ArmorMultiplier": 1.25,
         "IncreasedIncomingMagicDamage.AdditionalReduction": 0.1
       },
       "GrantedAbilities": []

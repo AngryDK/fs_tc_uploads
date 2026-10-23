@@ -761,8 +761,8 @@
         "TalentColumn": 1,
         "PointCost": 3,
         "EnabledInGame": true,
-        "Description": "While <rt.absorb>Fleeting Hour</> is active on you, <rt.absorb>Temporal Barrage</> is empowered.\n\nWhen targeting an enemy, <rt.absorb>Temporal Barrage</> deals <rt.warning>50% more damage to your primary target</> and causes <rt.warning>additional bolts to hit up to 2 enemies near the target for 40% of the power</>.\n\nWhen targeting an ally, each bolt of <rt.absorb>Temporal Barrage</> <rt.heal>cleanses the target of 3% Stagger</>.",
-        "DescriptionText": "While Fleeting Hour is active on you, Temporal Barrage is empowered.\n\nWhen targeting an enemy, Temporal Barrage deals 50% more damage to your primary target and causes additional bolts to hit up to 2 enemies near the target for 40% of the power.\n\nWhen targeting an ally, each bolt of Temporal Barrage cleanses the target of 3% Stagger."
+        "Description": "While <rt.absorb>Fleeting Hour</> is active on you, <rt.absorb>Temporal Barrage</> is empowered.\n\nWhen targeting an enemy, <rt.absorb>Temporal Barrage</> deals <rt.warning>80% more damage to your primary target</> and causes <rt.warning>additional bolts to hit up to 2 enemies near the target for 50% of the power</>.\n\nWhen targeting an ally, each bolt of <rt.absorb>Temporal Barrage</> <rt.heal>cleanses the target of 3% Stagger</>.",
+        "DescriptionText": "While Fleeting Hour is active on you, Temporal Barrage is empowered.\n\nWhen targeting an enemy, Temporal Barrage deals 80% more damage to your primary target and causes additional bolts to hit up to 2 enemies near the target for 50% of the power.\n\nWhen targeting an ally, each bolt of Temporal Barrage cleanses the target of 3% Stagger."
       },
       "611": {
         "Name": "Oblivion's Embrace",
@@ -989,7 +989,7 @@
         "ResourceGain": 4.0,
         "ResourceGainCrit": 6.0,
         "Cooldown": 15.0,
-        "Cost": 61.0,
+        "Cost": 49.0,
         "Talent": {
           "OverhealAbsorb": {
             "Duration": 15.0,
@@ -1009,9 +1009,9 @@
             "DurationIncreaseSeconds": 0.3
           },
           "Empowered": {
-            "DamageMultiplier": 1.5,
+            "DamageMultiplier": 1.8,
             "Cleave": {
-              "DamageMultiplier": 0.4,
+              "DamageMultiplier": 0.5,
               "Radius": 800.0,
               "MaxAdditionalTargets": 2.0,
               "ProjectileSizeMultiplier": 0.5,
@@ -1123,7 +1123,7 @@
         "MaxRangeUp": 1500.0,
         "MaxRangeDown": 2000.0,
         "MaxNumOfTargets": 40.0,
-        "Cooldown": 300.0,
+        "Cooldown": 200.0,
         "Cost": 98.0
       },
       "Entropy's Claim": {
@@ -1945,8 +1945,8 @@
         "TalentColumn": 1,
         "PointCost": 1,
         "EnabledInGame": true,
-        "Description": "<rt.absorb>Start each Dungeon</> with <rt.mana>50 Spirit Points</> and <rt.mana>2 Burning Embers</>.",
-        "DescriptionText": "Start each Dungeon with 50 Spirit Points and 2 Burning Embers."
+        "Description": "<rt.absorb>Start each Dungeon</> with <rt.mana>2 Burning Embers</>.",
+        "DescriptionText": "Start each Dungeon with 2 Burning Embers."
       },
       "151": {
         "Name": "Intensifying Inferno",
@@ -2031,8 +2031,8 @@
           "AdditionalOrbResources": 2.0
         }
       },
-      "Pyromania": {
-        "DevName": "GA_Firemage_InstantMultiTargetDot",
+      "Apocalypse": {
+        "DevName": "GA_Firemage_CastedPlacedAoe",
         "Talent": {
           "AdditionalResourceGenerationChance": {
             "Increase": 1.25
@@ -2184,8 +2184,8 @@
           "AdditionalHitDamageIncreased": 1.4
         }
       },
-      "Engulfing Flames": {
-        "DevName": "GA_Firemage_CastedSingleHeavyDot",
+      "Searing Blaze": {
+        "DevName": "GA_Firemage_CastedSingleDot2",
         "MaxRange": 3000.0,
         "CastTime": 1.5,
         "Duration": 18.0,
@@ -2208,8 +2208,8 @@
           }
         }
       },
-      "Searing Blaze": {
-        "DevName": "GA_Firemage_CastedSingleDot2",
+      "InstantSingleTargetDot": {
+        "DevName": "GA_Firemage_CastedPlacedAoe",
         "MaxRange": 3000.0,
         "DotDuration": 30.0,
         "DotPeriod": 2.0,
@@ -2223,7 +2223,7 @@
           }
         }
       },
-      "CastedSingleHeavyDot": {
+      "Engulfing Flames": {
         "DevName": "GA_Firemage_CastedSingleHeavyDot",
         "MaxRange": 3000.0,
         "CastTime": 1.5,
@@ -2381,7 +2381,7 @@
         "DotTickResourceRewardFractionOfBomb": 0.0,
         "DamageScalePerStack": 0.3
       },
-      "Apocalypse": {
+      "CastedPlacedAoe": {
         "DevName": "GA_Firemage_CastedPlacedAoe",
         "Radius": 1000.0,
         "MaxRangeHorizontal": 3000.0,
@@ -2418,7 +2418,7 @@
           }
         }
       },
-      "InstantMultiTargetDot": {
+      "Pyromania": {
         "DevName": "GA_Firemage_InstantMultiTargetDot",
         "MaxRange": 3000.0,
         "Cooldown": 90.0,
@@ -3446,8 +3446,8 @@
           }
         }
       },
-      "Lunarlight Mark": {
-        "DevName": "GA_Bowguy_InstantMarkTarget",
+      "DamageBounceSelfBuff": {
+        "DevName": "GA_Bowguy_CastedProjectileHeavyDamage",
         "DamageMultiplier": 1.0,
         "Bounce": {
           "MaxTargets": 3.0,
@@ -3457,7 +3457,7 @@
         "Cost": 20.0,
         "Cooldown": 40.0
       },
-      "InstantMarkTarget": {
+      "Lunarlight Mark": {
         "DevName": "GA_Bowguy_InstantMarkTarget",
         "MaxRange": 3000.0,
         "AdditionalTargetsRadius": 850.0,
@@ -4391,8 +4391,8 @@
         "TalentColumn": 2,
         "PointCost": 3,
         "EnabledInGame": true,
-        "Description": "Your <rt.absorb>Heart Splitter</> has <rt.warning>+30% increased Critical Strike chance</>.\n\nWhen the direct damage portion of <rt.absorb>Heart Splitter</> <rt.bold>Critically Strikes</>, it causes <rt.effect>Exsanguinate</> to explode, <rt.warning>dealing 50% of its damage to all enemies near your target</>.\n\n(Damage reduced beyond 8 targets)",
-        "DescriptionText": "Your Heart Splitter has +30% increased Critical Strike chance.\n\nWhen the direct damage portion of Heart Splitter Critically Strikes, it causes Exsanguinate to explode, dealing 50% of its damage to all enemies near your target.\n\n(Damage reduced beyond 8 targets)"
+        "Description": "Your <rt.absorb>Heart Splitter</> has <rt.warning>+30% increased Critical Strike chance</>.\n\nWhen the direct damage portion of <rt.absorb>Heart Splitter</> <rt.bold>Critically Strikes</>, it causes <rt.effect>Exsanguinate</> to explode, <rt.warning>dealing 50% of its damage to all enemies near your target</>.\n\n(Damage reduced beyond 10 targets)",
+        "DescriptionText": "Your Heart Splitter has +30% increased Critical Strike chance.\n\nWhen the direct damage portion of Heart Splitter Critically Strikes, it causes Exsanguinate to explode, dealing 50% of its damage to all enemies near your target.\n\n(Damage reduced beyond 10 targets)"
       },
       "754": {
         "Name": "Carnage",
@@ -4548,7 +4548,7 @@
         "Cooldown": 15.0,
         "MaxRange": 3000.0,
         "Aoe": {
-          "Radius": 700.0,
+          "Radius": 850.0,
           "Duration": 1.15,
           "Period": 0.5
         },
@@ -4615,7 +4615,7 @@
           "CritToAoe": {
             "Radius": 700.0,
             "AdditionalTargets": 4.0,
-            "TargetThresholdScaling": 8.0,
+            "TargetThresholdScaling": 10.0,
             "AoeDamageScaler": 0.5
           },
           "LowHealthTarget": {
@@ -4787,7 +4787,7 @@
         "StrengthCoefficient": 4.653,
         "DamageScalingTargetCountThreshold": 1.0,
         "CastTime": 1.0,
-        "DotScaler": 1.0,
+        "DotScaler": 2.0,
         "SelfBuff": {
           "Duration": 20.0,
           "DamageMultiplier": 1.25
@@ -5523,8 +5523,8 @@
         "TalentColumn": 3,
         "PointCost": 2,
         "EnabledInGame": true,
-        "Description": "The <rt.bold>absorb shield</> from your <rt.effect>Empowered Shield Slams</> takes <rt.bold>20% reduced damage</> & enemies that attack you while it is active take <rt.warning>50% Strength</> physical damage.",
-        "DescriptionText": "The absorb shield from your Empowered Shield Slams takes 20% reduced damage & enemies that attack you while it is active take 50% Strength physical damage."
+        "Description": "The <rt.bold>absorb shield</> from your <rt.effect>Empowered Shield Slams</> takes <rt.bold>20% reduced damage</> & enemies that attack you while it is active take <rt.warning>100% Strength</> physical damage.",
+        "DescriptionText": "The absorb shield from your Empowered Shield Slams takes 20% reduced damage & enemies that attack you while it is active take 100% Strength physical damage."
       },
       "210": {
         "Name": "High Command",
@@ -5567,8 +5567,8 @@
         "TalentColumn": 1,
         "PointCost": 3,
         "EnabledInGame": true,
-        "Description": "When your <rt.mana>Toughness</> has reduced an amount of damage equal to <rt.bold>30% of your Maximum Health</>, you gain <rt.effect>20% increased Strength</> for 8 sec.",
-        "DescriptionText": "When your Toughness has reduced an amount of damage equal to 30% of your Maximum Health, you gain 20% increased Strength for 8 sec."
+        "Description": "When your <rt.mana>Toughness</> has reduced an amount of damage equal to <rt.bold>30% of your Maximum Health</>, you gain <rt.effect>20% increased Strength</> for 14 sec.",
+        "DescriptionText": "When your Toughness has reduced an amount of damage equal to 30% of your Maximum Health, you gain 20% increased Strength for 14 sec."
       },
       "14": {
         "Name": "Martial Command",
@@ -5652,6 +5652,10 @@
         "DevName": "Resources",
         "BaseComboPointGain": 1.0
       },
+      "TauntCharges": {
+        "DevName": "TauntCharges",
+        "Value": 2.0
+      },
       "SpiritProc": {
         "DevName": "SpiritProc",
         "ResourceRefund": {
@@ -5707,7 +5711,7 @@
             "AbsorbDamageMultiplier": 0.8,
             "IncomingDamageDivider": 1.25,
             "ReflectedDamage": {
-              "StrengthCoefficient": 0.5
+              "StrengthCoefficient": 1.0
             }
           }
         },
@@ -5771,7 +5775,7 @@
           },
           "ToughnessBuff": {
             "StrengthMultiplier": 1.2,
-            "Duration": 8.0
+            "Duration": 14.0
           },
           "IncreasedDamageReduction": {
             "DamageReductionIncreasePerLevel": 0.05
@@ -5942,7 +5946,7 @@
           "ChanceAoeDamage": {
             "Radius": 500.0,
             "DamageMultiplier": 0.4,
-            "TargetCountThreshold": 5.0,
+            "TargetCountThreshold": 12.0,
             "Chance": 0.2
           },
           "FirstHitAoeDamageDebuff": {
@@ -6103,7 +6107,7 @@
         }
       },
       "SelfOffensiveSuperBuff": {
-        "DevName": "GA_Warmaster_LightMelee",
+        "DevName": "GA_Warmaster_HeavyMelee",
         "Duration": 12.0,
         "Cooldown": 0.0,
         "HasteBuff": 0.2,
@@ -6254,7 +6258,7 @@
         "Cooldown": 30.0,
         "ComboPointCost": 2.0,
         "Damage": {
-          "CleaveRadius": 500.0,
+          "CleaveRadius": 800.0,
           "StrengthCoefficient": 3.756,
           "DamageScalingTargetCountThreshold": 1.0
         },
@@ -7237,7 +7241,7 @@
         "DevName": "GA_Mara_ChargedTeleportBehindTarget",
         "MaxRange": 3000.0,
         "MaxCharges": 2.0,
-        "ChargeDuration": 30.0,
+        "ChargeDuration": 15.0,
         "Talent": {
           "IncreasedDamageOrMovementSpeed": {
             "DamageIncrease": {
@@ -7384,6 +7388,7 @@
         "StealthWindow": {
           "Duration": 2.0
         },
+        "PaddingCooldown": 0.7,
         "Talent": {
           "Charged": {
             "MaxCharges": 2.0
@@ -7398,7 +7403,8 @@
         "DevName": "GA_Mara_StunSpender",
         "BaseDuration": 1.0,
         "AdditionalDurationPerComboPoints": 1.0,
-        "Cooldown": 24.0
+        "Cooldown": 24.0,
+        "Range": 1000.0
       },
       "Disorient": {
         "DevName": "GA_Mara_Disorient",
@@ -8098,8 +8104,8 @@
         "TalentColumn": 1,
         "PointCost": 2,
         "EnabledInGame": true,
-        "Description": "When you activate <rt.absorb>Stone Shield</> you take <rt.bold>10% reduced damage</> for 8 seconds.",
-        "DescriptionText": "When you activate Stone Shield you take 10% reduced damage for 8 seconds."
+        "Description": "When you activate <rt.absorb>Stone Shield</> you take <rt.bold>20% reduced damage</> for 8 seconds.",
+        "DescriptionText": "When you activate Stone Shield you take 20% reduced damage for 8 seconds."
       },
       "446": {
         "Name": "Stone Guard",
@@ -8197,8 +8203,8 @@
         "TalentColumn": 1,
         "PointCost": 1,
         "EnabledInGame": true,
-        "Description": "You <rt.absorb>Start each Dungeon</> with <rt.mana>50 Spirit Points</>.\n\nEach time you cast <rt.absorb>Gust</> you release a burst of winds at your starting location, causing all enemies within 750 radius to have <rt.effect>50% reduced movement speed</> for 6 seconds.",
-        "DescriptionText": "You Start each Dungeon with 50 Spirit Points.\n\nEach time you cast Gust you release a burst of winds at your starting location, causing all enemies within 750 radius to have 50% reduced movement speed for 6 seconds."
+        "Description": "Each time you cast <rt.absorb>Gust</> you release a burst of winds at your starting location, causing all enemies within 750 radius to have <rt.effect>50% reduced movement speed</> for 6 seconds.",
+        "DescriptionText": "Each time you cast Gust you release a burst of winds at your starting location, causing all enemies within 750 radius to have 50% reduced movement speed for 6 seconds."
       },
       "103": {
         "Name": "Earthbourne",
@@ -8263,8 +8269,8 @@
         "TalentColumn": 1,
         "PointCost": 1,
         "EnabledInGame": true,
-        "Description": "Your <rt.absorb>Serenity</> applies <rt.effect>Peacefield</> on you, healing you for <rt.heal>45% of the initial heal's value over 9 seconds</>.",
-        "DescriptionText": "Your Serenity applies Peacefield on you, healing you for 45% of the initial heal's value over 9 seconds."
+        "Description": "Your <rt.absorb>Serenity</> applies <rt.effect>Peacefield</> on you, healing you for <rt.heal>80% of the initial heal's value over 9 seconds</>.",
+        "DescriptionText": "Your Serenity applies Peacefield on you, healing you for 80% of the initial heal's value over 9 seconds."
       },
       "95": {
         "Name": "Rumbling Stone",
@@ -8294,8 +8300,16 @@
         "DevName": "MeleeRange",
         "Value": 500.0
       },
-      "Lashing Stormkick": {
-        "DevName": "GA_Meiko_HighDamageCleave",
+      "FinisherRange": {
+        "DevName": "FinisherRange",
+        "Value": 800.0
+      },
+      "TauntCharges": {
+        "DevName": "TauntCharges",
+        "Value": 2.0
+      },
+      "Earthfist Barrage": {
+        "DevName": "GA_Meiko_ChanneledHeavyDamage",
         "ResourceRefund": {
           "FlatSpiritPointGain": 2.0
         }
@@ -8419,7 +8433,7 @@
         "Stun": {
           "Duration": 3.0
         },
-        "Cooldown": 120.0,
+        "Cooldown": 60.0,
         "GreenResourceGain": 0.0,
         "YellowResourceCost": 2.0,
         "ProcChance": 0.04,
@@ -8448,7 +8462,7 @@
           "Duration": 5.0
         }
       },
-      "Earthfist Barrage": {
+      "ChanneledHeavyDamage": {
         "DevName": "GA_Meiko_ChanneledHeavyDamage",
         "AgilityCoefficient": 1.2696,
         "FinalHit": {
@@ -8495,7 +8509,7 @@
         "DashSpeed": 5000.0,
         "DashAirExitSpeed": 1000.0,
         "MaxCharges": 2.0,
-        "ChargeTime": 30.0,
+        "ChargeTime": 20.0,
         "Talent": {
           "MoveSpeedIncrease": {
             "SpeedIncrease": 1.5,
@@ -8560,7 +8574,7 @@
           "DamageIncrease": 2.0
         }
       },
-      "HighDamageCleave": {
+      "Lashing Stormkick": {
         "DevName": "GA_Meiko_HighDamageCleave",
         "AgilityCoefficient": 2.3205,
         "Spread": 0.1,
@@ -8719,7 +8733,7 @@
             "Hot": {
               "Duration": 9.0,
               "TickInterval": 1.5,
-              "PercentageOfTotalHeal": 0.45
+              "PercentageOfTotalHeal": 0.8
             }
           }
         }
@@ -8775,7 +8789,7 @@
           },
           "IncomingDamageMultiplier": {
             "Duration": 8.0,
-            "DamageMultiplier": 0.9
+            "DamageMultiplier": 0.8
           },
           "FinisherToReducedCooldown": {
             "CooldownReductionInSeconds": 1.0
@@ -8831,7 +8845,7 @@
         "TickInterval": 1.0,
         "MoveSpeed": 4000.0,
         "JumpHeight": 500.0,
-        "Cooldown": 60.0,
+        "Cooldown": 45.0,
         "Cost": 75.0,
         "Talent": {
           "CooldownReduction": {
@@ -9572,8 +9586,8 @@
         "TalentColumn": 3,
         "PointCost": 1,
         "EnabledInGame": true,
-        "Description": "When your <rt.absorb>Frost Bolt</> deals damage to an enemy, it triggers a single pulse of <rt.absorb>Bursting Ice</>.\n\nYour <rt.absorb>Bursting Ice</> deals <rt.warning>20% more damage</>.",
-        "DescriptionText": "When your Frost Bolt deals damage to an enemy, it triggers a single pulse of Bursting Ice.\n\nYour Bursting Ice deals 20% more damage."
+        "Description": "When your <rt.absorb>Frost Bolt</> deals damage to an enemy, it triggers a single pulse of <rt.absorb>Bursting Ice</>.\n\nYour <rt.absorb>Bursting Ice</> deals <rt.warning>30% more damage</>.",
+        "DescriptionText": "When your Frost Bolt deals damage to an enemy, it triggers a single pulse of Bursting Ice.\n\nYour Bursting Ice deals 30% more damage."
       },
       "192": {
         "Name": "Cascading Blitz",
@@ -9660,8 +9674,8 @@
         "TalentColumn": 2,
         "PointCost": 3,
         "EnabledInGame": true,
-        "Description": "Each time you generate <rt.mana>Winter Orbs</>, you have a <rt.bold>20% chance</> to gain  <rt.effect>Frostweaver's Wrath</> for <rt.bold>12 seconds</>, causing the next <rt.absorb>Glacial Blast</> or <rt.absorb>Ice Comet</> that deals damage to have <rt.warning>100% additional critical strike chance</>.\n\n<rt.warning>GRIEVOUS CRITICAL STRIKE</>\nAny critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",
-        "DescriptionText": "Each time you generate Winter Orbs, you have a 20% chance to gain  Frostweaver's Wrath for 12 seconds, causing the next Glacial Blast or Ice Comet that deals damage to have 100% additional critical strike chance.\n\nGRIEVOUS CRITICAL STRIKE\nAny critical strike chance you have beyond 100% causes a grievous critical strike. Grievous critical strikes increase the base damage of the hit by an amount equal to the overflowing critical strike chance."
+        "Description": "Each time you generate <rt.mana>Winter Orbs</>, you have a <rt.bold>20% chance</> to gain  <rt.effect>Frostweaver's Wrath</> for <rt.bold>20 seconds</>, causing the next <rt.absorb>Glacial Blast</> or <rt.absorb>Ice Comet</> that deals damage to have <rt.warning>100% additional critical strike chance</>.\n\n<rt.warning>GRIEVOUS CRITICAL STRIKE</>\nAny critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",
+        "DescriptionText": "Each time you generate Winter Orbs, you have a 20% chance to gain  Frostweaver's Wrath for 20 seconds, causing the next Glacial Blast or Ice Comet that deals damage to have 100% additional critical strike chance.\n\nGRIEVOUS CRITICAL STRIKE\nAny critical strike chance you have beyond 100% causes a grievous critical strike. Grievous critical strikes increase the base damage of the hit by an amount equal to the overflowing critical strike chance."
       },
       "195": {
         "Name": "Soulfrost Torrent",
@@ -9671,8 +9685,8 @@
         "TalentColumn": 3,
         "PointCost": 3,
         "EnabledInGame": true,
-        "Description": "Each time you cast an ability you have a chance to gain <rt.effect>Soulfrost Torrent</> for <rt.bold>18 seconds</>, causing your next <rt.absorb>Freezing Torrent</> to have <rt.warning>40% increased tick rate</> and <rt.warning>+100% increased critical strike chance</>. (1.2 PPM)\n\n<rt.warning>GRIEVOUS CRITICAL STRIKE</>\nAny critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",
-        "DescriptionText": "Each time you cast an ability you have a chance to gain Soulfrost Torrent for 18 seconds, causing your next Freezing Torrent to have 40% increased tick rate and +100% increased critical strike chance. (1.2 PPM)\n\nGRIEVOUS CRITICAL STRIKE\nAny critical strike chance you have beyond 100% causes a grievous critical strike. Grievous critical strikes increase the base damage of the hit by an amount equal to the overflowing critical strike chance."
+        "Description": "Each time you cast an ability you have a chance to gain <rt.effect>Soulfrost Torrent</> for <rt.bold>24 seconds</>, causing your next <rt.absorb>Freezing Torrent</> to have <rt.warning>40% increased tick rate</> and <rt.warning>+100% increased critical strike chance</>. (1.2 PPM)\n\n<rt.warning>GRIEVOUS CRITICAL STRIKE</>\nAny critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",
+        "DescriptionText": "Each time you cast an ability you have a chance to gain Soulfrost Torrent for 24 seconds, causing your next Freezing Torrent to have 40% increased tick rate and +100% increased critical strike chance. (1.2 PPM)\n\nGRIEVOUS CRITICAL STRIKE\nAny critical strike chance you have beyond 100% causes a grievous critical strike. Grievous critical strikes increase the base damage of the hit by an amount equal to the overflowing critical strike chance."
       },
       "51": {
         "Name": "Biting Cold",
@@ -9742,8 +9756,8 @@
           "MagicIncomingDamageMultiplier": 0.9
         }
       },
-      "Rising Talons": {
-        "DevName": "GA_Rime_Talent_SpendersSwap_MultiTargets",
+      "Glacial Blast": {
+        "DevName": "GA_Rime_CastedProjectileDamageOrbSpender",
         "IncreasedMovementSpeed": {
           "SpeedScaler": 1.2
         },
@@ -9773,7 +9787,7 @@
             "ProcChance": 0.2,
             "Buff": {
               "CritChance": 1.0,
-              "Duration": 12.0
+              "Duration": 20.0
             }
           }
         }
@@ -9796,8 +9810,8 @@
         "SpikeVollyPeriod": 4.0,
         "DamageBonus": 1.2
       },
-      "Talon's Edict": {
-        "DevName": "GA_Rime_Passive_Talent_AutoDamageProjectile_ExplodingCrits_CritMonitor",
+      "Frost Swallows": {
+        "DevName": "GA_Rime_Helper_AutoDamageProjectile",
         "ProcChance": 0.5,
         "OrbReward": 1.0,
         "NumProjectiles": 3.0,
@@ -9855,10 +9869,10 @@
           }
         }
       },
-      "Glacial Blast": {
+      "CastedProjectileDamageOrbSpender": {
         "DevName": "GA_Rime_CastedProjectileDamageOrbSpender",
         "MaxRange": 3000.0,
-        "CastingDuration": 2.0,
+        "CastingDuration": 1.5,
         "IntellectCoefficient": 10.24,
         "Spread": 0.2,
         "OrbCost": 2.0,
@@ -9998,7 +10012,7 @@
           "CritChance": 1.0,
           "ChannelTickRateIncrease": 1.4,
           "Ppm": 1.2,
-          "BuffDuration": 18.0
+          "BuffDuration": 24.0
         }
       },
       "Bursting Ice": {
@@ -11384,8 +11398,8 @@
         "ManaCost": 21.0,
         "Cooldown": 25.0
       },
-      "BlueButterfly": {
-        "DevName": "GA_Mosse_CastedSingleTargetProjectile",
+      "Fluttercall: Protect": {
+        "DevName": "GA_Mosse_BlueButterfly_SendOut",
         "MaxRange": 3000.0,
         "ManaCost": 18.0,
         "TargetBuff": {
@@ -11402,8 +11416,8 @@
           }
         }
       },
-      "Fluttercall: Heal": {
-        "DevName": "GA_Mosse_PinkButterfly_Simple",
+      "Fluttercall: Restore Life": {
+        "DevName": "GA_Mosse_PinkButterfly_Double",
         "IncreasedHealPerVine": {
           "HealMultiplierPerVine": 0.03
         },
@@ -12469,8 +12483,8 @@
         "TalentColumn": 3,
         "PointCost": 2,
         "EnabledInGame": true,
-        "Description": "Your <rt.absorb>Heavy Strike</> grants you <rt.bold>1 stack</> of <rt.effect>Square Hammer</> for 20 seconds, stacking up to 5 times.\n\nYour next <rt.absorb>Skull Crusher</> or <rt.absorb>Hammer Storm</> consumes all stacks, reducing the cooldown of your <rt.absorb>Thunder Call</> by <rt.bold>1 second per stack</>.\n\nEach time you consume <rt.effect>Square Hammer</> you are granted <rt.warning>+5% Expertise</> for <rt.bold>4 seconds</>. ",
-        "DescriptionText": "Your Heavy Strike grants you 1 stack of Square Hammer for 20 seconds, stacking up to 5 times.\n\nYour next Skull Crusher or Hammer Storm consumes all stacks, reducing the cooldown of your Thunder Call by 1 second per stack.\n\nEach time you consume Square Hammer you are granted +5% Expertise for 4 seconds. "
+        "Description": "Your <rt.absorb>Heavy Strike</> grants you <rt.bold>1 stack</> of <rt.effect>Square Hammer</> for 20 seconds, stacking up to 5 times.\n\nYour next <rt.absorb>Skull Crusher</> or <rt.absorb>Hammer Storm</> consumes all stacks, reducing the cooldown of your <rt.absorb>Thunder Call</> by <rt.bold>1 second per stack</>.\n\nEach time you consume <rt.effect>Square Hammer</> you are granted <rt.warning>+8% Expertise</> for <rt.bold>4 seconds</>. ",
+        "DescriptionText": "Your Heavy Strike grants you 1 stack of Square Hammer for 20 seconds, stacking up to 5 times.\n\nYour next Skull Crusher or Hammer Storm consumes all stacks, reducing the cooldown of your Thunder Call by 1 second per stack.\n\nEach time you consume Square Hammer you are granted +8% Expertise for 4 seconds. "
       },
       "441": {
         "Name": "High Road",
@@ -12546,8 +12560,8 @@
         "TalentColumn": 1,
         "PointCost": 1,
         "EnabledInGame": true,
-        "Description": "You <rt.absorb>Start each Dungeon</> with <rt.mana>50 Spirit Points</>.\n\nYour <rt.absorb>Culling Strike</> generates <rt.mana>1 Spirit Point</>.",
-        "DescriptionText": "You Start each Dungeon with 50 Spirit Points.\n\nYour Culling Strike generates 1 Spirit Point."
+        "Description": "Your <rt.absorb>Culling Strike</> generates <rt.mana>1 Spirit Point</>.",
+        "DescriptionText": "Your Culling Strike generates 1 Spirit Point."
       },
       "78": {
         "Name": "Sledgehammer",
@@ -12579,8 +12593,8 @@
         "TalentColumn": 1,
         "PointCost": 3,
         "EnabledInGame": true,
-        "Description": "Your offensive abilities have a <rt.bold>8% chance</> to reset the cooldown of your <rt.absorb>Heavy Strike</> and grant you <rt.bold>2 stacks</> of <rt.effect>Kill Em All</> for <rt.bold>8 seconds</>\n\nWhile <rt.effect>Kill Em All</> is active, your <rt.absorb>Heavy Strike</> has <rt.meikoability2>+60% Cooldown Acceleration</>.\n\nYour next <rt.Absorb>Heavy Strike</> consumes <rt.bold>1 stack</> of <rt.effect>Kill Em All</>, causing it to deal <rt.warning>150% more damage</>.",
-        "DescriptionText": "Your offensive abilities have a 8% chance to reset the cooldown of your Heavy Strike and grant you 2 stacks of Kill Em All for 8 seconds\n\nWhile Kill Em All is active, your Heavy Strike has +60% Cooldown Acceleration.\n\nYour next Heavy Strike consumes 1 stack of Kill Em All, causing it to deal 150% more damage."
+        "Description": "Your offensive abilities have a <rt.bold>10% chance</> to reset the cooldown of your <rt.absorb>Heavy Strike</> and grant you <rt.bold>2 stacks</> of <rt.effect>Kill Em All</> for <rt.bold>8 seconds</>\n\nWhile <rt.effect>Kill Em All</> is active, your <rt.absorb>Heavy Strike</> has <rt.meikoability2>+60% Cooldown Acceleration</>.\n\nYour next <rt.Absorb>Heavy Strike</> consumes <rt.bold>1 stack</> of <rt.effect>Kill Em All</>, causing it to deal <rt.warning>150% more damage</>.",
+        "DescriptionText": "Your offensive abilities have a 10% chance to reset the cooldown of your Heavy Strike and grant you 2 stacks of Kill Em All for 8 seconds\n\nWhile Kill Em All is active, your Heavy Strike has +60% Cooldown Acceleration.\n\nYour next Heavy Strike consumes 1 stack of Kill Em All, causing it to deal 150% more damage."
       },
       "675": {
         "Name": "Ace of Spades",
@@ -12766,11 +12780,11 @@
             },
             "Buff": {
               "Duration": 4.0,
-              "AddedExpertisePerStack": 0.05
+              "AddedExpertisePerStack": 0.08
             }
           },
           "AlwaysHitWindowBuff": {
-            "ProcChance": 0.08,
+            "ProcChance": 0.1,
             "Buff": {
               "Duration": 8.0,
               "MaxStacks": 2.0,
@@ -13407,8 +13421,8 @@
         "SpellCDHasted": true,
         "SpellCDAEffect": false,
         "SpellGrantsCDA": false,
-        "Description": "Apply a shield to target ally that absorbs up to <rt.heal>{LuminousAbsorb}</> damage. <rt.absorb>Luminous Barrier</> lasts for up to <rt.bold>12 seconds</>.\n\nDamage absorbed by <rt.absorb>Luminous Barrier</> is <rt.heal>reduced by {LuminousDmgRed}</>.\n\n<rt.effect>RESIDUAL LUMINOSITY</>\nWhen <rt.absorb>Luminous Barrier</> expires or is removed from a player, they gain <rt.effect>Residual Luminosity</> for <rt.bold>15 seconds</>, <rt.heal>reducing all damage taken by 15%</>.\n\n<rt.effect>GRAND DESIGN</>\n<rt.bold>Hold down the ability button</> until a cast bar is displayed to cast this ability on up to 4 targets at 60% power. Requires <rt.mana>2 Radiant Runes</>. \n\n<rt.greyitalic>Vigour inscribes a rune of protection onto an ally, causing light to be woven around them into a barrier of divine energy. The barrier stops all forms of attack, whether forged by steel or conjured by magic.</>",
-        "DescriptionText": "Apply a shield to target ally that absorbs up to {LuminousAbsorb} damage. Luminous Barrier lasts for up to 12 seconds.\n\nDamage absorbed by Luminous Barrier is reduced by {LuminousDmgRed}.\n\nRESIDUAL LUMINOSITY\nWhen Luminous Barrier expires or is removed from a player, they gain Residual Luminosity for 15 seconds, reducing all damage taken by 15%.\n\nGRAND DESIGN\nHold down the ability button until a cast bar is displayed to cast this ability on up to 4 targets at 60% power. Requires 2 Radiant Runes. \n\nVigour inscribes a rune of protection onto an ally, causing light to be woven around them into a barrier of divine energy. The barrier stops all forms of attack, whether forged by steel or conjured by magic.",
+        "Description": "Apply a shield to target ally that absorbs up to <rt.heal>{LuminousAbsorb}</> damage. <rt.absorb>Luminous Barrier</> lasts for up to <rt.bold>12 seconds</>.\n\nDamage absorbed by <rt.absorb>Luminous Barrier</> is <rt.heal>reduced by {LuminousDmgRed}</>.\n\n<rt.effect>RESIDUAL LUMINOSITY</>\nWhen <rt.absorb>Luminous Barrier</> expires or is removed from a player, they gain <rt.effect>Residual Luminosity</> for <rt.bold>15 seconds</>, <rt.heal>reducing all damage taken by 5%</>.\n\n<rt.effect>GRAND DESIGN</>\n<rt.bold>Hold down the ability button</> until a cast bar is displayed to cast this ability on up to 4 targets at 60% power. Requires <rt.mana>2 Radiant Runes</>. \n\n<rt.greyitalic>Vigour inscribes a rune of protection onto an ally, causing light to be woven around them into a barrier of divine energy. The barrier stops all forms of attack, whether forged by steel or conjured by magic.</>",
+        "DescriptionText": "Apply a shield to target ally that absorbs up to {LuminousAbsorb} damage. Luminous Barrier lasts for up to 12 seconds.\n\nDamage absorbed by Luminous Barrier is reduced by {LuminousDmgRed}.\n\nRESIDUAL LUMINOSITY\nWhen Luminous Barrier expires or is removed from a player, they gain Residual Luminosity for 15 seconds, reducing all damage taken by 5%.\n\nGRAND DESIGN\nHold down the ability button until a cast bar is displayed to cast this ability on up to 4 targets at 60% power. Requires 2 Radiant Runes. \n\nVigour inscribes a rune of protection onto an ally, causing light to be woven around them into a barrier of divine energy. The barrier stops all forms of attack, whether forged by steel or conjured by magic.",
         "DescriptionTokens": {
           "LuminousAbsorb": null,
           "LuminousDmgRed": null
@@ -13858,7 +13872,7 @@
         },
         "UponRemovalBuff": {
           "Duration": 15.0,
-          "IncomingDamageScaler": 0.85
+          "IncomingDamageScaler": 0.95
         },
         "Talent": {
           "AbsorbRefill": {
@@ -14393,7 +14407,7 @@
         "Cost": 18.0
       },
       "Runes": {
-        "DevName": "GA_Vigor_SingleTargetChargedHot",
+        "DevName": "GA_Vigor_SingleTargetAbsorb",
         "Talent": {
           "IncreasedDuration": {
             "DurationMultiplier": 1.25
@@ -14407,7 +14421,7 @@
         }
       },
       "Talent": {
-        "DevName": "GA_Vigor_SingleTargetChargedHot",
+        "DevName": "GA_Vigor_SingleTargetAbsorb",
         "SpiritProcBuff": {
           "NextRuneSpenderIncreasedPower": {
             "Multiplier": 1.5,
@@ -15184,6 +15198,10 @@
         "DevName": "MeleeMaxRange",
         "Value": 500.0
       },
+      "TauntCharges": {
+        "DevName": "TauntCharges",
+        "Value": 2.0
+      },
       "SpiritProc": {
         "DevName": "SpiritProc",
         "ResourceRefund": {
@@ -15433,7 +15451,7 @@
         "Stun": {
           "Duration": 2.0
         },
-        "Cooldown": 60.0,
+        "Cooldown": 45.0,
         "VisualDelay": 0.13,
         "MaxNumTargets": 40.0,
         "PullDuration": 0.25,

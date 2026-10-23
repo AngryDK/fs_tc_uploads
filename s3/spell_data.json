@@ -1809,22 +1809,6 @@
       "DescriptionText": "You and nearby allies gain 50% increased Movement Speed for 12 seconds.\n\nCan be used during Global Cooldown",
       "DescriptionTokens": {}
     },
-    "186": {
-      "Name": "Sanctuary",
-      "FSLID": 186,
-      "DevName": "GA_RelicPower_PartyDamageReductionBuff",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": true,
-      "Spread": null,
-      "Description": "Grants <rt.heal>15% Damage Reduction</> to yourself and nearby allies for 15 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
-      "DescriptionText": "Grants 15% Damage Reduction to yourself and nearby allies for 15 seconds.\n\nCan be used during Global Cooldown",
-      "DescriptionTokens": {}
-    },
     "187": {
       "Name": "Major Dispel",
       "FSLID": 187,
@@ -6387,7 +6371,7 @@
       "DescriptionTokens": null
     },
     "702": {
-      "Name": "Frozen Stomp",
+      "Name": "(OLD) Frozen Stomp",
       "FSLID": 702,
       "DevName": "GA_IC_GreaterIceElemental_EarthStomp",
       "Live": true,
@@ -9667,8 +9651,8 @@
       "SpellCDAEffect": false,
       "SpellGrantsCDA": false,
       "Spread": null,
-      "Description": "Apply a shield to target ally that absorbs up to <rt.heal>{LuminousAbsorb}</> damage. <rt.absorb>Luminous Barrier</> lasts for up to <rt.bold>12 seconds</>.\n\nDamage absorbed by <rt.absorb>Luminous Barrier</> is <rt.heal>reduced by {LuminousDmgRed}</>.\n\n<rt.effect>RESIDUAL LUMINOSITY</>\nWhen <rt.absorb>Luminous Barrier</> expires or is removed from a player, they gain <rt.effect>Residual Luminosity</> for <rt.bold>15 seconds</>, <rt.heal>reducing all damage taken by 15%</>.\n\n<rt.effect>GRAND DESIGN</>\n<rt.bold>Hold down the ability button</> until a cast bar is displayed to cast this ability on up to 4 targets at 60% power. Requires <rt.mana>2 Radiant Runes</>. \n\n<rt.greyitalic>Vigour inscribes a rune of protection onto an ally, causing light to be woven around them into a barrier of divine energy. The barrier stops all forms of attack, whether forged by steel or conjured by magic.</>",
-      "DescriptionText": "Apply a shield to target ally that absorbs up to {LuminousAbsorb} damage. Luminous Barrier lasts for up to 12 seconds.\n\nDamage absorbed by Luminous Barrier is reduced by {LuminousDmgRed}.\n\nRESIDUAL LUMINOSITY\nWhen Luminous Barrier expires or is removed from a player, they gain Residual Luminosity for 15 seconds, reducing all damage taken by 15%.\n\nGRAND DESIGN\nHold down the ability button until a cast bar is displayed to cast this ability on up to 4 targets at 60% power. Requires 2 Radiant Runes. \n\nVigour inscribes a rune of protection onto an ally, causing light to be woven around them into a barrier of divine energy. The barrier stops all forms of attack, whether forged by steel or conjured by magic.",
+      "Description": "Apply a shield to target ally that absorbs up to <rt.heal>{LuminousAbsorb}</> damage. <rt.absorb>Luminous Barrier</> lasts for up to <rt.bold>12 seconds</>.\n\nDamage absorbed by <rt.absorb>Luminous Barrier</> is <rt.heal>reduced by {LuminousDmgRed}</>.\n\n<rt.effect>RESIDUAL LUMINOSITY</>\nWhen <rt.absorb>Luminous Barrier</> expires or is removed from a player, they gain <rt.effect>Residual Luminosity</> for <rt.bold>15 seconds</>, <rt.heal>reducing all damage taken by 5%</>.\n\n<rt.effect>GRAND DESIGN</>\n<rt.bold>Hold down the ability button</> until a cast bar is displayed to cast this ability on up to 4 targets at 60% power. Requires <rt.mana>2 Radiant Runes</>. \n\n<rt.greyitalic>Vigour inscribes a rune of protection onto an ally, causing light to be woven around them into a barrier of divine energy. The barrier stops all forms of attack, whether forged by steel or conjured by magic.</>",
+      "DescriptionText": "Apply a shield to target ally that absorbs up to {LuminousAbsorb} damage. Luminous Barrier lasts for up to 12 seconds.\n\nDamage absorbed by Luminous Barrier is reduced by {LuminousDmgRed}.\n\nRESIDUAL LUMINOSITY\nWhen Luminous Barrier expires or is removed from a player, they gain Residual Luminosity for 15 seconds, reducing all damage taken by 5%.\n\nGRAND DESIGN\nHold down the ability button until a cast bar is displayed to cast this ability on up to 4 targets at 60% power. Requires 2 Radiant Runes. \n\nVigour inscribes a rune of protection onto an ally, causing light to be woven around them into a barrier of divine energy. The barrier stops all forms of attack, whether forged by steel or conjured by magic.",
       "DescriptionTokens": {
         "LuminousAbsorb": null,
         "LuminousDmgRed": null
@@ -14898,22 +14882,6 @@
       "DescriptionText": null,
       "DescriptionTokens": null
     },
-    "1491": {
-      "Name": null,
-      "FSLID": 1491,
-      "DevName": "GA_Trait_Passive_OffensiveAbilityToHighestStatBuff",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": null,
-      "Spread": null,
-      "Description": null,
-      "DescriptionText": null,
-      "DescriptionTokens": null
-    },
     "1492": {
       "Name": null,
       "FSLID": 1492,
@@ -16576,8 +16544,8 @@
       "SpellCDAEffect": false,
       "SpellGrantsCDA": false,
       "Spread": null,
-      "Description": "The first hit of your <rt.absorb>Shield Throw</> triggers explosion of metal, <rt.warning>dealing damage equal to 40% of the hit that triggered it</> to the target and up to 7 additional nearby enemies.\n\n<rt.effect>Razor Shrapnel</> applies <rt.effect>Agonizing Wound</> to targets, reducing the damage they deal to you by 20% for 5 seconds.",
-      "DescriptionText": "The first hit of your Shield Throw triggers explosion of metal, dealing damage equal to 40% of the hit that triggered it to the target and up to 7 additional nearby enemies.\n\nRazor Shrapnel applies Agonizing Wound to targets, reducing the damage they deal to you by 20% for 5 seconds.",
+      "Description": "The first hit of your <rt.absorb>Shield Throw</> triggers explosion of metal, <rt.warning>dealing damage equal to 40% of the hit that triggered it</> to the target and up to 11 additional nearby enemies.\n\n<rt.effect>Razor Shrapnel</> applies <rt.effect>Agonizing Wound</> to targets, reducing the damage they deal to you by 20% for 5 seconds.",
+      "DescriptionText": "The first hit of your Shield Throw triggers explosion of metal, dealing damage equal to 40% of the hit that triggered it to the target and up to 11 additional nearby enemies.\n\nRazor Shrapnel applies Agonizing Wound to targets, reducing the damage they deal to you by 20% for 5 seconds.",
       "DescriptionTokens": {}
     },
     "1616": {
@@ -17716,22 +17684,6 @@
       "Description": "Summon Radiant Feline, increasing your movement speed.",
       "DescriptionText": "Summon Radiant Feline, increasing your movement speed.",
       "DescriptionTokens": {}
-    },
-    "1762": {
-      "Name": null,
-      "FSLID": 1762,
-      "DevName": "GA_Shared_Passive_PowerScaler",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": null,
-      "Spread": null,
-      "Description": null,
-      "DescriptionText": null,
-      "DescriptionTokens": null
     },
     "1763": {
       "Name": "Keelhaul",
@@ -20182,22 +20134,6 @@
       "DescriptionText": null,
       "DescriptionTokens": null
     },
-    "1948": {
-      "Name": null,
-      "FSLID": 1948,
-      "DevName": "GA_DungeonModifiers_Passive_PathFinder_BuffManager",
-      "Live": true,
-      "LiveBy": [
-        "dungeon"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": null,
-      "Spread": null,
-      "Description": null,
-      "DescriptionText": null,
-      "DescriptionTokens": null
-    },
     "1949": {
       "Name": null,
       "FSLID": 1949,
@@ -20245,22 +20181,6 @@
       "Description": null,
       "DescriptionText": null,
       "DescriptionTokens": null
-    },
-    "1952": {
-      "Name": "Obsidian Skin",
-      "FSLID": 1952,
-      "DevName": "GA_RelicPower_PersonalDamageReductionBuff",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": null,
-      "Spread": null,
-      "Description": "Grants <rt.heal>30% Damage Reduction</> to yourself for 9 seconds.\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
-      "DescriptionText": "Grants 30% Damage Reduction to yourself for 9 seconds.\n\nCan be used during Global Cooldown",
-      "DescriptionTokens": {}
     },
     "1953": {
       "Name": "Shackle Chuck",
@@ -21125,7 +21045,7 @@
       "DescriptionTokens": {}
     },
     "2052": {
-      "Name": "Mount Axulian Patriarch",
+      "Name": "Mount Axulian Slayer",
       "FSLID": 2052,
       "DevName": "GA_Mount_Cat_HeskyrT2",
       "Live": true,
@@ -21136,12 +21056,12 @@
       "SubSchool": null,
       "EnabledInGame": null,
       "Spread": null,
-      "Description": "Summon Axulian Patriarch, increasing your movement speed.",
-      "DescriptionText": "Summon Axulian Patriarch, increasing your movement speed.",
+      "Description": "Summon Axulian Slayer, increasing your movement speed.",
+      "DescriptionText": "Summon Axulian Slayer, increasing your movement speed.",
       "DescriptionTokens": {}
     },
     "2053": {
-      "Name": "Axulian Matriarch",
+      "Name": "Mount Axulian Matriarch",
       "FSLID": 2053,
       "DevName": "GA_Mount_Cat_HeskyrT1",
       "Live": true,
@@ -23924,25 +23844,6 @@
       "DescriptionText": null,
       "DescriptionTokens": null
     },
-    "2230": {
-      "Name": null,
-      "FSLID": 2230,
-      "DevName": "GA_Meiko_Talent_ExtraResourcesAtStart",
-      "Live": true,
-      "LiveBy": [
-        "hero"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": null,
-      "SpellCDHasted": false,
-      "SpellCDAEffect": false,
-      "SpellGrantsCDA": false,
-      "Spread": null,
-      "Description": null,
-      "DescriptionText": null,
-      "DescriptionTokens": null
-    },
     "2231": {
       "Name": null,
       "FSLID": 2231,
@@ -23980,25 +23881,6 @@
       "Description": "You gain <rt.effect>Matriarch Macabre</> for <rt.bold>10 seconds</>.\n\nIf used while <rt.absorb>Matriarch Macabre</> is already active, its duration is extended by <rt.bold>10 seconds</>.",
       "DescriptionText": "You gain Matriarch Macabre for 10 seconds.\n\nIf used while Matriarch Macabre is already active, its duration is extended by 10 seconds.",
       "DescriptionTokens": {}
-    },
-    "2237": {
-      "Name": null,
-      "FSLID": 2237,
-      "DevName": "GA_Ink_Talent_ExtraResourcesAtStart",
-      "Live": true,
-      "LiveBy": [
-        "hero"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": null,
-      "SpellCDHasted": false,
-      "SpellCDAEffect": false,
-      "SpellGrantsCDA": false,
-      "Spread": null,
-      "Description": null,
-      "DescriptionText": null,
-      "DescriptionTokens": null
     },
     "2238": {
       "Name": null,
@@ -24159,42 +24041,10 @@
       "DescriptionText": null,
       "DescriptionTokens": null
     },
-    "2248": {
-      "Name": null,
-      "FSLID": 2248,
-      "DevName": "GA_Finesse_Passive_StartWithSpiritPoints",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": null,
-      "Spread": null,
-      "Description": null,
-      "DescriptionText": null,
-      "DescriptionTokens": null
-    },
     "2249": {
       "Name": null,
       "FSLID": 2249,
       "DevName": "GA_Finesse_Passive_PowerToIncreasedCritChance",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": null,
-      "Spread": null,
-      "Description": null,
-      "DescriptionText": null,
-      "DescriptionTokens": null
-    },
-    "2250": {
-      "Name": null,
-      "FSLID": 2250,
-      "DevName": "GA_Finesse_Passive_PowerChanceSpirit",
       "Live": true,
       "LiveBy": [
         "item"
@@ -24255,74 +24105,10 @@
       "DescriptionText": null,
       "DescriptionTokens": null
     },
-    "2254": {
-      "Name": null,
-      "FSLID": 2254,
-      "DevName": "GA_Finesse_Passive_IncreasedBasicDamage",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": null,
-      "Spread": null,
-      "Description": null,
-      "DescriptionText": null,
-      "DescriptionTokens": null
-    },
-    "2255": {
-      "Name": null,
-      "FSLID": 2255,
-      "DevName": "GA_Finesse_Passive_DrainHealthBasedOnPrimaryStat",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": null,
-      "Spread": 0.0,
-      "Description": null,
-      "DescriptionText": null,
-      "DescriptionTokens": null
-    },
     "2256": {
       "Name": null,
       "FSLID": 2256,
       "DevName": "GA_Finesse_Passive_CurrentSpiritToBuff",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": null,
-      "Spread": null,
-      "Description": null,
-      "DescriptionText": null,
-      "DescriptionTokens": null
-    },
-    "2257": {
-      "Name": null,
-      "FSLID": 2257,
-      "DevName": "GA_Finesse_Passive_CritChanceToHealOrDamage",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "EnabledInGame": null,
-      "Spread": 0.2,
-      "Description": null,
-      "DescriptionText": null,
-      "DescriptionTokens": null
-    },
-    "2258": {
-      "Name": null,
-      "FSLID": 2258,
-      "DevName": "GA_Finesse_Passive_BasicToIncreasedPower",
       "Live": true,
       "LiveBy": [
         "item"
@@ -25327,6 +25113,889 @@
       "SpellCDAEffect": false,
       "SpellGrantsCDA": false,
       "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2314": {
+      "Name": null,
+      "FSLID": 2314,
+      "DevName": "GA_RelicPassive_PrimaryStatOnSpiritAbility",
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2315": {
+      "Name": "Blessing of the Bear",
+      "FSLID": 2315,
+      "DevName": "GA_SJ_DruidSpiritualist_InstantAoEBuff",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2316": {
+      "Name": "Toxic Thicket",
+      "FSLID": 2316,
+      "DevName": "GA_NF_DruidWildspeaker_Mines",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2317": {
+      "Name": "Howling Tempest",
+      "FSLID": 2317,
+      "DevName": "GA_NF_DruidElementalist_PlacedAoe",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Frost",
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2318": {
+      "Name": null,
+      "FSLID": 2318,
+      "DevName": "GA_NF_BossFeralist_MultiJump_DelayedAoePlacementDebuff_GrantedSpawner",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2323": {
+      "Name": null,
+      "FSLID": 2323,
+      "DevName": "GA_DungeonModifiers_Passive_PathFinder_BuffManager_GearBased",
+      "Live": true,
+      "LiveBy": [
+        "dungeon"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2324": {
+      "Name": null,
+      "FSLID": 2324,
+      "DevName": "GA_DungeonModifiers_Passive_Casual_InterruptableScaler",
+      "Live": true,
+      "LiveBy": [
+        "dungeon"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2325": {
+      "Name": null,
+      "FSLID": 2325,
+      "DevName": "GA_DungeonModifiers_Casual_AbilityApplier",
+      "Live": true,
+      "LiveBy": [
+        "dungeon"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2326": {
+      "Name": null,
+      "FSLID": 2326,
+      "DevName": "GA_RelicPassive_PrimaryStatOnCrit",
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2327": {
+      "Name": null,
+      "FSLID": 2327,
+      "DevName": "GA_RelicPassive_HasteProcOnAbilityUse",
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2328": {
+      "Name": null,
+      "FSLID": 2328,
+      "DevName": "GA_RelicPassive_AutoHealOnIncomingDamage",
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2333": {
+      "Name": "Blessed Elixir",
+      "FSLID": 2333,
+      "DevName": "GA_RelicPower_SelfReliantPotion",
+      "Live": true,
+      "LiveBy": [
+        "dungeon"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": "Instantly replenish <rt.heal>{percentage} of your maximum health</>. \n{NoneTankText}\n\n<rt.meikoability2>Can be used during Global Cooldown</>",
+      "DescriptionText": "Instantly replenish {percentage} of your maximum health. \n{NoneTankText}\n\nCan be used during Global Cooldown",
+      "DescriptionTokens": {
+        "percentage": null,
+        "NoneTankText": null
+      }
+    },
+    "2334": {
+      "Name": "Attack",
+      "FSLID": 2334,
+      "DevName": "GA_SJ_JungleRaptor_AutoAttackMelee",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2335": {
+      "Name": "Pestering Lunge",
+      "FSLID": 2335,
+      "DevName": "GA_SJ_JungleRaptor_Jump",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2336": {
+      "Name": "Spiritual Surge",
+      "FSLID": 2336,
+      "DevName": "GA_SJ_DruidSpiritualist_CastProjectile",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Blood",
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2337": {
+      "Name": "Attack",
+      "FSLID": 2337,
+      "DevName": "GA_SJ_DruidSpiritualist_AutoAttackMelee",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2338": {
+      "Name": "Wild Stampede",
+      "FSLID": 2338,
+      "DevName": "GA_SJ_DruidSpiritualist_Stampede",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Blood",
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2340": {
+      "Name": null,
+      "FSLID": 2340,
+      "DevName": "GA_Shared_Idle_Protecting",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2341": {
+      "Name": null,
+      "FSLID": 2341,
+      "DevName": "GA_Shared_Idle_Jumping",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2343": {
+      "Name": null,
+      "FSLID": 2343,
+      "DevName": "GA_Shared_Idle_Drumming",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2345": {
+      "Name": null,
+      "FSLID": 2345,
+      "DevName": "GA_Shared_Idle_Cooking_Sprinkling",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2346": {
+      "Name": null,
+      "FSLID": 2346,
+      "DevName": "GA_Shared_Idle_Cooking",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2347": {
+      "Name": null,
+      "FSLID": 2347,
+      "DevName": "GA_Shared_Idle_Concerned",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2348": {
+      "Name": null,
+      "FSLID": 2348,
+      "DevName": "GA_Shared_Idle_Channeling",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": null,
+      "Spread": null,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2349": {
+      "Name": "Attack",
+      "FSLID": 2349,
+      "DevName": "GA_NF_WoodlandBear_MeleeAutoAttack",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2351": {
+      "Name": "Primal Stomp",
+      "FSLID": 2351,
+      "DevName": "GA_NF_WoodlandBear_Stomp",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2352": {
+      "Name": "Rampant Charge",
+      "FSLID": 2352,
+      "DevName": "GA_NF_ForestBoar_Charge",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2353": {
+      "Name": "Attack",
+      "FSLID": 2353,
+      "DevName": "GA_NF_ForestBoar_AutoAttackMelee",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2354": {
+      "Name": "Wicked Bolt",
+      "FSLID": 2354,
+      "DevName": "GA_NF_DruidWildspeaker_CastProjectile",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Lightning",
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2355": {
+      "Name": "Attack",
+      "FSLID": 2355,
+      "DevName": "GA_NF_DruidWildspeaker_AutoAttackMelee",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2356": {
+      "Name": "Ensnaring Roots",
+      "FSLID": 2356,
+      "DevName": "GA_NF_DruidWildspeaker_RootAOEs",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2357": {
+      "Name": "Corrosive Poison",
+      "FSLID": 2357,
+      "DevName": "GA_NF_DruidWildspeaker_CastDebuff",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Lightning",
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2358": {
+      "Name": "Shoot",
+      "FSLID": 2358,
+      "DevName": "GA_NF_DruidScout_AutoAttackRanged",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2359": {
+      "Name": "Attack",
+      "FSLID": 2359,
+      "DevName": "GA_NF_DruidScout_AutoAttackMelee",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2360": {
+      "Name": "Barrage of Arrows",
+      "FSLID": 2360,
+      "DevName": "GA_NF_DruidScout_LineAttack",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2361": {
+      "Name": "Pounce",
+      "FSLID": 2361,
+      "DevName": "GA_NF_DruidScout_JumpCone",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2362": {
+      "Name": "Attack",
+      "FSLID": 2362,
+      "DevName": "GA_NF_DruidProtector_AutoAttack",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2363": {
+      "Name": "Attack",
+      "FSLID": 2363,
+      "DevName": "GA_NF_DruidGuardian_AutoAttackMelee",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2364": {
+      "Name": "Sweeping Strike",
+      "FSLID": 2364,
+      "DevName": "GA_NF_DruidGuardian_MultiCone",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2365": {
+      "Name": "Verdant Spear",
+      "FSLID": 2365,
+      "DevName": "GA_NF_DruidGuardian_CastProjectile",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Lightning",
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2366": {
+      "Name": "Attack",
+      "FSLID": 2366,
+      "DevName": "GA_NF_DruidFeralist_AutoAttackMelee",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2367": {
+      "Name": "Eagle's Fury",
+      "FSLID": 2367,
+      "DevName": "GA_NF_DruidFeralist_Spin",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Necromancy",
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2368": {
+      "Name": "Charge of the Stag",
+      "FSLID": 2368,
+      "DevName": "GA_NF_DruidFeralist_Charge",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2369": {
+      "Name": "Bear's Might",
+      "FSLID": 2369,
+      "DevName": "GA_NF_DruidFeralist_ChanneledAttack",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2370": {
+      "Name": "Chain Lightning",
+      "FSLID": 2370,
+      "DevName": "GA_NF_DruidElementalist_ChainLightning",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Lightning",
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2371": {
+      "Name": "Storm Blast",
+      "FSLID": 2371,
+      "DevName": "GA_NF_DruidElementalist_CastProjectile",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Lightning",
+      "EnabledInGame": null,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2372": {
+      "Name": "Attack",
+      "FSLID": 2372,
+      "DevName": "GA_NF_DruidElementalist_AutoAttackMelee",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2373": {
+      "Name": "Rock-a-Mole",
+      "FSLID": 2373,
+      "DevName": "GA_NF_DruidElementalist_GroundProjectileSpike",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Lightning",
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2374": {
+      "Name": "Attack",
+      "FSLID": 2374,
+      "DevName": "GA_NF_BossFeralist_AutoAttackMelee",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2375": {
+      "Name": "Eagle's Tempest",
+      "FSLID": 2375,
+      "DevName": "GA_NF_BossFeralist_Spin",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Necromancy",
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2376": {
+      "Name": "Soulrending Pounce",
+      "FSLID": 2376,
+      "DevName": "GA_NF_BossFeralist_MultiJump",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2377": {
+      "Name": "Charge of the Horned God",
+      "FSLID": 2377,
+      "DevName": "GA_NF_BossFeralist_Charge",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2378": {
+      "Name": "Fang and Claw",
+      "FSLID": 2378,
+      "DevName": "GA_NF_BossFeralist_ChanneledAttack",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2379": {
+      "Name": "Rage of the Ursine",
+      "FSLID": 2379,
+      "DevName": "GA_NF_BossFeralist_BreakArenaSlice",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "EnabledInGame": true,
+      "Spread": 0.2,
+      "Description": null,
+      "DescriptionText": null,
+      "DescriptionTokens": null
+    },
+    "2386": {
+      "Name": "Frozen Stomp",
+      "FSLID": 2386,
+      "DevName": "GA_IC_GreaterIceElemental_FrozenStomp",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Frost",
+      "EnabledInGame": true,
+      "Spread": 0.01,
       "Description": null,
       "DescriptionText": null,
       "DescriptionTokens": null
@@ -26756,7 +27425,8 @@
       "DevName": "GE_Shared_Cooldown_RelicScale",
       "Live": true,
       "LiveBy": [
-        "item"
+        "item",
+        "dungeon"
       ],
       "School": null,
       "SubSchool": null,
@@ -27051,22 +27721,6 @@
       "Name": "Bloodrite Fervor",
       "FSLID": 1000156,
       "DevName": "GE_RelicPower_PartyMoveSpeedBuff_Buff",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": "Magic",
-      "SubSchool": null,
-      "Preset": null,
-      "DefaultSpread": null,
-      "SpreadOverride": null,
-      "SpreadForm": null,
-      "Spread": null
-    },
-    "157": {
-      "Name": "Sanctuary",
-      "FSLID": 1000157,
-      "DevName": "GE_RelicPower_PartyDamageReductionBuff_Buff",
       "Live": true,
       "LiveBy": [
         "item"
@@ -44472,22 +45126,6 @@
       "SpreadForm": "preset",
       "Spread": 0.2
     },
-    "2138": {
-      "Name": null,
-      "FSLID": 1002138,
-      "DevName": "GE_Trait_WeaponHealDamageIncrease_Buff",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "Preset": null,
-      "DefaultSpread": null,
-      "SpreadOverride": null,
-      "SpreadForm": null,
-      "Spread": null
-    },
     "2141": {
       "Name": "Trait : Focused Haste",
       "FSLID": 1002141,
@@ -44748,70 +45386,6 @@
       "Name": "Treasure Hunter's Delight",
       "FSLID": 1002157,
       "DevName": "GE_Trait_RelicToDamageReduction_Buff",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "Preset": null,
-      "DefaultSpread": null,
-      "SpreadOverride": null,
-      "SpreadForm": null,
-      "Spread": null
-    },
-    "2158": {
-      "Name": "Navigator's Intuition : Spirit",
-      "FSLID": 1002158,
-      "DevName": "GE_Trait_OffensiveAbilityToHighestStatBuff_Buff_Spirit",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "Preset": null,
-      "DefaultSpread": null,
-      "SpreadOverride": null,
-      "SpreadForm": null,
-      "Spread": null
-    },
-    "2159": {
-      "Name": "Navigator's Intuition : Haste",
-      "FSLID": 1002159,
-      "DevName": "GE_Trait_OffensiveAbilityToHighestStatBuff_Buff_Haste",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "Preset": null,
-      "DefaultSpread": null,
-      "SpreadOverride": null,
-      "SpreadForm": null,
-      "Spread": null
-    },
-    "2160": {
-      "Name": "Navigator's Intuition : Expertise",
-      "FSLID": 1002160,
-      "DevName": "GE_Trait_OffensiveAbilityToHighestStatBuff_Buff_Expertise",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "Preset": null,
-      "DefaultSpread": null,
-      "SpreadOverride": null,
-      "SpreadForm": null,
-      "Spread": null
-    },
-    "2161": {
-      "Name": "Navigator's Intuition : Critical Strike",
-      "FSLID": 1002161,
-      "DevName": "GE_Trait_OffensiveAbilityToHighestStatBuff_Buff_Crit",
       "Live": true,
       "LiveBy": [
         "item"
@@ -48782,7 +49356,7 @@
       "DevName": "GE_Shared_Passive_PowerScaler",
       "Live": true,
       "LiveBy": [
-        "item"
+        "system"
       ],
       "School": null,
       "SubSchool": null,
@@ -51859,22 +52433,6 @@
       "SpreadForm": null,
       "Spread": null
     },
-    "2715": {
-      "Name": "Obsidian Skin",
-      "FSLID": 1002715,
-      "DevName": "GE_RelicPower_PersonalDamageReductionBuff_Buff",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": "Magic",
-      "SubSchool": null,
-      "Preset": null,
-      "DefaultSpread": null,
-      "SpreadOverride": null,
-      "SpreadForm": null,
-      "Spread": null
-    },
     "2716": {
       "Name": null,
       "FSLID": 1002716,
@@ -51965,7 +52523,7 @@
       ],
       "School": "Magic",
       "SubSchool": "Holy",
-      "Preset": "Empty",
+      "Preset": "FlatDamageHealingScaling",
       "DefaultSpread": 0.0,
       "SpreadOverride": null,
       "SpreadForm": "preset",
@@ -57448,90 +58006,10 @@
       "SpreadForm": null,
       "Spread": null
     },
-    "3187": {
-      "Name": "Heretic's Feast",
-      "FSLID": 1003187,
-      "DevName": "GE_Finesse_DrainHealthBasedOnPrimaryStat_Heal",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": "Magic",
-      "SubSchool": null,
-      "Preset": "Empty",
-      "DefaultSpread": 0.0,
-      "SpreadOverride": null,
-      "SpreadForm": "preset",
-      "Spread": 0.0
-    },
-    "3188": {
-      "Name": "Heretic's Feast",
-      "FSLID": 1003188,
-      "DevName": "GE_Finesse_DrainHealthBasedOnPrimaryStat_Damage",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": "Physical",
-      "SubSchool": null,
-      "Preset": "Empty",
-      "DefaultSpread": 0.0,
-      "SpreadOverride": null,
-      "SpreadForm": "preset",
-      "Spread": 0.0
-    },
     "3189": {
       "Name": "The Philosopher",
       "FSLID": 1003189,
       "DevName": "GE_Finesse_CurrentSpiritToBuff_Buff",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "Preset": null,
-      "DefaultSpread": null,
-      "SpreadOverride": null,
-      "SpreadForm": null,
-      "Spread": null
-    },
-    "3190": {
-      "Name": "The Usurper's Verdict",
-      "FSLID": 1003190,
-      "DevName": "GE_Finesse_CritChanceToHealOrDamage_Heal",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": "Magic",
-      "SubSchool": null,
-      "Preset": "HeroMagicalDirect",
-      "DefaultSpread": 0.2,
-      "SpreadOverride": null,
-      "SpreadForm": "preset",
-      "Spread": 0.2
-    },
-    "3191": {
-      "Name": "The Usurper's Verdict",
-      "FSLID": 1003191,
-      "DevName": "GE_Finesse_CritChanceToHealOrDamage_Damage",
-      "Live": true,
-      "LiveBy": [
-        "item"
-      ],
-      "School": "Physical",
-      "SubSchool": null,
-      "Preset": "HeroMagicalDirect",
-      "DefaultSpread": 0.2,
-      "SpreadOverride": null,
-      "SpreadForm": "preset",
-      "Spread": 0.2
-    },
-    "3192": {
-      "Name": "The Intrepid",
-      "FSLID": 1003192,
-      "DevName": "GE_Finesse_BasicToIncreasedPower",
       "Live": true,
       "LiveBy": [
         "item"
@@ -58568,38 +59046,6 @@
       "SpreadForm": null,
       "Spread": null
     },
-    "3263": {
-      "Name": null,
-      "FSLID": 1003263,
-      "DevName": "GE_Meiko_Talent_ExtraResourcesAtStart_HasBeenApplied",
-      "Live": true,
-      "LiveBy": [
-        "hero"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "Preset": null,
-      "DefaultSpread": null,
-      "SpreadOverride": null,
-      "SpreadForm": null,
-      "Spread": null
-    },
-    "3264": {
-      "Name": null,
-      "FSLID": 1003264,
-      "DevName": "GE_Ink_Talent_ExtraResourcesAtStart_HasBeenApplied",
-      "Live": true,
-      "LiveBy": [
-        "hero"
-      ],
-      "School": null,
-      "SubSchool": null,
-      "Preset": null,
-      "DefaultSpread": null,
-      "SpreadOverride": null,
-      "SpreadForm": null,
-      "Spread": null
-    },
     "3265": {
       "Name": null,
       "FSLID": 1003265,
@@ -58639,6 +59085,1014 @@
       "Live": true,
       "LiveBy": [
         "hero"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3268": {
+      "Name": "Draconic Might",
+      "FSLID": 1003268,
+      "DevName": "GE_RelicPassive_RelicPassive_PrimaryStatOnCrit",
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "School": "Magic",
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3269": {
+      "Name": "Drakheim's Absolution",
+      "FSLID": 1003269,
+      "DevName": "GE_RelicPassive_PrimaryStatOnSpiritAbility",
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "School": "Magic",
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3270": {
+      "Name": "Dark Prophecy",
+      "FSLID": 1003270,
+      "DevName": "GE_RelicPassive_HasteProcOnAbilityUse",
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "School": "Magic",
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3272": {
+      "Name": "Torment of Bael'Aurum",
+      "FSLID": 1003272,
+      "DevName": "GE_RelicPassive_AutoHealOnIncomingHighDamage_Heal",
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "School": "Magic",
+      "SubSchool": null,
+      "Preset": "HeroMagicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3273": {
+      "Name": "Torment of Bael'Aurum",
+      "FSLID": 1003273,
+      "DevName": "GE_RelicPassive_AutoHealOnIncomingHighDamageHeal_Cooldown_VisualBuff",
+      "Live": true,
+      "LiveBy": [
+        "item"
+      ],
+      "School": "Magic",
+      "SubSchool": "Shadow",
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3287": {
+      "Name": null,
+      "FSLID": 1003287,
+      "DevName": "GE_SJ_JungleRaptor_AutoAttackMelee_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3288": {
+      "Name": null,
+      "FSLID": 1003288,
+      "DevName": "GE_SJ_JungleRaptor_Jump_LandDamage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3289": {
+      "Name": null,
+      "FSLID": 1003289,
+      "DevName": "GE_SJ_DruidSpiritualist_CastProjectile_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Blood",
+      "Preset": "EnemyMagicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3290": {
+      "Name": null,
+      "FSLID": 1003290,
+      "DevName": "GE_SJ_DruidSpiritualist_AutoAttackMelee_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3291": {
+      "Name": "Stun",
+      "FSLID": 1003291,
+      "DevName": "GE_SJ_DruidSpiritualist_Stampede_Stun",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3292": {
+      "Name": null,
+      "FSLID": 1003292,
+      "DevName": "GE_SJ_DruidSpiritualist_Stampede_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Blood",
+      "Preset": "EnemyPhysicalArea",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3293": {
+      "Name": "Blessing of the Bear",
+      "FSLID": 1003293,
+      "DevName": "GE_SJ_DruidSpiritualist_InstantAoEBuff_HasteAndDamageBuff",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3294": {
+      "Name": null,
+      "FSLID": 1003294,
+      "DevName": "GE_NF_WoodlandBear_MeleeAutoAttack_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3298": {
+      "Name": null,
+      "FSLID": 1003298,
+      "DevName": "GE_NF_WoodlandBear_Stomp_SmallCirlce_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Nature",
+      "Preset": "EnemyMagicalArea",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3299": {
+      "Name": null,
+      "FSLID": 1003299,
+      "DevName": "GE_NF_WoodlandBear_Stomp_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Nature",
+      "Preset": "EnemyMagicalArea",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3300": {
+      "Name": null,
+      "FSLID": 1003300,
+      "DevName": "GE_NF_ForestBoar_Charge_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3301": {
+      "Name": null,
+      "FSLID": 1003301,
+      "DevName": "GE_NF_ForestBoar_AutoAttackMelee_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3302": {
+      "Name": null,
+      "FSLID": 1003302,
+      "DevName": "GE_NF_DruidWildspeaker_CastProjectile_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Blood",
+      "Preset": "EnemyMagicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3303": {
+      "Name": null,
+      "FSLID": 1003303,
+      "DevName": "GE_NF_DruidWildspeaker_AutoAttackMelee_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3304": {
+      "Name": "Stun",
+      "FSLID": 1003304,
+      "DevName": "GE_NF_DruidWildspeaker_RootAOEs_Stun",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3305": {
+      "Name": "Ensnaring Roots",
+      "FSLID": 1003305,
+      "DevName": "GE_NF_DruidWildspeaker_RootAOEs_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalArea",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3306": {
+      "Name": "Vitriolic Spores",
+      "FSLID": 1003306,
+      "DevName": "GE_NF_DruidWildspeaker_Mines_Dot",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Nature",
+      "Preset": "EnemyMagicalOT",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3307": {
+      "Name": "Corrosive Poison",
+      "FSLID": 1003307,
+      "DevName": "GE_NF_DruidWildspeaker_CastDebuff_Debuff",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Nature",
+      "Preset": "EnemyMagicalOT",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3308": {
+      "Name": "Auto Attack",
+      "FSLID": 1003308,
+      "DevName": "GE_NF_DruidScout_AutoAttackRanged_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3309": {
+      "Name": null,
+      "FSLID": 1003309,
+      "DevName": "GE_NF_DruidScout_AutoAttackMelee_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3310": {
+      "Name": null,
+      "FSLID": 1003310,
+      "DevName": "GE_NF_DruidScout_LineAttack_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Necromancy",
+      "Preset": "EnemyMagicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3311": {
+      "Name": "Pounce",
+      "FSLID": 1003311,
+      "DevName": "GE_NF_DruidScout_JumpCone_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalArea",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3312": {
+      "Name": "Auto Attack",
+      "FSLID": 1003312,
+      "DevName": "GE_NF_DruidProtector_AutoAttack_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3313": {
+      "Name": null,
+      "FSLID": 1003313,
+      "DevName": "GE_NF_DruidGuardian_AutoAttackMelee_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3314": {
+      "Name": null,
+      "FSLID": 1003314,
+      "DevName": "GE_NF_DruidGuardian_MultiCone_SelfSlow",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3315": {
+      "Name": null,
+      "FSLID": 1003315,
+      "DevName": "GE_NF_DruidGuardian_MultiCone_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3316": {
+      "Name": null,
+      "FSLID": 1003316,
+      "DevName": "GE_NF_DruidGuardian_CastProjectile_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Blood",
+      "Preset": "EnemyMagicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3317": {
+      "Name": "Auto Attack",
+      "FSLID": 1003317,
+      "DevName": "GE_NF_DruidFeralist_AutoAttackMelee_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3318": {
+      "Name": null,
+      "FSLID": 1003318,
+      "DevName": "GE_NF_DruidFeralist_Spin_Slow",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3319": {
+      "Name": null,
+      "FSLID": 1003319,
+      "DevName": "GE_NF_DruidFeralist_Spin_ShootDamage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Necromancy",
+      "Preset": "EnemyMagicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3320": {
+      "Name": null,
+      "FSLID": 1003320,
+      "DevName": "GE_NF_DruidFeralist_Spin_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Necromancy",
+      "Preset": "EnemyMagicalArea",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3321": {
+      "Name": "Stun",
+      "FSLID": 1003321,
+      "DevName": "GE_NF_DruidFeralist_Charge_Stun",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3322": {
+      "Name": "UB_CadavrianBannerman.WarHorn",
+      "FSLID": 1003322,
+      "DevName": "GE_NF_DruidFeralist_Charge_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3323": {
+      "Name": null,
+      "FSLID": 1003323,
+      "DevName": "GE_NF_DruidFeralist_ChanneledAttack_SelfSlow",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3324": {
+      "Name": null,
+      "FSLID": 1003324,
+      "DevName": "GE_NF_DruidFeralist_ChanneledAttack_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3325": {
+      "Name": null,
+      "FSLID": 1003325,
+      "DevName": "GE_NF_DruidElementalist_ChainLightning_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Lightning",
+      "Preset": "EnemyMagicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3326": {
+      "Name": null,
+      "FSLID": 1003326,
+      "DevName": "GE_NF_DruidElementalist_CastProjectile_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Blood",
+      "Preset": "EnemyMagicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3327": {
+      "Name": null,
+      "FSLID": 1003327,
+      "DevName": "GE_NF_DruidElementalist_AutoAttackMelee_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3328": {
+      "Name": null,
+      "FSLID": 1003328,
+      "DevName": "GE_NF_DruidElementalist_GroundProjectileSpike_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Blood",
+      "Preset": "EnemyMagicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3329": {
+      "Name": "Howling Tempest",
+      "FSLID": 1003329,
+      "DevName": "GE_NF_DruidElementalist_PlacedAoe_SlowDamage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Frost",
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3330": {
+      "Name": null,
+      "FSLID": 1003330,
+      "DevName": "GE_NF_DruidElementalist_PlacedAoe_InitialPulse_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Frost",
+      "Preset": "EnemyMagicalArea",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3331": {
+      "Name": "Howling Tempest",
+      "FSLID": 1003331,
+      "DevName": "GE_NF_DruidElementalist_PlacedAoe_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Frost",
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3332": {
+      "Name": "Auto Attack",
+      "FSLID": 1003332,
+      "DevName": "GE_NF_BossFeralist_AutoAttackMelee_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalAutoAttack",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3333": {
+      "Name": null,
+      "FSLID": 1003333,
+      "DevName": "GE_NF_BossFeralist_Spin_Slow",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3334": {
+      "Name": null,
+      "FSLID": 1003334,
+      "DevName": "GE_NF_BossFeralist_Spin_ShootDamage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Necromancy",
+      "Preset": "EnemyMagicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3335": {
+      "Name": null,
+      "FSLID": 1003335,
+      "DevName": "GE_NF_BossFeralist_Spin_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Necromancy",
+      "Preset": "EnemyMagicalArea",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3336": {
+      "Name": null,
+      "FSLID": 1003336,
+      "DevName": "GE_NF_BossFeralist_MultiJump_LandDamage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3337": {
+      "Name": "Brambled!",
+      "FSLID": 1003337,
+      "DevName": "GE_NF_BossFeralist_MultiJump_DelayedAoePlacementDebuff_Aoe_Slow",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3338": {
+      "Name": "Leeching Soul",
+      "FSLID": 1003338,
+      "DevName": "GE_NF_BossFeralist_MultiJump_DelayedAoePlacementDebuff_Aoe_Dot",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Blood",
+      "Preset": "EnemyMagicalOT",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3339": {
+      "Name": "Spirit Brambles",
+      "FSLID": 1003339,
+      "DevName": "GE_NF_BossFeralist_MultiJump_DelayedAoePlacementDebuff",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3340": {
+      "Name": null,
+      "FSLID": 1003340,
+      "DevName": "GE_NF_BossFeralist_Charge_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3341": {
+      "Name": null,
+      "FSLID": 1003341,
+      "DevName": "GE_NF_BossFeralist_ChanneledAttack_SelfSlow",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": null,
+      "SubSchool": null,
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3342": {
+      "Name": null,
+      "FSLID": 1003342,
+      "DevName": "GE_NF_BossFeralist_ChanneledAttack_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalDirect",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3343": {
+      "Name": "Vortex (Drazhul)",
+      "FSLID": 1003343,
+      "DevName": "GE_NF_BossFeralist_BreakArenaSlice_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": null,
+      "Preset": "EnemyPhysicalArea",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": 0.2,
+      "SpreadForm": "override",
+      "Spread": 0.2
+    },
+    "3355": {
+      "Name": "Rabid Leap: Gushing Wounds",
+      "FSLID": 1003355,
+      "DevName": "GE_MC_BloodGrunt_Jump_Dot",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Physical",
+      "SubSchool": "Bleed",
+      "Preset": "EnemyPhysicalOT",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": null,
+      "SpreadForm": "preset",
+      "Spread": 0.2
+    },
+    "3356": {
+      "Name": "Freezing",
+      "FSLID": 1003356,
+      "DevName": "GE_IC_GreaterIceElemental_FrozenStomp_Debuff",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Frost",
+      "Preset": null,
+      "DefaultSpread": null,
+      "SpreadOverride": null,
+      "SpreadForm": null,
+      "Spread": null
+    },
+    "3357": {
+      "Name": null,
+      "FSLID": 1003357,
+      "DevName": "GE_IC_GreaterIceElemental_FrozenStomp_Damage",
+      "Live": true,
+      "LiveBy": [
+        "mob"
+      ],
+      "School": "Magic",
+      "SubSchool": "Frost",
+      "Preset": "EnemyMagicalArea",
+      "DefaultSpread": 0.2,
+      "SpreadOverride": 0.01,
+      "SpreadForm": "override",
+      "Spread": 0.01
+    },
+    "3364": {
+      "Name": null,
+      "FSLID": 1003364,
+      "DevName": "GE_Shared_TransferThreat",
+      "Live": true,
+      "LiveBy": [
+        "dungeon"
       ],
       "School": null,
       "SubSchool": null,

@@ -30,7 +30,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.309,
+    "DefaultBaseHealthMultiplier": 2.505,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -92,7 +92,7 @@
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.291,
+    "DefaultBaseHealthMultiplier": 4.31,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -142,28 +142,32 @@
     "FoundInZones": [
       "The Heart of Tuzari",
       "Stormwatch",
+      "Urrak Markets",
       "Ransack of Drakheim"
     ],
     "PlacedInZones": [
       "DemonicRitual",
       "NightPatrol",
+      "UrrakMarkets",
       "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
       5,
       12,
+      21,
       23
     ],
     "FoundInZoneFSLIDs": [
       50005,
       50012,
+      50021,
       50023
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.665,
+    "DefaultBaseHealthMultiplier": 2.55,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -194,7 +198,7 @@
     }
   },
   "13": {
-    "FSLName": "Frenzied Looter",
+    "FSLName": "Gold Hoarder",
     "MobType": "NPC",
     "CreatureType": "Goblin",
     "DevName": "VV_FrenziedLooter",
@@ -224,7 +228,7 @@
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.4193,
+    "DefaultBaseHealthMultiplier": 1.4,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -277,7 +281,7 @@
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.2987,
+    "DefaultBaseHealthMultiplier": 1.2525,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -343,18 +347,26 @@
     "DevKey": "VV_ColdbrineFiend",
     "DevZoneName": "VikingVillageAttack",
     "FoundInZones": [
+      "Cithrel's Fall",
+      "Wyrmheart",
       "Ransack of Drakheim",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "FrozenKingdom",
+      "IceCave",
       "SnowPeak",
       "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
+      7,
+      8,
       23,
       31
     ],
     "FoundInZoneFSLIDs": [
+      50007,
+      50008,
       50023,
       50031
     ],
@@ -362,7 +374,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.5233,
+    "DefaultBaseHealthMultiplier": 2.62,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -424,7 +436,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 18.9242,
+    "DefaultBaseHealthMultiplier": 19.05,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -731,7 +743,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 18.2441,
+    "DefaultBaseHealthMultiplier": 18.75,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -899,7 +911,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 17.8773,
+    "DefaultBaseHealthMultiplier": 18.87,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -1032,7 +1044,7 @@
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.402,
+    "DefaultBaseHealthMultiplier": 3.155,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -1095,7 +1107,7 @@
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.7529,
+    "DefaultBaseHealthMultiplier": 3.85,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -1144,7 +1156,7 @@
         "KillScore": 0.0,
         "SpiritPointValue": 0.0,
         "KsSpEqual": true,
-        "DefaultBaseHealthMultiplier": 1.2343,
+        "DefaultBaseHealthMultiplier": 1.15,
         "Armor": 0.0,
         "Resist": 0.0,
         "Abilities": {
@@ -1157,7 +1169,7 @@
     }
   },
   "32": {
-    "FSLName": "Nightmist Cutthroat",
+    "FSLName": "Skulking Cutthroat",
     "MobType": "NPC",
     "CreatureType": "Orc",
     "DevName": "VV_BlackmistCutthroat",
@@ -1166,28 +1178,32 @@
     "FoundInZones": [
       "The Heart of Tuzari",
       "Stormwatch",
+      "Urrak Markets",
       "Ransack of Drakheim"
     ],
     "PlacedInZones": [
       "DemonicRitual",
       "NightPatrol",
+      "UrrakMarkets",
       "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
       5,
       12,
+      21,
       23
     ],
     "FoundInZoneFSLIDs": [
       50005,
       50012,
+      50021,
       50023
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.7952,
+    "DefaultBaseHealthMultiplier": 2.575,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -1250,7 +1266,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.0888,
+    "DefaultBaseHealthMultiplier": 2.95,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -1322,7 +1338,7 @@
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.1293,
+    "DefaultBaseHealthMultiplier": 2.755,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -1372,7 +1388,7 @@
     }
   },
   "36": {
-    "FSLName": "Urrak Witch",
+    "FSLName": "Urrak Vinetwister",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "UM_UrrakWitch",
@@ -1394,7 +1410,7 @@
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.9356,
+    "DefaultBaseHealthMultiplier": 3.025,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -1418,10 +1434,10 @@
           "Segment.Lifetime": "0.8",
           "Segment.SpawnInterval": "0.5",
           "Hit.StrengthCoefficient": "2.12",
-          "StunDuration": "2.1",
-          "Dot.StrengthCoefficient": "0.91",
+          "StunDuration": "1.25",
+          "Dot.StrengthCoefficient": "1.01",
           "Dot.TickInterval": "2.0",
-          "Puddle.Radius": "600.0",
+          "Puddle.Radius": "500.0",
           "Puddle.Lifetime": "8.0",
           "Live": true,
           "LiveBy": [
@@ -1432,10 +1448,10 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 287,
-          "StrengthCoefficient": "1.78",
+          "StrengthCoefficient": "1.44",
           "MaxRange": "500.0",
-          "MinCooldown": "2.4",
-          "MaxCooldown": "2.4",
+          "MinCooldown": "2.1",
+          "MaxCooldown": "2.1",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -1452,11 +1468,11 @@
           "InterruptCooldown": "12.0",
           "MinPostAbilityPadding": "0.5",
           "MaxPostAbilityPadding": "0.5",
-          "CastTime": "2.0",
+          "CastTime": "2.5",
           "MaxRange": "3000.0",
-          "Dot.Duration": "12.0",
-          "Dot.TickInterval": "3.0",
-          "Dot.StrengthCoefficient": "0.73",
+          "Dot.Duration": "10.0",
+          "Dot.TickInterval": "2.5",
+          "Dot.StrengthCoefficient": "0.51",
           "Dot.MaxStackCount": "10.0",
           "Live": true,
           "LiveBy": [
@@ -1492,29 +1508,33 @@
     }
   },
   "37": {
-    "FSLName": "Urrak Slaver",
+    "FSLName": "Cruel Slaver",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "UM_UrrakSlaver",
     "DevKey": "UM_UrrakSlaver",
     "DevZoneName": "UrrakMarkets",
     "FoundInZones": [
+      "Stormwatch",
       "Urrak Markets"
     ],
     "PlacedInZones": [
+      "NightPatrol",
       "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
+      12,
       21
     ],
     "FoundInZoneFSLIDs": [
+      50012,
       50021
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.8845,
+    "DefaultBaseHealthMultiplier": 2.755,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -1522,10 +1542,10 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 291,
-          "StrengthCoefficient": "1.77",
+          "StrengthCoefficient": "1.71",
           "MaxRange": "500.0",
-          "MinCooldown": "2.6",
-          "MaxCooldown": "2.6",
+          "MinCooldown": "2.7",
+          "MaxCooldown": "2.7",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -1623,7 +1643,7 @@
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 0.25,
+    "DefaultBaseHealthMultiplier": 0.15,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -1674,25 +1694,29 @@
     "DevZoneName": "UrrakMarkets",
     "FoundInZones": [
       "Everdawn Grove",
+      "Stormwatch",
       "Urrak Markets"
     ],
     "PlacedInZones": [
       "MythicForest",
+      "NightPatrol",
       "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       11,
+      12,
       21
     ],
     "FoundInZoneFSLIDs": [
       50011,
+      50012,
       50021
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.4943,
+    "DefaultBaseHealthMultiplier": 2.275,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -1720,9 +1744,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 294,
-          "DamageStrengthCoefficient": "1.08",
-          "MinCooldown": "2.2",
-          "MaxCooldown": "2.2",
+          "DamageStrengthCoefficient": "1.43",
+          "MinCooldown": "2.1",
+          "MaxCooldown": "2.1",
           "MaxRange": "500.0",
           "ACSpread": "0.2",
           "Live": true,
@@ -1759,7 +1783,7 @@
     }
   },
   "40": {
-    "FSLName": "",
+    "FSLName": "Bloodrite Chanter",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "UM_HornedSeer",
@@ -1767,25 +1791,29 @@
     "DevZoneName": "UrrakMarkets",
     "FoundInZones": [
       "Everdawn Grove",
+      "Stormwatch",
       "Urrak Markets"
     ],
     "PlacedInZones": [
       "MythicForest",
+      "NightPatrol",
       "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       11,
+      12,
       21
     ],
     "FoundInZoneFSLIDs": [
       50011,
+      50012,
       50021
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.4097,
+    "DefaultBaseHealthMultiplier": 2.4595,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -1875,7 +1903,7 @@
           "MaxPostAbilityPadding": "0.0",
           "MaxRange": "3000.0",
           "CastTime": "2.0",
-          "IntCoefficient": "2.8",
+          "IntCoefficient": "3.19",
           "InterruptCooldown": "6.0",
           "Live": true,
           "LiveBy": [
@@ -1895,25 +1923,29 @@
     "DevZoneName": "UrrakMarkets",
     "FoundInZones": [
       "Everdawn Grove",
+      "Stormwatch",
       "Urrak Markets"
     ],
     "PlacedInZones": [
       "MythicForest",
+      "NightPatrol",
       "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       11,
+      12,
       21
     ],
     "FoundInZoneFSLIDs": [
       50011,
+      50012,
       50021
     ],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.377,
+    "DefaultBaseHealthMultiplier": 4.45,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -1924,7 +1956,7 @@
           "InitialMinCooldown": "6.0",
           "InitialMaxCooldown": "20.0",
           "MinCooldown": "24.0",
-          "MaxCooldown": "24.0",
+          "MaxCooldown": "30.0",
           "MinPostAbilityPadding": "0.8",
           "MaxPostAbilityPadding": "0.8",
           "CastTime": "1.5",
@@ -1941,7 +1973,7 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 299,
-          "StrengthCoefficient": "1.98",
+          "StrengthCoefficient": "2.15",
           "MaxRange": "700.0",
           "Cooldown": "2.7",
           "CastingDuration": "0.67",
@@ -2002,7 +2034,7 @@
     }
   },
   "42": {
-    "FSLName": "Desecrator",
+    "FSLName": "Savage Hunter",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "UM_Desecrater",
@@ -2010,25 +2042,29 @@
     "DevZoneName": "UrrakMarkets",
     "FoundInZones": [
       "Everdawn Grove",
+      "Stormwatch",
       "Urrak Markets"
     ],
     "PlacedInZones": [
       "MythicForest",
+      "NightPatrol",
       "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       11,
+      12,
       21
     ],
     "FoundInZoneFSLIDs": [
       50011,
+      50012,
       50021
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.3073,
+    "DefaultBaseHealthMultiplier": 2.5575,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -2443,7 +2479,7 @@
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 0.703,
+    "DefaultBaseHealthMultiplier": 1.0505,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -2496,7 +2532,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 22.1188,
+    "DefaultBaseHealthMultiplier": 21.5588,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -2609,7 +2645,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 0.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 0.4834,
+    "DefaultBaseHealthMultiplier": 0.325,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -2665,22 +2701,26 @@
     "DevKey": "SH_RotheartRecluse",
     "DevZoneName": "SpiderForest",
     "FoundInZones": [
-      "Silken Hollow"
+      "Silken Hollow",
+      "Ruins of Regath"
     ],
     "PlacedInZones": [
+      "MoorCastle",
       "SpiderForest"
     ],
     "FoundInZoneGameIDs": [
-      24
+      24,
+      29
     ],
     "FoundInZoneFSLIDs": [
-      50024
+      50024,
+      50029
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.0115,
+    "DefaultBaseHealthMultiplier": 2.455,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -2726,22 +2766,26 @@
     "DevKey": "SH_GravesnareKidnapper",
     "DevZoneName": "SpiderForest",
     "FoundInZones": [
-      "Silken Hollow"
+      "Silken Hollow",
+      "Ruins of Regath"
     ],
     "PlacedInZones": [
+      "MoorCastle",
       "SpiderForest"
     ],
     "FoundInZoneGameIDs": [
-      24
+      24,
+      29
     ],
     "FoundInZoneFSLIDs": [
-      50024
+      50024,
+      50029
     ],
     "HasAIBC": true,
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.2457,
+    "DefaultBaseHealthMultiplier": 3.5757,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -2906,7 +2950,7 @@
     }
   },
   "94": {
-    "FSLName": "Water Elemental",
+    "FSLName": "Water Surger",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "SG_WaterElemental",
@@ -2914,25 +2958,33 @@
     "DevZoneName": "ShipGraveyard",
     "FoundInZones": [
       "Empyrean Sands",
-      "Sailor's Abyss"
+      "Wraithtide Vault",
+      "Sailor's Abyss",
+      "Ruins of Regath"
     ],
     "PlacedInZones": [
       "DesertDunes",
+      "MoorCastle",
+      "PirateRaid",
       "ShipGraveyard"
     ],
     "FoundInZoneGameIDs": [
       6,
-      15
+      13,
+      15,
+      29
     ],
     "FoundInZoneFSLIDs": [
       50006,
-      50015
+      50013,
+      50015,
+      50029
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.6846,
+    "DefaultBaseHealthMultiplier": 3.25,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -2940,9 +2992,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 479,
-          "StrengthCoefficient": "1.63",
+          "StrengthCoefficient": "1.71",
           "MaxRange": "600.0",
-          "Cooldown": "2.10",
+          "Cooldown": "2.30",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -2999,22 +3051,26 @@
     "DevKey": "SG_GhostOrc",
     "DevZoneName": "ShipGraveyard",
     "FoundInZones": [
+      "Wraithtide Vault",
       "Sailor's Abyss"
     ],
     "PlacedInZones": [
+      "PirateRaid",
       "ShipGraveyard"
     ],
     "FoundInZoneGameIDs": [
+      13,
       15
     ],
     "FoundInZoneFSLIDs": [
+      50013,
       50015
     ],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.3685,
+    "DefaultBaseHealthMultiplier": 4.45,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 0.5,
@@ -3061,29 +3117,33 @@
     }
   },
   "98": {
-    "FSLName": "Fading Raider",
+    "FSLName": "Fading Deckhand",
     "MobType": "NPC",
     "CreatureType": "Undead",
     "DevName": "SG_GhostFerventSoldier",
     "DevKey": "SG_GhostFerventSoldier",
     "DevZoneName": "ShipGraveyard",
     "FoundInZones": [
+      "Wraithtide Vault",
       "Sailor's Abyss"
     ],
     "PlacedInZones": [
+      "PirateRaid",
       "ShipGraveyard"
     ],
     "FoundInZoneGameIDs": [
+      13,
       15
     ],
     "FoundInZoneFSLIDs": [
+      50013,
       50015
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.5552,
+    "DefaultBaseHealthMultiplier": 2.35,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -3093,9 +3153,9 @@
           "FSLID": 493,
           "StrengthCoefficient": "1.28",
           "MaxRange": "400.0",
-          "Cooldown": "2.05",
+          "Cooldown": "2.1",
           "Buff.HasteGainPerStack": "0.02",
-          "Buff.Duration": "15.0",
+          "Buff.Duration": "5.0",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -3109,29 +3169,37 @@
     }
   },
   "99": {
-    "FSLName": "Deepbound Magi",
+    "FSLName": "Anguished Magister",
     "MobType": "NPC",
     "CreatureType": "Undead",
     "DevName": "SG_GhostEruptor",
     "DevKey": "SG_GhostEruptor",
     "DevZoneName": "ShipGraveyard",
     "FoundInZones": [
-      "Sailor's Abyss"
+      "Wyrmheart",
+      "Sailor's Abyss",
+      "Silken Hollow"
     ],
     "PlacedInZones": [
-      "ShipGraveyard"
+      "IceCave",
+      "ShipGraveyard",
+      "SpiderForest"
     ],
     "FoundInZoneGameIDs": [
-      15
+      8,
+      15,
+      24
     ],
     "FoundInZoneFSLIDs": [
-      50015
+      50008,
+      50015,
+      50024
     ],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.54,
+    "DefaultBaseHealthMultiplier": 4.35,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
@@ -3267,28 +3335,36 @@
     "FoundInZones": [
       "Empyrean Sands",
       "Wraithtide Vault",
-      "Sailor's Abyss"
+      "Sailor's Abyss",
+      "Silken Hollow",
+      "Ruins of Regath"
     ],
     "PlacedInZones": [
       "DesertDunes",
+      "MoorCastle",
       "PirateRaid",
-      "ShipGraveyard"
+      "ShipGraveyard",
+      "SpiderForest"
     ],
     "FoundInZoneGameIDs": [
       6,
       13,
-      15
+      15,
+      24,
+      29
     ],
     "FoundInZoneFSLIDs": [
       50006,
       50013,
-      50015
+      50015,
+      50024,
+      50029
     ],
     "HasAIBC": true,
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 0.8269,
+    "DefaultBaseHealthMultiplier": 1.25,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -3296,9 +3372,9 @@
         "MeleeAutoAttack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 497,
-          "StrengthCoefficient": "0.52",
+          "StrengthCoefficient": "0.78",
           "MaxRange": "350",
-          "Cooldown": "1.4",
+          "Cooldown": "1.6",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -3319,22 +3395,26 @@
     "DevKey": "SG_EchoingSpirit",
     "DevZoneName": "ShipGraveyard",
     "FoundInZones": [
+      "Wraithtide Vault",
       "Sailor's Abyss"
     ],
     "PlacedInZones": [
+      "PirateRaid",
       "ShipGraveyard"
     ],
     "FoundInZoneGameIDs": [
+      13,
       15
     ],
     "FoundInZoneFSLIDs": [
+      50013,
       50015
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.1293,
+    "DefaultBaseHealthMultiplier": 2.25,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -3362,7 +3442,7 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 498,
-          "StrengthCoefficient": "1.01",
+          "StrengthCoefficient": "1.44",
           "Cooldown": "1.6",
           "MaxRange": "450.0",
           "Live": true,
@@ -3437,22 +3517,26 @@
     "DevKey": "SG_DrownedSailor",
     "DevZoneName": "ShipGraveyard",
     "FoundInZones": [
+      "Wraithtide Vault",
       "Sailor's Abyss"
     ],
     "PlacedInZones": [
+      "PirateRaid",
       "ShipGraveyard"
     ],
     "FoundInZoneGameIDs": [
+      13,
       15
     ],
     "FoundInZoneFSLIDs": [
+      50013,
       50015
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.053,
+    "DefaultBaseHealthMultiplier": 2.255,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -3479,7 +3563,7 @@
           "CastDuration": "2.0",
           "Dot.Duration": "18.0",
           "Dot.Period": "3.00",
-          "Dot.StrengthCoefficient": "1.85",
+          "Dot.StrengthCoefficient": "1.495",
           "HasteReductionMultiplier.Duration": "18.0",
           "HasteReductionMultiplier.TickPeriod": "0.0",
           "HasteReductionMultiplier.HasteMultiplier": "1.00",
@@ -3548,7 +3632,7 @@
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.1128,
+    "DefaultBaseHealthMultiplier": 1.15,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -3611,7 +3695,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 21.4767,
+    "DefaultBaseHealthMultiplier": 21.0567,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -3745,29 +3829,33 @@
     }
   },
   "107": {
-    "FSLName": "Tide Witch",
+    "FSLName": "Witch of the Tides",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "PR_WaterCaster",
     "DevKey": "PR_WaterCaster",
     "DevZoneName": "PirateRaid",
     "FoundInZones": [
-      "Wraithtide Vault"
+      "Wraithtide Vault",
+      "Ruins of Regath"
     ],
     "PlacedInZones": [
+      "MoorCastle",
       "PirateRaid"
     ],
     "FoundInZoneGameIDs": [
-      13
+      13,
+      29
     ],
     "FoundInZoneFSLIDs": [
-      50013
+      50013,
+      50029
     ],
     "HasAIBC": true,
-    "KillScore": 5.0,
+    "KillScore": 4.0,
     "SpiritPointValue": 5.0,
-    "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.3822,
+    "KsSpEqual": false,
+    "DefaultBaseHealthMultiplier": 3.345,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -3775,9 +3863,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 525,
-          "StrengthCoefficient": "0.71",
+          "StrengthCoefficient": "1.12",
           "MaxRange": "500.0",
-          "Cooldown": "1.5",
+          "Cooldown": "1.6",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -3821,22 +3909,26 @@
     "DevKey": "PR_TigerCat",
     "DevZoneName": "PirateRaid",
     "FoundInZones": [
-      "Wraithtide Vault"
+      "Wraithtide Vault",
+      "Urrak Markets"
     ],
     "PlacedInZones": [
-      "PirateRaid"
+      "PirateRaid",
+      "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
-      13
+      13,
+      21
     ],
     "FoundInZoneFSLIDs": [
-      50013
+      50013,
+      50021
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.4529,
+    "DefaultBaseHealthMultiplier": 2.65,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
@@ -3845,9 +3937,9 @@
         "MeleeAutoAttack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 532,
-          "StrengthCoefficient": "1.8",
+          "StrengthCoefficient": "1.71",
           "MaxRange": "600.0",
-          "Cooldown": "2.2",
+          "Cooldown": "2.25",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -3900,7 +3992,7 @@
     }
   },
   "110": {
-    "FSLName": "Bleachbone Brute",
+    "FSLName": "Bleachbone Bouncer",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "PR_Swashbuckler",
@@ -3922,7 +4014,7 @@
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.4771,
+    "DefaultBaseHealthMultiplier": 3.65,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 0.85,
@@ -3931,7 +4023,7 @@
         "MeleeAutoAttack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 534,
-          "StrengthCoefficient": "3.46",
+          "StrengthCoefficient": "3.15",
           "MaxRange": "700.0",
           "Cooldown": "2.8",
           "CastingDuration": "0.67",
@@ -3993,7 +4085,7 @@
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.7044,
+    "DefaultBaseHealthMultiplier": 2.225,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -4001,7 +4093,7 @@
         "MeleeAutoAttack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 545,
-          "StrengthCoefficient": "1.02",
+          "StrengthCoefficient": "1.22",
           "Cooldown": "1.8",
           "MaxRange": "400.0",
           "Live": true,
@@ -4034,7 +4126,7 @@
     }
   },
   "115": {
-    "FSLName": "Greedspawn Sentinel",
+    "FSLName": "Greedspawned Demon",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "PR_PossessedArmor",
@@ -4042,25 +4134,33 @@
     "DevZoneName": "PirateRaid",
     "FoundInZones": [
       "Empyrean Sands",
-      "Wraithtide Vault"
+      "Wraithtide Vault",
+      "Urrak Markets",
+      "Silken Hollow"
     ],
     "PlacedInZones": [
       "DesertDunes",
-      "PirateRaid"
+      "PirateRaid",
+      "SpiderForest",
+      "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       6,
-      13
+      13,
+      21,
+      24
     ],
     "FoundInZoneFSLIDs": [
       50006,
-      50013
+      50013,
+      50021,
+      50024
     ],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 5.212,
+    "DefaultBaseHealthMultiplier": 4.85,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -4094,8 +4194,8 @@
           "DevName": "MeleeAutoAttack",
           "FSLID": 551,
           "MaxRange": "500.0",
-          "Cooldown": "1.8",
-          "IntellectCoefficient": "1.47",
+          "Cooldown": "2.25",
+          "IntellectCoefficient": "3.19",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -4140,7 +4240,7 @@
     }
   },
   "116": {
-    "FSLName": "Gravescythe",
+    "FSLName": "Spectre of Avarice",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "PR_PirateGrunt",
@@ -4148,25 +4248,33 @@
     "DevZoneName": "PirateRaid",
     "FoundInZones": [
       "Empyrean Sands",
-      "Wraithtide Vault"
+      "Wraithtide Vault",
+      "Urrak Markets",
+      "Silken Hollow"
     ],
     "PlacedInZones": [
       "DesertDunes",
-      "PirateRaid"
+      "PirateRaid",
+      "SpiderForest",
+      "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       6,
-      13
+      13,
+      21,
+      24
     ],
     "FoundInZoneFSLIDs": [
       50006,
-      50013
+      50013,
+      50021,
+      50024
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
-    "SpiritPointValue": 2.0,
-    "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 2.3251,
+    "SpiritPointValue": 3.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 2.75,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -4193,9 +4301,9 @@
         "MeleeAutoAttack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 554,
-          "StrengthCoefficient": "1.79",
+          "StrengthCoefficient": "1.775",
           "MaxRange": "400.0",
-          "Cooldown": "2.7",
+          "Cooldown": "2.5",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -4209,7 +4317,7 @@
     }
   },
   "118": {
-    "FSLName": "Greedbound Prism",
+    "FSLName": "Gilded Fiend",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "PR_GoldenConstructVolatile",
@@ -4217,25 +4325,33 @@
     "DevZoneName": "PirateRaid",
     "FoundInZones": [
       "Empyrean Sands",
-      "Wraithtide Vault"
+      "Wraithtide Vault",
+      "Urrak Markets",
+      "Silken Hollow"
     ],
     "PlacedInZones": [
       "DesertDunes",
-      "PirateRaid"
+      "PirateRaid",
+      "SpiderForest",
+      "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       6,
-      13
+      13,
+      21,
+      24
     ],
     "FoundInZoneFSLIDs": [
       50006,
-      50013
+      50013,
+      50021,
+      50024
     ],
     "HasAIBC": false,
-    "KillScore": 2.0,
-    "SpiritPointValue": 2.0,
+    "KillScore": 3.0,
+    "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.3261,
+    "DefaultBaseHealthMultiplier": 2.6261,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -4268,7 +4384,7 @@
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.2124,
+    "DefaultBaseHealthMultiplier": 3.6125,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -4419,7 +4535,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 21.6116,
+    "DefaultBaseHealthMultiplier": 21.1116,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -4745,7 +4861,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 22.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 10.5495,
+    "DefaultBaseHealthMultiplier": 9.695,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -4756,9 +4872,9 @@
         "Attack": {
           "DevName": "AutoAttackMelee",
           "FSLID": 579,
-          "StrengthCoefficient": "8.70",
+          "StrengthCoefficient": "8.20",
           "MaxRange": "500.0",
-          "Cooldown": "2.1",
+          "Cooldown": "2.2",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -4773,13 +4889,13 @@
           "PostAbilityPadding": "1.5",
           "DontSendBackDuration": "90.0",
           "Debuff.DamageScale": "1.00",
-          "Debuff.MoveSpeedMultiplier": "1.5",
-          "Dot.StrengthCoefficient": "0.32",
+          "Debuff.MoveSpeedMultiplier": "1.65",
+          "Dot.StrengthCoefficient": "0.38",
           "Dot.TickInterval": "1.5",
           "ThreatToAddWhenNoLongerGhost": "10000.0",
-          "ReturnBuff.Duration": "20.0",
-          "ReturnBuff.DamageScale": "1.2",
-          "ReturnBuff.HealScale": "1.2",
+          "ReturnBuff.Duration": "15.0",
+          "ReturnBuff.DamageScale": "1.40",
+          "ReturnBuff.HealScale": "1.40",
           "Live": true,
           "LiveBy": [
             "mob",
@@ -4795,8 +4911,8 @@
           "PostAbilityPadding": "1.5",
           "MaxRadius": "2000.0",
           "CastTime": "0.5",
-          "Duration": "8.90",
-          "MoveSpeedMultiplier": "0.25",
+          "Duration": "6.90",
+          "MoveSpeedMultiplier": "0.425",
           "Damage.TickInterval": "0.5",
           "Damage.StrengthCoefficient": "2.95",
           "Damage.Radius": "350.0",
@@ -4938,7 +5054,7 @@
               "StunDuration": "1.0",
               "RespawnDelay": "10.0",
               "Radius": "75.0",
-              "StrengthCoefficient": "1.57",
+              "StrengthCoefficient": "2.87",
               "Live": true,
               "LiveBy": [
                 "mob"
@@ -4991,7 +5107,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 21.957,
+    "DefaultBaseHealthMultiplier": 20.857,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -5005,9 +5121,9 @@
           "InitialCooldown": "7.0",
           "Cooldown": "17.0",
           "MaxRange": "3000.0",
-          "CastingDuration": "3.0",
-          "StrengthCoefficient": "7.02",
-          "DebuffSlow.Duration": "10.0",
+          "CastingDuration": "2.5",
+          "StrengthCoefficient": "8.41",
+          "DebuffSlow.Duration": "6.0",
           "DebuffSlow.MoveSpeedMultiplier": "0.30",
           "DebuffSlow.HasteReduction": "0.50",
           "Duration": "2.0",
@@ -5033,7 +5149,7 @@
           "MaxCooldown": "40.0",
           "MinSpawnRadius": "1000.0",
           "MaxSpawnRadius": "1800.0",
-          "NumPools": "2.0",
+          "NumPools": "3.0",
           "Pool.SpawnStaggerTime": "0.50",
           "Pool.DetonateTime": "5.0",
           "Pool.Radius": "400.0",
@@ -5194,7 +5310,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.0792,
+    "DefaultBaseHealthMultiplier": 2.375,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -5204,7 +5320,7 @@
           "FSLID": 1473,
           "Cooldown": "2.0",
           "MaxRange": "500.0",
-          "StrengthCoefficient": "0.68",
+          "StrengthCoefficient": "0.88",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -5214,8 +5330,8 @@
         "RangedAutoAttack": {
           "DevName": "RangedAutoAttack",
           "FSLID": 603,
-          "StrengthCoefficient": "1.43",
-          "Cooldown": "2.2",
+          "StrengthCoefficient": "1.44",
+          "Cooldown": "1.6",
           "MaxRange": "3000.0",
           "Live": true,
           "LiveBy": [
@@ -5274,7 +5390,7 @@
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.2757,
+    "DefaultBaseHealthMultiplier": 2.975,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
@@ -5284,8 +5400,8 @@
           "DevName": "MeleeAutoAttack",
           "FSLID": 607,
           "MaxRange": "500.0",
-          "StrengthCoefficient": "1.30",
-          "Cooldown": "2.0",
+          "StrengthCoefficient": "1.81",
+          "Cooldown": "2.1",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -5299,7 +5415,7 @@
         "ChanneledActorSpawner": {
           "DevName": "ChanneledActorSpawner",
           "FSLID": 608,
-          "PreCastTime": "1.5",
+          "PreCastTime": "2.0",
           "Duration": "4.1",
           "SpawnRate": "1.0",
           "InitialMinCooldown": "3.0",
@@ -5362,11 +5478,13 @@
       "The Heart of Tuzari",
       "Empyrean Sands",
       "Wraithtide Vault",
-      "Urrak Markets"
+      "Urrak Markets",
+      "Ruins of Regath"
     ],
     "PlacedInZones": [
       "DemonicRitual",
       "DesertDunes",
+      "MoorCastle",
       "PirateRaid",
       "UrrakMarkets"
     ],
@@ -5374,19 +5492,21 @@
       5,
       6,
       13,
-      21
+      21,
+      29
     ],
     "FoundInZoneFSLIDs": [
       50005,
       50006,
       50013,
-      50021
+      50021,
+      50029
     ],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.143,
+    "DefaultBaseHealthMultiplier": 4.35,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -5450,7 +5570,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.4254,
+    "DefaultBaseHealthMultiplier": 2.65,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -5458,10 +5578,10 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 614,
-          "MinCooldown": "2.0",
-          "MaxCooldown": "2.0",
+          "MinCooldown": "2.1",
+          "MaxCooldown": "2.1",
           "MaxRange": "500.0",
-          "StrengthCoefficient": "0.87",
+          "StrengthCoefficient": "1.02",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -5500,7 +5620,7 @@
           "InterruptCooldown": "6.0",
           "MaxRange": "4000.0",
           "CastTime": "2.0",
-          "StrengthCoefficient": "2.33",
+          "StrengthCoefficient": "2.85",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -5517,10 +5637,10 @@
           "Cooldown": "18.0",
           "InterruptCooldown": "14.0",
           "SpawnInFrontOffset": "250.0",
-          "Projectile.Duration": "8.0",
+          "Projectile.Duration": "6.0",
           "Projectile.Radius": "100.0",
-          "Projectile.Velocity": "400.0",
-          "Projectile.IntellectCoefficient": "3.25",
+          "Projectile.Velocity": "550.0",
+          "Projectile.IntellectCoefficient": "4.15",
           "Zap.IntellectCoefficient": "1.25",
           "Zap.TickInterval": "0.5",
           "Zap.Radius": "750.0",
@@ -5560,7 +5680,7 @@
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.4306,
+    "DefaultBaseHealthMultiplier": 1.25,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -5568,10 +5688,10 @@
         "MeleeAutoAttack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 617,
-          "MinCooldown": "1.3",
-          "MaxCooldown": "1.3",
+          "MinCooldown": "1.7",
+          "MaxCooldown": "1.7",
           "MaxRange": "500.0",
-          "StrengthCoefficient": "0.63",
+          "StrengthCoefficient": "0.97",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -5611,7 +5731,7 @@
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.7403,
+    "DefaultBaseHealthMultiplier": 2.125,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -5622,7 +5742,7 @@
           "MinCooldown": "1.6",
           "MaxCooldown": "1.6",
           "MaxRange": "500.0",
-          "StrengthCoefficient": "1.18",
+          "StrengthCoefficient": "1.455",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -5669,7 +5789,7 @@
           "MinPostAbilityPadding": "1.0",
           "MaxPostAbilityPadding": "1.0",
           "MaxRange": "4000.0",
-          "CastTime": "2.0",
+          "CastTime": "1.0",
           "StrengthCoefficient": "2.32",
           "Live": true,
           "LiveBy": [
@@ -5707,7 +5827,7 @@
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.2411,
+    "DefaultBaseHealthMultiplier": 3.45,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -5715,10 +5835,10 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 625,
-          "MinCooldown": "2.9",
-          "MaxCooldown": "2.9",
+          "MinCooldown": "2.8",
+          "MaxCooldown": "2.8",
           "MaxRange": "500.0",
-          "StrengthCoefficient": "2.20",
+          "StrengthCoefficient": "2.615",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -5737,7 +5857,7 @@
           "MaxCooldown": "30.0",
           "InterruptCooldown": "26.0",
           "PostAbilityPadding": "1.5",
-          "CastTime": "4.0",
+          "CastTime": "3.0",
           "Duration": "6.0",
           "IncomingDamageMultiplier": "0.50",
           "Radius": "2000.0",
@@ -5759,7 +5879,7 @@
           "PostAbilityPadding": "1.5",
           "MaxRange": "500.0",
           "CastTime": "1.5",
-          "StrengthCoefficient": "4.5",
+          "StrengthCoefficient": "5.15",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -5792,7 +5912,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 20.4755,
+    "DefaultBaseHealthMultiplier": 20.1755,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -5968,7 +6088,7 @@
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.4943,
+    "DefaultBaseHealthMultiplier": 2.125,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -5976,9 +6096,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 618,
-          "StrengthCoefficient": "1.12",
+          "StrengthCoefficient": "1.22",
           "MaxRange": "500.0",
-          "Cooldown": "1.8",
+          "Cooldown": "1.7",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -6038,7 +6158,7 @@
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 0.7965,
+    "DefaultBaseHealthMultiplier": 1.2,
     "Armor": null,
     "Resist": null,
     "PassiveMoveSpeed": 1.0,
@@ -6049,7 +6169,7 @@
           "FSLID": 638,
           "MinCooldown": "1.5",
           "MaxCooldown": "1.5",
-          "StrengthCoefficient": "0.83",
+          "StrengthCoefficient": "0.85",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -6126,7 +6246,7 @@
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.3898,
+    "DefaultBaseHealthMultiplier": 1.255,
     "Armor": null,
     "Resist": null,
     "PassiveMoveSpeed": 1.0,
@@ -6137,7 +6257,7 @@
           "FSLID": 642,
           "MinCooldown": "2.1",
           "MaxCooldown": "2.1",
-          "StrengthCoefficient": "1.62",
+          "StrengthCoefficient": "1.02",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -6158,7 +6278,7 @@
           "MaxCooldown": "20.0",
           "MaxRange": "600.0",
           "CastTime": "1.5",
-          "StrengthCoefficient": "3.19",
+          "StrengthCoefficient": "2.15",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -6348,7 +6468,7 @@
     }
   },
   "139": {
-    "FSLName": "Bloodstone Goliath",
+    "FSLName": "Bloodstone Colossus",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "MF_DawnstoneGuardian",
@@ -6370,7 +6490,7 @@
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.837,
+    "DefaultBaseHealthMultiplier": 4.65,
     "Armor": null,
     "Resist": null,
     "PassiveMoveSpeed": 1.0,
@@ -6399,9 +6519,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 648,
-          "MinCooldown": "3.2",
-          "MaxCooldown": "3.2",
-          "StrengthCoefficient": "3.44",
+          "MinCooldown": "3.1",
+          "MaxCooldown": "3.1",
+          "StrengthCoefficient": "3.5",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -6554,7 +6674,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 22.1965,
+    "DefaultBaseHealthMultiplier": 21.395,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -6843,7 +6963,7 @@
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.5986,
+    "DefaultBaseHealthMultiplier": 1.875,
     "Armor": null,
     "Resist": null,
     "PassiveMoveSpeed": 1.0,
@@ -6874,9 +6994,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 664,
-          "MinCooldown": "2.1",
-          "MaxCooldown": "2.1",
-          "StrengthCoefficient": "1.44",
+          "MinCooldown": "2.2",
+          "MaxCooldown": "2.2",
+          "StrengthCoefficient": "1.47",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -6927,7 +7047,7 @@
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 0.7128,
+    "DefaultBaseHealthMultiplier": 1.25,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.2,
@@ -7003,18 +7123,22 @@
     "DevKey": "IC_Elf_Shardling",
     "DevZoneName": "IceCave",
     "FoundInZones": [
+      "Cithrel's Fall",
       "Wyrmheart",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "FrozenKingdom",
       "IceCave",
       "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
+      7,
       8,
       31
     ],
     "FoundInZoneFSLIDs": [
+      50007,
       50008,
       50031
     ],
@@ -7059,7 +7183,7 @@
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.169,
+    "DefaultBaseHealthMultiplier": 3.85,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -7067,8 +7191,8 @@
         "AutoAttackMelee": {
           "DevName": "AutoAttackMelee",
           "FSLID": 65,
-          "StrengthCoefficient": "1.12",
-          "Cooldown": "1.7",
+          "StrengthCoefficient": "2.05",
+          "Cooldown": "2.3",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -7129,7 +7253,7 @@
           "InitialMaxCooldown": "12.0",
           "Cooldown": "24.0",
           "InterruptCooldown": "20.0",
-          "ChannelDuration": "6.0",
+          "ChannelDuration": "5.0",
           "ChannelTickInterval": "0.5",
           "MaxRange": "3000.0",
           "Live": true,
@@ -7142,7 +7266,7 @@
     }
   },
   "154": {
-    "FSLName": "Greater Ice Elemental",
+    "FSLName": "Glacial Colossus",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "IC_GreaterIceElemental",
@@ -7169,10 +7293,10 @@
       50031
     ],
     "HasAIBC": true,
-    "KillScore": 8.0,
-    "SpiritPointValue": 8.0,
+    "KillScore": 6.0,
+    "SpiritPointValue": 6.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 5.819,
+    "DefaultBaseHealthMultiplier": 5.05,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -7202,7 +7326,7 @@
           "ConeRange": "3000",
           "ConeAngle": "45.0",
           "MovementSpeedMultiplier": "0.5",
-          "SlowDuration": "6.0",
+          "SlowDuration": "4.0",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -7210,24 +7334,27 @@
           "Spread": 0.2
         }
       },
-      "Defensive": {},
-      "Mechanic": {
-        "EarthStomp": {
-          "DevName": "EarthStomp",
-          "FSLID": 702,
-          "CastTime": "2.0",
+      "Defensive": {
+        "Frozen Stomp": {
+          "DevName": "FrozenStomp",
+          "FSLID": 2386,
+          "CastTime": "1.5",
           "MaxRange": "600.0",
-          "StrengthCoefficient": "2.02",
-          "InitalMinCooldown": "5.0",
-          "InitialMaxCooldown": "8.0",
-          "Cooldown": "10.0",
-          "Radius": "1000.0",
+          "StrengthCoefficient": "1.96",
+          "InitalMinCooldown": "10.0",
+          "InitialMaxCooldown": "10.0",
+          "Cooldown": "8.0",
+          "Radius": "4000.0",
+          "Debuff.Duration": "16.0",
+          "Debuff.DamageTakenPerStackMultiplier": "1.15",
           "Live": true,
           "LiveBy": [
             "mob"
           ],
           "Spread": 0.01
-        },
+        }
+      },
+      "Mechanic": {
         "Upheaval": {
           "DevName": "Upheaval",
           "FSLID": 701,
@@ -7281,7 +7408,7 @@
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.0256,
+    "DefaultBaseHealthMultiplier": 1.125,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -7289,9 +7416,9 @@
         "AutoAttackMelee": {
           "DevName": "AutoAttackMelee",
           "FSLID": 707,
-          "StrengthCoefficient": "0.93",
+          "StrengthCoefficient": "1.12",
           "MaxRange": "500.0",
-          "Cooldown": "2.1",
+          "Cooldown": "2.0",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -7347,7 +7474,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 19.7951,
+    "DefaultBaseHealthMultiplier": 19.795,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -7499,7 +7626,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.1203,
+    "DefaultBaseHealthMultiplier": 2.15,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -7522,7 +7649,7 @@
           "InitialMinCooldown": "9",
           "InitialMaxCooldown": "21",
           "StrengthCoefficient": "0.365",
-          "ChannelDuration": "3.6",
+          "ChannelDuration": "2.5",
           "ChannelTickInterval": "0.30",
           "CountDown": "2.0",
           "Cooldown": "30",
@@ -7543,7 +7670,7 @@
           "InitialMaxCooldown": "9",
           "Cooldown": "18",
           "CastTime": "2.0",
-          "StrengthCoefficient": "1.965",
+          "StrengthCoefficient": "1.765",
           "ReducedHealingTakenDebuff.Duration": "18.0",
           "ReducedHealingTakenDebuff.TickPeriod": "0.0",
           "ReducedHealingTakenDebuff.HealScaleMultiplier": "0.30",
@@ -7559,7 +7686,7 @@
     }
   },
   "160": {
-    "FSLName": "Spellbound Golem",
+    "FSLName": "Raging Ice Elemental",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "FK_IceGolem",
@@ -7589,7 +7716,7 @@
     "KillScore": 5.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 4.182,
+    "DefaultBaseHealthMultiplier": 3.415,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -7597,7 +7724,7 @@
         "AutoAttack": {
           "DevName": "AutoAttack",
           "FSLID": 722,
-          "DamageStrengthCoefficient": "1.95",
+          "DamageStrengthCoefficient": "2.55",
           "Cooldown": "2.5",
           "MaxRange": "500.0",
           "Live": true,
@@ -7634,7 +7761,7 @@
           "DevName": "OnDeathSpawnMobs",
           "FSLID": 721,
           "NumShardlingsToSpawn": "3.0",
-          "ProjectileFlyTime": "0.5",
+          "ProjectileFlyTime": "0.35",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -7653,25 +7780,29 @@
     "DevZoneName": "FrozenKingdom",
     "FoundInZones": [
       "Cithrel's Fall",
+      "Wyrmheart",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
       "FrozenKingdom",
+      "IceCave",
       "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
       7,
+      8,
       31
     ],
     "FoundInZoneFSLIDs": [
       50007,
+      50008,
       50031
     ],
     "HasAIBC": true,
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 0.6877,
+    "DefaultBaseHealthMultiplier": 1.125,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -7732,7 +7863,7 @@
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.5735,
+    "DefaultBaseHealthMultiplier": 2.375,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -7811,7 +7942,7 @@
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.5306,
+    "DefaultBaseHealthMultiplier": 4.25,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
@@ -7861,7 +7992,7 @@
     }
   },
   "164": {
-    "FSLName": "Eldrin Sentinel",
+    "FSLName": "Icewyrm Sentinel",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "FK_ElfGuard",
@@ -7891,7 +8022,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.653,
+    "DefaultBaseHealthMultiplier": 3.175,
     "Armor": 0.0,
     "Resist": 0.0,
     "BlockChance": 0.4,
@@ -7924,7 +8055,7 @@
     }
   },
   "165": {
-    "FSLName": "Eldrin Recruit",
+    "FSLName": "Eldrin Swordsman",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "FK_ElfGoon",
@@ -7952,9 +8083,9 @@
     ],
     "HasAIBC": true,
     "KillScore": 1.0,
-    "SpiritPointValue": 2.0,
-    "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 1.8283,
+    "SpiritPointValue": 1.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 1.35,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -8005,7 +8136,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.2265,
+    "DefaultBaseHealthMultiplier": 3.15,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -8054,7 +8185,7 @@
     }
   },
   "167": {
-    "FSLName": "Corrupter",
+    "FSLName": "Al'zerac Corruptor",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "FK_ElfCleric",
@@ -8062,25 +8193,29 @@
     "DevZoneName": "FrozenKingdom",
     "FoundInZones": [
       "Cithrel's Fall",
+      "Wyrmheart",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
       "FrozenKingdom",
+      "IceCave",
       "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
       7,
+      8,
       31
     ],
     "FoundInZoneFSLIDs": [
       50007,
+      50008,
       50031
     ],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.256,
+    "DefaultBaseHealthMultiplier": 4.025,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
@@ -8152,7 +8287,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 22.5522,
+    "DefaultBaseHealthMultiplier": 20.25,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -8162,8 +8297,8 @@
         "Attack": {
           "DevName": "AutoAttackMelee",
           "FSLID": 751,
-          "IntellectCoefficient": "2.90",
-          "InitialCooldown": "0.5",
+          "IntellectCoefficient": "6.15",
+          "InitialCooldown": "1.95",
           "Cooldown": "2.0",
           "MaxRange": "500.0",
           "ACSpread": "0.2",
@@ -8213,8 +8348,8 @@
           "MinCooldown": "22.0",
           "MaxCooldown": "22.0",
           "Radius": "1000.0",
-          "IntellectCoefficient": "4.84",
-          "Debuff.Duration": "6.0",
+          "IntellectCoefficient": "5.24",
+          "Debuff.Duration": "3.75",
           "ProjectileAirtime": "0.2",
           "ProjectileArcHeight": "5000.0",
           "ACSpread": "0.2",
@@ -8257,7 +8392,7 @@
           "InitialCooldown": "30.0",
           "Cooldown": "12.0",
           "DamageIntellectCoefficient": "6.24",
-          "Radius": "150.0",
+          "Radius": "140.0",
           "RootDuration": "5.0",
           "ActivationDelay": "2.5",
           "ProjectileAirtime": "1.5",
@@ -8342,7 +8477,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 21.6231,
+    "DefaultBaseHealthMultiplier": 21.35,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -8352,8 +8487,8 @@
         "AutoAttack": {
           "DevName": "AutoAttack",
           "FSLID": 70,
-          "StrengthCoefficient": "6.46",
-          "Cooldown": "2.8",
+          "StrengthCoefficient": "6.57",
+          "Cooldown": "2.6",
           "MaxRange": "700.0",
           "ACSpread": "0.2",
           "Live": true,
@@ -8486,7 +8621,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 27.3741,
+    "DefaultBaseHealthMultiplier": 23.45,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -8660,7 +8795,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 21.294,
+    "DefaultBaseHealthMultiplier": 20.45,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -8715,7 +8850,7 @@
           "DelayBetweenCasts": "1.0",
           "Duration": "1.0",
           "TickInterval": "2.0",
-          "StrengthCoefficient": "8.0",
+          "StrengthCoefficient": "11.65",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -8785,7 +8920,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.6887,
+    "DefaultBaseHealthMultiplier": 2.6885,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.2,
@@ -8859,7 +8994,7 @@
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.4541,
+    "DefaultBaseHealthMultiplier": 4.35,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
@@ -8999,7 +9134,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.2715,
+    "DefaultBaseHealthMultiplier": 3.3715,
     "Armor": 0.0,
     "Resist": 0.0,
     "BlockChance": 0.4,
@@ -9023,10 +9158,10 @@
           "DevName": "Charge",
           "FSLID": 780,
           "StrengthCoefficient": "7.53",
-          "CastingDuration": "1.5",
+          "CastingDuration": "1.25",
           "Distance": "2000.0",
           "Radius": "150",
-          "Speed": "5000",
+          "Speed": "3100",
           "StunDuration": "2.0",
           "AbilityPadding": "8.0",
           "InitialMinCooldown": "12.0",
@@ -9049,9 +9184,9 @@
         "ChanneledAOE": {
           "DevName": "ChanneledAOE",
           "FSLID": 781,
-          "StrengthCoefficient": "1.92",
+          "StrengthCoefficient": "2.05   WAS: 1.92",
           "CastingDuration": "1.5",
-          "ChannelingDuration": "5.15",
+          "ChannelingDuration": "4.0   WAS",
           "ChannelingTickInterval": "0.5",
           "AOERadius": "350.0",
           "FollowTargetAcquesitionMinRange": "1000.0",
@@ -9094,7 +9229,7 @@
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.0612,
+    "DefaultBaseHealthMultiplier": 2.26,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -9104,7 +9239,7 @@
           "FSLID": 783,
           "StrengthCoefficient": "1.18",
           "MaxRange": "400.0",
-          "Cooldown": "2.41",
+          "Cooldown": "2.2",
           "Buff.HasteGainPerStack": "0.02",
           "Buff.MaxStackCount": "15.0",
           "Buff.Duration": "3.0",
@@ -9143,7 +9278,7 @@
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.156,
+    "DefaultBaseHealthMultiplier": 4.356,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 0.85,
@@ -9233,7 +9368,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.3586,
+    "DefaultBaseHealthMultiplier": 2.7585,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.1,
@@ -9242,8 +9377,8 @@
         "AutoAttack": {
           "DevName": "AutoAttack",
           "FSLID": 792,
-          "DamageIntellectCoefficient": "1.48",
-          "Cooldown": "2.20",
+          "DamageIntellectCoefficient": "1.44",
+          "Cooldown": "1.60",
           "MaxRange": "3000.0",
           "Live": true,
           "LiveBy": [
@@ -9301,7 +9436,7 @@
           "InitialMaxCooldown": "24.0",
           "Cooldown": "34.0",
           "DamageIntellectCoefficient": "3.12",
-          "Radius": "150.0",
+          "Radius": "140.0",
           "RootDuration": "5.0",
           "ActivationDelay": "2.5",
           "ProjectileAirtime": "1.5",
@@ -9317,7 +9452,7 @@
     }
   },
   "182": {
-    "FSLName": "Slaughtervine",
+    "FSLName": "Wild Bloom",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "DR_Slaughtervine",
@@ -9325,25 +9460,33 @@
     "DevZoneName": "DemonicRitual",
     "FoundInZones": [
       "The Heart of Tuzari",
-      "Urrak Markets"
+      "Wraithtide Vault",
+      "Urrak Markets",
+      "Ruins of Regath"
     ],
     "PlacedInZones": [
       "DemonicRitual",
+      "MoorCastle",
+      "PirateRaid",
       "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       5,
-      21
+      13,
+      21,
+      29
     ],
     "FoundInZoneFSLIDs": [
       50005,
-      50021
+      50013,
+      50021,
+      50029
     ],
     "HasAIBC": true,
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.44,
+    "DefaultBaseHealthMultiplier": 1.285,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -9351,9 +9494,9 @@
         "Attack": {
           "DevName": "AutoAttackMelee",
           "FSLID": 805,
-          "Cooldown": "1.50",
+          "Cooldown": "1.75",
           "MaxRange": "400",
-          "StrengthCoefficient": "0.53",
+          "StrengthCoefficient": "0.88",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -9378,7 +9521,7 @@
     }
   },
   "183": {
-    "FSLName": "Ruins Lasher",
+    "FSLName": "Toxic Blossom",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "DR_RuinsLasher",
@@ -9412,7 +9555,7 @@
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.3532,
+    "DefaultBaseHealthMultiplier": 1.205,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -9420,9 +9563,9 @@
         "AutoAttackMelee": {
           "DevName": "AutoAttackMelee",
           "FSLID": 807,
-          "StrengthCoefficient": "0.95",
+          "StrengthCoefficient": "1.02",
           "MaxRange": "400.0",
-          "Cooldown": "1.7",
+          "Cooldown": "1.8",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -9455,7 +9598,7 @@
     }
   },
   "185": {
-    "FSLName": "Bloodfang Raider",
+    "FSLName": "Mounted Raider",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "DR_Mancatcher",
@@ -9463,25 +9606,29 @@
     "DevZoneName": "DemonicRitual",
     "FoundInZones": [
       "The Heart of Tuzari",
+      "Stormwatch",
       "Urrak Markets"
     ],
     "PlacedInZones": [
       "DemonicRitual",
+      "NightPatrol",
       "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       5,
+      12,
       21
     ],
     "FoundInZoneFSLIDs": [
       50005,
+      50012,
       50021
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.33,
+    "DefaultBaseHealthMultiplier": 3.0305,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
@@ -9542,29 +9689,37 @@
     }
   },
   "186": {
-    "FSLName": "Hulking Bulgore",
+    "FSLName": "Hellspawned Bulgore",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "DR_HornedDemon",
     "DevKey": "DR_HornedDemon",
     "DevZoneName": "DemonicRitual",
     "FoundInZones": [
-      "The Heart of Tuzari"
+      "The Heart of Tuzari",
+      "Stormwatch",
+      "Urrak Markets"
     ],
     "PlacedInZones": [
-      "DemonicRitual"
+      "DemonicRitual",
+      "NightPatrol",
+      "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
-      5
+      5,
+      12,
+      21
     ],
     "FoundInZoneFSLIDs": [
-      50005
+      50005,
+      50012,
+      50021
     ],
     "HasAIBC": true,
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.5898,
+    "DefaultBaseHealthMultiplier": 3.995,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.2,
@@ -9661,7 +9816,7 @@
     }
   },
   "189": {
-    "FSLName": "Executioner",
+    "FSLName": "Vile Executioner",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "DR_DangerousBrute",
@@ -9669,25 +9824,29 @@
     "DevZoneName": "DemonicRitual",
     "FoundInZones": [
       "The Heart of Tuzari",
-      "Stormwatch"
+      "Stormwatch",
+      "Urrak Markets"
     ],
     "PlacedInZones": [
       "DemonicRitual",
-      "NightPatrol"
+      "NightPatrol",
+      "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       5,
-      12
+      12,
+      21
     ],
     "FoundInZoneFSLIDs": [
       50005,
-      50012
+      50012,
+      50021
     ],
     "HasAIBC": true,
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.391,
+    "DefaultBaseHealthMultiplier": 4.425,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 0.5,
@@ -9740,22 +9899,26 @@
     "DevKey": "DR_CultistSickle",
     "DevZoneName": "DemonicRitual",
     "FoundInZones": [
-      "The Heart of Tuzari"
+      "The Heart of Tuzari",
+      "Urrak Markets"
     ],
     "PlacedInZones": [
-      "DemonicRitual"
+      "DemonicRitual",
+      "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
-      5
+      5,
+      21
     ],
     "FoundInZoneFSLIDs": [
-      50005
+      50005,
+      50021
     ],
     "HasAIBC": true,
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.2875,
+    "DefaultBaseHealthMultiplier": 1.38,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -9763,9 +9926,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 825,
-          "StrengthCoefficient": "0.67",
+          "StrengthCoefficient": "1.02",
           "MaxRange": "450.0",
-          "Cooldown": "1.7",
+          "Cooldown": "2.1",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -9794,7 +9957,7 @@
     }
   },
   "191": {
-    "FSLName": "Hellcaller",
+    "FSLName": "Diabolical Hellcaller",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "DR_CultistMajorCaster",
@@ -9802,25 +9965,29 @@
     "DevZoneName": "DemonicRitual",
     "FoundInZones": [
       "The Heart of Tuzari",
+      "Stormwatch",
       "Urrak Markets"
     ],
     "PlacedInZones": [
       "DemonicRitual",
+      "NightPatrol",
       "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       5,
+      12,
       21
     ],
     "FoundInZoneFSLIDs": [
       50005,
+      50012,
       50021
     ],
     "HasAIBC": true,
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.088,
+    "DefaultBaseHealthMultiplier": 3.685,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.2,
@@ -9829,9 +9996,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 827,
-          "StrengthCoefficient": "1.91",
+          "StrengthCoefficient": "1.85",
           "MaxRange": "500.0",
-          "Cooldown": "2.85",
+          "Cooldown": "2.6",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -9903,7 +10070,7 @@
     }
   },
   "192": {
-    "FSLName": "Initiate",
+    "FSLName": "Ritual Devotee",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "DR_CultistInitiate",
@@ -9911,25 +10078,29 @@
     "DevZoneName": "DemonicRitual",
     "FoundInZones": [
       "The Heart of Tuzari",
+      "Stormwatch",
       "Urrak Markets"
     ],
     "PlacedInZones": [
       "DemonicRitual",
+      "NightPatrol",
       "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       5,
+      12,
       21
     ],
     "FoundInZoneFSLIDs": [
       50005,
+      50012,
       50021
     ],
     "HasAIBC": false,
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 0.6685,
+    "DefaultBaseHealthMultiplier": 1.35,
     "Armor": 0.0,
     "Resist": 0.0,
     "Agility": 50.0,
@@ -9943,7 +10114,7 @@
     }
   },
   "193": {
-    "FSLName": "Profane Invoker",
+    "FSLName": "Profane Defiler",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "DR_CultistCaster",
@@ -9951,25 +10122,29 @@
     "DevZoneName": "DemonicRitual",
     "FoundInZones": [
       "The Heart of Tuzari",
-      "Stormwatch"
+      "Stormwatch",
+      "Urrak Markets"
     ],
     "PlacedInZones": [
       "DemonicRitual",
-      "NightPatrol"
+      "NightPatrol",
+      "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       5,
-      12
+      12,
+      21
     ],
     "FoundInZoneFSLIDs": [
       50005,
-      50012
+      50012,
+      50021
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.5009,
+    "DefaultBaseHealthMultiplier": 2.625,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -10009,7 +10184,7 @@
         "MeleeAutoAttack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 831,
-          "StrengthCoefficient": "0.78",
+          "StrengthCoefficient": "0.98",
           "MaxRange": "500.0",
           "Cooldown": "1.6",
           "Live": true,
@@ -10197,7 +10372,7 @@
     }
   },
   "199": {
-    "FSLName": "Vun’Kahr, the Thorned Maw",
+    "FSLName": "Vun’Kahr, Heart of Tuzari",
     "MobType": "BOSS",
     "CreatureType": null,
     "DevName": "DR_BossDemonPlant",
@@ -10431,7 +10606,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 17.1796,
+    "DefaultBaseHealthMultiplier": 18.6796,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -10600,7 +10775,7 @@
         "KillScore": 0.0,
         "SpiritPointValue": 0.0,
         "KsSpEqual": true,
-        "DefaultBaseHealthMultiplier": 1.0647,
+        "DefaultBaseHealthMultiplier": 1.325,
         "Armor": 0.0,
         "Resist": 0.0,
         "Abilities": {
@@ -10641,7 +10816,7 @@
     }
   },
   "201": {
-    "FSLName": "Bloodfang",
+    "FSLName": "Bloodfang Panther",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "DR_BloodfangMauler",
@@ -10649,25 +10824,29 @@
     "DevZoneName": "DemonicRitual",
     "FoundInZones": [
       "The Heart of Tuzari",
+      "Stormwatch",
       "Urrak Markets"
     ],
     "PlacedInZones": [
       "DemonicRitual",
+      "NightPatrol",
       "UrrakMarkets"
     ],
     "FoundInZoneGameIDs": [
       5,
+      12,
       21
     ],
     "FoundInZoneFSLIDs": [
       50005,
+      50012,
       50021
     ],
     "HasAIBC": true,
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.2608,
+    "DefaultBaseHealthMultiplier": 2.7605,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
@@ -10694,9 +10873,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 884,
-          "StrengthCoefficient": "1.18",
+          "StrengthCoefficient": "1.44",
           "MaxRange": "500.0",
-          "Cooldown": "1.8",
+          "Cooldown": "1.7",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -10776,7 +10955,7 @@
     }
   },
   "243": {
-    "FSLName": "Task Master",
+    "FSLName": "Brutal Taskmaster",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "CM_ElfTaskmaster",
@@ -10796,10 +10975,10 @@
       50025
     ],
     "HasAIBC": false,
-    "KillScore": 4.0,
-    "SpiritPointValue": 4.0,
+    "KillScore": 3.0,
+    "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.0595,
+    "DefaultBaseHealthMultiplier": 2.9195,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -10833,7 +11012,7 @@
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.8122,
+    "DefaultBaseHealthMultiplier": 2.055,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -10867,7 +11046,7 @@
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.8972,
+    "DefaultBaseHealthMultiplier": 2.155,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -10905,7 +11084,7 @@
     "KillScore": 1.0,
     "SpiritPointValue": 1.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.3243,
+    "DefaultBaseHealthMultiplier": 1.35,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -10916,7 +11095,7 @@
     }
   },
   "247": {
-    "FSLName": "Enforcer",
+    "FSLName": "Cruel Warden",
     "MobType": "NPC",
     "CreatureType": "Beast",
     "DevName": "CM_ElfEnforcer",
@@ -10939,7 +11118,7 @@
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.343,
+    "DefaultBaseHealthMultiplier": 4.355,
     "Armor": 0.0,
     "Resist": 0.0,
     "BlockChance": 0.4,
@@ -10952,7 +11131,7 @@
     }
   },
   "248": {
-    "FSLName": "Arcane Warden",
+    "FSLName": "Arcane Dominator",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "CM_ElfWarden",
@@ -10975,7 +11154,7 @@
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.9436,
+    "DefaultBaseHealthMultiplier": 3.35,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -10986,7 +11165,7 @@
     }
   },
   "249": {
-    "FSLName": "Enraged Earth Elemental",
+    "FSLName": "Godstone Goliath",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "CM_EarthElemental",
@@ -11006,10 +11185,10 @@
       50025
     ],
     "HasAIBC": true,
-    "KillScore": 7.0,
-    "SpiritPointValue": 7.0,
+    "KillScore": 6.0,
+    "SpiritPointValue": 6.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 5.9325,
+    "DefaultBaseHealthMultiplier": 5.025,
     "Armor": 0.0,
     "Resist": 0.0,
     "Abilities": {
@@ -11053,7 +11232,7 @@
     }
   },
   "266": {
-    "FSLName": "Venomdrinker",
+    "FSLName": "Speaker of Vexira",
     "MobType": "NPC",
     "CreatureType": "Goblin",
     "DevName": "SH_Venomdrinker",
@@ -11075,7 +11254,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 3.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.3271,
+    "DefaultBaseHealthMultiplier": 2.4575,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -11125,7 +11304,7 @@
     }
   },
   "267": {
-    "FSLName": "Eggbearer",
+    "FSLName": "Infected Eggbearer",
     "MobType": "NPC",
     "CreatureType": "Goblin",
     "DevName": "SH_Eggbearer",
@@ -11147,7 +11326,7 @@
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 1.4306,
+    "DefaultBaseHealthMultiplier": 1.775,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -11200,7 +11379,7 @@
     "KillScore": 5.0,
     "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.66,
+    "DefaultBaseHealthMultiplier": 4.35,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -11375,7 +11554,8 @@
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
-      "Scryer's Peak"
+      "Scryer's Peak",
+      "Crown of the Wild"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -11393,7 +11573,8 @@
       25,
       29,
       30,
-      31
+      31,
+      36
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -11410,7 +11591,8 @@
       50025,
       50029,
       50030,
-      50031
+      50031,
+      50036
     ],
     "HasAIBC": true,
     "KillScore": 0.0,
@@ -11492,7 +11674,8 @@
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
-      "Scryer's Peak"
+      "Scryer's Peak",
+      "Crown of the Wild"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -11510,7 +11693,8 @@
       25,
       29,
       30,
-      31
+      31,
+      36
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -11527,7 +11711,8 @@
       50025,
       50029,
       50030,
-      50031
+      50031,
+      50036
     ],
     "HasAIBC": false,
     "KillScore": 0.0,
@@ -11567,7 +11752,8 @@
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
-      "Scryer's Peak"
+      "Scryer's Peak",
+      "Crown of the Wild"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -11585,7 +11771,8 @@
       25,
       29,
       30,
-      31
+      31,
+      36
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -11602,7 +11789,8 @@
       50025,
       50029,
       50030,
-      50031
+      50031,
+      50036
     ],
     "HasAIBC": false,
     "KillScore": 0.0,
@@ -11642,7 +11830,8 @@
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
-      "Scryer's Peak"
+      "Scryer's Peak",
+      "Crown of the Wild"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -11660,7 +11849,8 @@
       25,
       29,
       30,
-      31
+      31,
+      36
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -11677,7 +11867,8 @@
       50025,
       50029,
       50030,
-      50031
+      50031,
+      50036
     ],
     "HasAIBC": false,
     "KillScore": 0.0,
@@ -11717,7 +11908,8 @@
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
-      "Scryer's Peak"
+      "Scryer's Peak",
+      "Crown of the Wild"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -11735,7 +11927,8 @@
       25,
       29,
       30,
-      31
+      31,
+      36
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -11752,7 +11945,8 @@
       50025,
       50029,
       50030,
-      50031
+      50031,
+      50036
     ],
     "HasAIBC": true,
     "KillScore": 20.0,
@@ -11857,7 +12051,8 @@
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
-      "Scryer's Peak"
+      "Scryer's Peak",
+      "Crown of the Wild"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -11875,7 +12070,8 @@
       25,
       29,
       30,
-      31
+      31,
+      36
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -11892,7 +12088,8 @@
       50025,
       50029,
       50030,
-      50031
+      50031,
+      50036
     ],
     "HasAIBC": true,
     "KillScore": 20.0,
@@ -11996,7 +12193,8 @@
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
-      "Scryer's Peak"
+      "Scryer's Peak",
+      "Crown of the Wild"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -12014,7 +12212,8 @@
       25,
       29,
       30,
-      31
+      31,
+      36
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -12031,7 +12230,8 @@
       50025,
       50029,
       50030,
-      50031
+      50031,
+      50036
     ],
     "HasAIBC": true,
     "KillScore": 20.0,
@@ -12125,7 +12325,8 @@
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
-      "Scryer's Peak"
+      "Scryer's Peak",
+      "Crown of the Wild"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -12143,7 +12344,8 @@
       25,
       29,
       30,
-      31
+      31,
+      36
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -12160,7 +12362,8 @@
       50025,
       50029,
       50030,
-      50031
+      50031,
+      50036
     ],
     "HasAIBC": true,
     "KillScore": null,
@@ -12210,7 +12413,8 @@
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
-      "Scryer's Peak"
+      "Scryer's Peak",
+      "Crown of the Wild"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -12228,7 +12432,8 @@
       25,
       29,
       30,
-      31
+      31,
+      36
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -12245,7 +12450,8 @@
       50025,
       50029,
       50030,
-      50031
+      50031,
+      50036
     ],
     "HasAIBC": true,
     "KillScore": null,
@@ -12295,7 +12501,8 @@
       "Godfall Quarry",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
-      "Scryer's Peak"
+      "Scryer's Peak",
+      "Crown of the Wild"
     ],
     "PlacedInZones": [],
     "FoundInZoneGameIDs": [
@@ -12313,7 +12520,8 @@
       25,
       29,
       30,
-      31
+      31,
+      36
     ],
     "FoundInZoneFSLIDs": [
       50005,
@@ -12330,7 +12538,8 @@
       50025,
       50029,
       50030,
-      50031
+      50031,
+      50036
     ],
     "HasAIBC": true,
     "KillScore": 0.0,
@@ -12359,33 +12568,37 @@
     }
   },
   "313": {
-    "FSLName": "",
+    "FSLName": "Elder Glacial Bear",
     "MobType": "NPC",
     "CreatureType": "Beast",
     "DevName": "SP_PolarBear",
     "DevKey": "SP_PolarBear",
     "DevZoneName": "SnowPeak",
     "FoundInZones": [
+      "Cithrel's Fall",
       "Ransack of Drakheim",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "FrozenKingdom",
       "SnowPeak",
       "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
+      7,
       23,
       31
     ],
     "FoundInZoneFSLIDs": [
+      50007,
       50023,
       50031
     ],
     "HasAIBC": true,
-    "KillScore": 7.0,
-    "SpiritPointValue": 7.0,
+    "KillScore": 5.0,
+    "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.623,
+    "DefaultBaseHealthMultiplier": 4.355,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -12393,9 +12606,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 2087,
-          "StrengthCoefficient": "3.0",
-          "MinCooldown": "2.75",
-          "MaxCooldown": "2.75",
+          "StrengthCoefficient": "3.25",
+          "MinCooldown": "2.8",
+          "MaxCooldown": "2.8",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -12416,17 +12629,17 @@
           "MaxPostAbilityPadding": "3.0",
           "MaxRange": "4500.0",
           "CastTime": "1.5",
-          "ChannelingDuration": "4.0",
+          "ChannelingDuration": "3.0",
           "TickInterval": "1.33",
           "Tornado.SpawnDelay": "2.2",
-          "Tornado.Lifetime": "12.0",
+          "Tornado.Lifetime": "9.0",
           "Tornado.Radius": "200.0",
-          "Tornado.Speed": "300.0",
+          "Tornado.Speed": "250.0",
           "Tornado.PrimaryAttributeCoefficient": "2.12",
           "Tornado.KnockbackStrength": "900.0",
           "Tornado.ImmuneDuration": "1.8",
           "Slow.MovementSpeedMultiplier": "0.85",
-          "Slow.Duration": "4.0",
+          "Slow.Duration": "3.0",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -12445,10 +12658,10 @@
           "MaxCooldown": "25.0",
           "MinPostAbilityPadding": "1.5",
           "MaxPostAbilityPadding": "1.5",
-          "CastTime": "3.0",
-          "Radius": "2000.0",
+          "CastTime": "2.0",
+          "Radius": "900.0",
           "StrengthCoefficient": "4.5",
-          "ImmobilizeDuration": "5.0",
+          "ImmobilizeDuration": "4.0",
           "InterruptCooldown": "21.0",
           "Live": true,
           "LiveBy": [
@@ -12467,21 +12680,25 @@
     "DevKey": "SP_FrostWolf",
     "DevZoneName": "SnowPeak",
     "FoundInZones": [
+      "Cithrel's Fall",
       "Stormwatch",
       "Ransack of Drakheim",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "FrozenKingdom",
       "NightPatrol",
       "SnowPeak",
       "VikingVillageAttack"
     ],
     "FoundInZoneGameIDs": [
+      7,
       12,
       23,
       31
     ],
     "FoundInZoneFSLIDs": [
+      50007,
       50012,
       50023,
       50031
@@ -12490,7 +12707,7 @@
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.601,
+    "DefaultBaseHealthMultiplier": 2.102,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -12545,11 +12762,11 @@
           "StartAttackRange": "300.0",
           "StopAttackRange": "1200.0",
           "ChaseDuration": "3.0",
-          "StunDuration": "3.0",
-          "Damage.Duration": "3.0",
+          "StunDuration": "2.0",
+          "Damage.Duration": "2.0",
           "Damage.TickInterval": "0.5",
           "Damage.PrimaryAttributeCoefficient": "1.82",
-          "SelfSlow.MovementSpeedMultiplier": "1.30",
+          "SelfSlow.MovementSpeedMultiplier": "1.05",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -12620,7 +12837,7 @@
         "MeleeAutoAttack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 2095,
-          "StrengthCoefficient": "3.5",
+          "StrengthCoefficient": "5.25",
           "MinCooldown": "3.0",
           "MaxCooldown": "3.0",
           "MaxRange": "500.0",
@@ -12719,10 +12936,10 @@
           "MinSpawnDistanceFromCenter": "800.0",
           "Orb.Radius": "125.0",
           "Orb.FallTime": "0.55",
-          "Buff.Duration": "15.0",
+          "Buff.Duration": "22.0",
           "Buff.MaxStackCount": "100.0",
           "Buff.DamageScale": "1.05",
-          "Volatile.Delay": "15.0",
+          "Volatile.Delay": "22.0",
           "Volatile.Acceleration": "200.0",
           "Volatile.MoveSpeed": "350.0",
           "Volatile.UpdateTargetLocationInterval": "2.0",
@@ -12764,20 +12981,32 @@
     "DevKey": "ST_SmallBloodElemental",
     "DevZoneName": "SandTomb",
     "FoundInZones": [
+      "Empyrean Sands",
+      "Stormwatch",
       "Ruins of Regath",
-      "Xul, The Blood Monolith"
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "DesertDunes",
       "MoorCastle",
-      "SandTomb"
+      "NightPatrol",
+      "SandTomb",
+      "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
+      6,
+      12,
       29,
-      30
+      30,
+      31
     ],
     "FoundInZoneFSLIDs": [
+      50006,
+      50012,
       50029,
-      50030
+      50030,
+      50031
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
@@ -12823,7 +13052,7 @@
         "SpawnBlood": {
           "DevName": "SpawnBlood",
           "FSLID": 2104,
-          "BloodAmount": "2.0",
+          "BloodAmount": "3.0",
           "BlobsToSpawn": "1.0",
           "Live": true,
           "LiveBy": [
@@ -12841,15 +13070,15 @@
           "MinPostAbilityPadding": "0.0",
           "MaxPostAbilityPadding": "0.0",
           "InterruptCooldown": "24.0",
-          "Duration": "8.0",
-          "TickInterval": "0.2",
+          "Duration": "4.4",
+          "TickInterval": "0.6",
           "PieSlices": "6.0",
-          "MinDistance": "140.0",
+          "MinDistance": "300.0",
           "MaxDistance": "3000.0",
-          "Radius": "200.0",
+          "Radius": "175.0",
           "AirTime": "2.0",
           "MinDistanceBetweenImpacts": "250.0",
-          "PrimaryAttributeCoefficient": "1.79",
+          "PrimaryAttributeCoefficient": "2.35",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -12867,26 +13096,30 @@
     "DevKey": "ST_SanguineCrusher",
     "DevZoneName": "SandTomb",
     "FoundInZones": [
+      "Empyrean Sands",
       "Xul, The Blood Monolith",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "DesertDunes",
       "SandTomb",
       "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
+      6,
       30,
       31
     ],
     "FoundInZoneFSLIDs": [
+      50006,
       50030,
       50031
     ],
     "HasAIBC": true,
-    "KillScore": 6.0,
-    "SpiritPointValue": 6.0,
+    "KillScore": 5.0,
+    "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 5.5404,
+    "DefaultBaseHealthMultiplier": 4.55,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.0,
@@ -12910,7 +13143,7 @@
         "Sunder Earth": {
           "DevName": "Knockback",
           "FSLID": 2109,
-          "InitialMinCooldown": "15.0",
+          "InitialMinCooldown": "10.0",
           "InitialMaxCooldown": "15.0",
           "MinCooldown": "18.0",
           "MaxCooldown": "18.0",
@@ -12933,15 +13166,15 @@
           "DevName": "TankSlam",
           "FSLID": 2107,
           "InitialMinCooldown": "5.0",
-          "InitialMaxCooldown": "8.0",
+          "InitialMaxCooldown": "9.0",
           "MinCooldown": "12.0",
           "MaxCooldown": "12.0",
           "MinPostAbilityPadding": "1.0",
           "MaxPostAbilityPadding": "1.0",
           "CastTime": "1.5",
           "MaxRange": "650.0",
-          "Radius": "800.0",
-          "StrengthCoefficient": "5.5",
+          "Radius": "100.0",
+          "StrengthCoefficient": "6.52",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -13733,26 +13966,34 @@
     "DevKey": "ST_BigBloodElemental",
     "DevZoneName": "SandTomb",
     "FoundInZones": [
+      "Empyrean Sands",
       "Ruins of Regath",
-      "Xul, The Blood Monolith"
+      "Xul, The Blood Monolith",
+      "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "DesertDunes",
       "MoorCastle",
-      "SandTomb"
+      "SandTomb",
+      "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
+      6,
       29,
-      30
+      30,
+      31
     ],
     "FoundInZoneFSLIDs": [
+      50006,
       50029,
-      50030
+      50030,
+      50031
     ],
     "HasAIBC": true,
-    "KillScore": 6.0,
-    "SpiritPointValue": 6.0,
+    "KillScore": 5.0,
+    "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.6233,
+    "DefaultBaseHealthMultiplier": 4.2235,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.1,
@@ -13782,8 +14023,8 @@
           "DevName": "MeleeAutoAttack",
           "FSLID": 2158,
           "StrengthCoefficient": "2.7",
-          "MinCooldown": "2.3",
-          "MaxCooldown": "2.3",
+          "MinCooldown": "2.5",
+          "MaxCooldown": "2.5",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -13805,9 +14046,9 @@
           "InterruptCooldown": "15.0",
           "MinPostAbilityPadding": "2.0",
           "MaxPostAbilityPadding": "2.0",
-          "Duration": "7.5",
+          "Duration": "5.0",
           "TickInterval": "1.25",
-          "PrimaryAttributeCoefficient": "5.0",
+          "PrimaryAttributeCoefficient": "2.15",
           "MaxRange": "4000.0",
           "Live": true,
           "LiveBy": [
@@ -13827,8 +14068,8 @@
         "SpawnBlood": {
           "DevName": "SpawnBlood",
           "FSLID": 2157,
-          "BloodAmount": "5.0",
-          "BlobsToSpawn": "4.0",
+          "BloodAmount": "12.0",
+          "BlobsToSpawn": "1.0",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -13846,22 +14087,34 @@
     "DevKey": "MC_WanderingGhostWarrior",
     "DevZoneName": "MoorCastle",
     "FoundInZones": [
+      "Wyrmheart",
+      "Stormwatch",
+      "Silken Hollow",
       "Ruins of Regath"
     ],
     "PlacedInZones": [
-      "MoorCastle"
+      "IceCave",
+      "MoorCastle",
+      "NightPatrol",
+      "SpiderForest"
     ],
     "FoundInZoneGameIDs": [
+      8,
+      12,
+      24,
       29
     ],
     "FoundInZoneFSLIDs": [
+      50008,
+      50012,
+      50024,
       50029
     ],
     "HasAIBC": true,
-    "KillScore": 2.0,
+    "KillScore": 3.0,
     "SpiritPointValue": 2.0,
-    "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.675,
+    "KsSpEqual": false,
+    "DefaultBaseHealthMultiplier": 3.275,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -13871,17 +14124,17 @@
           "FSLID": 2163,
           "InitialMinCooldown": "5.0",
           "InitialMaxCooldown": "18.0",
-          "MinCooldown": "22.0",
-          "MaxCooldown": "22.0",
+          "MinCooldown": "24.0",
+          "MaxCooldown": "30.0",
           "MinPostAbilityPadding": "0.0",
           "MaxPostAbilityPadding": "0.0",
           "CastTime": "2.0",
           "MaxRange": "1000.0",
           "MinRadius": "0.0",
-          "MaxRadius": "1800.0",
+          "MaxRadius": "1600.0",
           "Angle": "90.0",
           "Height": "500.0",
-          "Damage.StrengthCoefficient": "7.21",
+          "Damage.StrengthCoefficient": "6.19",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -13891,9 +14144,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 2162,
-          "StrengthCoefficient": "2.47",
-          "MinCooldown": "2.6",
-          "MaxCooldown": "2.6",
+          "StrengthCoefficient": "1.70",
+          "MinCooldown": "2.9",
+          "MaxCooldown": "2.9",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -13915,22 +14168,34 @@
     "DevKey": "MC_WanderingGhostPriest",
     "DevZoneName": "MoorCastle",
     "FoundInZones": [
+      "Wyrmheart",
+      "Stormwatch",
+      "Silken Hollow",
       "Ruins of Regath"
     ],
     "PlacedInZones": [
-      "MoorCastle"
+      "IceCave",
+      "MoorCastle",
+      "NightPatrol",
+      "SpiderForest"
     ],
     "FoundInZoneGameIDs": [
+      8,
+      12,
+      24,
       29
     ],
     "FoundInZoneFSLIDs": [
+      50008,
+      50012,
+      50024,
       50029
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.245,
+    "DefaultBaseHealthMultiplier": 2.145,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -13938,9 +14203,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 2164,
-          "StrengthCoefficient": "2.0",
-          "MinCooldown": "2.3",
-          "MaxCooldown": "2.3",
+          "StrengthCoefficient": "1.02",
+          "MinCooldown": "1.6",
+          "MaxCooldown": "1.6",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -14007,7 +14272,7 @@
           "MaxPostAbilityPadding": "0.0",
           "CastTime": "3.0",
           "Radius": "4000.0",
-          "StrengthCoefficient": "6.78",
+          "StrengthCoefficient": "5.48",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -14024,7 +14289,7 @@
           "MaxPostAbilityPadding": "0.0",
           "MaxRange": "3000.0",
           "CastTime": "2.0",
-          "IntCoefficient": "2.25",
+          "IntCoefficient": "2.42",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -14042,22 +14307,34 @@
     "DevKey": "MC_WanderingGhostGuard",
     "DevZoneName": "MoorCastle",
     "FoundInZones": [
+      "Wyrmheart",
+      "Stormwatch",
+      "Silken Hollow",
       "Ruins of Regath"
     ],
     "PlacedInZones": [
-      "MoorCastle"
+      "IceCave",
+      "MoorCastle",
+      "NightPatrol",
+      "SpiderForest"
     ],
     "FoundInZoneGameIDs": [
+      8,
+      12,
+      24,
       29
     ],
     "FoundInZoneFSLIDs": [
+      50008,
+      50012,
+      50024,
       50029
     ],
     "HasAIBC": true,
     "KillScore": 2.0,
     "SpiritPointValue": 2.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 3.412,
+    "DefaultBaseHealthMultiplier": 2.625,
     "Armor": null,
     "Resist": null,
     "Abilities": {
@@ -14065,9 +14342,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 2170,
-          "StrengthCoefficient": "2.12",
-          "MinCooldown": "2.3",
-          "MaxCooldown": "2.3",
+          "StrengthCoefficient": "1.63",
+          "MinCooldown": "2.5",
+          "MaxCooldown": "2.5",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -14125,7 +14402,7 @@
     "KillScore": 0.0,
     "SpiritPointValue": 45.0,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 24.3174,
+    "DefaultBaseHealthMultiplier": 20.257,
     "Armor": 0.0,
     "Resist": 0.0,
     "CritChance": 0.0,
@@ -14135,15 +14412,15 @@
         "Cleave": {
           "DevName": "AutoAttackMeleeCleave",
           "FSLID": 2171,
-          "PrimaryAttributeCoefficient": "4.2",
+          "PrimaryAttributeCoefficient": "6.323",
           "MaxRange": "800.0",
           "InitialMinCooldown": "1.0",
           "InitialMaxCooldown": "1.0",
           "MinCooldown": "3.0",
           "MaxCooldown": "3.0",
           "MinRadius": "50.0",
-          "MaxRadius": "1200.0",
-          "Angle": "120.0",
+          "MaxRadius": "1000.0",
+          "Angle": "100.0",
           "Height": "600.0",
           "Live": true,
           "LiveBy": [
@@ -14229,7 +14506,7 @@
           "MinPostAbilityPadding": "1.0",
           "MaxPostAbilityPadding": "1.0",
           "VanishDuration": "0.7",
-          "CastTime": "10.0",
+          "CastTime": "8.0",
           "PrimaryAttributeCoefficient": "45.0",
           "RuneDamageMultiplier": "0.01",
           "BossBuff.IncomingDamageMultiplier": "0.01",
@@ -14278,37 +14555,41 @@
     }
   },
   "331": {
-    "FSLName": "",
+    "FSLName": "Sanguine Oracle",
     "MobType": "NPC",
     "CreatureType": null,
     "DevName": "MC_BloodSummoner",
     "DevKey": "MC_BloodSummoner",
     "DevZoneName": "MoorCastle",
     "FoundInZones": [
+      "Empyrean Sands",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "DesertDunes",
       "MoorCastle",
       "SandTomb",
       "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
+      6,
       29,
       30,
       31
     ],
     "FoundInZoneFSLIDs": [
+      50006,
       50029,
       50030,
       50031
     ],
     "HasAIBC": true,
-    "KillScore": 6.0,
-    "SpiritPointValue": 6.0,
+    "KillScore": 5.0,
+    "SpiritPointValue": 5.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 5.534,
+    "DefaultBaseHealthMultiplier": 4.335,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
@@ -14344,6 +14625,7 @@
           "MaxRange": "2000.0",
           "Channel.Duration": "10.0",
           "Channel.TickInterval": "1.0",
+          "Channel.InitialTickDelay": "2.0",
           "Channel.PrimaryAttributeCoefficient": "2.27",
           "AnimateBloodMaxHealthMultiplierPerTick": "1.05",
           "SpawnDelay": "2.0",
@@ -14383,8 +14665,8 @@
         "SpawnBlood": {
           "DevName": "SpawnBlood",
           "FSLID": 2179,
-          "BloodAmount": "5.0",
-          "BlobsToSpawn": "2.0",
+          "BloodAmount": "8.0",
+          "BlobsToSpawn": "1.0",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -14507,21 +14789,25 @@
     "DevKey": "MC_BloodHound",
     "DevZoneName": "MoorCastle",
     "FoundInZones": [
+      "Empyrean Sands",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "DesertDunes",
       "MoorCastle",
       "SandTomb",
       "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
+      6,
       29,
       30,
       31
     ],
     "FoundInZoneFSLIDs": [
+      50006,
       50029,
       50030,
       50031
@@ -14530,7 +14816,7 @@
     "KillScore": 3.0,
     "SpiritPointValue": 2.5,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 1.9608,
+    "DefaultBaseHealthMultiplier": 2.452,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
@@ -14549,7 +14835,7 @@
           "CastingDuration": "3.0",
           "Range.Radius": "4000.0",
           "Damage.PrimaryAttributeCoefficient": "2.12",
-          "Silence.Duration": "3.0",
+          "Silence.Duration": "2.25",
           "GrowAndGlow.ScaleMultiplier": "1.2",
           "Live": true,
           "LiveBy": [
@@ -14581,9 +14867,9 @@
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 2184,
-          "PrimaryAttributeCoefficient": "1.49",
-          "MinCooldown": "2.3",
-          "MaxCooldown": "2.3",
+          "PrimaryAttributeCoefficient": "1.44",
+          "MinCooldown": "2.1",
+          "MaxCooldown": "2.1",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -14601,7 +14887,7 @@
           "DeathSenseRadius": "3000.0",
           "HasteScalar": "1.1",
           "DamageScaler": "1.1",
-          "SizeIncrease": "0.07",
+          "SizeIncrease": "0.125",
           "IncomingDamageMultiplier": "1.1",
           "Live": true,
           "LiveBy": [
@@ -14612,7 +14898,7 @@
         "SpawnBlood": {
           "DevName": "SpawnBlood",
           "FSLID": 2183,
-          "BloodAmount": "2.0",
+          "BloodAmount": "1.0",
           "BlobsToSpawn": "1.0",
           "Live": true,
           "LiveBy": [
@@ -14631,30 +14917,34 @@
     "DevKey": "MC_BloodGuard",
     "DevZoneName": "MoorCastle",
     "FoundInZones": [
+      "Empyrean Sands",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "DesertDunes",
       "MoorCastle",
       "SandTomb",
       "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
+      6,
       29,
       30,
       31
     ],
     "FoundInZoneFSLIDs": [
+      50006,
       50029,
       50030,
       50031
     ],
     "HasAIBC": true,
-    "KillScore": 4.0,
+    "KillScore": 3.0,
     "SpiritPointValue": 4.0,
-    "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 2.953,
+    "KsSpEqual": false,
+    "DefaultBaseHealthMultiplier": 3.05,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
@@ -14663,9 +14953,9 @@
         "Attack": {
           "DevName": "AutoAttack",
           "FSLID": 2190,
-          "DamageIntellectCoefficient": "1.49",
-          "MinCooldown": "2.3",
-          "MaxCooldown": "2.3",
+          "DamageIntellectCoefficient": "1.71",
+          "MinCooldown": "2.5",
+          "MaxCooldown": "2.5",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -14688,7 +14978,7 @@
           "MaxPostAbilityPadding": "1.0",
           "CastingDuration": "3.0",
           "ApplicationRadius": "2000.0",
-          "Buff.Duration": "15.0",
+          "Buff.Duration": "8.0",
           "Buff.AdditiveDamageScaler": "1.20",
           "Live": true,
           "LiveBy": [
@@ -14709,10 +14999,10 @@
           "MaxPostAbilityPadding": "1.0",
           "MaxRange": "3000.0",
           "CastTime": "2.0",
-          "Speed": "3250.0",
-          "MaxTravelDistance": "2000.0",
+          "Speed": "2600.0",
+          "MaxTravelDistance": "2900.0",
           "Radius": "200.0",
-          "StrengthCoefficient": "3.54",
+          "StrengthCoefficient": "3.14",
           "SpawnInFrontOffset": "200.0",
           "Live": true,
           "LiveBy": [
@@ -14724,7 +15014,7 @@
           "DevName": "SpawnBlood",
           "FSLID": 2188,
           "BloodAmount": "2.0",
-          "BlobsToSpawn": "2.0",
+          "BlobsToSpawn": "1.0",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -14742,21 +15032,25 @@
     "DevKey": "MC_BloodGrunt",
     "DevZoneName": "MoorCastle",
     "FoundInZones": [
+      "Empyrean Sands",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "DesertDunes",
       "MoorCastle",
       "SandTomb",
       "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
+      6,
       29,
       30,
       31
     ],
     "FoundInZoneFSLIDs": [
+      50006,
       50029,
       50030,
       50031
@@ -14765,18 +15059,44 @@
     "KillScore": 2.0,
     "SpiritPointValue": 1.5,
     "KsSpEqual": false,
-    "DefaultBaseHealthMultiplier": 1.7251,
+    "DefaultBaseHealthMultiplier": 2.35,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
     "Abilities": {
       "Offensive": {
+        "Rabid Leap": {
+          "DevName": "Jump",
+          "FSLID": 2197,
+          "InitialMinCooldown": "4.0",
+          "InitialMaxCooldown": "10.0",
+          "Cooldown": "16.0",
+          "PreJumpChargeUpTime": "0.35",
+          "BaseAirTime": "0.20",
+          "DistPerSec": "5000.0",
+          "MinRange": "100.0",
+          "MaxRange": "3000.0",
+          "LandingDistanceFromTarget": "25.0",
+          "LandingPrimaryAttributeCoefficient": "0.69",
+          "Dot.Duration": "4.5",
+          "Dot.TickInterval": "0.75",
+          "Dot.PrimaryAttributeCoefficient": "0.295",
+          "Debuff.Duration": "6.0",
+          "Debuff.TickInterval": "1.0",
+          "Debuff.PrimaryAttributeCoefficient": "0.71",
+          "Debuff.Spread": "0.10",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
         "Attack": {
           "DevName": "MeleeAutoAttack",
           "FSLID": 2196,
-          "PrimaryAttributeCoefficient": "1.49",
-          "MinCooldown": "2.3",
-          "MaxCooldown": "2.3",
+          "PrimaryAttributeCoefficient": "1.44",
+          "MinCooldown": "2.1",
+          "MaxCooldown": "2.1",
           "MaxRange": "500.0",
           "Live": true,
           "LiveBy": [
@@ -14786,31 +15106,7 @@
         }
       },
       "Control": {},
-      "Defensive": {
-        "Rabid Leap": {
-          "DevName": "Jump",
-          "FSLID": 2197,
-          "InitialMinCooldown": "5.0",
-          "InitialMaxCooldown": "60.0",
-          "Cooldown": "30.0",
-          "PreJumpChargeUpTime": "0.35",
-          "BaseAirTime": "0.20",
-          "DistPerSec": "5000.0",
-          "MinRange": "100.0",
-          "MaxRange": "3000.0",
-          "LandingDistanceFromTarget": "25.0",
-          "LandingPrimaryAttributeCoefficient": "0.89",
-          "Debuff.Duration": "6.0",
-          "Debuff.TickInterval": "0.25",
-          "Debuff.PrimaryAttributeCoefficient": "0.71",
-          "Debuff.Spread": "0.10",
-          "Live": true,
-          "LiveBy": [
-            "mob"
-          ],
-          "Spread": 0.2
-        }
-      },
+      "Defensive": {},
       "Mechanic": {
         "SpawnAnimation": {
           "DevName": "SpawnAnimation",
@@ -14825,7 +15121,7 @@
           "DevName": "SpawnBlood",
           "FSLID": 2193,
           "BloodAmount": "1.0",
-          "BlobsToSpawn": "2.0",
+          "BlobsToSpawn": "1.0",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -14843,21 +15139,25 @@
     "DevKey": "MC_BloodCaster",
     "DevZoneName": "MoorCastle",
     "FoundInZones": [
+      "Empyrean Sands",
       "Ruins of Regath",
       "Xul, The Blood Monolith",
       "Scryer's Peak"
     ],
     "PlacedInZones": [
+      "DesertDunes",
       "MoorCastle",
       "SandTomb",
       "SnowPeak"
     ],
     "FoundInZoneGameIDs": [
+      6,
       29,
       30,
       31
     ],
     "FoundInZoneFSLIDs": [
+      50006,
       50029,
       50030,
       50031
@@ -14866,7 +15166,7 @@
     "KillScore": 4.0,
     "SpiritPointValue": 4.0,
     "KsSpEqual": true,
-    "DefaultBaseHealthMultiplier": 4.134,
+    "DefaultBaseHealthMultiplier": 3.525,
     "Armor": 0.0,
     "Resist": 0.0,
     "PassiveMoveSpeed": 1.3,
@@ -14915,15 +15215,15 @@
           "DevName": "ChanneledTickingAoE",
           "FSLID": 2204,
           "Cooldown": "1.5",
-          "PrimaryAttributeCoefficient": "6.0",
+          "PrimaryAttributeCoefficient": "0.995",
           "MinCooldown": "40.0",
           "MaxCooldown": "40.0",
           "MaxRange": "500.0",
           "Duration": "8.0",
           "TickInterval": "1.0",
           "Radius": "3000.0",
-          "InitialMinCooldown": "22.0",
-          "InitialMaxCooldown": "22.0",
+          "InitialMinCooldown": "14.0",
+          "InitialMaxCooldown": "24.0",
           "BloodCrystalHealthReductionPerTicFrac": "0.1251",
           "Live": true,
           "LiveBy": [
@@ -14944,7 +15244,7 @@
           "MaxPostAbilityPadding": "0.0",
           "MaxRange": "4000.0",
           "CastTime": "2.0",
-          "PrimaryAttributeCoefficient": "2.8",
+          "PrimaryAttributeCoefficient": "3.19",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -14954,8 +15254,8 @@
         "SpawnBlood": {
           "DevName": "SpawnBlood",
           "FSLID": 2202,
-          "BloodAmount": "2.0",
-          "BlobsToSpawn": "2.0",
+          "BloodAmount": "5.0",
+          "BlobsToSpawn": "1.0",
           "Live": true,
           "LiveBy": [
             "mob"
@@ -15014,6 +15314,1134 @@
               "Spread": null
             }
           }
+        }
+      }
+    }
+  },
+  "339": {
+    "FSLName": "Raptor Fledgling",
+    "MobType": "NPC",
+    "CreatureType": "Beast",
+    "DevName": "SJ_JungleRaptor",
+    "DevKey": "SJ_JungleRaptor",
+    "DevZoneName": "SpiritJungle",
+    "FoundInZones": [
+      "Crown of the Wild"
+    ],
+    "PlacedInZones": [
+      "TreeVillage"
+    ],
+    "FoundInZoneGameIDs": [
+      36
+    ],
+    "FoundInZoneFSLIDs": [
+      50036
+    ],
+    "HasAIBC": true,
+    "KillScore": 1.0,
+    "SpiritPointValue": 1.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 1.25,
+    "Armor": null,
+    "Resist": null,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "AutoAttackMelee",
+          "FSLID": 2334,
+          "PrimaryAttributeCoefficient": "0.967",
+          "Cooldown": "2.3",
+          "MaxRange": "500.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Control": {},
+      "Defensive": {},
+      "Mechanic": {
+        "Pestering Lunge": {
+          "DevName": "Jump",
+          "FSLID": 2335,
+          "BaseAirTime": "0.2",
+          "DistPerSec": "5000.0",
+          "MinRange": "500.0",
+          "MaxRange": "2000.0",
+          "LandingDistanceFromTarget": "300.0",
+          "PreJumpChargeUpTime": "0.35",
+          "LandingPrimaryAttributeCoefficient": "0.425",
+          "InitialMinCooldown": "7.0",
+          "InitialMaxCooldown": "7.0",
+          "MinCooldown": "7.0",
+          "MaxCooldown": "7.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      }
+    }
+  },
+  "340": {
+    "FSLName": "Savage Spiritualist",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "SJ_DruidSpiritualist",
+    "DevKey": "SJ_DruidSpiritualist",
+    "DevZoneName": "SpiritJungle",
+    "FoundInZones": [
+      "Crown of the Wild"
+    ],
+    "PlacedInZones": [
+      "TreeVillage"
+    ],
+    "FoundInZoneGameIDs": [
+      36
+    ],
+    "FoundInZoneFSLIDs": [
+      50036
+    ],
+    "HasAIBC": true,
+    "KillScore": 4.0,
+    "SpiritPointValue": 4.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 3.65,
+    "Armor": null,
+    "Resist": null,
+    "PassiveMoveSpeed": 1.3,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "AutoAttackMelee",
+          "FSLID": 2337,
+          "PrimaryAttributeCoefficient": "1.15",
+          "Cooldown": "1.5",
+          "MaxRange": "500.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "Blessing of the Bear": {
+          "DevName": "InstantAoEBuff",
+          "FSLID": 2315,
+          "CastingDuration": "2.0",
+          "AOERadius": "2000.0",
+          "HasteAndDamageBuff.Duration": "22.0",
+          "HasteAndDamageBuff.HasteMultiplier": "1.05",
+          "HasteAndDamageBuff.DamageMultiplier": "1.05",
+          "InitialMinCooldown": "12.0",
+          "InitialMaxCooldown": "16.0",
+          "MinCooldown": "20.0",
+          "MaxCooldown": "20.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": null
+        },
+        "Wild Stampede": {
+          "DevName": "Stampede",
+          "FSLID": 2338,
+          "PrimaryAttributeCoefficient": "2.8",
+          "Cooldown": "0.0",
+          "MaxRange": "4000.0",
+          "CastTime": "2.0",
+          "MinActivationRange": "400.0",
+          "MaxActivationRange": "4000.0",
+          "ChargeDistance": "4200.0",
+          "ChargeStartOffset": "300.0",
+          "KnockUpVelocity": "2000.0",
+          "HitBoxRadius": "200.0",
+          "ProjectileMoveSpeed": "2000.0",
+          "Stun.Duration": "3.0",
+          "Damage.PrimaryAttributeCoefficient": "5.35",
+          "InitialMinCooldown": "5.0",
+          "InitialMaxCooldown": "5.0",
+          "MinCooldown": "25.0",
+          "MaxCooldown": "25.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Control": {},
+      "Defensive": {},
+      "Mechanic": {
+        "Spiritual Surge": {
+          "DevName": "CastProjectile",
+          "FSLID": 2336,
+          "PrimaryAttributeCoefficient": "2.8",
+          "Cooldown": "0.0",
+          "MaxRange": "4000.0",
+          "CastTime": "2.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      }
+    }
+  },
+  "341": {
+    "FSLName": "Thornclaw Grizzly",
+    "MobType": "NPC",
+    "CreatureType": "Beast",
+    "DevName": "NF_WoodlandBear",
+    "DevKey": "NF_WoodlandBear",
+    "DevZoneName": "NordicForest",
+    "FoundInZones": [
+      "Stormwatch",
+      "Silken Hollow",
+      "Crown of the Wild"
+    ],
+    "PlacedInZones": [
+      "NightPatrol",
+      "SpiderForest",
+      "TreeVillage"
+    ],
+    "FoundInZoneGameIDs": [
+      12,
+      24,
+      36
+    ],
+    "FoundInZoneFSLIDs": [
+      50012,
+      50024,
+      50036
+    ],
+    "HasAIBC": true,
+    "KillScore": 3.0,
+    "SpiritPointValue": 3.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 3.25,
+    "Armor": null,
+    "Resist": null,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "MeleeAutoAttack",
+          "FSLID": 2349,
+          "MaxRange": "500.0",
+          "StrengthCoefficient": "2.15",
+          "MinCooldown": "2.7",
+          "MaxCooldown": "2.7",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "Primal Stomp": {
+          "DevName": "Stomp",
+          "FSLID": 2351,
+          "CastTime": "2.35",
+          "StrengthCoefficient": "3.39",
+          "ImmobilizeDuration": "5.0",
+          "CenterCirlceRadius": "590.0",
+          "CenterCirlceRadius.Damage.PrimaryAttributeCoefficient": "4.19",
+          "SmallCirlceRadius": "200.0",
+          "SmallCircleSpawnInterval": "0.2",
+          "SmallCircleSpawnDuration": "5.0",
+          "SmallCircleSpawnMinDist": "1000.0",
+          "SmallCircleSpawnMaxDist": "2000.0",
+          "SmallCircle.ActivationDelay": "2.0",
+          "SmallCirlce.Damage.PrimaryAttributeCoefficient": "4.34",
+          "InitialMinCooldown": "13.0",
+          "InitialMaxCooldown": "13.0",
+          "MinCooldown": "18.0",
+          "MaxCooldown": "18.0",
+          "InterruptCooldown": "21.0",
+          "MinPostAbilityPadding": "1.5",
+          "MaxPostAbilityPadding": "1.5",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Control": {},
+      "Defensive": {},
+      "Mechanic": {}
+    }
+  },
+  "342": {
+    "FSLName": "Raging Razorback",
+    "MobType": "NPC",
+    "CreatureType": "Beast",
+    "DevName": "NF_ForestBoar",
+    "DevKey": "NF_ForestBoar",
+    "DevZoneName": "NordicForest",
+    "FoundInZones": [
+      "Stormwatch",
+      "Wraithtide Vault",
+      "Urrak Markets",
+      "Silken Hollow",
+      "Crown of the Wild"
+    ],
+    "PlacedInZones": [
+      "NightPatrol",
+      "PirateRaid",
+      "SpiderForest",
+      "TreeVillage",
+      "UrrakMarkets"
+    ],
+    "FoundInZoneGameIDs": [
+      12,
+      13,
+      21,
+      24,
+      36
+    ],
+    "FoundInZoneFSLIDs": [
+      50012,
+      50013,
+      50021,
+      50024,
+      50036
+    ],
+    "HasAIBC": true,
+    "KillScore": 2.0,
+    "SpiritPointValue": 2.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 2.15,
+    "Armor": null,
+    "Resist": null,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "AutoAttackMelee",
+          "FSLID": 2353,
+          "PrimaryAttributeCoefficient": "1.525",
+          "Cooldown": "2.3",
+          "MaxRange": "500.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Control": {
+        "Rampant Charge": {
+          "DevName": "Charge",
+          "FSLID": 2352,
+          "PrimaryAttributeCoefficient": "4.15",
+          "Radius": "100",
+          "ForwardReach": "200",
+          "InitialMinCooldown": "8.0",
+          "InitialMaxCooldown": "16.0",
+          "Cooldown": "20.0",
+          "Distance": "2000.0",
+          "CastTime": "1.5",
+          "ChargeSpeed": "2250.0",
+          "KnockbackForce": "2100",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Defensive": {},
+      "Mechanic": {}
+    }
+  },
+  "343": {
+    "FSLName": "Wyldspeaker",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "NF_DruidWildspeaker",
+    "DevKey": "NF_DruidWildspeaker",
+    "DevZoneName": "NordicForest",
+    "FoundInZones": [
+      "Crown of the Wild"
+    ],
+    "PlacedInZones": [
+      "TreeVillage"
+    ],
+    "FoundInZoneGameIDs": [
+      36
+    ],
+    "FoundInZoneFSLIDs": [
+      50036
+    ],
+    "HasAIBC": true,
+    "KillScore": 3.0,
+    "SpiritPointValue": 3.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 3.05,
+    "Armor": null,
+    "Resist": null,
+    "PassiveMoveSpeed": 1.3,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "AutoAttackMelee",
+          "FSLID": 2355,
+          "PrimaryAttributeCoefficient": "1.15",
+          "Cooldown": "1.5",
+          "MaxRange": "500.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "Toxic Thicket": {
+          "DevName": "Mines",
+          "FSLID": 2316,
+          "CastingDuration": "1.5",
+          "NumMines": "5.0",
+          "InnerSpawnRadius": "400.0",
+          "OuterSpawnRadius": "800.0",
+          "MineActor.Radius": "100.0",
+          "MineActor.ActivationWarningTime": "1.0",
+          "MineActor.LifeTime": "15.0",
+          "Dot.Duration": "8.0",
+          "Dot.Period": "2.0",
+          "Dot.PrimaryAttributeCoefficient": "1.298",
+          "InitialMinCooldown": "16.0",
+          "InitialMaxCooldown": "16.0",
+          "MinCooldown": "28.0",
+          "MaxCooldown": "32.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "Ensnaring Roots": {
+          "DevName": "RootAOEs",
+          "FSLID": 2356,
+          "DamageStrengthCoefficient": "3.252",
+          "AOERadius": "200.0",
+          "MaxNumTargets": "4.0",
+          "PopOffset": "0.15",
+          "PopBaseDelay": "2.0",
+          "Stun.Duration": "1.5",
+          "Stun.Damage.PrimaryAttributeCoefficient": "3.8",
+          "Stun.Damage.TickInterval": "1.0",
+          "MaxTargetAcquisitionRange": "3000.0",
+          "InitialMinCooldown": "8.0",
+          "InitialMaxCooldown": "8.0",
+          "MinCooldown": "24.0",
+          "MaxCooldown": "30.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Control": {},
+      "Defensive": {
+        "Corrosive Poison": {
+          "DevName": "CastDebuff",
+          "FSLID": 2357,
+          "Debuff.Duration": "10.0",
+          "Debuff.TickInterval": "1.0",
+          "PrimaryAttributeCoefficient": "1.124",
+          "CastTime": "2.0",
+          "MaxRange": "4000.0",
+          "InitialMinCooldown": "10.0",
+          "InitialMaxCooldown": "10.0",
+          "MinCooldown": "22.0",
+          "MaxCooldown": "22.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Mechanic": {
+        "Wicked Bolt": {
+          "DevName": "CastProjectile",
+          "FSLID": 2354,
+          "PrimaryAttributeCoefficient": "3.19",
+          "Cooldown": "0.0",
+          "MaxRange": "4000.0",
+          "CastTime": "2.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      }
+    }
+  },
+  "344": {
+    "FSLName": "Fangstrider",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "NF_DruidScout",
+    "DevKey": "NF_DruidScout",
+    "DevZoneName": "NordicForest",
+    "FoundInZones": [
+      "Crown of the Wild"
+    ],
+    "PlacedInZones": [
+      "TreeVillage"
+    ],
+    "FoundInZoneGameIDs": [
+      36
+    ],
+    "FoundInZoneFSLIDs": [
+      50036
+    ],
+    "HasAIBC": true,
+    "KillScore": 2.0,
+    "SpiritPointValue": 2.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 2.375,
+    "Armor": null,
+    "Resist": null,
+    "PassiveMoveSpeed": 1.45,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "AutoAttackMelee",
+          "FSLID": 2359,
+          "PrimaryAttributeCoefficient": "1.15",
+          "Cooldown": "1.6",
+          "MaxRange": "500.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "Shoot": {
+          "DevName": "AutoAttackRanged",
+          "FSLID": 2358,
+          "PrimaryAttributeCoefficient": "1.44",
+          "Cooldown": "2.10",
+          "MaxRange": "3000.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "Pounce": {
+          "DevName": "JumpCone",
+          "FSLID": 2361,
+          "MinRange": "100.0",
+          "MaxRange": "3000.0",
+          "PreJumpCastingDuration": "1.4",
+          "PreJumpChargeUpTime": "0.35",
+          "PostLandCastingDuration": "1.2",
+          "LandingDistanceFromTarget": "300.0",
+          "ChannelingDuration": "2.0",
+          "ChannelingTickInterval": "0.95",
+          "MinRadius": "1.0",
+          "MaxRadius": "700.0",
+          "Angle": "90.0",
+          "JumpAwayDistance": "1500.0",
+          "Damage.PrimaryAttributeCoefficient": "4.113",
+          "InitialMinCooldown": "15.0",
+          "InitialMaxCooldown": "15.0",
+          "MinCooldown": "15.0",
+          "MaxCooldown": "15.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Control": {},
+      "Defensive": {},
+      "Mechanic": {
+        "Barrage of Arrows": {
+          "DevName": "LineAttack",
+          "FSLID": 2360,
+          "CastTime": "3.0",
+          "Length": "4200.0",
+          "Width": "180.0",
+          "MaxRange": "4000.0",
+          "StopTrackingMargin": "0.4",
+          "ChannelingDuration": "3.0",
+          "ChannelingTickInterval": "0.5",
+          "PrimaryAttributeCoefficient": "3.165",
+          "InitialMinCooldown": "6.0",
+          "InitialMaxCooldown": "12.0",
+          "MinCooldown": "18.0",
+          "MaxCooldown": "18.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      }
+    }
+  },
+  "345": {
+    "FSLName": "Groveblade",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "NF_DruidProtector",
+    "DevKey": "NF_DruidProtector",
+    "DevZoneName": "NordicForest",
+    "FoundInZones": [
+      "Crown of the Wild"
+    ],
+    "PlacedInZones": [
+      "TreeVillage"
+    ],
+    "FoundInZoneGameIDs": [
+      36
+    ],
+    "FoundInZoneFSLIDs": [
+      50036
+    ],
+    "HasAIBC": true,
+    "KillScore": 1.0,
+    "SpiritPointValue": 2.0,
+    "KsSpEqual": false,
+    "DefaultBaseHealthMultiplier": 1.355,
+    "Armor": null,
+    "Resist": null,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "AutoAttack",
+          "FSLID": 2362,
+          "DamageIntellectCoefficient": "1.12",
+          "MaxRange": "400.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Control": {},
+      "Defensive": {},
+      "Mechanic": {}
+    }
+  },
+  "346": {
+    "FSLName": " Spear Centurion",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "NF_DruidGuardian",
+    "DevKey": "NF_DruidGuardian",
+    "DevZoneName": "NordicForest",
+    "FoundInZones": [
+      "Crown of the Wild"
+    ],
+    "PlacedInZones": [
+      "TreeVillage"
+    ],
+    "FoundInZoneGameIDs": [
+      36
+    ],
+    "FoundInZoneFSLIDs": [
+      50036
+    ],
+    "HasAIBC": true,
+    "KillScore": 2.0,
+    "SpiritPointValue": 3.0,
+    "KsSpEqual": false,
+    "DefaultBaseHealthMultiplier": 2.575,
+    "Armor": null,
+    "Resist": null,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "AutoAttackMelee",
+          "FSLID": 2363,
+          "Cooldown": "2.1",
+          "DamageStrengthCoefficient": "1.65",
+          "MaxRange": "400.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Control": {},
+      "Defensive": {},
+      "Mechanic": {
+        "Verdant Spear": {
+          "DevName": "CastProjectile",
+          "FSLID": 2365,
+          "CastTime": "2.25",
+          "MaxRange": "4000.0",
+          "PrimaryAttributeCoefficient": "3.074",
+          "InitialMinCooldown": "12.0",
+          "InitialMaxCooldown": "16.0",
+          "MinCooldown": "20.0",
+          "MaxCooldown": "22.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "Sweeping Strike": {
+          "DevName": "MultiCone",
+          "FSLID": 2364,
+          "Duration": "2.2",
+          "TickInterval": "0.75",
+          "MaxRange": "550.0",
+          "MinRadius": "60.0",
+          "MaxRadius": "550.0",
+          "Angle": "75.0",
+          "StrengthCoefficient": "2.607",
+          "SelfMoveSpeedScaler": "0.33",
+          "InitialMinCooldown": "10.0",
+          "InitialMaxCooldown": "10.0",
+          "MinCooldown": "15.0",
+          "MaxCooldown": "20.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      }
+    }
+  },
+  "347": {
+    "FSLName": "Feral Spiritclaw",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "NF_DruidFeralist",
+    "DevKey": "NF_DruidFeralist",
+    "DevZoneName": "NordicForest",
+    "FoundInZones": [
+      "Crown of the Wild"
+    ],
+    "PlacedInZones": [
+      "TreeVillage"
+    ],
+    "FoundInZoneGameIDs": [
+      36
+    ],
+    "FoundInZoneFSLIDs": [
+      50036
+    ],
+    "HasAIBC": true,
+    "KillScore": 5.0,
+    "SpiritPointValue": 5.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 4.65,
+    "Armor": null,
+    "Resist": null,
+    "PassiveMoveSpeed": 1.0,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "AutoAttackMelee",
+          "FSLID": 2366,
+          "PrimaryAttributeCoefficient": "1.55",
+          "Cooldown": "2.3",
+          "MaxRange": "500.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "Eagle's Fury": {
+          "DevName": "Spin",
+          "FSLID": 2367,
+          "MoveSpeedMultiplier": "0.51",
+          "Shoot.StrengthCoefficient": "3.19",
+          "Damage.StrengthCoefficient": "2.1",
+          "Duration": "4.0",
+          "Damage.NumOfSpins": "8.0",
+          "Damage.Radius": "300.0",
+          "MaxRadius": "2000.0",
+          "Shoot.NumOfShots": "8.0",
+          "Shoot.Distance": "1500.0",
+          "Shoot.Width": "120.0",
+          "Shoot.OffsetFromCenter": "180.0",
+          "Shoot.Delay": "1.0",
+          "CastTime": "2.0",
+          "InitialMinCooldown": "12.0",
+          "InitialMaxCooldown": "15.0",
+          "MinCooldown": "16.0",
+          "MaxCooldown": "20.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Control": {
+        "Charge of the Stag": {
+          "DevName": "Charge",
+          "FSLID": 2368,
+          "CastingDuration": "2.0",
+          "Stun.Duration": "0.25",
+          "StrengthCoefficient": "5.5",
+          "MaxRange": "2000.0",
+          "MinRange": "500.0",
+          "KnockbackStrength": "1250.0",
+          "ChargeSpeed": "2500.0",
+          "InitialMinCooldown": "7.0",
+          "InitialMaxCooldown": "7.0",
+          "MinCooldown": "14.0",
+          "MaxCooldown": "14.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Defensive": {},
+      "Mechanic": {
+        "Bear's Might": {
+          "DevName": "ChanneledAttack",
+          "FSLID": 2369,
+          "Channel.Duration": "1.5",
+          "Channel.NumOfTicks": "3.0",
+          "CastingDuration": "0.5",
+          "MaxRange": "550.0",
+          "MinRadius": "60.0",
+          "MaxRadius": "800.0",
+          "Angle": "75.0",
+          "StrengthCoefficient": "4.63",
+          "SelfMoveSpeedScaler": "0.5",
+          "InitialMinCooldown": "20.0",
+          "InitialMaxCooldown": "20.0",
+          "MinCooldown": "20.0",
+          "MaxCooldown": "20.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      }
+    }
+  },
+  "348": {
+    "FSLName": "Elder Stormbane",
+    "MobType": "NPC",
+    "CreatureType": null,
+    "DevName": "NF_DruidElementalist",
+    "DevKey": "NF_DruidElementalist",
+    "DevZoneName": "NordicForest",
+    "FoundInZones": [
+      "Crown of the Wild"
+    ],
+    "PlacedInZones": [
+      "TreeVillage"
+    ],
+    "FoundInZoneGameIDs": [
+      36
+    ],
+    "FoundInZoneFSLIDs": [
+      50036
+    ],
+    "HasAIBC": true,
+    "KillScore": 5.0,
+    "SpiritPointValue": 5.0,
+    "KsSpEqual": true,
+    "DefaultBaseHealthMultiplier": 4.45,
+    "Armor": null,
+    "Resist": null,
+    "PassiveMoveSpeed": 1.3,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "AutoAttackMelee",
+          "FSLID": 2372,
+          "PrimaryAttributeCoefficient": "1.95",
+          "Cooldown": "2.9",
+          "MaxRange": "500.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Control": {
+        "Howling Tempest": {
+          "DevName": "PlacedAoe",
+          "FSLID": 2317,
+          "CastingDuration": "3.0",
+          "Slow.MoveSpeedMultiplier": "0.7",
+          "Radius": "700.0",
+          "InitialMinCooldown": "14.0",
+          "InitialMaxCooldown": "14.0",
+          "MinCooldown": "22.0",
+          "MaxCooldown": "22.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "TickInterval": "1.5",
+          "Tick.PrimaryAttributeCoefficient": "3.176",
+          "InitialPulse.PrimaryAttributeCoefficient": "8.108",
+          "Duration": "20.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Defensive": {},
+      "Mechanic": {
+        "CastProjectile": {
+          "DevName": "CastProjectile",
+          "FSLID": 2371,
+          "PrimaryAttributeCoefficient": "3.568",
+          "InitialCooldown": "0.0",
+          "Cooldown": "2.5",
+          "MaxRange": "4000.0",
+          "CastTime": "2.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "Chain Lightning": {
+          "DevName": "ChainLightning",
+          "FSLID": 2370,
+          "CastTime": "3.0",
+          "MaxChainCount": "4.0",
+          "MaxChainDistance": "1000.0",
+          "PrimaryAttributeCoefficient": "4.243",
+          "InitialMinCooldown": "5.0",
+          "InitialMaxCooldown": "5.0",
+          "MinCooldown": "18.0",
+          "MaxCooldown": "24.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "Rock-a-Mole": {
+          "DevName": "GroundProjectileSpike",
+          "FSLID": 2373,
+          "CastTime": "2.0",
+          "MaxRange": "4000.0",
+          "SpikeAOE.PrimaryAttributeCoefficient": "2.44",
+          "SpikeAOE.PopDelay": "1.0",
+          "SpikeAOE.AOERadius": "200.0",
+          "SpikeAOE.KnockupVelocity": "1200.0",
+          "InitialMinCooldown": "6.0",
+          "InitialMaxCooldown": "6.0",
+          "MinCooldown": "15.0",
+          "MaxCooldown": "15.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      }
+    }
+  },
+  "349": {
+    "FSLName": "",
+    "MobType": "BOSS",
+    "CreatureType": null,
+    "DevName": "NF_BossFeralist",
+    "DevKey": "NF_BossFeralist",
+    "DevZoneName": "NordicForest",
+    "FoundInZones": [
+      "Crown of the Wild"
+    ],
+    "PlacedInZones": [
+      "TreeVillage"
+    ],
+    "FoundInZoneGameIDs": [
+      36
+    ],
+    "FoundInZoneFSLIDs": [
+      50036
+    ],
+    "HasAIBC": true,
+    "KillScore": 0.0,
+    "SpiritPointValue": 45.0,
+    "KsSpEqual": false,
+    "DefaultBaseHealthMultiplier": 19.65,
+    "Armor": 0.0,
+    "Resist": 0.0,
+    "CritChance": 0.0,
+    "Abilities": {
+      "Offensive": {
+        "Attack": {
+          "DevName": "AutoAttackMelee",
+          "FSLID": 2374,
+          "PrimaryAttributeCoefficient": "3.14",
+          "MaxRange": "500.0",
+          "Cooldown": "2.35",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "BreakArenaSlice": {
+          "DevName": "BreakArenaSlice",
+          "FSLID": 2379,
+          "CastingDuration": "3.0",
+          "DamageCoefficient": "14.41",
+          "ArenaDestroyHealthPercentageInterval": "30.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "ACSpread": "0.2",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "Spin": {
+          "DevName": "Spin",
+          "FSLID": 2375,
+          "Duration": "4.5",
+          "Damage.TickInterval": "0.5",
+          "Shoot.TickInterval": "0.45",
+          "Damage.Radius": "350.0",
+          "MaxRadius": "2000.0",
+          "Shoot.Distance": "1500.0",
+          "Shoot.Width": "120.0",
+          "Shoot.OffsetFromCenter": "180.0",
+          "Shoot.Delay": "1.0",
+          "CastTime": "1.75",
+          "Damage.StrengthCoefficient": "3.2",
+          "Shoot.StrengthCoefficient": "4.383",
+          "MoveSpeedMultiplier": "0.49",
+          "InitialMinCooldown": "30.0",
+          "InitialMaxCooldown": "30.0",
+          "MinCooldown": "30.0",
+          "MaxCooldown": "30.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Control": {},
+      "Defensive": {
+        "MultiJump": {
+          "DevName": "MultiJump",
+          "FSLID": 2376,
+          "BaseAirTime": "0.2",
+          "DistPerSec": "5000.0",
+          "MaxRange": "3000.0",
+          "LandingDistanceFromTarget": "100.0",
+          "MinimumDistForJump": "200.0",
+          "PreJumpChargeUpTime": "0.35",
+          "LandingPrimaryAttributeCoefficient": "3.179",
+          "DelayedAoePlacementDebuff.Duration": "5.0",
+          "DelayedAoePlacementDebuff.GrantedSpawner.Radius": "400.0",
+          "DelayedAoePlacementDebuff.GrantedSpawner.LifeTime": "36.0",
+          "InitialMinCooldown": "18.0",
+          "InitialMaxCooldown": "18.0",
+          "MinCooldown": "22.0",
+          "MaxCooldown": "22.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        }
+      },
+      "Mechanic": {
+        "ChanneledAttack": {
+          "DevName": "ChanneledAttack",
+          "FSLID": 2378,
+          "CastingDuration": "0.5",
+          "Channel.Duration": "4.0",
+          "Channel.TickInterval": "0.7",
+          "MaxRange": "550.0",
+          "MinRadius": "60.0",
+          "MaxRadius": "800.0",
+          "Angle": "75.0",
+          "StrengthCoefficient": "6.406",
+          "SelfMoveSpeedScaler.Start": "0.622",
+          "SelfMoveSpeedScaler.End": "1.555",
+          "InitialMinCooldown": "22.0",
+          "InitialMaxCooldown": "22.0",
+          "MinCooldown": "24.0",
+          "MaxCooldown": "32.0",
+          "MinPostAbilityPadding": "0.0",
+          "MaxPostAbilityPadding": "0.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
+        },
+        "Charge": {
+          "DevName": "Charge",
+          "FSLID": 2377,
+          "StrengthCoefficient": "7.97",
+          "CastingDuration": "1.2",
+          "Speed": "5000.0",
+          "Radius": "250.0",
+          "ForwardReach": "200",
+          "InitialMinCooldown": "16.0",
+          "InitialMaxCooldown": "16.0",
+          "MinCooldown": "16.0",
+          "MaxCooldown": "20.0",
+          "MinPostAbilityPadding": "1.0",
+          "MaxPostAbilityPadding": "1.0",
+          "Live": true,
+          "LiveBy": [
+            "mob"
+          ],
+          "Spread": 0.2
         }
       }
     }
